@@ -1,1 +1,47 @@
 This is the source repository for the gparted web site.
+
+
+WEB SITE STRUCTURE
+------------------
+
+{web-root}            On Source Forge: /home/groups/g/gp/gparted
+ |
+ +- cgi-bin           Empty directory
+ |
+ +- htdocs            GParted web site :-)
+    |
+    |                 This is where all the dynamic web pages are stored.
+    |                 Important pages are:
+    |                   index.php     - contains link to latest releases
+    |                   functions.php - contains menus, headers and footers
+    |
+    |
+    +- css            Cascading style sheets
+    |
+    +- doc            Standalone documentation (typically html and images)
+    |  |
+    |  +- {doc-name}  Short English name for document
+    |      |
+    |      |          For example, help-manual, or man-page
+    |      |
+    |      |
+    |      +- C       English document
+    |      |  |
+    |      |  +- figures  Images for English document
+    |      |   
+    |      |
+    |      +- fr      French translation of document
+    |      |  |
+    |      |  +- figures  Images for French document
+    |      |
+    |      +- ...     Other language translations of document
+    |      
+    +- flags          Country flags for languages for dynamic web pages
+    |
+    +- gparted_icons  Artwork contributions
+    |
+    +- images         Images for dynamic web pages
+    |
+    +- screens        Screen shots
+    |
+    +- text           FAQ and news content
