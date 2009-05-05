@@ -1,0 +1,8 @@
+Please note that the English source for the man page is stored with
+the gparted source code on gnome.org.
+
+Generate the man page web content with:
+
+$ rman -f html gparted.8 > gparted_manpage.html
+
+and manually edit out hyperlinks and leave bold for SEE ALSO section.
