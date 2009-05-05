@@ -23,7 +23,7 @@ gnome_menu();
     <table border="1">
       <tr>
         <td align="center">
-          <strong>DOCUMENT</strong>
+          &nbsp;
         </td>
         <td align="center" title="English">
           <img src="flags/UK.png" alt="English">
@@ -57,7 +57,7 @@ gnome_menu();
           <a href="doc/man-page/C/gparted_manpage.html">HTML</a>
         </td>
         <td title="French">
-          &nbsp;
+          <a href="doc/man-page/fr/gparted_manpage.html">HTML</a>
         </td>
         <td title="Spanish">
           &nbsp;
