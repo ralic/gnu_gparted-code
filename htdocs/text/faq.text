@@ -1,0 +1,108 @@
+1
+What are the dependencies of GParted?
+You will need Parted >= 1.7.1 and Gtkmm >= 2.8.x
+<br>
+Get Parted from <a href="http://www.gnu.org/software/parted/#downloading" target="new">http://www.gnu.org/software/parted/</a>
+<br>
+and Gtkmm from <a href="http://gtkmm.org/download.shtml" target="new">http://gtkmm.org/</a><br>
+<br>
+Also, several file systems are supported through their native tools. See the <a href="http://gparted.sourceforge.net/features.php">features page</a> for more information on these tools.
+---
+2
+Is it safe?
+Short answer: Yes, it is safe :) <br>
+By using the official tools for each file system and performing extensive checks before any actual operation I think GParted is as safe as it can/should be.<br>
+<br>
+Of course you have to realize I cannot give any guarantees, so you should probably make a backup of 
+important data before toying with your partitions.
+---
+3
+Is there a maximum to the amount of operations in the list?
+Nope, that is, not one an ordinary human being will ever reach.<br>
+I myself tested it with up to 150 operations and it went smooth<br>
+<br>
+<b>HOWEVER</b>, I think it's wise to keep the amount of succesive operations limited. After all it's your data which is at risk.<br>
+Especially when doing complex operations (copy,resize) I advise you to take it one step at a time.<br>
+<br>
+When resizing boot NTFS partitions, it is advisable to perform this as a single operation only.
+After resizing, boot into Windows twice to allow Windows to perform its checking operations.
+---
+4
+What is the maximum amount of logical partitions an extended partition can hold?
+Well, in theory you could go on and create logical partitions
+infinitely; however, all operating systems impose some limit.
+For Linux it is the device number allocation that limits support.
+<br><br>
+For IDE devices 64 minor numbers are reserved for each disk.
+For instance /dev/hda is major 3 minor 0, /dev/hda1 is major 3,
+minor 1, etc up till /dev/hda63.
+<br><br>
+For SCSI devices only 16 minor numbers are allocated for each disk,
+so there Linux only supports 15 partitions.
+---
+5
+Why are some menu items disabled?
+1. The partition is mounted and modifying a mounted partition is DANGEROUS. Just unmount the partition or in case of swap, disable it.(use swapoff)<br><br>
+2. At startup gparted decides which operations on which file systems are supported. For instance, to create an ext3 file system gparted needs mkfs.ext3. If this cannot be found on your system, the creation of an ext3 file system is not possible and therefore disabled in gparted. The same goes for copy, resize etc....<br><br>
+3. Check that you are running the latest version of GParted (menu entry Help -> About).
+The <a href="http://gparted.sourceforge.net/features.php">features page</a> shows which operations are supported for the most recently released version of GParted.
+---
+6
+Why do i need kernel support to resize certain filesystems (e.g. xfs) ?
+That's because those file systems can only be resized when they are mounted and you can only mount a file system if the kernel has support for it.
+---
+7
+Why does "Scanning all devices..." take exceedingly long on some computers, but is quite fast on others?
+1. Check the BIOS settings.  This problem can be caused when the BIOS indicates that a floppy drive is present, but no physical floppy drive is installed.
+<br><br>
+2. A work around is to start gparted from the command line and pass the name of the device(s) you wish to partition.<br>
+E.g., gparted /dev/hda
+---
+8
+Why has Gnome automounting of devices stopped working after gparted terminated abnormally?
+GParted version 0.3.6 (and many earlier versions) created a file to
+prevent problems that occur if a device is automounted while gparted is
+working on the device.
+This file is removed when GParted exits normally.
+However, if GParted crashed it could leave this file on the computer.
+<br><br>
+Newer GParted versions (0.3.7 and greater) do not use this file, and instead rely on hal-lock to acquire device locks.
+<br><br>
+To fix the problem you can do one of the following:
+<br><br>
+1. Remove the file /usr/share/hal/fdi/policy/gparted-disable-automount.fdi
+<br>
+ &nbsp &nbsp or,
+<br>
+2. Start and then exit gparted.  This will also remove the file.
+---
+9
+After resizing my Vista partition, Vista won't boot.  How can I fix this?
+The following article by <i>the How-To Geek</i> contains useful information regarding resizing your Vista partition, and getting it to boot again.
+<br>
+<a href="http://www.howtogeek.com/howto/windows-vista/using-gparted-to-resize-your-windows-vista-partition/">Using GParted to Resize Your Windows Vista Partition</a>
+<br><br>
+If your PC did not come with a complete Vista installation CD, you can download a Vista Recovery Disc at the following link:
+<br>
+<a href="http://neosmart.net/blog/2008/windows-vista-recovery-disc-download/">Windows Vista Recovery Disc</a>
+---
+10
+After moving or resizing my GRUB boot partition, GRUB fails to boot.  How can I fix this?
+The cause of this problem is that the absolute physical hard disk sector
+containing the start of the stage2 file has changed.
+When GRUB is installed, this absolute position is hard-coded into GRUB stage1.
+<br><br>
+GRUB stage1 might be installed in one of two places; at the beginning of the hard disk, or at the beginning of the boot partition.
+<br><br>
+To fix this problem you will need to reinstall GRUB.
+This will update stage1 with the new hard-coded absolute position of the stage2 file.
+<br><br>
+More information can be found at the following link:<br>
+<a href="http://gparted.sourceforge.net/manual/gparted_manual.html#gparted-fix-grub-boot-problem">Fixing GRUB Boot Problem</a>
+---
+11
+I am having difficulty shrinking my NTFS partition.  How can I improve my ability to shrink the partition?
+Tips on how to improve the ability to shrink NTFS partitions can be found in the GParted Manual <a href="http://gparted.sourceforge.net/manual/gparted_manual.html#gparted-advanced-partition-actions">here</a>.
+<br><br>
+Forum member <i>cmdr</i> wrote some detailed instructions on resizing NTFS partitions that can be found at the following link:<br>
+<a href="http://gparted-forum.surf4.info/viewtopic.php?id=2892">Forum Post - Resize-Windows</a>

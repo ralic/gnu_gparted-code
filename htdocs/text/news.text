@@ -1,0 +1,1213 @@
+20 April 2009
+Source Code Migrated from SVN to Git
+<br>
+On April 17, 2009, the gparted source code repository was migrated
+from SVN to git.<br>
+This was part of a large migration performed by the Gnome project.<br>
+See <a href="http://mail.gnome.org/archives/devel-announce-list/2009-March/msg00005.html">GNOME to migrate to git</a>.<br>
+<br>
+Since ChangeLog files are seldom used with git, ChangeLog files will no
+longer be manually updated in the gparted project.<br>
+<br>
+For more information on how to use Git, please refer to the following
+links:<br>
+<a href="http://live.gnome.org/Git/Developers">Getting the most out of Git in GNOME</a>
+<br>
+<a href="http://live.gnome.org/TranslationProject/GitHowTo">How to use Git for GNOME translators</a>
+<br><br>
+Curtis
+---
+2 April 2009
+GParted 0.4.4
+<br>
+This big news for this release of GParted is the addition of
+support for dmraid devices, also known as ATA-RAID, or Fake RAID.
+<br><br>
+Key changes include:
+<ul>
+<li>Added support for /dev/mapper dmraid devices</li>
+<li>Added recognition of /dev/mmcblk* SD/MMC devices</li>
+<li>Enhanced resize/move to only move start if space before changed</li>
+</ul>
+See the <a href='https://sourceforge.net/project/shownotes.php?group_id=115843&amp;release_id=672959'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
+6 Mar 2009
+Stable GParted Live 0.4.3-2 is available
+<br>
+A new stable GParted Live was released.<br>
+Key changes include:
+<ul>
+<li>Newer GParted (0.4.3)</li>
+<li>Based on stable Debian Lenny</li>
+<li>Newer kernel 2.6.26-13 is used</li>
+</ul>
+See the <a href='http://sourceforge.net/project/shownotes.php?group_id=115843&amp;release_id=666097'>Release Notes</a> for more details.
+<br><br>
+Steven
+---
+3 March 2009
+Forum Software Upgraded
+<br>
+The GParted forum software has been upgraded.
+<br><br>
+With this upgrade, we hope to see a significant reduction in the number of SPAM postings.
+<br><br>
+Many thanks go to JanC for making this possible.
+<br><br>
+Curtis
+---
+12 February 2009
+GParted 0.4.3
+<br>
+This release of GParted includes bug fixes, and language translation
+updates.
+<br><br>
+Key changes include:
+<ul>
+<li>Corrected name of lock taken by hal-lock<br>
+    (The lock is needed to prevent automounting of file systems)
+</li>
+<li>Fixed crash on startup with some languages</li>
+</ul>
+See the <a href='https://sourceforge.net/project/shownotes.php?group_id=115843&amp;release_id=660570'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
+5 February 2009
+GParted 0.4.2
+<br>
+The big news for this GParted release is support for ext4 file systems,
+and the addition of an application help manual.
+<br><br>
+Key changes include:
+<ul>
+<li>Added support for ext4 file system
+  <ul>
+  <li>Support for ext4 is built into version 2.6.28 of the Linux kernel</li>
+  <li>e2fsprogs version 1.41.0 or higher required</li>
+  </ul>
+</li>
+<li>Created application help manual</li>
+<li>Updated gparted manual page</li>
+<li>Made text beside field labels selectable (i.e., copy/paste UUID)</li>
+<li>Added lvm2 physical volume detection</li>
+<li>Reduced file system information disk reads to improve performance</li>
+<li>Fixed application crash when saving details and locale not set</li>
+<li>Enhanced copy/paste checks when MBR/EBR involved</li>
+</ul>
+See the <a href='https://sourceforge.net/project/shownotes.php?group_id=115843&amp;release_id=658832'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
+20 January 2009
+GParted Manual 1.0
+<br>
+A new application help manual has been written for GParted.<br>
+<br>
+See the <a href="documentation.php">documentation</a> section to view
+the new manual.
+<br><br>
+Curtis
+---
+28 December 2008
+Stable GParted Live 0.4.1-2 is available
+<br>
+A new stable GParted Live was released.<br>
+Key changes include:
+<ul>
+<li>Newer GParted (0.4.1)</li>
+<li>Newer kernel 2.6.26-12 is used</li>
+</ul>
+See the <a href='https://sourceforge.net/project/shownotes.php?release_id=649904&amp;group_id=115843'>Release Notes</a> for more details.
+<br><br>
+Steven
+---
+9 December 2008
+Domain name gparted.org donated
+<br>
+We have great news to report today!
+<br><br>
+The domain gparted.org has been donated to the GParted project.
+<br><br>
+Many thanks to Gregg Heifetz for this act of kindness.
+<br><br>
+Curtis
+---
+29 November 2008
+GParted 0.4.1
+<br>
+This release of GParted rolls back /dev/mapper/* detection.<br>
+<br>
+The problem was that all /dev/mapper/* entries were added to the
+device list including LVM partitions.  This was confusing behaviour
+to GParted users, and in my opinion it was better to roll back
+this change.<br>
+<br>
+A work-around for /dev/mapper/* device detection is available by
+passing the device names to gparted on the command line.<br>
+E.g.,<br>
+ &nbsp; &nbsp; &nbsp; gparted /dev/mapper/device-name<br>
+<br>
+Thanks to François Dupoux for identifying this problem early, and
+working towards a resolution.<br>
+<br>
+See the <a href='https://sourceforge.net/project/shownotes.php?release_id=643759&amp;group_id=115843'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
+28 November 2008
+GParted 0.4.0
+<br>
+This release of GParted includes some new features in addition to
+bug fixes, and language translation updates.
+<br><br>
+Key changes include:
+<ul>
+<li>Improved read label performance with blkid cached results</li>
+<li>Added read UUID support</li>
+<li>Enforced FAT16/32 compliant volume labels (11 char max)</li>
+<li>Fixed destination too small on copy and paste partition</li>
+<li>Added status bar message updates while scanning devices</li>
+<li>Moved Features entry from menu GParted to View</li>
+<li>Renamed Features dialog to File System Support</li>
+<li>Prevented paste into an existing partition</li>
+<li>Added --disable-doc configure flag to stop building help docs</li>
+</ul>
+See the <a href='https://sourceforge.net/project/shownotes.php?release_id=643553&amp;group_id=115843'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
+01 October 2008
+Stable GParted Live 0.3.9-4 is available
+<br>
+A new stable GParted Live was released.<br>
+Key changes include:
+<ul>
+<li>Newer GParted (0.3.9)</li>
+<li>Newer kernel 2.6.26-5 is used</li>
+<li>Package hfsprogs was added</li>
+<li>Better support for PXE booting</li>
+</ul>
+See the <a href='http://sourceforge.net/project/shownotes.php?release_id=629967&amp;group_id=115843'>Release Notes</a> for more details.
+<br><br>
+Steven
+---
+12 September 2008
+GParted 0.3.9
+<br>
+This release of GParted includes some new features in addition to
+bug fixes, and language translation updates.
+<br><br>
+Key changes include:
+<ul>
+<li>Reduced time to move or copy partitions</li>
+<li>Added ability to create and check hfs+ file systems</li>
+</ul>
+See the <a href='http://sourceforge.net/project/shownotes.php?group_id=115843&amp;release_id=625947'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
+10 July 2008
+GParted 0.3.8
+<br>
+This GParted release consists of bug fixes, and language translation
+updates.
+<br><br>	
+Key changes include:
+<ul>
+<li>Corrected errors in "Round to cylinders" boundary math</li>
+<li>Added "Round to cylinders" check box for copy and move/resize</li>
+<li>Enhanced to parse devices from /proc/partitions if file exists</li>
+<li>Fixed problem with command line devices being ignored</li>
+<li>Removed absolute requirement for hal-lock</li>
+</ul>
+See the <a href='https://sourceforge.net/project/shownotes.php?release_id=612677&amp;group_id=115843'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
+04 July 2008
+Stable GParted Live 0.3.7-7 is available !
+<br>
+We are happy to announce that stable GParted Live 0.3.7-7 is available!<br>
+Some improvement:<br>
+1. New GParted (0.3.7).<br>
+2. Newer kernel 2.6.24-7 is used.<br>
+3. Network modules were added so that PXE booting will work.<br>
+<br>
+Both of them are available <a href="http://sourceforge.net/project/showfiles.php?group_id=115843&amp;package_id=271779">here</a>.<br>
+Remember to check the <a href="livecd.php">LiveCD</a> and <a href="liveusb.php">LiveUSB</a> webpages for more details.<br>
+<br>
+Enjoy !<br><br>
+Steven
+---
+29 April 2008
+GParted 0.3.7
+<br>
+This GParted release consists of bug fixes, and language translation
+updates.
+<br><br>	
+Key changes include:
+<ul>
+<li>Fixed bug for partition sizes greater than or equal to 1 TeraByte</li>
+<li>Created gparted manual page</li>
+<li>Implemented hal-lock to prevent gnome automounting of partitions</li>
+</ul>
+See the <a href='https://sourceforge.net/project/shownotes.php?group_id=115843&amp;release_id=595800'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
+14 April 2008
+Stable LiveCD & LiveUSB 0.3.6-7 are available !
+<br>
+We are happy to announce that the new version of the officials <a href="livecd.php">LiveCD</a> and <a href="liveusb.php">LiveUSB</a> are available!<br>
+We jump from version 0.3.4.x to version 0.3.6.x, according to the last GParted release.<br>
+Now GParted live is based on Debian etch with some updated packages from Debian backports and Debian lenny. We do our best to keep the layout and environment to be similar with the previous one. <br>
+Some improvement:<br>
+1. New GParted (0.3.6).<br>
+2. Traditional, simplified Chinese, and Japanese fonts are included now so GParted can be run in those languages.<br>
+3. An interactive mode was added to configure X config.<br>
+
+Both of them are available <a href="http://sourceforge.net/project/showfiles.php?group_id=115843&amp;package_id=271779">here</a>.<br>
+Remember to check the <a href="livecd.php">LiveCD</a> and <a href="liveusb.php">LiveUSB</a> webpages for more details.<br>
+<br>
+Enjoy !<br><br>
+Steven
+---
+7 April 2008
+Gparted SVN repository migrated back to gnome.org
+<br>
+Thanks to help from a few folks at gnome.org, both Larry and I have gnome SVN accounts.
+This cleared the way to migrate the recent work performed in the Source Forge repository over to gnome.org.
+Now the language translation updates, and the code updates are maintained in a single responsitory.
+This eases the maintenance tasks for Larry and myself.
+<br><br>
+Special thanks goes to the following people for their assistance:<br>
+Diego Escalante Urrelo,<br>
+Olav Vitters, and<br>
+Marcel Telka
+<br><br>
+Curtis
+---
+1 April 2008
+Testing Livecd & Liveusb 0.3.6-5 are available !
+<br>
+Like I mentioned in the last news, we are happy to announce you <br>
+a new version of the officials livecd and liveusb<br>
+are available, thanks to Steven Shiau.<br>
+Testing <b>livecd</b> is available <a href="http://sourceforge.net/project/showfiles.php?group_id=115843&amp;package_id=269898">here</a>.<br>
+Testing <b>liveusb</b> is available <a href="http://sourceforge.net/project/showfiles.php?group_id=115843&amp;package_id=269899">here</a>.<br>
+<br>
+Enjoy !<br><br>
+Larry
+---
+29 March 2008
+New LIVECD coming soon !
+<br>
+Dear users,<br>
+I am happy to announce you that a new livecd is coming soon !<br>
+Steven Shiau from Clonezilla team, offers me to work on it.<br>
+The new version running Gparted-0.3.6 should be available in a couple of days.<br>
+<br><br>
+Larry
+---
+26 March 2008
+GParted 0.3.6
+<br>
+GParted now has support for partition labels (also known as volume labels).<br>
+To change partition labels, use the GParted menu option "Partition -> Label".
+<br><br>
+Full partition label support (read and write) is available for the following file systems:
+<br> &nbsp  ext2, ext3, fat16, fat32, jfs, ntfs, reiserfs, and xfs.
+<br> Partial support (set volume label on filesystem creation only) is available for:
+<br> &nbsp hfs, linux-swap, and reiser4.
+<br><br>
+New Dependencies (Optional):
+<ul>
+<li><a href="http://mtools.linux.lu/">mtools</a> required to read and write fat16 and fat32 labels.</li>
+<li>vol_id command required to read linux-swap labels.</li>
+</ul>
+See the <a href='https://sourceforge.net/project/shownotes.php?group_id=115843&amp;release_id=587229'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
+04 February 2008
+GParted 0.3.5
+<p><br>
+This release is the first one from a new set of project maintainers
+(Laurent de Trogoff, and Curtis Gedak).  The release includes changes
+from the unofficial 0.3.4 release as well as bug fixes, and language
+translations.
+<br><br>
+One key bug fix is that gparted no longer crashes when a device
+list refresh is performed.
+<br><br>
+*Many Thanks* go to Bart Hakvoort.
+<br>
+Without Bart's work, there would be no GParted.
+<br><br>
+See the <a href='http://sourceforge.net/project/shownotes.php?group_id=115843&amp;release_id=573862'>Release Notes</a> for more details.
+<br><br>
+Curtis
+</p>
+---
+28 january 2008
+Things are going on !
+<p><br>
+After he created and maintained the GParted project, Bart (plors)<br>
+lastely took the decision to let his project in other hands.<br>
+Curtis and I are now working on the project.<br>
+As C++ dev, Curtis should be able to update and upgrade GParted,<br>
+from day to day, and I will do my best to give him help.<br>
+<br>
+Because we do not have full access to the svn.gnome at the moment,<br>
+we decided to set the Gparted <a href="http://gparted.sourceforge.net/svn.php" target="new">SVN</a> in SF.<br><br>
+<br>
+Be happy : we should release 0.3.5 before a long time :)<br>
+<br>
+Larry
+</p>
+
+---
+23 january 2008
+Good news for GPARTED !
+<p><br>
+I am happy to announce you a new C++ dev has reached the Gparted team !<br>
+Curtis G. from Alberta (Canada), contacted me a couple of weeks<br>
+to work on the project.<br>
+After one year without any changes, we plane to enable some new features,<br>
+like label creation, ext4 support, and maybe other tips. One of our goals will<br>
+be to fix bugs too of course...<br>
+The real work will begin in about two months or so.<br>
+The official site may be unavialable during some days for technical reasons.<br><br>
+If someone is interested by setting an offical livecd for gparted,<br>
+we will consider any project. If nobody comes, no livecd comes neither.<br>
+<br>
+Larry
+</p>
+
+---
+21 january 2008
+End of GParted-livecd !
+<p>
+<br>
+See <a href="http://gparted-livecd.tuxfamily.org/news.php" target="new">this page</a>, for details.<br><br>
+
+Larry
+</p>
+---
+17 december 2007
+GParted-livecd 0.3.4-11 has been released !
+<p>
+See <a href="http://gparted-livecd.tuxfamily.org/" target="new">this home page</a>, for details.<br><br>
+
+Larry
+</p>
+---
+5 november 2007
+GParted-livecd 0.3.4-10 has been released !
+<p>
+See <a href="http://gparted-livecd.tuxfamily.org/" target="new">this home page</a>, for details.<br><br>
+
+Larry
+</p>
+---
+4 november 2007
+New GParted-livecd site !
+<p>
+After I took advice from some people, espacially from JanC which maitains our forum,<br>
+a GParted-livecd web site has been created on Tuxfamily.<br>
+See <a href="http://gparted-livecd.tuxfamily.org/" target="new">here</a>.<br><br>
+I needed "write" access to add new users who would like to work on the project.<br>
+Since it is not possible to contact Bart (the "father" of the GParted project),<br>
+I needed to take a decision. This is done.<br>
+Another possibility was to request the *same* project on SF,<br>
+but that meant I would push out of the project Bart Hakvoort,<br>
+what I could not intend to make !<br>
+If Bart Hakvoort ever comes back, he will take the end-decision.<br>
+If he will not come back, we may continue working on the project by this way !<br><br>
+
+Only the news page will be updated here,<br>
+and I think I  will continue to use SF to upload release.<br><br>
+
+
+Larry
+</p>
+---
+28 october 2007
+GParted-Clonezilla site !
+<p>
+The Gparted-Clonezilla project now exists and is hosting on the Tuxfamily servers ! <br><br>
+It is at :  <a href='http://gpartedclonz.tuxfamily.org/'>GParted-Clonezilla-livecd</a>.<br><br>
+
+Larry
+</p>
+---
+18 october 2007
+GParted livecd 0.3.4-9 has been released !
+<p>
+Like I said few days ago, here is the new release of our livecd. <br>
+Many packages have been updated, but no bugs have been directly fixed,<br>
+because I really have no time for this work, unfortunatly.<br>
+Updates might have fixed bugs :-p !<br>
+Kernel is now 2.6.22-9.<br>
+See <a href='https://sourceforge.net/project/shownotes.php?group_id=115843&amp;release_id=547936'>changelog</a> for details.<br><br>
+MD5SUM : 69e7d83bd5a94f93331c87169618ad44 <br><br>
+
+If you are interesting with hacking gparted on C++, let me know ! <br><br>
+
+Be happy : GParted-livecd is not dead :-) ! <br>
+Best wishes.<br><br>
+
+Larry
+</p>
+---
+12 october 2007
+New release is coming !
+<p>
+We are still looking for a NEW GParted-LiveCD Maintainer, but we didn't find anyone !<br>
+That's the reason why I decided to try to release gparted-livecd by myself, in a couple of days.<br>
+I have no time to work on bugs, and I am not able to make any change to gparted, because I don't even no one word of C++.<br>
+If you are interesting with hacking gparted on C++, let me know ! <br><br>
+
+So, a new release of the livecd is coming, soon :-p <br>
+
+Larry
+</p>
+---
+30 july 2007
+Looking for a NEW GParted-LiveCD Maintainer !
+<p>
+Dear you all,<br>
+It is about 6 months since I carried on maintaining the GParted-LiveCD,<br>
+and I tried to do my best to built and update it. Unfortunalty, I have <br>
+definitly no time left to to continue this work !<br>
+Some of you may know that I am a catholic monk, and my life<br>
+let me very few time for this interesting but delicate work.<br>
+Either I find a new live maintainer, either no release will be done before ages.<br>
+<br>  
+Anyway users may use the Parted Magic livecd built by Patrick Werner who maintained<br> the first GParted livecd (See <a href='http://partedmagic.com/'>Parted Magic Site</a> for more details.<br><br>
+As a consequence, bugs won't be fixed either.<br>
+<br>
+Thanks to Dennis German, a new wiki doc is online. See <a href='http://en.wikipedia.org/wiki/GParted'>Wiki Doc</a>.<br><br>
+My best regards to all of you who gave me time or tips to fix that and that.<br>
+I really appreciated it.<br>
+Best wishes to all :)<br>
+
+Larry
+</p>
+---
+27 June 2007
+GParted livecd 0.3.4-8 has been released !
+<p>
+In this last release, I tried to fix some bugs about i810 video.<br>
+Calculator has been requested, so I added "bc", a command line calculator,<br>
+whitch may be launched from within a terminal.<br>
+We are running kernel 2.6.21<br><br>
+See <a href='http://sourceforge.net/project/shownotes.php?release_id=519163&amp;group_id=115843'>changelog</a> for more details.<br><br>
+
+GParted-Clonezilla livecd 2.0 has been released<br>
+It is based on both GParted-0.3.4-8 and CLonezilla-1.0.3-18,<br>
+and is available <a href='http://gparted.free.fr/GParted-Clonezilla/'>here</a>.<br>
+See <a href='http://gparted.free.fr/GParted-Clonezilla/GParted-Clonezilla.txt'>details</a>.<br><br>
+
+Larry
+</p>
+---
+19 May 2007
+GParted livecd 0.3.4-7 has been released !
+<p>
+Since Gentoo-livecd has been released, our livecd is now based on gentoo-2007.0.<br>
+You will find some new boot options too.<br>
+<br>
+See <a href='http://sourceforge.net/project/shownotes.php?group_id=115843&amp;release_id=509574'>changelog</a> for details.<br><br>
+<br>
+GParted-Clonezilla livecd 1.9 has been released<br>
+It is based on both GParted-0.3.4-7 and CLonezilla-1.0.2-5,<br>
+and is available <a href='http://gparted.free.fr/GParted-Clonezilla/'>here</a>.<br>
+See <a href='http://gparted.free.fr/GParted-Clonezilla/GParted-Clonezilla.txt'>details</a>.<br><br>
+Larry
+</p>
+---
+1 May 2007
+GParted livecd 0.3.4-7-BETA has been released !
+<p>
+Before I release gparted-0.3.4-7, I make some tests with beta-versions.<br>
+If you think you can test those beta-version, go ahead !<br>
+<br>
+BETA-iso can be found <a href='http://gparted.free.fr/beta/'>here</a>.<br>
+Bugs or suggestions for those releases should be reported at : tblksa at users dot sf dot net<br>
+Thanks !<br>
+<br>
+Larry
+</p>
+---
+13 April 2007
+GParted livecd 0.3.4-6 has been released !
+<p>
+Best compression (final iso is 45MO), last xorg 7.2 and<br> 
+some new GRUB options like "macbook", new scripts to set usb<br> 
+stick to boot off usb. Kernel update...<br><br>
+MD5SUM : faf4b410ecb2f504cd077648e79c7d92<br>
+See <a href='http://sourceforge.net/project/shownotes.php?release_id=500778&amp;group_id=115843'>changelog</a> for details.<br><br>
+GParted-Clonezilla livecd has also been released to 1.8 !<br>
+See details <a href='http://gparted.sourceforge.net/livecd.php'>here</a>.<br>
+<br>
+Larry
+</p>
+---
+27 March 2007
+GParted-Clonezilla livecd is born !
+<p>
+See details <a href='http://gparted.sourceforge.net/livecd.php'>here</a>.<br>
+<br><br>
+Larry
+</p>
+---
+25 March 2007
+GParted livecd 0.3.4-5 has been released !
+<p>
+ -Since gparted compiled against parted > 1.7.1, is unable to perform any move,<br> 
+we needed to revert back to parted-1.7.1 !<br>
+ -Ms-sys, syslinux and lcdproc have been added, and some error configuration<br>
+and messages fixed.<br><br>
+MD5SUM : fc13798c94029bf7fe7ad5342a21d443<br>
+See <a href='http://sourceforge.net/project/shownotes.php?group_id=115843&amp;release_id=496385'>changelog</a> for details.<br>
+<br><br>
+Larry
+</p>
+---
+24 March 2007
+Shrinking / Growing / Moving VISTA
+<p>
+If you are interesting with shrinking VISTA, you must know GParted is able to shrink Vista.<br>
+I have successfully performed this operation on two different machines !<br><br>
+It is also possible to use GParted to move Vista partition, but you need Vista cd-dvd, to repair Vista Boot Manager.<br>
+Some details are available <a href='http://gparted-forum.surf4.info/viewtopic.php?pid=3067#p3067'>here</a>.<br>
+I also summarized the steps in a kind of <a href='http://gparted.free.fr/screenshots/VISTA/Howto_move_VISTA.html'>howto</a>.<br><br>
+Note that there is a built-in tool in Vista to shrink your partition, not to move (afaik).<br>
+<br><br>
+Larry
+</p>
+---
+20 March 2007
+GParted livecd 0.3.4-4 has been released !
+<p>
+- Parted-1.8.6 included !<br>
+- ADAPTEC I20 enable in kernel [Bug 420288]<br>
+- scandelay=6 option added in grub parameters so the system<br>
+can load modules (usb external drive)[Bug 419267].<br><br>
+
+MD5SUM : 3f3cf59a05c27b98626b1fe02d865a71 <br>
+See <a href='http://sourceforge.net/project/shownotes.php?release_id=495155&amp;group_id=115843'>changelog</a> for details.<br>
+<br>
+This is also a good occasion to announce you GParted-Clonezilla livecd is born<br> 
+some days ago. This livecd marries both GParted-livecd and Clonezilla-livecd<br>
+which is the best free backup tool ever done. <br>
+See <a href='http://gparted.free.fr/GParted-Clonezilla/'>details</a> there. <br><br>
+Larry
+</p>
+---
+16 March 2007
+GParted livecd 0.3.4-3 has been released !
+<p>
+The most important change is that the media now boots off <br>
+the powerful GRUB boot loader ! Some new boot options have been set. <br>
+"Logout" is now available from shutdown-menu, to kill X, if needed. <br>
+Media boots with No Frame Buffer by default, but option is still available.<br><br>
+MD5SUM : 50dbb0d4648c3e5e575e412b27d2f921 <br>
+See <a href='http://sourceforge.net/project/shownotes.php?group_id=115843&amp;release_id=494253'>changelog</a> for details.<br>
+<br>
+Larry
+</p>
+---
+12 March 2007
+GParted livecd 0.3.4-2 has been released !
+<p>
+All available video drivers have been added.<br>
+Some bugs have been fixed : "media not found" during usb boot off ;<br>
+error messages when shutting down (/dev/nbdx).<br>
+Floppy driver has been set to "m" in the kernel, which avoids GParted to run<br>
+over and over when there is no floppy device.<br><br>
+MD5SUM : 489aafaa9e742d72fd89224896272d6d <br>
+See <a href='http://sourceforge.net/project/shownotes.php?release_id=493216&amp;group_id=115843'>changelog</a> for details.<br>
+<br>
+Larry
+</p>
+---
+11 March 2007
+GParted livecd 0.3.4-2-beta
+<p>
+- Error messages at shutdown about /dev/ndb : FIXED<br>
+- Submenu shoed out of the screen : FIXED<br>
+- Video drivers added : neoamgic, savage, s3virge, trident<br>
+- Fixed syslinux.cfg : failed to find device when booting off USB<br>
+<br>
+Download from <a href='http://gparted.free.fr/beta/'>here</a>.
+MD5SUM 69a664c201cbdf35d056c14ce15c930c<br>
+<br>
+Larry
+</p>
+---
+08 March 2007
+GParted livecd 0.3.4-1
+<p>
+The kernel configuration file is more improved (2.6.20).<br>
+A new script "Forcevideo" allows users to set video and resolution<br>
+if X failed to start.<br>
+<br>
+MD5SUM : 396e4e65035b8ad3cd32c69c3df4dd64<br>
+See <a href='http://sourceforge.net/project/shownotes.php?release_id=492121&amp;group_id=115843'>changelog</a> for a complete list of packages.<br>
+<br>
+Larry
+</p>
+---
+01 March 2007
+GParted livecd 0.3.4-beta-1
+<p>
+A new beta has been released.<br>
+Kernel config modified : new drivers have been set to "modules" (=m).<br>
+This should fix some issues (hang at boot)
+It can be found <a href='http://gparted.free.fr/beta/'>there</a>.<br>
+Larry
+</p>
+---
+27 February 2007
+GParted livecd 0.3.4-0
+<p>
+GParted-livecd has been released ! It now includes gparted-0.3.4 from svn,<br>
+and new feature : it is possible to see the full list of packages,<br>
+kernel configuration file, and some notes about Windows resizing (XP and Vista).<br>
+A bug with Testdisk which failed in previous version, has been fixed.<br><br>
+Larry
+</p>
+---
+25 February 2007
+GParted livecd 0.3.3-7
+<p>
+Major change with switching to Fluxbox as graphical mode.<br>
+Some bugs fixed and features added (Virtualbox video driver).<br><br>
+Hang at shutdown has been fixed by coming back to old version of baselayout.<br>
+Virtualbox can now boot off the iso, by typing at prompt "vesa",<br>
+which force vesa driver to be set in xorg.<br>
+Some icons have been added.<br><br>
+Looks good !<br><br>
+Larry
+</p>
+---
+22 February 2007
+GParted livecd 0.3.3-6
+<p>
+Some minor changes : Video drivers has been added, so all kind of known video are supported.<br><br>
+Larry
+</p>
+---
+17 February 2007
+GParted livecd 0.3.3-5
+<p>
+After one month and a half for testing and testing, we are happy to announce you GParted-livecd has been released.<br>
+The livecd is now based on gentoo-catalyst, and all files are available from svn.<br>
+Kernel 2.6.20. About ten more languages are supported.<br>
+Midnight Commander has been added, and packages updated.
+<br><br>
+
+Larry
+</p>
+---
+06 December 2006
+GParted 0.3.3
+<p>
+fixed a bug introduced by 0.3.2, thanks go to Glauco for pointing this out.
+<br><br>
+See the <a href='http://sourceforge.net/project/shownotes.php?group_id=115843&amp;release_id=469155'>Changelog</a> for more details.
+<br><br>
+plors
+</p>
+---
+01 December 2006
+GParted 0.3.2
+<p>
+Just another release of GParted.<br>
+We added two new features, fixed some bugs and received lots
+of translation updates and additions.
+<br><br>
+See the <a href='http://sourceforge.net/project/shownotes.php?release_id=467985&amp;group_id=115843'>Changelog</a> for more details.
+<br><br>
+plors
+</p>
+---
+17 November 2006
+New tip has been added.
+<p>
+<a href='http://gparted.sourceforge.net/larry/tips/gfs.htm'> Getting free space from partition </a> tip has been added to the <a href='http://gparted.sourceforge.net/documentation.php'> documentation </a><br>
+Some users seem to have problem to increase partition when free space is not contiguous !<br> So i decided to add this tip, to make it easier.<br>
+<br>
+Larry
+</p>
+---
+16 November 2006
+Docs have been released
+<p>
+<i>Resizing partitions with GParted Doc</i> have been increased with a new title :<br>
+"how to resize extended partition".<br>
+<a href='http://gparted.sourceforge.net/larry/resize/resizing.htm'> See the complete doc </a>
+<br>
+English docs only have been updated !<br>
+<br>
+Larry
+</p>
+---
+11 September 2006
+GParted 0.3.1
+<p>
+This release is mostly a response on the feedback i got from users on GParted 0.3.<br>
+In case of an overlapping move (which in case of failure may cause damage to a filesystem)
+GParted now performs a readonly testrun. Also, if a move failes GParted will
+rollback the transactions and hence insure the safety of your data.<br>
+<br>
+See the <a href='http://sourceforge.net/project/shownotes.php?release_id=446553&amp;amp;group_id=115843'>Changelog</a> for more details.
+<br>
+<br>
+plors
+</p>
+---
+05 September 2006
+GParted Livecd 0.3
+<p>
+This version has some minor improvements. Nothing I can say here can top full<br>
+move support in GParted, so I won't bore you with too many details. The coolest<br>
+things are the new artwork by Junel Mujar and it's now possible to boot from a<br>
+hard drive. The hw_random crash has also been fixed.<br><br>
+See the <a
+href='http://sourceforge.net/project/shownotes.php?release_id=445059&amp;group_id=115843'>Changelog</a> for details.<br>
+</p>
+---
+04 September 2006
+GParted 0.3
+<p>
+It took a bit longer than expected, but finally we decided to release GParted-0.3. <br>
+This release includes one of the most exiting features since the first release;<br>
+<b>We finally have full move support!!</b> Although it should be considered a bit experimental,
+our tests worked out perfectly and we didn't see any errors so far.<br>
+<br>
+Special thanks for this release go to:<br>
+<b>JanC</b>, for the initial idea on how to implement moving.<br>
+<b>Brother Larry</b>, for the enormous amount of time he put into testing and bughunting.<br>
+Please send flowers and cake to these guys ;^)<br>
+<br>
+Ok, have fun, be carefull and report bugs :)<br>
+<br>
+See the <a href='http://sourceforge.net/project/shownotes.php?release_id=444805&amp;group_id=115843'>Changelog</a> for more details.
+<br>
+<br>
+plors
+</p>
+---
+12 August 2006
+GParted LiveCD 0.2.5-5
+<p>
+Minor update to fix some problems in the new video card 
+detection. Some cards were given the wrong driver and starting
+X was not possible without manually editing the xorg.conf file.
+If X fails to start use the "manual video card" option
+in the boot menu. This reverts the system back to the behavior
+of 0.2.5-3 for video card selecting.<br><br>
+A screen shot program for reporting bugs was added.<br><br>
+The "Boot failure: Unknown keyword in config file" is fixed.<br><br>
+See the <a
+href='http://sourceforge.net/project/shownotes.php?release_id=439004&amp;group_id=115843'>Changelog</a> for details.<br>
+<br>
+Patrick<br>
+</p>
+---
+8 August 2006
+GParted LiveCD 0.2.5-4
+<p>
+Many bug fixes and new features. Too many to list here. :-)<br>
+See the <a
+href='http://sourceforge.net/project/shownotes.php?release_id=438097&amp;group_id=115843'>Changelog</a> for details.<br>
+<br>
+Patrick<br>
+</p>
+---
+31 July 2006
+New forums
+<p>
+Thanks to JanC we finally have some decent forums. Sign up and join the fun <a href="forum.php">here</a>
+<br> <br>
+Also, we are still looking for a couple of moderators, so let us know if you are interested in this job.
+<br> <br>
+plors
+</p>
+---
+21 July 2006
+small update
+<p>
+Yep, i'm still alive and working on GParted :^)
+My life is quite filled at the moment with study and work, but every now and then i manage to work a bit on GParted. Release 0.3 is not that far away and it includes a VERY nice feature: <b>moving of all filesystems</b> *drumroll here* :-)
+<br><br>
+This is something i've been willing to add to GParted for a long time and in the end it proved very simple. Credits for the idea go to JanC (please drop by on IRC to thank him ;) ).
+<br><br>
+
+In the meanwhile Patrick has been busy with the live environments and from the responses we get i can only conclude he is doing an extremely good job!
+<br><br>
+
+LarryT en Karderio are working on the docs and among other things they are preparing them for usage by the gnome help browser (Yelp). If everything goes as planned we can also include this in 0.3.
+<br>
+Having good documention is very important, especially now more and more relatively unexperienced users are using GParted.
+<br><br>
+
+Apart from this we are deploying a new forum in the hope to become more in touch with our users. It seems not everyone feels comfortable with bugzilla and IRC.
+<br><br>
+
+All in all, nothing but good news, please stay tuned for GParted-0.3 :-)
+<br><br>
+plors
+</p>
+---
+9 July 2006
+GParted LiveCD/LiveUSB 0.2.5-3
+<p>
+I added some goodies people have been asking for: partimage,<br> 
+grub, rsync, fdisk, cfdisk, and sfdisk. Links has also been<br>
+included to view LarryT's docs while running the LiveCD and<br> 
+LiveUSB. Some other stuff was upgraded like adding a<br> 
+shutdown-menu and the entire layout of the root filesystem.<br> 
+All of the symbolic links and /fake/needwrite stuff is now<br>
+gone. The entire rootfs is compressed with squashfs and the<br> 
+boot process has been vastly changed. This saved almost 5mb<br>
+to add extras. The kernel was also updated to Linux-2.6.17.4.<br><br>
+See the <a 
+href='http://sourceforge.net/project/shownotes.php?release_id=430852&amp;group_id=115843'>Changelog</a> for details.<br>
+<br>
+Patrick<br>
+</p>
+---
+25 June 2006
+GParted LiveCD/LiveUSB 0.2.5-2
+<p>
+ntfsprogs-1.13.1 is the main reason for this release.<br> 
+Be sure to check out the new USB version too. :)<br><br>
+See the <a href='http://sourceforge.net/project/shownotes.php?release_id=427411&amp;group_id=115843'>Changelog</a> for details.<br>
+<br>
+Patrick<br>
+</p>
+---
+16 
+June 2006 
+GParted liveCD 0.2.5-1
+<p>
+I think this might be the best version of the livecd released so far. Many<br>
+issues have been fixed and I spent some time making it look better.<br>
+Junel Mujar made a very cool wallpaper for the desktop.<br><br>
+See the <a href='http://sourceforge.net/project/shownotes.php?release_id=425366&amp;group_id=115843'>Changelog</a> for details.<br>
+<br>
+Patrick<br>
+</p>
+---
+16 May 
+2006
+GParted liveCD 0.2.5
+<p>
+Although it looks the same... It's a total rebuild from ground up. The new<br>
+CD is based on Slackware Current with some rebuilt and added packages.<br>
+The source for the CD is now located in /usr/src.<br><br>
+See the <a href='http://sourceforge.net/project/shownotes.php?release_id=417133&amp;group_id=115843'>Changelog</a> for details.<br>
+<br>
+Patrick<br>
+</p>
+---
+13 
+May 2006
+GParted 0.2.5
+<p>
+Just another small release. It adds support for operations<br>
+on hfs, hfs+ and reiser4 filesystems and contains some language updates.<br>
+<br>
+See the <a href='http://sourceforge.net/project/shownotes.php?release_id=416574&amp;group_id=115843'>Changelog</a> for more details.
+</p>
+---
+30 April 2006
+GParted liveCD 0.2.4-3
+<p>
+Another minor release to take care of some small problems.<br>
+See the <a href='http://sourceforge.net/project/shownotes.php?release_id=413925&amp;group_id=115843'>Changelog</a> for details.<br>
+<br>
+Patrick<br>
+</p>
+---
+15 April 2006
+GParted liveCD 0.2.4-2
+<p>
+Added, changed, and fixed some major stuff in this release.<br>
+See the <a href='http://sourceforge.net/project/shownotes.php?release_id=410039&amp;group_id=115843'>Changelog</a> for details.<br>
+<br>
+Patrick<br>
+</p>
+---
+10 April 2006
+GParted liveCD 0.2.4-1
+<p>
+Xvesa has been replaced with Xorg. Please report bugs!<br>
+<br>
+Patrick<br>
+</p>
+---
+4 April 2006
+GParted 0.2.4
+<p>
+Yet another release of gparted. This release introduces the ability to set/unset flags<br>
+and fixes a couple of issues.<br>
+<br>
+See the <a href='http://sourceforge.net/project/shownotes.php?release_id=407117&amp;group_id=115843'>Changelog</a> for more details.
+</p>
+---
+28 March 2006
+GParted 0.2.3
+<p>
+This release contains lots of (small) fixes and improvements.<br>
+I also rewrote some internals to deal with a couple of long-standing issues.<br>
+<br>
+Nothing really fancy, but worth the upgrade ;-)<br>
+</p>
+---
+27 March 2006
+GParted LiveCD 0.2.2-6
+<p>
+Some more major work under the hood.<br>
+<br>
+Fixed some bugs in the new udev set-up.<br>
+Cleaned-up Fluxbox a little bit.<br>
+Added some more options to Xvesa.<br>
+Removed some more unused scripts and files.<br>
+Recompiled all programs with better optimizations.<br>
+Recompiled most libs to remove static libraries.<br>
+The new iso is only 22.5 MB!<br>
+<br>
+Upgraded to:
+atk-1.10.3, glib-2.8.6, glibmm-2.8.4, glitz-0.5.3, gtk+-2.8.12,<br>
+gtkmm-2.8.3, libsigc++-2.0.17, pango-1.10.3, freetype-2.1.10,<br>
+syslinux-3.20-pre7, squashfs3.0, expat-1.95.8, libusb-0.1.12,<br>
+Linux-2.6.15.5, jfsutils-1.1.10<br>
+<br>
+Patrick<br>
+</p>
+---
+13 March 2006
+GParted LiveCD 0.2.2-3
+<p>
+Minor update.<br>
+<br>
+8 and 16 color depth are working again.<br>
+Rebuilt glibc to save space. The new ISO is only 25.8mb.<br>
+<br>
+Patrick<br>
+</p>
+---
+10 March 2006
+We're back
+<p>
+Hmmz, it seems everything's restored. I was able to dig most of the stuff up from googlecache (thanks Jan GONDOL!).<br>
+Because i'm too lazy to restore the newsentries (they live in a separate textfile) some news will be missing, but i don't think anyone is going to miss it :)<br>
+</p>
+---
+10 March 2006
+Site problems
+<p>
+In case anyone wonders what's going on.. I've just overwritten our website with an old backup and don't have any recent backups :/<br>
+Hopefully the SF guys can help me out, otherwise i'll have a lot of catching up to do. <br>
+<br>
+<b>BLAH!</b>
+</p>
+---
+25 November
+GParted-0.0.9
+<p>
+It certainly has been a long time since the last release. All of a sudden i got caught up in 'real life' and couldn't find the time to work on gparted anymore.<br>
+It happens i suppose...<br>
+<br>
+Anyway, gparted-0.0.9 contains lots of fixes, a few new features and tons of updated/new translations.
+See the <a href='http://sourceforge.net/project/shownotes.php?release_id=373712&amp;group_id=115843'>Changelog</a> for more information
+</p>
+---
+16 November
+I'm back ;-)
+<p>
+I'm back in the Netherlands and the next few months i'm a free man (hopefully).<br>
+This means i should have plenty of time to work on GParted.<br>
+After looking into bugzilla i plan on releasing gparted-0.0.9 which has been in CVS far too long.<br>
+Once that's done i'll look into support for RAID and LVM.<br>
+<br>
+Stay tuned ;-)
+</p>
+---
+21 March
+Update
+<p>
+Judging from the load of mail i get, a lot of people are very concerned about my well-being. Thanks folks, i'm touched :P <BR><br>
+To answer the one question on your minds: i'm neither dead nor sick and so is GParted. I'm on a studytrip for 4 months and i simply have very little time to work on GParted.<br><br>
+As soon as i'm back in Holland (june/july) i'll start working on it again. In the meanwhile you can try <a href="http://gparted.sf.net/gparted-0.0.9pre2.tar.bz2">gparted-0.0.9pre2</a> if you want. <br>
+enjoy :) 
+</p>
+---
+22 December
+GParted 0.0.8
+<p>
+GParted-0.0.8 includes support for three new filesystems. Besides that a couple of bugs got fixed and some extra checking is done while performing an operation.<br>
+<br>
+See the <a href="http://gparted.sf.net/features.php" >featurestable</a> and the <a href="http://sourceforge.net/project/shownotes.php?release_id=291650">Changelog</a> for more information.
+</p>
+---
+12 December
+Debian package update
+<p>
+Vincent just send me a new debian package for gparted and forced me to announce "it works on pure unstable" (whatever that may be :^) )<br>
+<br>
+Get it from the ususal location.
+</p>
+---
+03 December
+GParted 0.0.7
+<p>
+gparted-0.0.7 is finally here. It took some time, because i had to rewrite a lot of code.
+Every filesystem now has its own class and is responsible for its own creation, resizing etc..
+This makes it very easy to add more filesystems to gparted and that's what we all want :)<br>
+<br>
+Because the ext2/3 code of libparted was slightly outdated and sometimes caused trouble, gparted now 
+uses the e2fstools to handle them. Same goes for reiserfs, you now need the official tools from namesys to handle reiserfs partitions.<br>
+<br>
+Since most (all) of these tools lack decent API's i just call the commands from the code, this is a bit scary and definitely not considered
+elegant coding, but i didn't have much choice and so far it works out quite well.<br>
+<br>
+At startuptime gparted scans for available commands and enables/disabled certain functionality. e.g. if 'mke2fs' is found, creation of ext2 is enabled.
+This is quite cool since you can now enable support for filesystems without rebuilding gparted. just install the tools for your specific filesystem en (re)start gparted. That's all :)<br>
+<br>
+Of course using CLI-tools has some disadvantages. One of the most annoying is the lack of proper progressfeedback. Although i have some ideas on how to solve this, atm it's still just a dumb guess :)<br>
+<br>
+More information can be found in the  <a href="http://sourceforge.net/project/shownotes.php?release_id=287614">Changelog</a><br>
+<br>
+Have fun and don't forget to report your bugs :^)
+</p>
+---
+24 November
+Debian package for Libparted-1.6.18
+<p>
+Adrighem created a debianpackage for the latest libparted release. See the <a href="https://sourceforge.net/project/shownotes.php?release_id=285130">releasenotes</a> for more information.<br>
+<br>
+Get it from the usual downloadlocation at SourceForge.<br>
+<br>
+<br>
+Btw. gparted-0.0.7 will be released this week.
+---
+4 November
+Ubuntu package available
+<p>
+Piero (scognito) created an Ubuntu-package. It seemed some Ubuntu users were experiencing problems with the other debianpackage.<br>
+<br>
+Get it from the usual downloadsection at SourceForge.<br>
+</p>
+---
+24 October
+GParted 0.0.6
+<p>
+A brand-new GParted =)<br>
+We now have support for <b>reiserfs</b> [1]<br>
+Startup time is down with a couple of seconds (the gui gets loaded first and the deepscan of all partitions is performed later)<br>
+Changes, Fixes, new and updated translations.... <br>
+<br>
+Since nothing else comes to mind i happily point at the <a href="http://sourceforge.net/project/shownotes.php?release_id=277487">Changelog</a> :P
+<br>
+<br>
+<br>
+[1] Besides it's builtin filesystems, libparted also offers support for reiserfs through an extern package (progreiserfs).
+The presence of this package is detected at runtime and support for reiserfs is enabled/disabled accordingly.<br>
+Since progreiserfs is NOT the 'official' reiserfsprogs it's a good idea to use caution!<br>
+Get it from <a href="ftp://ftp.namesys.com/pub/libreiserfs/progsreiserfs-0.3.0.5.tar.gz">
+ftp://ftp.namesys.com/pub/libreiserfs/progsreiserfs-0.3.0.5.tar.gz
+</a>
+</p>
+---
+12 October 2004
+Debian Packages
+<p>
+Today i read the following comment on gnomefiles.org:<br><br>
+<i>
+Hi,<br>
+<br>
+You can get packages for debian sid (unstable) here:<br>
+<a href="http://atlas.et.tudelft.nl/valium/gparted/">http://atlas.et.tudelft.nl/valium/gparted/</a><br>
+<br>
+Not apt-gettable.<br>
+</i>
+<br>
+Vincent, thanks! People, you know where to send the bugreports (adrighem AT gnome DOT org) :^)
+<p>
+---
+30 September 2004
+GParted 0.0.5
+<p>
+It took a bit longer then i'd hoped, but here it is: *drumbeats* gparted-0.0.5 !
+As planned, this release includes support for other languages, so the non-english speakers out there can enjoy gparted as well.<br>
+I've also made a few (minor) changes to the graphical interface and fixed a number of bugs, see the <a href="http://sourceforge.net/project/shownotes.php?release_id=271829">changelog</a> for more details.
+Besides this i did some codecleanups, which should gain performance and improve readability of the code ;).
+<br><br>
+Special thanks go to the guys from the Dutch Translations team. They helped me with a lot of i18n issues i didn't even know to exist :)
+<br><br>
+Note that i've moved the CVS tree to Gnome CVS, see the downloadpage for instruction on how to access it.
+<br><br>
+As always, please send me your bugreports, ideas, new colors or whatever... thnx!
+<p>
+---
+04 September 2004
+GParted 0.0.4
+<p>
+With this release GParted covers all libparted's major features. It also features a new pending operationslist which looks much nicer (i hope ;) ).
+Besides that, i fixed a couple of bugs and did a number of smaller fixes. See the <a href="http://sourceforge.net/project/shownotes.php?release_id=265659">changelog</a> for more details.<br>
+<br>
+As always, free free to <a href="http://gparted.sourceforge.net/contact.php">contact</a> me if you have any questions, remarks or suggestions<br>
+<br>
+next step : i18n and more filesystems ;)<br>
+</p>
+---
+26 August 2004
+First public release! GParted 0.0.3
+<p>
+Well, here it is, the first public release of gparted. See the <a href="http://sourceforge.net/project/shownotes.php?release_id=263518">Changelog</a> for detailed info about the changes since the first two releases.<br>
+I look forward to your bugreports, remarks and suggestions. If you have any questions feel free to <a href="http://gparted.sourceforge.net/contact.php">contact</a> me.<br><br>
+Please read the "Important!" message at the <a href="http://gparted.sourceforge.net/download.php">download</a> page.
+</p>
+---
+25 August 2004
+Logos..
+<p>
+I decided to place the logo's i receive <a href="http://gparted.sourceforge.net/artwork.php">online</a> so everybody can enjoy them. Hopefully i'll soon be forced to write a paginating script ;)
+</p>
+---
+18 August 2004
+Wow, i'm beginning to receive logo's!
+<p>
+Yesterday i got the first design for a logo from someone.
+Thanks! And keep them coming :)
+<br><br>
+In the meanwhile i am about to release gparted 0.0.2. This release contains fixes and modifications
+as a result on the feedback i got on version 0.0.1 .<br>
+This will be the last private release. After i've got the results i will release gparted 0.0.3 to the real world :)
+Thanks for waiting.
+</p>
+---
+13 August 2004
+Website is beginning to look like something
+<p>
+Vincent from <a href="http://gnome-nl.sourceforge.net/" target="new">gnome-nl</a> was kind enough to send me some templates. I really appreciate this since i *hate* webprogramming ;)
+</p>
+---
+12 August 2004
+First test release of GParted (version 0.0.1)
+<p>This release was only for insiders. They're going to test gparted and send me feedback about GUI, stability and anything else that comes to mind.
+<br>
+I really look forward to all the reports ;-)
+<br><br>
+For the people who were not so lucky :-) I plan on putting some files in CVS at the end of next week. So stay tuned..
+</p>
+---

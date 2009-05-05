@@ -1,0 +1,9 @@
+# List of file patterns for git to ignore.
+#
+# Please try to keep entries in alphabetical order :-)
+#
+*~
+htdocs/curtis
+htdocs/gparted-test-web
+htdocs/larry
+htdocs/steven
