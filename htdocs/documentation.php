@@ -17,13 +17,54 @@ gnome_head();
 gnome_menu();
 ?>
 <div class="content">
-<H1>Documentation</H1>
-<H3>Application Help</H3>
-    <P>
-      <a href="doc/help-manual/C/gparted_manual.html">Help manual</a>
-      <br>
-      <a href="doc/man-page/C/gparted_manpage.html">Man page</a>
-    </P>
+<h1>Documentation</h1>
+<h3>Application Help</h3>
+  <p>
+    <table border="1">
+      <tr>
+        <td align="center">
+          <strong>DOCUMENT</strong>
+        </td>
+        <td align="center" title="English">
+          <img src="flags/UK.png" alt="English">
+        </td>
+        <td align="center" title="French">
+          <img src="flags/French.png" alt="French">
+        </td>
+        <td align="center" title="Spanish">
+          <img src="flags/Spanish.png" alt="Spanish">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Help manual
+        </td>
+        <td title="English">
+          <a href="doc/help-manual/C/gparted_manual.html">HTML</a>
+        </td>
+        <td title="French">
+          &nbsp;
+        </td>
+        <td title="Spanish">
+          &nbsp;
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Man page
+        </td>
+        <td title="English">
+          <a href="doc/man-page/C/gparted_manpage.html">HTML</a>
+        </td>
+        <td title="French">
+          &nbsp;
+        </td>
+        <td title="Spanish">
+          &nbsp;
+        </td>
+      </tr>
+    </table>
+  </p>
 <H3>Howto Guides</H3>
     <P>LarryT created the following documentation.<br>
     Any assistance with updating would be appreciated.</P>
