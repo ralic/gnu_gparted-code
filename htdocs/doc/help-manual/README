@@ -1,0 +1,7 @@
+Please note that the source for the help manual is stored with the
+gparted source code on gnome.org.
+
+To generate a single html file of the document, use the command:
+
+$ xmlto html-nochunks gparted.xml
+
