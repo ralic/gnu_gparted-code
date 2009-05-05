@@ -63,7 +63,82 @@ gnome_menu();
       </td>
     </tr>
   </table>
-<H3>Howto Guides</H3>
+
+<h3>GParted Live Howto Guides</h3>
+  <table border="1">
+    <tr>
+      <td align="center">
+        &nbsp;
+      </td>
+      <td align="center" title="English">
+        <img src="flags/UK.png" alt="English">
+      </td>
+      <td align="center" title="French">
+        <img src="flags/French.png" alt="French">
+      </td>
+      <td align="center" title="Spanish">
+        <img src="flags/Spanish.png" alt="Spanish">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        How to put GParted live on USB
+      </td>
+      <td title="English">
+        <a href="./liveusb.php">HTML</a>
+      </td>
+      <td title="French">
+        &nbsp;
+      </td>
+      <td title="Spanish">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td>
+        How to put GParted live on a PXE server
+      </td>
+      <td title="English">
+        <a href="./livepxe.php">HTML</a>
+      </td>
+      <td title="French">
+        &nbsp;
+      </td>
+      <td title="Spanish">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td>
+        How to put GParted live on a hard drive
+      </td>
+      <td title="English">
+        <a href="./livehd.php">HTML</a>
+      </td>
+      <td title="French">
+        &nbsp;
+      </td>
+      <td title="Spanish">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td>
+        How to create GParted live from scratch
+      </td>
+      <td title="English">
+        <a href="./create-gparted-live.php">HTML</a>
+      </td>
+      <td title="French">
+        &nbsp;
+      </td>
+      <td title="Spanish">
+        &nbsp;
+      </td>
+    </tr>
+  </table>
+
+<H3>Howto Guides (Old)</H3>
     <P>LarryT created the following documentation.<br>
     Any assistance with updating would be appreciated.</P>
     GParted 0.3-1 - Last update : 
@@ -161,24 +236,6 @@ gnome_menu();
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td><a href="larry/tips/screenshot-es.htm">HTML</a></td>
-        <td>&nbsp;</td>
-      </tr>
-      <tr> 
-        <td>How to boot GParted live from hard drive</td>
-        <td><div align="center"><a href="./livehd.php" target="_blank">HTML</a></div></td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-      <tr> 
-        <td>How to put GParted live on a PXE server</td>
-        <td><div align="center"><a href="./livepxe.php" target="_blank">HTML</a></div></td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
       </tr>
     </table>
