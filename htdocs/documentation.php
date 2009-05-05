@@ -183,15 +183,6 @@ gnome_menu();
         <td>&nbsp;</td>
       </tr>
       <tr> 
-        <td>The GParted LiveCD NEW RELEASE (from 0.3.6)</td>
-        <td><div align="center"><a href="./livecd.php">HTML</a></div></td>
-        <td><div align="center"></div></td>
-        <td><div align="center"></div></td>
-        <td> <div align="center"></div></td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-      <tr> 
         <td>The GParted LiveCD 0.3-1</td>
         <td><div align="center"><a href="http://gparted.sourceforge.net/larry/livecd/main/livecd.htm">HTML</a></div></td>
         <td><div align="center"><a href="larry/livecd/main/pdf/LiveCD.pdf" target="_blank">PDF</a></div></td>
