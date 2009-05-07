@@ -39,7 +39,7 @@ gnome_menu();
         Help manual
       </td>
       <td title="English">
-        <a href="doc/help-manual/C/gparted_manual.html">HTML</a>
+        <a href="docs/help-manual/C/gparted_manual.html">HTML</a>
       </td>
       <td title="French">
         &nbsp;
@@ -53,10 +53,10 @@ gnome_menu();
         Man page
       </td>
       <td title="English">
-        <a href="doc/man-page/C/gparted_manpage.html">HTML</a>
+        <a href="docs/man-page/C/gparted_manpage.html">HTML</a>
       </td>
       <td title="French">
-        <a href="doc/man-page/fr/gparted_manpage.html">HTML</a>
+        <a href="docs/man-page/fr/gparted_manpage.html">HTML</a>
       </td>
       <td title="Spanish">
         &nbsp;
@@ -244,7 +244,7 @@ gparted.
 <BR>
 <A href="http://www.win.tue.nl/~aeb/linux/Large-Disk.html">Large Disk HOWTO</A>
 <BR>
-<A href="doc/secure-deletion/C/secure_del.html">Secure Deletion of Data from Magnetic and Solid-State Memory</A>
+<A href="docs/secure-deletion/C/secure_del.html">Secure Deletion of Data from Magnetic and Solid-State Memory</A>
 <BR>
 <A href="http://en.wikipedia.org/wiki/Comparison_of_file_systems">Comparison of filesystems</A>
 <BR>
