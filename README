@@ -1,4 +1,7 @@
-This is the source repository for the gparted web site.
+The gparted web site is under Git Source Code Management.
+
+Personal directories, such as curtis, larry, and steven have been
+excluded in the .gitignore file.
 
 
 WEB SITE STRUCTURE
