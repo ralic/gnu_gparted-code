@@ -18,7 +18,7 @@ WEB SITE STRUCTURE
     |
     +- css            Cascading style sheets
     |
-    +- doc            Standalone documentation (typically html and images)
+    +- docs           Standalone documentation (typically html and images)
     |  |
     |  +- {doc-name}  Short English name for document
     |      |
