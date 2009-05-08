@@ -1,3 +1,21 @@
+5 May 2009
+GParted Web Site Placed Under Git
+<br>
+The GParted web site has been placed under git source code management.
+This has been done to reduce the risk of losing changes due to one
+contributor accidentally overwriting another contributors change.<br>
+<br>
+Changes to the web site should be made to both the git respository and
+the web site.<br>
+<br>
+The web site repository can be browsed online at:<br>
+<a href="http://gparted.git.sourceforge.net/git/gitweb.cgi?p=gparted">GParted Web Site Git Repository</a>.<br>
+<br>
+You can learn more about git on Source Forge at:<br>
+<a href="http://sourceforge.net/scm/?type=git&amp;group_id=115843">GParted Web Site Git</a>
+<br><br>
+Curtis
+---
 20 April 2009
 Source Code Migrated from SVN to Git
 <br>
