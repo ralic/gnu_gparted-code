@@ -1,3 +1,18 @@
+8 May 2009
+GParted 0.4.5
+<br>
+This release of GParted includes some bug fixes, and language
+translation updates.
+<br><br>
+Key changes include:
+<ul>
+<li>Improved crypt-luks detection</li>
+<li>Improved dmraid device detection</li>
+</ul>
+See the <a href='https://sourceforge.net/project/shownotes.php?group_id=115843&amp;release_id=681288'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 5 May 2009
 GParted Web Site Placed Under Git
 <br>
@@ -5,7 +20,7 @@ The GParted web site has been placed under git source code management.
 This has been done to reduce the risk of losing changes due to one
 contributor accidentally overwriting another contributors change.<br>
 <br>
-Changes to the web site should be made to both the git respository and
+Changes to the web site should be made to both the git repository and
 the web site.<br>
 <br>
 The web site repository can be browsed online at:<br>
