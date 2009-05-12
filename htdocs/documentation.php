@@ -65,78 +65,15 @@ gnome_menu();
   </table>
 
 <h3>GParted Live Howto Guides</h3>
-  <table border="1">
-    <tr>
-      <td align="center">
-        &nbsp;
-      </td>
-      <td align="center" title="English">
-        <img src="flags/UK.png" alt="English">
-      </td>
-      <td align="center" title="French">
-        <img src="flags/French.png" alt="French">
-      </td>
-      <td align="center" title="Spanish">
-        <img src="flags/Spanish.png" alt="Spanish">
-      </td>
-    </tr>
-    <tr>
-      <td>
-        How to put GParted live on USB
-      </td>
-      <td title="English">
-        <a href="./liveusb.php">HTML</a>
-      </td>
-      <td title="French">
-        &nbsp;
-      </td>
-      <td title="Spanish">
-        &nbsp;
-      </td>
-    </tr>
-    <tr>
-      <td>
-        How to put GParted live on a PXE server
-      </td>
-      <td title="English">
-        <a href="./livepxe.php">HTML</a>
-      </td>
-      <td title="French">
-        &nbsp;
-      </td>
-      <td title="Spanish">
-        &nbsp;
-      </td>
-    </tr>
-    <tr>
-      <td>
-        How to put GParted live on a hard drive
-      </td>
-      <td title="English">
-        <a href="./livehd.php">HTML</a>
-      </td>
-      <td title="French">
-        &nbsp;
-      </td>
-      <td title="Spanish">
-        &nbsp;
-      </td>
-    </tr>
-    <tr>
-      <td>
-        How to create GParted live from scratch
-      </td>
-      <td title="English">
-        <a href="./create-gparted-live.php">HTML</a>
-      </td>
-      <td title="French">
-        &nbsp;
-      </td>
-      <td title="Spanish">
-        &nbsp;
-      </td>
-    </tr>
-  </table>
+  <p>        
+    <a href="./liveusb.php">How to put GParted live on USB</a>
+    <br>
+    <a href="./livepxe.php">How to put GParted live on a PXE server</a>
+    <br>
+    <a href="./livehd.php">How to put GParted live on a hard drive</a>
+    <br>
+    <a href="./create-gparted-live.php">How to create GParted live from scratch</a>
+  </p>
 
 <H3>Howto Guides (Old)</H3>
     <P>LarryT created the following documentation.<br>
