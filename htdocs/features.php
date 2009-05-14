@@ -530,7 +530,8 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported.png">
 	</td>
 	<td>
-		<a href="http://www.linux-ntfs.org" target=new>ntfsprogs</a>
+		<a href="http://www.linux-ntfs.org" target=new>ntfsprogs</a>,
+		xxd (part of vim-common), dd
 	</td>
 </tr>
 <tr>
