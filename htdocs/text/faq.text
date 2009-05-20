@@ -102,7 +102,7 @@ More information can be found at the following link:<br>
 ---
 11
 I am having difficulty shrinking my NTFS partition.  How can I improve my ability to shrink the partition?
-Tips on how to improve the ability to shrink NTFS partitions can be found in the GParted Manual <a href="http://gparted.sourceforge.net/manual/gparted_manual.html#gparted-advanced-partition-actions">here</a>.
+Tips on how to improve the ability to shrink NTFS partitions can be found in the GParted Manual <a href="http://gparted.sourceforge.net/docs/help-manual/C/gparted_manual.html#gparted-advanced-partition-actions">here</a>.
 <br><br>
 Forum member <i>cmdr</i> wrote some detailed instructions on resizing NTFS partitions that can be found at the following link:<br>
 <a href="http://gparted-forum.surf4.info/viewtopic.php?id=2892">Forum Post - Resize-Windows</a>
