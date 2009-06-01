@@ -24,33 +24,39 @@ gnome_menu();
 
 <h1>Gnome Partition Editor</h1>
 <p>
-GParted is the Gnome Partition Editor application. Before attempting to
-use it, here is some basic background information.<br>
+The GParted application is the GNOME partition editor for creating,
+reorganizing, and deleting disk partitions.<br>
 <br>
-A hard disk is usually subdivided into one or more
-partitions. These partitions are normally not
-re-sizable (making one smaller and the adjacent one larger).  The purpose
-of GParted is to allow the individual to take a hard disk and change the
-partition organization therein, while preserving the partition
-contents.<br>
+A disk device can be subdivided into one or more partitions. The
+GParted application enables you to change the partition organization
+on a disk device while preserving the contents of the partitions.<br>
 <br>
-GParted is an industrial-strength package for creating, destroying,
-resizing, moving, checking and copying partitions, and the file systems on them.
-This is useful for creating space for new operating systems,
-reorganizing disk usage, copying data residing on hard disks and
-mirroring one partition with another (disk imaging).<br>
-<br>
-GParted uses <a href="http://www.gnu.org/software/parted/" target="new">GNU libparted</a> to detect and manipulate devices and partition tables.<br>
-<br>
-Several (optional) file system tools provide support for file systems
+With GParted you can accomplish the following tasks:<br>
+<ul>
+  <li>Create a partition table on a disk device.</li>
+  <li>Enable and disable partition flags such as boot and hidden.</li>
+  <li>Perform actions with partitions such as:<br>
+    <ul>
+      <li>create or delete</li>
+      <li>resize or move</li>
+      <li>check</li>
+      <li>label</li>
+      <li>copy and paste</li>
+    </ul>
+  </li>
+</ul>
+GParted uses
+<a href="http://www.gnu.org/software/parted/" target="new">GNU libparted</a>
+to detect and manipulate devices and partition tables.
+Several optional file system tools provide support for file systems
 not included in libparted.<br>
-These optional packages will be detected at runtime and do not require a
-rebuild of GParted.<br>
 <br>
-GParted is written in C++ and uses <a href="http://gtkmm.org/" target="new">gtkmm</a> for its Graphical User Interface (GUI). The general approach is to keep the Graphical User Interface as simple
-as possible. Every attempt was made to conform to the <a href="http://library.gnome.org/devel/hig-book/stable/" target="new">GNOME Human Interface Guidelines</a>.<br>
+GParted is developed on GNU/Linux.
+It can be used on other operating systems, such as Windows, by booting
+from media containing <a href="livecd.php">GParted Live</a>.<br>
 <br>
-GParted comes under the terms of the <a href="http://www.gnu.org/licenses/gpl.html" target=new>General Public License</a>
+GParted is free and open source software available under the terms of the
+<a href="http://www.gnu.org/licenses/gpl.html" target=new>GNU General Public License</a>
 </p>
 
 </div>
