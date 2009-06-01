@@ -38,6 +38,11 @@ Many thanks for your donation!<br>
 	<TD><B>Amount</B></TD>
 </TR>
 <TR>
+	<TD>2009-06-01</TD>
+	<TD>anonymous</TD>
+	<TD>5 USD (- 1 USD to SF)</TD>
+</TR>
+<TR>
 	<TD>2009-05-13</TD>
 	<TD>anonymous</TD>
 	<TD>20 USD (- 1 USD to SF)</TD>
