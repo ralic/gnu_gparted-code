@@ -52,8 +52,25 @@ or acquire a copy of the latest web site source code with the following command:
 </p>
 <h3>Coding</h3>
 <p>
+GParted is written in <a href="http://en.wikipedia.org/wiki/C%2B%2B">C++</a> and uses
+<a href="http://gtkmm.org/" target="new">gtkmm</a>
+for its Graphical User Interface (GUI).
+The general approach is to keep the GUI as simple as possible.
+We strive to conform to the
+<a href="http://library.gnome.org/devel/hig-book/stable/" target="new">GNOME Human Interface Guidelines</a>.<br>
+<br>
+GParted uses
+<a href="http://www.gnu.org/software/parted/" target="new">GNU libparted</a>
+to detect and manipulate devices and partition tables.
+Several optional file system tools provide support for file systems
+not included in libparted.<br>
+<br>
+You can <a href="http://git.gnome.org/cgit/gparted/">browse</a> 
+the git repository visually,
+or read instructions <a href="http://live.gnome.org/Git/Developers">here</a>.<br>
+<br>
 Please let me know if you want to help developing GParted. It might be a good idea to look at 
-<a href="http://bugzilla.gnome.org/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=Other&amp;product=gparted&amp;long_desc_type=substring&amp;long_desc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;bug_status=NEEDINFO&amp;emailassigned_to1=1&amp;emailtype1=substring&amp;email1=&amp;emailassigned_to2=1&amp;emailreporter2=1&amp;emailqa_contact2=1&amp;emailcc2=1&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=">outstanding bugs</a> or grep the source for 'FIXME'.
+<a href="http://bugzilla.gnome.org/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=Other&amp;product=gparted&amp;long_desc_type=substring&amp;long_desc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;bug_status=NEEDINFO&amp;emailassigned_to1=1&amp;emailtype1=substring&amp;email1=&amp;emailassigned_to2=1&amp;emailreporter2=1&amp;emailqa_contact2=1&amp;emailcc2=1&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=">outstanding bugs</a> or search the source for 'FIXME' or 'TODO'.<br>
 </p>
 <h3>Donations</h3>
 <p>
