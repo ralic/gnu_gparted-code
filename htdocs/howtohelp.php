@@ -35,6 +35,21 @@ Translating GParted to your language is a valuable task that enables even more p
 Learn more about the GNOME Translation Project <a href="http://live.gnome.org/TranslationProject/">here</a>.<br>
 View the status of GParted language translation <a href="http://l10n.gnome.org/module/gparted/">here</a>.
 </p>
+<h3>Web Site</h3>
+<p>
+Improving the web site can enhance the web experience for all gparted users.<br>
+<br>
+Our goal is to have a web site that is both easy to use and easy to maintain.
+We strive for accessibility by many different web browsers
+over a wide range of Internet speed connections.<br>
+<br>
+The web site is written in <a href="http://en.wikipedia.org/wiki/PHP">PHP</a>
+and the source pages are managed under <a href="http://git-scm.com/">git</a>.<br>
+You can <a href="http://gparted.git.sourceforge.net/git/gitweb.cgi?p=gparted">browse</a> the git repository visually,
+or acquire a copy of the latest web site source code with the following command:<br>
+<br>
+<code>git clone git://gparted.git.sourceforge.net/gitroot/gparted</code>
+</p>
 <h3>Coding</h3>
 <p>
 Please let me know if you want to help developing GParted. It might be a good idea to look at 
