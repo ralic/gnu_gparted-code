@@ -32,6 +32,7 @@ GParted application enables you to change the partition organization
 on a disk device while preserving the contents of the partitions.<br>
 <br>
 With GParted you can accomplish the following tasks:<br>
+</p>
 <ul>
   <li>Create a partition table on a disk device.</li>
   <li>Enable and disable partition flags such as boot and hidden.</li>
@@ -45,6 +46,7 @@ With GParted you can accomplish the following tasks:<br>
     </ul>
   </li>
 </ul>
+<p>
 GParted uses
 <a href="http://www.gnu.org/software/parted/" target="new">GNU libparted</a>
 to detect and manipulate devices and partition tables.
