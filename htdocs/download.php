@@ -50,7 +50,7 @@ These shops are not affiliated with the GParted Project.
 </p>
 <a href="http://www.linuxcd.org/view_distro.php?id_distro=328&amp;ref=gparted">LinuxCD.org</a>
 <br>
-<a href="http://www.linuxdiscs.com/index.php?searchStr=gparted&act=viewCat">LinuxDiscs.com</a>
+<a href="http://www.linuxdiscs.com/index.php?searchStr=gparted&amp;act=viewCat">LinuxDiscs.com</a>
 <br>
 </div>
 
