@@ -26,18 +26,18 @@ You are advised to <b><u>BACKUP your DATA</u></b> before using
 the gparted application.<br>
 </i></p>
 <h3>GParted</h3>
-Browse releases of GParted source code <a href="http://sourceforge.net/project/showfiles.php?group_id=115843&amp;package_id=125754">here</a><br>
+Browse releases of GParted source code <a href="http://sourceforge.net/projects/gparted/files/gparted/">here</a><br>
 <br>
 <h3>GParted Live CD/USB/HD/PXE</h3>
 <font color="red">///WARNING/// Due to a hardware/firmware bug, it's _NOT_ recommended to run GParted live on some types of HP Pavilion machines. Otherwise your VGA card fan might be dead. For more info, please refer to <a href="http://bugzilla.gnome.org/show_bug.cgi?id=579000" target=_blank>this bug report</a>.</font><br>
 <br>
 Browse <b>Stable</b> releases of GParted Live
- <a href="http://sourceforge.net/project/showfiles.php?group_id=115843&amp;package_id=271779">here</a> (<a href="http://free.nchc.org.tw/gparted-live/stable/CHECKSUMS.TXT" target=_blank>checksums info</a>).<br>
+ <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/">here</a> (<a href="http://free.nchc.org.tw/gparted-live/stable/CHECKSUMS.TXT" target=_blank>checksums info</a>).<br>
 Browse latest <b>Testing</b> releases GParted Live
- <a href="http://sourceforge.net/project/showfiles.php?group_id=115843&amp;package_id=269898">here</a> (<a href="http://free.nchc.org.tw/gparted-live/testing/CHECKSUMS.TXT" target=_blank>checksums info</a>).<br>
+ <a href="http://sourceforge.net/projects/gparted/files/gparted-live-testing/">here</a> (<a href="http://free.nchc.org.tw/gparted-live/testing/CHECKSUMS.TXT" target=_blank>checksums info</a>).<br>
 <br>
-Browse old LiveCD (0.0.9-alpha1 to 0.3.4-11) releases <a href="http://sourceforge.net/project/showfiles.php?group_id=115843&amp;package_id=173828">here</a>.<br>
-Browse old LiveUSB (0.2.5-2 to 0.3.1-1) releases <a href="http://sourceforge.net/project/showfiles.php?group_id=115843&amp;package_id=195292">here</a>.<br>
+Browse old LiveCD (0.0.9-alpha1 to 0.3.4-11) releases <a href="http://sourceforge.net/projects/gparted/files/old-gparted-livecd/">here</a>.<br>
+Browse old LiveUSB (0.2.5-2 to 0.3.1-1) releases <a href="http://sourceforge.net/projects/gparted/files/old-gparted-liveusb/">here</a>.<br>
 <br>
 <h3>Order a Disk</h3>
 <p>
