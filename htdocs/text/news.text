@@ -1,3 +1,18 @@
+5 August 2009
+GParted 0.4.6
+<br>
+This release of GParted includes some bug fixes, and language
+translation updates.
+<br><br>
+Key changes include:
+<ul>
+<li>Removed requirement for xxd for ntfs move or paste action</li>
+<li>Enhanced for new linux-swap "filesystem" types from parted-1.9.0</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.4.6/gparted-0.4.6-notes.txt/download'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 8 May 2009
 GParted 0.4.5
 <br>
