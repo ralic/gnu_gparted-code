@@ -121,6 +121,11 @@ Many thanks for your donation!<br>
 	<TD><B>Description</B></TD>
 	<TD><B>Amount</B></TD>
 </TR>
+<TR>
+	<TD>2009-08-11</TD>
+	<TD>Domain name gparted.org transfer</TD>
+	<TD>8 USD</TD>
+</TR>
 </TABLE>
 <br>
 
