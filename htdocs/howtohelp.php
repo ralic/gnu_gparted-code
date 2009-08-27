@@ -45,10 +45,10 @@ over a wide range of Internet speed connections.<br>
 <br>
 The web site is written in <a href="http://en.wikipedia.org/wiki/PHP">PHP</a>
 and the source pages are managed under <a href="http://git-scm.com/">git</a>.<br>
-You can <a href="http://gparted.git.sourceforge.net/git/gitweb.cgi?p=gparted">browse</a> the git repository visually,
+You can <a href="http://gparted.git.sourceforge.net/git/gitweb.cgi?p=gparted/gparted">browse</a> the git repository visually,
 or acquire a copy of the latest web site source code with the following command:<br>
 <br>
-<code>git clone git://gparted.git.sourceforge.net/gitroot/gparted</code>
+<code>git clone git://gparted.git.sourceforge.net/gitroot/gparted/gparted</code>
 </p>
 <h3>Coding</h3>
 <p>
