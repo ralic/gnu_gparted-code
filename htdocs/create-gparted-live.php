@@ -38,16 +38,14 @@ deb http://free.nchc.org.tw/drbl-core drbl unstable testing stable live-stable l
 <li>apt-get install live-helper cdebootstrap drbl clonezilla zip bzip2 rsync mkisofs
 <li>Mount a working space, you need at least 600 MB. e.g. mount /dev/hdb1 /mnt
 <li>cd /mnt
-<li>Edit /opt/drbl/sbin/create-gparted-live to meet your need if necessary, e.g. if you want to add some package, you can append the package name in the variable "pkgs" if it exists in the Debian repository. E.g. if you want to add the package "pcmanfm", you can try to search it in the Debian repository by: "apt-cache search pcmanfm". Once you are sure it's in repository, you can add it. It is recommended to modify the 2 varialbes:
-<pre>
-mirror_url="http://free.nchc.org.tw/debian"
-mirror_security_url="http://free.nchc.org.tw/debian-security/"
-</pre>
-     to use any debian mirror site near you so it will save you some time when downloading packages.
-<li>/opt/drbl/sbin/create-gparted-live<br>
+<li>Edit /opt/drbl/sbin/create-gparted-live to meet your need if necessary, e.g. if you want to add some package, you can append the package name in the variable "pkgs" if it exists in the Debian repository. E.g. if you want to add the package "pcmanfm", you can try to search it in the Debian repository by: "apt-cache search pcmanfm". Once you are sure it's in repository, you can add it.
+<li>Run: "/opt/drbl/sbin/create-gparted-live" to create GParted live,<br>
 or to use the unstable branch of DRBL and experimental branch of live on drbl repository:<br>
 /opt/drbl/sbin/create-gparted-live -l en -b u -e e<br>
-For more info, you can run "/opt/drbl/sbin/create-gparted-live --help"
+If you want to assign different repositories to download files, you can run something like:<br>
+/opt/drbl/sbin/create-gparted-live -l en -b u -e e -m http://ftp.us.debian.org/debian -s http://security.debian.org -g http://drbl.sourceforge.net/drbl-core<br>
+For more info, you can run "/opt/drbl/sbin/create-gparted-live --help"<br>
+BTW, in the file "GParted-Live-Version" in the GParted live iso file, you can find the command which was used to create the GParted iso file.
 </ol>
 
 <br><br><br><br><br><br><br><br><br>
