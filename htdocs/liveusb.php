@@ -26,7 +26,7 @@ gnome_menu();
     <ul>
       <li>Choice 1 (Use GUI program on MS windows):<br>
 	<ul>
-	  <li>Download <a href="https://sourceforge.net/project/showfiles.php?group_id=241180" target=_blank>Live USB Helper</a> to help you to create this Live USB flash drive. Just install the program on MS windows, then you can follow the GUI to create the live. You need the GParted live zip file for this method. <font color=red>PS.</font> To run Live USB helper program on MS windows, you need a dll file "vb6stkit.dll". If Live USB helper complains about no vb6stkit.dll was found, you can download it on <a href="http://www.dll-files.com" target="_blank">http://www.dll-files.com</a> and read the <a href="http://www.dll-files.com/support/faq.shtml" target=_blank>FAQ</a> to install it.
+	  <li>Download <a href="https://sourceforge.net/projects/liveusbhelper/files/Live%20USB%20Helper/" target=_blank>Live USB Helper</a> to help you to create this Live USB flash drive. Just install the program on MS windows, then you can follow the GUI to create the live. You need the GParted live zip file for this method. <font color=red>PS.</font> To run Live USB helper program on MS windows, you need a dll file "vb6stkit.dll". If Live USB helper complains about no vb6stkit.dll was found, you can download it on <a href="http://www.dll-files.com" target="_blank">http://www.dll-files.com</a> and read the <a href="http://www.dll-files.com/support/faq.shtml" target=_blank>FAQ</a> to install it.
 	  </li>
 	</ul>
       </li>
