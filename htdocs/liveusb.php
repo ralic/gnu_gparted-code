@@ -55,7 +55,7 @@ gnome_menu();
 	    <ol>
 	      <li>Download the <a href="http://h50178.www5.hp.com/local_drivers/17550/SP27608.exe">HP-USB Format tool</a> and format your flash drive using the Fat or Fat32 option. This program can be used to format USB devices that won't boot properly when formatted with MS windows format tool.
 	      <li>Extract all the contents of the zip file to your "flash drive." Keep the directory architecture, for example, file "COPYING" should be in the USB flash drive's top directory (e.g. G:\COPYING).
-	      <li>Browse to your "flash drive" and click the makeboot.bat. <font color="red">WARNING! Makeboot.bat must be run from your USB flash drive. Executing it incorrectly could cause your MS windows not to boot.</font>
+	      <li>Browse to your "flash drive" and click the makeboot.bat in the dir utils\win32\. <font color="red">WARNING! Makeboot.bat must be run from your USB flash drive. Executing it incorrectly could cause your MS windows not to boot.</font>
 	      <li>Follow the on-screen instructions.
 	    </ol>
 	  </li>
