@@ -32,6 +32,7 @@ For GParted Live on a PXE server, check <a href="livepxe.php">this doc</a>.<br>
 For GParted Live on Hard Disk, check <a href="livehd.php">this doc</a>.<br>
 <br><br>
 GParted Live downloads can be found <a href="download.php">here</a>.<br>
+As for the packages comes with GParted live, you can check the file "live/packages.txt" inside the GParted iso file or zip file.<br>
 <br><br>
 <font color="red">///NOTE/// It is recommended to do a whole disk or partition image backup before you use GParted to resize or move your partition.</font>
 Some free (GPL) disk or partition image tools, which provide live CD or USB flash drive so that you do not have to install or configure, are available:<br>
@@ -40,6 +41,7 @@ Some free (GPL) disk or partition image tools, which provide live CD or USB flas
 <li><a href="http://g4l.sourceforge.net" target=_blank>G4L</a>
 <li><a href="http://www.feyrer.de/g4u" target=_blank>g4u</a>
 <li><a href="http://partimage.org" target=_blank>Partimage</a>
+<li><a href="http://partclone.org" target=_blank>Partclone</a>
 </ul>
 
 <br><br>
