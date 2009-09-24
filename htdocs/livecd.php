@@ -22,8 +22,10 @@ gnome_menu();
 It enables you to use all the features of the latest versions of GParted.<br>
 <br>
 GParted Live can be installed on CD, USB, PXE server, and Hard Disk then run on an x86 machine.<br>
+<!--
 <br>
 <font color="red">///WARNING/// Due to a hardware/firmware bug, it's _NOT_ recommended to run GParted live on some types of HP Pavilion machines. Otherwise your VGA card fan might be dead. For more info, please refer to <a href="http://bugzilla.gnome.org/show_bug.cgi?id=579000" target=_blank>this bug report</a>.</font>
+-->
 <br>
 <br>
 For GParted Live on CD, download the .iso file and burn it as an image to a CD.<br>
