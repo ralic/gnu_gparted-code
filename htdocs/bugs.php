@@ -18,7 +18,7 @@ gnome_menu();
 ?>
 <div class="content">
 <h1>Bugs</h1>
-Please file new bugs <a href="http://bugzilla.gnome.org/simple-bug-guide.cgi?product=gparted">here</a>. <br>
+Please file new bugs <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=gparted">here</a>. <br>
 <i>Make sure to search all bugs to see if your bug is already known! This is very important, because duplicate bugs are confusing and cost lots of time.</i>
 <br>
 <br>
