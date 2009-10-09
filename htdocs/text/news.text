@@ -1,3 +1,18 @@
+9 October 2009
+GParted 0.4.7
+<br>
+This release of GParted includes some bug fixes, and language
+translation updates.
+<br><br>
+Key changes include:
+<ul>
+<li>Fixed new partition creation size off by one sector</li>
+<li>Improved recognition of dmraid devices</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.4.7/gparted-0.4.7-notes.txt/download'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 5 August 2009
 GParted 0.4.6
 <br>
