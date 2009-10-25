@@ -29,11 +29,11 @@ If you do not have such a partition, you can use <a href="http://gparted.sf.net"
 -----------<br>
 title           GParted live<br>
 root            (hd0,3)<br>
-kernel 		/live/vmlinuz1 toram boot=live union=aufs noswap noprompt vga=788 ip=frommedia<br>
+kernel 		/live/vmlinuz1 toram=filesystem.squashfs boot=live union=aufs noswap noprompt vga=788 ip=frommedia<br>
 initrd 		/live/initrd1.img<br>
 boot<br>
 -----------<br>
-   //NOTE// Here we put an extra param "toram" so that the partition /dev/hda4 won't be locked. In grub syntax, here /dev/hda4 is (hd0,3).<br>
+   //NOTE// Here we put an extra param "toram=filesystem.squashfs" so that the partition /dev/hda4 won't be locked. In grub syntax, here /dev/hda4 is (hd0,3).<br>
    <font color="red">Remember to check parameters in syslinux/syslinux.cfg from the zip file, copy them to here. It might be different from here, say vmlinuz1 path maybe different.</font><br>
    For more info about grub, you can refere to <a href="http://www.gnu.org/software/grub/" target=_blank>here</a>.<br>
 
