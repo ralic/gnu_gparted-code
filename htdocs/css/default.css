@@ -132,11 +132,6 @@ ul.nobullet {
 
 	padding-bottom: 3px;
 	padding-top: 3px;
-	-moz-border-radius: .75em .75em .75em .75em;
-	border-radius-topleft: .75em;
-	border-radius-topright: .75em;
-	border-radius-bottomleft: .75em;
-	border-radius-bottomright: .75em;
 }
 .sectiontitle {
 	width: 150px;
@@ -165,11 +160,6 @@ ul.nobullet {
 .statustable {
 	border-style: solid;
 	border-color: #dddddd;
-	-moz-border-radius: .75em .75em .75em .75em;
-	border-radius-topleft: .75em;
-	border-radius-topright: .75em;
-	border-radius-bottomleft: .75em;
-	border-radius-bottomright: .75em;
 	background-color: #fafafa;
 	padding: 3px;
 }
@@ -178,13 +168,8 @@ ul.nobullet {
 }
 
 .logmsg {
-    border-style: solid;
-    border-color: black;
-    -moz-border-radius: .75em .75em .75em .75em;
-    border-radius-topleft: .75em;
-	border-radius-topright: .75em;
-    border-radius-bottomleft: .75em;
-	border-radius-bottomright: .75em;
+	border-style: solid;
+	border-color: black;
 	background-color: #fafafa;
 	padding: 3px;
 	position: absolute;
