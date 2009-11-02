@@ -1,3 +1,20 @@
+2 November 2009
+GParted 0.4.8
+<br>
+This release of GParted includes some bug fixes, and language
+translation updates.
+<br><br>
+Key changes include:
+<ul>
+<li>Ensure no pending operations before creating partition table</li>
+<li>Improve dmraid device and name recognition</li>
+<li>Add support for devicekit-disks device automount prevention</li>
+<li>Fix problem finding symbolic link device mount points</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.4.8/gparted-0.4.8-notes.txt/download'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 9 October 2009
 GParted 0.4.7
 <br>
