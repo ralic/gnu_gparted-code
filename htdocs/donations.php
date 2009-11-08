@@ -40,7 +40,7 @@ Many thanks for your donation!<br>
 <TR>
 	<TD>2009-11-06</TD>
 	<TD>anonymous</TD>
-	<TD>10 USD (- 0.69 USD to SP)</TD>
+	<TD>10 USD (- 0.69 USD to PP)</TD>
 </TR>
 <TR>
 	<TD>2009-09-27</TD>
