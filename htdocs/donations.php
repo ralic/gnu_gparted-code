@@ -39,7 +39,7 @@ Many thanks for your donation!<br>
 </TR>
 <TR>
 	<TD>2009-11-08</TD>
-	<TD>anonymous</TD>
+	<TD>Abe Skray</TD>
 	<TD>20 USD (- 0.88 USD to PP)</TD>
 </TR>
 <TR>
