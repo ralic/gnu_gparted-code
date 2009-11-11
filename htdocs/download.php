@@ -25,6 +25,21 @@ Editing partitions has the potential to cause <b><u>LOSS of DATA</u></b>.<br>
 You are advised to <b><u>BACKUP your DATA</u></b> before using
 the gparted application.<br>
 </i></p>
+<p><font color="red">
+
+<b>WARNING</b>: &nbsp; Recently there have been several reports of
+problems when resizing NTFS file systems.  The error message seen
+after the partition is resized is:<br>
+<br>
+ &nbsp; &nbsp; &nbsp; ERROR: Current NTFS volume size is bigger than the device size!<br>
+<br>
+We are investigating to find the root cause of the problem.  Until
+this problem is solved we recommend that you do not resize NTFS file
+systems using GParted.
+<br>
+The bug report to track this problem is 
+<a href="https://bugzilla.gnome.org/show_bug.cgi?id=601574">bug #601574</a>
+</font></p>
 <h3>GParted</h3>
 Browse releases of GParted source code <a href="http://sourceforge.net/projects/gparted/files/gparted/">here</a><br>
 <br>
