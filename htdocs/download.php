@@ -26,7 +26,6 @@ You are advised to <b><u>BACKUP your DATA</u></b> before using
 the gparted application.<br>
 </i></p>
 <p><font color="red">
-
 <b>WARNING</b>: &nbsp; Recently there have been several reports of
 problems when resizing NTFS file systems.  The error message seen
 after the partition is resized is:<br>
@@ -34,8 +33,9 @@ after the partition is resized is:<br>
  &nbsp; &nbsp; &nbsp; ERROR: Current NTFS volume size is bigger than the device size!<br>
 <br>
 We are investigating to find the root cause of the problem.  Until
-this problem is solved we recommend that you do not resize NTFS file
-systems using GParted.
+this problem is solved we recommend
+<a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/OldFiles/0.4.6-1/">GParted Live 0.4-6-1</a>
+for resizing all file systems.
 <br>
 The bug report to track this problem is 
 <a href="https://bugzilla.gnome.org/show_bug.cgi?id=601574">bug #601574</a>
