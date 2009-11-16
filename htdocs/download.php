@@ -26,20 +26,20 @@ You are advised to <b><u>BACKUP your DATA</u></b> before using
 the gparted application.<br>
 </i></p>
 <p><font color="red">
-<b>WARNING</b>: &nbsp; Recently there have been several reports of
-problems when resizing NTFS file systems.  The error message seen
-after the partition is resized is:<br>
+
+<b>WARNING</b>: &nbsp; Do not use GParted with unpatched parted-1.9.0.<br>
+When used with newer Linux kernels, such as 2.6.30, unpatched
+parted-1.9.0 fails to properly inform the kernel of changes to
+partition tables.<br>
 <br>
- &nbsp; &nbsp; &nbsp; ERROR: Current NTFS volume size is bigger than the device size!<br>
+ &nbsp; &nbsp; &nbsp; <a href="https://bugzilla.gnome.org/show_bug.cgi?id=601574">Bug #601574 - ERROR: Current NTFS volume size is bigger than the device size!</a><br>
 <br>
-We are investigating to find the root cause of the problem.  Until
-this problem is solved we recommend
-<a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/OldFiles/0.4.6-1/">GParted Live 0.4-6-1</a>
-for resizing all file systems.
+The critical patch that must be applied is:
+<a href="http://git.debian.org/?p=parted/parted.git;a=commit;h=ad25892bb995f61b0ddf801ed1f74e0b1e7390ce">Patch for 'commit to os' for linux</a><br>
 <br>
-The bug report to track this problem is 
-<a href="https://bugzilla.gnome.org/show_bug.cgi?id=601574">bug #601574</a>
+This problem has been fixed with GParted Live 0.4.8-6.<br>
 </font></p>
+
 <h3>GParted</h3>
 Browse releases of GParted source code <a href="http://sourceforge.net/projects/gparted/files/gparted/">here</a><br>
 <br>
