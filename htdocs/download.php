@@ -25,20 +25,10 @@ Editing partitions has the potential to cause <b><u>LOSS of DATA</u></b>.<br>
 You are advised to <b><u>BACKUP your DATA</u></b> before using
 the gparted application.<br>
 </i></p>
-<p><font color="red">
-
-<b>WARNING</b>: &nbsp; Do not use GParted with unpatched parted-1.9.0.<br>
-When used with newer Linux kernels, such as 2.6.30, unpatched
-parted-1.9.0 fails to properly inform the kernel of changes to
-partition tables.<br>
-<br>
- &nbsp; &nbsp; &nbsp; <a href="https://bugzilla.gnome.org/show_bug.cgi?id=601574">Bug #601574 - ERROR: Current NTFS volume size is bigger than the device size!</a><br>
-<br>
-The critical patch that must be applied is:
-<a href="http://git.debian.org/?p=parted/parted.git;a=commit;h=ad25892bb995f61b0ddf801ed1f74e0b1e7390ce">Patch for 'commit to os' for linux</a><br>
-<br>
-This problem has been fixed with GParted Live 0.4.8-6.<br>
-</font></p>
+<p><i>
+<b>CAUTION</b>: &nbsp; Ensure Parted 1.9.0 is patched if using with GParted.<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; See <a href="news.php">News</a> item dated 17 November 2009.
+</i></p>
 
 <h3>GParted</h3>
 Browse releases of GParted source code <a href="http://sourceforge.net/projects/gparted/files/gparted/">here</a><br>

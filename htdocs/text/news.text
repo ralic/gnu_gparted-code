@@ -1,3 +1,23 @@
+17 November 2009
+Ensure Parted 1.9.0 is patched if using with GParted
+<br>
+When using GParted with newer Linux kernels, such as 2.6.30, unpatched
+parted-1.9.0 fails to properly inform the kernel of changes to
+partition tables.<br>
+<br>
+ &nbsp; &nbsp; &nbsp; See <a href="https://bugzilla.gnome.org/show_bug.cgi?id=601574">Bug #601574 - ERROR: Current NTFS volume size is bigger than the device size!</a><br>
+<br>
+The critical patch that must be applied to parted-1.9.0 is:
+<a href="http://git.debian.org/?p=parted/parted.git;a=commit;h=ad25892bb995f61b0ddf801ed1f74e0b1e7390ce">Patch for 'commit to os' for linux</a><br>
+<br>
+Patched versions of Parted can be found at the
+<a href="http://koji.fedoraproject.org/koji/buildinfo?buildID=129982">fedora site</a>.<br>
+<br>
+This problem has been fixed with
+<a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/">GParted Live 0.4.8-6</a>.<br>
+<br>
+Curtis
+---
 2 November 2009
 GParted 0.4.8
 <br>
