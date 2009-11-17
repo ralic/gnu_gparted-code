@@ -132,6 +132,15 @@ gnome_menu();
     </p>
 <H3>Wiki doc</H3>
 <p>Thanks to Dennis German, a wiki doc is online. See <a href="http://en.wikipedia.org/wiki/GParted">Wiki Doc</a>.</p>
+<H3>Third Party Docs</H3>
+<p>A collection of useful third party documentation.<br>
+<br>
+<a href="http://www.dedoimedo.com/computers/gparted.html">GParted partitioning software - Full Tutorial</a>
+<br>
+<a href="http://www.howtogeek.com/howto/windows-vista/using-gparted-to-resize-your-windows-vista-partition/">Using GParted to Resize Your Windows Vista Partition</a>
+<br>
+</p>
+
 <hr>
 <H3>Related Docs</H3>
 <p>
@@ -142,9 +151,17 @@ gparted.
 <BR>
 <A href="http://www.win.tue.nl/~aeb/linux/Large-Disk.html">Large Disk HOWTO</A>
 <BR>
-<A href="docs/secure-deletion/C/secure_del.html">Secure Deletion of Data from Magnetic and Solid-State Memory</A>
+<A href="http://www.cs.auckland.ac.nz/~pgut001/pubs/secure_del.html">Secure Deletion of Data from Magnetic and Solid-State Memory</A>
 <BR>
 <A href="http://en.wikipedia.org/wiki/Comparison_of_file_systems">Comparison of filesystems</A>
+<BR>
+<A href="http://en.wikipedia.org/wiki/Master_boot_record">Master Boot Record</A>
+<BR>
+<A href="http://en.wikipedia.org/wiki/Extended_boot_record">Extended Boot Record</A>
+<BR>
+<A href="http://en.wikipedia.org/wiki/GUID_Partition_Table">GUID Partition Table</A>
+<BR>
+<A href="http://mirror.href.com/thestarman/asm/mbr/NTFSBR.htm">NTFS Boot Record Secrets</A>
 <BR>
 </P>
 </div>
