@@ -42,7 +42,7 @@ menuentry "GParted live" {<br>
 } <br>
 <p>================================================<br>
        Then run "update-grub2" to update your grub2 config. (Thanks to Louie Chen for providing this). <br><br>
-       Besides, from GParted live version 0.4.8-7, you can use only the GParted live iso file in grub2 (Thanks to the patches files from <a href="http://grml.org" target=_blank>grml</a>). For example, put gparted-live-0.4.8-7.iso in dir /home/isos/, then make the grub2 custom menu like:<br>
+       Besides, from GParted live version 0.4.8-7, you can use only the GParted live iso file in grub2 (Thanks to the patches files from <a href="http://grml.org" target=_blank>grml</a>). For example, put gparted-live-0.4.8-7.iso in dir /home/isos/, then make the grub2 custom file /etc/grub.d/40_custom like:<br>
 <p>================================================<br>
     menuentry "Gparted live" {<br>
     set isofile="/home/isos/gparted-live-0.4.8-7.iso"<br>
@@ -52,6 +52,7 @@ menuentry "GParted live" {<br>
     initrd (loop)/live/initrd1.img<br>
 }
 <p>================================================<br>
+       Then run "update-grub2" to update your grub2 config.<br>
 </ol>
    //NOTE// Here we put an extra param "toram=filesystem.squashfs" so that the partition /dev/hda4 won't be locked. In grub syntax, here /dev/hda4 is (hd0,3).<br>
    <font color="red">Remember to check parameters in syslinux/syslinux.cfg from the zip file, copy them to here. It might be different from here, say vmlinuz1 path maybe different.</font><br>
