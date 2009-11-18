@@ -52,19 +52,19 @@ Why do i need kernel support to resize certain filesystems (e.g. xfs) ?
 That's because those file systems can only be resized when they are mounted and you can only mount a file system if the kernel has support for it.
 ---
 7
-Why does "Scanning all devices..." take exceedingly long on some computers, but is quite fast on others?
+Why does "Scanning all devices..." take exceedingly long on some computers?
 1. Check the BIOS settings.  This problem can be caused when the BIOS indicates that a floppy drive is present, but no physical floppy drive is installed.
 <br><br>
 2. A work around is to start gparted from the command line and pass the name of the device(s) you wish to partition.<br>
 E.g., gparted /dev/hda
 ---
 8
-Why has Gnome automounting of devices stopped working after gparted terminated abnormally?
+Why has Gnome automounting of devices stopped working?
 GParted version 0.3.6 (and many earlier versions) created a file to
 prevent problems that occur if a device is automounted while gparted is
 working on the device.
 This file is removed when GParted exits normally.
-However, if GParted crashed it could leave this file on the computer.
+However, if GParted terminated abnormally it could leave this file on the computer.
 <br><br>
 Newer GParted versions (0.3.7 and greater) do not use this file, and instead rely on hal-lock to acquire device locks.
 <br><br>
@@ -87,7 +87,7 @@ If your PC did not come with a complete Vista installation CD, you can download 
 <a href="http://neosmart.net/blog/2008/windows-vista-recovery-disc-download/">Windows Vista Recovery Disc</a>
 ---
 10
-After moving or resizing my GRUB boot partition, GRUB fails to boot.  How can I fix this?
+GRUB fails to boot.  How can I fix this?
 The cause of this problem is that the absolute physical hard disk sector
 containing the start of the stage2 file has changed.
 When GRUB is installed, this absolute position is hard-coded into GRUB stage1.
@@ -101,8 +101,20 @@ More information can be found at the following link:<br>
 <a href="http://gparted.sourceforge.net/docs/help-manual/C/gparted_manual.html#gparted-fix-grub-boot-problem">Fixing GRUB Boot Problem</a>
 ---
 11
-I am having difficulty shrinking my NTFS partition.  How can I improve my ability to shrink the partition?
+How can I improve my ability to shrink an NTFS partition?
 Tips on how to improve the ability to shrink NTFS partitions can be found in the GParted Manual <a href="http://gparted.sourceforge.net/docs/help-manual/C/gparted_manual.html#gparted-advanced-partition-actions">here</a>.
 <br><br>
 Forum member <i>cmdr</i> wrote some detailed instructions on resizing NTFS partitions that can be found at the following link:<br>
 <a href="http://gparted-forum.surf4.info/viewtopic.php?id=2892">Forum Post - Resize-Windows</a>
+---
+12
+How do I restore my Windows drive letters?
+Sometimes after a disk configuration change, Windows will change the
+drive letter assignment (e.g., from C: to D:).<br>
+<br>
+If this occurs for the boot drive letter, then see:<br>
+<a href="http://support.microsoft.com/kb/223188">How to restore the system/boot drive letter in Windows</a><br>
+<br>
+If this occurs for a non-boot drive letter, then see one of the following links:<br>
+<a href="http://support.microsoft.com/kb/307844">How to change drive letter assignments in Windows XP</a><br>
+<a href="http://windows.microsoft.com/en-us/windows-vista/Change-add-or-remove-a-drive-letter">How to change, add, or remove a drive letter in Windows Vista</a><br>
