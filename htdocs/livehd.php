@@ -30,18 +30,19 @@ If you do not have such a partition, you can use <a href="http://gparted.sf.net"
 <p>================================================<br>
 title           GParted live<br>
 root            (hd0,3)<br>
-kernel 		/live-hd/vmlinuz1 boot=live union=aufs noswap noprompt vga=788 ip=frommedia <font color="red">live-media-path=/live-hd bootfrom=/dev/hda toram=filesystem.squashfs</font><br>
+kernel 		/live-hd/vmlinuz1 boot=live union=aufs noswap noprompt vga=788 ip=frommedia <font color="red">live-media-path=/live-hd bootfrom=/dev/hda4 toram=filesystem.squashfs</font><br>
 initrd 		/live-hd/initrd1.img<br>
 boot<br>
 <p>================================================<br>
 <li> If your grub is 2.x (grub-pc), e.g. on Debian Squeeze or Ubuntu 9.10, edit /etc/grub.d/40_custom, make it like:<br>
 <p>================================================<br>
 menuentry "GParted live" {<br>
-  linux /live/vmlinuz1 boot=live union=aufs noswap noprompt vga=788 ip=frommedia <font color="red">live-media-path=/live-hd bootfrom=/dev/hda toram=filesystem.squashfs</font><br>
+  set root=(hd0,4)
+  linux /live-hd/vmlinuz1 boot=live union=aufs noswap noprompt vga=788 ip=frommedia <font color="red">live-media-path=/live-hd bootfrom=/dev/hda4 toram=filesystem.squashfs</font><br>
   initrd /live-hd/initrd1.img<br>
 } <br>
 <p>================================================<br>
-       Then run "update-grub2" to update your grub2 config. (Thanks to Louie Chen for providing this). <br><br>
+   //NOTE// In grub2, (hd0,4) means the first harddrive and the 4th partition. It's different from that in grub version 1. Then run "update-grub2" to update your grub2 config. (Thanks to Louie Chen for providing this). <br><br>
        Besides, from GParted live version 0.4.8-7, you can use only the GParted live iso file in grub2 (Thanks to the patches files from <a href="http://grml.org" target=_blank>grml</a>). For example, put gparted-live-0.4.8-7.iso in dir /home/isos/, then make the grub2 custom file /etc/grub.d/40_custom like:<br>
 <p>================================================<br>
     menuentry "Gparted live" {<br>
