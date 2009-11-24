@@ -30,6 +30,12 @@ the gparted application.<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; See <a href="news.php">News</a> item dated 17 November 2009.
 </i></p>
 
+<p>
+If you use GParted and it helps you with your task, please consider making
+a donation to help us make GParted better.<br>
+<a href="donations.php"><img src="images/btn_donate_LG.gif" border="0" alt="Donate to GParted"></a>
+</p>
+
 <h3>GParted</h3>
 Browse releases of GParted source code <a href="http://sourceforge.net/projects/gparted/files/gparted/">here</a><br>
 <br>
