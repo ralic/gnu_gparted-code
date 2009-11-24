@@ -17,19 +17,37 @@ gnome_menu();
 ?>
 <div class="content">
 <H1>Donations</H1>
-If you wish to donate to the GParted project you have come to the right place. It's not like creating GParted costed us lots of money, but we have our expenses (e.g. hardware) and we are grateful for any financial support.<br>
-<br>
-Money we don't need will go to one of the plugins, libparted, another OSS project or a charity. I'd like to keep a list of the donations and our expenses to keep everything 'open'.<br>
-<br>
-Many thanks for your donation!<br>
-<br>
-<H3>GParted Application & GParted Live</H3>
-<a href="https://sourceforge.net/donate/index.php?group_id=115843"><img src="images/supportproject.png" alt="Support this GParted project"></a>
- &nbsp; 
-<a href="https://sourceforge.net/donate/index.php?group_id=115843">Make a Donation</a>
+The GParted Project endeavours to provide a safe, easy way to manage
+disk device partitions.  If you enjoy using our software, please
+consider making a donation.<br>
+<ul>
+<li>
+<a href="https://sourceforge.net/donate/index.php?group_id=115843">Donate via SourceForge.net</a>
+</li>
+<li>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<p>Donate via PayPal:
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="1930500">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</p>
+</form>
+</li>
+</ul>
+Your donation will help us to make GParted better.
 <br>
 <br>
 
+We maintain a list of the donations and our expenses to keep
+everything open.  By default each donation is listed as 'anonymous' to
+protect your identity.  If you would like your name or userid
+displayed then please let me know,
+<a href="mailto:gedakc&#064;users.sf.net">mailto: Curtis Gedak</a>.<br>
+
+<br>
+We are grateful for all donations.<br>
+<br>
 <H3>Received Donations</H3>
 <TABLE border=1>
 <TR>
