@@ -37,7 +37,7 @@ boot<br>
 <li> If your grub is 2.x (grub-pc), e.g. on Debian Squeeze or Ubuntu 9.10, edit /etc/grub.d/40_custom, make it like:<br>
 <p>================================================<br>
 menuentry "GParted live" {<br>
-  set root=(hd0,4)
+  set root=(hd0,4)<br>
   linux /live-hd/vmlinuz1 boot=live union=aufs noswap noprompt vga=788 ip=frommedia <font color="red">live-media-path=/live-hd bootfrom=/dev/hda4 toram=filesystem.squashfs</font><br>
   initrd /live-hd/initrd1.img<br>
 } <br>
