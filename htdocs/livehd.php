@@ -34,6 +34,7 @@ kernel 		/live-hd/vmlinuz1 boot=live union=aufs noswap noprompt vga=788 ip=fromm
 initrd 		/live-hd/initrd1.img<br>
 boot<br>
 <p>================================================<br>
+ In grub version 1 syntax, /dev/hda4 is (hd0,3).<br>
 <li> If your grub is 2.x (grub-pc), e.g. on Debian Squeeze or Ubuntu 9.10, edit /etc/grub.d/40_custom, make it like:<br>
 <p>================================================<br>
 menuentry "GParted live" {<br>
@@ -55,7 +56,7 @@ menuentry "GParted live" {<br>
 <p>================================================<br>
        Then run "update-grub2" to update your grub2 config.<br>
 </ol>
-   //NOTE// Here we put an extra param "toram=filesystem.squashfs" so that the partition /dev/hda4 won't be locked. In grub syntax, here /dev/hda4 is (hd0,3).<br>
+   //NOTE// Here we put an extra param "toram=filesystem.squashfs" so that the partition /dev/hda4 won't be locked.<br>
    <font color="red">Remember to check parameters in syslinux/syslinux.cfg from the zip file, copy them to here. It might be different from here, say vmlinuz1 path maybe different.</font><br>
    For more info about grub, you can refere to <a href="http://www.gnu.org/software/grub/" target=_blank>here</a>.<br>
 
