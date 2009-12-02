@@ -1,3 +1,25 @@
+2 December 2009
+GParted 0.5.0
+<br>
+This release of GParted adds support for Linux software RAID.
+<br><br>
+RAID systems now supported include:
+<br>
+<ul>
+<li>Hardware RAID</li>
+<li>Motherboard BIOS RAID (also known as Fake RAID - dmraid)</li>
+<li>Linux Software RAID (mdadm)</li>
+</ul>
+Key changes include:
+<ul>
+<li>Add auto detection of Linux software RAID devices</li>
+<li>Re-enable ability to paste into an existing partition</li>
+<li>Ensure parted-1.9.0 is patched if using with GParted</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.5.0/gparted-0.5.0-notes.txt/download'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 17 November 2009
 Ensure Parted 1.9.0 is patched if using with GParted
 <br>
