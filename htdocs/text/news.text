@@ -35,8 +35,14 @@ The critical patch that must be applied to parted-1.9.0 is:
 Patched versions of Parted can be found at the
 <a href="http://koji.fedoraproject.org/koji/buildinfo?buildID=129982">fedora site</a>.<br>
 <br>
-This problem has been fixed with
+Instructions on how to apply the patches can be found at the following link:<br>
+<a href="http://gparted-forum.surf4.info/viewtopic.php?id=13827">How to apply fedora patches to parted-1.9.0</a><br>
+<br>
+This problem has been fixed starting with
 <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/">GParted Live 0.4.8-6</a>.<br>
+<br>
+If you experience this problem, please post a request for help in the GParted
+<a href="forum.php">forum</a>.<br>
 <br>
 Curtis
 ---
