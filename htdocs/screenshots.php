@@ -86,6 +86,12 @@ Manage flags...
 <a href="screens/gparted_11.jpg" >
 	<img src="screens/gparted_11.jpg" alt="flags"/></a>
 <br><br><br>
+
+GParted live boot menu...
+<br>
+<a href="screens/gparted_12_live_boot_menu.png" >
+	<img src="screens/gparted_12_live_boot_menu.png" alt="flags"/></a>
+<br><br><br>
 </div>
 
 <? gnome_foot() ?>
