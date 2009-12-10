@@ -30,6 +30,33 @@ the gparted application.<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; See <a href="news.php">News</a> item dated 17 November 2009.
 </i></p>
 
+<p><font color="red">
+
+<b>WARNING</b>: &nbsp; Recently there have been several reports of
+problems when resizing file systems using gparted-live-0.5.0-3.  In
+the case of the NTFS file system, The error message seen after the
+partition is resized is:<br>
+<br>
+ &nbsp; &nbsp; &nbsp; ERROR: Current NTFS volume size is bigger than the device size!<br>
+<br>
+The problem appears to be related to the combination of packages,
+Linux kernel, and patches used in the GParted Live image.  We are
+investigating to find the root cause of the problem.  Until this
+problem is solved we recommend
+<a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/OldFiles/0.4.6-1/">GParted Live 0.4-6-1</a>
+for resizing all file systems.<br>
+<br>
+The bug report to track this problem is 
+<a href="https://bugzilla.gnome.org/show_bug.cgi?id=604298">bug #604298</a>.<br>
+<br>
+The forum post
+<a href="http://gparted-forum.surf4.info/viewtopic.php?id=13777">"WARNING! Problem Resizing File Systems with GParted"</a>
+contains a list of the confirmed cases of this problem.<br>
+<br>
+If you experience this problem, please open a new post in the
+<a href="forum.php">GParted forum</a>.
+</font></p>
+
 <p>
 If you use GParted and it helps you with your task, please consider making
 a donation to help us make GParted better.<br>
