@@ -24,19 +24,15 @@ gnome_menu();
 <ul>
   <li><a name="on_MS_windows"></a>Extract files and make USB flash drive bootable under MS windows
     <ul>
+      <!--
       <li>Choice 1 (Use GUI program on MS windows):<br>
 	<ul>
 	  <li>Download <a href="https://sourceforge.net/projects/liveusbhelper/files/Live%20USB%20Helper/" target=_blank>Live USB Helper</a> to help you to create this Live USB flash drive. Just install the program on MS windows, then you can follow the GUI to create the live. You need the GParted live zip file for this method. <font color=red>PS.</font> To run Live USB helper program on MS windows, you need a dll file "vb6stkit.dll". If Live USB helper complains about no vb6stkit.dll was found, you can download it on <a href="http://www.dll-files.com" target="_blank">http://www.dll-files.com</a> and read the <a href="http://www.dll-files.com/support/faq.shtml" target=_blank>FAQ</a> to install it.
 	  </li>
 	</ul>
       </li>
-      <li>Choice 2 (Another GUI program on MS windows):<br>
-	<ul>
-	  <li>Download <a href="http://unetbootin.sourceforge.net/" target=_blank>Unetbootin</a> to help you to create this Live USB flash drive. Just run the program on MS windows, then you can follow the GUI to create the live. You will need the GParted live iso file in this method. <font color=red>PS.</font> The boot menu created by Unetbootin is not exactly the same boot menu as the one created in choice 1. Therefore it's recommended to use the <a href="https://sourceforge.net/project/showfiles.php?group_id=241180" target=_blank>Live USB Helper</a> to create such a GParted live on USB flashd drive.
-	</ul>
-      </li>
-
-      <li>Choice 3 (Manually):<br>
+      -->
+      <li>Choice 1 (Manually):<br>
 	<ul>
 	  <li>
             (PS: The following description is modified from:
@@ -61,6 +57,17 @@ gnome_menu();
 	  </li>
 	</ul>
       </li>
+
+      <li>Choice 2 (A GUI program on MS windows):<br>
+	<ul>
+	  <li>Download <a href="http://unetbootin.sourceforge.net/" target=_blank>Unetbootin</a> to help you to create this Live USB flash drive. Just run the program on MS windows, then you can follow the GUI to create the live. You will need the GParted live iso file in this method. <font color=red>PS.</font> The boot menu created by Unetbootin is not exactly the same boot menu as the one created in choice 1. Therefore it's recommended to use the choice 1.
+              <!--
+              Therefore it's recommended to use the <a href="https://sourceforge.net/project/showfiles.php?group_id=241180" target=_blank>Live USB Helper</a> to create such a GParted live on USB flashd drive.
+              -->
+	</ul>
+      </li>
+
+
     </ul>
   </li>
   
