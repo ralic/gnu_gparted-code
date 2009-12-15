@@ -35,9 +35,6 @@ gnome_menu();
       <li>Choice 1 (Manually):<br>
 	<ul>
 	  <li>
-            (PS: The following description is modified from:
-            http://www.pendrivelinux.com/2007/01/02/all-in-one-usb-dsl.
-            Thanks to PDLA from http://pendrivelinux.com)<br>
 	    <font color="red">
 	      *****************************<br>
 	      WARNING!  WARNING!  WARNING!<br>
@@ -53,6 +50,9 @@ gnome_menu();
 	      <li>Extract all the contents of the zip file to your "flash drive." Keep the directory architecture, for example, file "COPYING" should be in the USB flash drive's top directory (e.g. G:\COPYING).
 	      <li>Browse to your "flash drive" and click the makeboot.bat in the dir utils\win32\. <font color="red">WARNING! Makeboot.bat must be run from your USB flash drive. Executing it incorrectly could cause your MS windows not to boot.</font>
 	      <li>Follow the on-screen instructions.
+            (PS: The above description is modified from:
+            http://www.pendrivelinux.com/2007/01/02/all-in-one-usb-dsl.
+            Thanks to PDLA from http://pendrivelinux.com)<br>
 	    </ol>
 	  </li>
 	</ul>
