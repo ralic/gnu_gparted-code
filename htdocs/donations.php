@@ -57,7 +57,7 @@ We are grateful for all donations.<br>
 </TR>
 <TR>
 	<TD>2009-12-16</TD>
-	<TD>anonymous</TD>
+	<TD>Andreas Bäß</TD>
 	<TD>20 USD (- 1.08 USD to PP)</TD>
 </TR>
 <TR>
