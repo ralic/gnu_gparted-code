@@ -13,7 +13,7 @@ Linux kernel, and patches used in the GParted Live image.  We are
 investigating to find the root cause of the problem.<br>
 <br>
 Until this problem is solved we recommend
-<a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/OldFiles/0.4.6-1/">GParted Live 0.4-6-1</a>
+<a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/OldFiles/0.4.6-1/">GParted Live 0.4.6-1</a>
 for resizing all file systems.<br>
 <br>
 The bug report to track this problem is 
@@ -23,8 +23,8 @@ The forum post
 <a href="http://gparted-forum.surf4.info/viewtopic.php?id=13777">"WARNING! Problem Resizing File Systems with GParted"</a>
 contains a list of the confirmed cases of this problem.<br>
 <br>
-If you experience this problem, please open a new post in the
-<a href="forum.php">GParted forum</a>.<br>
+If you experience this problem, please open a new post in the GParted
+<a href="forum.php">forum</a>.<br>
 <br>
 Curtis
 ---
