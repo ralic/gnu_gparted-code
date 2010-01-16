@@ -56,6 +56,11 @@ We are grateful for all donations.<br>
 	<TD><B>Amount</B></TD>
 </TR>
 <TR>
+	<TD>2010-01-15</TD>
+	<TD>anonymous</TD>
+	<TD>21.12 USD (- 0.91 USD to PP)</TD>
+</TR>
+<TR>
 	<TD>2010-01-10</TD>
 	<TD>Francois Drouin</TD>
 	<TD>30 USD (- 1.47 USD to PP)</TD>
