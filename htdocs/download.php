@@ -46,6 +46,9 @@ problem is solved we recommend
 <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/OldFiles/0.4.6-1/">GParted Live 0.4-6-1</a>
 for resizing all file systems.<br>
 <br>
+NOTE:  Do not use GParted Live 0.4.6-1 to resize ext4 file systems.  See:<br>
+<a href="http://gparted-forum.surf4.info/viewtopic.php?id=13960">Data corruption after resizing ext4 partitions with GParted Live 0.4.6-1</a>.<br>
+<br>
 The bug report to track this problem is 
 <a href="https://bugzilla.gnome.org/show_bug.cgi?id=604298">bug #604298</a>.<br>
 <br>
