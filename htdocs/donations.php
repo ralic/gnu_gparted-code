@@ -56,6 +56,11 @@ We are grateful for all donations.<br>
 	<TD><B>Amount</B></TD>
 </TR>
 <TR>
+	<TD>2010-01-23</TD>
+	<TD>Viv Brunner</TD>
+	<TD>20 USD (- 1.08 USD to PP)</TD>
+</TR>
+<TR>
 	<TD>2010-01-16</TD>
 	<TD>Thiebaut Mark</TD>
 	<TD>5 USD (- 0.50 USD to PP)</TD>
