@@ -26,36 +26,19 @@ You are advised to <b><u>BACKUP your DATA</u></b> before using
 the gparted application.<br>
 </i></p>
 <p><i>
-<b>CAUTION</b>: &nbsp; Ensure Parted 1.9.0 is patched if using with GParted.<br>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; See <a href="news.php">News</a> item dated 17 November 2009.
+
+<b>CAUTION</b>: &nbsp; Partition editing problems can be experienced using<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+GParted (<=0.5.0) with newer GNU/Linux kernels (2.6.31+),<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+udev (138+), and parted (1.9.0+).<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+For details, refer to the following forum post:<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<a href="http://gparted-forum.surf4.info/viewtopic.php?id=13777">"WARNING! Problem Resizing File Systems with GParted"</a>.<br>
+<br>
+<b>We recommend GParted 0.5.1</b> for all partition editing operations.
 </i></p>
-
-<p><font color="red">
-
-<b>WARNING</b>: &nbsp; Problems can be experienced using GParted with
-newer GNU/Linux kernels (2.6.31+), udev (138+), and parted.  The most
-commonly reported problem involves resizing NTFS file systems and
-later receiving the error message:<br>
-<br>
- &nbsp; &nbsp; &nbsp; ERROR: Current NTFS volume size is bigger than the device size!<br>
-<br>
-This problem occurs with GParted Live versions 0.4.8-1 through 0.5.0-3.<br>
-<br>
-We recommend using GParted 0.5.1 which contains a work around to
-address this problem.  This new release can be found on GParted Live
-0.5.1-1, which currently resides in
-<a href="http://sourceforge.net/projects/gparted/files/gparted-live-testing/">GParted Live Testing releases</a>.<br>
-<br>
-The bug report to track the GParted resizing problem problem is 
-<a href="https://bugzilla.gnome.org/show_bug.cgi?id=604298">bug #604298</a>.<br>
-<br>
-The forum post
-<a href="http://gparted-forum.surf4.info/viewtopic.php?id=13777">"WARNING! Problem Resizing File Systems with GParted"</a>
-contains a list of the confirmed cases of this problem.<br>
-<br>
-If you experience this problem, please open a new post in the
-<a href="forum.php">GParted forum</a>.
-</font></p>
 
 <p>
 If you use GParted and it helps you with your task, please consider making
