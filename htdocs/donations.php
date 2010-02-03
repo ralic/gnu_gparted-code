@@ -56,6 +56,11 @@ We are grateful for all donations.<br>
 	<TD><B>Amount</B></TD>
 </TR>
 <TR>
+	<TD>2010-02-03</TD>
+	<TD>anonymous</TD>
+	<TD>10 USD (- 0.69 USD to PP)</TD>
+</TR>
+<TR>
 	<TD>2010-01-25</TD>
 	<TD>Carlo Roatta, Italy</TD>
 	<TD>15 USD (- 0.89 USD to PP)</TD>
