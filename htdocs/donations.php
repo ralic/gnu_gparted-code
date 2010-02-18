@@ -57,7 +57,7 @@ We are grateful for all donations.<br>
 </TR>
 <TR>
 	<TD>2010-02-18</TD>
-	<TD>anonymous</TD>
+	<TD>Mikko Ylinen</TD>
 	<TD>10 USD (- 0.69 USD to PP)</TD>
 </TR>
 <TR>
