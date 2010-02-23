@@ -19,79 +19,78 @@ gnome_menu();
 <div class="content">
 <h1>Screenshots</h1>
 <p>
-Well, here it is.. the most popular part of any projectpage :)
+The main screen...
 <br>
-Hopefully this will give you an idea of what GParted looks like.
-<br>
-</p>
-The mainscreen...
-<br>
-<a href="screens/gparted_1_big.jpg" >
-	<img src="screens/gparted_1_small.jpg" alt="main_screen"/></a>
+<a href="screens/gparted_1_big.png" >
+	<img src="screens/gparted_1_small.png" alt="Main screen"></a>
 <br><br><br>
 
-My testdrive... :)
+The main screen with disk information panel...
 <br>
-<a href="screens/gparted_4_big.jpg" >
-	<img src="screens/gparted_4_small.jpg" alt="testdrive"/></a>
+<a href="screens/gparted_4_big.png" >
+	<img src="screens/gparted_4_small.png" alt="Disk information"></a>
 <br><br><br>
 
 Another look at the main window...
 <br>
-<a href="screens/gparted_7_big.jpg" >
-	<img src="screens/gparted_7_small.jpg" alt="testdrive"/></a>
+<a href="screens/gparted_7_big.png" >
+	<img src="screens/gparted_7_small.png" alt="Drop down menu"></a>
 <br><br><br>
 
 Information about a specific partition...
 <br>
-<a href="screens/gparted_3_big.jpg" >
-	<img src="screens/gparted_3_small.jpg" alt="information"/></a>
+<a href="screens/gparted_3_big.png" >
+	<img src="screens/gparted_3_small.png" alt="Information"></a>
 <br><br><br>
 
-A closer look at the resize/move widget..
+A closer look at the resize/move widget...
 <br>
-<a href="screens/gparted_5_big.jpg" >
-	<img src="screens/gparted_5_small.jpg" alt="resizermover"/></a>
+<a href="screens/gparted_5_big.png" >
+	<img src="screens/gparted_5_small.png" alt="Resize / move"></a>
 <br><br><br>
 
-The progressdialog...
+The progress dialog...
 <br>
-<a href="screens/gparted_2_big.jpg" >
-	<img src="screens/gparted_2_small.jpg" alt="progress"/></a>
-<br>
-<a href="screens/gparted_9_big.jpg" >
-	<img src="screens/gparted_9_small.jpg" alt="progressdetails"/></a>
+<a href="screens/gparted_2_big.png" >
+	<img src="screens/gparted_2_small.png" alt="Progress"></a>
+<br><br>
+<a href="screens/gparted_9_big.png" >
+	<img src="screens/gparted_9_small.png" alt="Progress details"></a>
 <br><br><br>
 
 Create a new partition...
 <br>
-<a href="screens/gparted_6_big.jpg" >
-	<img src="screens/gparted_6_small.jpg" alt="new"/></a>
+<a href="screens/gparted_6_big.png" >
+	<img src="screens/gparted_6_small.png" alt="Create new partition"></a>
 <br><br><br>
 
-Set disklabel...
+Create partition table...
 <br>
-<a href="screens/gparted_8_big.jpg" >
-	<img src="screens/gparted_8_small.jpg" alt="disklabel"/></a>
+<a href="screens/gparted_8_big.png" >
+	<img src="screens/gparted_8_small.png" alt="Create partition table"></a>
 <br><br><br>
 
 Features...
 <br>
-<a href="screens/gparted_10_big.jpg" >
-	<img src="screens/gparted_10_small.jpg" alt="features"/></a>
+<a href="screens/gparted_10_big.png" >
+	<img src="screens/gparted_10_small.png" alt="Features"></a>
 <br><br><br>
 
 Manage flags...
 <br>
-<a href="screens/gparted_11.jpg" >
-	<img src="screens/gparted_11.jpg" alt="flags"/></a>
+<a href="screens/gparted_11.png" >
+	<img src="screens/gparted_11.png" alt="Manage Flags"></a>
 <br><br><br>
 
-GParted live boot menu...
+GParted Live boot menu...
 <br>
-<a href="screens/gparted_12_live_boot_menu.png" >
-	<img src="screens/gparted_12_live_boot_menu.png" alt="flags"/></a>
-<br><br><br>
+<a href="screens/gparted_12_big.png" >
+	<img src="screens/gparted_12_small.png" alt="GParted Live boo menu"></a>
+<br>
+<br>
+* Updated screenshots from GParted 0.5.1 provided by Vlad Vacariu. 
+</p>
+
 </div>
 
 <? gnome_foot() ?>
