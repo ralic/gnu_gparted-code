@@ -57,6 +57,11 @@ We are grateful for all donations.<br>
 </TR>
 <TR>
 	<TD>2010-02-27</TD>
+	<TD>anonymous</TD>
+	<TD>5 USD (- 0.50 USD to PP)</TD>
+</TR>
+<TR>
+	<TD>2010-02-27</TD>
 	<TD>Ilya Sabelnikov</TD>
 	<TD>12 USD (- 1.06 USD to PP)</TD>
 </TR>
