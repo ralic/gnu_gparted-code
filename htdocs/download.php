@@ -31,13 +31,13 @@ the gparted application.<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 GParted (<=0.5.0) with newer GNU/Linux kernels (2.6.31+),<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-udev (138+), and parted (1.8.8+).<br>
+udev (138+), and parted (1.8.8+ up to 2.1 inclusive).<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 For details, refer to the following forum post:<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 <a href="http://gparted-forum.surf4.info/viewtopic.php?id=13777">"WARNING! Problem Resizing File Systems with GParted"</a>.<br>
 <br>
-<b>We recommend GParted 0.5.1</b> for all partition editing operations.
+<b>We recommend GParted 0.5.1 or higher</b> for all partition editing operations.
 </i></p>
 
 <p>

@@ -1,3 +1,18 @@
+8 March 2010
+GParted 0.5.2
+<br>
+This release of GParted includes bug fixes, and language translation
+updates.
+<br><br>
+Key changes include:
+<ul>
+<li>Fix bug when copying huge (> 100 GB) NTFS partition never finishes</li>
+<li>Disable extended partition option for GPT disks</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.5.2/gparted-0.5.2-notes.txt/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 25 January 2010
 GParted 0.5.1
 <br>
