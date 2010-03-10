@@ -18,12 +18,41 @@ gnome_menu();
 ?>
 <div class="content">
 <h1>Documentation</h1>
+
 <h3>Application Help</h3>
-  <p>
-    <a href="docs/help-manual/C/gparted_manual.html">Help manual</a>
-    <br>
-    <a href="docs/man-page/C/gparted_manpage.html">Man page</a>
-  </p>
+  <table border="1">
+    <tr> 
+      <td>
+        <img src="flags/UK.png" alt="English documentation"
+             width="28" height="16" border="0"> English
+      </td>
+      <td>
+        <img src="flags/French.png" alt="Documentation français"
+             width="28" height="16" border="0"> Français
+      </td>
+      <!-- Placeholder for Spanish translation
+      <td>
+        <img src="flags/Spanish.png" alt="Documentación española"
+             width="28" height="16">Español
+      </td>
+      -->
+    </tr>
+    <tr>
+      <td><a href="docs/help-manual/C/gparted.html">Help manual</a></td>
+      <td><a href="docs/help-manual/fr/gparted.html">Aide manuel</a></td>
+      <!-- Placeholder for Spanish translation
+      <td><a href="">Ayuda manual</a></td>
+      -->
+    </tr>
+    <tr>
+      <td><a href="docs/man-page/C/gparted.8.html">Man page</a></td>
+      <td><a href="docs/man-page/fr/gparted.8.html">Page de manuel</a>
+      </td>
+      <!-- Placeholder for Spanish translation
+      <td><a href="">Página de hombre</a></td>
+      -->
+    </tr>
+  </table>
 
 <h3>GParted Live Howto Guides</h3>
   <p>        
