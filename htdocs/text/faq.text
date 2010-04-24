@@ -11,10 +11,20 @@ Also, several file systems are supported through their native tools. See the <a 
 2
 Is it safe?
 Short answer: Yes, it is safe :) <br>
-By using the official tools for each file system and performing extensive checks before any actual operation I think GParted is as safe as it can/should be.<br>
+By using the official tools for each file system and performing
+extensive checks before any actual operation I think GParted is as
+safe as it can/should be.<br>
 <br>
-Of course you have to realize I cannot give any guarantees, so you should probably make a backup of 
-important data before toying with your partitions.
+Of course you have to realize I cannot give any guarantees, so you
+should probably make a backup of important data before toying with
+your partitions.<br>
+<br>
+<b>NOTE:</b> If you move a partition that is used in the operating system
+boot process (for example the C: drive in Windows), then the operating
+system might fail to boot.<br>
+To fix this problem you will need to repair the boot
+configuration.<br>
+See FAQ #9 for Windows and FAQ #10 for Linux/GRUB.
 ---
 3
 Is there a maximum to the amount of operations in the list?
