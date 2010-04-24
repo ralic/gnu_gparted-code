@@ -24,41 +24,57 @@ gnome_menu();
 
 <h1>Gnome Partition Editor</h1>
 <p>
-The GParted application is the GNOME partition editor for creating,
+The GParted application is a graphical partition editor for creating,
 reorganizing, and deleting disk partitions.<br>
 <br>
 A disk device can be subdivided into one or more partitions. The
 GParted application enables you to change the partition organization
 on a disk device while preserving the contents of the partitions.<br>
 <br>
-With GParted you can accomplish the following tasks:<br>
+GParted uses
+<a href="http://www.gnu.org/software/parted/" target="new">GNU libparted</a>
+to detect and manipulate devices and partition tables.
+Several optional file system tools provide support for file systems
+not included in libparted.
 </p>
+<h2>Features</h2>
 <ul>
-  <li>Create a partition table on a disk device.</li>
-  <li>Enable and disable partition flags such as boot and hidden.</li>
-  <li>Perform actions with partitions such as:<br>
+  <li>Create partition tables (e.g., msdos, gpt)</li>
+
+  <li>Enable and disable partition flags (e.g., boot, hidden)</li>
+
+  <li>Perform actions with partitions such as:
     <ul>
       <li>create or delete</li>
-      <li>resize or move</li>
+      <li>resize or move (while preserving data)</li>
       <li>check</li>
       <li>label</li>
       <li>copy and paste</li>
     </ul>
   </li>
+
+  <li>Supports file systems such as:<br>
+  ext2/ext3/ext4, FAT16/FAT32, hfs/hfs+, linux-swap, NTFS, reiserfs/4,
+  ufs, xfs file systems.<br>
+  For specific actions supported see
+  detailed <a href="features.php">features</a>.</li>
+
+  <li>Supports hardware RAID, motherboard BIOS RAID, and Linux
+  software RAID.</li>
 </ul>
+<h2>Requirements</h2>
 <p>
-GParted uses
-<a href="http://www.gnu.org/software/parted/" target="new">GNU libparted</a>
-to detect and manipulate devices and partition tables.
-Several optional file system tools provide support for file systems
-not included in libparted.<br>
-<br>
-GParted is developed on GNU/Linux.
-It can be used on other operating systems, such as Windows, by booting
-from media containing <a href="livecd.php">GParted Live</a>.<br>
-<br>
-GParted is free and open source software available under the terms of the
-<a href="http://www.gnu.org/licenses/gpl.html" target=new>GNU General Public License</a>
+GParted is developed on x86 based computers using GNU/Linux.  It can
+be used on other operating systems, such as Windows or Mac OS X, by
+booting from media containing <a href="livecd.php">GParted
+Live</a>.
+</p>
+<h2>Free and Open Source</h2>
+<p>
+GParted is free to use and share with others.  You do not have to pay
+money to use GParted.<br>
+GParted is distributed under the terms of the
+<a href="http://www.gnu.org/licenses/gpl.html" target=new>GNU General Public License</a> version 2 or (at your option) any later version.
 </p>
 
 </div>
