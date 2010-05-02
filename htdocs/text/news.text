@@ -28,7 +28,7 @@ unmounted partitions on devices that have at least one mounted
 partition and/or an active LVM partition.<br>
 <br>
 We recommend the above three patches be applied to parted-2.2 if you
-are compiling your own copy of Parted or GParted.
+are compiling your own copy of Parted or using libparted with GParted.
 <br><br>
 Curtis
 ---
