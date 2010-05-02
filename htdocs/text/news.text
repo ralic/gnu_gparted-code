@@ -1,3 +1,37 @@
+2 May 2010
+Suggested Patches for Parted 2.2
+<br>
+It appears that the Parted 1.9.0 through 2.2 releases have lost some
+capability that earlier releases (1.8.8 and earlier) possessed.<br>
+<br>
+These newer Parted releases are unable to inform the kernel of
+partition changes if another partition is mounted, or if an active LVM
+partition is on the same device.<br>
+This latter case was reported in the following bug report:<br>
+<a href="https://bugzilla.gnome.org/show_bug.cgi?id=608712">Bug 608712 - GParted fails to edit/delete partitions if active LVM on same disk device</a><br>
+<br>
+Fortunately, the parted git repository contains updates that restore
+this capability.<br>
+<br>
+In light of this and potential problems with dmraid, Steven Shiau has
+kindly updated GParted Live 0.5.2-9 with the following three
+patches:<br>
+<ul>
+<li><a href="http://git.debian.org/?p=parted/parted.git;a=commit;h=c1eb485b9fd8919e18f192d678bc52b0488e6ee0">libparted: don't canonicalize /dev/mapper paths
+</a></li>
+<li><a href="http://git.debian.org/?p=parted/parted.git;a=commit;h=0e04d17386274fc218a9e6f9ae17d75510e632a3">libparted: reenable use of BLKPG ioctls</a></li>
+<li><a href="http://git.debian.org/?p=parted/parted.git;a=commit;h=7165951dfb584aae2901ac3f1a28fe3624667f19
+">libparted: improve BLKPG error checking</a></li>
+</ul>
+The above three patches improve support for DMRAID, and permit editing
+unmounted partitions on devices that have at least one mounted
+partition and/or an active LVM partition.<br>
+<br>
+We recommend the above three patches be applied to parted-2.2 if you
+are compiling your own copy of Parted or GParted.
+<br><br>
+Curtis
+---
 8 March 2010
 GParted 0.5.2
 <br>
