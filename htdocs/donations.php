@@ -97,7 +97,7 @@ We are grateful for all donations.<br>
 </TR>
 <TR>
 	<TD>2010-05-05</TD>
-	<TD>anonymous</TD>
+	<TD>a.k.</TD>
 	<TD>50 USD (- 2.25 USD to PP)</TD>
 </TR>
 <TR>
