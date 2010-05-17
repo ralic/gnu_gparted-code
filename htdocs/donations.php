@@ -56,6 +56,11 @@ We are grateful for all donations.<br>
 	<TD><B>Amount</B></TD>
 </TR>
 <TR>
+	<TD>2010-05-16</TD>
+	<TD>anonymous</TD>
+	<TD>10 USD (- 0.59 USD to PP)</TD>
+</TR>
+<TR>
 	<TD>2010-05-12</TD>
 	<TD>The Privacy Information Project</TD>
 	<TD>12.99 USD (- 0.68 USD to PP)</TD>
