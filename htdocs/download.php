@@ -29,11 +29,19 @@ the gparted application.<br>
 
 <b>CAUTION</b>: &nbsp; Partition editing problems can be experienced using<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-GParted (<=0.5.0) with newer GNU/Linux kernels (2.6.31+),<br>
+GParted with newer GNU/Linux kernels (2.6.31+),<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-udev (138+), and parted (1.8.8+ up to 2.1 inclusive).<br>
+udev (138+), and parted (1.8.8.+ up to 2.2 inclusive).<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-For details, refer to the following forum post:<br>
+These problems have even occurred with GParted Live 0.5.2-9.<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+If you encounter an error message similar to:<br>
+<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+ERROR: Current NTFS volume size is bigger than the device size!<br>
+<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+then please refer to the following forum post:<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 <a href="http://gparted-forum.surf4.info/viewtopic.php?id=13777">"WARNING! Problem Resizing File Systems with GParted"</a>.<br>
 <br>
