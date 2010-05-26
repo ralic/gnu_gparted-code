@@ -69,11 +69,13 @@ be used on other operating systems, such as Windows or Mac OS X, by
 booting from media containing <a href="livecd.php">GParted
 Live</a>.
 </p>
-<h2>Free and Open Source</h2>
+<h2>Free Software</h2>
 <p>
-GParted is free to use and share with others.  You do not have to pay
-money to use GParted.<br>
-GParted is distributed under the terms of the
+GParted is free software.<br>
+You have the freedom to run, copy, distribute, study, change, and
+improve GParted.<br>
+You do not have to pay money to use GParted.<br>
+GParted is distributed under the
 <a href="http://www.gnu.org/licenses/gpl.html" target=new>GNU General Public License</a> version 2 or (at your option) any later version.
 </p>
 
