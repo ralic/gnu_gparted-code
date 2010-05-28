@@ -24,7 +24,7 @@ boot process (for example the C: drive in Windows), then the operating
 system might fail to boot.<br>
 To fix this problem you will need to repair the boot
 configuration.<br>
-See FAQ #9 for Windows and FAQ #10 for Linux/GRUB.
+See FAQs #9, #13, and #14 for Windows, and FAQ #10 for Linux/GRUB.
 ---
 3
 Is there a maximum to the amount of operations in the list?
@@ -128,3 +128,40 @@ If this occurs for the boot drive letter, then see:<br>
 If this occurs for a non-boot drive letter, then see one of the following links:<br>
 <a href="http://support.microsoft.com/kb/307844">How to change drive letter assignments in Windows XP</a><br>
 <a href="http://windows.microsoft.com/en-us/windows-vista/Change-add-or-remove-a-drive-letter">How to change, add, or remove a drive letter in Windows Vista</a><br>
+---
+13
+What are the commands for repairing Windows XP boot problems?
+The following commands are entered at the command line when using the
+Recovery Console from the Windows XP installation disk.<br>
+<br>
+To repair the Master Boot Record of the boot disk:<br>
+ &nbsp; &nbsp; fixmbr<br>
+<br>
+To write a new partition boot sector to the system partition:<br>
+ &nbsp; &nbsp; fixboot<br>
+<br>
+To rebuild the boot.ini configuration file:<br>
+ &nbsp; &nbsp; bootcfg /rebuild<br>
+<br>
+For more details refer to the following links:<br>
+<a href="http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/bootcons_fixmbr.mspx?mfr=true">Fixmbr</a>,
+<a href="http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/bootcons_fixboot.mspx?mfr=true">Fixboot</a>,
+<a href="http://support.microsoft.com/kb/291980">Bootcfg</z><br>
+---
+14
+What are the commands for repairing Windows Vista / 7 boot problems?
+The following commands are entered at the command line when using the
+Recovery Console from the Windows Vista or Windows 7 installation
+disk.<br>
+<br>
+To repair the Master Boot Record of the boot disk:<br>
+ &nbsp; &nbsp; bootrec /fixmbr<br>
+<br>
+To write a new partition boot sector to the system partition:<br>
+ &nbsp; &nbsp; bootrec /fixboot<br>
+<br>
+To rebuild the Boot Configuration Data (BCD) store:<br>
+ &nbsp; &nbsp; bootrec /rebuildbcd<br>
+<br>
+For more details refer to the following link:<br>
+<a href="http://support.microsoft.com/kb/927392">How to use the Bootrec.exe tool in the Windows Recovery Environment to troubleshoot and repair startup issues in Windows</a><br>
