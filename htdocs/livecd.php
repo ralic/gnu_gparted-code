@@ -80,7 +80,7 @@ GParted Live includes additional packages, such as:<br>
 </table>
 <p>
 To view all of the included packages you can either:<br>
- &nbsp; &nbsp; refer to the "packages-x.y.z-w.txt" file in the
+ &nbsp; &nbsp; refer to the "packages-<i>x.y.z</i>-<i>w</i>.txt" file in the
  download directory,<br>
 or<br>
  &nbsp; &nbsp; view the file "live/packages.txt" file inside the
