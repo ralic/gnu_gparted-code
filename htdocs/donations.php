@@ -57,7 +57,7 @@ We are grateful for all donations.<br>
 </TR>
 <TR>
 	<TD>2010-05-28</TD>
-	<TD>anonymous</TD>
+	<TD>Erich Boleyn</TD>
 	<TD>25 USD (- 1.03 USD to PP)</TD>
 </TR>
 <TR>
