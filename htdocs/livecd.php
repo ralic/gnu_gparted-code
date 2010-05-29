@@ -18,26 +18,82 @@ gnome_menu();
 <div class="content">
 <H1>Live CD/USB/PXE/HD</H1>
 <p>
-<b>GParted Live</b> is a small bootable GNU/Linux distribution for x86 machine.<br>
-It enables you to use all the features of the latest versions of GParted.<br>
+<b>GParted Live</b> is a small bootable GNU/Linux distribution for x86
+based computers.<br>
+It enables you to use all the features of the latest versions of the
+GParted application.<br>
 <br>
-GParted Live can be installed on CD, USB, PXE server, and Hard Disk then run on an x86 machine.<br>
-<!--
+GParted Live can be installed on CD, USB, PXE server, and Hard Disk
+then run on an x86 machine.<br>
+</p>
+
+<h2>Installation Instructions</h2>
+<p>
+To install GParted Live on CD, download the .iso file and burn it as
+an image to a CD.<br>
 <br>
-<font color="red">///WARNING/// Due to a hardware/firmware bug, it's _NOT_ recommended to run GParted live on some types of HP Pavilion machines. Otherwise your VGA card fan might be dead. For more info, please refer to <a href="http://bugzilla.gnome.org/show_bug.cgi?id=579000" target=_blank>this bug report</a>.</font>
--->
+For other installations, please refer to the following documents:<br>
+<a href="liveusb.php">GParted Live on USB</a><br>
+<a href="livepxe.php">GParted Live on PXE server</a><br>
+<a href="livehd.php">GParted Live on Hard Disk</a><br>
+<a href="create-gparted-live.php">Create your own custom GParted Live
+from scratch</a><br>
+</p>
+
+<h2>Included Packages</h2>
+<p>
+GParted Live includes additional packages, such as:<br>
+</p>
+<table border=0>
+  <tr>
+    <td><a href="http://mlterm.sourceforge.net/">mlterm</a></td>
+    <td>- Multilingual terminal emulator (provides access to command line)</td>
+  </tr>
+  <tr>
+    <td><a href="http://www.partimage.org/">partimage</a></td>
+    <td>- Backup partitions into a compressed image file<br></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.cgsecurity.org/wiki/TestDisk">testdisk</a></td>
+    <td>- Data recovery tool that can help recover lost partitions<br></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.nano-editor.org/">nano</a></td>
+    <td>- Text editor</td>
+  </tr>
+  <tr>
+    <td><a href="http://www.vim.org/">vim-tiny</a></td>
+    <td>- Enhanced vi text editor</td>
+  </tr>
+  <tr>
+    <td><a href="http://www.gnu.org/software/parted/">parted</a></td>
+    <td>- Partition table editor (command line based)</td>
+  </tr>
+  <tr>
+    <td><a href="http://userweb.kernel.org/~kzak/util-linux-ng/">fdisk</a></td>
+    <td>- MSDOS partition table editor (command line based)</td>
+  </tr>
+  <tr>
+    <td><a href="http://sourceforge.net/projects/gptfdisk/">gdisk</a></td>
+    <td>- GPT partition table editor (command line based)</td>
+  </tr>
+</table>
+<p>
+To view all of the included packages you can either:<br>
+ &nbsp; &nbsp; refer to the "packages-x.y.z-w.txt" file in the
+ download directory,<br>
+or<br>
+ &nbsp; &nbsp; view the file "live/packages.txt" file inside the
+ GParted Live iso file or zip file.<br>
 <br>
 <br>
-For GParted Live on CD, download the .iso file and burn it as an image to a CD.<br>
-For GParted Live on USB, check <a href="liveusb.php">this doc</a>.<br>
-For GParted Live on a PXE server, check <a href="livepxe.php">this doc</a>.<br>
-For GParted Live on Hard Disk, check <a href="livehd.php">this doc</a>.<br>
-<br><br>
-GParted Live downloads can be found <a href="download.php">here</a>.<br>
-As for the packages comes with GParted live, you can check the file "live/packages.txt" inside the GParted iso file or zip file.<br>
-<br><br>
-<font color="red">///NOTE/// It is recommended to do a whole disk or partition image backup before you use GParted to resize or move your partition.</font>
-Some free (GPL) disk or partition image tools, which provide live CD or USB flash drive so that you do not have to install or configure, are available:<br>
+<font color="red"><b>NOTE:</b>  It is recommended to do a whole disk or
+partition image backup before you use GParted to resize or move your
+partition.</font><br>
+Some free (GPL) disk or partition image tools, which provide live CD
+or USB flash drive so that you do not have to install or configure,
+are available:<br>
+</p>
 <ul>
 <li><a href="http://clonezilla.org" target=_blank>Clonezilla</a>
 <li><a href="http://www.fsarchiver.org" target=_blank>FSArchiver</a>
@@ -47,10 +103,6 @@ Some free (GPL) disk or partition image tools, which provide live CD or USB flas
 <li><a href="http://partclone.org" target=_blank>Partclone</a>
 </ul>
 
-<br><br>
-If you want to create gparted live from scratch or to customize that, you can follow <a href="create-gparted-live.php">this doc</a>.
-<br><br><br><br><br><br><br><br><br>
-</p>
 </div>
 
 <? gnome_foot() ?>
