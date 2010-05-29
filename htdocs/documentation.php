@@ -65,6 +65,17 @@ gnome_menu();
     <a href="./create-gparted-live.php">How to create GParted live from scratch</a>
   </p>
 
+<H3>Third Party Docs</H3>
+  <ul>
+    <li><a href="http://www.dedoimedo.com/computers/gparted.html">GParted
+    partitioning software - Full Tutorial</a></li>
+    <li><a href="http://www.howtogeek.com/howto/windows-vista/using-gparted-to-resize-your-windows-vista-partition/">Using
+    GParted to Resize Your Windows Vista Partition</a></li>
+    <li><a href="http://en.wikipedia.org/wiki/GParted">GParted Wikipedia
+    Doc</a></li>
+  </ul>
+
+
 <H3>Howto Guides (Old)</H3>
     <P>LarryT created the following documentation.<br>
     Any assistance with updating would be appreciated.</P>
@@ -157,19 +168,9 @@ gnome_menu();
         <td>&nbsp;</td>
       </tr>
     </table>
-    <p><br>
+    <p>
+      <br>
     </p>
-<H3>Wiki doc</H3>
-<p>Thanks to Dennis German, a wiki doc is online. See <a href="http://en.wikipedia.org/wiki/GParted">Wiki Doc</a>.</p>
-<H3>Third Party Docs</H3>
-<p>A collection of useful third party documentation.<br>
-<br>
-<a href="http://www.dedoimedo.com/computers/gparted.html">GParted partitioning software - Full Tutorial</a>
-<br>
-<a href="http://www.howtogeek.com/howto/windows-vista/using-gparted-to-resize-your-windows-vista-partition/">Using GParted to Resize Your Windows Vista Partition</a>
-<br>
-</p>
-
 <hr>
 <H3>Related Docs</H3>
 <p>
@@ -194,8 +195,6 @@ gparted.
 <BR>
 </P>
 </div>
-
-<br><br><br>
 
 <? gnome_foot() ?>
 
