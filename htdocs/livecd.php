@@ -29,8 +29,8 @@ then run on an x86 machine.<br>
 
 <h2>Installation Instructions</h2>
 <p>
-To install GParted Live on CD, download the .iso file and burn it as
-an image to a CD.<br>
+To install GParted Live on CD, <a href="download.php">download</a> the
+.iso file and burn it as an image to a CD.<br>
 <br>
 For other installations, please refer to the following documents:<br>
 <a href="liveusb.php">GParted Live on USB</a><br>
