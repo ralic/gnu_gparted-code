@@ -56,6 +56,11 @@ We are grateful for all donations.<br>
 	<TD><B>Amount</B></TD>
 </TR>
 <TR>
+	<TD>2010-06-01</TD>
+	<TD>anonymous</TD>
+	<TD>10 USD (- 0.59 USD to PP)</TD>
+</TR>
+<TR>
 	<TD>2010-05-31</TD>
 	<TD>Fábio Marinho do Nascimento</TD>
 	<TD>5 USD (- 0.50 USD to PP)</TD>
