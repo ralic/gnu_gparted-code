@@ -57,7 +57,7 @@ We are grateful for all donations.<br>
 </TR>
 <TR>
 	<TD>2010-06-13</TD>
-	<TD>anonymous</TD>
+	<TD>Todd Maxey</TD>
 	<TD>20 USD (- 0.88 USD to PP)</TD>
 </TR>
 <TR>
