@@ -1,8 +1,8 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>GParted Manual</title><meta name="generator" content="DocBook XSL Stylesheets V1.73.2"><meta name="description" content="GParted is the Gnome Partition Editor for creating, reorganizing, and deleting disk partitions. GParted enables you to change the partition organization while preserving the partition contents."></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="article" lang="en"><div class="titlepage"><div><div><h2 class="title"><a name="gparted"></a>GParted Manual</h2></div><div><div class="authorgroup"><div class="author"><h3 class="author"><span class="firstname">Curtis</span> <span class="surname">Gedak</span></h3><div class="affiliation"><span class="orgname">GParted Project<br></span><div class="address"><p><br>
             <code class="email">&lt;<a class="email" href="mailto:gedakc@users.sf.net">gedakc@users.sf.net</a>&gt;</code><br>
           </p></div></div></div></div></div><div><p class="releaseinfo">
-    This manual describes version 0.4.6 of GParted
-    </p></div><div><p class="copyright">Copyright © 2009 Curtis Gedak</p></div><div><div class="legalnotice"><a name="id2514939"></a><p>
+    This manual describes version 0.6.0 of GParted
+    </p></div><div><p class="copyright">Copyright © 2009 Curtis Gedak</p></div><div><div class="legalnotice"><a name="id2514949"></a><p>
       Permission is granted to copy, distribute and/or modify this document
       under the terms of the GNU Free Documentation License, Version 1.2
       or any later version published by the Free Software Foundation;
@@ -11,14 +11,27 @@
       <a class="ulink" href="ghelp:fdl" target="_top">link</a> or at
       <a class="ulink" href="http://www.fsf.org/licensing/licenses/fdl.html" target="_top">http://www.fsf.org/licensing/licenses/fdl.html</a>
       or in the file COPYING-DOCS distributed with this manual.
-      </p></div></div><div><div class="legalnotice"><a name="id2476431"></a><p class="legalnotice-title"><b>Feedback</b></p><p>
+      </p></div></div><div><div class="legalnotice"><a name="id2476546"></a><p class="legalnotice-title"><b>Feedback</b></p><p>
       To report a bug or make a suggestion regarding the
       <span class="application">gparted</span> application or this manual,
       follow the directions at
       <a class="ulink" href="http://gparted.sourceforge.net/bugs.php" target="_top">http://gparted.sourceforge.net/bugs.php</a>.
-      </p></div></div><div><div class="revhistory"><table border="1" width="100%" summary="Revision history"><tr><th align="left" valign="top" colspan="2"><b>Revision History</b></th></tr><tr><td align="left">Revision GParted Manual V1.1</td><td align="left">July 2009</td></tr><tr><td align="left" colspan="2">
+      </p></div></div><div><div class="revhistory"><table border="1" width="100%" summary="Revision history"><tr><th align="left" valign="top" colspan="2"><b>Revision History</b></th></tr><tr><td align="left">Revision GParted Manual V1.2</td><td align="left">June 2010</td></tr><tr><td align="left" colspan="2">
           <p class="author">Curtis Gedak</p>
           <p class="publisher">GParted Project</p>
+          <p class="annotations">Describes version 0.6.0 of GParted</p>
+        </td></tr><tr><td align="left">Revision GParted Manual V1.1</td><td align="left">July 2009</td></tr><tr><td align="left" colspan="2">
+          <p class="author">Curtis Gedak</p>
+          <p class="publisher">GParted Project</p>
+          <p class="annotations">Describes version 0.4.6 of GParted</p>
+        </td></tr><tr><td align="left">Revision GParted Manual V1.0</td><td align="left">January 2009</td></tr><tr><td align="left" colspan="2">
+          <p class="author">Curtis Gedak</p>
+          <p class="publisher">GParted Project</p>
+          <p class="annotations">Describes version 0.4.2 of GParted</p>
+        </td></tr><tr><td align="left">Revision GParted Manual V0.3.9</td><td align="left">September 2008</td></tr><tr><td align="left" colspan="2">
+          <p class="author">Curtis Gedak</p>
+          <p class="publisher">GParted Project</p>
+          <p class="annotations">Describes version 0.3.9 of GParted</p>
         </td></tr></table></div></div><div><div class="abstract"><p class="title"><b>Abstract</b></p><p>
       GParted is the Gnome Partition Editor for creating,
       reorganizing, and deleting disk partitions.
@@ -431,26 +444,35 @@
           The application refreshes both the graphic area
           and the numbers beside the three field labels.
           </p></div><div class="sect4" lang="en"><div class="titlepage"><div><div><h5 class="title"><a name="gparted-specify-partition-alignment"></a>Specifying Partition Alignment</h5></div></div></div><p>
-          To specify the alignment of the partition, use the
-          <span class="guilabel">Round to cylinders</span> check box.
+          To specify the alignment of the partition, click the 
+          <span class="guilabel">Align to</span> arrow button, and select from the list.
           </p><div class="itemizedlist"><ul type="disc"><li><p>
-              To enable, select the <span class="guilabel">Round to cylinders</span>
-              check box.
+              Use <span class="guilabel">MiB</span> alignment for modern
+              operating systems.  This setting aligns partitions to
+              start and end on precise mebibyte (1,048,576 byte)
+              boundaries.  MiB alignment provides enhanced performance
+              when used with RAID systems and with Solid State Drives,
+              such as USB flash drives.
               </p></li><li><p>
-              To disable, deselect the <span class="guilabel">Round to cylinders</span>
-              check box.
-              </p></li></ul></div><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
-            When enabled, <span class="guilabel">Round to cylinders</span>
-            aligns partition boundaries on the cylinder boundaries
-            for the disk device.  Enabled is the default setting.
-            </p></div><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
-            If you want to maintain compatibility with old operating systems,
-            enable <span class="guilabel">Round to cylinders</span>.
-            </p><p>
-            If you do not want the start of an existing partition to move,
-            then disable <span class="guilabel">Round to cylinders</span>
-            and do not change the <span class="guilabel">free space preceding</span> value.
-            </p></div></div><div class="sect4" lang="en"><div class="titlepage"><div><div><h5 class="title"><a name="gparted-specify-partition-type"></a>Specifying Partition Type</h5></div></div></div><p>
+              Use <span class="guilabel">Cylinder</span> alignment to maintain
+              compatibility with operating systems released before the
+              year 2000, such as DOS.  This setting aligns partitions
+              to start and end on disk cylinder boundaries.
+              </p><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+                The Cylinder/Head/Sector values reported by modern
+                disk devices no longer have a direct physical
+                relationship to the data stored on the disk device.
+                Hence it is no longer valid to use this alignment
+                setting to achieve enhanced performance.
+                </p></div></li><li><p>
+              Use <span class="guilabel">None</span> only if you have an
+              in-depth knowledge of disk structure, partition tables,
+              and boot records.  This setting places partition
+              boundaries relative to the end of any immediately
+              preceding partition on the disk device.  This setting
+              is not guaranteed to reserve or respect space required
+              for boot records.
+              </p></li></ul></div></div><div class="sect4" lang="en"><div class="titlepage"><div><div><h5 class="title"><a name="gparted-specify-partition-type"></a>Specifying Partition Type</h5></div></div></div><p>
           To specify the partition type, click the 
           <span class="guilabel">Create as</span> arrow button, and select from the list.
           </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
@@ -522,7 +544,11 @@
               </p></li><li><p>
               Adjust the size of the partition.
               See <a class="xref" href="#gparted-specify-partition-size-and-location" title="Specifying Partition Size and Location">the section called &#8220;Specifying Partition Size and Location&#8221;</a>.
-              </p></li><li><p>
+              </p><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+                If you do not want the start of an existing partition
+                to move, then do not change the <span class="guilabel">free space
+                preceding</span> value.
+                </p></div></li><li><p>
               Specify the alignment of the partition.
               See <a class="xref" href="#gparted-specify-partition-alignment" title="Specifying Partition Alignment">the section called &#8220;Specifying Partition Alignment&#8221;</a>.
               </p></li><li><p>
