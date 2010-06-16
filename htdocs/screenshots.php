@@ -86,9 +86,6 @@ GParted Live boot menu...
 <br>
 <a href="screens/gparted_12_big.png" >
 	<img src="screens/gparted_12_small.png" alt="GParted Live boo menu"></a>
-<br>
-<br>
-* Updated screenshots from GParted 0.5.1 provided by Vlad Vacariu. 
 </p>
 
 </div>
