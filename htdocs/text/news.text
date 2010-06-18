@@ -1,3 +1,35 @@
+18 June 2010
+GParted 0.6.0
+<br>
+The GParted team is proud to announce this release brings
+support for devices with sector sizes greater than 512 bytes.<br>
+<br>
+For the last three decades, 512 byte sector sizes have been
+the norm and many tools, including GParted, were hard coded to
+assume this sector size.<br>
+<br>
+Also included in this release are bug fixes, and language
+translation updates.
+<br><br>
+Key changes include:
+<ul>
+<li>Add support for devices with sector sizes > 512 bytes</li>
+<li>Add alignment option to align to MiB</li>
+<li>Set _default_ alignment to align to MiB</li>
+</ul>
+<br>
+Known issues:<br>
+- When used with libparted versions 2.3 and lower on devices with
+sector sizes > 512 bytes:
+<ul>
+<li>hfs/hfs+: used/unused space not detected</li>
+<li>hfs/hfs+: shrink file system not available</li>
+</ul>
+
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.6.0/gparted-0.6.0-notes.txt/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 2 May 2010
 Suggested Patches for Parted 2.2
 <br>
