@@ -500,6 +500,11 @@ We are grateful for all donations.<br>
 	<TD><B>Amount</B></TD>
 </TR>
 <TR>
+	<TD>2010-07-06</TD>
+	<TD>Domain name gparted.org year renewal</TD>
+	<TD>9 USD</TD>
+</TR>
+<TR>
 	<TD>2009-08-11</TD>
 	<TD>Domain name gparted.org transfer</TD>
 	<TD>8 USD</TD>
