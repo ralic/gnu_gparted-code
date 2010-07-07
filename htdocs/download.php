@@ -25,8 +25,17 @@ Editing partitions has the potential to cause <b><u>LOSS of DATA</u></b>.<br>
 You are advised to <b><u>BACKUP your DATA</u></b> before using
 the gparted application.<br>
 </i></p>
-<p><i>
 
+<p><i>
+<font color="red">
+<b>WARNING</b>: &nbsp; 
+GParted 0.6.0 contains a serious bug when moving partitions to the right.<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+See <a href="https://bugzilla.gnome.org/show_bug.cgi?id=623630">Bug #623630</a> for more details.<br>
+</font>
+</i></p>
+
+<p><i>
 <b>CAUTION</b>: &nbsp; Partition editing problems can be experienced using<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 GParted with newer GNU/Linux kernels (2.6.31+),<br>
