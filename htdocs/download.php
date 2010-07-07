@@ -29,9 +29,13 @@ the gparted application.<br>
 <p><i>
 <font color="red">
 <b>WARNING</b>: &nbsp; 
-GParted 0.6.0 contains a serious bug when moving partitions to the right.<br>
+GParted 0.6.0 contains two serious bugs when copying or moving partitions.<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-See <a href="https://bugzilla.gnome.org/show_bug.cgi?id=623630">Bug #623630</a> for more details.<br>
+For more details see: <a href="https://bugzilla.gnome.org/show_bug.cgi?id=623630">Bug #623630</a>, and <a href="https://bugzilla.gnome.org/show_bug.cgi?id=623697">Bug #623697</a>.<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+Based on the critical nature of these bugs, we do not recommend using<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+GParted 0.6.0.  We are working to address these bugs in a new bug fix release.<br>
 </font>
 </i></p>
 
