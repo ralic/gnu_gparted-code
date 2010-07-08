@@ -1,3 +1,25 @@
+8 July 2010
+GParted 0.6.1
+<br>
+This is an important bug fix release for two critical bugs found in
+GParted.  Also included are some language translation updates.
+<br><br>
+Key changes include:
+<ul>
+<li>Fix crash moving partition when size is a multiple of 16 MiB</li>
+<li>Disable MiB alignment temporarily until bug #623630 can be fixed.<br>
+    <br>
+    <a href="https://bugzilla.gnome.org/show_bug.cgi?id=623630">Bug #623630</a>
+    is a problem where moving logical partitions using
+    the new MiB alignment feature might overwrite the Extended Boot
+    Record of another logical partition.  This causes an invalid
+    partition table with a wrong signature.
+</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.6.1/gparted-0.6.1-notes.txt/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 18 June 2010
 GParted 0.6.0
 <br>
@@ -25,7 +47,6 @@ sector sizes > 512 bytes:
 <li>hfs/hfs+: used/unused space not detected</li>
 <li>hfs/hfs+: shrink file system not available</li>
 </ul>
-
 See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.6.0/gparted-0.6.0-notes.txt/view'>Release Notes</a> for more details.
 <br><br>
 Curtis
