@@ -33,9 +33,7 @@ GParted 0.6.0 contains two serious bugs when copying or moving partitions.<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 For more details see: <a href="https://bugzilla.gnome.org/show_bug.cgi?id=623630">Bug #623630</a>, and <a href="https://bugzilla.gnome.org/show_bug.cgi?id=623697">Bug #623697</a>.<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-Based on the critical nature of these bugs, we do not recommend using<br>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-GParted 0.6.0.  We are working to address these bugs in a new bug fix release.<br>
+GParted 0.6.1 contains code to avoid these bugs.
 </font>
 </i></p>
 
@@ -57,8 +55,6 @@ ERROR: Current NTFS volume size is bigger than the device size!<br>
 then please refer to the following forum post:<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 <a href="http://gparted-forum.surf4.info/viewtopic.php?id=13777">"WARNING! Problem Resizing File Systems with GParted"</a>.<br>
-<br>
-<b>We recommend GParted 0.5.1 or higher</b> for all partition editing operations.
 </i></p>
 
 <p>
@@ -73,8 +69,8 @@ Browse releases of GParted source code <a href="http://sourceforge.net/projects/
 <h3>GParted Live CD/USB/HD/PXE</h3>
 <!--
 <font color="red">///WARNING/// Due to a hardware/firmware bug, it's _NOT_ recommended to run GParted live on some types of HP Pavilion machines. This is not the fault of GParted live. Otherwise your VGA card fan might be dead. For more info, please refer to <a href="http://bugzilla.gnome.org/show_bug.cgi?id=579000" target=_blank>this bug report</a>.</font><br>
--->
 <br>
+-->
 Browse <b>Stable</b> releases of GParted Live
  <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/">here</a> (<a href="http://free.nchc.org.tw/gparted-live/stable/CHECKSUMS.TXT" target=_blank>checksums info</a>, <a href="http://free.nchc.org.tw/gparted-live/stable/ChangeLog-GParted-live.txt" target=_blank>changelog info</a>).<br>
 Browse latest <b>Testing</b> releases GParted Live
