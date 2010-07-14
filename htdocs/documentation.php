@@ -73,6 +73,7 @@ gnome_menu();
     GParted to Resize Your Windows Vista Partition</a></li>
     <li><a href="http://en.wikipedia.org/wiki/GParted">GParted Wikipedia
     Doc</a></li>
+    <li><a href="./docs/sw-req-spec/C/Software_Requirements_Specification_-_GParted.pdf">Software Requirements Specification for GParted (PDF)</a></li>
   </ul>
 
 
