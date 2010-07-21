@@ -27,7 +27,7 @@ gnome_menu();
 <li>apt-get update 
 <li>Turn on the apt repository by editing /etc/apt/sources.list, e.g. "nano /etc/apt/sources.list" or "vim /etc/apt/sources.list", make it like:
 <pre>
-deb http://free.nchc.org.tw/debian/ sid main contrib non-free # Or any Debian mirror site near you.
+deb http://ftp.us.debian.org/debian/ sid main contrib non-free # Or any Debian mirror site near you.
 </pre>
 <li>apt-get update
 <li>mkdir -p /usr/share/man/man{1,5,8}
@@ -43,7 +43,7 @@ e.g. to use the unstable branch of DRBL and experimental branch of live on drbl 
 If you want to assign different repositories to download files, you can run something like:<br>
 /opt/drbl/sbin/create-gparted-live -l en -b u -e e -m http://ftp.us.debian.org/debian -s http://security.debian.org -g http://drbl.sourceforge.net/drbl-core<br>
 Or more options you can try:<br>
-/opt/drbl/sbin/create-gparted-live -c 'main non-free' -k 'firmware-linux-free firmware-linux firmware-linux-nonfree firmware-bnx2 firmware-bnx2x firmware-qlogic firmware-ralink mlterm=2.9.4-6 mlterm-common=2.9.4-6' -l en -b u -e e -d sid -m http://free.nchc.org.tw/debian -s http://free.nchc.org.tw/debian-security -g http://free.nchc.org.tw/drbl-core -x 'i915.modeset=0 xforcevesa' -n 2.6.32-5 -i my-gparted-live<br>
+/opt/drbl/sbin/create-gparted-live -c 'main non-free' -k 'firmware-linux-free firmware-linux firmware-linux-nonfree firmware-bnx2 firmware-bnx2x firmware-qlogic firmware-ralink mlterm=2.9.4-6 mlterm-common=2.9.4-6' -l en -b u -e e -d sid -m http://ftp.us.debian.org/debian -s http://security.debian.org -g http://free.nchc.org.tw/drbl-core -x 'i915.modeset=0 xforcevesa' -n 2.6.32-5 -i my-gparted-live<br>
 For more info, you can run "/opt/drbl/sbin/create-gparted-live --help"<br>
 BTW, in the file "GParted-Live-Version" in the GParted live iso file, you can find the command which was used to create the GParted iso file.
 </ol>
