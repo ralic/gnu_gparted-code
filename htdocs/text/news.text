@@ -1,3 +1,19 @@
+1 August 2010
+GParted 0.6.2
+<br>
+This release of GParted includes important bug fixes, and language
+translation updates.
+<br><br>
+Key changes include:
+<ul>
+<li>Re-enable MiB partition alignment option</li>
+<li>Fix problem with logical partition move overwriting EBR (<a href="https://bugzilla.gnome.org/show_bug.cgi?id=623630">bug #623630</a>)<br>
+</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.6.2/gparted-0.6.2-notes.txt/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 8 July 2010
 GParted 0.6.1
 <br>
