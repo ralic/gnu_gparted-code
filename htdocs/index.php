@@ -53,14 +53,27 @@ not included in libparted.
     </ul>
   </li>
 
-  <li>Supports file systems such as:<br>
-  ext2/ext3/ext4, FAT16/FAT32, hfs/hfs+, linux-swap, NTFS, reiserfs/4,
-  ufs, xfs file systems.<br>
+  <li>Manipulate file systems such as:
+    <ul>
+      <li>ext2 / ext3 / ext4</li>
+      <li>fat16 / fat32</li>
+      <li>hfs / hfs+</li>
+      <li>linux-swap</li>
+      <li>ntfs</li>
+      <li>reiserfs / reiser4</li>
+      <li>ufs</li>
+      <li>xfs</li>
+    </ul>
   For specific actions supported see
-  detailed <a href="features.php">features</a>.</li>
+  detailed <a href="features.php">features</a>.
+  </li>
+
+  <li>Align partitions to mebibyte (MiB) or cylinder boundaries</li>
 
   <li>Supports hardware RAID, motherboard BIOS RAID, and Linux
   software RAID.</li>
+
+  <li>Supports all sector sizes (not just 512 byte sectors)</li>
 </ul>
 <h2>Requirements</h2>
 <p>
