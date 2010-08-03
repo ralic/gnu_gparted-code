@@ -73,7 +73,7 @@ not included in libparted.
   <li>Supports hardware RAID, motherboard BIOS RAID, and Linux
   software RAID.</li>
 
-  <li>Supports all sector sizes (not just 512 byte sectors)</li>
+  <li>Supports all sector sizes (e.g., 512, 1024, 2048, 4096 byte sectors)</li>
 </ul>
 <h2>Requirements</h2>
 <p>
