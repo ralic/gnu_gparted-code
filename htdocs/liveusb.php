@@ -46,7 +46,7 @@ gnome_menu();
 	    </font>
 	    
 	    <ol>
-              <li>Create a partition and format your flash drive as FAT16 or FAT32 if there is no any FAT16 or FAT32 partition.
+              <li>Create a partition on your flash drive as FAT16 or FAT32 if there is no any FAT16 or FAT32 partition on that. If there is, you can use the existing one.
 	      <li>Extract all the contents of the zip file to FAT16/FAT32 partition on your "flash drive." Keep the directory architecture, for example, file "COPYING" should be in the USB flash drive's top directory (e.g. G:\COPYING).
 	      <li>Browse to your "flash drive" and click the makeboot.bat in the dir utils\win32\. <font color="red">WARNING! Makeboot.bat must be run from your USB flash drive. Executing it incorrectly could cause your MS windows not to boot.</font>
 	      <li>Follow the on-screen instructions.
