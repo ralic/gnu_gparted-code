@@ -67,7 +67,7 @@ We are grateful for all donations.<br>
 </TR>
 <TR>
 	<TD>2010-08-22</TD>
-	<TD>anonymous</TD>
+	<TD>Karlheinz Lehwald</TD>
 	<TD>20.00 USD (- 1.08 USD to PP)</TD>
 </TR>
 <TR>
