@@ -39,6 +39,9 @@ For other installations, please refer to the following documents:<br>
 <a href="create-gparted-live.php">Create your own custom GParted Live
 from scratch</a><br>
 </p>
+<h2>Available boot parameters</h2>
+<p>
+You can find the available boot parameters for GParted live <a href="./gparted-live-boot-param.php">here.
 
 <h2>Included Packages</h2>
 <p>
