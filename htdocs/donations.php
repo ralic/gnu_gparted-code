@@ -56,6 +56,31 @@ We are grateful for all donations.<br>
 	<TD><B>Amount</B></TD>
 </TR>
 <TR>
+	<TD>2010-08-27</TD>
+	<TD>Ambica Prasad Jha</TD>
+	<TD>10.00 USD (- 0.69 USD to PP)</TD>
+</TR>
+<TR>
+	<TD>2010-08-27</TD>
+	<TD>Shuo Chen</TD>
+	<TD>100.00 USD (- 3.20 USD to PP)</TD>
+</TR>
+<TR>
+	<TD>2010-08-25</TD>
+	<TD>anonymous</TD>
+	<TD>5.00 USD (- 0.50 USD to PP)</TD>
+</TR>
+<TR>
+	<TD>2010-08-24</TD>
+	<TD>anonymous</TD>
+	<TD>5.00 USD (- 0.45 USD to PP)</TD>
+</TR>
+<TR>
+	<TD>2010-08-22</TD>
+	<TD>Karlheinz Lehwald</TD>
+	<TD>20.00 USD (- 1.08 USD to PP)</TD>
+</TR>
+<TR>
 	<TD>2010-08-15</TD>
 	<TD>anonymous</TD>
 	<TD>5.00 USD (- 0.45 USD to PP)</TD>
