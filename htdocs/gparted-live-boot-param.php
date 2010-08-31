@@ -16,7 +16,7 @@ gnome_head();
 gnome_menu();
 ?>
 <div class="content">
-<h1>The boot parameters for GParted live<h1>
+<h1>The boot parameters for GParted live</h1>
 <p>
 GParted live is based on <a href="http://wiki.debian.org/DebianLive/" target=_blank>Debian live</a> with GParted installed. Therefore there are 2 kinds of boot parameters:
 <ol>
