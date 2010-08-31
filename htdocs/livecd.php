@@ -41,7 +41,7 @@ from scratch</a><br>
 </p>
 <h2>Available boot parameters</h2>
 <p>
-You can find the available boot parameters for GParted live <a href="./gparted-live-boot-param.php">here.
+You can find the available boot parameters for GParted live <a href="./gparted-live-boot-param.php">here</a>.
 
 <h2>Included Packages</h2>
 <p>
