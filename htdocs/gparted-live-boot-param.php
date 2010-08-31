@@ -28,8 +28,9 @@ GParted live is based on <a href="http://wiki.debian.org/DebianLive/" target=_bl
   <li>gl-debug is for you to enter command line prompt before any GParted-related action is run. This is easier for you to debug.
   <li>gl_numlk, gl_capslk.<br>
       To turn on or off the numberlock or capslock of keyboard. You can use "on" or "off", e.g. gl_numlk=on to turn on numberlock when booting.
-  <li>Batch mode or not (yes/no), if yes, it won't ask about X configuration.<br>
-      e.g. gl_batch="no"
+  <li>gl_batch<br>
+      To enable batch mode, if added, it won't ask about X configuration during booting.<br>
+      e.g. gl_batch
   </ul>
 <li>Therefore if you want to assign the language and keyboard layout as German one, and let the system to automatically detect the X-window configuration, you can put the boot parameters as:<br>
     gl_lang=de_DE keyb=de gl_batch
