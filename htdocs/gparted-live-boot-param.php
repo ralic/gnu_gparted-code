@@ -32,7 +32,7 @@ GParted live is based on <a href="http://wiki.debian.org/DebianLive/" target=_bl
       To enable batch mode, put it, then GParted live won't ask about X configuration during booting.<br>
       e.g. gl_batch
   </ul>
-<li>Therefore if you want to assign the language and keyboard layout as German one, and let the system to automatically detect the X-window configuration, you can put the boot parameters as:<br>
-    gl_lang=de_DE keyb=de gl_batch
 </ol>
+<p>Therefore if you want to assign the language and keyboard layout as German one, and let the system to automatically detect the X-window configuration, you can put the boot parameters as:<br>
+    gl_lang=de_DE keyb=de gl_batch
 <hr>
