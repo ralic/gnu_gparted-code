@@ -56,6 +56,11 @@ We are grateful for all donations.<br>
 	<TD><B>Amount</B></TD>
 </TR>
 <TR>
+	<TD>2010-09-04</TD>
+	<TD>anonymous</TD>
+	<TD>7.00 USD (- 0.57 USD to PP)</TD>
+</TR>
+<TR>
 	<TD>2010-08-31</TD>
 	<TD>HERMANN Mechatronik</TD>
 	<TD>5.00 USD (- 0.50 USD to PP)</TD>
