@@ -82,6 +82,13 @@ be used on other operating systems, such as Windows or Mac OS X, by
 booting from media containing <a href="livecd.php">GParted
 Live</a>.
 </p>
+<h2>Mission Statement</h2>
+<p>
+The purpose of GParted is to provide an easy way to graphically manage
+disk device partitions, without unintended loss of data, through the
+use of the <a href="http://www.gnu.org/software/parted/">GNU
+libparted</a> library and free software file system tools.
+</p>
 <h2>Free Software</h2>
 <p>
 GParted is free software.<br>
