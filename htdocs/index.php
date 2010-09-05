@@ -86,8 +86,8 @@ Live</a>.
 <p>
 The purpose of GParted is to provide an easy way to graphically manage
 disk device partitions, without unintended loss of data, through the
-use of the <a href="http://www.gnu.org/software/parted/">GNU
-libparted</a> library and free software file system tools.
+use of <a href="http://www.gnu.org/software/parted/">GNU libparted</a>
+and other free software file system tools.
 </p>
 <h2>Free Software</h2>
 <p>
