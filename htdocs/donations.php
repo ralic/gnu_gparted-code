@@ -56,6 +56,11 @@ We are grateful for all donations.<br>
 	<TD><B>Amount</B></TD>
 </TR>
 <TR>
+	<TD>2010-09-05</TD>
+	<TD>anonymous</TD>
+	<TD>1.00 USD (- 0.34 USD to PP)</TD>
+</TR>
+<TR>
 	<TD>2010-09-04</TD>
 	<TD>anonymous</TD>
 	<TD>7.00 USD (- 0.57 USD to PP)</TD>
