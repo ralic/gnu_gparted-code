@@ -1,3 +1,19 @@
+23 September 2010
+GParted 0.6.3
+<br>
+This release of GParted improves motherboard BIOS RAID support
+and includes bug fixes, and language translation updates.
+<br><br>
+Key changes include:
+<ul>
+<li>Fix problems listing and working with fake RAID devices</li>
+<li>Prevent swapon and mount if partition is in operation queue</li>
+<li>Prevent partition table creation if partitions are active</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.6.3/gparted-0.6.3-notes.txt/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 1 August 2010
 GParted 0.6.2
 <br>
