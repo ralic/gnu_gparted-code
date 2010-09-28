@@ -74,7 +74,8 @@ Please let me know if you want to help developing GParted. It might be a good id
 </p>
 <h3>Donations</h3>
 <p>
-If you lack the skills or time to help with code or ideas and yet would like to contribute something, you might take a look at the 
+Another way to contribute is to make a donation to the GParted project.  For
+details on donations please refer to our
 <a href="http://gparted.sourceforge.net/donations.php">donations page</a>.
 
 <br>
