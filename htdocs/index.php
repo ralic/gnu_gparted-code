@@ -82,7 +82,7 @@ be used on other operating systems, such as Windows or Mac OS X, by
 booting from media containing <a href="livecd.php">GParted
 Live</a>.
 </p>
-<a name="mission-statement"</a>
+<a name="mission-statement"></a>
 <h2>Mission Statement</h2>
 <p>
 The goal of GParted is to provide an easy way to graphically manage
