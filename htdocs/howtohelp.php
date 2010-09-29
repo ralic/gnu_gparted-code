@@ -57,7 +57,10 @@ GParted is written in <a href="http://en.wikipedia.org/wiki/C%2B%2B">C++</a> and
 for its Graphical User Interface (GUI).
 The general approach is to keep the GUI as simple as possible.
 We strive to conform to the
-<a href="http://library.gnome.org/devel/hig-book/stable/" target="new">GNOME Human Interface Guidelines</a>.<br>
+<a href="http://library.gnome.org/devel/hig-book/stable/" target="new">GNOME Human Interface Guidelines</a>.
+We try to keep the source code as maintainable as is reasonably
+possible.
+We seek to stay true to the GParted <a href="index.php#mission-statement">mission statement</a>.<br>
 <br>
 GParted uses
 <a href="http://www.gnu.org/software/parted/" target="new">GNU libparted</a>
