@@ -27,24 +27,13 @@ the gparted application.<br>
 </i></p>
 
 <p><i>
-<font color="red">
-<b>WARNING</b>: &nbsp; 
-GParted 0.6.0 contains two serious bugs when copying or moving partitions.<br>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-For more details see: <a href="https://bugzilla.gnome.org/show_bug.cgi?id=623630">Bug #623630</a>, and <a href="https://bugzilla.gnome.org/show_bug.cgi?id=623697">Bug #623697</a>.<br>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-GParted 0.6.1 contains code to avoid these bugs.
-</font>
-</i></p>
-
-<p><i>
 <b>CAUTION</b>: &nbsp; Partition editing problems can be experienced using<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 GParted with newer GNU/Linux kernels (2.6.31+),<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 udev (138+), and parted (1.8.8.+ up to 2.2 inclusive).<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-These problems have even occurred with GParted Live 0.5.2-9.<br>
+We believe these problems are resolved with GParted Live 0.6.3-3.<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 If you encounter an error message similar to:<br>
 <br>
