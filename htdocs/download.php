@@ -33,7 +33,7 @@ GParted with newer GNU/Linux kernels (2.6.31+),<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 udev (138+), and parted (1.8.8.+ up to 2.2 inclusive).<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-We believe these problems are resolved with GParted Live 0.6.3-3.<br>
+We believe these problems are resolved with GParted Live 0.6.2-2 and higher.<br>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 If you encounter an error message similar to:<br>
 <br>
