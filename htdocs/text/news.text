@@ -1,3 +1,19 @@
+1 October 2010
+GParted 0.6.4
+<br>
+This release of GParted fixes a regression introduced with the
+previous version.  The problem introduced was that when
+partitions were created using MiB alignment, the resulting
+partition was 1 MiB larger in size than requested.
+<br><br>
+Key changes include:
+<ul>
+<li>Fix partitions created using MiB alignment are 1 MiB larger</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.6.4/gparted-0.6.4-notes.txt/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 23 September 2010
 GParted 0.6.3
 <br>
