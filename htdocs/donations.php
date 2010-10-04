@@ -62,7 +62,7 @@ We are grateful for all donations.<br>
 </TR>
 <TR>
 	<TD>2010-10-02</TD>
-	<TD>anonymous</TD>
+	<TD>Lam Chun Sang Johnson</TD>
 	<TD>10.00 USD (- 0.69 USD to PP)</TD>
 </TR>
 <TR>
