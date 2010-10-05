@@ -1,3 +1,22 @@
+5 October 2010
+GParted web site to move to gparted.org
+<br>
+On October 6, 2010, the GParted web site will be migrated from
+gparted.sourceforge.net to the gparted.org domain name.<br>
+<br>
+Currently the gparted.org domain name simply redirects to the
+gparted.sourceforge.net domain.  After this change, gparted.org will
+become the primary domain name for GParted.<br>
+<br>
+Since the steps to setup the <a
+href="http://sourceforge.net/apps/trac/sourceforge/wiki/Custom%20VHOSTs">virtual
+host (VHOST) configuration</a> involve several hours of time delays,
+please bear with us while the change is made.<br>
+<br>
+Your patience is appreciated.
+<br><br>
+Curtis
+---
 1 October 2010
 GParted 0.6.4
 <br>
