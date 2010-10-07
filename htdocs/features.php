@@ -457,10 +457,12 @@ gnome_menu();
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
 	<td align=CENTER>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/supported.png" alt="supported.png">
+	  	<a href="#swaplabel">[8]</a>
 	</td>
 	<td>
-		mkswap (part of <a href="http://www.kernel.org/pub/linux/utils/util-linux" target=new>util-linux</a>)
+		<a href="http://www.kernel.org/pub/linux/utils/util-linux-ng/" target=new>util-linux-ng</a>
+		or <a href="http://www.kernel.org/pub/linux/utils/util-linux/" target=new>util-linux</a>
 	</td>
 </tr>
 <tr>
@@ -722,6 +724,7 @@ gnome_menu();
 <a name="xfscopy">[5]</a> Copy performed using xfsdump and xfsrestore.<br>
 <a name="mtools">[6]</a> Requires <a href="http://mtools.linux.lu/" target=new>mtools</a> to read and write labels.<br>
 <a name="blkid">[7]</a> The blkid command from e2fsprogs v1.41+ is required for ext4 detection.<br>
+<a name="swaplabel">[8]</a> The swaplabel command from util-linux-ng v2.18+ is required to label linux-swap.<br>
 <br>
 </div>
 
