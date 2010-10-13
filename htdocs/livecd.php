@@ -66,6 +66,10 @@ GParted Live includes additional packages, such as:<br>
     <td>- Data recovery tool that can help recover lost partitions<br></td>
   </tr>
   <tr>
+    <td><a href="http://en.wikipedia.org/wiki/Gpart">gpart</a></td>
+    <td>- (Older) data recovery tool that can help recover lost msdos partition tables<br></td>
+  </tr>
+  <tr>
     <td><a href="http://www.nano-editor.org/">nano</a></td>
     <td>- Text editor</td>
   </tr>
