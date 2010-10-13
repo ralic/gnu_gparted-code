@@ -36,6 +36,9 @@ $backgroundnumber = rand (1, 5);
   <meta name="author" content="Vincent van Adrighem">
   <meta name="keywords" content="parted frontend gparted partition magic">
   <style type="text/css">
+    <!--
+    @import url(http://www.google.com/cse/api/branding.css);
+    -->
     .hdr {
       background: url("images/<? 
 	echo "background0";
@@ -114,6 +117,14 @@ function gnome_menu() { ?>
 		<li><a href="http://sourceforge.net/projects/gparted">Project Page</a></li>
 		<li><a href="donations.php">Donations</a></li>
 		</ul>
+	</div>
+</div>
+<div class="section">
+	<div class="sectiontitle">Search</div>
+	<div class="sectioncontent">
+	<?
+	include "google/gparted-search.inc";
+	?>
 	</div>
 </div>
 </div>
