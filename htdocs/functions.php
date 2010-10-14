@@ -58,6 +58,12 @@ function gnome_head() { ?>
 }
 
 function gnome_foot() { ?>
+<div class="content">
+<?
+  include "google/sp-468x60-below-page-content.inc";
+?>
+</div>
+
 <div class="copyright">
 <!-- Commented out 2009-03-11 by Curtis Gedak
 <a href="http://www.softpedia.com/reviews/linux/GParted-Review-22766.shtml#"><img src="images/softpedia_pick_award_s.gif"
