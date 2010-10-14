@@ -76,7 +76,7 @@ function gnome_foot() { ?>
 function gnome_menu() { ?>
 <div class="menu">
 <div class="section">
-	<div class="sectiontitle">Generic</div>
+	<div class="sectiontitle">GParted</div>
 	<div class="sectioncontent">
 		<ul class="nobullet">
 		<li><a href="index.php">About</a></li>
