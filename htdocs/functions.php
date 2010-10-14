@@ -120,7 +120,7 @@ function gnome_menu() { ?>
 	</div>
 </div>
 <div class="section">
-	<div class="sectiontitle">Search</div>
+	<div class="sectiontitle">Site Search</div>
 	<div class="sectioncontent">
 	<?
 	include "google/gparted-search.inc";
