@@ -58,7 +58,7 @@ function gnome_head() { ?>
 }
 
 function gnome_foot() { ?>
-<div class="content">
+<div class="bottomad">
 <?
   include "google/sp-468x60-below-page-content.inc";
 ?>
