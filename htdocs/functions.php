@@ -30,7 +30,7 @@ function html_head() {
 srand ((double) microtime() * 1000000);
 $backgroundnumber = rand (1, 5);
 ?>
-  <link rel="icon" href="images/gnome-16.png" type="image/png">
+  <link rel="icon" href="images/gparted-16.png" type="image/png">
   <link rel="stylesheet" href="css/default.css" type="text/css">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="author" content="Vincent van Adrighem">
@@ -52,7 +52,7 @@ $backgroundnumber = rand (1, 5);
 
 function gnome_head() { ?>
 <div class="hdr">
-	<a href="index.php"><img class="logo" src="images/gnome-64.png" alt="home" title="back to startpage"></a>
+	<a href="index.php"><img class="logo" src="images/gparted-64.png" alt="home" title="back to startpage"></a>
 </div>
 <?
 }
