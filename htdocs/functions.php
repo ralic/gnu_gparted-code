@@ -86,7 +86,6 @@ function gnome_menu() { ?>
 	<div class="sectioncontent">
 		<ul class="nobullet">
 		<li><a href="index.php">About</a></li>
-		<li><a href="features.php">Features</a></li>
 		<li><a href="news.php">News</a> <?
 //Dit stukje vist de datum uit de nieuwstekst-spool.
 	$filename = "text/news.text";
@@ -95,9 +94,11 @@ function gnome_menu() { ?>
 	$line = chop($line);
 	$line = substr($line, 0, strlen($line) - 5);
 	echo "(", $line, ")</li>\n"; ?>
+		<li><a href="features.php">Features</a></li>
 		<li><a href="screenshots.php">Screenshots</a></li>
-		<li><a href="download.php">Downloads</a></li>
 		<li><a href="livecd.php">Live CD/USB/PXE</a></li>
+		<li><a href="download.php">Downloads</a></li>
+		<li><a href="donations.php">Donate</a></li>
 		</ul>
 	</div>
 </div>
@@ -118,10 +119,9 @@ function gnome_menu() { ?>
 	<div class="sectioncontent">
 		<ul class="nobullet">
 		<li><a href="git.php">Git</a></li>
-		<li><a href="howtohelp.php">How can I help?</a></li>
 		<li><a href="artwork.php">Artwork</a></li>
-		<li><a href="http://sourceforge.net/projects/gparted">Project Page</a></li>
-		<li><a href="donations.php">Donations</a></li>
+		<li><a href="http://sourceforge.net/projects/gparted">SF Project Page</a></li>
+		<li><a href="howtohelp.php">How can I help?</a></li>
 		</ul>
 	</div>
 </div>
