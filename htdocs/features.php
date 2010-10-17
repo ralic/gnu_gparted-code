@@ -23,39 +23,39 @@ gnome_menu();
 </p>
 <table border=1>
 <tr>
-	<td>
+	<th>
 		<b>File System</b>
-	</td>
-	<td>
+	</th>
+	<th>
 		<b>Detect</b>
-	</td>
-	<td>
+	</th>
+	<th>
 		<b>Read</b>
-	</td>
-	<td>
+	</th>
+	<th>
 		<b>Create</b>
-	</td>
-	<td>
+	</th>
+	<th>
 		<b>Grow</b>
-	</td>
-	<td>
+	</th>
+	<th>
 		<b>Shrink</b>
-	</td>
-	<td>
+	</th>
+	<th>
 		<b>Move</b>
-	</td>
-	<td>
+	</th>
+	<th>
 		<b>Copy</b>
-	</td>
-	<td>
+	</th>
+	<th>
 		<b>Check</b>
-	</td>
-	<td>
+	</th>
+	<th>
 		<b>Label</b>
-	</td>
-	<td>
+	</th>
+	<th>
 		<b>Required software</b>
-	</td>
+	</th>
 </tr>
 <tr>
 	<td>
@@ -151,7 +151,7 @@ gnome_menu();
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#copy">[1]</a>
+		<sup><a href="#copy">[1]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
@@ -187,7 +187,7 @@ gnome_menu();
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#copy">[1]</a>
+		<sup><a href="#copy">[1]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
@@ -205,7 +205,7 @@ gnome_menu();
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#blkid">[7]</a>
+		<sup><a href="#blkid">[7]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
@@ -224,7 +224,7 @@ gnome_menu();
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#copy">[1]</a>
+		<sup><a href="#copy">[1]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
@@ -251,26 +251,26 @@ gnome_menu();
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#libparted">[4]</a>
+		<sup><a href="#libparted">[4]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#libparted">[4]</a>
+		<sup><a href="#libparted">[4]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#libparted">[4]</a>
+		<sup><a href="#libparted">[4]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#copy">[1]</a>
+		<sup><a href="#copy">[1]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#mtools">[6]</a>
+		<sup><a href="#mtools">[6]</a></sup>
 	</td>
 	<td>
 		<a href="ftp://ftp.uni-erlangen.de/pub/Linux/LOCAL/dosfstools" target=new>dosfstools</a>
@@ -291,26 +291,26 @@ gnome_menu();
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#libparted">[4]</a>
+		<sup><a href="#libparted">[4]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#libparted">[4]</a>
+		<sup><a href="#libparted">[4]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#libparted">[4]</a>
+		<sup><a href="#libparted">[4]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#copy">[1]</a>
+		<sup><a href="#copy">[1]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#mtools">[6]</a>
+		<sup><a href="#mtools">[6]</a></sup>
 	</td>
 	<td>
 		<a href="ftp://ftp.uni-erlangen.de/pub/Linux/LOCAL/dosfstools" target=new>dosfstools</a>
@@ -334,14 +334,14 @@ gnome_menu();
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#libparted">[4]</a>
+		<sup><a href="#libparted">[4]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#copy">[1]</a>
+		<sup><a href="#copy">[1]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/not_supported.png" alt="not_supported.png">
@@ -371,14 +371,14 @@ gnome_menu();
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#libparted">[4]</a>
+		<sup><a href="#libparted">[4]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#copy">[1]</a>
+		<sup><a href="#copy">[1]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
@@ -405,7 +405,7 @@ gnome_menu();
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#grow">[2]</a>
+		<sup><a href="#grow">[2]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/not_supported.png" alt="not_supported.png">
@@ -415,7 +415,7 @@ gnome_menu();
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#copy">[1]</a>
+		<sup><a href="#copy">[1]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
@@ -451,14 +451,14 @@ gnome_menu();
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#copy">[1]</a>
+		<sup><a href="#copy">[1]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#swaplabel">[8]</a>
+		<sup><a href="#swaplabel">[8]</a></sup>
 	</td>
 	<td>
 		<a href="http://www.kernel.org/pub/linux/utils/util-linux-ng/" target=new>util-linux-ng</a>
@@ -559,7 +559,7 @@ gnome_menu();
         </td>
         <td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#copy">[1]</a>
+		<sup><a href="#copy">[1]</a></sup>
         </td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
@@ -595,7 +595,7 @@ gnome_menu();
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#copy">[1]</a>
+		<sup><a href="#copy">[1]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
@@ -657,18 +657,18 @@ gnome_menu();
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#grow">[2]</a>
+		<sup><a href="#grow">[2]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/not_supported.png" alt="not_supported.png">
-	  	<a href="#shrink">[3]</a>
+		<sup><a href="#shrink">[3]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
-	  	<a href="#xfscopy">[5]</a>
+		<sup><a href="#xfscopy">[5]</a></sup>
 	</td>
 	<td align=CENTER>
 		<img src="images/supported.png" alt="supported.png">
@@ -678,41 +678,6 @@ gnome_menu();
 	</td>
 	<td>
 		<a href="http://oss.sgi.com/projects/xfs/" target=new>xfsprogs</a>
-	</td>
-</tr>
-<tr>
-	<td>
-		<b>File System</b>
-	</td>
-	<td>
-		<b>Detect</b>
-	</td>
-	<td>
-		<b>Read</b>
-	</td>
-	<td>
-		<b>Create</b>
-	</td>
-	<td>
-		<b>Grow</b>
-	</td>
-	<td>
-		<b>Shrink</b>
-	</td>
-	<td>
-		<b>Move</b>
-	</td>
-	<td>
-		<b>Copy</b>
-	</td>
-	<td>
-		<b>Check</b>
-	</td>
-	<td>
-		<b>Label</b>
-	</td>
-	<td>
-		<b>Required software</b>
 	</td>
 </tr>
 </table>
