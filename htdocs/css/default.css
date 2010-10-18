@@ -22,6 +22,11 @@ table {
   border-collapse: collapse;
 }
 
+th {
+  background-color: silver;
+  text-align: left;
+}
+
 table.nieuws {
   width: 100%;
 }
