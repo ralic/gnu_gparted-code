@@ -19,6 +19,7 @@ blockquote {
 }
 table {
   font-family: "Bitstream Vera Serif", serif;
+  border-collapse: collapse;
 }
 
 table.nieuws {
