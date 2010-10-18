@@ -51,9 +51,9 @@ We are grateful for all donations.<br>
 <h3>Received Donations</h3>
 <table border=1>
 <tr>
-	<th align="left"><b>Date</b></th>
-	<th align="left"><b>Description</b></th>
-	<th align="left"><b>Amount</b></th>
+	<th><b>Date</b></th>
+	<th><b>Description</b></th>
+	<th><b>Amount</b></th>
 </tr>
 <tr>
 	<td>2010-10-17</td>
@@ -685,9 +685,9 @@ We are grateful for all donations.<br>
 <h3>Expenses</h3>
 <table border=1>
 <tr>
-	<th align="left"><b>Date</b></th>
-	<th align="left"><b>Description</b></th>
-	<th align="left"><b>Amount</b></th>
+	<th><b>Date</b></th>
+	<th><b>Description</b></th>
+	<th><b>Amount</b></th>
 </tr>
 <tr>
 	<td>2010-07-06</td>
