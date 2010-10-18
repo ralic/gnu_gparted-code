@@ -61,31 +61,31 @@ gnome_menu();
 	<td>
 		<b>btrfs</b>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
 	<td>
@@ -96,31 +96,31 @@ gnome_menu();
 	<td>
 		<b>crypt-luks</b>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
 	<td>
@@ -131,32 +131,32 @@ gnome_menu();
 	<td>
 		<b>ext2</b>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#copy">[1]</a></sup>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
 	<td>
@@ -167,32 +167,32 @@ gnome_menu();
 	<td>
 		<b>ext3</b>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#copy">[1]</a></sup>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
 	<td>
@@ -203,33 +203,33 @@ gnome_menu();
 	<td>
 		<b>ext4</b>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#blkid">[7]</a></sup>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#copy">[1]</a></sup>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
 	<td>
@@ -240,35 +240,35 @@ gnome_menu();
 	<td>
 		<b>fat16</b>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
-		<img src="images/supported.png" alt="supported.png">
-		<sup><a href="#libparted">[4]</a></sup>
-	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#libparted">[4]</a></sup>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#libparted">[4]</a></sup>
 	</td>
-	<td align=CENTER>
+	<td>
+		<img src="images/supported.png" alt="supported.png">
+		<sup><a href="#libparted">[4]</a></sup>
+	</td>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#copy">[1]</a></sup>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#mtools">[6]</a></sup>
 	</td>
@@ -280,35 +280,35 @@ gnome_menu();
 	<td>
 		<b>fat32</b>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
-		<img src="images/supported.png" alt="supported.png">
-		<sup><a href="#libparted">[4]</a></sup>
-	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#libparted">[4]</a></sup>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#libparted">[4]</a></sup>
 	</td>
-	<td align=CENTER>
+	<td>
+		<img src="images/supported.png" alt="supported.png">
+		<sup><a href="#libparted">[4]</a></sup>
+	</td>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#copy">[1]</a></sup>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#mtools">[6]</a></sup>
 	</td>
@@ -320,33 +320,33 @@ gnome_menu();
 	<td>
 		<b>hfs</b>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#libparted">[4]</a></sup>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#copy">[1]</a></sup>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
 	<td>
@@ -357,33 +357,33 @@ gnome_menu();
 	<td>
 		<b>hfs+</b>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#libparted">[4]</a></sup>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#copy">[1]</a></sup>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
 	<td>
@@ -394,33 +394,33 @@ gnome_menu();
 	<td>
 		<b>jfs</b>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#grow">[2]</a></sup>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#copy">[1]</a></sup>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
 	<td>
@@ -431,32 +431,32 @@ gnome_menu();
 	<td>
 		<b>linux-swap</b>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#copy">[1]</a></sup>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#swaplabel">[8]</a></sup>
 	</td>
@@ -469,31 +469,31 @@ gnome_menu();
 	<td>
 		<b>lvm2 pv</b>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
 	<td>
@@ -504,31 +504,31 @@ gnome_menu();
 	<td>
 		<b>ntfs</b>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
 	<td>
@@ -539,32 +539,32 @@ gnome_menu();
         <td>
                 <b>reiser4</b>
         </td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-        <td align=CENTER>
+        <td>
                 <img src="images/supported.png" alt="supported.png">
         </td>
-        <td align=CENTER>
+        <td>
                 <img src="images/not_supported.png" alt="not_supported.png">
         </td>
-        <td align=CENTER>
+        <td>
                 <img src="images/not_supported.png" alt="not_supported.png">
         </td>
-        <td align=CENTER>
+        <td>
                 <img src="images/supported.png" alt="supported.png">
         </td>
-        <td align=CENTER>
+        <td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#copy">[1]</a></sup>
         </td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
         <td>
@@ -575,32 +575,32 @@ gnome_menu();
 	<td>
 		<b>reiserfs</b>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#copy">[1]</a></sup>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
 	<td>
@@ -611,31 +611,31 @@ gnome_menu();
 	<td>
 		<b>ufs</b>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
 	<td>
@@ -646,34 +646,34 @@ gnome_menu();
 	<td>
 		<b>xfs</b>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#grow">[2]</a></sup>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 		<sup><a href="#shrink">[3]</a></sup>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#xfscopy">[5]</a></sup>
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
-	<td align=CENTER>
+	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
 	<td>
