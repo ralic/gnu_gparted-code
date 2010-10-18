@@ -91,7 +91,8 @@ ul.nobullet {
 	width: 100%;
 	height: 48px;
 
-	text-align: right;
+	text-align: left;
+	padding-left: 80px;
 	background-image:url("images/header-bg-hills01.png");
 	background-repeat:no-repeat;
 	background-color: #e3ffc3;
