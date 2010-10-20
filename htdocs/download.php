@@ -19,39 +19,51 @@ gnome_menu();
 <div class="content">
 <h1>Downloads</h1>
 
-<div class="note">
-<p class="hang">
+<table border=0><tr><td>
+<div class="caution">
+<p class="hangcaution">
 <b>CAUTION</b>: &nbsp; 
 Editing partitions has the potential to cause <b><u>LOSS of DATA</u></b>.<br>
 You are advised to <b><u>BACKUP your DATA</u></b> before using gparted.<br>
 </p>
 </div>
+</td></tr></table>
 
-<br>
-
-<div class="note">
-<p class="hang">
-<b>NOTE</b>: &nbsp; &nbsp; &nbsp; &nbsp; If you encounter a message similar to<br>
-"ERROR: Current NTFS volume size is bigger than the device size!"<br>
-then refer to
-<a href="http://gparted-forum.surf4.info/viewtopic.php?id=13777">Problems Resizing File Systems with GParted</a>.<br>
-</p>
-</div>
-
-<p>
-If you use GParted and it helps you with your task, please consider making
+<p styll="text-indent: 100em;">
+<a href="donations.php"><img src="images/btn_donate_LG.gif" border="0" alt="Donate to GParted" style="float: left; padding-right: 20px;"></a>
+If you use GParted and it helps you with your task, then please consider making
 a donation to help us make GParted better.<br>
-<a href="donations.php"><img src="images/btn_donate_LG.gif" border="0" alt="Donate to GParted"></a>
 </p>
 
 <h3>GParted</h3>
+
+<table border=0><tr><td>
+<div class="tip">
+<p class="hangtip">
+<b>TIP</b>: &nbsp; Experiencing messages such as<br>
+<i>"ERROR: Current NTFS volume size is bigger than the device size!"</i>?<br>
+See
+<a href="http://gparted-forum.surf4.info/viewtopic.php?id=13777">Problems Resizing File Systems with GParted</a>.<br>
+</p>
+</div>
+</td></tr></table>
+
+<br>
 Browse releases of GParted source code <a href="http://sourceforge.net/projects/gparted/files/gparted/">here</a><br>
 <br>
 <h3>GParted Live CD/USB/HD/PXE</h3>
-<!--
-<font color="red">///WARNING/// Due to a hardware/firmware bug, it's _NOT_ recommended to run GParted live on some types of HP Pavilion machines. This is not the fault of GParted live. Otherwise your VGA card fan might be dead. For more info, please refer to <a href="http://bugzilla.gnome.org/show_bug.cgi?id=579000" target=_blank>this bug report</a>.</font><br>
+
+<table border=0><tr><td>
+<div class="tip">
+<p class="hangtip">
+<b>TIP</b>: &nbsp; Problems booting GParted Live image?
+See <a href="http://gparted-forum.surf4.info/viewtopic.php?id=14377">Tips on Booting GParted Live</a>.<br>
+</p>
+</div>
+</td></tr></table>
+
 <br>
--->
+
 Browse <b>Stable</b> releases of GParted Live
  <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/">here</a> (<a href="http://free.nchc.org.tw/gparted-live/stable/CHECKSUMS.TXT" target=_blank>checksums info</a>, <a href="http://free.nchc.org.tw/gparted-live/stable/ChangeLog-GParted-live.txt" target=_blank>changelog info</a>, <a href="http://free.nchc.org.tw/gparted-live/stable/RELEASE-NOTES-GParted-live.txt" target=_blank>release note</a>).<br>
 Browse latest <b>Testing</b> releases GParted Live
