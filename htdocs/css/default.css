@@ -130,7 +130,7 @@ ul.nobullet {
 }
 
 .note {
-      font-size: smaller;
+      font-family: "Bitstream Vera Sans", sans-serif;
       background: #F8F198;
       border: 1px solid #ECDF40;
       padding-left: 10px;

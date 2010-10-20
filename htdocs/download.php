@@ -20,22 +20,22 @@ gnome_menu();
 <h1>Downloads</h1>
 
 <div class="note">
-<p class="hang"><i>
+<p class="hang">
 <b>CAUTION</b>: &nbsp; 
 Editing partitions has the potential to cause <b><u>LOSS of DATA</u></b>.<br>
 You are advised to <b><u>BACKUP your DATA</u></b> before using gparted.<br>
-</i></p>
+</p>
 </div>
 
 <br>
 
 <div class="note">
-<p class="hang"><i>
+<p class="hang">
 <b>NOTE</b>: &nbsp; &nbsp; &nbsp; &nbsp; If you encounter a message similar to<br>
 "ERROR: Current NTFS volume size is bigger than the device size!"<br>
 then refer to
 <a href="http://gparted-forum.surf4.info/viewtopic.php?id=13777">Problems Resizing File Systems with GParted</a>.<br>
-</i></p>
+</p>
 </div>
 
 <p>
