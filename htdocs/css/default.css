@@ -129,6 +129,18 @@ ul.nobullet {
 	padding-left: 10px;
 }
 
+.note {
+      font-size: smaller;
+      background: #F8F198;
+      border: 1px solid #ECDF40;
+      padding-left: 10px;
+}
+
+.hang {
+      text-indent: -6em;
+      margin-left: 6em;
+}
+
 .section {
 	width: 160px;
 	margin-bottom: 5px;
