@@ -18,33 +18,25 @@ gnome_menu();
 ?>
 <div class="content">
 <h1>Downloads</h1>
-<p><i>
+
+<div class="note">
+<p class="hang"><i>
 <b>CAUTION</b>: &nbsp; 
 Editing partitions has the potential to cause <b><u>LOSS of DATA</u></b>.<br>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-You are advised to <b><u>BACKUP your DATA</u></b> before using
-the gparted application.<br>
+You are advised to <b><u>BACKUP your DATA</u></b> before using gparted.<br>
 </i></p>
+</div>
 
-<p><i>
-<b>CAUTION</b>: &nbsp; Partition editing problems can be experienced using<br>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-GParted with newer GNU/Linux kernels (2.6.31+),<br>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-udev (138+), and parted (1.8.8.+ up to 2.2 inclusive).<br>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-We believe these problems are resolved with GParted Live 0.6.2-2 and higher.<br>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-If you encounter an error message similar to:<br>
 <br>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-ERROR: Current NTFS volume size is bigger than the device size!<br>
-<br>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-then please refer to the following forum post:<br>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-<a href="http://gparted-forum.surf4.info/viewtopic.php?id=13777">"WARNING! Problem Resizing File Systems with GParted"</a>.<br>
+
+<div class="note">
+<p class="hang"><i>
+<b>NOTE</b>: &nbsp; &nbsp; &nbsp; &nbsp; If you encounter a message similar to<br>
+"ERROR: Current NTFS volume size is bigger than the device size!"<br>
+then refer to
+<a href="http://gparted-forum.surf4.info/viewtopic.php?id=13777">Problems Resizing File Systems with GParted</a>.<br>
 </i></p>
+</div>
 
 <p>
 If you use GParted and it helps you with your task, please consider making
