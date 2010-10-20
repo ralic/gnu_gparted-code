@@ -129,16 +129,30 @@ ul.nobullet {
 	padding-left: 10px;
 }
 
-.note {
+.caution {
       font-family: "Bitstream Vera Sans", sans-serif;
-      background: #F8F198;
-      border: 1px solid #ECDF40;
+      background: Khaki;
+      border: 1px solid DarkKhaki;
       padding-left: 10px;
+      padding-right: 10px;
 }
 
-.hang {
+.hangcaution {
       text-indent: -6em;
       margin-left: 6em;
+}
+
+.tip {
+      font-family: "Bitstream Vera Sans", sans-serif;
+      background: PaleGreen;
+      border: 1px solid MediumSpringGreen;
+      padding-left: 10px;
+      padding-right: 10px;
+}
+
+.hangtip {
+      text-indent: -3em;
+      margin-left: 3em;
 }
 
 .section {
