@@ -98,10 +98,13 @@ or<br>
  &nbsp; &nbsp; view the file "live/packages.txt" file inside the
  GParted Live iso file or zip file.<br>
 <br>
-<br>
-<font color="red"><b>NOTE:</b>  It is recommended to do a whole disk or
-partition image backup before you use GParted to resize or move your
-partition.</font><br>
+
+<table border=0><tr><td>
+<div class="caution">
+<p class="hangcaution">
+<b>CAUTION</b>:&nbsp;
+It is recommended to do a whole disk or partition image backup before
+you use GParted to resize or move your partition.<br>
 Some free (GPL) disk or partition image tools, which provide live CD
 or USB flash drive so that you do not have to install or configure,
 are available:<br>
@@ -114,6 +117,8 @@ are available:<br>
 <li><a href="http://partimage.org" target=_blank>Partimage</a>
 <li><a href="http://partclone.org" target=_blank>Partclone</a>
 </ul>
+</div>
+</td></tr></table>
 
 </div>
 
