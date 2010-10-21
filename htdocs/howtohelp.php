@@ -37,36 +37,22 @@ View the status of GParted language translation <a href="http://l10n.gnome.org/m
 </p>
 <h3>Coding</h3>
 <p>
-GParted is written in <a href="http://en.wikipedia.org/wiki/C%2B%2B">C++</a> and uses
-<a href="http://gtkmm.org/" target="new">gtkmm</a>
-for its Graphical User Interface (GUI).
-The general approach is to keep the GUI as simple as possible.
-We strive to conform to the
-<a href="http://library.gnome.org/devel/hig-book/stable/" target="new">GNOME Human Interface Guidelines</a>.
-We try to keep the source code as maintainable as is reasonably
-possible.
-We seek to stay true to the GParted <a href="index.php#mission-statement">mission statement</a>.<br>
+Fixing <a href="bugs.php">bugs</a>, implementing <a href="http://gparted-forum.surf4.info/viewforum.php?id=5">new features</a>,
+or addressing 'FIXME' and 'TODO' comments in the code can be great
+contributions to the GParted project.<br>
 <br>
-GParted uses
-<a href="http://www.gnu.org/software/parted/" target="new">GNU libparted</a>
-to detect and manipulate devices and partition tables.
-Several optional file system tools provide support for file systems
-not included in libparted.<br>
+To minimize the chance of duplicate efforts, please
+contact <a href="mailto:gedakc&#064;users.sf.net">Curtis Gedak</a>
+before embarking on significant code changes.<br>
 <br>
-You can <a href="http://git.gnome.org/cgit/gparted/">browse</a> 
-the git repository visually,
-or read instructions <a href="http://live.gnome.org/Git/Developers">here</a>.<br>
-<br>
-Please let me know if you want to help developing GParted. It might be a good idea to look at 
-<a href="http://bugzilla.gnome.org/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=Other&amp;product=gparted&amp;long_desc_type=substring&amp;long_desc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;bug_status=NEEDINFO&amp;emailassigned_to1=1&amp;emailtype1=substring&amp;email1=&amp;emailassigned_to2=1&amp;emailreporter2=1&amp;emailqa_contact2=1&amp;emailcc2=1&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=">outstanding bugs</a> or search the source for 'FIXME' or 'TODO'.<br>
+See also <a href="dev-status.php">development status</a>.
 </p>
 <h3>Donations</h3>
 <p>
 Another way to contribute is to make a donation to the GParted project.  For
 details on donations please refer to our
 <a href="http://gparted.sourceforge.net/donations.php">donations page</a>.
-
-<br>
+</p>
 
 </div>
 
