@@ -35,6 +35,15 @@ Translating GParted to your language is a valuable task that enables even more p
 Learn more about the GNOME Translation Project <a href="http://live.gnome.org/TranslationProject/">here</a>.<br>
 View the status of GParted language translation <a href="http://l10n.gnome.org/module/gparted/">here</a>.
 </p>
+<h3>Testing</h3>
+<p>
+Testing the functionality of GParted,
+reporting <a href="bugs.php">bugs</a>, and discussing problems is a
+huge help to developing robust software.<br>  Discussions on testing
+take place in
+the <a href="http://gparted-forum.surf4.info/viewforum.php?id=8">Testers</a>
+forum.
+</p>
 <h3>Coding</h3>
 <p>
 Fixing <a href="bugs.php">bugs</a>, implementing <a href="http://gparted-forum.surf4.info/viewforum.php?id=5">new features</a>,
@@ -49,8 +58,9 @@ See also <a href="dev-status.php">development status</a>.
 </p>
 <h3>Donations</h3>
 <p>
-Another way to contribute is to make a donation to the GParted project.  For
-details on donations please refer to our
+Another big way to help us to make GParted better is to make a
+donation to the GParted project.  For details on donations please
+refer to our
 <a href="http://gparted.sourceforge.net/donations.php">donations page</a>.
 </p>
 
