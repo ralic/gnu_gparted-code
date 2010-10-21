@@ -77,6 +77,9 @@ function gnome_foot() { ?>
 <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://gparted.sourceforge.net/">
 	<img border="0" src="http://jigsaw.w3.org/css-validator/images/vcss"
 	 alt="Correct CSS!" height="31" width="88"></a>
+<a href="privacy-policy.php">
+	<img border="0" src="images/pp.png"
+	 alt="Privacy policy"></a>
 </div>
 <? }
 
