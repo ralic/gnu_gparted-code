@@ -29,7 +29,7 @@ You are advised to <b><u>BACKUP your DATA</u></b> before using gparted.<br>
 </div>
 </td></tr></table>
 
-<p styll="text-indent: 100em;">
+<p>
 <a href="donations.php"><img src="images/btn_donate_LG.gif" border="0" alt="Donate to GParted" style="float: left; padding-right: 20px;"></a>
 If you use GParted and it helps you with your task, then please consider making
 a donation to help us make GParted better.<br>
