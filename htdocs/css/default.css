@@ -131,8 +131,10 @@ ul.nobullet {
 
 .caution {
       font-family: "Bitstream Vera Sans", sans-serif;
-      background: Khaki;
-      border: 1px solid DarkKhaki;
+      /* Khaki */
+      background: #f0e68c;
+      /* DarkKhaki */
+      border: 1px solid #bdb76b;
       padding-left: 10px;
       padding-right: 10px;
 }
@@ -144,8 +146,10 @@ ul.nobullet {
 
 .tip {
       font-family: "Bitstream Vera Sans", sans-serif;
-      background: PaleGreen;
-      border: 1px solid MediumSpringGreen;
+      /* PaleGreen */
+      background: #98fb98;
+      /* MediumSpringGreen */
+      border: 1px solid #00fa9a;
       padding-left: 10px;
       padding-right: 10px;
 }
