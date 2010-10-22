@@ -17,7 +17,7 @@ Program Policies
 ----------------
 http://www.google.com/support/adsense/bin/topic.py?hl=en&topic=16754
 
-Produce Specific Policies
+Product Specific Policies
 -------------------------
 http://www.google.com/support/adsense/bin/topic.py?hl=en&topic=16459
 

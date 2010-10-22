@@ -58,8 +58,8 @@ a:visited {
 }
 
 .right {
-	margin-right: 10px;
-	width:190px;
+	/* margin-right: 10px; */
+	/* width:190px; */
 	padding: 0px;
 	float: right;
 }

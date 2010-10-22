@@ -43,6 +43,12 @@ not included in libparted.
 
   <li>Enable and disable partition flags (e.g., boot, hidden)</li>
 
+  <div class="right">
+    <?
+      include "google/hp-336x280-rhs-near-features.inc";
+    ?>
+  </div>
+
   <li>Perform actions with partitions such as:
     <ul>
       <li>create or delete</li>
