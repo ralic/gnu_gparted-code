@@ -6,6 +6,7 @@
 //	meter()
 //      html_head()
 //	gnome_head()
+//	gnome_foot_wo_ads()
 //	gnome_foot()
 //	gnome_menu()
 //
@@ -58,13 +59,7 @@ function gnome_head() { ?>
 <?
 }
 
-function gnome_foot() { ?>
-<div class="bottomad">
-<?
-  include "google/sp-468x60-below-page-content.inc";
-?>
-</div>
-
+function gnome_foot_wo_ads() { ?>
 <div class="copyright">
 <!-- Commented out 2009-03-11 by Curtis Gedak
 <a href="http://www.softpedia.com/reviews/linux/GParted-Review-22766.shtml#"><img src="images/softpedia_pick_award_s.gif"
@@ -82,6 +77,17 @@ function gnome_foot() { ?>
 	 alt="Privacy policy"></a>
 </div>
 <? }
+
+function gnome_foot() { ?>
+<div class="bottomad">
+<?
+  include "google/sp-468x60-below-page-content.inc";
+?>
+</div>
+
+<?
+  gnome_foot_wo_ads();
+}
 
 function gnome_menu() { ?>
 <div class="menu">
