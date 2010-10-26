@@ -57,6 +57,11 @@ We are grateful for all donations.<br>
 </tr>
 <tr>
 	<td>2010-10-26</td>
+	<td>anonymous</td>
+	<td>25.00 USD (- 1.03 USD to PP)</td>
+</tr>
+<tr>
+	<td>2010-10-26</td>
 	<td>Isileth</td>
 	<td>10.00 USD (- 0.69 USD to PP)</td>
 </tr>
