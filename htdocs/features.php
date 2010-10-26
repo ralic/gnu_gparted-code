@@ -65,7 +65,10 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported.png">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/supported.png" alt="supported.png">
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported.png">
 	</td>
 	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
@@ -74,22 +77,20 @@ gnome_menu();
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/supported.png" alt="supported.png">
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported.png">
+		<sup><a href="#copy">[1]</a></sup>
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported.png">
 	</td>
 	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
-	</td>
-	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
-	</td>
-	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
-	</td>
-	<td>
-		<br>
+		<a href="https://btrfs.wiki.kernel.org/index.php/Main_Page" target=new>btrfs-tools</a>
 	</td>
 </tr>
 <tr>

@@ -60,6 +60,7 @@ not included in libparted.
 
   <li>Manipulate file systems such as:
     <ul>
+      <li>btrfs</li>
       <li>ext2 / ext3 / ext4</li>
       <li>fat16 / fat32</li>
       <li>hfs / hfs+</li>
