@@ -49,6 +49,7 @@ $backgroundnumber = rand (1, 5);
     }
   </style>
 <?
+  include "google/google-analytics.inc";
 }
 
 function gnome_head() { ?>
