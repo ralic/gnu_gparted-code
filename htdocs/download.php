@@ -19,6 +19,12 @@ gnome_menu();
 <div class="content">
 <h1>Downloads</h1>
 
+<div class="right">
+  <?
+    include "google/dp-160x600-RHS-near-top.inc";
+  ?>
+</div>
+
 <table border=0><tr><td>
 <div class="caution">
 <p class="hangcaution">
