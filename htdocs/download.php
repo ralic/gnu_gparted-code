@@ -25,6 +25,12 @@ gnome_menu();
   ?>
 </div>
 
+<p>
+<a href="donations.php"><img src="images/btn_donate_LG.gif" border="0" alt="Donate to GParted" style="float: left; padding-right: 20px;"></a>
+If you use GParted and it helps you with your task, then please consider making
+a donation to help us make GParted better.<br>
+</p>
+
 <table border=0><tr><td>
 <div class="caution">
 <p class="hangcaution">
@@ -35,13 +41,7 @@ You are advised to <b><u>BACKUP your DATA</u></b> before using gparted.<br>
 </div>
 </td></tr></table>
 
-<p>
-<a href="donations.php"><img src="images/btn_donate_LG.gif" border="0" alt="Donate to GParted" style="float: left; padding-right: 20px;"></a>
-If you use GParted and it helps you with your task, then please consider making
-a donation to help us make GParted better.<br>
-</p>
-
-<h3>GParted</h3>
+<br>
 
 <table border=0><tr><td>
 <div class="tip">
@@ -55,9 +55,6 @@ See
 </td></tr></table>
 
 <br>
-Browse releases of GParted source code <a href="http://sourceforge.net/projects/gparted/files/gparted/">here</a><br>
-<br>
-<h3>GParted Live CD/USB/HD/PXE</h3>
 
 <table border=0><tr><td>
 <div class="tip">
@@ -68,17 +65,93 @@ See <a href="http://gparted-forum.surf4.info/viewtopic.php?id=14377">Tips on Boo
 </div>
 </td></tr></table>
 
+<h2>Download Links</h2>
+
+<p>
+
+These links
+provide access to the latest versions of the GParted partition manager
+<a href="http://en.wikipedia.org/wiki/Free_software">free
+software</a>.  The bootable image is called GParted Live and enables
+all the features of the GParted application.  GParted Live can be used
+on GNU/Linux as well as other operating systems, such as Windows or
+Mac OS X.
+
+</p>
+<table border="1px" cellpadding="5px">
+  <tr>
+    <th colspan="4">
+      GParted Live CD/USB/HD/PXE Bootable Image
+    </th>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/">Download <b>stable</b> releases<br>(.iso/.zip)</a>
+    </td>
+    <td>
+      <a href="http://free.nchc.org.tw/gparted-live/stable/RELEASE-NOTES-GParted-live.txt" target=_blank>Release<br>notes</a>
+    </td>
+    <td>
+      <a href="http://free.nchc.org.tw/gparted-live/stable/ChangeLog-GParted-live.txt" target=_blank>Changelog</a>
+    </td>
+    <td>
+      <a href="http://free.nchc.org.tw/gparted-live/stable/CHECKSUMS.TXT" target=_blank>Checksums</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-testing/">Download <b>testing</b> releases<br>(.iso/.zip)</a>
+    </td>
+    <td>
+      <a href="http://free.nchc.org.tw/gparted-live/testing/RELEASE-NOTES-GParted-live.txt" target=_blank>Release<br>notes</a>
+    </td>
+    <td>
+      <a href="http://free.nchc.org.tw/gparted-live/testing/ChangeLog-GParted-live.txt" target=_blank>Changelog</a>
+    </td>
+    <td>
+      <a href="http://free.nchc.org.tw/gparted-live/testing/CHECKSUMS.TXT" target=_blank>Checksums</a>
+    </td>
+  </tr>
+</table>
+
 <br>
 
-Browse <b>Stable</b> releases of GParted Live
- <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/">here</a> (<a href="http://free.nchc.org.tw/gparted-live/stable/CHECKSUMS.TXT" target=_blank>checksums info</a>, <a href="http://free.nchc.org.tw/gparted-live/stable/ChangeLog-GParted-live.txt" target=_blank>changelog info</a>, <a href="http://free.nchc.org.tw/gparted-live/stable/RELEASE-NOTES-GParted-live.txt" target=_blank>release note</a>).<br>
-Browse latest <b>Testing</b> releases GParted Live
- <a href="http://sourceforge.net/projects/gparted/files/gparted-live-testing/">here</a> (<a href="http://free.nchc.org.tw/gparted-live/testing/CHECKSUMS.TXT" target=_blank>checksums info</a>, <a href="http://free.nchc.org.tw/gparted-live/testing/ChangeLog-GParted-live.txt" target=_blank>changelog info</a>, , <a href="http://free.nchc.org.tw/gparted-live/testing/RELEASE-NOTES-GParted-live.txt" target=_blank>release note</a>).<br>
+<table border="1px" cellpadding="5px">
+  <tr>
+    <th>
+      GParted Application Source Code
+    </th>
+  </tr>
+  <tr>
+    <td>
+      <a href="http://sourceforge.net/projects/gparted/files/gparted/">Download source code (.tar.bz2)</a>
+    </td>
+  </tr>
+</table>
+
 <br>
-Browse old LiveCD (0.0.9-alpha1 to 0.3.4-11) releases <a href="http://sourceforge.net/projects/gparted/files/old-gparted-livecd/">here</a>.<br>
-Browse old LiveUSB (0.2.5-2 to 0.3.1-1) releases <a href="http://sourceforge.net/projects/gparted/files/old-gparted-liveusb/">here</a>.<br>
-<br>
-<h3>Order a Disk</h3>
+
+<table border="1px" cellpadding="5px">
+  <tr>
+    <th>
+      Old GParted Live Images (not recommended)
+    </th>
+  </tr>
+  <tr>
+    <td>
+      <a href="http://sourceforge.net/projects/gparted/files/old-gparted-livecd/">Download old LiveCD (0.0.9-alpha1 to 0.3.4-11) releases</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="http://sourceforge.net/projects/gparted/files/old-gparted-liveusb/">Download old LiveUSB (0.2.5-2 to 0.3.1-1) releases</a>
+    </td>
+  </tr>
+</table>
+
+<h2>Order a Disk</h2>
 <p>
 The GParted LiveCD is available as a large ISO file that may be difficult
 for some people to download and burn to CD.
