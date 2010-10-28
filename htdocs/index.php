@@ -5,7 +5,7 @@ include "functions.php";
 ?>
 
 <head>
-  <title>GParted -- Welcome</title>
+  <title>GParted -- About</title>
 <? html_head() ?>
 </head>
 <body>
@@ -31,7 +31,7 @@ A disk device can be subdivided into one or more partitions. The
 GParted application enables you to change the partition organization
 on a disk device while preserving the contents of the partitions.<br>
 <br>
-GParted uses
+The GParted partition manager uses
 <a href="http://www.gnu.org/software/parted/" target="new">GNU libparted</a>
 to detect and manipulate devices and partition tables.
 Several optional file system tools provide support for file systems
