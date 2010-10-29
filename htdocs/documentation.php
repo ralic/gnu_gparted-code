@@ -20,21 +20,18 @@ gnome_menu();
 <h1>Documentation</h1>
 
 <h3>Application Help</h3>
-  <table border="1">
+  <table border="1" cellpadding="5px">
     <tr> 
-      <td>
-        <img src="flags/UK.png" alt="English documentation"
-             width="28" height="16" border="0"> English
-      </td>
-      <td>
-        <img src="flags/French.png" alt="Documentation français"
-             width="28" height="16" border="0"> Français
-      </td>
+      <th>
+        English
+      </th>
+      <th>
+        Français
+      </th>
       <!-- Placeholder for Spanish translation
-      <td>
-        <img src="flags/Spanish.png" alt="Documentación española"
-             width="28" height="16">Español
-      </td>
+      <th>
+        Español
+      </th>
       -->
     </tr>
     <tr>
