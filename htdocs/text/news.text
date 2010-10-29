@@ -1,3 +1,20 @@
+29 October 2010
+GParted 0.7.0
+<br>
+This release of GParted adds initial support for the btrfs file
+system, and fixes two critical bugs.  Also included are other bug
+fixes and language translation updates.
+<br><br>
+Key changes include:
+<ul>
+<li>Add initial support for btrfs</li>
+<li>Fix crash at start with glibmm-ERROR</li>
+<li>Fix crash moving more than one logical partition right</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.7.0/gparted-0.7.0-notes.txt/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 6 October 2010
 The GParted official web site is now gparted.org
 <br>
