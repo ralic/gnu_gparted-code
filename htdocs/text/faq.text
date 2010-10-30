@@ -1,4 +1,22 @@
 1
+What does GParted stand for?
+Gnome Partition Editor.  You can also think of GParted as Graphical
+Partition Editor.
+---
+2
+What is the difference between partition editing software and partition management software?
+There is no difference.  GParted was originally conceived as partition
+editing software but there are many other names that encompass the
+same or similar functionality including: Partition Management,
+Partition Manager, Partition Editing, Partition Editors, and
+Partitioning Software.
+---
+3
+Is GParted really free?
+Yes.  You do not have to pay money to use Gparted.  You have the freedom
+to run, copy, distribute, study, change and improve Gparted.
+---
+4
 What are the dependencies of GParted?
 You will need Parted >= 1.7.1 and Gtkmm >= 2.8.x
 <br>
@@ -8,7 +26,7 @@ and Gtkmm from <a href="http://gtkmm.org/download.shtml" target="new">http://gtk
 <br>
 Also, several file systems are supported through their native tools. See the <a href="http://gparted.sourceforge.net/features.php">features page</a> for more information on these tools.
 ---
-2
+5
 Is it safe?
 Short answer: Yes, it is safe :) <br>
 By using the official tools for each file system and performing
@@ -24,20 +42,22 @@ boot process (for example the C: drive in Windows), then the operating
 system might fail to boot.<br>
 To fix this problem you will need to repair the boot
 configuration.<br>
-See FAQs #9, #13, and #14 for Windows, and FAQ #10 for Linux/GRUB.
+See FAQ #12 for Linux/GRUB.<br>
+See FAQs #13, #14, and #15 for Windows
 ---
-3
+6
 Is there a maximum to the amount of operations in the list?
 Nope, that is, not one an ordinary human being will ever reach.<br>
-I myself tested it with up to 150 operations and it went smooth<br>
+I myself tested it with up to 150 operations and it went smoothly.<br>
 <br>
 <b>HOWEVER</b>, I think it's wise to keep the amount of succesive operations limited. After all it's your data which is at risk.<br>
 Especially when doing complex operations (copy,resize) I advise you to take it one step at a time.<br>
 <br>
-When resizing boot NTFS partitions, it is advisable to perform this as a single operation only.
-After resizing, boot into Windows twice to allow Windows to perform its checking operations.
+When resizing boot NTFS partitions, it is advisable to perform this as
+a single operation only.  After resizing, boot into Windows twice to
+allow Windows to perform its checking operations.
 ---
-4
+7
 What is the maximum amount of logical partitions an extended partition can hold?
 Well, in theory you could go on and create logical partitions
 infinitely; however, all operating systems impose some limit.
@@ -50,25 +70,25 @@ minor 1, etc up till /dev/hda63.
 For SCSI devices only 16 minor numbers are allocated for each disk,
 so there Linux only supports 15 partitions.
 ---
-5
+8
 Why are some menu items disabled?
 1. The partition is mounted and modifying a mounted partition is DANGEROUS. Just unmount the partition or in case of swap, disable it.(use swapoff)<br><br>
 2. At startup gparted decides which operations on which file systems are supported. For instance, to create an ext3 file system gparted needs mkfs.ext3. If this cannot be found on your system, the creation of an ext3 file system is not possible and therefore disabled in gparted. The same goes for copy, resize etc....<br><br>
 3. Check that you are running the latest version of GParted (menu entry Help -> About).
 The <a href="http://gparted.sourceforge.net/features.php">features page</a> shows which operations are supported for the most recently released version of GParted.
 ---
-6
+9
 Why do i need kernel support to resize certain filesystems (e.g. xfs) ?
 That's because those file systems can only be resized when they are mounted and you can only mount a file system if the kernel has support for it.
 ---
-7
+10
 Why does "Scanning all devices..." take exceedingly long on some computers?
 1. Check the BIOS settings.  This problem can be caused when the BIOS indicates that a floppy drive is present, but no physical floppy drive is installed.
 <br><br>
 2. A work around is to start gparted from the command line and pass the name of the device(s) you wish to partition.<br>
 E.g., gparted /dev/hda
 ---
-8
+11
 Why has Gnome automounting of devices stopped working?
 GParted version 0.3.6 (and many earlier versions) created a file to
 prevent problems that occur if a device is automounted while gparted is
@@ -86,17 +106,7 @@ To fix the problem you can do one of the following:
 <br>
 2. Start and then exit gparted.  This will also remove the file.
 ---
-9
-After resizing my Vista partition, Vista won't boot.  How can I fix this?
-The following article by <i>the How-To Geek</i> contains useful information regarding resizing your Vista partition, and getting it to boot again.
-<br>
-<a href="http://www.howtogeek.com/howto/windows-vista/using-gparted-to-resize-your-windows-vista-partition/">Using GParted to Resize Your Windows Vista Partition</a>
-<br><br>
-If your PC did not come with a complete Vista installation CD, you can download a Vista Recovery Disc at the following link:
-<br>
-<a href="http://neosmart.net/blog/2008/windows-vista-recovery-disc-download/">Windows Vista Recovery Disc</a>
----
-10
+12
 GRUB fails to boot.  How can I fix this?
 The cause of this problem is that the absolute physical hard disk sector
 containing the start of the stage2 file has changed.
@@ -110,26 +120,17 @@ This will update stage1 with the new hard-coded absolute position of the stage2 
 More information can be found at the following link:<br>
 <a href="http://gparted.sourceforge.net/docs/help-manual/C/gparted.html#gparted-fix-grub-boot-problem">Fixing GRUB Boot Problem</a>
 ---
-11
-How can I improve my ability to shrink an NTFS partition?
-Tips on how to improve the ability to shrink NTFS partitions can be found in the GParted Manual <a href="http://gparted.sourceforge.net/docs/help-manual/C/gparted.html#gparted-advanced-partition-actions">here</a>.
-<br><br>
-Forum member <i>cmdr</i> wrote some detailed instructions on resizing NTFS partitions that can be found at the following link:<br>
-<a href="http://gparted-forum.surf4.info/viewtopic.php?id=2892">Forum Post - Resize-Windows</a>
----
-12
-How do I restore my Windows drive letters?
-Sometimes after a disk configuration change, Windows will change the
-drive letter assignment (e.g., from C: to D:).<br>
-<br>
-If this occurs for the boot drive letter, then see:<br>
-<a href="http://support.microsoft.com/kb/223188">How to restore the system/boot drive letter in Windows</a><br>
-<br>
-If this occurs for a non-boot drive letter, then see one of the following links:<br>
-<a href="http://support.microsoft.com/kb/307844">How to change drive letter assignments in Windows XP</a><br>
-<a href="http://windows.microsoft.com/en-us/windows-vista/Change-add-or-remove-a-drive-letter">How to change, add, or remove a drive letter in Windows Vista</a><br>
----
 13
+After resizing my Vista partition, Vista won't boot.  How can I fix this?
+The following article by <i>the How-To Geek</i> contains useful information regarding resizing your Vista partition, and getting it to boot again.
+<br>
+<a href="http://www.howtogeek.com/howto/windows-vista/using-gparted-to-resize-your-windows-vista-partition/">Using GParted to Resize Your Windows Vista Partition</a>
+<br><br>
+If your PC did not come with a complete Vista installation CD, you can download a Vista Recovery Disc at the following link:
+<br>
+<a href="http://neosmart.net/blog/2008/windows-vista-recovery-disc-download/">Windows Vista Recovery Disc</a>
+---
+14
 What are the commands for repairing Windows XP boot problems?
 The following commands are entered at the command line when using the
 Recovery Console from the Windows XP installation disk.<br>
@@ -146,9 +147,9 @@ To rebuild the boot.ini configuration file:<br>
 For more details refer to the following links:<br>
 <a href="http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/bootcons_fixmbr.mspx?mfr=true">Fixmbr</a>,
 <a href="http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/bootcons_fixboot.mspx?mfr=true">Fixboot</a>,
-<a href="http://support.microsoft.com/kb/291980">Bootcfg</z><br>
+<a href="http://support.microsoft.com/kb/291980">Bootcfg</a><br>
 ---
-14
+15
 What are the commands for repairing Windows Vista / 7 boot problems?
 The following commands are entered at the command line when using the
 Recovery Console from the Windows Vista or Windows 7 installation
@@ -166,7 +167,26 @@ To rebuild the Boot Configuration Data (BCD) store:<br>
 For more details refer to the following link:<br>
 <a href="http://support.microsoft.com/kb/927392">How to use the Bootrec.exe tool in the Windows Recovery Environment to troubleshoot and repair startup issues in Windows</a><br>
 ---
-15
+16
+How can I improve my ability to shrink an NTFS partition?
+Tips on how to improve the ability to shrink NTFS partitions can be found in the GParted Manual <a href="http://gparted.sourceforge.net/docs/help-manual/C/gparted.html#gparted-advanced-partition-actions">here</a>.
+<br><br>
+Forum member <i>cmdr</i> wrote some detailed instructions on resizing NTFS partitions that can be found at the following link:<br>
+<a href="http://gparted-forum.surf4.info/viewtopic.php?id=2892">Forum Post - Resize-Windows</a>
+---
+17
+How do I restore my Windows drive letters?
+Sometimes after a disk configuration change, Windows will change the
+drive letter assignment (e.g., from C: to D:).<br>
+<br>
+If this occurs for the boot drive letter, then see:<br>
+<a href="http://support.microsoft.com/kb/223188">How to restore the system/boot drive letter in Windows</a><br>
+<br>
+If this occurs for a non-boot drive letter, then see one of the following links:<br>
+<a href="http://support.microsoft.com/kb/307844">How to change drive letter assignments in Windows XP</a><br>
+<a href="http://windows.microsoft.com/en-us/windows-vista/Change-add-or-remove-a-drive-letter">How to change, add, or remove a drive letter in Windows Vista</a><br>
+---
+18
 "ERROR: Current NTFS volume size is bigger than the device size!"
 If you encounter an error message similar to the above, then please refer to the following link:<br>
 <a href="http://gparted-forum.surf4.info/viewtopic.php?id=13777">Problems Resizing File Systems with GParted</a><br>
