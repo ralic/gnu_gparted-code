@@ -31,17 +31,23 @@ gnome_menu();
       <th>
         Español
       </th>
+      <th>
+        Deutsch
+      </th>
     </tr>
     <tr>
       <td><a href="docs/help-manual/C/gparted.html">Help manual</a></td>
       <td><a href="docs/help-manual/fr/gparted.html">Aide manuel</a></td>
       <td><a href="docs/help-manual/es/gparted.html">Ayuda manual</a></td>
+      <td><a href="docs/help-manual/de/gparted.html">Hilfe Handbuch</a></td>
     </tr>
     <tr>
       <td><a href="docs/man-page/C/gparted.8.html">Man page</a></td>
       <td><a href="docs/man-page/fr/gparted.8.html">Page de manuel</a>
       </td>
-      <!-- Spanish translation of man page:  Página de hombre -->
+      <!-- Spanish translation of Man page:  Página de hombre -->
+      <td>&nbsp;</td>
+      <!-- German translation of Man page:  Man Seite -->
       <td>&nbsp;</td>
     </tr>
   </table>
