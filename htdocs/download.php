@@ -68,16 +68,15 @@ See <a href="http://gparted-forum.surf4.info/viewtopic.php?id=14377">Tips on Boo
 <h2>Download Links</h2>
 
 <p>
-
-These links
-provide access to the latest versions of the GParted partition manager
-<a href="http://en.wikipedia.org/wiki/Free_software">free
+The links below provide access to the latest versions of the GParted
+partition
+manager <a href="http://en.wikipedia.org/wiki/Free_software">free
 software</a>.  The bootable image is called GParted Live and enables
 all the features of the GParted application.  GParted Live can be used
 on GNU/Linux as well as other operating systems, such as Windows or
 Mac OS X.
-
 </p>
+
 <table border="1px" cellpadding="5px">
   <tr>
     <th colspan="4">
