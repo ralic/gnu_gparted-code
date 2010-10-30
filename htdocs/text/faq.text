@@ -1,6 +1,6 @@
 1
-What does GParted stand for?
-Gnome Partition Editor.  You can also think of GParted as Graphical
+What does GPARTED stand for?
+Gnome PARTition EDitor.  You can also think of GParted as Graphical
 Partition Editor.
 ---
 2
@@ -13,8 +13,10 @@ Partitioning Software.
 ---
 3
 Is GParted really free?
-Yes.  You do not have to pay money to use Gparted.  You have the freedom
-to run, copy, distribute, study, change and improve Gparted.
+Yes.  You do not have to pay money to use Gparted.  You have the
+freedom to run, copy, distribute, study, change and improve Gparted.
+GParted is <a href="http://en.wikipedia.org/wiki/Free_software">free
+software</a>.
 ---
 4
 What are the dependencies of GParted?
@@ -50,8 +52,10 @@ Is there a maximum to the amount of operations in the list?
 Nope, that is, not one an ordinary human being will ever reach.<br>
 I myself tested it with up to 150 operations and it went smoothly.<br>
 <br>
-<b>HOWEVER</b>, I think it's wise to keep the amount of succesive operations limited. After all it's your data which is at risk.<br>
-Especially when doing complex operations (copy,resize) I advise you to take it one step at a time.<br>
+<b>HOWEVER</b>, I think it's wise to keep the amount of succesive
+operations limited. After all it's your data which is at risk.<br>
+Especially when doing complex operations (copy,resize) I advise you to
+take it one step at a time.<br>
 <br>
 When resizing boot NTFS partitions, it is advisable to perform this as
 a single operation only.  After resizing, boot into Windows twice to
@@ -67,18 +71,30 @@ For IDE devices 64 minor numbers are reserved for each disk.
 For instance /dev/hda is major 3 minor 0, /dev/hda1 is major 3,
 minor 1, etc up till /dev/hda63.
 <br><br>
-For SCSI devices only 16 minor numbers are allocated for each disk,
-so there Linux only supports 15 partitions.
+For SCSI devices only 16 minor numbers are allocated for each disk, so
+there Linux only supports 15 partitions.  Devices that use the SCSI
+driver have names like /dev/sda.
 ---
 8
 Why are some menu items disabled?
-1. The partition is mounted and modifying a mounted partition is DANGEROUS. Just unmount the partition or in case of swap, disable it.(use swapoff)<br><br>
-2. At startup gparted decides which operations on which file systems are supported. For instance, to create an ext3 file system gparted needs mkfs.ext3. If this cannot be found on your system, the creation of an ext3 file system is not possible and therefore disabled in gparted. The same goes for copy, resize etc....<br><br>
-3. Check that you are running the latest version of GParted (menu entry Help -> About).
-The <a href="http://gparted.sourceforge.net/features.php">features page</a> shows which operations are supported for the most recently released version of GParted.
+1. The partition is mounted and modifying a mounted partition is
+DANGEROUS. Just unmount the partition or in case of swap, disable
+it (use swapoff).<br>
+<br>
+2. At startup gparted decides which operations on which file systems
+are supported.  For instance, to create an ext3 file system gparted
+needs mkfs.ext3.  If this cannot be found on your system, the creation
+of an ext3 file system is not possible and therefore disabled in
+gparted.  The same goes for copy, resize etc....<br>
+<br>
+3. Check that you are running the latest version of GParted (menu
+entry Help -> About).  The <a
+href="http://gparted.sourceforge.net/features.php">features page</a>
+shows which operations are supported for the most recently released
+version of GParted.
 ---
 9
-Why do i need kernel support to resize certain filesystems (e.g. xfs) ?
+Why do I need kernel support to resize certain filesystems (e.g. xfs) ?
 That's because those file systems can only be resized when they are mounted and you can only mount a file system if the kernel has support for it.
 ---
 10
@@ -131,6 +147,24 @@ If your PC did not come with a complete Vista installation CD, you can download 
 <a href="http://neosmart.net/blog/2008/windows-vista-recovery-disc-download/">Windows Vista Recovery Disc</a>
 ---
 14
+What are the commands for repairing Windows Vista / 7 boot problems?
+The following commands are entered at the command line when using the
+Recovery Console from the Windows Vista or Windows 7 installation
+disk.<br>
+<br>
+To repair the Master Boot Record of the boot disk:<br>
+ &nbsp; &nbsp; bootrec /fixmbr<br>
+<br>
+To write a new partition boot sector to the system partition:<br>
+ &nbsp; &nbsp; bootrec /fixboot<br>
+<br>
+To rebuild the Boot Configuration Data (BCD) store:<br>
+ &nbsp; &nbsp; bootrec /rebuildbcd<br>
+<br>
+For more details refer to the following link:<br>
+<a href="http://support.microsoft.com/kb/927392">How to use the Bootrec.exe tool in the Windows Recovery Environment to troubleshoot and repair startup issues in Windows</a><br>
+---
+15
 What are the commands for repairing Windows XP boot problems?
 The following commands are entered at the command line when using the
 Recovery Console from the Windows XP installation disk.<br>
@@ -148,24 +182,6 @@ For more details refer to the following links:<br>
 <a href="http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/bootcons_fixmbr.mspx?mfr=true">Fixmbr</a>,
 <a href="http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/bootcons_fixboot.mspx?mfr=true">Fixboot</a>,
 <a href="http://support.microsoft.com/kb/291980">Bootcfg</a><br>
----
-15
-What are the commands for repairing Windows Vista / 7 boot problems?
-The following commands are entered at the command line when using the
-Recovery Console from the Windows Vista or Windows 7 installation
-disk.<br>
-<br>
-To repair the Master Boot Record of the boot disk:<br>
- &nbsp; &nbsp; bootrec /fixmbr<br>
-<br>
-To write a new partition boot sector to the system partition:<br>
- &nbsp; &nbsp; bootrec /fixboot<br>
-<br>
-To rebuild the Boot Configuration Data (BCD) store:<br>
- &nbsp; &nbsp; bootrec /rebuildbcd<br>
-<br>
-For more details refer to the following link:<br>
-<a href="http://support.microsoft.com/kb/927392">How to use the Bootrec.exe tool in the Windows Recovery Environment to troubleshoot and repair startup issues in Windows</a><br>
 ---
 16
 How can I improve my ability to shrink an NTFS partition?
