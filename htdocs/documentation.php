@@ -22,18 +22,10 @@ gnome_menu();
 <h3>Application Help</h3>
   <table border="1" cellpadding="5px">
     <tr> 
-      <th>
-        English
-      </th>
-      <th>
-        Français
-      </th>
-      <th>
-        Español
-      </th>
-      <th>
-        Deutsch
-      </th>
+      <th>English</th>
+      <th>Français</th>
+      <th>Español</th>
+      <th>Deutsch</th>
     </tr>
     <tr>
       <td><a href="docs/help-manual/C/gparted.html">Help manual</a></td>
