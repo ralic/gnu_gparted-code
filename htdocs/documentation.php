@@ -28,26 +28,21 @@ gnome_menu();
       <th>
         Français
       </th>
-      <!-- Placeholder for Spanish translation
       <th>
         Español
       </th>
-      -->
     </tr>
     <tr>
       <td><a href="docs/help-manual/C/gparted.html">Help manual</a></td>
       <td><a href="docs/help-manual/fr/gparted.html">Aide manuel</a></td>
-      <!-- Placeholder for Spanish translation
-      <td><a href="">Ayuda manual</a></td>
-      -->
+      <td><a href="docs/help-manual/es/gparted.html">Ayuda manual</a></td>
     </tr>
     <tr>
       <td><a href="docs/man-page/C/gparted.8.html">Man page</a></td>
       <td><a href="docs/man-page/fr/gparted.8.html">Page de manuel</a>
       </td>
-      <!-- Placeholder for Spanish translation
-      <td><a href="">Página de hombre</a></td>
-      -->
+      <!-- Spanish translation of man page:  Página de hombre -->
+      <td>&nbsp;</td>
     </tr>
   </table>
 
