@@ -24,8 +24,8 @@ gnome_menu();
 
 <h1>Gnome Partition Editor</h1>
 <p>
-The GParted application is a graphical partition editor for creating,
-reorganizing, and deleting disk partitions.<br>
+GParted is a graphical partition editor for creating, reorganizing,
+and deleting disk partitions.<br>
 <br>
 A disk device can be subdivided into one or more partitions. The
 GParted application enables you to change the partition organization
@@ -40,8 +40,6 @@ not included in libparted.
 <h2>Features</h2>
 <ul>
   <li>Create partition tables (e.g., msdos, gpt)</li>
-
-  <li>Enable and disable partition flags (e.g., boot, hidden)</li>
 
   <li>Perform actions with partitions such as:
     <div class="right">
@@ -73,6 +71,8 @@ not included in libparted.
   For specific actions supported see
   detailed <a href="features.php">features</a>.
   </li>
+
+  <li>Enable and disable partition flags (e.g., boot, hidden)</li>
 
   <li>Align partitions to mebibyte (MiB) or cylinder boundaries</li>
 
