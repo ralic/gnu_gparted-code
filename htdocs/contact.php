@@ -18,8 +18,8 @@ gnome_menu();
 ?>
 <div class="content">
 <h1>Contact</h1>
-<b>Questions</b> should be asked in the <a href="http://gparted.sourceforge.net/forum.php">forums</a><br>
-<b>Bugs</b> should be filed in <a href="http://gparted.sourceforge.net/bugs.php">bugzilla</a><br>
+<b>Questions</b> should be asked in the <a href="forum.php">forums</a><br>
+<b>Bugs</b> should be filed in <a href="bugs.php">bugzilla</a><br>
 <br>
     <p> <b>Creator of GParted</b> <br>
       Bart Hakvoort (plors) 

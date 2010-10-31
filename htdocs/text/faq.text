@@ -26,7 +26,7 @@ Get Parted from <a href="http://www.gnu.org/software/parted/#downloading" target
 <br>
 and Gtkmm from <a href="http://gtkmm.org/download.shtml" target="new">http://gtkmm.org/</a><br>
 <br>
-Also, several file systems are supported through their native tools. See the <a href="http://gparted.sourceforge.net/features.php">features page</a> for more information on these tools.
+Also, several file systems are supported through their native tools. See the <a href="features.php">features page</a> for more information on these tools.
 ---
 5
 Is it safe?
@@ -89,7 +89,7 @@ gparted.  The same goes for copy, resize etc....<br>
 <br>
 3. Check that you are running the latest version of GParted (menu
 entry Help -> About).  The <a
-href="http://gparted.sourceforge.net/features.php">features page</a>
+href="features.php">features page</a>
 shows which operations are supported for the most recently released
 version of GParted.
 ---
@@ -134,7 +134,7 @@ To fix this problem you will need to reinstall GRUB.
 This will update stage1 with the new hard-coded absolute position of the stage2 file.
 <br><br>
 More information can be found at the following link:<br>
-<a href="http://gparted.sourceforge.net/docs/help-manual/C/gparted.html#gparted-fix-grub-boot-problem">Fixing GRUB Boot Problem</a>
+<a href="docs/help-manual/C/gparted.html#gparted-fix-grub-boot-problem">Fixing GRUB Boot Problem</a>
 ---
 13
 After resizing my Vista partition, Vista won't boot.  How can I fix this?
@@ -185,7 +185,7 @@ For more details refer to the following links:<br>
 ---
 16
 How can I improve my ability to shrink an NTFS partition?
-Tips on how to improve the ability to shrink NTFS partitions can be found in the GParted Manual <a href="http://gparted.sourceforge.net/docs/help-manual/C/gparted.html#gparted-advanced-partition-actions">here</a>.
+Tips on how to improve the ability to shrink NTFS partitions can be found in the GParted Manual <a href="docs/help-manual/C/gparted.html#gparted-advanced-partition-actions">here</a>.
 <br><br>
 Forum member <i>cmdr</i> wrote some detailed instructions on resizing NTFS partitions that can be found at the following link:<br>
 <a href="http://gparted-forum.surf4.info/viewtopic.php?id=2892">Forum Post - Resize-Windows</a>

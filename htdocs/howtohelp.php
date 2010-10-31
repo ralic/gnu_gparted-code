@@ -21,13 +21,13 @@ gnome_menu();
 <h3>Bugs</h3>
 <p>
 Properly filed bugs are a great help while developing software.<br>
-The bugs page can be found <a href="http://gparted.sourceforge.net/bugs.php">here</a>.
+The bugs page can be found <a href="bugs.php">here</a>.
 </p>
 <h3>Forum</h3>
 <p>
 The forums are the first place to ask and receive support. It would be great if users would help each other.<br>
 This is also the place to ask for and discuss new features.<br>
-Sign up and join the fun <a href="http://gparted.sourceforge.net/forum.php">here</a>.
+Sign up and join the fun <a href="forum.php">here</a>.
 </p>
 <h3>Language Translation</h3>
 <p>
@@ -61,7 +61,7 @@ See also <a href="dev-status.php">development status</a>.
 Another big way to help us to make GParted better is to make a
 donation to the GParted project.  For details on donations please
 refer to our
-<a href="http://gparted.sourceforge.net/donations.php">donations page</a>.
+<a href="donations.php">donations page</a>.
 </p>
 
 </div>

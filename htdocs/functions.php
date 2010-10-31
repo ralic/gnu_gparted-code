@@ -70,7 +70,7 @@ function gnome_foot_wo_ads() { ?>
 <a href="http://validator.w3.org/check/referer"><img border="0"
         src="http://www.w3.org/Icons/valid-html401"
         alt="Valid HTML 4.01!" height="31" width="88"></a>
-<a href="http://jigsaw.w3.org/css-validator/validator?uri=http://gparted.sourceforge.net/">
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http://gparted.org/">
 	<img border="0" src="http://jigsaw.w3.org/css-validator/images/vcss"
 	 alt="Correct CSS!" height="31" width="88"></a>
 <a href="privacy-policy.php">

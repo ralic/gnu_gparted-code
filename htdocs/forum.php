@@ -19,7 +19,7 @@ gnome_menu();
 <h1>Forum</h1>
 <p>
 Please remember that the forum is for questions and ideas!<br>
-Bugs go <a href="http://gparted.sourceforge.net/bugs.php">here</a>
+Bugs go <a href="bugs.php">here</a>
 <br><br>
 Enter <a href="http://gparted-forum.surf4.info">forum</a>
 </p>

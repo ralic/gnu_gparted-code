@@ -739,7 +739,7 @@ As C++ dev, Curtis should be able to update and upgrade GParted,<br>
 from day to day, and I will do my best to give him help.<br>
 <br>
 Because we do not have full access to the svn.gnome at the moment,<br>
-we decided to set the Gparted <a href="http://gparted.sourceforge.net/svn.php" target="new">SVN</a> in SF.<br><br>
+we decided to set the Gparted <a href="svn.php" target="new">SVN</a> in SF.<br><br>
 <br>
 Be happy : we should release 0.3.5 before a long time :)<br>
 <br>
@@ -929,7 +929,7 @@ stick to boot off usb. Kernel update...<br><br>
 MD5SUM : faf4b410ecb2f504cd077648e79c7d92<br>
 See <a href='http://sourceforge.net/project/shownotes.php?release_id=500778&amp;group_id=115843'>changelog</a> for details.<br><br>
 GParted-Clonezilla livecd has also been released to 1.8 !<br>
-See details <a href='http://gparted.sourceforge.net/livecd.php'>here</a>.<br>
+See details <a href='livecd.php'>here</a>.<br>
 <br>
 Larry
 </p>
@@ -937,7 +937,7 @@ Larry
 27 March 2007
 GParted-Clonezilla livecd is born !
 <p>
-See details <a href='http://gparted.sourceforge.net/livecd.php'>here</a>.<br>
+See details <a href='livecd.php'>here</a>.<br>
 <br><br>
 Larry
 </p>
@@ -1117,7 +1117,7 @@ plors
 17 November 2006
 New tip has been added.
 <p>
-<a href='http://gparted.sourceforge.net/larry/tips/gfs.htm'> Getting free space from partition </a> tip has been added to the <a href='http://gparted.sourceforge.net/documentation.php'> documentation </a><br>
+<a href='larry/tips/gfs.htm'> Getting free space from partition </a> tip has been added to the <a href='documentation.php'> documentation </a><br>
 Some users seem to have problem to increase partition when free space is not contiguous !<br> So i decided to add this tip, to make it easier.<br>
 <br>
 Larry
@@ -1128,7 +1128,7 @@ Docs have been released
 <p>
 <i>Resizing partitions with GParted Doc</i> have been increased with a new title :<br>
 "how to resize extended partition".<br>
-<a href='http://gparted.sourceforge.net/larry/resize/resizing.htm'> See the complete doc </a>
+<a href='larry/resize/resizing.htm'> See the complete doc </a>
 <br>
 English docs only have been updated !<br>
 <br>
@@ -1542,7 +1542,7 @@ GParted 0.0.4
 With this release GParted covers all libparted's major features. It also features a new pending operationslist which looks much nicer (i hope ;) ).
 Besides that, i fixed a couple of bugs and did a number of smaller fixes. See the <a href="http://sourceforge.net/project/shownotes.php?release_id=265659">changelog</a> for more details.<br>
 <br>
-As always, free free to <a href="http://gparted.sourceforge.net/contact.php">contact</a> me if you have any questions, remarks or suggestions<br>
+As always, free free to <a href="contact.php">contact</a> me if you have any questions, remarks or suggestions<br>
 <br>
 next step : i18n and more filesystems ;)<br>
 </p>
@@ -1551,14 +1551,14 @@ next step : i18n and more filesystems ;)<br>
 First public release! GParted 0.0.3
 <p>
 Well, here it is, the first public release of gparted. See the <a href="http://sourceforge.net/project/shownotes.php?release_id=263518">Changelog</a> for detailed info about the changes since the first two releases.<br>
-I look forward to your bugreports, remarks and suggestions. If you have any questions feel free to <a href="http://gparted.sourceforge.net/contact.php">contact</a> me.<br><br>
-Please read the "Important!" message at the <a href="http://gparted.sourceforge.net/download.php">download</a> page.
+I look forward to your bugreports, remarks and suggestions. If you have any questions feel free to <a href="contact.php">contact</a> me.<br><br>
+Please read the "Important!" message at the <a href="download.php">download</a> page.
 </p>
 ---
 25 August 2004
 Logos..
 <p>
-I decided to place the logo's i receive <a href="http://gparted.sourceforge.net/artwork.php">online</a> so everybody can enjoy them. Hopefully i'll soon be forced to write a paginating script ;)
+I decided to place the logo's i receive <a href="artwork.php">online</a> so everybody can enjoy them. Hopefully i'll soon be forced to write a paginating script ;)
 </p>
 ---
 18 August 2004
