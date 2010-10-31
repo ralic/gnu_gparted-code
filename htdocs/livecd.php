@@ -34,6 +34,27 @@ GParted Live can be installed on CD, USB, PXE server, and Hard Disk
 then run on an x86 machine.<br>
 </p>
 
+<table border=0><tr><td>
+<div class="caution">
+<p class="hangcaution">
+<b>CAUTION</b>:&nbsp;
+It is recommended to do a whole disk or partition image backup before
+you use GParted to resize or move your partition.<br>
+Some free (GPL) disk or partition image tools, which provide live CD
+or USB flash drive so that you do not have to install or configure,
+are available:<br>
+<br>
+<a href="http://clonezilla.org" target=_blank>Clonezilla</a>, &nbsp;
+<a href="http://www.fsarchiver.org" target=_blank>FSArchiver</a>, &nbsp;
+<a href="http://g4l.sourceforge.net" target=_blank>G4L</a>, &nbsp;
+<a href="http://www.feyrer.de/g4u" target=_blank>g4u</a>, &nbsp;
+<a href="http://partimage.org" target=_blank>Partimage</a>, &nbsp;
+<a href="http://partclone.org" target=_blank>Partclone</a>.
+</p>
+
+</div>
+</td></tr></table>
+
 <h2>Installation Instructions</h2>
 <p>
 To install GParted Live on CD, <a href="download.php">download</a> the
@@ -104,28 +125,6 @@ To view all of the included packages you can either:<br>
 or<br>
  &nbsp; &nbsp; view the file "live/packages.txt" file inside the
  GParted Live iso file or zip file.<br>
-<br>
-
-<table border=0><tr><td>
-<div class="caution">
-<p class="hangcaution">
-<b>CAUTION</b>:&nbsp;
-It is recommended to do a whole disk or partition image backup before
-you use GParted to resize or move your partition.<br>
-Some free (GPL) disk or partition image tools, which provide live CD
-or USB flash drive so that you do not have to install or configure,
-are available:<br>
-</p>
-<ul>
-<li><a href="http://clonezilla.org" target=_blank>Clonezilla</a>
-<li><a href="http://www.fsarchiver.org" target=_blank>FSArchiver</a>
-<li><a href="http://g4l.sourceforge.net" target=_blank>G4L</a>
-<li><a href="http://www.feyrer.de/g4u" target=_blank>g4u</a>
-<li><a href="http://partimage.org" target=_blank>Partimage</a>
-<li><a href="http://partclone.org" target=_blank>Partclone</a>
-</ul>
-</div>
-</td></tr></table>
 
 </div>
 
