@@ -21,7 +21,7 @@ gnome_menu();
 
 <div class="right">
   <?
-    include "google/dp-160x600-RHS-near-top.inc";
+    include "google/dp-160x600-rhs-near-top.inc";
   ?>
 </div>
 
