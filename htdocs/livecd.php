@@ -17,6 +17,13 @@ gnome_menu();
 ?>
 <div class="content">
 <H1>Live CD/USB/PXE/HD</H1>
+
+<div class="right">
+  <?
+    include "google/lcdp-160x600-rhs-near-top.inc";
+  ?>
+</div>
+
 <p>
 <b>GParted Live</b> is a small bootable GNU/Linux distribution for x86
 based computers.<br>
