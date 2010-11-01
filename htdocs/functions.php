@@ -54,7 +54,7 @@ $backgroundnumber = rand (1, 5);
 
 function gnome_head() { ?>
 <div class="hdr">
-	<a href="index.php"><img class="logo" src="images/gparted-64.png" alt="home" title="back to startpage"></a>
+	<a href="index.php"><img class="logo" src="images/gparted-64.png" alt="home" title="back to home page"></a>
 	<p>Gnome Partition Editor</p>
 </div>
 <?
