@@ -5,7 +5,7 @@ include "functions.php";
 ?>
 
 <head>
-  <title>GParted -- Live CD/USB/PXE/HD </title>
+  <title>GParted -- Live Boot Parameters</title>
 <? html_head() ?>
 </head>
 <body>
@@ -16,7 +16,7 @@ gnome_head();
 gnome_menu();
 ?>
 <div class="content">
-<h1>The boot parameters for GParted live</h1>
+<h1>GParted Live Boot Parameters</h1>
 <p>
 GParted live is based on <a href="http://wiki.debian.org/DebianLive/" target=_blank>Debian live</a> with GParted installed. Therefore there are 2 kinds of boot parameters:
 <ol>
@@ -35,4 +35,12 @@ GParted live is based on <a href="http://wiki.debian.org/DebianLive/" target=_bl
 </ol>
 <p>Therefore if you want to assign the language and keyboard layout as German one, and let the system to automatically detect the X-window configuration, you can put the boot parameters as:<br>
     gl_lang=de_DE keyb=de gl_batch
-<hr>
+</p>
+
+</div>
+
+<? gnome_foot() ?>
+
+</div>
+</body>
+</html>
