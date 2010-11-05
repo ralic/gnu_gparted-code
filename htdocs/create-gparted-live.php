@@ -48,8 +48,6 @@ For more info, you can run "/opt/drbl/sbin/create-gparted-live --help"<br>
 BTW, in the file "GParted-Live-Version" in the GParted live iso file, you can find the command which was used to create the GParted iso file.
 </ol>
 
-<br><br><br><br><br><br><br><br><br>
-</p>
 </div>
 
 <? gnome_foot() ?>
