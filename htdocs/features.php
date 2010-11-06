@@ -19,12 +19,15 @@ gnome_menu();
 <div class="content">
 <h1>Features</h1>
 <p>
-<b>The following actions and file systems are supported by GParted.</b><br>
+Note: For a list of high level features, see
+the <a href="index.php#features">about page</a>.<br>
+<br>
+<b>The following actions and file systems are supported by GParted:</b>
 </p>
 <table border=1>
 <tr>
-	<th>
-		<b>File System</b>
+	<th style="text-align: center;">
+		<b>File system</b>
 	</th>
 	<th>
 		<b>Detect</b>
@@ -81,7 +84,6 @@ gnome_menu();
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
-		<sup><a href="#copy">[1]</a></sup>
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
@@ -152,7 +154,6 @@ gnome_menu();
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
-		<sup><a href="#copy">[1]</a></sup>
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
@@ -188,7 +189,6 @@ gnome_menu();
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
-		<sup><a href="#copy">[1]</a></sup>
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
@@ -225,7 +225,6 @@ gnome_menu();
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
-		<sup><a href="#copy">[1]</a></sup>
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
@@ -264,7 +263,6 @@ gnome_menu();
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
-		<sup><a href="#copy">[1]</a></sup>
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
@@ -304,7 +302,6 @@ gnome_menu();
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
-		<sup><a href="#copy">[1]</a></sup>
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
@@ -342,7 +339,6 @@ gnome_menu();
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
-		<sup><a href="#copy">[1]</a></sup>
 	</td>
 	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
@@ -379,7 +375,6 @@ gnome_menu();
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
-		<sup><a href="#copy">[1]</a></sup>
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
@@ -416,7 +411,6 @@ gnome_menu();
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
-		<sup><a href="#copy">[1]</a></sup>
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
@@ -452,7 +446,6 @@ gnome_menu();
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
-		<sup><a href="#copy">[1]</a></sup>
 	</td>
 	<td>
 		<img src="images/not_supported.png" alt="not_supported.png">
@@ -525,6 +518,7 @@ gnome_menu();
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
+		<sup><a href="#ntfscopy">[1]</a></sup>
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
@@ -560,7 +554,6 @@ gnome_menu();
         </td>
         <td>
 		<img src="images/supported.png" alt="supported.png">
-		<sup><a href="#copy">[1]</a></sup>
         </td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
@@ -596,7 +589,6 @@ gnome_menu();
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
-		<sup><a href="#copy">[1]</a></sup>
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
@@ -683,7 +675,7 @@ gnome_menu();
 </tr>
 </table>
 <br>
-<a name="copy">[1]</a> The copy is performed by gparted (previously dd was used).<br>
+<a name="ntfscopy">[1]</a> Copy performed using ntfsclone command.<br>
 <a name="grow">[2]</a> You need kernel support for this file system if you want to grow it (module needs to be loaded).<br>
 <a name="shrink">[3]</a> Although it's not possible to shrink an xfs file system directly, you can shrink it using GParted's copy functionality.<br>
 <a name="libparted">[4]</a> Native available through libparted.<br>
