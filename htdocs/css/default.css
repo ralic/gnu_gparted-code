@@ -17,6 +17,7 @@ blockquote {
   padding-right: 10px;
   border: 1px dashed white;
 }
+
 table {
   font-family: "Bitstream Vera Serif", serif;
   border-collapse: collapse;
@@ -72,6 +73,7 @@ a:visited {
 ul.nobullet {
 	list-style: none;
 }
+
 /* Common page elements: Header, footer, etc. */
 
 .logo {
@@ -128,6 +130,27 @@ ul.nobullet {
 	margin-left: 10px;
 	padding-left: 10px;
 }
+
+
+.step {
+	margin-bottom: 0.5em;
+}
+
+.warning {
+      font-family: "Bitstream Vera Sans", sans-serif;
+      /* Pastel Red */
+      background: #f5a9a9;
+      /* Red */
+      border: 1px solid #FF0000;
+      padding-left: 10px;
+      padding-right: 10px;
+}
+
+.hangwarning {
+      text-indent: -6.5em;
+      margin-left: 6.5em;
+}
+
 
 .caution {
       font-family: "Bitstream Vera Sans", sans-serif;
