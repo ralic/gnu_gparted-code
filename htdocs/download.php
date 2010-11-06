@@ -41,30 +41,6 @@ You are advised to <b><u>BACKUP your DATA</u></b> before using gparted.<br>
 </div>
 </td></tr></table>
 
-<br>
-
-<table border=0><tr><td>
-<div class="tip">
-<p class="hangtip">
-<b>TIP</b>: &nbsp; Experiencing messages such as<br>
-<i>"ERROR: Current NTFS volume size is bigger than the device size!"</i>?<br>
-See
-<a href="http://gparted-forum.surf4.info/viewtopic.php?id=13777">Problems Resizing File Systems with GParted</a>.<br>
-</p>
-</div>
-</td></tr></table>
-
-<br>
-
-<table border=0><tr><td>
-<div class="tip">
-<p class="hangtip">
-<b>TIP</b>: &nbsp; Problems booting GParted Live image?
-See <a href="http://gparted-forum.surf4.info/viewtopic.php?id=14377">Tips on Booting GParted Live</a>.<br>
-</p>
-</div>
-</td></tr></table>
-
 <h2>Download Links</h2>
 
 <p>
@@ -149,6 +125,31 @@ Mac OS X.
     </td>
   </tr>
 </table>
+
+
+<br>
+
+<table border=0><tr><td>
+<div class="tip">
+<p class="hangtip">
+<b>TIP</b>: &nbsp; Experiencing messages such as<br>
+<i>"ERROR: Current NTFS volume size is bigger than the device size!"</i>?<br>
+See
+<a href="http://gparted-forum.surf4.info/viewtopic.php?id=13777">Problems Resizing File Systems with GParted</a>.<br>
+</p>
+</div>
+</td></tr></table>
+
+<br>
+
+<table border=0><tr><td>
+<div class="tip">
+<p class="hangtip">
+<b>TIP</b>: &nbsp; Problems booting GParted Live image?
+See <a href="http://gparted-forum.surf4.info/viewtopic.php?id=14377">Tips on Booting GParted Live</a>.<br>
+</p>
+</div>
+</td></tr></table>
 
 <h2>Order a Disk</h2>
 <p>
