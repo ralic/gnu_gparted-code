@@ -17,6 +17,13 @@ gnome_menu();
 ?>
 <div class="content">
 <H1>GParted Live on USB</H1>
+
+<div class="right">
+  <?
+    include "google/lusbp-160x600-rhs-near-top.inc";
+  ?>
+</div>
+
 <p>
   The bootable <a href="livecd.php">GParted Live</a> image can also be
   installed on a USB flash drive.<br>
