@@ -61,9 +61,9 @@ the <a href="index.php#features">about page</a>.<br>
 	</th>
 </tr>
 <tr>
-	<td>
+	<th>
 		<b>btrfs</b>
-	</td>
+	</th>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
@@ -95,10 +95,10 @@ the <a href="index.php#features">about page</a>.<br>
 		<a href="https://btrfs.wiki.kernel.org/index.php/Main_Page" target=new>btrfs-tools</a>
 	</td>
 </tr>
-<tr>
-	<td>
+<tr style="background-color: #dddddd;">
+	<th>
 		<b>crypt-luks</b>
-	</td>
+	</th>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
@@ -131,9 +131,9 @@ the <a href="index.php#features">about page</a>.<br>
 	</td>
 </tr>
 <tr>
-	<td>
+	<th>
 		<b>ext2</b>
-	</td>
+	</th>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
@@ -165,10 +165,10 @@ the <a href="index.php#features">about page</a>.<br>
 		<a href="http://e2fsprogs.sourceforge.net" target=new>e2fsprogs</a>
 	</td>
 </tr>
-<tr>
-	<td>
+<tr style="background-color: #dddddd;">
+	<th>
 		<b>ext3</b>
-	</td>
+	</th>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
@@ -201,9 +201,9 @@ the <a href="index.php#features">about page</a>.<br>
 	</td>
 </tr>
 <tr>
-	<td>
+	<th>
 		<b>ext4</b>
-	</td>
+	</th>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
 		<sup><a href="#blkid">[7]</a></sup>
@@ -236,10 +236,10 @@ the <a href="index.php#features">about page</a>.<br>
 		<a href="http://e2fsprogs.sourceforge.net" target=new>e2fsprogs</a> v1.41+
 	</td>
 </tr>
-<tr>
-	<td>
+<tr style="background-color: #dddddd;">
+	<th>
 		<b>fat16</b>
-	</td>
+	</th>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
@@ -276,9 +276,9 @@ the <a href="index.php#features">about page</a>.<br>
 	</td>
 </tr>
 <tr>
-	<td>
+	<th>
 		<b>fat32</b>
-	</td>
+	</th>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
@@ -314,10 +314,10 @@ the <a href="index.php#features">about page</a>.<br>
 		<a href="ftp://ftp.uni-erlangen.de/pub/Linux/LOCAL/dosfstools" target=new>dosfstools</a>
 	</td>
 </tr>
-<tr>
-	<td>
+<tr style="background-color: #dddddd;">
+	<th>
 		<b>hfs</b>
-	</td>
+	</th>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
@@ -351,9 +351,9 @@ the <a href="index.php#features">about page</a>.<br>
 	</td>
 </tr>
 <tr>
-	<td>
+	<th>
 		<b>hfs+</b>
-	</td>
+	</th>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
@@ -386,10 +386,10 @@ the <a href="index.php#features">about page</a>.<br>
 		<a href="http://packages.debian.org/search?keywords=hfsprogs" target=new>hfsprogs</a>
 	</td>
 </tr>
-<tr>
-	<td>
+<tr style="background-color: #dddddd;">
+	<th>
 		<b>jfs</b>
-	</td>
+	</th>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
@@ -423,9 +423,9 @@ the <a href="index.php#features">about page</a>.<br>
 	</td>
 </tr>
 <tr>
-	<td>
+	<th>
 		<b>linux-swap</b>
-	</td>
+	</th>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
@@ -459,10 +459,10 @@ the <a href="index.php#features">about page</a>.<br>
 		or <a href="http://www.kernel.org/pub/linux/utils/util-linux/" target=new>util-linux</a>
 	</td>
 </tr>
-<tr>
-	<td>
+<tr style="background-color: #dddddd;">
+	<th>
 		<b>lvm2 pv</b>
-	</td>
+	</th>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
@@ -495,9 +495,9 @@ the <a href="index.php#features">about page</a>.<br>
 	</td>
 </tr>
 <tr>
-	<td>
+	<th>
 		<b>ntfs</b>
-	</td>
+	</th>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
@@ -530,10 +530,10 @@ the <a href="index.php#features">about page</a>.<br>
 		<a href="http://www.linux-ntfs.org" target=new>ntfsprogs</a>
 	</td>
 </tr>
-<tr>
-        <td>
+<tr style="background-color: #dddddd;">
+        <th>
                 <b>reiser4</b>
-        </td>
+        </th>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
@@ -566,9 +566,9 @@ the <a href="index.php#features">about page</a>.<br>
         </td>
 </tr>
 <tr>
-	<td>
+	<th>
 		<b>reiserfs</b>
-	</td>
+	</th>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
@@ -600,10 +600,10 @@ the <a href="index.php#features">about page</a>.<br>
 		<a href="http://www.namesys.com" target=new>reiserfsprogs</a>
 	</td>
 </tr>
-<tr>
-	<td>
+<tr style="background-color: #dddddd;">
+	<th>
 		<b>ufs</b>
-	</td>
+	</th>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
@@ -636,9 +636,9 @@ the <a href="index.php#features">about page</a>.<br>
 	</td>
 </tr>
 <tr>
-	<td>
+	<th>
 		<b>xfs</b>
-	</td>
+	</th>
 	<td>
 		<img src="images/supported.png" alt="supported.png">
 	</td>
