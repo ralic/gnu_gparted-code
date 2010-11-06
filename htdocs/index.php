@@ -37,6 +37,7 @@ to detect and manipulate devices and partition tables.
 Several optional file system tools provide support for file systems
 not included in libparted.
 </p>
+<a name="features"></a>
 <h2>Features</h2>
 <ul>
   <li>Create partition tables (e.g., msdos, gpt)</li>
