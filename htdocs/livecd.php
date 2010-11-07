@@ -38,11 +38,9 @@ then run on an x86 machine.<br>
 <div class="caution">
 <p class="hangcaution">
 <b>CAUTION</b>:&nbsp;
-It is recommended to do a whole disk or partition image backup before
-you use GParted to resize or move your partition.<br>
-Some free (GPL) disk or partition image tools, which provide live CD
-or USB flash drive so that you do not have to install or configure,
-are available:<br>
+Creating a a whole disk or partition image backup is recommended
+before you resize or move a partition.  Some free software (GPL) disk
+and partition image tools are available:<br>
 <br>
 <a href="http://clonezilla.org" target=_blank>Clonezilla</a>, &nbsp;
 <a href="http://www.fsarchiver.org" target=_blank>FSArchiver</a>, &nbsp;
