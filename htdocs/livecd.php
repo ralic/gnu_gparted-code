@@ -38,9 +38,9 @@ then run on an x86 machine.<br>
 <div class="caution">
 <p class="hangcaution">
 <b>CAUTION</b>:&nbsp;
-Creating a a whole disk or partition image backup is recommended
-before you resize or move a partition.  Some free software (GPL) disk
-and partition image tools are available:<br>
+Creating a whole disk or partition image backup is recommended before
+you resize or move a partition.  Some free software (GPL) disk and
+partition image tools are available:<br>
 <br>
 <a href="http://clonezilla.org" target=_blank>Clonezilla</a>, &nbsp;
 <a href="http://www.fsarchiver.org" target=_blank>FSArchiver</a>, &nbsp;
