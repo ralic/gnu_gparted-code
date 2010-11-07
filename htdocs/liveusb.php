@@ -43,9 +43,18 @@ gnome_menu();
 <h2>USB setup with Windows</h2>
 <p>
   Choose one of the following methods to setup GParted Live on your
-  USB flash drive using MS Windows.
+  USB flash drive using MS Windows:
 </p>
+<ul>
+  <li>
+    <a href="#windows-method-a">Windows Method A:  Manual (Recommended)</a>
+  </li>
+  <li>
+    <a href="#windows-method-b">Windows Method B:  Unetbootin</a>
+  </li>
+</ul>
 
+<a name="windows-method-a"></a>
 <h3>Windows Method A:  Manual (Recommended)</h3>
 
 <table border=0><tr><td>
@@ -90,6 +99,7 @@ Doing so could cause your MS windows not to boot!!!
   </li>
 </ol>
 
+<a name="windows-method-b"></a>
 <h3>Windows Method B:  Unetbootin</h3>
 <ol>
   <li class="step">
@@ -119,9 +129,18 @@ Doing so could cause your MS windows not to boot!!!
 <h2>USB setup with GNU/Linux</h2>
 <p>
   Choose one of the following methods to setup GParted Live on your
-  USB flash drive using GNU/Linux.
+  USB flash drive using GNU/Linux:
 </p>
+<ul>
+  <li>
+    <a href="#linux-method-a">GNU/Linux Method A:  Manual (Recommended)</a>
+  </li>
+  <li>
+    <a href="#linux-method-b">GNU/Linux Method B:  Unetbootin</a>
+  </li>
+</ul>
 
+<a name="linux-method-a"></a>
 <h3>GNU/Linux Method A:  Manual (Recommended)</h3>
 
 <table border=0><tr><td>
@@ -231,7 +250,7 @@ Failure to do so could cause loss of data or your GNU/Linux not to boot!!!<br>
 </div>
 </td></tr></table>
 
-
+<a name="linux-method-b"></a>
 <h3>GNU/Linux Method B:  Unetbootin</h3>
 <ol>
   <li class="step">
