@@ -207,24 +207,30 @@ Failure to do so could cause loss of data or your GNU/Linux not to boot!!!<br>
     properly.  Make sure you run it on newer GNU/Linux, such as Debian
     Lenny, Ubuntu 8.04, or Fedora 9.
   </li>
-  <li class="step">
-    If your USB flash drive or USB hard drive is not able to boot,
-    check the following:<br>
-    <br>
-    <ul>
-      <li class="step">
-        Are there any partitions on your USB flash drive?<br>
-        Your USB flash drive must contain at least one partition.
-      </li>
-      <li class="step">
-        The partition must be marked as "bootable" in the partition table.
-      </li>
-      <li class="step">
-        The partition must start on a cylinder boundary.
-      </li>
-    </ul>
-  </li>
 </ol>
+
+<table border=0><tr><td>
+<div class="tip">
+<p class="hangtip">
+<b>TIP</b>: &nbsp;
+  If your USB flash drive or USB hard drive is not able to boot, check
+  the following:
+</p>
+<ul>
+  <li class="step">
+    Ensure that your USB flash drive contains at least one FAT partition.
+  </li>
+  <li class="step">
+    Ensure that the partition is marked as "bootable" in the partition table.
+  </li>
+  <li class="step">
+    Ensure that the partition starts on a cylinder boundary.<br>
+    For the first partition this is usually sector 63.
+  </li>
+</ul>
+</div>
+</td></tr></table>
+
 
 <h3>GNU/Linux Method B:  Unetbootin</h3>
 <ol>
