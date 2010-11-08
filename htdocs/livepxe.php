@@ -36,7 +36,7 @@ GParted.  The steps to do this are as follows:
     <a href="http://www.debian-administration.org/articles/478"
     target=_blank>setting up a server for PXE network booting</a>,
     or <a href="http://drbl.sourceforge.net" target=_blank>DRBL
-    (Diskless Remote Boot in Linux)</a> to assist you..<br>
+    (Diskless Remote Boot in Linux)</a> to assist you.<br>
     In these steps we assume the pxelinux config file is
     /tftpboot/nbi_img/pxelinux.cfg/default, and the image files are in
     /tftpboot/nbi_img/.
