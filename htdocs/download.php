@@ -95,13 +95,17 @@ Mac OS X.
 
 <table border="1px" cellpadding="5px">
   <tr>
-    <th>
+    <th colspan="2">
       GParted Application Source Code
     </th>
   </tr>
   <tr>
     <td>
       <a href="http://sourceforge.net/projects/gparted/files/gparted/">Download source code (.tar.bz2)</a>
+    </td>
+    <td>
+      Release notes and checksums in same directory.<br>
+      See gparted-<i>x.y.z</i>-notes.txt
     </td>
   </tr>
 </table>
