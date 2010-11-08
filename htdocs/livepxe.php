@@ -5,7 +5,7 @@ include "functions.php";
 ?>
 
 <head>
-  <title>GParted Live on PXE server</title>
+  <title>GParted Live on PXE Server</title>
 <? html_head() ?>
 </head>
 <body>
@@ -16,7 +16,7 @@ gnome_head();
 gnome_menu();
 ?>
 <div class="content">
-<H1>GParted Live on PXE server</H1>
+<H1>GParted Live on PXE Server</H1>
 <p>
 Besides GParted Live CD and Live USB, we can put the GParted Live
 image on a PXE server so that a client can boot via the network to use
