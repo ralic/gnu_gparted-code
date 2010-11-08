@@ -769,7 +769,7 @@ We are grateful for all donations.<br>
 
 </div>
 
-<? gnome_foot() ?>
+<? gnome_foot_wo_ads() ?>
 
 </div>
 </body>

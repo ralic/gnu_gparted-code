@@ -70,7 +70,7 @@ Following is a record of donations and expenses while Laurent de Trogoff maintai
 
 </div>
 
-<? gnome_foot() ?>
+<? gnome_foot_wo_ads() ?>
 
 </div>
 </body>

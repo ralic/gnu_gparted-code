@@ -129,7 +129,7 @@ Following is a record of donations and expenses while Bart Hakvoort maintained t
 
 </div>
 
-<? gnome_foot() ?>
+<? gnome_foot_wo_ads() ?>
 
 </div>
 </body>
