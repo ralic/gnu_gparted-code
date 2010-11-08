@@ -17,6 +17,13 @@ gnome_menu();
 ?>
 <div class="content">
 <H1>GParted Live on PXE Server</H1>
+
+<div class="right">
+  <?
+    include "google/lpxep-300x250-rhs-near-top.inc";
+  ?>
+</div>
+
 <p>
 Besides GParted Live CD and Live USB, we can put the GParted Live
 image on a PXE server so that a client can boot via the network to use
