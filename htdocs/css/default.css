@@ -269,6 +269,7 @@ ul.nobullet {
 .newshdr {
   font-size: larger;
   background-color: #CCCCFF;
+  border: 2px solid #CCCCFF;
   margin-top: 20px;
   margin-left: 0px;
   vertical-align: top;
