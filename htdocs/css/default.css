@@ -272,7 +272,13 @@ ul.nobullet {
   border: 2px solid #CCCCFF;
   margin-top: 20px;
   margin-left: 0px;
-  vertical-align: top;
+}
+
+.newsbody {
+  background-color: #fafafa;
+  border: 2px solid #fafafa;
+  margin-left: 0px;
+  margin-bottom: 20px;
 }
 
 td.news {
