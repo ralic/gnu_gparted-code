@@ -18,6 +18,13 @@ gnome_menu();
 ?>
 <div class="content">
 <h1>GParted FAQ</h1>
+
+<div class="right">
+  <?
+    include "google/faqp-160x600-rhs-near-top.inc";
+  ?>
+</div>
+
 <?
 $filename = "text/faq.text";
 $fcontents = file($filename);
