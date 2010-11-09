@@ -32,18 +32,20 @@ $pos = 0;
 $aantal = 0;
 while (list ($line_num, $line) = each ($fcontents)) {
     if ($line_num == $pos) {
-        echo "<div class=\"newshdr\"><b>", htmlspecialchars ($line), ": ";
+        echo "<div class=\"newshdr\">";
+        echo "<a name=\"faq-", htmlspecialchars( chop($line) ), "\"></a>\n";
+        echo "<b>", htmlspecialchars ( chop($line) ), ": ";
     } elseif ($line_num == $pos + 1) {
         echo htmlspecialchars ($line), "</b></div>\n";
-        echo "<p>";
+        echo "<div class=\"newsbody\"><p>";
     } elseif (chop($line) == "---") {
-        echo "</p>";
+        echo "</p></div>\n";
         $pos = $line_num + 1;
     } else {
 	echo $line;
     }
 }
-echo "</p>";
+echo "</p></div>";
 
 ?>
 
