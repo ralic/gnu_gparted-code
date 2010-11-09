@@ -50,8 +50,9 @@ boot process (for example the C: drive in Windows), then the operating
 system might fail to boot.<br>
 To fix this problem you will need to repair the boot
 configuration.<br>
-See FAQ #13 for Linux/GRUB.<br>
-See FAQs #14, #15, and #16 for Windows
+See FAQ <a href="#faq-13">#13</a> for Linux/GRUB.<br>
+See FAQs <a href="#faq-14">#14</a>, <a href="#faq-15">#15</a>, and
+<a href="#faq-16">#16</a> for Windows.
 ---
 7
 Is there a maximum to the amount of operations in the list?
