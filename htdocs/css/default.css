@@ -266,6 +266,14 @@ ul.nobullet {
 	background-color: #fafafa;
 }
 
+.newshdr {
+  font-size: larger;
+  background-color: #CCCCFF;
+  margin-top: 20px;
+  margin-left: 0px;
+  vertical-align: top;
+}
+
 td.news {
   background-color: #fafafa;
 
