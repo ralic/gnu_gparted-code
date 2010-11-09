@@ -82,11 +82,7 @@ function gnome_foot_wo_ads() { ?>
 function gnome_foot() { ?>
 <div class="bottomad">
 <?
-  if ( mt_rand(1,2) <= 1 ) {
-    include "google/sp-468x60-below-page-content.inc";
-  } else {
-    include "google/sp-728x90-below-page-content.inc";
-  }
+  include "google/sp-728x90-below-page-content.inc";
 ?>
 </div>
 
