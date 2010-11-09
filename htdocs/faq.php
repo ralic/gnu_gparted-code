@@ -25,19 +25,18 @@ $pos = 0;
 $aantal = 0;
 while (list ($line_num, $line) = each ($fcontents)) {
     if ($line_num == $pos) {
-        echo "<table width='80%'><tr>";
-        echo "<th align=LEFT class=\"news\">", htmlspecialchars ($line), ": ";
+        echo "<div class=\"newshdr\"><b>", htmlspecialchars ($line), ": ";
     } elseif ($line_num == $pos + 1) {
-        echo htmlspecialchars ($line), "</th></tr>\n";
-	echo "<tr><td class=\"news\">";
+        echo htmlspecialchars ($line), "</b></div>\n";
+        echo "<p>";
     } elseif (chop($line) == "---") {
-        echo "</td></tr></table>";
+        echo "</p>";
         $pos = $line_num + 1;
     } else {
 	echo $line;
     }
 }
-echo "</td></tr></table>";
+echo "</p>";
 
 ?>
 
