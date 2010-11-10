@@ -28,10 +28,6 @@ th {
   text-align: left;
 }
 
-table.nieuws {
-  width: 100%;
-}
-
 /* Anchors */
 a {
 	color: #0000ff;
@@ -279,56 +275,6 @@ ul.nobullet {
   border: 2px solid #fafafa;
   margin-left: 0px;
   margin-bottom: 20px;
-}
-
-td.news {
-  background-color: #fafafa;
-
-  margin-top: 10px;
-  margin-left: 0px;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  vertical-align: top;
-}
-
-td.percentage {
-  margin-top: 20px;
-  margin-left: 0px;
-  vertical-align: top;
-}
-
-td.module {
-  color: #0000AA;
-  background-color: #CCCCFF;
-
-
-  margin-top: 20px;
-  margin-left: 20px;
-  vertical-align: top;
-}
-
-tr.total {
-  background-color: #FFFF55;
-  margin-top: 20px;
-  vertical-align: top;
-}
-
-th.module {
-/*  font-family: "Bitstream Vera Sans", sans-serif;*/
-  background-color: #FFFF55;
-  margin-top: 20px;
-  margin-left: 20px;
-  vertical-align: top;
-}
-
-th.news {
-/*  color: #0000AA;*/
-/*  font-family: "Bitstream Vera Sans", sans-serif;*/
-  font-size: larger;
-  background-color: #CCCCFF;
-  margin-top: 20px;
-  margin-left: 0px;
-  vertical-align: top;
 }
 
 tr.even {
