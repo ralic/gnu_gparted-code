@@ -26,12 +26,14 @@ gnome_menu();
       <th>Français</th>
       <th>Español</th>
       <th>Deutsch</th>
+      <th>Italiano</th>
     </tr>
     <tr>
       <td><a href="docs/help-manual/C/gparted.html">Help manual</a></td>
       <td><a href="docs/help-manual/fr/gparted.html">Aide manuel</a></td>
       <td><a href="docs/help-manual/es/gparted.html">Ayuda manual</a></td>
       <td><a href="docs/help-manual/de/gparted.html">Hilfe Handbuch</a></td>
+      <td><a href="docs/help-manual/it/gparted.html">Guida manuale</a></td>
     </tr>
     <tr>
       <td><a href="docs/man-page/C/gparted.8.html">Man page</a></td>
@@ -40,6 +42,8 @@ gnome_menu();
       <!-- Spanish translation of Man page:  Página de hombre -->
       <td>&nbsp;</td>
       <!-- German translation of Man page:  Man Seite -->
+      <td>&nbsp;</td>
+      <!-- Italian translation of Man page:  Man pagina -->
       <td>&nbsp;</td>
     </tr>
   </table>
