@@ -45,7 +45,6 @@ while (list ($line_num, $line) = each ($fcontents)) {
 	echo $line;
     }
 }
-echo "</p></div>";
 
 ?>
 
