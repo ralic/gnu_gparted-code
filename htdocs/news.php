@@ -18,6 +18,13 @@ gnome_menu();
 ?>
 <div class="content">
 <h1>GParted News</h1>
+
+<div class="right">
+  <?
+    include "google/np-160x600-rhs-near-top.inc";
+  ?>
+</div>
+
 <?
 $filename = "text/news.text";
 $fcontents = file($filename);
