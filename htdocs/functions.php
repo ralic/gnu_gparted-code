@@ -70,7 +70,8 @@ function gnome_foot_wo_ads() { ?>
 	border="0" alt="Softpedia Review Award Logo"></a>
 -->
 <a href="http://sourceforge.net/projects/gparted"><img
-	src="images/sflogo.gif" width="120" height="31" border="0"
+	src="http://sflogo.sourceforge.net/sflogo.php?group_id=115843&amp;type=12"
+	width="120" height="31" border="0"
 	alt="Get GParted at SourceForge.net. Fast, secure and Free
 	Open Source software downloads" ></a>
 <a href="http://validator.w3.org/check/referer"><img border="0"
