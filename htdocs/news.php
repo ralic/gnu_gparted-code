@@ -30,25 +30,24 @@ if ( ! empty( $_GET["alles"] ) )
 else
 	$max_nieuws = $news_per_page ;
 
-	while( (list ($line_num, $line) = each ($fcontents)) && $aantal < $max_nieuws  ) {
-	    if ($line_num == $pos) {
-	        echo "<table class=\"nieuws\"><tr>";
-	        echo "<th align=LEFT class=\"news\">", htmlspecialchars ($line), ": ";
-	    } elseif ($line_num == $pos + 1) {
-	        echo htmlspecialchars ($line), "</th></tr>\n";
-			  echo "<tr><td class=\"news\">";
-	    } elseif (chop($line) == "---") {
-	        echo "</td></tr></table>\n<br>";
-	        $pos = $line_num + 1;
-			  $aantal++;
-	    } else {
-			  echo $line;
-	    }
-	}
+while( (list ($line_num, $line) = each ($fcontents)) && $aantal < $max_nieuws  ) {
+    if ($line_num == $pos) {
+	echo "<div class=\"newshdr\">\n";
+	echo "<b>", htmlspecialchars ( chop($line) ), ": ";
+    } elseif ($line_num == $pos + 1) {
+	echo htmlspecialchars ($line), "</b></div>\n";
+	echo "<div class=\"newsbody\">";
+    } elseif (chop($line) == "---") {
+	echo "</div>\n";
+	$pos = $line_num + 1;
+	$aantal++;
+    } else {
+	echo $line;
+    }
+}
 
 if ( ! empty( $line ) )	
-	echo "<table><tr><td><a href=\"news.php?alles=alles\">all news...</a></td></tr></table>\n";
-	
+	echo "<p><a href=\"news.php?alles=alles\">All news...</a></p>\n";
 ?>
 
 </div>
