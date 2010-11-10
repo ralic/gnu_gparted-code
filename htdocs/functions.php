@@ -69,12 +69,15 @@ function gnome_foot_wo_ads() { ?>
 <a href="http://www.softpedia.com/reviews/linux/GParted-Review-22766.shtml#"><img src="images/softpedia_pick_award_s.gif"
 	border="0" alt="Softpedia Review Award Logo"></a>
 -->
-<a href="http://sourceforge.net/projects/gparted"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=115843&amp;type=12" width="120" height="31" border="0" alt="Get GParted at SourceForge.net. Fast, secure and Free Open Source software downloads" ></a>
+<a href="http://sourceforge.net/projects/gparted"><img
+	src="images/sflogo.gif" width="120" height="31" border="0"
+	alt="Get GParted at SourceForge.net. Fast, secure and Free
+	Open Source software downloads" ></a>
 <a href="http://validator.w3.org/check/referer"><img border="0"
-        src="http://www.w3.org/Icons/valid-html401"
-        alt="Valid HTML 4.01!" height="31" width="88"></a>
+	src="images/valid-html401.png"
+	alt="Valid HTML 4.01!" height="31" width="88"></a>
 <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://gparted.org/">
-	<img border="0" src="http://jigsaw.w3.org/css-validator/images/vcss"
+	<img border="0" src="images/vcss.gif"
 	 alt="Correct CSS!" height="31" width="88"></a>
 <a href="privacy-policy.php">
 	<img border="0" src="images/pp.png"
