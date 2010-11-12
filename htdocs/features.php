@@ -65,31 +65,31 @@ the <a href="index.php#features">about page</a>.<br>
 		<b>btrfs</b>
 	</th>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
 		<a href="https://btrfs.wiki.kernel.org/index.php/Main_Page" target=new>btrfs-tools</a>
@@ -100,31 +100,31 @@ the <a href="index.php#features">about page</a>.<br>
 		<b>crypt-luks</b>
 	</th>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
 		<br>
@@ -135,31 +135,31 @@ the <a href="index.php#features">about page</a>.<br>
 		<b>ext2</b>
 	</th>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
 		<a href="http://e2fsprogs.sourceforge.net" target=new>e2fsprogs</a>
@@ -170,31 +170,31 @@ the <a href="index.php#features">about page</a>.<br>
 		<b>ext3</b>
 	</th>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
 		<a href="http://e2fsprogs.sourceforge.net" target=new>e2fsprogs</a>
@@ -205,32 +205,32 @@ the <a href="index.php#features">about page</a>.<br>
 		<b>ext4</b>
 	</th>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 		<sup><a href="#blkid">[7]</a></sup>
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
 		<a href="http://e2fsprogs.sourceforge.net" target=new>e2fsprogs</a> v1.41+
@@ -241,34 +241,34 @@ the <a href="index.php#features">about page</a>.<br>
 		<b>fat16</b>
 	</th>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 		<sup><a href="#libparted">[4]</a></sup>
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 		<sup><a href="#libparted">[4]</a></sup>
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 		<sup><a href="#libparted">[4]</a></sup>
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 		<sup><a href="#mtools">[6]</a></sup>
 	</td>
 	<td>
@@ -280,34 +280,34 @@ the <a href="index.php#features">about page</a>.<br>
 		<b>fat32</b>
 	</th>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 		<sup><a href="#libparted">[4]</a></sup>
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 		<sup><a href="#libparted">[4]</a></sup>
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 		<sup><a href="#libparted">[4]</a></sup>
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 		<sup><a href="#mtools">[6]</a></sup>
 	</td>
 	<td>
@@ -319,32 +319,32 @@ the <a href="index.php#features">about page</a>.<br>
 		<b>hfs</b>
 	</th>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 		<sup><a href="#libparted">[4]</a></sup>
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
 		<a href="http://www.mars.org/home/rob/proj/hfs/" target=new>hfsutils</a>
@@ -355,32 +355,32 @@ the <a href="index.php#features">about page</a>.<br>
 		<b>hfs+</b>
 	</th>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 		<sup><a href="#libparted">[4]</a></sup>
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
 		<a href="http://packages.debian.org/search?keywords=hfsprogs" target=new>hfsprogs</a>
@@ -391,32 +391,32 @@ the <a href="index.php#features">about page</a>.<br>
 		<b>jfs</b>
 	</th>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 		<sup><a href="#grow">[2]</a></sup>
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
 		<a href="http://www-124.ibm.com/developerworks/oss/jfs/index.html" target=new>jfsutils</a>
@@ -427,31 +427,31 @@ the <a href="index.php#features">about page</a>.<br>
 		<b>linux-swap</b>
 	</th>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 		<sup><a href="#swaplabel">[8]</a></sup>
 	</td>
 	<td>
@@ -464,31 +464,31 @@ the <a href="index.php#features">about page</a>.<br>
 		<b>lvm2 pv</b>
 	</th>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
 		<br>
@@ -499,32 +499,32 @@ the <a href="index.php#features">about page</a>.<br>
 		<b>ntfs</b>
 	</th>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 		<sup><a href="#ntfscopy">[1]</a></sup>
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
 		<a href="http://www.linux-ntfs.org" target=new>ntfsprogs</a>
@@ -535,31 +535,31 @@ the <a href="index.php#features">about page</a>.<br>
                 <b>reiser4</b>
         </th>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
         <td>
-                <img src="images/supported.png" alt="supported.png">
+                <img src="images/supported.png" alt="supported">
         </td>
         <td>
-                <img src="images/not_supported.png" alt="not_supported.png">
+                <img src="images/not_supported.png" alt="not supported">
         </td>
         <td>
-                <img src="images/not_supported.png" alt="not_supported.png">
+                <img src="images/not_supported.png" alt="not supported">
         </td>
         <td>
-                <img src="images/supported.png" alt="supported.png">
+                <img src="images/supported.png" alt="supported">
         </td>
         <td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
         </td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
         <td>
                 <a href="http://www.namesys.com/v4/v4.html" target=new>reiser4progs</a>
@@ -570,31 +570,31 @@ the <a href="index.php#features">about page</a>.<br>
 		<b>reiserfs</b>
 	</th>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
 		<a href="http://www.namesys.com" target=new>reiserfsprogs</a>
@@ -605,31 +605,31 @@ the <a href="index.php#features">about page</a>.<br>
 		<b>ufs</b>
 	</th>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
 		<img src="images/not_supported.png" alt="not supported.png">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
 		<br>
@@ -640,34 +640,34 @@ the <a href="index.php#features">about page</a>.<br>
 		<b>xfs</b>
 	</th>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 		<sup><a href="#grow">[2]</a></sup>
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not_supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 		<sup><a href="#shrink">[3]</a></sup>
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 		<sup><a href="#xfscopy">[5]</a></sup>
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported.png">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
 		<a href="http://oss.sgi.com/projects/xfs/" target=new>xfsprogs</a>
