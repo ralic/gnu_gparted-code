@@ -18,6 +18,12 @@ gnome_menu();
 <div class="content">
 <h1>GParted Live on Hard Disk</h1>
 
+<div class="right">
+  <?
+    include "google/lhdp-300x250-rhs-near-top.inc";
+  ?>
+</div>
+
 <p>
 Besides GParted Live CD and Live USB, we can also put GParted Live on
 harddisk.<br>
