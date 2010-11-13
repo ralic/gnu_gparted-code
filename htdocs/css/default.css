@@ -96,19 +96,7 @@ ul.nobullet {
 	border-bottom: 1px solid #666666;
 	z-index: 5;
 }
-.meter {
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	border: 0px;
-	margin: 10px;
-	padding: 0px;
-	float: right;
-	text-align: right;
-	background: none;
 
-	z-index: 10;
-}
 .menu {
 	position: absolute;
 	top: 90px;
