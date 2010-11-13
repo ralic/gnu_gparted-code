@@ -35,7 +35,7 @@ $backgroundnumber = rand (1, 5);
   <link rel="stylesheet" href="css/default.css" type="text/css">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="author" content="Vincent van Adrighem and Curtis Gedak">
-  <meta name="keywords" content="partition manager partition editor hard disk drive parted gparted partition magic">
+  <meta name="keywords" content="partition manager editor hard disk drive">
   <style type="text/css">
     <!--
     @import url(http://www.google.com/cse/api/branding.css);
