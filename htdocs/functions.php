@@ -3,29 +3,12 @@
 // Zo worden de scripts zelf redelijk schoon gehouden.
 // Functies tot nu toe zijn:
 //
-//	meter()
 //      html_head()
 //	gnome_head()
 //	gnome_foot_wo_ads()
 //	gnome_foot()
 //	gnome_menu()
 //
-
-function meter() { ?>
-<div class="meter">
-<!--WEBBOT bot="HTMLMarkup" startspan ALT="Site Meter" -->
-<script type="text/javascript" language="JavaScript">var site="s13gnome"</script>
-<script type="text/javascript" language="JavaScript1.2" src="http://s13.sitemeter.com/js/counter.js?site=s13gnome">
-</script>
-<noscript>
-<a href="http://s13.sitemeter.com/stats.asp?site=s13gnome" target="_top">
-<img src="http://s13.sitemeter.com/meter.asp?site=s13gnome" alt="Site Meter" border=0></a>
-</noscript>
-<!-- Copyright (c)2002 Site Meter -->
-<!--WEBBOT bot="HTMLMarkup" Endspan -->
-</div>
-<?
-}
 
 function html_head() {
 srand ((double) microtime() * 1000000);

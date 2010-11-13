@@ -12,7 +12,6 @@ include "functions.php";
 <div class="body">
 
 <?
-//meter();
 gnome_head();
 gnome_menu();
 ?>
