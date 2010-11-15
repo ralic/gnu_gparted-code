@@ -13,7 +13,7 @@ include "functions.php";
 
 <?
 gnome_head();
-gnome_menu();
+gnome_menu_wo_ads();
 ?>
 <div class="content">
 <h1>Donations</h1>

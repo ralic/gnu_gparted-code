@@ -7,7 +7,9 @@
 //	gnome_head()
 //	gnome_foot_wo_ads()
 //	gnome_foot()
+//	gnome_menu_wo_ads()
 //	gnome_menu()
+//      menu_entries() - Only used internally to functions.php
 //
 
 function html_head() {
@@ -75,13 +77,11 @@ function gnome_foot() { ?>
   include "google/sp-728x90-below-page-content.inc";
 ?>
 </div>
-
 <?
   gnome_foot_wo_ads();
 }
 
-function gnome_menu() { ?>
-<div class="menu">
+function menu_entries() { ?>
 <div class="section">
 	<div class="sectiontitle">GParted</div>
 	<div class="sectioncontent">
@@ -135,11 +135,24 @@ function gnome_menu() { ?>
 	?>
 	</div>
 </div>
-<div class="sectionad">
+<?
+}
+
+function gnome_menu_wo_ads() { ?>
+<div class="menu">
+  <? menu_entries(); ?>
+</div>
+<? flush();
+}
+
+function gnome_menu() { ?>
+<div class="menu">
+  <? menu_entries(); ?>
+  <div class="sectionad">
 	<?
 	include "google/spl-160x90-lhs-below-search.inc";
 	?>
-</div>
+  </div>
 </div>
 <? flush();
 }
