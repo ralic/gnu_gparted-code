@@ -3,6 +3,7 @@
 // Zo worden de scripts zelf redelijk schoon gehouden.
 // Functies tot nu toe zijn:
 //
+//      html_head_basic()
 //      html_head()
 //	gnome_head()
 //	gnome_foot_wo_ads()
@@ -12,15 +13,12 @@
 //      menu_entries() - Only used internally to functions.php
 //
 
-function html_head() {
+function html_head_basic() {
 srand ((double) microtime() * 1000000);
 $backgroundnumber = rand (1, 5);
 ?>
   <link rel="icon" href="images/gparted-16.png" type="image/png">
   <link rel="stylesheet" href="css/default.css" type="text/css">
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="author" content="Vincent van Adrighem and Curtis Gedak">
-  <meta name="keywords" content="partition manager editor hard disk drive">
   <style type="text/css">
     <!--
     @import url(http://www.google.com/cse/api/branding.css);
@@ -35,6 +33,14 @@ $backgroundnumber = rand (1, 5);
   </style>
 <?
   include "google/google-analytics.inc";
+}
+
+function html_head() { ?>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="author" content="Vincent van Adrighem and Curtis Gedak">
+  <meta name="keywords" content="partition manager editor hard disk drive">
+  <?
+  html_head_basic();
 }
 
 function gnome_head() { ?>
