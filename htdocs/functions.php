@@ -49,7 +49,7 @@ function gnome_head() { ?>
 }
 
 function gnome_foot_wo_ads() { ?>
-<div class="copyright">
+<div class="ftr">
 <!-- Commented out 2009-03-11 by Curtis Gedak
 <a href="http://www.softpedia.com/reviews/linux/GParted-Review-22766.shtml#"><img src="images/softpedia_pick_award_s.gif"
 	border="0" alt="Softpedia Review Award Logo"></a>
