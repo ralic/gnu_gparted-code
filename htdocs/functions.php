@@ -135,6 +135,11 @@ function gnome_menu() { ?>
 	?>
 	</div>
 </div>
+<div class="sectionad">
+	<?
+	include "google/spl-160x90-lhs-below-search.inc";
+	?>
+</div>
 </div>
 <? flush();
 }
