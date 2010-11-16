@@ -35,8 +35,8 @@ gnome_menu();
       <td><a href="display-doc.php?name=help-manual&lang=it">Guida manuale</a></td>
     </tr>
     <tr>
-      <td><a href="docs/man-page/C/gparted.8.html">Man page</a></td>
-      <td><a href="docs/man-page/fr/gparted.8.html">Page de manuel</a>
+      <td><a href="display-doc.php?name=man-page&lang=C">Man page</a></td>
+      <td><a href="display-doc.php?name=man-page&lang=fr">Page de manuel</a>
       </td>
       <!-- Spanish translation of Man page:  Página de hombre -->
       <td>&nbsp;</td>
