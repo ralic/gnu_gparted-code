@@ -26,7 +26,7 @@ else
   $doc_error = "";
 
   // Parse out title from head section
-  if ( preg_match( '&<head.*<title[^>]*>(?P<title>.*)</title&si', $filecontents
+  if ( preg_match( '&<head.*<title[^>]*>(?P<title>.*)</title&i', $filecontents
                  , $matches )
      ) {
     $title = "GParted -- " . $matches["title"];
@@ -35,7 +35,7 @@ else
   }
 
   // Parse out meta tag http-equiv from head section
-  if ( preg_match( '&<head.*(?P<httpequiv><meta.*http-equiv[^>]*>).*</head&si'
+  if ( preg_match( '&<head.*(?P<httpequiv><meta.*http-equiv[^>]*>).*</head&i'
                  , $filecontents  , $matches )
      ) {
     $meta_http_equiv = $matches["httpequiv"];
@@ -45,7 +45,7 @@ else
   }
 
   // Parse out meta tag description from head section
-  if ( preg_match( '&<head.*(?P<desc><meta.*description[^>]*>).*</head&si'
+  if ( preg_match( '&<head.*(?P<desc><meta.*description[^>]*>).*</head&i'
                  , $filecontents, $matches )
      ) {
     $meta_description = $matches["desc"];
