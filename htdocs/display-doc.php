@@ -26,8 +26,8 @@ else
   $doc_error = "";
 
   // Parse out title from head section
-  if ( preg_match( '&<head.*<title[^>]*>(?P<title>.*)</title&i', $filecontents
-                 , $matches )
+  if ( preg_match( '&<head.*<title[^>]*>(?P<title>[^<]*)</title&si'
+                 , $filecontents, $matches )
      ) {
     $title = "GParted -- " . $matches["title"];
   } else {
