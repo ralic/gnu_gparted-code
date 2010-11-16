@@ -18,6 +18,10 @@ gnome_menu();
 <div class="content">
 <h1>Documentation</h1>
 
+<?
+  include "google/docp-728x90-under-title.inc";
+?>
+
 <h3>Application Help</h3>
   <table border="1" cellpadding="5px">
     <tr> 
