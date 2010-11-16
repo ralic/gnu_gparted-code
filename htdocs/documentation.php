@@ -28,7 +28,7 @@ gnome_menu();
       <th>Italiano</th>
     </tr>
     <tr>
-      <td><a href="docs/help-manual/C/gparted.html">Help manual</a></td>
+      <td><a href="display-doc.php?name=help-manual&lang=C">Help manual</a></td>
       <td><a href="docs/help-manual/fr/gparted.html">Aide manuel</a></td>
       <td><a href="docs/help-manual/es/gparted.html">Ayuda manual</a></td>
       <td><a href="docs/help-manual/de/gparted.html">Hilfe Handbuch</a></td>
