@@ -165,6 +165,21 @@ ul.nobullet {
       margin-left: 3em;
 }
 
+.note {
+      font-family: "Bitstream Vera Sans", sans-serif;
+      /* Light Blue */
+      background: #a9d0f5;
+      /* Medium Blue */
+      border: 1px solid #0080ff;
+      padding-left: 10px;
+      padding-right: 10px;
+}
+
+.hangnote {
+      text-indent: -4em;
+      margin-left: 4em;
+}
+
 .section {
 	width: 160px;
 	margin-bottom: 5px;
