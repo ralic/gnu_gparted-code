@@ -40,7 +40,8 @@ else
      ) {
     $meta_http_equiv = $matches["httpequiv"];
   } else {
-    $meta_http_equiv = "";
+    $meta_http_equiv = '<meta http-equiv="Content-Type"'
+                     . ' content="text/html; charset=UTF-8">';
   }
 
   // Parse out meta tag description from head section
