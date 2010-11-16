@@ -29,10 +29,10 @@ gnome_menu();
     </tr>
     <tr>
       <td><a href="display-doc.php?name=help-manual&lang=C">Help manual</a></td>
-      <td><a href="docs/help-manual/fr/gparted.html">Aide manuel</a></td>
-      <td><a href="docs/help-manual/es/gparted.html">Ayuda manual</a></td>
-      <td><a href="docs/help-manual/de/gparted.html">Hilfe Handbuch</a></td>
-      <td><a href="docs/help-manual/it/gparted.html">Guida manuale</a></td>
+      <td><a href="display-doc.php?name=help-manual&lang=fr">Aide manuel</a></td>
+      <td><a href="display-doc.php?name=help-manual&lang=es">Ayuda manual</a></td>
+      <td><a href="display-doc.php?name=help-manual&lang=de">Hilfe Handbuch</a></td>
+      <td><a href="display-doc.php?name=help-manual&lang=it">Guida manuale</a></td>
     </tr>
     <tr>
       <td><a href="docs/man-page/C/gparted.8.html">Man page</a></td>
