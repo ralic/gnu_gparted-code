@@ -27,8 +27,10 @@ gnome_menu();
 <p>
 <b>GParted Live</b> is a small bootable GNU/Linux distribution for x86
 based computers.<br>
-It enables you to use all the features of the latest versions of the
-GParted application.<br>
+
+It enables you to use all the <a href="features.php">features</a> of
+the latest versions of the GParted application.<br>
+
 <br>
 GParted Live can be installed on CD, USB, PXE server, and Hard Disk
 then run on an x86 machine.<br>
