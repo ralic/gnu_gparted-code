@@ -154,11 +154,6 @@ function gnome_menu_wo_ads() { ?>
 function gnome_menu() { ?>
 <div class="menu">
   <? menu_entries(); ?>
-  <div class="sectionad">
-	<?
-	include "google/spl-160x90-lhs-below-search.inc";
-	?>
-  </div>
 </div>
 <? flush();
 }
