@@ -97,6 +97,11 @@ else
 ?>
 
 <div class="content">
+  <div class="right">
+    <?
+      include "google/ddp-300x250-rhs-near-top.inc";
+    ?>
+  </div>
 <?
   echo $doc_error;
   echo $filecontents;
