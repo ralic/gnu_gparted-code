@@ -28,15 +28,11 @@ gnome_menu();
       <th>English</th>
       <th>Français</th>
       <th>Español</th>
-      <th>Deutsch</th>
-      <th>Italiano</th>
     </tr>
     <tr>
       <td><a href="display-doc.php?name=help-manual&lang=C">Help manual</a></td>
       <td><a href="display-doc.php?name=help-manual&lang=fr">Aide manuel</a></td>
       <td><a href="display-doc.php?name=help-manual&lang=es">Ayuda manual</a></td>
-      <td><a href="display-doc.php?name=help-manual&lang=de">Hilfe Handbuch</a></td>
-      <td><a href="display-doc.php?name=help-manual&lang=it">Guida manuale</a></td>
     </tr>
     <tr>
       <td><a href="display-doc.php?name=man-page&lang=C">Man page</a></td>
@@ -44,10 +40,19 @@ gnome_menu();
       </td>
       <!-- Spanish translation of Man page:  Página de hombre -->
       <td>&nbsp;</td>
-      <!-- German translation of Man page:  Man Seite -->
-      <td>&nbsp;</td>
-      <!-- Italian translation of Man page:  Man pagina -->
-      <td>&nbsp;</td>
+    </tr>
+  </table>
+  <br>
+  <table border="1" cellpadding="5px">
+    <tr> 
+      <th>Deutsch</th>
+      <th>Italiano</th>
+      <th>České</th>
+    </tr>
+    <tr>
+      <td><a href="display-doc.php?name=help-manual&lang=de">Hilfe Handbuch</a></td>
+      <td><a href="display-doc.php?name=help-manual&lang=it">Guida manuale</a></td>
+      <td><a href="display-doc.php?name=help-manual&lang=cs">Nápověda k použití</a></td>
     </tr>
   </table>
 
