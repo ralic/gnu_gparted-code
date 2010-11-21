@@ -48,11 +48,13 @@ gnome_menu();
       <th>Deutsch</th>
       <th>Italiano</th>
       <th>České</th>
+      <th>Português do Brasil</th>
     </tr>
     <tr>
       <td><a href="display-doc.php?name=help-manual&lang=de">Hilfe Handbuch</a></td>
       <td><a href="display-doc.php?name=help-manual&lang=it">Guida manuale</a></td>
       <td><a href="display-doc.php?name=help-manual&lang=cs">Nápověda k použití</a></td>
+      <td><a href="display-doc.php?name=help-manual&lang=pt_BR">Ajuda Manual</a></td>
     </tr>
   </table>
 
