@@ -38,7 +38,7 @@ $backgroundnumber = rand (1, 5);
 function html_head() { ?>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="author" content="Vincent van Adrighem and Curtis Gedak">
-  <meta name="keywords" content="partition manager editor hard disk drive">
+  <meta name="keywords" content="partition editor partition manager partition magic">
   <?
   html_head_basic();
 }
