@@ -141,7 +141,7 @@ To fix this problem you will need to reinstall GRUB.
 This will update stage1 with the new hard-coded absolute position of the stage2 file.
 <br><br>
 More information can be found at the following link:<br>
-<a href="docs/help-manual/C/gparted.html#gparted-fix-grub-boot-problem">Fixing GRUB Boot Problem</a>
+<a href="display-doc.php?name=help-manual&lang=C#gparted-fix-grub-boot-problem">Fixing GRUB Boot Problem</a>
 ---
 14
 After resizing my Vista partition, Vista won't boot.  How can I fix this?
@@ -192,7 +192,7 @@ For more details refer to the following links:<br>
 ---
 17
 How can I improve my ability to shrink an NTFS partition?
-Tips on how to improve the ability to shrink NTFS partitions can be found in the GParted Manual <a href="docs/help-manual/C/gparted.html#gparted-advanced-partition-actions">here</a>.
+Tips on how to improve the ability to shrink NTFS partitions can be found in the GParted Manual <a href="display-doc.php?name=help-manual&lang=C#gparted-advanced-partition-actions">here</a>.
 <br><br>
 Forum member <i>cmdr</i> wrote some detailed instructions on resizing NTFS partitions that can be found at the following link:<br>
 <a href="http://gparted-forum.surf4.info/viewtopic.php?id=2892">Forum Post - Resize-Windows</a>
