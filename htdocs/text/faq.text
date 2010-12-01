@@ -144,14 +144,22 @@ More information can be found at the following link:<br>
 <a href="display-doc.php?name=help-manual&lang=C#gparted-fix-grub-boot-problem">Fixing GRUB Boot Problem</a>
 ---
 14
-After resizing my Vista partition, Vista won't boot.  How can I fix this?
-The following article by <i>the How-To Geek</i> contains useful information regarding resizing your Vista partition, and getting it to boot again.
+After resizing my Windows 7 or Vista partition, my computer won't boot.  How can I fix this?
+The following article by <i>the How-To Geek</i> contains useful
+information regarding resizing your Windows 7 or Vista partition, and
+getting it to boot again.
 <br>
 <a href="http://www.howtogeek.com/howto/windows-vista/using-gparted-to-resize-your-windows-vista-partition/">Using GParted to Resize Your Windows Vista Partition</a>
 <br><br>
-If your PC did not come with a complete Vista installation CD, you can download a Vista Recovery Disc at the following link:
+If your PC did not come with a complete Vista installation CD, you can
+download a Vista Recovery Disc at the following link:
 <br>
 <a href="http://neosmart.net/blog/2008/windows-vista-recovery-disc-download/">Windows Vista Recovery Disc</a>
+<br><br>
+If your PC did not come with a complete Windows 7 installation CD, you
+can download a Windows 7 System Recovery Disc at the following link:
+<br>
+<a href="http://neosmart.net/blog/2009/windows-7-system-repair-discs/">Windows 7 System Recovery Disc</a>
 ---
 15
 What are the commands for repairing Windows Vista or Windows 7 boot problems?
