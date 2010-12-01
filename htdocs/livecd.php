@@ -110,7 +110,7 @@ GParted Live includes additional packages, such as:<br>
     <td>- Partition table editor (command line based)</td>
   </tr>
   <tr>
-    <td><a href="http://userweb.kernel.org/~kzak/util-linux-ng/">fdisk</a></td>
+    <td><a href="http://userweb.kernel.org/~kzak/util-linux/">fdisk</a></td>
     <td>- MSDOS partition table editor (command line based)</td>
   </tr>
   <tr>
