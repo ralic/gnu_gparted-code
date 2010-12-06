@@ -80,7 +80,7 @@ GParted.  The steps to do this are as follows:
     label GParted Live
             MENU LABEL GParted Live
             kernel vmlinuz1
-            append initrd=initrd1.img boot=live union=aufs noswap noprompt vga=788 fetch=http://$webserverIP/filesystem.squashfs
+            append initrd=initrd1.img boot=live config union=aufs noswap noprompt vga=788 fetch=http://$webserverIP/filesystem.squashfs
     </pre>
     <b>NOTE1:</b> Replace <i>$webserverIP</i> with the IP address of
     your http server.<br>
