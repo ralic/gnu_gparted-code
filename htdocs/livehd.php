@@ -67,7 +67,7 @@ steps:
     <pre>
     title     GParted live
     root      (hd0,3)
-    kernel    /live-hd/vmlinuz1 boot=live union=aufs noswap noprompt vga=788 ip=frommedia live-media-path=/live-hd bootfrom=/dev/hda4 toram=filesystem.squashfs
+    kernel    /live-hd/vmlinuz1 boot=live config union=aufs noswap noprompt vga=788 ip=frommedia live-media-path=/live-hd bootfrom=/dev/hda4 toram=filesystem.squashfs
     initrd    /live-hd/initrd1.img
     boot
     </pre>
@@ -79,7 +79,7 @@ steps:
     <pre>
     menuentry "GParted live" {
       set root=(hd0,4)
-      linux /live-hd/vmlinuz1 boot=live union=aufs noswap noprompt vga=788 ip=frommedia live-media-path=/live-hd bootfrom=/dev/hda4 toram=filesystem.squashfs
+      linux /live-hd/vmlinuz1 boot=live config union=aufs noswap noprompt vga=788 ip=frommedia live-media-path=/live-hd bootfrom=/dev/hda4 toram=filesystem.squashfs
       initrd /live-hd/initrd1.img
     }
     </pre>
@@ -99,7 +99,7 @@ steps:
     menuentry "Gparted live" {
       set isofile="/home/isos/gparted-live-0.5.2-9.iso"
       loopback loop $isofile
-      linux (loop)/live/vmlinuz1 boot=live union=aufs noswap noprompt vga=788 ip=frommedia toram=filesystem.squashfs findiso=$isofile
+      linux (loop)/live/vmlinuz1 boot=live config union=aufs noswap noprompt vga=788 ip=frommedia toram=filesystem.squashfs findiso=$isofile
       initrd (loop)/live/initrd1.img
     }
     </pre>
