@@ -100,11 +100,10 @@ a donation to help us make GParted better.<br>
   </tr>
   <tr>
     <td>
-      <a href="http://sourceforge.net/projects/gparted/files/gparted/">Download source code (.tar.bz2)</a>
+      <a href="http://sourceforge.net/projects/gparted/files/gparted/">Download source code<br>(.tar.bz2)</a>
     </td>
     <td>
-      Release notes and checksums in same directory.<br>
-      See gparted-<i>x.y.z</i>-notes.txt
+      Release notes and checksums in same directory.
     </td>
   </tr>
 </table>
