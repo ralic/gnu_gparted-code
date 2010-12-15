@@ -4,7 +4,7 @@ GParted Live 0.7.1-1 Stable Release
 The GParted team is proud to announce the stable release of GParted
 Live 0.7.1-1.<br>
 <br>
-In addition the GParted 0.7.1 application improvements, grub (legacy)
+In addition to GParted 0.7.1 application improvements, grub (legacy)
 has returned as the boot loader, and the issue with failure to load
 keymap has been fixed.<br>
 <br>
