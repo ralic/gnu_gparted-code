@@ -1,3 +1,17 @@
+15 December 2010
+GParted Live 0.7.1-1 Stable Release
+<br>
+The GParted team is proud to announce the stable release of GParted
+Live 0.7.1-1.<br>
+<br>
+In addition the GParted 0.7.1 application improvements, grub (legacy)
+has returned as the boot loader, and the issue with failure to load
+keymap has been fixed.<br>
+<br>
+Thanks go to Steven for this new GParted Live release.
+<br><br>
+Curtis
+---
 13 December 2010
 GParted 0.7.1
 <br>
