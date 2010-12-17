@@ -56,6 +56,11 @@ We are grateful for all donations.<br>
 	<th><b>Amount</b></th>
 </tr>
 <tr>
+	<td>2010-12-17</td>
+	<td>anonymous</td>
+	<td>20.00 USD (- 1.08 USD to PP)</td>
+</tr>
+<tr>
 	<td>2010-12-08</td>
 	<td>Elio Crivello</td>
 	<td>11.00 USD (- 0.73 USD to PP)</td>
