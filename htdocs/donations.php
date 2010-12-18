@@ -62,7 +62,7 @@ We are grateful for all donations.<br>
 </tr>
 <tr>
 	<td>2010-12-17</td>
-	<td>anonymous</td>
+	<td>Henry F. - Australia</td>
 	<td>20.00 USD (- 1.08 USD to PP)</td>
 </tr>
 <tr>
