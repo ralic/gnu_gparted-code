@@ -47,15 +47,33 @@ gnome_menu();
 </p>
 <ul>
   <li>
-    <a href="#windows-method-a">Windows Method A:  Manual (Recommended)</a>
+    <a href="#windows-method-a">Windows Method A:  Tuxboot</a>
   </li>
   <li>
-    <a href="#windows-method-b">Windows Method B:  Unetbootin</a>
+    <a href="#windows-method-b">Windows Method B:  Manual</a>
+  </li>
+  <li>
+    <a href="#windows-method-c">Windows Method C:  Unetbootin (Not recommended)</a>
   </li>
 </ul>
 
 <a name="windows-method-a"></a>
-<h3>Windows Method A:  Manual (Recommended)</h3>
+<h3>Windows Method A:  Tuxboot</h3>
+<ol>
+  <li class="step">
+    Download <a href="http://tuxboot.org/"
+    target=_blank>Tuxboot</a> on your MS Windows computer.
+  </li>
+  <li class="step">
+    From Windows, run the Tuxboot program and follow 
+    <a href="http://tuxboot.org/installation-screenshots.php" target=_blank>
+    the instructions in the GUI</a> to install GParted Live on your USB flash
+    drive.
+  </li>
+</ol>
+
+<a name="windows-method-b"></a>
+<h3>Windows Method B:  Manual (Recommended)</h3>
 
 <table border=0><tr><td>
 <div class="warning">
@@ -99,8 +117,8 @@ Doing so could cause your MS windows not to boot!!!
   </li>
 </ol>
 
-<a name="windows-method-b"></a>
-<h3>Windows Method B:  Unetbootin</h3>
+<a name="windows-method-c"></a>
+<h3>Windows Method C:  Unetbootin</h3>
 <ol>
   <li class="step">
     If you already have Unetbootin installed on your computer then
@@ -133,15 +151,30 @@ Doing so could cause your MS windows not to boot!!!
 </p>
 <ul>
   <li>
-    <a href="#linux-method-a">GNU/Linux Method A:  Manual (Recommended)</a>
+    <a href="#linux-method-a">GNU/Linux Method A:  Tuxboot</a>
   </li>
   <li>
-    <a href="#linux-method-b">GNU/Linux Method B:  Unetbootin</a>
+    <a href="#linux-method-b">GNU/Linux Method B:  Manual</a>
+  </li>
+  <li>
+    <a href="#linux-method-c">GNU/Linux Method C:  Unetbootin (Not recommended)</a>
   </li>
 </ul>
 
 <a name="linux-method-a"></a>
-<h3>GNU/Linux Method A:  Manual (Recommended)</h3>
+<h3>GNU/Linux Method A:  Tuxboot</h3>
+<ol>
+  <li class="step">
+    Download <a href="http://tuxboot.org/"
+    target=_blank>Tuxboot</a> on your GNU/Linux computer.
+  </li>
+  <li class="step">
+    From GNU/Linux, follow <a href="http://tuxboot.org/installation-screenshots.php" target=_blank>the instructions and the GUI</a> to run Tuxboot to install GParted Live on your USB flash drive.
+  </li>
+</ol>
+
+<a name="linux-method-b"></a>
+<h3>GNU/Linux Method B:  Manual (Recommended)</h3>
 
 <table border=0><tr><td>
 <div class="warning">
@@ -250,8 +283,8 @@ Failure to do so could cause loss of data or your GNU/Linux not to boot!!!<br>
 </div>
 </td></tr></table>
 
-<a name="linux-method-b"></a>
-<h3>GNU/Linux Method B:  Unetbootin</h3>
+<a name="linux-method-c"></a>
+<h3>GNU/Linux Method C:  Unetbootin</h3>
 <ol>
   <li class="step">
     If you already have Unetbootin installed on your computer then
