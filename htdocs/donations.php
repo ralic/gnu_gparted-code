@@ -38,13 +38,11 @@ consider making a donation.<br>
 Your donation will help us to make GParted better.
 <br>
 <br>
-
-We maintain a list of the donations and our expenses to keep
-everything open.  By default each donation is listed as 'anonymous' to
-protect your identity.  If you would like your name or userid
-displayed then please let me know,
+We maintain a list of the donations to keep everything open.  By
+default each donor is listed as 'anonymous' to protect your identity.
+If you would like your name or userid displayed then please let me
+know,
 <a href="mailto:gedakc&#064;users.sf.net">mailto: Curtis Gedak</a>.<br>
-
 <br>
 We are grateful for all donations.<br>
 <br>
@@ -52,7 +50,7 @@ We are grateful for all donations.<br>
 <table border=1>
 <tr>
 	<th><b>Date</b></th>
-	<th><b>Description</b></th>
+	<th><b>Donor</b></th>
 	<th><b>Amount</b></th>
 </tr>
 <tr>
