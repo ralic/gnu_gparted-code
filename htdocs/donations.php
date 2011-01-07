@@ -54,6 +54,21 @@ We are grateful for all donations.<br>
 	<th><b>Amount</b></th>
 </tr>
 <tr>
+	<td>2011-01-07</td>
+	<td>anonymous</td>
+	<td>5.00 USD (- 0.50 USD to PP)</td>
+</tr>
+<tr>
+	<td>2011-01-06</td>
+	<td>anonymous</td>
+	<td>25.00 USD (- 1.28 USD to PP)</td>
+</tr>
+<tr>
+	<td>2011-01-06</td>
+	<td>David C. - Australia</td>
+	<td>20.00 USD (- 1.08 USD to PP)</td>
+</tr>
+<tr>
 	<td>2011-01-06</td>
 	<td>anonymous</td>
 	<td>14.00 USD (- 0.85 USD to PP)</td>
