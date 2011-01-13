@@ -525,7 +525,7 @@ the <a href="index.php#features">about page</a>.<br>
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<a href="http://www.linux-ntfs.org" target=new>ntfsprogs</a>
+		<a href="http://sourceforge.net/projects/linux-ntfs" target=new>ntfsprogs</a>
 	</td>
 </tr>
 <tr style="background-color: #dddddd;">
