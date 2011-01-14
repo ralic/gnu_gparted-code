@@ -17,11 +17,35 @@ gnome_menu();
 ?>
 <div class="content">
 <h1>Features</h1>
+
 <p>
-Note: For a list of high level features, see
-the <a href="index.php#features">about page</a>.<br>
-<br>
-<b>The following actions and file systems are supported by GParted:</b>
+<b>GParted enables you to easily manage your disk partitions:</b>
+</p>
+<ul>
+  <li>Create partition tables, (e.g.,  msdos or gpt)</li>
+  <li>Create, move, copy, resize, check, label, and delete partitions</li>
+  <li>Enable and disable partition flags, (e.g., boot or hidden)</li>
+  <li>Align partitions to mebibyte (MiB) or traditional cylinder boundaries</li>
+</ul>
+
+<p>
+<b>GParted works with the following storage devices:</b>
+</p>
+<ul>
+  <li>Hard disk drives (e.g., SATA, IDE, and SCSI)</li>
+  <li>Flash memory devices, such as USB memory sticks and Solid State Drives
+      (SSD's)
+  </li>
+  <li>RAID Devices (hardware RAID, motherboard BIOS RAID,
+      and Linux software RAID)
+  </li>
+  <li>All sector sizes (e.g., devices with 512, 1024, 2048, 4096 byte
+      sectors and more)
+  </li>
+</ul>
+
+<p>
+<b>GParted supports the following actions on file systems:</b>
 </p>
 <table border=1>
 <tr>
