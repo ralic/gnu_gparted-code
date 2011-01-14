@@ -18,6 +18,12 @@ gnome_menu();
 <div class="content">
 <h1>Features</h1>
 
+<div class="right">
+  <?
+    include "google/fp-336x280-rhs-near-top.inc";
+  ?>
+</div>
+
 <p>
 <b>GParted enables you to easily manage your disk partitions:</b>
 </p>
