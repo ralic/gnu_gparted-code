@@ -17,6 +17,11 @@ gnome_menu();
 ?>
 <div class="content">
 <h1>Screenshots</h1>
+
+<?
+  include "google/ssp-468x60-under-title.inc";
+?>
+
 <p>
 Following are several screen captures of various aspects of the
 GParted application.  At the bottom of the page is a screen shot of
