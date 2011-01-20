@@ -53,7 +53,7 @@ gnome_menu();
     <a href="#windows-method-b">Windows Method B:  Manual</a>
   </li>
   <li>
-    <a href="#windows-method-c">Windows Method C:  Unetbootin (Not recommended)</a>
+    <a href="#windows-method-c">Windows Method C:  Unetbootin</a>
   </li>
 </ul>
 
@@ -73,7 +73,7 @@ gnome_menu();
 </ol>
 
 <a name="windows-method-b"></a>
-<h3>Windows Method B:  Manual (Recommended)</h3>
+<h3>Windows Method B:  Manual</h3>
 
 <table border=0><tr><td>
 <div class="warning">
@@ -136,8 +136,8 @@ Doing so could cause your MS windows not to boot!!!
     instructions in the GUI to install GParted Live on your USB flash
     drive.<br>
     <b>NOTE:</b> The boot menu created by Unetbootin is not exactly
-    the same as the boot menu created in method A.  Therefore it is
-    recommended to use method A.
+    the same as the boot menu created in method A and B.  Therefore it is
+    recommended to use method A or B.
   </li>
 </ol>
 
@@ -157,7 +157,7 @@ Doing so could cause your MS windows not to boot!!!
     <a href="#linux-method-b">GNU/Linux Method B:  Manual</a>
   </li>
   <li>
-    <a href="#linux-method-c">GNU/Linux Method C:  Unetbootin (Not recommended)</a>
+    <a href="#linux-method-c">GNU/Linux Method C:  Unetbootin</a>
   </li>
 </ul>
 
@@ -174,7 +174,7 @@ Doing so could cause your MS windows not to boot!!!
 </ol>
 
 <a name="linux-method-b"></a>
-<h3>GNU/Linux Method B:  Manual (Recommended)</h3>
+<h3>GNU/Linux Method B:  Manual</h3>
 
 <table border=0><tr><td>
 <div class="warning">
@@ -301,8 +301,8 @@ Failure to do so could cause loss of data or your GNU/Linux not to boot!!!<br>
     instructions in the GUI to install GParted Live on your USB flash
     drive.<br>
     <b>NOTE:</b> The boot menu created by Unetbootin is not exactly
-    the same as the boot menu created in method A.  Therefore it is
-    recommended to use method A.
+    the same as the boot menu created in method A and B.  Therefore it is
+    recommended to use method A or B.
   </li>
 </ol>
 
