@@ -38,6 +38,7 @@ gnome_menu();
 </p>
 
 <br>
+<hr>
 
 <a name="windows-setup"></a>
 <h2>USB setup with Windows</h2>
@@ -119,6 +120,15 @@ Doing so could cause your MS windows not to boot!!!
 
 <a name="windows-method-c"></a>
 <h3>Windows Method C:  Unetbootin</h3>
+<table border=0><tr><td>
+<div class="caution">
+<p class="hangcaution">
+  <b>CAUTION</b>: &nbsp; Unetbootin creates a different boot menu.<br>
+  Therefore it is recommended to use method A or B.<br>
+</p>
+</div>
+</td></tr></table>
+
 <ol>
   <li class="step">
     If you already have Unetbootin installed on your computer then
@@ -134,14 +144,12 @@ Doing so could cause your MS windows not to boot!!!
   <li class="step">
     From Windows, run the Unetbootin program and follow the
     instructions in the GUI to install GParted Live on your USB flash
-    drive.<br>
-    <b>NOTE:</b> The boot menu created by Unetbootin is not exactly
-    the same as the boot menu created in method A and B.  Therefore it is
-    recommended to use method A or B.
+    drive.
   </li>
 </ol>
 
 <br>
+<hr>
 
 <a name="linux-setup"></a>
 <h2>USB setup with GNU/Linux</h2>
@@ -285,6 +293,15 @@ Failure to do so could cause loss of data or your GNU/Linux not to boot!!!<br>
 
 <a name="linux-method-c"></a>
 <h3>GNU/Linux Method C:  Unetbootin</h3>
+<table border=0><tr><td>
+<div class="caution">
+<p class="hangcaution">
+  <b>CAUTION</b>: &nbsp; Unetbootin creates a different boot menu.<br>
+  Therefore it is recommended to use method A or B.<br>
+</p>
+</div>
+</td></tr></table>
+
 <ol>
   <li class="step">
     If you already have Unetbootin installed on your computer then
@@ -299,10 +316,7 @@ Failure to do so could cause loss of data or your GNU/Linux not to boot!!!<br>
   <li class="step">
     From GNU/Linux, run the Unetbootin program and follow the
     instructions in the GUI to install GParted Live on your USB flash
-    drive.<br>
-    <b>NOTE:</b> The boot menu created by Unetbootin is not exactly
-    the same as the boot menu created in method A and B.  Therefore it is
-    recommended to use method A or B.
+    drive.
   </li>
 </ol>
 
