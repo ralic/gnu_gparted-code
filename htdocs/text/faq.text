@@ -52,7 +52,8 @@ To fix this problem you will need to repair the boot
 configuration.<br>
 See FAQ <a href="#faq-13">#13</a> for Linux/GRUB.<br>
 See FAQs <a href="#faq-14">#14</a>, <a href="#faq-15">#15</a>, and
-<a href="#faq-16">#16</a> for Windows.
+<a href="#faq-16">#16</a> for Windows.<br>
+See FAQ <a href="#faq-21">#21</a> for Mac OS X.
 ---
 7
 Is there a maximum to the amount of operations in the list?
@@ -226,4 +227,15 @@ If you encounter an error message similar to the above, then please refer to the
 Are you experiencing trouble booting the GParted Live CD / USB image?
 Please refer to the following link:<br>
 <a href="http://gparted-forum.surf4.info/viewtopic.php?id=14377">Tips on Booting GParted Live</a><br>
+---
+21
+How can I fix missing or lost partitions on Intel-based Mac OS X?
+Intel-based Mac OS X uses a combination of GPT and MBR partition
+tables.  Sometimes when using older GParted versions to modify the
+partitions on a Mac, the GPT is changed but not the MBR.
+See <a href="https://bugzilla.gnome.org/show_bug.cgi?id=586910">Bug
+586910 - MBR does not reflect the GPT partition map</a>.<br>
+<br>
+This problem can be repaired with the <a
+href="http://refit.sourceforge.net">rEFIt</a> application.
 ---
