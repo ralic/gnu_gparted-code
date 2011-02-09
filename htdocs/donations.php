@@ -54,6 +54,11 @@ We are grateful for all donations.<br>
 	<th><b>Amount</b></th>
 </tr>
 <tr>
+	<td>2011-02-08</td>
+	<td>anonymous</td>
+	<td>9.00 USD (- 0.56 USD to PP)</td>
+</tr>
+<tr>
 	<td>2011-01-31</td>
 	<td>Alchemy Mindworks</td>
 	<td>10.00 USD (- 0.59 USD to PP)</td>
