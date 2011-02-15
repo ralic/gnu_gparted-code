@@ -1,3 +1,29 @@
+15 February 2011
+GParted 0.8.0
+<br>
+The GParted team is proud to announce a new feature to attempt data
+rescue for lost partitions.<br>
+<br>
+This new feature uses the gpart command to guess the partition table.
+Discovered file systems can be mounted read-only so that you can copy
+data to other media.<br>
+<br>
+Also included in this release are bug fixes, and language translation
+updates.
+<br><br>
+Key changes include:
+<ul>
+<li>Add attempt data rescue for lost partitions</li>
+  <ul>
+    <li>Thanks go to Joan Lledó for this new feature</li>
+  </ul>
+<li>Fix paste destination partition smaller than source</li>
+<li>Prevent visual disk display area from disappearing</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.8.0/gparted-0.8.0-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 20 January 2011
 GParted Live 0.7.1-5 Stable Release
 <br>
