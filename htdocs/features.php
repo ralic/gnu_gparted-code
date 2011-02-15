@@ -32,6 +32,7 @@ gnome_menu();
   <li>Create, move, copy, resize, check, label, and delete partitions</li>
   <li>Enable and disable partition flags, (e.g., boot or hidden)</li>
   <li>Align partitions to mebibyte (MiB) or traditional cylinder boundaries</li>
+  <li>Attempt data rescue from lost partitions</li>
 </ul>
 
 <p>
