@@ -77,6 +77,8 @@ partitions while preserving the contents of these partitions.
   <li class="step">Align partitions to mebibyte (MiB) or cylinder
   boundaries</li>
 
+  <li class="step">Attempt data rescue from lost partitions</li>
+
   <li class="step">Supports hardware RAID, motherboard BIOS RAID, and
   Linux software RAID.</li>
 
