@@ -55,7 +55,7 @@ We are grateful for all donations.<br>
 </tr>
 <tr>
 	<td>2011-02-15</td>
-	<td>anonymous</td>
+	<td>Yaroslav, Kazakhstan</td>
 	<td>15.00 USD (- 0.89 USD to PP)</td>
 </tr>
 <tr>
