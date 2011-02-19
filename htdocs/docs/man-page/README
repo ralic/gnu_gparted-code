@@ -15,4 +15,7 @@ Generate the man page web content with:
 
 $ man2html gparted.8 > man-page.html
 
-and manually edit out hyperlinks and leave bold for SEE ALSO section.
+and manually:
+- remove Return to Main Content link at top of page.
+- edit out hyperlinks and leave bold for SEE ALSO section
+- edit out hyperlinks for man2html at bottom of page.
