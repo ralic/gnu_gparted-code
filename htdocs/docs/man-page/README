@@ -6,3 +6,13 @@ Generate the man page web content with:
 $ rman -f html gparted.8 > man-page.html
 
 and manually edit out hyperlinks and leave bold for SEE ALSO section.
+
+
+Generation of the man page web content for the a translation appears
+to work better with man2html.
+
+Generate the man page web content with:
+
+$ man2html gparted.8 > man-page.html
+
+and manually edit out hyperlinks and leave bold for SEE ALSO section.
