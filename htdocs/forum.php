@@ -24,23 +24,6 @@ Bugs go <a href="bugs.php">here</a>
 Enter <a href="http://gparted-forum.surf4.info">forum</a>
 </p>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 </div>
 
 <? gnome_foot() ?>
