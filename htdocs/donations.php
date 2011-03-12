@@ -150,7 +150,7 @@ We are grateful for all donations.<br>
 </tr>
 <tr>
 	<td>2011-01-07</td>
-	<td>anonymous</td>
+	<td>Juraj Ahel</td>
 	<td>5.00 USD (- 0.50 USD to PP)</td>
 </tr>
 <tr>
