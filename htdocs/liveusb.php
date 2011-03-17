@@ -105,8 +105,8 @@ Doing so could cause your MS windows not to boot!!!
     flash drive's top directory (e.g. G:\COPYING).
   </li>
   <li class="step">
-    Browse to your USB flash drive and click the makeboot.bat in
-    the dir utils\win32\. <font color="red"><b>WARNING!</b>
+    Browse to your USB flash drive and as an administrator, click the 
+    makeboot.bat in the dir utils\win32\. <font color="red"><b>WARNING!</b>
     Makeboot.bat must be run from your USB flash drive.</font>
   </li>
   <li class="step">
