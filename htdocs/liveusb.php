@@ -33,8 +33,9 @@ gnome_menu();
   or <a href="#linux-setup">GNU/Linux</a>.<br>
   <br>
   NOTE: These installation methods only work when the USB flash drive
-  is formatted with a FAT file system.  For other file systems you
-  might try to use grub or some other boot loader.
+  is formatted with a FAT file system.  Some users have reported that
+  only the FAT16 file system worked for them.  For other file systems
+  you might try to use grub or some other boot loader.
 </p>
 
 <br>
