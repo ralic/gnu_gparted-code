@@ -1,3 +1,17 @@
+23 March 2011
+GParted Live 0.8.0-5 Stable Release
+<br>
+Thanks to Steven's efforts, a new stable release of GParted
+Live (0.8.0-5) is now available..<br>
+<br>
+This release adds the ssh package and is based on the Debian Sid
+repository as of Mar 21, 2011 (linux kernel 2.6.38-1).<br>
+<br>
+NOTE: By default ssh service is not started.  If you want to start
+ssh, make sure you change the password and the file /etc/hosts.deny.
+<br><br>
+Curtis
+---
 17 February 2011
 GParted Live 0.8.0-1 Stable Release
 <br>
