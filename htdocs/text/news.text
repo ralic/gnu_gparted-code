@@ -2,7 +2,7 @@
 GParted Live 0.8.0-5 Stable Release
 <br>
 Thanks to Steven's efforts, a new stable release of GParted
-Live (0.8.0-5) is now available..<br>
+Live (0.8.0-5) is now available.<br>
 <br>
 This release adds the ssh package and is based on the Debian Sid
 repository as of Mar 21, 2011 (linux kernel 2.6.38-1).<br>
