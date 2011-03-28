@@ -38,10 +38,11 @@ updates.
 <br><br>
 Key changes include:
 <ul>
-<li>Add attempt data rescue for lost partitions</li>
+<li>Add attempt data rescue for lost partitions
   <ul>
     <li>Thanks go to Joan Lledó for this new feature</li>
   </ul>
+</li>
 <li>Fix paste destination partition smaller than source</li>
 <li>Prevent visual disk display area from disappearing</li>
 </ul>
