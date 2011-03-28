@@ -54,6 +54,8 @@ while( (list ($line_num, $line) = each ($fcontents)) && $aantal < $max_nieuws  )
 
 if ( ! empty( $line ) )	
 	echo "<p><a href=\"news.php?alles=alles\">All news...</a></p>\n";
+else
+	echo "<p><a href=\"news.php\">Less news...</a></p>\n";
 ?>
 
 </div>
