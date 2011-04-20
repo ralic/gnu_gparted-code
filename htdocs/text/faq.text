@@ -143,6 +143,11 @@ This will update stage1 with the new hard-coded absolute position of the stage2 
 <br><br>
 More information can be found at the following link:<br>
 <a href="display-doc.php?name=help-manual&lang=C#gparted-fix-grub-boot-problem">Fixing GRUB Boot Problem</a>
+<br><br>
+<b>NOTE</b>: GRUB2 is the default boot loader and manager for Ubuntu since
+version 9.10 (Karmic Koala).  For help with GRUB2 see the
+<a href="https://help.ubuntu.com/community/Grub2">Ubuntu documentation
+for GRUB2</a>.
 ---
 14
 After resizing my Windows 7 or Vista partition, my computer won't boot.  How can I fix this?
