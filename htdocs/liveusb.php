@@ -57,6 +57,9 @@ gnome_menu();
   <li>
     <a href="#windows-method-c">Windows Method C:  Unetbootin</a>
   </li>
+  <li>
+    <a href="#windows-method-d">Windows Method D:  LinuxLive USB Creator</a>
+  </li>
 </ul>
 
 <a name="windows-method-a"></a>
@@ -144,6 +147,27 @@ Doing so could cause your MS windows not to boot!!!
   </li>
   <li class="step">
     From Windows, run the Unetbootin program and follow the
+    instructions in the GUI to install GParted Live on your USB flash
+    drive.
+  </li>
+</ol>
+
+<a name="windows-method-d"></a>
+<h3>Windows Method D:  LinuxLive USB Creator</h3>
+<ol>
+  <li class="step">
+    If you already have LinuxLive USB Creator installed on your computer then
+    skip to the next step (2).<br>
+    Otherwise download and
+    install <a href="http://www.linuxliveusb.com/"
+    target=_blank>LinuxLive USB Creator</a> on your MS Windows computer.
+  </li>
+  <li class="step">
+    <a href="download.php">Download</a> the GParted
+    Live <b>iso</b> file.
+  </li>
+  <li class="step">
+    From Windows, install then run the LinuxLive USB Creator program and follow the
     instructions in the GUI to install GParted Live on your USB flash
     drive.
   </li>
