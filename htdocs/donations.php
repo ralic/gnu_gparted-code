@@ -54,6 +54,36 @@ We are grateful for all donations.<br>
 	<th><b>Amount</b></th>
 </tr>
 <tr>
+	<td>2011-05-08</td>
+	<td>anonymous</td>
+	<td>10.00 USD (- 0.59 USD to PP)</td>
+</tr>
+<tr>
+	<td>2011-05-07</td>
+	<td>anonymous</td>
+	<td>25.00 USD (- 1.28 USD to PP)</td>
+</tr>
+<tr>
+	<td>2011-05-06</td>
+	<td>anonymous</td>
+	<td>20.00 USD (- 1.08 USD to PP)</td>
+</tr>
+<tr>
+	<td>2011-05-05</td>
+	<td>anonymous</td>
+	<td>25.00 USD (- 1.03 USD to PP)</td>
+</tr>
+<tr>
+	<td>2011-05-02</td>
+	<td>anonymous</td>
+	<td>3.00 USD (- 0.42 USD to PP)</td>
+</tr>
+<tr>
+	<td>2011-04-30</td>
+	<td>anonymous</td>
+	<td>10.00 USD (- 0.50 USD to PP)</td>
+</tr>
+<tr>
 	<td>2011-04-28</td>
 	<td>anonymous</td>
 	<td>3.00 USD (- 0.42 USD to PP)</td>
