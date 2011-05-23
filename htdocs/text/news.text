@@ -1,3 +1,18 @@
+23 May 2011
+GParted 0.8.1
+<br>
+This release of GParted further improves motherboard BIOS RAID
+support and includes bug fixes, and language translation updates.
+<br><br>
+Key changes include:
+<ul>
+<li>Remove all usage of kpartx to avoid partition entry duplicates</li>
+<li>Add configure option --enable-libparted-dmraid</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.8.1/gparted-0.8.1-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 28 March 2011
 Forum Software Upgraded
 <br>
