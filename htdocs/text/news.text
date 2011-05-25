@@ -1,3 +1,23 @@
+25 May 2011
+GParted Live 0.8.1-3 Stable Release
+<br>
+The GParted team is proud to announce a new stable release of GParted
+Live (0.8.1-3).<br>
+<br>
+This release fixes problems with safe graphics settings mode and
+fail-safe mode if KMS was on.  The partimage package has also been
+fixed.  This release is based on the Debian Sid repository as of
+May 24, 2011 (linux kernel 2.6.38-5).<br>
+<br>
+The new GParted 0.8.1 further improves motherboard BIOS RAID support.
+To avoid partition entry duplicates, all usage of kpartx has been
+removed.  Also partitions with volume labels containing an apostrophe
+can now be unmounted.<br>
+<br>
+Thanks for this new GParted Live image go to Steven Shiau.
+<br><br>
+Curtis
+---
 23 May 2011
 GParted 0.8.1
 <br>
