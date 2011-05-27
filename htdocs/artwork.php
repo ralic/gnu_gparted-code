@@ -52,13 +52,11 @@ information of each designer.
   </td>
   <td>
     Created by:<br>
-    <a href="mailto:info&#064;desing.nl">blokhut</a><br>
-    <a href="http://www.desing.nl" target="new">http://www.desing.nl</a>
+    <a href="mailto:info&#064;desing.nl">blokhut</a>
   </td>
   <td>
     Created by:<br>
-    <a href="mailto:info&#064;desing.nl">blokhut</a><br>
-    <a href="http://www.desing.nl" target="new">http://www.desing.nl</a>
+    <a href="mailto:info&#064;desing.nl">blokhut</a>
   </td>
   <td>
     Created by:<br>
