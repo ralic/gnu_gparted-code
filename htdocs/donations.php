@@ -54,6 +54,11 @@ We are grateful for all donations.<br>
 	<th><b>Amount</b></th>
 </tr>
 <tr>
+	<td>2011-06-26</td>
+	<td>NormW</td>
+	<td>10.00 USD (- 0.59 USD to PP)</td>
+</tr>
+<tr>
 	<td>2011-06-20</td>
 	<td>anonymous</td>
 	<td>30.00 USD (- 1.47 USD to PP)</td>
