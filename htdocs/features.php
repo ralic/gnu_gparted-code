@@ -289,6 +289,7 @@ gnome_menu();
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
+		<sup><a href="#libparted">[4]</a></sup>
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
@@ -327,6 +328,7 @@ gnome_menu();
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
+		<sup><a href="#libparted">[4]</a></sup>
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
