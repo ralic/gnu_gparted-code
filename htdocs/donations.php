@@ -55,7 +55,7 @@ We are grateful for all donations.<br>
 </tr>
 <tr>
 	<td>2011-07-13</td>
-	<td>anonymous</td>
+	<td>Richie</td>
 	<td>1.00 USD (- 0.34 USD to PP)</td>
 </tr>
 <tr>
