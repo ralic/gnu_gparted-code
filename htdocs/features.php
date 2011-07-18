@@ -707,7 +707,7 @@ gnome_menu();
 <a name="ntfscopy">[1]</a> Copy performed using ntfsclone command.<br>
 <a name="grow">[2]</a> You need kernel support for this file system if you want to grow it (module needs to be loaded).<br>
 <a name="shrink">[3]</a> Although it's not possible to shrink an xfs file system directly, you can shrink it using GParted's copy functionality.<br>
-<a name="libparted">[4]</a> Native available through libparted.<br>
+<a name="libparted">[4]</a> Native available through libparted (versions < 3.0).  For example libparted-2.4.<br>
 <a name="xfscopy">[5]</a> Copy performed using xfsdump and xfsrestore.<br>
 <a name="mtools">[6]</a> Requires <a href="http://mtools.linux.lu/" target=new>mtools</a> to read and write labels.<br>
 <a name="blkid">[7]</a> The blkid command from e2fsprogs v1.41+ is required for ext4 detection.<br>
