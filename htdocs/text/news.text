@@ -1,3 +1,38 @@
+18 July 2011
+GParted 0.9.0
+<br>
+The most significant change in this release is the ability to
+compile and link with libparted 3.0.<br>
+<br>
+GParted retains full functionality when compiled and linked with
+libparted versions prior to 3.0, for example libparted-2.4.<br>
+<br>
+NOTE:  Because Parted 3.0 removed some file system specific functionality,
+the following abilities are lost or changed when GParted is compiled
+and linked with libparted 3.0:<br>
+<ul>
+<li>Unable to grow and shrink FAT16 and FAT32 file systems</li>
+<li>Unable to shrink HFS and HFS+ file systems</li>
+<li>Unable to determine used and unused sectors in HFS and HFS+ file systems
+</li>
+<li>Unable to erase file system signatures on partition create and format
+</li>
+<li>FAT16 and FAT32 file system moves performed internally by
+    GParted instead of by libparted</li>
+</ul>
+Other key changes include:
+<ul>
+<li>Fix size off by one sector with unrecognized disk label</li>
+<li>Fix GParted crashes with assertion (head_size <= 63)
+  <ul>
+  <li>Requires libparted-2.4 or higher</li>
+  </ul>
+</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.9.0/gparted-0.9.0-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 25 May 2011
 GParted Live 0.8.1-3 Stable Release
 <br>
