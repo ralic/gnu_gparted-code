@@ -1148,6 +1148,11 @@ We are grateful for all donations.<br>
 	<th><b>Amount</b></th>
 </tr>
 <tr>
+	<td>2011-07-20</td>
+	<td>Domain name gparted.org year renewal</td>
+	<td>10 USD</td>
+</tr>
+<tr>
 	<td>2010-07-06</td>
 	<td>Domain name gparted.org year renewal</td>
 	<td>9 USD</td>
