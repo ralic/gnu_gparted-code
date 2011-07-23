@@ -1,3 +1,20 @@
+23 July 2011
+GParted Live 0.9.0-6 Stable Release
+<br>
+The GParted team is proud to announce a new stable release of GParted
+Live (0.9.0-6).<br>
+<br>
+This release includes GParted 0.9.0 and libparted-0.2.3-7 with the
+patch file fix-head-size-assertion.patch from Ubuntu.  The patch fixes
+a problem whereby GParted would crash if an unusual disk geometry was
+encountered.  This release is based on the Debian Sid repository as of
+July 23, 2011 (linux kernel 2.6.39-2).<br>
+<br>
+A big thank you goes to Steven Shiau for his work building this new
+GParted Live image.
+<br><br>
+Curtis
+---
 18 July 2011
 GParted 0.9.0
 <br>
