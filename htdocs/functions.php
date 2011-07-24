@@ -129,7 +129,7 @@ function menu_entries() { ?>
 		<li><a href="git.php">Git</a></li>
 		<li><a href="artwork.php">Artwork</a></li>
 		<li><a href="http://sourceforge.net/projects/gparted">SF Project Page</a></li>
-		<li><a href="howtohelp.php">How can I help?</a></li>
+		<li><a href="howtohelp.php">How to help</a></li>
 		</ul>
 	</div>
 </div>
