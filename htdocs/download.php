@@ -52,6 +52,17 @@ If you use GParted and it helps you with your task, then please consider making
 a donation to help us make GParted better.<br>
 </p>
 
+<table border=0><tr><td>
+<div class="note">
+<p class="hangnote">
+<b>NOTE</b>: &nbsp; <i>Please use GParted Live 0.8.1-3 or 0.8.1-6 if you need to resize NTFS.</i><br>
+See
+<a href="https://bugzilla.gnome.org/show_bug.cgi?id=655215">Bug #655215 - NTFS partition resize fails with GParted Live 0.9.0-6</a>.<br>
+</p>
+</div>
+</td></tr></table>
+<br>
+
 <table border="1px" cellpadding="5px">
   <tr>
     <th colspan="4">
