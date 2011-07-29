@@ -1,3 +1,18 @@
+29 July 2011
+GParted Live 0.9.0-7 Stable Release
+<br>
+This release resolves a problem with resizing NTFS file systems that
+is described in
+<a href="https://bugzilla.gnome.org/show_bug.cgi?id=655215">Bug 655215
+ - NTFS partition resize fails</a>.
+Packages ntfs-3g and libntfs3g were downgraded to 2011.1.15AR.4-2 to
+resolve this problem for the near term.  This release is based on the
+Debian Sid repository as of July 28, 2011 (linux kernel 2.6.39-2).<br>
+<br>
+Thanks goes to Steven Shiau for building this new GParted Live image.
+<br><br>
+Curtis
+---
 23 July 2011
 GParted Live 0.9.0-6 Stable Release
 <br>
