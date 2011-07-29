@@ -59,10 +59,10 @@ GParted.  The steps to do this are as follows:
     just downloaded.
   </li>
   <li class="step">
-    Copy the necessary boot files (vmlinuz1 and initrd1.img) to
+    Copy the necessary boot files (vmlinuz and initrd.img) to
     /tftpboot/nbi_img/.  For example:<br>
     <pre>
-    cp /tmp/gparted/live/{vmlinuz1,initrd1.img} /tftpboot/nbi_img/
+    cp /tmp/gparted/live/{vmlinuz,initrd.img} /tftpboot/nbi_img/
     </pre>
   </li>
   <li class="step">
@@ -79,8 +79,8 @@ GParted.  The steps to do this are as follows:
     <pre>
     label GParted Live
             MENU LABEL GParted Live
-            kernel vmlinuz1
-            append initrd=initrd1.img boot=live config union=aufs noswap noprompt vga=788 fetch=http://$webserverIP/filesystem.squashfs
+            kernel vmlinuz
+            append initrd=initrd.img boot=live config union=aufs noswap noprompt vga=788 fetch=http://$webserverIP/filesystem.squashfs
     </pre>
     <b>NOTE1:</b> Replace <i>$webserverIP</i> with the IP address of
     your http server.<br>
@@ -88,7 +88,7 @@ GParted.  The steps to do this are as follows:
     syslinux/syslinux.cfg from the zip file.  You should replace the
     above listed parameters with these more recent ones because these
     newer boot parameters might be different.  For example the
-    vmlinuz1 path might be different.<br>
+    vmlinuz path might be different.<br>
     <font color="red"><b>NOTE3:</b> Do not use the parameter
     "ip=frommedia" in your PXE config file.</font><br>
   </li>
