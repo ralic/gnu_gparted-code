@@ -54,13 +54,18 @@ We are grateful for all donations.<br>
 	<th><b>Amount</b></th>
 </tr>
 <tr>
+	<td>2011-08-15</td>
+	<td>anonymous</td>
+	<td>10.00 USD (- 0.69 USD to PP)</td>
+</tr>
+<tr>
 	<td>2011-08-11</td>
 	<td>anonymous</td>
 	<td>10.00 USD (- 0.69 USD to PP)</td>
 </tr>
 <tr>
 	<td>2011-08-09</td>
-	<td>anonymous</td>
+	<td>Nhatorama</td>
 	<td>2.47 USD (- 0.37 USD to PP)</td>
 </tr>
 <tr>
