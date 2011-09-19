@@ -1,3 +1,18 @@
+19 September 2011
+GParted 0.9.1
+<br>
+This release of GParted contains bug fixes and language translation
+updates.<br>
+<br>
+Key changes include:
+<ul>
+<li>Fix NTFS partition resize fail problem</li>
+<li>Fix some compiler warnings</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.9.1/gparted-0.9.1-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 29 July 2011
 GParted Live 0.9.0-7 Stable Release
 <br>
