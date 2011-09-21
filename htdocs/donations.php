@@ -54,6 +54,11 @@ We are grateful for all donations.<br>
 	<th><b>Amount</b></th>
 </tr>
 <tr>
+	<td>2011-09-21</td>
+	<td>anonymous</td>
+	<td>40.00 USD (- 1.86 USD to PP)</td>
+</tr>
+<tr>
 	<td>2011-09-18</td>
 	<td>mojary</td>
 	<td>5.00 USD (- 0.50 USD to PP)</td>
