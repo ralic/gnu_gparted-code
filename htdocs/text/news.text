@@ -1,3 +1,17 @@
+21 September 2011
+GParted Live 0.9.1-1 Stable Release
+<br>
+Thanks to Steven Shiau, the GParted team is proud to announce a new
+stable release of GParted Live (0.9.1-1).<br>
+<br>
+This release includes the new GParted 0.9.1 application which fixes an
+NTFS resize fail problem and some compiler warnings.  The Linux kernel
+was updated to 3.0.0-3, and gdisk was updated to 0.8.0.  The
+underlying GNU/Linux operating system is based on the Debian Sid
+repository (as of 2011/Sep/20).
+<br><br>
+Curtis
+---
 19 September 2011
 GParted 0.9.1
 <br>
