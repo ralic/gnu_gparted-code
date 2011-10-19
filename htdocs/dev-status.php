@@ -35,13 +35,8 @@ frame, especially if needed to fix critical bugs.
 
 <h2>Source Code Repository</h2>
 <p>
-The source code for GParted is managed under the Gnome git repository.
-You can <a href="http://git.gnome.org/cgit/gparted/">browse</a> the
-git repository visually, or read
-instructions <a href="http://live.gnome.org/Git/Developers">here</a>.<br>
-<br>
-For those trying to compile GParted from the git repository see:<br>
-<a href="http://gparted-forum.surf4.info/viewtopic.php?id=14136">How to Build GParted from git Source Code Repository</a>
+The source code for GParted is managed under the GNOME git repository.<br>
+See the <a href="git.php">GParted git</a> page for more information.
 </p>
 
 <h2>Communication</h2>
