@@ -27,8 +27,6 @@ gnome_menu();
 <p>
 If you are the bleeding-edge kinda person, you have come to the right
 place ;-)<br>
-I cannot quarantee git versions will work or even compile, but feel
-free to give it a try.<br>
 <br>
 <a href="http://git.gnome.org/cgit/gparted/">Browse</a> git visually
 or read <a href="http://live.gnome.org/Git/Developers">GNOME git
