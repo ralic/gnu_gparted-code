@@ -23,10 +23,44 @@ place ;-)<br>
 I cannot quarantee git versions will work or even compile, but feel
 free to give it a try.<br>
 <br>
-<a href="http://git.gnome.org/cgit/gparted/">Browse</a> git visually or read instructions 
-<a href="http://live.gnome.org/Git/Developers">here</a>.
+<a href="http://git.gnome.org/cgit/gparted/">Browse</a> git visually
+or read <a href="http://live.gnome.org/Git/Developers">GNOME git
+instructions</a>.
 </p>
 <br>
+
+<h2>How to build GParted using git</h2>
+<ol>
+  <li>
+    Be sure to install the dependencies for GParted.<br>
+    <br>
+    These are described in the "Building from source" portion of the
+    <a href="http://git.gnome.org/browse/gparted/tree/README">README</a>
+    file.
+    <br><br>
+  </li>
+  <li>
+    Checkout a copy of the source code from the git repository:
+    <pre>
+    git clone git://git.gnome.org/gparted
+    </pre>
+  </li>
+  <li>
+    Compile the GParted source code into an executable:
+    <pre>
+    cd gparted
+    ./autogen.sh
+    make
+    </pre>
+  </li>
+  <li>
+    Install the GParted executable (as root):
+    <pre>
+    make install
+    </pre>
+  </li>
+</ol>
+
 </div>
 
 <? gnome_foot() ?>
