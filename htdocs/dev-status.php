@@ -49,15 +49,6 @@ For those trying to compile GParted from the git repository see:<br>
 The <a href="forum.php">forum</a> is used extensively for
 communication.<br>
 <br>
-Support is provided in the <a href="http://gparted-forum.surf4.info/viewforum.php?id=2">GParted</a> and <a href="http://gparted-forum.surf4.info/viewforum.php?id=3">Live Media</a> forums.<br>
-<br>
-Development discussions take place in forums such
-as, <a href="http://gparted-forum.surf4.info/viewforum.php?id=4">General
-Development</a>,
-<a href="http://gparted-forum.surf4.info/viewforum.php?id=8">Testers</a>,
-and <a href="http://gparted-forum.surf4.info/viewforum.php?id=5">Feature
-Requests</a>.<br>
-<br>
 <a href="http://quad/gparted/htdocs/bugs.php">Bugs</a> are reported and tracked using the Gnome bugzilla bug tracking system.
 </p>
 
