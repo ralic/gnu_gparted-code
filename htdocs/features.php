@@ -28,26 +28,31 @@ gnome_menu();
 <b>GParted enables you to easily manage your disk partitions:</b>
 </p>
 <ul>
-  <li>Create partition tables, (e.g.,  msdos or gpt)</li>
-  <li>Create, move, copy, resize, check, label, and delete partitions</li>
-  <li>Enable and disable partition flags, (e.g., boot or hidden)</li>
-  <li>Align partitions to mebibyte (MiB) or traditional cylinder boundaries</li>
-  <li>Attempt data rescue from lost partitions</li>
+  <li class="step">Create partition tables, (e.g.,  msdos or gpt)</li>
+  <li class="step">Create, move, copy, resize, check, label, and delete
+                   partitions
+  </li>
+  <li class="step">Enable and disable partition flags, (e.g., boot or hidden)
+  </li>
+  <li class="step">Align partitions to mebibyte (MiB) or traditional cylinder
+                   boundaries
+  </li>
+  <li class="step">Attempt data rescue from lost partitions</li>
 </ul>
 
 <p>
 <b>GParted works with the following storage devices:</b>
 </p>
 <ul>
-  <li>Hard disk drives (e.g., SATA, IDE, and SCSI)</li>
-  <li>Flash memory devices, such as USB memory sticks and Solid State Drives
-      (SSD's)
+  <li class="step">Hard disk drives (e.g., SATA, IDE, and SCSI)</li>
+  <li class="step">Flash memory devices, such as USB memory sticks and Solid
+                   State Drives (SSD's)
   </li>
-  <li>RAID Devices (hardware RAID, motherboard BIOS RAID,
-      and Linux software RAID)
+  <li class="step">RAID Devices (hardware RAID, motherboard BIOS RAID,
+                   and Linux software RAID)
   </li>
-  <li>All sector sizes (e.g., devices with 512, 1024, 2048, 4096 byte
-      sectors and more)
+  <li class="step">All sector sizes (e.g., devices with 512, 1024, 2048,
+                   4096 byte sectors and more)
   </li>
 </ul>
 
