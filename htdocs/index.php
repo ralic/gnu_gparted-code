@@ -27,14 +27,13 @@ gnome_menu();
 GParted is a free partition editor for graphically managing your disk
 partitions.<br>
 <br>
-GParted is useful for tasks such as: creating space for new operating
-systems, restructuring disk space to separate user and operating
-system data, and copying partitions to enable upgrading to a larger
-hard disk drive.<br>
-<br>
-Your hard disk drive or USB flash drive can be subdivided into one or
-more partitions.  GParted enables you to reorganize your disk
-partitions while preserving the contents of these partitions.
+With GParted you can resize, copy, and move partitions without data
+loss, enabling you to:<br>
+<ul>
+  <li class="step">Grow or shrink your C: drive</li>
+  <li class="step">Create space for new operating systems</li>
+  <li class="step">Attempt data rescue from lost partitions</li>
+</ul>
 </p>
 <a name="features"></a>
 <h2>Features</h2>
@@ -71,19 +70,6 @@ partitions while preserving the contents of these partitions.
   For specific actions supported see
   detailed <a href="features.php">features</a>.
   </li>
-
-  <li class="step">Enable and disable partition flags (e.g., boot, hidden)</li>
-
-  <li class="step">Align partitions to mebibyte (MiB) or cylinder
-  boundaries</li>
-
-  <li class="step">Attempt data rescue from lost partitions</li>
-
-  <li class="step">Supports hardware RAID, motherboard BIOS RAID, and
-  Linux software RAID.</li>
-
-  <li class="step">Supports all sector sizes (e.g., 512, 1024, 2048,
-  4096 byte sectors)</li>
 </ul>
 <h2>Requirements</h2>
 <p>
