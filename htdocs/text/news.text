@@ -1,3 +1,19 @@
+1 November 2011
+GParted 0.10.0
+<br>
+This release of GParted adds a few new features, and includes bug
+fixes and language translation updates.<br>
+<br>
+Key changes include:
+<ul>
+<li>Merge overlapping operations</li>
+<li>Add ability to resize btrfs file systems</li>
+<li>Add detection of exfat file systems</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.10.0/gparted-0.10.0-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 21 September 2011
 GParted Live 0.9.1-1 Stable Release
 <br>

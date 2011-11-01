@@ -104,10 +104,10 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not supported">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not supported">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
@@ -162,6 +162,42 @@ gnome_menu();
 </tr>
 <tr>
 	<th>
+		<b>exfat</b>
+	</th>
+	<td>
+		<img src="images/supported.png" alt="supported">
+		<sup><a href="#blkid2">[9]</a></sup>
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported.png">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<br>
+	</td>
+</tr>
+<tr style="background-color: #dddddd;">
+	<th>
 		<b>ext2</b>
 	</th>
 	<td>
@@ -195,7 +231,7 @@ gnome_menu();
 		<a href="http://e2fsprogs.sourceforge.net" target=new>e2fsprogs</a>
 	</td>
 </tr>
-<tr style="background-color: #dddddd;">
+<tr>
 	<th>
 		<b>ext3</b>
 	</th>
@@ -230,7 +266,7 @@ gnome_menu();
 		<a href="http://e2fsprogs.sourceforge.net" target=new>e2fsprogs</a>
 	</td>
 </tr>
-<tr>
+<tr style="background-color: #dddddd;">
 	<th>
 		<b>ext4</b>
 	</th>
@@ -266,7 +302,7 @@ gnome_menu();
 		<a href="http://e2fsprogs.sourceforge.net" target=new>e2fsprogs</a> v1.41+
 	</td>
 </tr>
-<tr style="background-color: #dddddd;">
+<tr>
 	<th>
 		<b>fat16</b>
 	</th>
@@ -305,7 +341,7 @@ gnome_menu();
 		<a href="ftp://ftp.uni-erlangen.de/pub/Linux/LOCAL/dosfstools" target=new>dosfstools</a>
 	</td>
 </tr>
-<tr>
+<tr style="background-color: #dddddd;">
 	<th>
 		<b>fat32</b>
 	</th>
@@ -344,7 +380,7 @@ gnome_menu();
 		<a href="ftp://ftp.uni-erlangen.de/pub/Linux/LOCAL/dosfstools" target=new>dosfstools</a>
 	</td>
 </tr>
-<tr style="background-color: #dddddd;">
+<tr>
 	<th>
 		<b>hfs</b>
 	</th>
@@ -380,7 +416,7 @@ gnome_menu();
 		<a href="http://www.mars.org/home/rob/proj/hfs/" target=new>hfsutils</a>
 	</td>
 </tr>
-<tr>
+<tr style="background-color: #dddddd;">
 	<th>
 		<b>hfs+</b>
 	</th>
@@ -416,7 +452,7 @@ gnome_menu();
 		<a href="http://packages.debian.org/search?keywords=hfsprogs" target=new>hfsprogs</a>
 	</td>
 </tr>
-<tr style="background-color: #dddddd;">
+<tr>
 	<th>
 		<b>jfs</b>
 	</th>
@@ -452,7 +488,7 @@ gnome_menu();
 		<a href="http://www-124.ibm.com/developerworks/oss/jfs/index.html" target=new>jfsutils</a>
 	</td>
 </tr>
-<tr>
+<tr style="background-color: #dddddd;">
 	<th>
 		<b>linux-swap</b>
 	</th>
@@ -488,7 +524,7 @@ gnome_menu();
 		<a href="http://www.kernel.org/pub/linux/utils/util-linux/" target=new>util-linux</a>
 	</td>
 </tr>
-<tr style="background-color: #dddddd;">
+<tr>
 	<th>
 		<b>lvm2 pv</b>
 	</th>
@@ -523,7 +559,7 @@ gnome_menu();
 		<br>
 	</td>
 </tr>
-<tr>
+<tr style="background-color: #dddddd;">
 	<th>
 		<b>ntfs</b>
 	</th>
@@ -559,7 +595,7 @@ gnome_menu();
 		<a href="http://sourceforge.net/projects/linux-ntfs" target=new>ntfsprogs</a>
 	</td>
 </tr>
-<tr style="background-color: #dddddd;">
+<tr>
         <th>
                 <b>reiser4</b>
         </th>
@@ -594,7 +630,7 @@ gnome_menu();
                 <a href="http://www.namesys.com/v4/v4.html" target=new>reiser4progs</a>
         </td>
 </tr>
-<tr>
+<tr style="background-color: #dddddd;">
 	<th>
 		<b>reiserfs</b>
 	</th>
@@ -629,7 +665,7 @@ gnome_menu();
 		<a href="http://www.namesys.com" target=new>reiserfsprogs</a>
 	</td>
 </tr>
-<tr style="background-color: #dddddd;">
+<tr>
 	<th>
 		<b>ufs</b>
 	</th>
@@ -664,7 +700,7 @@ gnome_menu();
 		<br>
 	</td>
 </tr>
-<tr>
+<tr style="background-color: #dddddd;">
 	<th>
 		<b>xfs</b>
 	</th>
@@ -712,6 +748,7 @@ gnome_menu();
 <a name="mtools">[6]</a> Requires <a href="http://mtools.linux.lu/" target=new>mtools</a> to read and write labels.<br>
 <a name="blkid">[7]</a> The blkid command from e2fsprogs v1.41+ is required for ext4 detection.<br>
 <a name="swaplabel">[8]</a> The swaplabel command from util-linux v2.18+ is required to label linux-swap.<br>
+<a name="blkid2">[9]</a> The blkid command from util-linux v2.18+ is required for exfat detection.<br>
 <br>
 </div>
 
