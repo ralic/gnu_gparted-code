@@ -22,6 +22,16 @@ Work on the GParted application is managed by Curtis Gedak.<br>
 Work on the GParted Live image is managed by Steven Shiau.
 </p>
 
+<a name="mission-statement"></a>
+<h2>Mission Statement</h2>
+<p>
+The goal of GParted is to provide an easy way to graphically manage
+disk device partitions, without unintended loss of data, through the
+use of <a href="http://www.gnu.org/software/parted/">GNU libparted</a>
+and other <a href="http://en.wikipedia.org/wiki/Free_software">free
+software</a> file system tools.
+</p>
+
 <h2>Releases</h2>
 <p>
 Plans for new releases of GParted can be found in
@@ -65,7 +75,7 @@ strive to conform to the
 <a href="http://library.gnome.org/devel/hig-book/stable/"
 target="new">GNOME Human Interface Guidelines</a>.  We try to keep the
 source code as maintainable as is reasonably possible.  We seek to
-stay true to the GParted <a href="index.php#mission-statement">mission
+stay true to the GParted <a href="#mission-statement">mission
 statement</a>.
 </p>
 
