@@ -29,12 +29,12 @@ partitions.<br>
 <br>
 With GParted you can resize, copy, and move partitions without data
 loss, enabling you to:<br>
+</p>
 <ul>
   <li class="step">Grow or shrink your C: drive</li>
   <li class="step">Create space for new operating systems</li>
   <li class="step">Attempt data rescue from lost partitions</li>
 </ul>
-</p>
 <a name="features"></a>
 <h2>Features</h2>
 <ul>
