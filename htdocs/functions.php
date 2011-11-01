@@ -92,7 +92,8 @@ function menu_entries() { ?>
 	<div class="sectiontitle">GParted</div>
 	<div class="sectioncontent">
 		<ul class="nobullet">
-		<li><a href="index.php">About</a></li>
+		<li><a href="download.php">Download Now</a></li>
+		<li><a href="livecd.php">Live CD / USB</a></li>
 		<li><a href="news.php">News</a> <?
 //Dit stukje vist de datum uit de nieuwstekst-spool.
 	$filename = "text/news.text";
@@ -103,8 +104,7 @@ function menu_entries() { ?>
 	echo "(", $line, ")</li>\n"; ?>
 		<li><a href="features.php">Features</a></li>
 		<li><a href="screenshots.php">Screenshots</a></li>
-		<li><a href="livecd.php">Live CD/USB/PXE</a></li>
-		<li><a href="download.php">Downloads</a></li>
+		<li><a href="index.php">About</a></li>
 		<li><a href="donations.php">Donate</a></li>
 		</ul>
 	</div>
