@@ -38,8 +38,6 @@ loss, enabling you to:<br>
 <a name="features"></a>
 <h2>Features</h2>
 <ul>
-  <li class="step">Create partition tables (e.g., msdos, gpt)</li>
-
   <li class="step">Perform actions with partitions such as:
     <div class="right">
       <?
