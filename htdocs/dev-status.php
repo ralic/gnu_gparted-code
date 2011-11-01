@@ -54,7 +54,7 @@ See the <a href="git.php">GParted git</a> page for more information.
 The <a href="forum.php">forum</a> is used extensively for
 communication.<br>
 <br>
-<a href="http://quad/gparted/htdocs/bugs.php">Bugs</a> are reported and tracked using the Gnome bugzilla bug tracking system.
+<a href="bugs.php">Bugs</a> are reported and tracked using the Gnome bugzilla bug tracking system.
 </p>
 
 <h2>Application Development Guidelines</h2>
