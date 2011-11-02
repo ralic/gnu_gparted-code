@@ -92,7 +92,7 @@ function menu_entries() { ?>
 	<div class="sectiontitle">GParted</div>
 	<div class="sectioncontent">
 		<ul class="nobullet">
-		<li><a href="download.php">Download Now</a></li>
+		<li><a href="download.php"><b>Download</b></a></li>
 		<li><a href="livecd.php">Live CD / USB</a></li>
 		<li><a href="news.php">News</a> <?
 //Dit stukje vist de datum uit de nieuwstekst-spool.
