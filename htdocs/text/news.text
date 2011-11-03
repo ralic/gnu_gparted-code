@@ -1,3 +1,17 @@
+2 November 2011
+GParted Live 0.10.0-3 Stable Release
+<br>
+Thanks to Steven Shiau, the GParted team is proud to announce a new
+stable release of GParted Live (0.10.0-3).<br>
+<br>
+This release includes the new GParted 0.10.0 application which adds
+btrfs resizing, exfat detection, and the intelligence to merge
+overlapping operations.  The deprecated icon "info" is removed, and
+the underlying GNU/Linux operating system is based on the Debian Sid
+repository (as of 2011/Nov/2).
+<br><br>
+Curtis
+---
 1 November 2011
 GParted 0.10.0
 <br>
