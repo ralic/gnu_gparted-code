@@ -77,6 +77,16 @@ else
   $pattern = "&(<img[^>]*src=')([^'\s]*)([^>]*>)&si";
   $replacement = '${1}' . $pathname . '${2}${3}';
   $filecontents = preg_replace( $pattern, $replacement, $filecontents );
+
+  // Fix up a tag class="ulink" href="figures/.*" paths
+  $pattern = '&(<a[^>]*class="ulink"[^>]*href=")(figures/[^"\s]*)([^>]*>)&si';
+  $replacement = '${1}' . $pathname . '${2}${3}';
+  $filecontents = preg_replace( $pattern, $replacement, $filecontents );
+
+  // Fix up a tag class='ulink' href='figures/.*' paths
+  $pattern = "&(<a[^>]*class='ulink'[^>]*href=')(figures/[^'\s]*)([^>]*>)&si";
+  $replacement = '${1}' . $pathname . '${2}${3}';
+  $filecontents = preg_replace( $pattern, $replacement, $filecontents );
 }
 ?>
 
