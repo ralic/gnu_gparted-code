@@ -230,8 +230,8 @@ If you encounter an error message similar to the above, then please refer to the
 ---
 20
 Are you experiencing trouble booting the GParted Live CD / USB image?
-Please refer to the following link:<br>
-<a href="http://gparted-forum.surf4.info/viewtopic.php?id=14377">Tips on Booting GParted Live</a><br>
+Please refer to the GParted live manual
+<a href="http://gparted.org/display-doc.php?name=gparted-live-manual&lang=C#gparted-live-tips-on-booting-gparted-live">Tips on Booting GParted Live</a>.<br>
 ---
 21
 How can I fix missing or lost partitions on Intel-based Mac OS X?
