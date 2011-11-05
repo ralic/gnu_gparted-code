@@ -464,7 +464,7 @@
                  http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
             -->
             <figure id="gparted-live-enable-networking">
-              <title>BIOS Setup Prompt</title>
+              <title>Terminal Window and Command to Enable Networking</title>
               <ulink type="http"
                      url="figures/gparted-live-enable-networking.png">
                 <inlinemediaobject>
