@@ -71,7 +71,6 @@ gnome_menu();
       <td><a href="display-doc.php?name=gparted-live-manual&lang=C">GParted Live manual</a></td>
     </tr>
   </table>
-</h3>
 
 <h3>GParted Live Howto Guides</h3>
   <p>        
@@ -138,15 +137,6 @@ gnome_menu();
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td><a href="larry/move/move-es.htm">HTML</a></td>
-        <td>&nbsp;</td>
-      </tr>
-      <tr> 
-        <td>The GParted LiveCD 0.3-1</td>
-        <td><div align="center"><a href="http://gparted.sourceforge.net/larry/livecd/main/livecd.htm">HTML</a></div></td>
-        <td><div align="center"><a href="larry/livecd/main/pdf/LiveCD.pdf" target="_blank">PDF</a></div></td>
-        <td><div align="center"><a href="http://gparted.sourceforge.net/larry/livecd/main/livecd-fr.htm">HTML</a></div></td>
-        <td> <div align="center"><a href="larry/livecd/main/pdf/LiveCD-FR.pdf" target="_blank">PDF</a></div></td>
-        <td><a href="http://gparted.sourceforge.net/larry/livecd/main/livecd-es.htm">HTML</a></td>
         <td>&nbsp;</td>
       </tr>
     </table>
