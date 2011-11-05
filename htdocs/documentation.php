@@ -62,6 +62,17 @@ gnome_menu();
     </tr>
   </table>
 
+<h3>GParted Live Manual</h3>
+  <table border="1" cellpadding="5px">
+    <tr>
+      <th>English</th>
+    </tr>
+    <tr>
+      <td><a href="display-doc.php?name=gparted-live-manual&lang=C">GParted Live manual</a></td>
+    </tr>
+  </table>
+</h3>
+
 <h3>GParted Live Howto Guides</h3>
   <p>        
     <a href="./liveusb.php">How to put GParted live on USB</a>

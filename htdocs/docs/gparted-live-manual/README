@@ -1,0 +1,7 @@
+Please note that the source for the GParted Live manual is stored in
+the C/gparted-live-manual.xml file.  This file is under git version
+control.
+
+To generate a single html file of the document, use the command:
+
+$ xmlto html-nochunks C/gparted-live-manual.xml

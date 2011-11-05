@@ -1,0 +1,286 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>GParted Live Manual</title><meta name="generator" content="DocBook XSL Stylesheets V1.75.2"><meta name="description" content="This manual describes how to use the GParted Live image from boot up to shut down."></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div lang="en" class="article" title="GParted Live Manual"><div class="titlepage"><div><div><h2 class="title"><a name="gparted-live"></a>GParted Live Manual</h2></div><div><div class="authorgroup"><div class="author"><h3 class="author"><span class="firstname">Curtis</span> <span class="surname">Gedak</span></h3><div class="affiliation"><span class="orgname">GParted Project<br></span><div class="address"><p><br>
+            <code class="email">&lt;<a class="email" href="mailto:gedakc@users.sf.net">gedakc@users.sf.net</a>&gt;</code><br>
+          </p></div></div></div></div></div><div><p class="releaseinfo">
+    This manual describes version 0.10.0-3 of GParted Live.
+    </p></div><div><p class="copyright">Copyright © 2011 Curtis Gedak</p></div><div><div class="legalnotice" title="Legal Notice"><a name="id429048"></a><p>
+      Permission is granted to copy, distribute and/or modify this document
+      under the terms of the GNU Free Documentation License, Version 1.2
+      or any later version published by the Free Software Foundation;
+      with no Invariant Sections, no Front-Cover Texts, and no Back-Cover
+      Texts.  You can find a copy of the GFDL at this
+      <a class="ulink" href="ghelp:fdl" target="_top">link</a> or at
+      <a class="ulink" href="http://www.fsf.org/licensing/licenses/fdl.html" target="_top">http://www.fsf.org/licensing/licenses/fdl.html</a>
+      or in the file COPYING-DOCS distributed with this manual.
+      </p></div></div><div><div class="legalnotice" title="Feedback"><a name="id427325"></a><p class="legalnotice-title"><b>Feedback</b></p><p>
+      To report a bug or make a suggestion regarding 
+      <span class="application">GParted Live</span> or this manual,
+      follow the directions at
+      <a class="ulink" href="http://gparted.org/bugs.php" target="_top">http://gparted.org/bugs.php</a>.
+      </p></div></div><div><div class="abstract" title="Abstract"><p class="title"><b>Abstract</b></p><p>
+      This manual describes how to use the GParted Live image from boot
+      up to shut down.
+      </p></div></div></div><hr></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="sect1"><a href="#gparted-live-introduction">Introduction</a></span></dt><dt><span class="sect1"><a href="#gparted-live-booting-gparted-live">Booting GParted Live</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-live-booting-from-removable-media">Booting from CD-ROM or USB Flash Drive</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-live-using-gparted-live">Using GParted Live</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-live-using-gparted-application">Using GParted Application</a></span></dt><dt><span class="sect2"><a href="#gparted-live-enabling-network-access">Enabling Network Access</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-live-finishing-gparted-live-session">Finishing GParted Live Session</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-live-shutting-down-gparted-live">Shutting Down GParted Live</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-live-preparing-bios">Appendix A: Preparing BIOS</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-live-entering-bios-setup">Entering BIOS Setup</a></span></dt><dt><span class="sect2"><a href="#gparted-live-setting-bios-boot-order">Setting Boot Order in BIOS</a></span></dt><dt><span class="sect2"><a href="#gparted-live-saving-bios-settings">Saving BIOS settings</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-live-tips-on-booting-gparted-live">Appendix B: Tips on Booting GParted Live</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-live-list-of-booting-tips">List of Booting Tips</a></span></dt></dl></dd></dl></div><div class="sect1" title="Introduction"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-live-introduction"></a>Introduction</h2></div></div></div><p>
+    <span class="application">GParted Live</span> is a small bootable
+    GNU/Linux distribution for x86 based computers.  GParted Live
+    enables you to use all the <a class="ulink" href="http://gparted.org/features.php" target="_top">features</a> of the
+    latest versions of the <span class="application">GParted</span>
+    application.
+    </p><p>
+    This manual describes how to use the GParted Live image, from boot up
+    to shut down.
+    </p></div><div class="sect1" title="Booting GParted Live"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-live-booting-gparted-live"></a>Booting GParted Live</h2></div></div></div><p>
+    This section describes how to boot up GParted Live on your computer.
+    </p><p>
+    If your computer does not boot from CD-ROM discs or USB flash
+    drives, then see <a class="xref" href="#gparted-live-preparing-bios" title="Appendix A: Preparing BIOS">the section called &#8220;Appendix A: Preparing BIOS&#8221;</a>.
+    </p><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+      To learn how to write the GParted Live image to removable media,
+      such as CD-ROM or a USB flash drive, see
+      <a class="ulink" href="http://gparted.org/livecd.php" target="_top">http://gparted.org/livecd.php</a>.
+      </p></div><div class="sect2" title="Booting from CD-ROM or USB Flash Drive"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-live-booting-from-removable-media"></a>Booting from CD-ROM or USB Flash Drive</h3></div></div></div><p>
+      To start GParted Live:
+        </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
+            Power on your computer with the media containing GParted Live.
+            </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+                If you are using a USB flash drive, then insert the
+                flash drive into an open USB port and turn on the
+                power for your computer.
+                </p></li><li class="listitem"><p>
+                If you are using a CD-ROM disc, then turn on the power
+                for your computer and quickly insert the CD-ROM disc in
+                the CD-ROM tray of your computer.
+                </p></li></ul></div></li><li class="listitem"><p>
+            To use the default settings, press the
+            <span class="keycap"><strong>Enter</strong></span> key when the GParted Live boot screen
+            is displayed.
+            </p><div class="figure"><a name="gparted-live-boot-screen"></a><p class="title"><b>Figure 1. GParted Live Boot Screen</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-boot-screen.jpeg" target="_top">
+                <span class="inlinemediaobject"><img src="figures/gparted-live-boot-screen.jpeg" width="510" alt="Shows GParted Live boot screen."></span>
+              </a></div></div><br class="figure-break"><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+              To use a different mode of GParted Live, use the
+              <span class="keycap"><strong>Up arrow</strong></span> key or <span class="keycap"><strong>Down
+              arrow</strong></span> key to select the mode.  Press the
+              <span class="keycap"><strong>Enter</strong></span> key to activate the mode.
+              </p><p>
+              For example, to be able to use your CD-ROM R/W tray
+              after booting GParted Live select the
+              <span class="guimenu">Other modes of
+              GParted Live</span> entry, and then select
+              the <span class="guimenu">To RAM</span>
+              entry.
+              </p><p>
+              To return to the default GParted Live boot screen, press
+              the <span class="keycap"><strong>Escape</strong></span> key.
+              </p><div class="figure"><a name="gparted-live-boot-screen-other-modes"></a><p class="title"><b>Figure 2. Other modes of GParted Live</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-boot-screen-other-modes.jpeg" target="_top">
+                  <span class="inlinemediaobject"><img src="figures/gparted-live-boot-screen-other-modes.jpeg" width="510" alt="Shows Other modes of GParted Live screen."></span>
+                </a></div></div><br class="figure-break"></div></li><li class="listitem"><p>
+            To use the standard US keymap, press the
+            <span class="keycap"><strong>Enter</strong></span> key.
+            </p><p>
+            If you require a different keymap then use the <span class="keycap"><strong>Up
+            arrow</strong></span>, <span class="keycap"><strong>Down arrow</strong></span>, and
+            <span class="keycap"><strong>Enter</strong></span> keys to choose an appropriate
+            keymap for your keyboard.
+            </p><div class="figure"><a name="gparted-live-bootup-keymap-question"></a><p class="title"><b>Figure 3. Keymap Question</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-bootup-keymap-question.png" target="_top">
+                <span class="inlinemediaobject"><img src="figures/gparted-live-bootup-keymap-question.png" width="510" alt="Shows screen with keymap question prompt."></span>
+              </a></div></div><br class="figure-break"></li><li class="listitem"><p>
+            To use the US English language, press the
+            <span class="keycap"><strong>Enter</strong></span> key.
+            </p><p>
+            If you desire a different language then type the number
+            shown beside the langauge and press the
+            <span class="keycap"><strong>Enter</strong></span> key.
+            </p><div class="figure"><a name="gparted-live-bootup-language-question"></a><p class="title"><b>Figure 4. Language Question</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-bootup-language-question.png" target="_top">
+                <span class="inlinemediaobject"><img src="figures/gparted-live-bootup-language-question.png" width="510" alt="Shows screen with language question prompt."></span>
+              </a></div></div><br class="figure-break"></li><li class="listitem"><p>
+            To start up the default graphical environment and
+            begin using the <span class="application">GParted</span>
+            application, press the <span class="keycap"><strong>Enter</strong></span> key.
+            </p><div class="figure"><a name="gparted-live-bootup-video-mode-question"></a><p class="title"><b>Figure 5. Video Mode Question</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-bootup-video-mode-question.png" target="_top">
+                <span class="inlinemediaobject"><img src="figures/gparted-live-bootup-video-mode-question.png" width="510" alt="Shows screen with video mode prompt."></span>
+              </a></div></div><br class="figure-break"></li><li class="listitem"><p>
+            You can now begin using the
+            <span class="application">GParted</span> application.
+            </p><div class="figure"><a name="gparted-live-after-bootup"></a><p class="title"><b>Figure 6. Graphical Desktop with GParted</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-after-bootup.png" target="_top">
+                <span class="inlinemediaobject"><img src="figures/gparted-live-after-bootup.png" width="510" alt="Shows screen with GParted on a graphical desktop."></span>
+              </a></div></div><br class="figure-break"><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+              If your computer is unable to display the default
+              graphical environment, then see <a class="xref" href="#gparted-live-tips-on-booting-gparted-live" title="Appendix B: Tips on Booting GParted Live">the section called &#8220;Appendix B: Tips on Booting GParted Live&#8221;</a>.
+              </p></div></li></ol></div><p>
+      </p></div></div><div class="sect1" title="Using GParted Live"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-live-using-gparted-live"></a>Using GParted Live</h2></div></div></div><p>
+    This section describes how to use some of the features of
+    GParted Live.
+    </p><div class="sect2" title="Using GParted Application"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-live-using-gparted-application"></a>Using GParted Application</h3></div></div></div><p>
+      For instruction on how to use the
+      <span class="application">GParted</span> application, please refer
+      to the GParted Application Help Manual.
+      </p><p>
+      The GParted Manual is available on the documentation page of
+      the GParted web site.  See <a class="ulink" href="http://gparted.org/documentation.php" target="_top">http://gparted.org/documentation.php</a>.
+      </p></div><div class="sect2" title="Enabling Network Access"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-live-enabling-network-access"></a>Enabling Network Access</h3></div></div></div><p>
+      To enable wired ethernet TCP/IP networking on your computer:
+        </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
+            Double-click the <span class="guibutton">Terminal</span> icon in
+            the upper left hand side of the desktop.  This will open a
+            terminal window.
+            </p></li><li class="listitem"><p>
+            At the terminal prompt enter the following command:
+            </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>sudo dhclient eth0</strong></span></pre><p>
+            </p><div class="figure"><a name="gparted-live-enable-networking"></a><p class="title"><b>Figure 7. BIOS Setup Prompt</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-enable-networking.png" target="_top">
+                <span class="inlinemediaobject"><img src="figures/gparted-live-enable-networking.png" width="510" alt="Shows terminal window with command to enable networking."></span>
+              </a></div></div><br class="figure-break"><p>
+            Wired ethernet TCP/IP networking should now be enabled.
+            </p></li><li class="listitem"><p>
+            Close the terminal window by entering the following
+            command at the terminal prompt:
+            </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>exit</strong></span></pre><p>
+            </p></li></ol></div><p>
+      </p></div></div><div class="sect1" title="Finishing GParted Live Session"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-live-finishing-gparted-live-session"></a>Finishing GParted Live Session</h2></div></div></div><p>
+    This section describes how to finish your GParted Live session.
+    </p><div class="sect2" title="Shutting Down GParted Live"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-live-shutting-down-gparted-live"></a>Shutting Down GParted Live</h3></div></div></div><p>
+      To shut down GParted Live:
+        </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
+            Double-click the <span class="guibutton">Exit</span> icon in
+            the upper left hand side of the desktop.
+            </p></li><li class="listitem"><p>
+            Select the
+            <span class="guimenu">Shutdown</span> entry
+            and click <span class="guibutton">OK</span>.
+            </p><div class="figure"><a name="gparted-live-shutdown-prompt"></a><p class="title"><b>Figure 8. Shutdown Prompt</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-shutdown-prompt.png" target="_top">
+                <span class="inlinemediaobject"><img src="figures/gparted-live-shutdown-prompt.png" width="510" alt="Shows window with shutdown prompt."></span>
+              </a></div></div><br class="figure-break"></li><li class="listitem"><p>
+            When prompted, remove the CD-ROM disc or USB flash drive
+            and press the <span class="keycap"><strong>Enter</strong></span> key.
+            </p><div class="figure"><a name="gparted-live-shutdown-remove-disc-prompt"></a><p class="title"><b>Figure 9. Remove Disc Prompt</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-shutdown-remove-disc-prompt.png" target="_top">
+                <span class="inlinemediaobject"><img src="figures/gparted-live-shutdown-remove-disc-prompt.png" width="510" alt="Shows screen with remove disc prompt."></span>
+              </a></div></div><br class="figure-break"></li><li class="listitem"><p>
+            Your computer will shut down.
+            </p></li></ol></div><p>
+      </p></div></div><div class="sect1" title="Appendix A: Preparing BIOS"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-live-preparing-bios"></a>Appendix A: Preparing BIOS</h2></div></div></div><p>
+    To boot the GParted Live image from USB flash drive or CD-ROM disc,
+    your computer BIOS must be properly configured.  More specifically
+    the BIOS must be set to boot from CD-ROM and other removable
+    devices before booting from hard disk drives.
+    </p><div class="sect2" title="Entering BIOS Setup"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-live-entering-bios-setup"></a>Entering BIOS Setup</h3></div></div></div><p>
+      To enter the BIOS setup screen on you computer:
+        </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
+            Turn on the power for your computer.
+            </p></li><li class="listitem"><p>
+            Watch for a screen indicating which key to press to enter
+            the BIOS setup screen.
+            </p><p>
+            For example at the bottom of the following screen shot,
+            the <span class="keycap"><strong>F2</strong></span> is used to enter the BIOS setup
+            screen.  On other computers it might be the
+            <span class="keycap"><strong>Delete</strong></span> key, the <span class="keycap"><strong>Insert</strong></span>
+            key, the <span class="keycap"><strong>F9</strong></span> key, or some other key.
+            </p><div class="figure"><a name="gparted-live-bios-setup-prompt"></a><p class="title"><b>Figure 10. BIOS Setup Prompt</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-bios-setup-prompt.png" target="_top">
+                <span class="inlinemediaobject"><img src="figures/gparted-live-bios-setup-prompt.png" width="510" alt="Shows screen with prompt to enter BIOS setup."></span>
+              </a></div></div><br class="figure-break"><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+              If you do not see a screen that indicates the key to
+              press to enter BIOS setup, then you might need to
+              consult the documentation that came with your computer.
+              </p></div></li><li class="listitem"><p>
+            Press and hold the appropriate key, noted from above, to
+            enter BIOS setup.
+            </p></li></ol></div><p>
+      </p></div><div class="sect2" title="Setting Boot Order in BIOS"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-live-setting-bios-boot-order"></a>Setting Boot Order in BIOS</h3></div></div></div><p>
+        </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
+            Read the BIOS setup screen instructions to learn how to
+            navigate the menu options and how to change settings.
+            </p></li><li class="listitem"><p>
+            Change the BIOS boot order so that CD-ROM and removable
+            devices, such as a USB flash drive, are earlier in the
+            boot order than hard disk drives.
+            </p><div class="figure"><a name="gparted-live-bios-setup-boot-order"></a><p class="title"><b>Figure 11. BIOS Setup Boot Order</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-bios-setup-boot-order.png" target="_top">
+                <span class="inlinemediaobject"><img src="figures/gparted-live-bios-setup-boot-order.png" width="510" alt="Shows screen with display of BIOS device boot order."></span>
+              </a></div></div><br class="figure-break"></li></ol></div><p>
+      </p></div><div class="sect2" title="Saving BIOS settings"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-live-saving-bios-settings"></a>Saving BIOS settings</h3></div></div></div><p>
+        </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
+            Follow the on-screen instructions to save the BIOS
+            settings.
+            </p><div class="figure"><a name="gparted-live-bios-save-settings"></a><p class="title"><b>Figure 12. BIOS Save Settings</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-bios-save-settings.png" target="_top">
+                <span class="inlinemediaobject"><img src="figures/gparted-live-bios-save-settings.png" width="510" alt="Shows screen for saving BIOS settings."></span>
+              </a></div></div><br class="figure-break"></li><li class="listitem"><p>
+            Your computer will reboot after saving the BIOS settings.
+            </p></li></ol></div><p>
+      </p></div></div><div class="sect1" title="Appendix B: Tips on Booting GParted Live"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-live-tips-on-booting-gparted-live"></a>Appendix B: Tips on Booting GParted Live</h2></div></div></div><p>
+    Are you experiencing trouble trying to boot the GParted Live image?
+    </p><p>
+    If so then here are some tips that might help.
+    </p><div class="sect2" title="List of Booting Tips"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-live-list-of-booting-tips"></a>List of Booting Tips</h3></div></div></div><p>
+        </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
+            Try using one of the settings under "Other modes of
+            GParted Live", such as:
+              </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+                  GParted Live (Safe graphic settings, vga=normal)
+                  </p></li><li class="listitem"><p>
+                  GParted Live(Failsafe mode)
+                  </p></li></ul></div><p>
+            </p></li><li class="listitem"><p>
+            Try using 'Forcevideo' to configure X manually.
+            </p><p>
+            While booting up, select option "(1) Run 'Forcevideo' to
+            config X manually".
+              </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+                  Try a lower screen resolution.
+                  </p></li><li class="listitem"><p>
+                  Try a driver appropriate for your video card.
+                  Vesa should work with many video cards.
+                  </p></li><li class="listitem"><p>
+                  Try a low color depth if your video card does not have
+                  much RAM memory.
+                  </p></li></ul></div><p>
+            </p></li><li class="listitem"><p>
+            While one of the settings is highlighted, press the
+            <span class="keycap"><strong>Tab</strong></span> key to display the list of boot
+            options.
+              </p><div class="orderedlist"><ol class="orderedlist" type="a"><li class="listitem"><p>
+                  If you have Intel i915 graphics, try adding one of:
+                    </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+                        i915.modeset=0
+                        </p></li><li class="listitem"><p>
+                        i915.modeset=1
+                        </p></li></ul></div><p>
+                  </p></li><li class="listitem"><p>
+                  If you have ATI Radeon graphics, try adding one of:
+                    </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+                        radeon.modeset=0
+                        </p></li><li class="listitem"><p>
+                        radeon.modeset=1
+                        </p></li></ul></div><p>
+                  </p></li><li class="listitem"><p>
+                  If you have NVidea graphics, try adding one of:
+                    </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+                        nouveau.modeset=0
+                        </p></li><li class="listitem"><p>
+                        nouveau.modeset=1
+                        </p></li></ul></div><p>
+                  </p></li><li class="listitem"><p>
+                  Try removing all of the modeset parameters listed
+                  above.
+                  </p></li></ol></div><p>
+            </p></li><li class="listitem"><p>
+            If you have an IBM NetFinity 5000, GParted might stop
+            booting with "Unable to find a medium containing a live
+            file system"
+            </p><p>
+            There's a known issue on this hardware from IBM with the
+            IDE CD-ROM. Add "all_generic_ide" as kernel parameter,
+            i.e. press <span class="keycap"><strong>Tab</strong></span> at the beginning of CD-ROM
+            booting splash screen.
+            </p><p>
+            On an IBM NetFinity 5000 server, the GUI starts with a low
+            video resolution.  The S3 based onboard video on this IBM
+            server hardware offers 1 MB video RAM only.  Use the
+            following extra step to select a higher video resolution:
+              </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+                  Use option "1" (configuring X manually) and set the
+                  parameters to 1024x768 and 256 colors (8 bpp).
+                  </p></li></ul></div><p>
+            </p></li></ol></div><p>
+      </p><p>
+      If you are still experiencing difficulty booting GParted Live,
+      then please create a new post in the "Live Media" section of the
+      <a class="ulink" href="http://gparted.org/forum.php" target="_top">GParted
+      forum</a> and describe your situation.
+      </p></div></div></div></body></html>

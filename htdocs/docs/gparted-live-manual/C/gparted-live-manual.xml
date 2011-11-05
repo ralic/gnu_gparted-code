@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+  <!ENTITY appversion "0.10.0">
+  <!ENTITY liveversion "0.10.0-3">
+  <!ENTITY manrevision "1.0">
+  <!ENTITY date "November 2011">
+  <!ENTITY app "gparted">
+  <!ENTITY appname "GParted">
+  <!ENTITY livename "GParted Live">
+  <!-- Information about the entities:
+       Use the appversion entity to specify the version of the application.
+       Use the liveversion entity to specify the version of the Live image.
+       Use the manrevision entity to specify the revision number of this manual.
+       Use the date entity to specify the release date of this manual.
+       Use the app entity to specify the command name of the application.
+       Use the appname entity to specify the formal name of the application.
+       Use the livename entity to specify the formal name of the Live image.
+  -->
+]>
+
+<!--
+      To generate a single html file of this document, use the command:
+        xmlto html-nochunks gparted-live.xml
+
+      To test this document in a viewer, use the command:
+        gnome-help file:/full-path-to-gparted-live.xml
+ -->
+
+<!-- ============= Document Header =================================== -->
+<?db.chunk.max_depth 4?>
+<article id="gparted-live" lang="en">
+<!-- Please do not change the id. -->
+<!-- For translations, change lang to appropriate code -->
+  <articleinfo>
+    <title>&livename; Manual</title>
+    <publisher>
+      <publishername>&appname; Project</publishername>
+    </publisher>
+
+    <abstract role="description">
+      <para>
+      This manual describes how to use the &livename; image from boot
+      up to shut down.
+      </para>
+    </abstract>
+
+    <copyright>
+      <year>2011</year>
+      <holder>Curtis Gedak</holder>
+    </copyright>
+
+<!-- translators: uncomment this:
+    <copyright>
+      <year>2011</year>
+      <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+    </copyright>
+-->
+
+    <legalnotice>
+      <para>
+      Permission is granted to copy, distribute and/or modify this document
+      under the terms of the GNU Free Documentation License, Version 1.2
+      or any later version published by the Free Software Foundation;
+      with no Invariant Sections, no Front-Cover Texts, and no Back-Cover
+      Texts.  You can find a copy of the GFDL at this
+      <ulink type="help" url="ghelp:fdl">link</ulink> or at
+      <ulink type="http" url="http://www.fsf.org/licensing/licenses/fdl.html"/>
+      or in the file COPYING-DOCS distributed with this manual.
+      </para>
+    </legalnotice>
+
+    <authorgroup>
+      <author role="maintainer">
+        <firstname>Curtis</firstname>
+        <surname>Gedak</surname>
+        <affiliation>
+          <orgname>&appname; Project</orgname>
+          <address>
+            <email>gedakc@users.sf.net</email>
+          </address>
+        </affiliation>
+      </author>
+
+<!-- This is appropriate place for other contributors: translators,
+     maintainers,  etc. Commented out by default.
+      <othercredit role="translator">
+        <firstname>Latin</firstname>
+        <surname>Translator 1</surname>
+        <affiliation>
+          <orgname>Latin Translation Team</orgname>
+          <address> <email>translator@gnome.org</email> </address>
+        </affiliation>
+        <contrib>Latin translation</contrib>
+      </othercredit>
+-->
+    </authorgroup>
+
+<!-- According to GNU FDL, revision history is mandatory if you are -->
+<!-- modifying/reusing someone else's document.  If not, you can omit it. -->
+<!--
+     Revision History currently commented out
+
+    <revhistory>
+      <revision>
+        <revnumber>&livename; Manual V1.0</revnumber>
+        <date>November 2011</date>
+        <revdescription>
+          <para role="author">Curtis Gedak</para>
+          <para role="publisher">&appname; Project</para>
+          <para role="annotations">Describes version 0.10.0-3 of &livename;.
+          </para>
+        </revdescription> 
+      </revision>
+    </revhistory>
+-->
+
+    <releaseinfo>
+    This manual describes version &liveversion; of &livename;.
+    </releaseinfo>
+
+    <legalnotice>
+      <title>Feedback</title>
+      <para>
+      To report a bug or make a suggestion regarding 
+      <application>&livename;</application> or this manual,
+      follow the directions at
+      <ulink type="http" url="http://gparted.org/bugs.php"/>.
+      </para>
+<!-- Translators may also add here feedback address for translations -->
+    </legalnotice>
+
+  </articleinfo>
+
+<!-- ============= Document Body ===================================== -->
+<!-- ============= Introduction ====================================== -->
+  <sect1 id="gparted-live-introduction">
+    <title>Introduction</title>
+    <para>
+    <application>&livename;</application> is a small bootable
+    GNU/Linux distribution for x86 based computers.  &livename;
+    enables you to use all the <ulink type="http"
+    url="http://gparted.org/features.php">features</ulink> of the
+    latest versions of the <application>&appname;</application>
+    application.
+    </para>
+    <para>
+    This manual describes how to use the &livename; image, from boot up
+    to shut down.
+    </para>
+  </sect1>
+  
+<!-- ============= Booting GParted Live ============================== -->
+  <sect1 id="gparted-live-booting-gparted-live">
+    <title>Booting GParted Live</title>
+    <para>
+    This section describes how to boot up &livename; on your computer.
+    </para>
+    <para>
+    If your computer does not boot from CD-ROM discs or USB flash
+    drives, then see <xref linkend="gparted-live-preparing-bios"/>.
+    </para>
+    <tip>
+      <para>
+      To learn how to write the &livename; image to removable media,
+      such as CD-ROM or a USB flash drive, see
+      <ulink type="http" url="http://gparted.org/livecd.php"/>.
+      </para>
+    </tip>
+
+<!-- ============= Booting from Removable Media ====================== -->
+    <sect2 id="gparted-live-booting-from-removable-media">
+      <title>Booting from CD-ROM or USB Flash Drive</title>
+      <para>
+      To start &livename;:
+        <orderedlist>
+          <listitem>
+            <para>
+            Power on your computer with the media containing &livename;.
+            </para>
+            <itemizedlist>
+              <listitem>
+                <para>
+                If you are using a USB flash drive, then insert the
+                flash drive into an open USB port and turn on the
+                power for your computer.
+                </para>
+              </listitem>
+              <listitem>
+                <para>
+                If you are using a CD-ROM disc, then turn on the power
+                for your computer and quickly insert the CD-ROM disc in
+                the CD-ROM tray of your computer.
+                </para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+          <listitem>
+            <para>
+            To use the default settings, press the
+            <keycap>Enter</keycap> key when the &livename; boot screen
+            is displayed.
+            </para>
+            <!-- ==== Figure ==== -->
+            <!-- The GNOME Documentation Project recommends a maximum image
+                 width of 510 pixels.
+                 http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
+            -->
+            <figure id="gparted-live-boot-screen">
+              <title>&livename; Boot Screen</title>
+              <ulink type="http"
+                     url="figures/gparted-live-boot-screen.jpeg">
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata 
+                      fileref="figures/gparted-live-boot-screen.jpeg"
+                      width="510px" scalefit="1"
+                      format="JPEG"/>
+                    </imageobject>
+                  <textobject>
+                    <phrase>
+                    Shows &livename; boot screen.
+                    </phrase>
+                  </textobject>
+                </inlinemediaobject>
+              </ulink>
+            </figure>
+            <tip>
+              <para>
+              To use a different mode of &livename;, use the
+              <keycap>Up arrow</keycap> key or <keycap>Down
+              arrow</keycap> key to select the mode.  Press the
+              <keycap>Enter</keycap> key to activate the mode.
+              </para>
+              <para>
+              For example, to be able to use your CD-ROM R/W tray
+              after booting &livename; select the
+              <menuchoice><guimenu>Other modes of
+              &livename;</guimenu></menuchoice> entry, and then select
+              the <menuchoice><guimenu>To RAM</guimenu></menuchoice>
+              entry.
+              </para>
+              <para>
+              To return to the default &livename; boot screen, press
+              the <keycap>Escape</keycap> key.
+              </para>
+              <!-- ==== Figure ==== -->
+              <!-- The GNOME Documentation Project recommends a maximum image
+                   width of 510 pixels.
+                   http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
+              -->
+              <figure id="gparted-live-boot-screen-other-modes">
+                <title>Other modes of &livename;</title>
+                <ulink type="http"
+                       url="figures/gparted-live-boot-screen-other-modes.jpeg">
+                  <inlinemediaobject>
+                    <imageobject>
+                      <imagedata 
+                        fileref="figures/gparted-live-boot-screen-other-modes.jpeg"
+                        width="510px" scalefit="1"
+                        format="JPEG"/>
+                      </imageobject>
+                    <textobject>
+                      <phrase>
+                      Shows Other modes of &livename; screen.
+                      </phrase>
+                    </textobject>
+                  </inlinemediaobject>
+                </ulink>
+              </figure>
+            </tip>
+          </listitem>
+          <listitem>
+            <para>
+            To use the standard US keymap, press the
+            <keycap>Enter</keycap> key.
+            </para>
+            <para>
+            If you require a different keymap then use the <keycap>Up
+            arrow</keycap>, <keycap>Down arrow</keycap>, and
+            <keycap>Enter</keycap> keys to choose an appropriate
+            keymap for your keyboard.
+            </para>
+            <!-- ==== Figure ==== -->
+            <!-- The GNOME Documentation Project recommends a maximum image
+                 width of 510 pixels.
+                 http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
+            -->
+            <figure id="gparted-live-bootup-keymap-question">
+              <title>Keymap Question</title>
+              <ulink type="http"
+                     url="figures/gparted-live-bootup-keymap-question.png">
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata 
+                      fileref="figures/gparted-live-bootup-keymap-question.png"
+                      width="510px" scalefit="1"
+                      format="PNG"/>
+                    </imageobject>
+                  <textobject>
+                    <phrase>
+                    Shows screen with keymap question prompt.
+                    </phrase>
+                  </textobject>
+                </inlinemediaobject>
+              </ulink>
+            </figure>
+          </listitem>
+          <listitem>
+            <para>
+            To use the US English language, press the
+            <keycap>Enter</keycap> key.
+            </para>
+            <para>
+            If you desire a different language then type the number
+            shown beside the langauge and press the
+            <keycap>Enter</keycap> key.
+            </para>
+            <!-- ==== Figure ==== -->
+            <!-- The GNOME Documentation Project recommends a maximum image
+                 width of 510 pixels.
+                 http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
+            -->
+            <figure id="gparted-live-bootup-language-question">
+              <title>Language Question</title>
+              <ulink type="http"
+                     url="figures/gparted-live-bootup-language-question.png">
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata 
+                      fileref="figures/gparted-live-bootup-language-question.png"
+                      width="510px" scalefit="1"
+                      format="PNG"/>
+                    </imageobject>
+                  <textobject>
+                    <phrase>
+                    Shows screen with language question prompt.
+                    </phrase>
+                  </textobject>
+                </inlinemediaobject>
+              </ulink>
+            </figure>
+          </listitem>
+          <listitem>
+            <para>
+            To start up the default graphical environment and
+            begin using the <application>&appname;</application>
+            application, press the <keycap>Enter</keycap> key.
+            </para>
+            <!-- ==== Figure ==== -->
+            <!-- The GNOME Documentation Project recommends a maximum image
+                 width of 510 pixels.
+                 http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
+            -->
+            <figure id="gparted-live-bootup-video-mode-question">
+              <title>Video Mode Question</title>
+              <ulink type="http"
+                     url="figures/gparted-live-bootup-video-mode-question.png">
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata 
+                      fileref="figures/gparted-live-bootup-video-mode-question.png"
+                      width="510px" scalefit="1"
+                      format="PNG"/>
+                    </imageobject>
+                  <textobject>
+                    <phrase>
+                    Shows screen with video mode prompt.
+                    </phrase>
+                  </textobject>
+                </inlinemediaobject>
+              </ulink>
+            </figure>
+          </listitem>
+          <listitem>
+            <para>
+            You can now begin using the
+            <application>&appname;</application> application.
+            </para>
+            <!-- ==== Figure ==== -->
+            <!-- The GNOME Documentation Project recommends a maximum image
+                 width of 510 pixels.
+                 http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
+            -->
+            <figure id="gparted-live-after-bootup">
+              <title>Graphical Desktop with &appname;</title>
+              <ulink type="http"
+                     url="figures/gparted-live-after-bootup.png">
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata 
+                      fileref="figures/gparted-live-after-bootup.png"
+                      width="510px" scalefit="1"
+                      format="PNG"/>
+                    </imageobject>
+                  <textobject>
+                    <phrase>
+                    Shows screen with &appname; on a graphical desktop.
+                    </phrase>
+                  </textobject>
+                </inlinemediaobject>
+              </ulink>
+            </figure>
+            <note>
+              <para>
+              If your computer is unable to display the default
+              graphical environment, then see <xref
+              linkend="gparted-live-tips-on-booting-gparted-live"/>.
+              </para>
+            </note>
+          </listitem>
+        </orderedlist>
+      </para>
+    </sect2>
+
+  </sect1>
+
+<!-- ============= Using GParted Live ================================ -->
+  <sect1 id="gparted-live-using-gparted-live">
+    <title>Using &livename;</title>
+    <para>
+    This section describes how to use some of the features of
+    &livename;.
+    </para>
+
+<!-- ============= Using GParted Application ========================= -->
+    <sect2 id="gparted-live-using-gparted-application">
+
+      <title>Using &appname; Application</title>
+      <para>
+      For instruction on how to use the
+      <application>&appname;</application> application, please refer
+      to the &appname; Application Help Manual.
+      </para>
+      <para>
+      The &appname; Manual is available on the documentation page of
+      the &appname; web site.  See <ulink type="http"
+      url="http://gparted.org/documentation.php"/>.
+      </para>
+    </sect2>
+
+<!-- ============= Enabling Network Access =========================== -->
+    <sect2 id="gparted-live-enabling-network-access">
+
+      <title>Enabling Network Access</title>
+      <para>
+      To enable wired ethernet TCP/IP networking on your computer:
+        <orderedlist>
+          <listitem>
+            <para>
+            Double-click the <guibutton>Terminal</guibutton> icon in
+            the upper left hand side of the desktop.  This will open a
+            terminal window.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+            At the terminal prompt enter the following command:
+            <screen><prompt>user@debian:~$ </prompt><command>sudo dhclient eth0</command></screen>
+            </para>
+            <!-- ==== Figure ==== -->
+            <!-- The GNOME Documentation Project recommends a maximum image
+                 width of 510 pixels.
+                 http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
+            -->
+            <figure id="gparted-live-enable-networking">
+              <title>BIOS Setup Prompt</title>
+              <ulink type="http"
+                     url="figures/gparted-live-enable-networking.png">
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata 
+                      fileref="figures/gparted-live-enable-networking.png"
+                      width="510px" scalefit="1"
+                      format="PNG"/>
+                    </imageobject>
+                  <textobject>
+                    <phrase>
+                    Shows terminal window with command to enable networking.
+                    </phrase>
+                  </textobject>
+                </inlinemediaobject>
+              </ulink>
+            </figure>
+            <para>
+            Wired ethernet TCP/IP networking should now be enabled.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+            Close the terminal window by entering the following
+            command at the terminal prompt:
+            <screen><prompt>user@debian:~$ </prompt><command>exit</command></screen>
+            </para>
+          </listitem>
+        </orderedlist>
+      </para>
+    </sect2>
+
+  </sect1>
+
+<!-- ============= Finishing GParted Live Session ==================== -->
+  <sect1 id="gparted-live-finishing-gparted-live-session">
+    <title>Finishing &livename; Session</title>
+    <para>
+    This section describes how to finish your &livename; session.
+    </para>
+
+<!-- ============= Shutting Down GParted Live ======================== -->
+    <sect2 id="gparted-live-shutting-down-gparted-live">
+      <title>Shutting Down &livename;</title>
+      <para>
+      To shut down &livename;:
+        <orderedlist>
+          <listitem>
+            <para>
+            Double-click the <guibutton>Exit</guibutton> icon in
+            the upper left hand side of the desktop.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+            Select the
+            <menuchoice><guimenu>Shutdown</guimenu></menuchoice> entry
+            and click <guibutton>OK</guibutton>.
+            </para>
+            <!-- ==== Figure ==== -->
+            <!-- The GNOME Documentation Project recommends a maximum image
+                 width of 510 pixels.
+                 http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
+            -->
+            <figure id="gparted-live-shutdown-prompt">
+              <title>Shutdown Prompt</title>
+              <ulink type="http"
+                     url="figures/gparted-live-shutdown-prompt.png">
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata 
+                      fileref="figures/gparted-live-shutdown-prompt.png"
+                      width="510px" scalefit="1"
+                      format="PNG"/>
+                    </imageobject>
+                  <textobject>
+                    <phrase>
+                    Shows window with shutdown prompt.
+                    </phrase>
+                  </textobject>
+                </inlinemediaobject>
+              </ulink>
+            </figure>
+          </listitem>
+          <listitem>
+            <para>
+            When prompted, remove the CD-ROM disc or USB flash drive
+            and press the <keycap>Enter</keycap> key.
+            </para>
+            <!-- ==== Figure ==== -->
+            <!-- The GNOME Documentation Project recommends a maximum image
+                 width of 510 pixels.
+                 http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
+            -->
+            <figure id="gparted-live-shutdown-remove-disc-prompt">
+              <title>Remove Disc Prompt</title>
+              <ulink type="http"
+                     url="figures/gparted-live-shutdown-remove-disc-prompt.png">
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata 
+                      fileref="figures/gparted-live-shutdown-remove-disc-prompt.png"
+                      width="510px" scalefit="1"
+                      format="PNG"/>
+                    </imageobject>
+                  <textobject>
+                    <phrase>
+                    Shows screen with remove disc prompt.
+                    </phrase>
+                  </textobject>
+                </inlinemediaobject>
+              </ulink>
+            </figure>
+          </listitem>
+          <listitem>
+            <para>
+            Your computer will shut down.
+            </para>
+          </listitem>
+        </orderedlist>
+      </para>
+    </sect2>
+
+  </sect1>
+
+<!-- ============= Appendix A - Preparing BIOS ======================= -->
+  <sect1 id="gparted-live-preparing-bios">
+    <title>Appendix A: Preparing BIOS</title>
+    <para>
+    To boot the &livename; image from USB flash drive or CD-ROM disc,
+    your computer BIOS must be properly configured.  More specifically
+    the BIOS must be set to boot from CD-ROM and other removable
+    devices before booting from hard disk drives.
+    </para>
+
+<!-- ============= Entering BIOS Setup =============================== -->
+    <sect2 id="gparted-live-entering-bios-setup">
+
+      <title>Entering BIOS Setup</title>
+      <para>
+      To enter the BIOS setup screen on you computer:
+        <orderedlist>
+          <listitem>
+            <para>
+            Turn on the power for your computer.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+            Watch for a screen indicating which key to press to enter
+            the BIOS setup screen.
+            </para>
+            <para>
+            For example at the bottom of the following screen shot,
+            the <keycap>F2</keycap> is used to enter the BIOS setup
+            screen.  On other computers it might be the
+            <keycap>Delete</keycap> key, the <keycap>Insert</keycap>
+            key, the <keycap>F9</keycap> key, or some other key.
+            </para>
+            <!-- ==== Figure ==== -->
+            <!-- The GNOME Documentation Project recommends a maximum image
+                 width of 510 pixels.
+                 http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
+            -->
+            <figure id="gparted-live-bios-setup-prompt">
+              <title>BIOS Setup Prompt</title>
+              <ulink type="http"
+                     url="figures/gparted-live-bios-setup-prompt.png">
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata 
+                      fileref="figures/gparted-live-bios-setup-prompt.png"
+                      width="510px" scalefit="1"
+                      format="PNG"/>
+                    </imageobject>
+                  <textobject>
+                    <phrase>
+                    Shows screen with prompt to enter BIOS setup.
+                    </phrase>
+                  </textobject>
+                </inlinemediaobject>
+              </ulink>
+            </figure>
+            <note>
+              <para>
+              If you do not see a screen that indicates the key to
+              press to enter BIOS setup, then you might need to
+              consult the documentation that came with your computer.
+              </para>
+            </note>
+          </listitem>
+          <listitem>
+            <para>
+            Press and hold the appropriate key, noted from above, to
+            enter BIOS setup.
+            </para>
+          </listitem>
+        </orderedlist>
+      </para>
+    </sect2>
+
+<!-- ============= Setting BIOS Boot Order =========================== -->
+    <sect2 id="gparted-live-setting-bios-boot-order">
+      <title>Setting Boot Order in BIOS</title>
+      <para>
+        <orderedlist>
+          <listitem>
+            <para>
+            Read the BIOS setup screen instructions to learn how to
+            navigate the menu options and how to change settings.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+            Change the BIOS boot order so that CD-ROM and removable
+            devices, such as a USB flash drive, are earlier in the
+            boot order than hard disk drives.
+            </para>
+            <!-- ==== Figure ==== -->
+            <!-- The GNOME Documentation Project recommends a maximum image
+                 width of 510 pixels.
+                 http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
+            -->
+            <figure id="gparted-live-bios-setup-boot-order">
+              <title>BIOS Setup Boot Order</title>
+              <ulink type="http"
+                     url="figures/gparted-live-bios-setup-boot-order.png">
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata 
+                      fileref="figures/gparted-live-bios-setup-boot-order.png"
+                      width="510px" scalefit="1"
+                      format="PNG"/>
+                    </imageobject>
+                  <textobject>
+                    <phrase>
+                    Shows screen with display of BIOS device boot order.
+                    </phrase>
+                  </textobject>
+                </inlinemediaobject>
+              </ulink>
+            </figure>
+          </listitem>
+        </orderedlist>
+      </para>
+    </sect2>
+
+<!-- ============= Saving BIOS Settings ============================== -->
+    <sect2 id="gparted-live-saving-bios-settings">
+      <title>Saving BIOS settings</title>
+      <para>
+        <orderedlist>
+          <listitem>
+            <para>
+            Follow the on-screen instructions to save the BIOS
+            settings.
+            </para>
+            <!-- ==== Figure ==== -->
+            <!-- The GNOME Documentation Project recommends a maximum image
+                 width of 510 pixels.
+                 http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
+            -->
+            <figure id="gparted-live-bios-save-settings">
+              <title>BIOS Save Settings</title>
+              <ulink type="http"
+                     url="figures/gparted-live-bios-save-settings.png">
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata 
+                      fileref="figures/gparted-live-bios-save-settings.png"
+                      width="510px" scalefit="1"
+                      format="PNG"/>
+                    </imageobject>
+                  <textobject>
+                    <phrase>
+                    Shows screen for saving BIOS settings.
+                    </phrase>
+                  </textobject>
+                </inlinemediaobject>
+              </ulink>
+            </figure>
+          </listitem>
+          <listitem>
+            <para>
+            Your computer will reboot after saving the BIOS settings.
+            </para>
+          </listitem>
+        </orderedlist>
+      </para>
+    </sect2>
+
+  </sect1>
+
+<!-- ============= Appendix B - Tips on Booting GParted Live ========= -->
+  <sect1 id="gparted-live-tips-on-booting-gparted-live">
+    <title>Appendix B: Tips on Booting &livename;</title>
+    <para>
+    Are you experiencing trouble trying to boot the &livename; image?
+    </para>
+    <para>
+    If so then here are some tips that might help.
+    </para>
+
+<!-- ============= List of Booting Tips ============================== -->
+    <sect2 id="gparted-live-list-of-booting-tips">
+
+      <title>List of Booting Tips</title>
+      <para>
+        <orderedlist>
+          <listitem>
+            <para>
+            Try using one of the settings under "Other modes of
+            GParted Live", such as:
+              <itemizedlist>
+                <listitem>
+                  <para>
+                  GParted Live (Safe graphic settings, vga=normal)
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>
+                  GParted Live(Failsafe mode)
+                  </para>
+                </listitem>
+              </itemizedlist>
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+            Try using 'Forcevideo' to configure X manually.
+            </para>
+            <para>
+            While booting up, select option "(1) Run 'Forcevideo' to
+            config X manually".
+              <itemizedlist>
+                <listitem>
+                  <para>
+                  Try a lower screen resolution.
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>
+                  Try a driver appropriate for your video card.
+                  Vesa should work with many video cards.
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>
+                  Try a low color depth if your video card does not have
+                  much RAM memory.
+                  </para>
+                </listitem>
+              </itemizedlist>
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+            While one of the settings is highlighted, press the
+            <keycap>Tab</keycap> key to display the list of boot
+            options.
+              <orderedlist numeration="loweralpha">
+                <listitem>
+                  <para>
+                  If you have Intel i915 graphics, try adding one of:
+                    <itemizedlist>
+                      <listitem>
+                        <para>
+                        i915.modeset=0
+                        </para>
+                      </listitem>
+                      <listitem>
+                        <para>
+                        i915.modeset=1
+                        </para>
+                      </listitem>
+                    </itemizedlist>
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>
+                  If you have ATI Radeon graphics, try adding one of:
+                    <itemizedlist>
+                      <listitem>
+                        <para>
+                        radeon.modeset=0
+                        </para>
+                      </listitem>
+                      <listitem>
+                        <para>
+                        radeon.modeset=1
+                        </para>
+                      </listitem>
+                    </itemizedlist>
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>
+                  If you have NVidea graphics, try adding one of:
+                    <itemizedlist>
+                      <listitem>
+                        <para>
+                        nouveau.modeset=0
+                        </para>
+                      </listitem>
+                      <listitem>
+                        <para>
+                        nouveau.modeset=1
+                        </para>
+                      </listitem>
+                    </itemizedlist>
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>
+                  Try removing all of the modeset parameters listed
+                  above.
+                  </para>
+                </listitem>
+              </orderedlist>
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+            If you have an IBM NetFinity 5000, GParted might stop
+            booting with "Unable to find a medium containing a live
+            file system"
+            </para>
+            <para>
+            There's a known issue on this hardware from IBM with the
+            IDE CD-ROM. Add "all_generic_ide" as kernel parameter,
+            i.e. press <keycap>Tab</keycap> at the beginning of CD-ROM
+            booting splash screen.
+            </para>
+            <para>
+            On an IBM NetFinity 5000 server, the GUI starts with a low
+            video resolution.  The S3 based onboard video on this IBM
+            server hardware offers 1 MB video RAM only.  Use the
+            following extra step to select a higher video resolution:
+              <itemizedlist>
+                <listitem>
+                  <para>
+                  Use option "1" (configuring X manually) and set the
+                  parameters to 1024x768 and 256 colors (8 bpp).
+                  </para>
+                </listitem>
+              </itemizedlist>
+            </para>
+          </listitem>
+        </orderedlist>
+      </para>
+      <para>
+      If you are still experiencing difficulty booting &livename;,
+      then please create a new post in the "Live Media" section of the
+      <ulink type="http" url="http://gparted.org/forum.php">&appname;
+      forum</ulink> and describe your situation.
+      </para>
+    </sect2>
+
+  </sect1>
+
+</article>
