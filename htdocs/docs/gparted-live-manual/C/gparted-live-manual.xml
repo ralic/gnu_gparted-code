@@ -122,9 +122,8 @@
     <legalnotice>
       <title>Feedback</title>
       <para>
-      To report a bug or make a suggestion regarding 
-      <application>&livename;</application> or this manual,
-      follow the directions at
+      To report a bug or make a suggestion regarding &livename; or
+      this manual, follow the directions at
       <ulink type="http" url="http://gparted.org/bugs.php"/>.
       </para>
 <!-- Translators may also add here feedback address for translations -->
@@ -137,11 +136,10 @@
   <sect1 id="gparted-live-introduction">
     <title>Introduction</title>
     <para>
-    <application>&livename;</application> is a small bootable
-    GNU/Linux distribution for x86 based computers.  &livename;
-    enables you to use all the <ulink type="http"
-    url="http://gparted.org/features.php">features</ulink> of the
-    latest versions of the <application>&appname;</application>
+    &livename; is a small bootable GNU/Linux distribution for x86
+    based computers.  &livename; enables you to use all the <ulink
+    type="http" url="http://gparted.org/features.php">features</ulink>
+    of the latest versions of the <application>&appname;</application>
     application.
     </para>
     <para>
