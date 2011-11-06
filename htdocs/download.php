@@ -148,7 +148,7 @@ See
 <div class="tip">
 <p class="hangtip">
 <b>TIP</b>: &nbsp; Problems booting GParted Live image?
-See <a href="http://gparted-forum.surf4.info/viewtopic.php?id=14377">Tips on Booting GParted Live</a>.<br>
+See <a href="http://gparted.org/display-doc.php?name=gparted-live-manual&lang=C#gparted-live-tips-on-booting-gparted-live">Tips on Booting GParted Live</a>.<br>
 </p>
 </div>
 </td></tr></table>
