@@ -72,15 +72,15 @@ gnome_menu();
     </tr>
   </table>
 
-<h3>GParted Live Howto Guides</h3>
+<h3>GParted Live Installation Instructions</h3>
   <p>        
-    <a href="./liveusb.php">How to put GParted live on USB</a>
+    <a href="./liveusb.php">GParted Live on USB</a>
     <br>
-    <a href="./livepxe.php">How to put GParted live on a PXE server</a>
+    <a href="./livepxe.php">GParted Live on PXE server</a>
     <br>
-    <a href="./livehd.php">How to put GParted live on a hard drive</a>
+    <a href="./livehd.php">GParted Live on Hard Disk</a>
     <br>
-    <a href="./create-gparted-live.php">How to create GParted live from scratch</a>
+    <a href="./create-gparted-live.php">Create your own custom GParted Live from scratch</a>
   </p>
 
 <H3>Third Party Docs</H3>
