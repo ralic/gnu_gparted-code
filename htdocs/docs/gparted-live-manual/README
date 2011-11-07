@@ -4,4 +4,4 @@ control.
 
 To generate a single html file of the document, use the command:
 
-$ xmlto html-nochunks C/gparted-live-manual.xml
+$ xmlto --stringparam toc.section.depth=3 html-nochunks C/gparted-live-manual.xml
