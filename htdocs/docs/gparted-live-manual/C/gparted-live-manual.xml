@@ -19,6 +19,8 @@
   -->
 ]>
 
+<!-- Remember to update the revision history -->
+
 <!--
       To generate a single html file of this document, use the command:
         xmlto html-nochunks gparted-live.xml
