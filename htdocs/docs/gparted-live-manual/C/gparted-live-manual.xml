@@ -98,9 +98,6 @@
 
 <!-- According to GNU FDL, revision history is mandatory if you are -->
 <!-- modifying/reusing someone else's document.  If not, you can omit it. -->
-<!--
-     Revision History currently commented out
-
     <revhistory>
       <revision>
         <revnumber>&livename; Manual V1.0</revnumber>
@@ -113,7 +110,6 @@
         </revdescription> 
       </revision>
     </revhistory>
--->
 
     <releaseinfo>
     This manual describes version &liveversion; of &livename;.
