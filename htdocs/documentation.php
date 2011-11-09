@@ -168,15 +168,6 @@ gnome_menu();
         <td><a href="larry/tips/save_details-es.htm">HTML</a></td>
         <td>&nbsp;</td>
       </tr>
-      <tr> 
-        <td>Make screenshots</td>
-        <td><div align="center"><a href="larry/tips/screenshot.htm" target="_blank">HTML</a></div></td>
-        <td><div align="center"><a href="larry/tips/pdf/screenshot.pdf" target="_top">PDF</a></div></td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td><a href="larry/tips/screenshot-es.htm">HTML</a></td>
-        <td>&nbsp;</td>
-      </tr>
     </table>
     <p>
       <br>
