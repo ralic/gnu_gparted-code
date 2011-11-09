@@ -159,15 +159,6 @@ gnome_menu();
         <td width="6%"><a href="larry/tips/gfs-es.htm">HTML</a></td>
         <td width="6%">&nbsp;</td>
       </tr>
-      <tr> 
-        <td>Save gparted_details.htm file </td>
-        <td width="9%"><div align="center"><a href="larry/tips/save_details.htm" target="_blank">HTML</a></div></td>
-        <td width="8%"><div align="center"><a href="larry/tips/pdf/save_details.pdf" target="_blank">PDF</a></div></td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td><a href="larry/tips/save_details-es.htm">HTML</a></td>
-        <td>&nbsp;</td>
-      </tr>
     </table>
     <p>
       <br>
