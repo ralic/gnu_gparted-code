@@ -2,7 +2,7 @@
             <code class="email">&lt;<a class="email" href="mailto:gedakc@users.sf.net">gedakc@users.sf.net</a>&gt;</code><br>
           </p></div></div></div></div></div><div><p class="releaseinfo">
     This manual describes version 0.10.0-3 of GParted Live.
-    </p></div><div><p class="copyright">Copyright © 2011 Curtis Gedak</p></div><div><div class="legalnotice" title="Legal Notice"><a name="id493450"></a><p>
+    </p></div><div><p class="copyright">Copyright © 2011 Curtis Gedak</p></div><div><div class="legalnotice" title="Legal Notice"><a name="id462045"></a><p>
       Permission is granted to copy, distribute and/or modify this document
       under the terms of the GNU Free Documentation License, Version 1.2
       or any later version published by the Free Software Foundation;
@@ -11,11 +11,19 @@
       <a class="ulink" href="ghelp:fdl" target="_top">link</a> or at
       <a class="ulink" href="http://www.fsf.org/licensing/licenses/fdl.html" target="_top">http://www.fsf.org/licensing/licenses/fdl.html</a>
       or in the file COPYING-DOCS distributed with this manual.
-      </p></div></div><div><div class="legalnotice" title="Feedback"><a name="id491719"></a><p class="legalnotice-title"><b>Feedback</b></p><p>
+      </p></div></div><div><div class="legalnotice" title="Feedback"><a name="id460338"></a><p class="legalnotice-title"><b>Feedback</b></p><p>
       To report a bug or make a suggestion regarding GParted Live or
       this manual, follow the directions at
       <a class="ulink" href="http://gparted.org/bugs.php" target="_top">http://gparted.org/bugs.php</a>.
-      </p></div></div><div><div class="revhistory"><table border="1" width="100%" summary="Revision history"><tr><th align="left" valign="top" colspan="2"><b>Revision History</b></th></tr><tr><td align="left">Revision GParted Live Manual V1.0</td><td align="left">November 2011</td></tr><tr><td align="left" colspan="2">
+      </p></div></div><div><div class="revhistory"><table border="1" width="100%" summary="Revision history"><tr><th align="left" valign="top" colspan="2"><b>Revision History</b></th></tr><tr><td align="left">Revision GParted Live Manual V1.1</td><td align="left">November 2011</td></tr><tr><td align="left" colspan="2">
+          <p class="author">Curtis Gedak</p>
+          <p class="publisher">GParted Project</p>
+          <p class="annotations">
+          Add sections for Working with a Terminal Window, Capturing a
+          Screenshot, Saving GParted Details, Copying Files to Other
+          Media, and Changing Screen Resolution.
+          </p>
+        </td></tr><tr><td align="left">Revision GParted Live Manual V1.0</td><td align="left">November 2011</td></tr><tr><td align="left" colspan="2">
           <p class="author">Curtis Gedak</p>
           <p class="publisher">GParted Project</p>
           <p class="annotations">Describes version 0.10.0-3 of GParted Live.
@@ -23,7 +31,7 @@
         </td></tr></table></div></div><div><div class="abstract" title="Abstract"><p class="title"><b>Abstract</b></p><p>
       This manual describes how to use the GParted Live image from boot
       up to shut down.
-      </p></div></div></div><hr></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="sect1"><a href="#gparted-live-introduction">Introduction</a></span></dt><dt><span class="sect1"><a href="#gparted-live-booting-gparted-live">Booting GParted Live</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-live-booting-from-removable-media">Booting from CD-ROM or USB Flash Drive</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-live-using-gparted-live">Using GParted Live</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-live-using-gparted-application">Using GParted Application</a></span></dt><dt><span class="sect2"><a href="#gparted-live-enabling-network-access">Enabling Network Access</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-live-finishing-gparted-live-session">Finishing GParted Live Session</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-live-shutting-down-gparted-live">Shutting Down GParted Live</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-live-preparing-bios">Appendix A: Preparing BIOS</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-live-entering-bios-setup">Entering BIOS Setup</a></span></dt><dt><span class="sect2"><a href="#gparted-live-setting-bios-boot-order">Setting Boot Order in BIOS</a></span></dt><dt><span class="sect2"><a href="#gparted-live-saving-bios-settings">Saving BIOS settings</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-live-tips-on-booting-gparted-live">Appendix B: Tips on Booting GParted Live</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-live-list-of-booting-tips">List of Booting Tips</a></span></dt></dl></dd></dl></div><div class="sect1" title="Introduction"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-live-introduction"></a>Introduction</h2></div></div></div><p>
+      </p></div></div></div><hr></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="sect1"><a href="#gparted-live-introduction">Introduction</a></span></dt><dt><span class="sect1"><a href="#gparted-live-booting-gparted-live">Booting GParted Live</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-live-booting-from-removable-media">Booting from CD-ROM or USB Flash Drive</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-live-using-gparted-live">Using GParted Live</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-live-using-gparted-application">Using GParted Application</a></span></dt><dt><span class="sect2"><a href="#gparted-live-working-with-terminal-window">Working with a Terminal Window</a></span></dt><dt><span class="sect2"><a href="#gparted-live-capturing-screenshot">Capturing a Screenshot</a></span></dt><dt><span class="sect2"><a href="#gparted-live-saving-gparted-details">Saving GParted Details</a></span></dt><dt><span class="sect2"><a href="#gparted-live-copying-files-to-other-media">Copying Files to Other Media</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-live-copying-to-usb-flash-drive">Copying to USB Flash Drive</a></span></dt><dt><span class="sect3"><a href="#gparted-live-copying-to-hard-drive-partition">Copying to Hard Drive Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-live-copying-to-floppy-disk">Copying to Floppy Disk</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-live-changing-screen-resolution">Changing Screen Resolution</a></span></dt><dt><span class="sect2"><a href="#gparted-live-enabling-network-access">Enabling Network Access</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-live-finishing-gparted-live-session">Finishing GParted Live Session</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-live-shutting-down-gparted-live">Shutting Down GParted Live</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-live-preparing-bios">Appendix A: Preparing BIOS</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-live-entering-bios-setup">Entering BIOS Setup</a></span></dt><dt><span class="sect2"><a href="#gparted-live-setting-bios-boot-order">Setting Boot Order in BIOS</a></span></dt><dt><span class="sect2"><a href="#gparted-live-saving-bios-settings">Saving BIOS settings</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-live-tips-on-booting-gparted-live">Appendix B: Tips on Booting GParted Live</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-live-list-of-booting-tips">List of Booting Tips</a></span></dt></dl></dd></dl></div><div class="sect1" title="Introduction"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-live-introduction"></a>Introduction</h2></div></div></div><p>
     GParted Live is a small bootable GNU/Linux distribution for x86
     based computers.  GParted Live enables you to use all the <a class="ulink" href="http://gparted.org/features.php" target="_top">features</a>
     of the latest versions of the <span class="application">GParted</span>
@@ -31,27 +39,27 @@
     </p><p>
     This manual describes how to use the GParted Live image, from boot up
     to shut down.
-    </p></div><div class="sect1" title="Booting GParted Live"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-live-booting-gparted-live"></a>Booting GParted Live</h2></div></div></div><p>
-    This section describes how to boot up GParted Live on your computer.
-    </p><p>
-    If your computer does not boot from CD-ROM discs or USB flash
-    drives, then see <a class="xref" href="#gparted-live-preparing-bios" title="Appendix A: Preparing BIOS">the section called &#8220;Appendix A: Preparing BIOS&#8221;</a>.
     </p><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
       To learn how to write the GParted Live image to removable media,
       such as CD-ROM or a USB flash drive, see
       <a class="ulink" href="http://gparted.org/livecd.php" target="_top">http://gparted.org/livecd.php</a>.
-      </p></div><div class="sect2" title="Booting from CD-ROM or USB Flash Drive"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-live-booting-from-removable-media"></a>Booting from CD-ROM or USB Flash Drive</h3></div></div></div><p>
+      </p></div></div><div class="sect1" title="Booting GParted Live"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-live-booting-gparted-live"></a>Booting GParted Live</h2></div></div></div><p>
+    This section describes how to boot up GParted Live on your computer.
+    </p><p>
+    If your computer does not boot from CD-ROM discs or USB flash
+    drives, then see <a class="xref" href="#gparted-live-preparing-bios" title="Appendix A: Preparing BIOS">the section called &#8220;Appendix A: Preparing BIOS&#8221;</a>.
+    </p><div class="sect2" title="Booting from CD-ROM or USB Flash Drive"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-live-booting-from-removable-media"></a>Booting from CD-ROM or USB Flash Drive</h3></div></div></div><p>
       To start GParted Live:
         </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
             Power on your computer with the media containing GParted Live.
             </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
-                If you are using a USB flash drive, then insert the
-                flash drive into an open USB port and turn on the
-                power for your computer.
+                If using a USB flash drive, insert the USB flash drive
+                into an open USB port and turn on the power for your
+                computer.
                 </p></li><li class="listitem"><p>
-                If you are using a CD-ROM disc, then turn on the power
-                for your computer and quickly insert the CD-ROM disc in
-                the CD-ROM tray of your computer.
+                If using a CD-ROM disc, turn on the power for your
+                computer and quickly insert the CD-ROM disc in the
+                CD-ROM tray of your computer.
                 </p></li></ul></div></li><li class="listitem"><p>
             To use the default settings, press the
             <span class="keycap"><strong>Enter</strong></span> key when the GParted Live boot screen
@@ -64,12 +72,11 @@
               arrow</strong></span> key to select the mode.  Press the
               <span class="keycap"><strong>Enter</strong></span> key to activate the mode.
               </p><p>
-              For example, to be able to use your CD-ROM R/W tray
-              after booting GParted Live select the
-              <span class="guimenu">Other modes of
-              GParted Live</span> entry, and then select
-              the <span class="guimenu">To RAM</span>
-              entry.
+              For example, to use your CD-ROM R/W tray after booting
+              GParted Live select the <span class="guimenu">Other modes
+              of GParted Live</span> entry, and then
+              select the <span class="guimenu">To
+              RAM</span> entry.
               </p><p>
               To return to the default GParted Live boot screen, press
               the <span class="keycap"><strong>Escape</strong></span> key.
@@ -117,25 +124,202 @@
       <span class="application">GParted</span> application, please refer
       to the GParted Application Help Manual.
       </p><p>
-      The GParted Manual is available on the documentation page of
-      the GParted web site.  See <a class="ulink" href="http://gparted.org/documentation.php" target="_top">http://gparted.org/documentation.php</a>.
-      </p></div><div class="sect2" title="Enabling Network Access"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-live-enabling-network-access"></a>Enabling Network Access</h3></div></div></div><p>
-      To enable wired ethernet TCP/IP networking on your computer:
+      The GParted Manual is available on the <a class="ulink" href="http://gparted.org/documentation.php" target="_top">documentation
+      page</a> of the GParted web site.
+      </p></div><div class="sect2" title="Working with a Terminal Window"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-live-working-with-terminal-window"></a>Working with a Terminal Window</h3></div></div></div><p>
+      Many commands in GNU/Linux are executed in a terminal window.
+      </p><p>
+      Following is a brief description of how to open a terminal
+      window, enter commands, and close the terminal window.
         </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
-            Double-click the <span class="guibutton">Terminal</span> icon in
-            the upper left hand side of the desktop.  This will open a
-            terminal window.
+            To open a terminal window, double-click the
+            <span class="guibutton">Terminal</span> icon in the upper left
+            hand side of the desktop.
+            </p><div class="figure"><a name="gparted-live-terminal-window"></a><p class="title"><b>Figure 7. Terminal Window</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-terminal-window.png" target="_top">
+                <span class="inlinemediaobject"><img src="figures/gparted-live-terminal-window.png" width="510" alt="Shows terminal window with default prompt."></span>
+              </a></div></div><br class="figure-break"></li><li class="listitem"><p>
+            You can enter commands in the terminal window.  Commands
+            are entered immediately following the <code class="prompt">user@debian$
+            </code> prompt.
+            </p><p>
+            For example, to list the files in a directory with the
+            "ls" command, enter:
+            </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>ls</strong></span></pre><p>
             </p></li><li class="listitem"><p>
-            At the terminal prompt enter the following command:
-            </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>sudo dhclient eth0</strong></span></pre><p>
-            </p><div class="figure"><a name="gparted-live-enable-networking"></a><p class="title"><b>Figure 7. Terminal Window and Command to Enable Networking</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-enable-networking.png" target="_top">
-                <span class="inlinemediaobject"><img src="figures/gparted-live-enable-networking.png" width="510" alt="Shows terminal window with command to enable networking."></span>
-              </a></div></div><br class="figure-break"><p>
-            Wired ethernet TCP/IP networking should now be enabled.
-            </p></li><li class="listitem"><p>
-            Close the terminal window by entering the following
-            command at the terminal prompt:
+            To close the terminal window, enter:
             </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>exit</strong></span></pre><p>
+            </p></li></ol></div><p>
+      </p></div><div class="sect2" title="Capturing a Screenshot"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-live-capturing-screenshot"></a>Capturing a Screenshot</h3></div></div></div><p>
+      To capture a graphic image of a window in a file:
+        </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
+            Double-click the <span class="guibutton">Screenshot</span> icon in
+            the upper left hand side of the desktop.
+            </p></li><li class="listitem"><p>
+            Click the <span class="guibutton">Yes</span> button.  When the
+            mouse pointer changes to a cross-hair, click on the window
+            you wish to capture.
+            </p><div class="figure"><a name="gparted-live-screenshot-prompt"></a><p class="title"><b>Figure 8. Screenshot Prompt</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-screenshot-prompt.png" target="_top">
+                <span class="inlinemediaobject"><img src="figures/gparted-live-screenshot-prompt.png" width="510" alt="Shows window with take screenshot prompt."></span>
+              </a></div></div><br class="figure-break"></li><li class="listitem"><p>
+            A screenshot preview window is displayed.  A screenshot
+            acknowledgement window is also displayed that indicates
+            the screenshot is saved in the file
+            <code class="filename">/home/user/gparted.jpeg</code>.
+            </p><div class="figure"><a name="gparted-live-screenshot-saved"></a><p class="title"><b>Figure 9. Screenshot Saved</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-screenshot-saved.png" target="_top">
+                <span class="inlinemediaobject"><img src="figures/gparted-live-screenshot-saved.png" width="510" alt="Shows window with take screenshot prompt."></span>
+              </a></div></div><br class="figure-break"><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+              Files saved to the root file system in a GParted Live
+              session are lost when you shut down the computer.
+              </p><p>
+              To copy files to more permanent storage see <a class="xref" href="#gparted-live-copying-files-to-other-media" title="Copying Files to Other Media">the section called &#8220;Copying Files to Other Media&#8221;</a>.
+              </p></div></li><li class="listitem"><p>
+            To close the screenshot acknowledgement window click the
+            <span class="guibutton">OK</span> button.
+            </p></li><li class="listitem"><p>
+            To close the screenshot preview window click the
+            <span class="guibutton">X</span> close window icon in the upper
+            right hand corner of the window.
+            </p></li></ol></div><p>
+      </p></div><div class="sect2" title="Saving GParted Details"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-live-saving-gparted-details"></a>Saving GParted Details</h3></div></div></div><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+        Providing the gparted details log file is very helpful when
+        reporting <a class="ulink" href="http://gparted.org/bugs.php" target="_top">bugs</a>, or when
+        asking for help in the <a class="ulink" href="http://gparted.org/forum.php" target="_top">forum</a>.
+        </p></div><p>
+      To save the details from applying operations:
+        </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
+            Click the <span class="guibutton">Save Details</span> button in
+            the Applying pending operations window.
+            </p><div class="figure"><a name="gparted-live-applying-pending-operations"></a><p class="title"><b>Figure 10. Applying Pending Operations Window</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-applying-pending-operations.png" target="_top">
+                <span class="inlinemediaobject"><img src="figures/gparted-live-applying-pending-operations.png" width="510" alt="Shows applying pending operations window with all operations completed."></span>
+              </a></div></div><br class="figure-break"></li><li class="listitem"><p>
+            Click the <span class="guibutton">Save</span> button to save the
+            operation details in the file
+            <code class="filename">/root/gparted_details.htm</code> .
+            </p><div class="figure"><a name="gparted-live-save-details"></a><p class="title"><b>Figure 11. Save Details Window</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-save-details.png" target="_top">
+                <span class="inlinemediaobject"><img src="figures/gparted-live-save-details.png" width="510" alt="Shows save details window with gparted_details.htm filename and /root directory selected."></span>
+              </a></div></div><br class="figure-break"><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+              Files saved to the root file system in a GParted Live
+              session are lost when you shut down the computer.
+              </p><p>
+              To copy files to more permanent storage see <a class="xref" href="#gparted-live-copying-files-to-other-media" title="Copying Files to Other Media">the section called &#8220;Copying Files to Other Media&#8221;</a>.
+              </p></div></li><li class="listitem"><p>
+            To close the applying pending operations window click the
+            <span class="guibutton">Close</span> button.
+            </p></li></ol></div><p>
+      </p></div><div class="sect2" title="Copying Files to Other Media"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-live-copying-files-to-other-media"></a>Copying Files to Other Media</h3></div></div></div><p>
+      In a GParted Live session the root file system exists in RAM
+      memory. All files saved to this file system will be lost when
+      you shut down the computer.
+      </p><p>
+      Following are instructions on how to copy files to more
+      permanent storage media.
+      </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+        A terminal window is required for the following instructions.
+        See <a class="xref" href="#gparted-live-working-with-terminal-window" title="Working with a Terminal Window">the section called &#8220;Working with a Terminal Window&#8221;</a>.
+        </p></div><div class="sect3" title="Copying to USB Flash Drive"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-live-copying-to-usb-flash-drive"></a>Copying to USB Flash Drive</h4></div></div></div><p>
+          </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
+              Create a mount point directory by entering:
+              </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>sudo mkdir /tmp/myusb</strong></span></pre><p>
+              </p></li><li class="listitem"><p>
+              Insert the USB flash drive into an open USB port.
+              </p></li><li class="listitem"><p>
+              To determine the USB device name, enter:
+              </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>dmesg</strong></span></pre><p>
+              </p><div class="figure"><a name="gparted-live-dmesg-after-insert-usb-flash-drive"></a><p class="title"><b>Figure 12. Command dmesg Output</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-dmesg-after-insert-usb-flash-drive.png" target="_top">
+                  <span class="inlinemediaobject"><img src="figures/gparted-live-dmesg-after-insert-usb-flash-drive.png" width="510" alt="Shows dmesg output after insertion of USB flash drive."></span>
+                </a></div></div><br class="figure-break"></li><li class="listitem"><p>
+              Visually search through the last few lines of dmesg
+              output to find the device name.  The device name should
+              be in the form "sdX" where "X" is a lower case letter.
+              </p><p>
+              In the above example, the device name is "sdc".
+              </p></li><li class="listitem"><p>
+              Mount the USB flash device.
+              </p><p>
+              For example, if the device name is "sdc", enter:
+              </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>sudo mount /dev/sdc /tmp/myusb</strong></span></pre><p>
+              </p></li><li class="listitem"><p>
+              To copy a file, such as
+              <code class="filename">/root/gparted_details.htm</code>, enter:
+              </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>sudo cp /root/gparted_details.htm /tmp/myusb</strong></span></pre><p>
+              </p></li><li class="listitem"><p>
+              When you are finished copying files, unmount the USB
+              flash drive by entering:
+              </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>sudo umount /tmp/myusb</strong></span></pre><p>
+              </p></li><li class="listitem"><p>
+              Remove the USB flash drive from the computer.
+              </p></li></ol></div><p>
+        </p></div><div class="sect3" title="Copying to Hard Drive Partition"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-live-copying-to-hard-drive-partition"></a>Copying to Hard Drive Partition</h4></div></div></div><p>
+          </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
+              Create a mount point directory by entering:
+              </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>sudo mkdir /tmp/myhd</strong></span></pre><p>
+              </p></li><li class="listitem"><p>
+              Mount the hard drive partition.  For example, to mount
+              the first partition sda1:
+               </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+                    To mount an NTFS partition, enter:
+                    </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>sudo mount -t ntfs-3g /dev/sda1 /tmp/myhd</strong></span></pre><p>
+                    </p></li><li class="listitem"><p>
+                    To mount other partitions, such as ext2 or fat32,
+                    enter:
+                    </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>sudo mount /dev/sda1 /tmp/myhd</strong></span></pre><p>
+                    </p></li></ul></div><p>
+              </p></li><li class="listitem"><p>
+              To copy a file, such as
+              <code class="filename">/root/gparted_details.htm</code>, enter:
+              </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>sudo cp /root/gparted_details.htm /tmp/myhd</strong></span></pre><p>
+              </p></li><li class="listitem"><p>
+              When you are finished copying files, unmount the hard
+              drive partition by entering:
+              </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>sudo umount /tmp/myhd</strong></span></pre><p>
+              </p></li></ol></div><p>
+        </p></div><div class="sect3" title="Copying to Floppy Disk"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-live-copying-to-floppy-disk"></a>Copying to Floppy Disk</h4></div></div></div><p>
+          </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
+              Create a mount point directory by entering:
+              </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>sudo mkdir /tmp/myfloppy</strong></span></pre><p>
+              </p></li><li class="listitem"><p>
+              Insert the floppy disk into the floppy drive.
+              </p></li><li class="listitem"><p>
+              Mount the floppy disk by entering:
+              </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>sudo mount /dev/fd0 /tmp/myfloppy</strong></span></pre><p>
+              </p></li><li class="listitem"><p>
+              To copy a file, such as
+              <code class="filename">/root/gparted_details.htm</code>, enter:
+              </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>sudo cp /root/gparted_details.htm /tmp/myfloppy</strong></span></pre><p>
+              </p></li><li class="listitem"><p>
+              When you are finished copying files, unmount the floppy
+              disk by entering:
+              </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>sudo umount /tmp/myfloppy</strong></span></pre><p>
+              </p></li><li class="listitem"><p>
+              Eject the floppy disk from the floppy drive.
+              </p></li></ol></div><p>
+        </p></div></div><div class="sect2" title="Changing Screen Resolution"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-live-changing-screen-resolution"></a>Changing Screen Resolution</h3></div></div></div><div class="caution" title="Caution" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Caution</h3><p>
+        Do not change the screen resolution while GParted is applying
+        operations.  This might cause loss of data.
+        </p></div><p>
+      To change the screen resolution:
+        </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
+            Double-click the <span class="guibutton">Screen resolution</span>
+            icon at the top of the desktop.
+            </p></li><li class="listitem"><p>
+            Choose a screen resolution and refresh frequency by
+            clicking the <span class="guibutton">Modes</span> drop down
+            list button and selecting an appropriate entry.
+            </p><div class="figure"><a name="gparted-live-screen-resolution"></a><p class="title"><b>Figure 13. Screen Resolution Window</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-screen-resolution.png" target="_top">
+                <span class="inlinemediaobject"><img src="figures/gparted-live-screen-resolution.png" width="510" alt="Shows screen resolution window."></span>
+              </a></div></div><br class="figure-break"></li><li class="listitem"><p>
+            Click the <span class="guibutton">Apply</span> button.
+            </p></li></ol></div><p>
+      </p></div><div class="sect2" title="Enabling Network Access"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-live-enabling-network-access"></a>Enabling Network Access</h3></div></div></div><p>
+      To enable wired ethernet TCP/IP networking:
+        </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
+            At the terminal prompt enter:
+            </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>sudo dhclient eth0</strong></span></pre><p>
+            </p></li><li class="listitem"><p>
+            Wired ethernet TCP/IP networking should now be enabled.
+            </p><p>
+            Network commands, such as "scp" to securely copy files,
+            should now work properly.
             </p></li></ol></div><p>
       </p></div></div><div class="sect1" title="Finishing GParted Live Session"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-live-finishing-gparted-live-session"></a>Finishing GParted Live Session</h2></div></div></div><p>
     This section describes how to finish your GParted Live session.
@@ -148,12 +332,12 @@
             Select the
             <span class="guimenu">Shutdown</span> entry
             and click <span class="guibutton">OK</span>.
-            </p><div class="figure"><a name="gparted-live-shutdown-prompt"></a><p class="title"><b>Figure 8. Shutdown Prompt</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-shutdown-prompt.png" target="_top">
+            </p><div class="figure"><a name="gparted-live-shutdown-prompt"></a><p class="title"><b>Figure 14. Shutdown Prompt</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-shutdown-prompt.png" target="_top">
                 <span class="inlinemediaobject"><img src="figures/gparted-live-shutdown-prompt.png" width="510" alt="Shows window with shutdown prompt."></span>
               </a></div></div><br class="figure-break"></li><li class="listitem"><p>
             When prompted, remove the CD-ROM disc or USB flash drive
             and press the <span class="keycap"><strong>Enter</strong></span> key.
-            </p><div class="figure"><a name="gparted-live-shutdown-remove-disc-prompt"></a><p class="title"><b>Figure 9. Remove Disc Prompt</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-shutdown-remove-disc-prompt.png" target="_top">
+            </p><div class="figure"><a name="gparted-live-shutdown-remove-disc-prompt"></a><p class="title"><b>Figure 15. Remove Disc Prompt</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-shutdown-remove-disc-prompt.png" target="_top">
                 <span class="inlinemediaobject"><img src="figures/gparted-live-shutdown-remove-disc-prompt.png" width="510" alt="Shows screen with remove disc prompt."></span>
               </a></div></div><br class="figure-break"></li><li class="listitem"><p>
             Your computer will shut down.
@@ -176,7 +360,7 @@
             screen.  On other computers it might be the
             <span class="keycap"><strong>Delete</strong></span> key, the <span class="keycap"><strong>Insert</strong></span>
             key, the <span class="keycap"><strong>F9</strong></span> key, or some other key.
-            </p><div class="figure"><a name="gparted-live-bios-setup-prompt"></a><p class="title"><b>Figure 10. BIOS Setup Prompt</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-bios-setup-prompt.png" target="_top">
+            </p><div class="figure"><a name="gparted-live-bios-setup-prompt"></a><p class="title"><b>Figure 16. BIOS Setup Prompt</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-bios-setup-prompt.png" target="_top">
                 <span class="inlinemediaobject"><img src="figures/gparted-live-bios-setup-prompt.png" width="510" alt="Shows screen with prompt to enter BIOS setup."></span>
               </a></div></div><br class="figure-break"><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
               If you do not see a screen that indicates the key to
@@ -194,14 +378,14 @@
             Change the BIOS boot order so that CD-ROM and removable
             devices, such as a USB flash drive, are earlier in the
             boot order than hard disk drives.
-            </p><div class="figure"><a name="gparted-live-bios-setup-boot-order"></a><p class="title"><b>Figure 11. BIOS Setup Boot Order</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-bios-setup-boot-order.png" target="_top">
+            </p><div class="figure"><a name="gparted-live-bios-setup-boot-order"></a><p class="title"><b>Figure 17. BIOS Setup Boot Order</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-bios-setup-boot-order.png" target="_top">
                 <span class="inlinemediaobject"><img src="figures/gparted-live-bios-setup-boot-order.png" width="510" alt="Shows screen with display of BIOS device boot order."></span>
               </a></div></div><br class="figure-break"></li></ol></div><p>
       </p></div><div class="sect2" title="Saving BIOS settings"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-live-saving-bios-settings"></a>Saving BIOS settings</h3></div></div></div><p>
         </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
             Follow the on-screen instructions to save the BIOS
             settings.
-            </p><div class="figure"><a name="gparted-live-bios-save-settings"></a><p class="title"><b>Figure 12. BIOS Save Settings</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-bios-save-settings.png" target="_top">
+            </p><div class="figure"><a name="gparted-live-bios-save-settings"></a><p class="title"><b>Figure 18. BIOS Save Settings</b></p><div class="figure-contents"><a class="ulink" href="figures/gparted-live-bios-save-settings.png" target="_top">
                 <span class="inlinemediaobject"><img src="figures/gparted-live-bios-save-settings.png" width="510" alt="Shows screen for saving BIOS settings."></span>
               </a></div></div><br class="figure-break"></li><li class="listitem"><p>
             Your computer will reboot after saving the BIOS settings.

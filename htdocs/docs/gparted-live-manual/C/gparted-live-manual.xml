@@ -3,7 +3,7 @@
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
   <!ENTITY appversion "0.10.0">
   <!ENTITY liveversion "0.10.0-3">
-  <!ENTITY manrevision "1.0">
+  <!ENTITY manrevision "1.1">
   <!ENTITY date "November 2011">
   <!ENTITY app "gparted">
   <!ENTITY appname "GParted">
@@ -102,6 +102,19 @@
 <!-- modifying/reusing someone else's document.  If not, you can omit it. -->
     <revhistory>
       <revision>
+        <revnumber>&livename; Manual V1.1</revnumber>
+        <date>November 2011</date>
+        <revdescription>
+          <para role="author">Curtis Gedak</para>
+          <para role="publisher">&appname; Project</para>
+          <para role="annotations">
+          Add sections for Working with a Terminal Window, Capturing a
+          Screenshot, Saving GParted Details, Copying Files to Other
+          Media, and Changing Screen Resolution.
+          </para>
+        </revdescription> 
+      </revision>
+      <revision>
         <revnumber>&livename; Manual V1.0</revnumber>
         <date>November 2011</date>
         <revdescription>
@@ -144,6 +157,13 @@
     This manual describes how to use the &livename; image, from boot up
     to shut down.
     </para>
+    <tip>
+      <para>
+      To learn how to write the &livename; image to removable media,
+      such as CD-ROM or a USB flash drive, see
+      <ulink type="http" url="http://gparted.org/livecd.php"/>.
+      </para>
+    </tip>
   </sect1>
   
 <!-- ============= Booting GParted Live ============================== -->
@@ -156,13 +176,6 @@
     If your computer does not boot from CD-ROM discs or USB flash
     drives, then see <xref linkend="gparted-live-preparing-bios"/>.
     </para>
-    <tip>
-      <para>
-      To learn how to write the &livename; image to removable media,
-      such as CD-ROM or a USB flash drive, see
-      <ulink type="http" url="http://gparted.org/livecd.php"/>.
-      </para>
-    </tip>
 
 <!-- ============= Booting from Removable Media ====================== -->
     <sect2 id="gparted-live-booting-from-removable-media">
@@ -177,16 +190,16 @@
             <itemizedlist>
               <listitem>
                 <para>
-                If you are using a USB flash drive, then insert the
-                flash drive into an open USB port and turn on the
-                power for your computer.
+                If using a USB flash drive, insert the USB flash drive
+                into an open USB port and turn on the power for your
+                computer.
                 </para>
               </listitem>
               <listitem>
                 <para>
-                If you are using a CD-ROM disc, then turn on the power
-                for your computer and quickly insert the CD-ROM disc in
-                the CD-ROM tray of your computer.
+                If using a CD-ROM disc, turn on the power for your
+                computer and quickly insert the CD-ROM disc in the
+                CD-ROM tray of your computer.
                 </para>
               </listitem>
             </itemizedlist>
@@ -229,12 +242,11 @@
               <keycap>Enter</keycap> key to activate the mode.
               </para>
               <para>
-              For example, to be able to use your CD-ROM R/W tray
-              after booting &livename; select the
-              <menuchoice><guimenu>Other modes of
-              &livename;</guimenu></menuchoice> entry, and then select
-              the <menuchoice><guimenu>To RAM</guimenu></menuchoice>
-              entry.
+              For example, to use your CD-ROM R/W tray after booting
+              &livename; select the <menuchoice><guimenu>Other modes
+              of &livename;</guimenu></menuchoice> entry, and then
+              select the <menuchoice><guimenu>To
+              RAM</guimenu></menuchoice> entry.
               </para>
               <para>
               To return to the default &livename; boot screen, press
@@ -429,9 +441,540 @@
       to the &appname; Application Help Manual.
       </para>
       <para>
-      The &appname; Manual is available on the documentation page of
-      the &appname; web site.  See <ulink type="http"
-      url="http://gparted.org/documentation.php"/>.
+      The &appname; Manual is available on the <ulink type="http"
+      url="http://gparted.org/documentation.php">documentation
+      page</ulink> of the &appname; web site.
+      </para>
+    </sect2>
+
+<!-- ============= Working with Terminal Window ====================== -->
+    <sect2 id="gparted-live-working-with-terminal-window">
+
+      <title>Working with a Terminal Window</title>
+      <para>
+      Many commands in GNU/Linux are executed in a terminal window.
+      </para>
+      <para>
+      Following is a brief description of how to open a terminal
+      window, enter commands, and close the terminal window.
+        <orderedlist>
+          <listitem>
+            <para>
+            To open a terminal window, double-click the
+            <guibutton>Terminal</guibutton> icon in the upper left
+            hand side of the desktop.
+            </para>
+            <!-- ==== Figure ==== -->
+            <!-- The GNOME Documentation Project recommends a maximum image
+                 width of 510 pixels.
+                 http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
+            -->
+            <figure id="gparted-live-terminal-window">
+              <title>Terminal Window</title>
+              <ulink type="http"
+                     url="figures/gparted-live-terminal-window.png">
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata 
+                      fileref="figures/gparted-live-terminal-window.png"
+                      width="510px" scalefit="1"
+                      format="PNG"/>
+                    </imageobject>
+                  <textobject>
+                    <phrase>
+                    Shows terminal window with default prompt.
+                    </phrase>
+                  </textobject>
+                </inlinemediaobject>
+              </ulink>
+            </figure>
+          </listitem>
+          <listitem>
+            <para>
+            You can enter commands in the terminal window.  Commands
+            are entered immediately following the <prompt>user@debian$
+            </prompt> prompt.
+            </para>
+            <para>
+            For example, to list the files in a directory with the
+            "ls" command, enter:
+            <screen><prompt>user@debian:~$ </prompt><command>ls</command></screen>
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+            To close the terminal window, enter:
+            <screen><prompt>user@debian:~$ </prompt><command>exit</command></screen>
+            </para>
+          </listitem>
+        </orderedlist>
+      </para>
+    </sect2>
+
+<!-- ============= Capturing Screenshot ============================== -->
+    <sect2 id="gparted-live-capturing-screenshot">
+
+      <title>Capturing a Screenshot</title>
+      <para>
+      To capture a graphic image of a window in a file:
+        <orderedlist>
+          <listitem>
+            <para>
+            Double-click the <guibutton>Screenshot</guibutton> icon in
+            the upper left hand side of the desktop.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+            Click the <guibutton>Yes</guibutton> button.  When the
+            mouse pointer changes to a cross-hair, click on the window
+            you wish to capture.
+            </para>
+            <!-- ==== Figure ==== -->
+            <!-- The GNOME Documentation Project recommends a maximum image
+                 width of 510 pixels.
+                 http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
+            -->
+            <figure id="gparted-live-screenshot-prompt">
+              <title>Screenshot Prompt</title>
+              <ulink type="http"
+                     url="figures/gparted-live-screenshot-prompt.png">
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata 
+                      fileref="figures/gparted-live-screenshot-prompt.png"
+                      width="510px" scalefit="1"
+                      format="PNG"/>
+                    </imageobject>
+                  <textobject>
+                    <phrase>
+                    Shows window with take screenshot prompt.
+                    </phrase>
+                  </textobject>
+                </inlinemediaobject>
+              </ulink>
+            </figure>
+          </listitem>
+          <listitem>
+            <para>
+            A screenshot preview window is displayed.  A screenshot
+            acknowledgement window is also displayed that indicates
+            the screenshot is saved in the file
+            <filename>/home/user/gparted.jpeg</filename>.
+            </para>
+            <!-- ==== Figure ==== -->
+            <!-- The GNOME Documentation Project recommends a maximum image
+                 width of 510 pixels.
+                 http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
+            -->
+            <figure id="gparted-live-screenshot-saved">
+              <title>Screenshot Saved</title>
+              <ulink type="http"
+                     url="figures/gparted-live-screenshot-saved.png">
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata 
+                      fileref="figures/gparted-live-screenshot-saved.png"
+                      width="510px" scalefit="1"
+                      format="PNG"/>
+                    </imageobject>
+                  <textobject>
+                    <phrase>
+                    Shows window with take screenshot prompt.
+                    </phrase>
+                  </textobject>
+                </inlinemediaobject>
+              </ulink>
+            </figure>
+            <note>
+              <para>
+              Files saved to the root file system in a &livename;
+              session are lost when you shut down the computer.
+              </para>
+              <para>
+              To copy files to more permanent storage see <xref
+              linkend="gparted-live-copying-files-to-other-media"/>.
+              </para>
+            </note>
+          </listitem>
+          <listitem>
+            <para>
+            To close the screenshot acknowledgement window click the
+            <guibutton>OK</guibutton> button.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+            To close the screenshot preview window click the
+            <guibutton>X</guibutton> close window icon in the upper
+            right hand corner of the window.
+            </para>
+          </listitem>
+        </orderedlist>
+      </para>
+    </sect2>
+
+<!-- ============= Saving GParted Details ============================ -->
+    <sect2 id="gparted-live-saving-gparted-details">
+
+      <title>Saving &appname; Details</title>
+      <tip>
+        <para>
+        Providing the gparted details log file is very helpful when
+        reporting <ulink type="http"
+        url="http://gparted.org/bugs.php">bugs</ulink>, or when
+        asking for help in the <ulink type="http"
+        url="http://gparted.org/forum.php">forum</ulink>.
+        </para>
+      </tip>
+      <para>
+      To save the details from applying operations:
+        <orderedlist>
+          <listitem>
+            <para>
+            Click the <guibutton>Save Details</guibutton> button in
+            the Applying pending operations window.
+            </para>
+            <!-- ==== Figure ==== -->
+            <!-- The GNOME Documentation Project recommends a maximum image
+                 width of 510 pixels.
+                 http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
+            -->
+            <figure id="gparted-live-applying-pending-operations">
+              <title>Applying Pending Operations Window</title>
+              <ulink type="http"
+                     url="figures/gparted-live-applying-pending-operations.png">
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata 
+                      fileref="figures/gparted-live-applying-pending-operations.png"
+                      width="510px" scalefit="1"
+                      format="PNG"/>
+                    </imageobject>
+                  <textobject>
+                    <phrase>
+                    Shows applying pending operations window with
+                    all operations completed.
+                    </phrase>
+                  </textobject>
+                </inlinemediaobject>
+              </ulink>
+            </figure>
+          </listitem>
+          <listitem>
+            <para>
+            Click the <guibutton>Save</guibutton> button to save the
+            operation details in the file
+            <filename>/root/gparted_details.htm</filename> .
+            </para>
+            <!-- ==== Figure ==== -->
+            <!-- The GNOME Documentation Project recommends a maximum image
+                 width of 510 pixels.
+                 http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
+            -->
+            <figure id="gparted-live-save-details">
+              <title>Save Details Window</title>
+              <ulink type="http"
+                     url="figures/gparted-live-save-details.png">
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata 
+                      fileref="figures/gparted-live-save-details.png"
+                      width="510px" scalefit="1"
+                      format="PNG"/>
+                    </imageobject>
+                  <textobject>
+                    <phrase>
+                    Shows save details window with gparted_details.htm
+                    filename and /root directory selected.
+                    </phrase>
+                  </textobject>
+                </inlinemediaobject>
+              </ulink>
+            </figure>
+            <note>
+              <para>
+              Files saved to the root file system in a &livename;
+              session are lost when you shut down the computer.
+              </para>
+              <para>
+              To copy files to more permanent storage see <xref
+              linkend="gparted-live-copying-files-to-other-media"/>.
+              </para>
+            </note>
+          </listitem>
+	  <listitem>
+            <para>
+            To close the applying pending operations window click the
+            <guibutton>Close</guibutton> button.
+            </para>
+          </listitem>
+        </orderedlist>
+      </para>
+    </sect2>
+
+<!-- ============= Copying Files to Other Media ====================== -->
+    <sect2 id="gparted-live-copying-files-to-other-media">
+
+      <title>Copying Files to Other Media</title>
+      <para>
+      In a &livename; session the root file system exists in RAM
+      memory. All files saved to this file system will be lost when
+      you shut down the computer.
+      </para>
+      <para>
+      Following are instructions on how to copy files to more
+      permanent storage media.
+      </para>
+      <note>
+        <para>
+        A terminal window is required for the following instructions.
+        See <xref linkend="gparted-live-working-with-terminal-window"/>.
+        </para>
+      </note>
+
+<!-- ============= Copying to USB Flash Drive ======================== -->
+      <sect3 id="gparted-live-copying-to-usb-flash-drive">
+        <title>Copying to USB Flash Drive</title>
+        <para>
+          <orderedlist>
+            <listitem>
+              <para>
+              Create a mount point directory by entering:
+              <screen><prompt>user@debian:~$ </prompt><command>sudo mkdir /tmp/myusb</command></screen>
+              </para>
+            </listitem>
+	    <listitem>
+              <para>
+              Insert the USB flash drive into an open USB port.
+              </para>
+            </listitem>
+	    <listitem>
+              <para>
+              To determine the USB device name, enter:
+              <screen><prompt>user@debian:~$ </prompt><command>dmesg</command></screen>
+              </para>
+              <!-- ==== Figure ==== -->
+              <!-- The GNOME Documentation Project recommends a maximum image
+                   width of 510 pixels.
+                   http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
+              -->
+              <figure id="gparted-live-dmesg-after-insert-usb-flash-drive">
+                <title>Command dmesg Output</title>
+                <ulink type="http"
+                       url="figures/gparted-live-dmesg-after-insert-usb-flash-drive.png">
+                  <inlinemediaobject>
+                    <imageobject>
+                      <imagedata 
+                        fileref="figures/gparted-live-dmesg-after-insert-usb-flash-drive.png"
+                        width="510px" scalefit="1"
+                        format="PNG"/>
+                      </imageobject>
+                    <textobject>
+                      <phrase>
+                      Shows dmesg output after insertion of USB flash
+                      drive.
+                      </phrase>
+                    </textobject>
+                  </inlinemediaobject>
+                </ulink>
+              </figure>
+            </listitem>
+	    <listitem>
+	      <para>
+              Visually search through the last few lines of dmesg
+              output to find the device name.  The device name should
+              be in the form "sdX" where "X" is a lower case letter.
+              </para>
+              <para>
+              In the above example, the device name is "sdc".
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+              Mount the USB flash device.
+              </para>
+              <para>
+              For example, if the device name is "sdc", enter:
+              <screen><prompt>user@debian:~$ </prompt><command>sudo mount /dev/sdc /tmp/myusb</command></screen>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+              To copy a file, such as
+              <filename>/root/gparted_details.htm</filename>, enter:
+              <screen><prompt>user@debian:~$ </prompt><command>sudo cp /root/gparted_details.htm /tmp/myusb</command></screen>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+              When you are finished copying files, unmount the USB
+              flash drive by entering:
+              <screen><prompt>user@debian:~$ </prompt><command>sudo umount /tmp/myusb</command></screen>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+              Remove the USB flash drive from the computer.
+              </para>
+            </listitem>
+          </orderedlist>
+        </para>
+      </sect3>
+
+<!-- ============= Copying to Hard Drive Partition =================== -->
+      <sect3 id="gparted-live-copying-to-hard-drive-partition">
+        <title>Copying to Hard Drive Partition</title>
+        <para>
+          <orderedlist>
+            <listitem>
+              <para>
+              Create a mount point directory by entering:
+              <screen><prompt>user@debian:~$ </prompt><command>sudo mkdir /tmp/myhd</command></screen>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+              Mount the hard drive partition.  For example, to mount
+              the first partition sda1:
+               <itemizedlist>
+		  <listitem>
+                    <para>
+                    To mount an NTFS partition, enter:
+                    <screen><prompt>user@debian:~$ </prompt><command>sudo mount -t ntfs-3g /dev/sda1 /tmp/myhd</command></screen>
+                    </para>
+                  </listitem>
+		  <listitem>
+                    <para>
+                    To mount other partitions, such as ext2 or fat32,
+                    enter:
+                    <screen><prompt>user@debian:~$ </prompt><command>sudo mount /dev/sda1 /tmp/myhd</command></screen>
+                    </para>
+                  </listitem>
+                </itemizedlist>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+              To copy a file, such as
+              <filename>/root/gparted_details.htm</filename>, enter:
+              <screen><prompt>user@debian:~$ </prompt><command>sudo cp /root/gparted_details.htm /tmp/myhd</command></screen>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+              When you are finished copying files, unmount the hard
+              drive partition by entering:
+              <screen><prompt>user@debian:~$ </prompt><command>sudo umount /tmp/myhd</command></screen>
+              </para>
+            </listitem>
+          </orderedlist>
+        </para>
+      </sect3>
+
+<!-- ============= Copying to Floppy Disk ============================ -->
+      <sect3 id="gparted-live-copying-to-floppy-disk">
+        <title>Copying to Floppy Disk</title>
+        <para>
+          <orderedlist>
+            <listitem>
+              <para>
+              Create a mount point directory by entering:
+              <screen><prompt>user@debian:~$ </prompt><command>sudo mkdir /tmp/myfloppy</command></screen>
+              </para>
+            </listitem>
+	    <listitem>
+              <para>
+              Insert the floppy disk into the floppy drive.
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+              Mount the floppy disk by entering:
+              <screen><prompt>user@debian:~$ </prompt><command>sudo mount /dev/fd0 /tmp/myfloppy</command></screen>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+              To copy a file, such as
+              <filename>/root/gparted_details.htm</filename>, enter:
+              <screen><prompt>user@debian:~$ </prompt><command>sudo cp /root/gparted_details.htm /tmp/myfloppy</command></screen>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+              When you are finished copying files, unmount the floppy
+              disk by entering:
+              <screen><prompt>user@debian:~$ </prompt><command>sudo umount /tmp/myfloppy</command></screen>
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+              Eject the floppy disk from the floppy drive.
+              </para>
+            </listitem>
+          </orderedlist>
+        </para>
+      </sect3>
+
+    </sect2>
+
+<!-- ============= Changing Screen Resolution ======================== -->
+    <sect2 id="gparted-live-changing-screen-resolution">
+
+      <title>Changing Screen Resolution</title>
+      <caution>
+        <para>
+        Do not change the screen resolution while GParted is applying
+        operations.  This might cause loss of data.
+        </para>
+      </caution>
+      <para>
+      To change the screen resolution:
+        <orderedlist>
+          <listitem>
+            <para>
+            Double-click the <guibutton>Screen resolution</guibutton>
+            icon at the top of the desktop.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+            Choose a screen resolution and refresh frequency by
+            clicking the <guibutton>Modes</guibutton> drop down
+            list button and selecting an appropriate entry.
+            </para>
+            <!-- ==== Figure ==== -->
+            <!-- The GNOME Documentation Project recommends a maximum image
+                 width of 510 pixels.
+                 http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
+            -->
+            <figure id="gparted-live-screen-resolution">
+              <title>Screen Resolution Window</title>
+              <ulink type="http"
+                     url="figures/gparted-live-screen-resolution.png">
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata 
+                      fileref="figures/gparted-live-screen-resolution.png"
+                      width="510px" scalefit="1"
+                      format="PNG"/>
+                    </imageobject>
+                  <textobject>
+                    <phrase>
+                    Shows screen resolution window.
+                    </phrase>
+                  </textobject>
+                </inlinemediaobject>
+              </ulink>
+            </figure>
+          </listitem>
+          <listitem>
+            <para>
+            Click the <guibutton>Apply</guibutton> button.
+            </para>
+          </listitem>
+        </orderedlist>
       </para>
     </sect2>
 
@@ -440,53 +983,21 @@
 
       <title>Enabling Network Access</title>
       <para>
-      To enable wired ethernet TCP/IP networking on your computer:
+      To enable wired ethernet TCP/IP networking:
         <orderedlist>
           <listitem>
             <para>
-            Double-click the <guibutton>Terminal</guibutton> icon in
-            the upper left hand side of the desktop.  This will open a
-            terminal window.
+            At the terminal prompt enter:
+            <screen><prompt>user@debian:~$ </prompt><command>sudo dhclient eth0</command></screen>
             </para>
           </listitem>
           <listitem>
-            <para>
-            At the terminal prompt enter the following command:
-            <screen><prompt>user@debian:~$ </prompt><command>sudo dhclient eth0</command></screen>
-            </para>
-            <!-- ==== Figure ==== -->
-            <!-- The GNOME Documentation Project recommends a maximum image
-                 width of 510 pixels.
-                 http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
-            -->
-            <figure id="gparted-live-enable-networking">
-              <title>Terminal Window and Command to Enable Networking</title>
-              <ulink type="http"
-                     url="figures/gparted-live-enable-networking.png">
-                <inlinemediaobject>
-                  <imageobject>
-                    <imagedata 
-                      fileref="figures/gparted-live-enable-networking.png"
-                      width="510px" scalefit="1"
-                      format="PNG"/>
-                    </imageobject>
-                  <textobject>
-                    <phrase>
-                    Shows terminal window with command to enable networking.
-                    </phrase>
-                  </textobject>
-                </inlinemediaobject>
-              </ulink>
-            </figure>
             <para>
             Wired ethernet TCP/IP networking should now be enabled.
             </para>
-          </listitem>
-          <listitem>
             <para>
-            Close the terminal window by entering the following
-            command at the terminal prompt:
-            <screen><prompt>user@debian:~$ </prompt><command>exit</command></screen>
+            Network commands, such as "scp" to securely copy files,
+            should now work properly.
             </para>
           </listitem>
         </orderedlist>
@@ -494,6 +1005,7 @@
     </sect2>
 
   </sect1>
+<!-- ============= End of Copying Files to Other Media =============== -->
 
 <!-- ============= Finishing GParted Live Session ==================== -->
   <sect1 id="gparted-live-finishing-gparted-live-session">
