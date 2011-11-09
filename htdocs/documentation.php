@@ -88,7 +88,7 @@ gnome_menu();
     <li><a href="http://www.dedoimedo.com/computers/gparted.html">GParted
     partitioning software - Full Tutorial</a></li>
     <li><a href="http://www.howtogeek.com/howto/windows-vista/using-gparted-to-resize-your-windows-vista-partition/">Using
-    GParted to Resize Your Windows Vista Partition</a></li>
+    GParted to Resize Your Windows 7 or Vista Partition</a></li>
     <li><a href="http://en.wikipedia.org/wiki/GParted">GParted Wikipedia
     Doc</a></li>
     <li><a href="./docs/sw-req-spec/C/Software_Requirements_Specification_-_GParted.pdf">Software Requirements Specification for GParted (PDF)</a></li>
