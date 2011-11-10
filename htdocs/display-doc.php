@@ -68,12 +68,14 @@ else
   // Remove stuff after </body[^>]*> if html exists
   $filecontents = preg_replace( '&</body[^>]*>.*$&si', '', $filecontents );
 
-  // Remove <div class="revhistory"> section if it exists
+  // Display only one entry in <div class="revhistory"> section if it exists
   //   Usually found in html files generated from docbook xml files
   //   with the command:
   //     xmlto html-nochunks file.xml
-  $pattern = '&<div[\s]*class="revhistory"><table(.*)?</table></div>&si';
-  $filecontents = preg_replace( $pattern, '', $filecontents );
+  $pattern = '&(<div[\s]*class="revhistory"><table.*?<tr>.*?</tr>' 
+           . '<tr>.*?</tr>)(.*?)(</table></div>)&si';
+  $replacement = '${1}${3}';
+  $filecontents = preg_replace( $pattern, $replacement, $filecontents );
 
   // Fix up img tag src="" paths
   $pattern = '&(<img[^>]*src=")([^"\s]*)([^>]*>)&si';
