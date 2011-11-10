@@ -1314,36 +1314,6 @@ We are grateful for all donations.<br>
 	<td><i>50 Euros Balance</i></td>
 </tr>
 </table>
-<br>
-<h3>Expenses</h3>
-<table border=1>
-<tr>
-	<th><b>Date</b></th>
-	<th><b>Description</b></th>
-	<th><b>Amount</b></th>
-</tr>
-<tr>
-	<td>2011-07-20</td>
-	<td>Domain name gparted.org year renewal</td>
-	<td>10 USD</td>
-</tr>
-<tr>
-	<td>2010-07-06</td>
-	<td>Domain name gparted.org year renewal</td>
-	<td>9 USD</td>
-</tr>
-<tr>
-	<td>2009-08-11</td>
-	<td>Domain name gparted.org transfer</td>
-	<td>8 USD</td>
-</tr>
-</table>
-<br>
-
-<h3>Prior Donations</h3>
-<a href="donations-2008.php">Prior Donations 2008</a><br>
-<a href="donations-2006.php">Prior Donations 2006</a><br>
-
 
 </div>
 

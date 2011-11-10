@@ -1,5 +1,3 @@
 User-agent: *
 Disallow: /donations.php
-Disallow: /donations-2008.php
-Disallow: /donations-2006.php
 Disallow: /donations
