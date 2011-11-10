@@ -740,7 +740,7 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<a href="http://oss.sgi.com/projects/xfs/" target=new>xfsprogs</a>
+		<a href="http://oss.sgi.com/projects/xfs/" target=new>xfsprogs</a>, xfsdump
 	</td>
 </tr>
 </table>
