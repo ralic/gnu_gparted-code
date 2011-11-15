@@ -343,7 +343,7 @@ gnome_menu();
 		<sup><a href="#mtools">[6]</a></sup>
 	</td>
 	<td>
-		<a href="ftp://ftp.uni-erlangen.de/pub/Linux/LOCAL/dosfstools" target=new>dosfstools</a>
+		<a href="http://www.daniel-baumann.ch/software/dosfstools/" target=new>dosfstools</a>
 	</td>
 </tr>
 <tr style="background-color: #dddddd;">
@@ -382,7 +382,7 @@ gnome_menu();
 		<sup><a href="#mtools">[6]</a></sup>
 	</td>
 	<td>
-		<a href="ftp://ftp.uni-erlangen.de/pub/Linux/LOCAL/dosfstools" target=new>dosfstools</a>
+		<a href="http://www.daniel-baumann.ch/software/dosfstools/" target=new>dosfstools</a>
 	</td>
 </tr>
 <tr>
@@ -490,7 +490,7 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<a href="http://www-124.ibm.com/developerworks/oss/jfs/index.html" target=new>jfsutils</a>
+		<a href="http://jfs.sourceforge.net/" target=new>jfsutils</a>
 	</td>
 </tr>
 <tr style="background-color: #dddddd;">
@@ -526,7 +526,7 @@ gnome_menu();
 		<sup><a href="#swaplabel">[8]</a></sup>
 	</td>
 	<td>
-		<a href="http://www.kernel.org/pub/linux/utils/util-linux/" target=new>util-linux</a>
+		<a href="http://en.wikipedia.org/wiki/Util-linux" target=new>util-linux</a>
 	</td>
 </tr>
 <tr>
@@ -632,7 +632,7 @@ gnome_menu();
 		<img src="images/not_supported.png" alt="not supported">
 	</td>
         <td>
-                <a href="http://www.namesys.com/v4/v4.html" target=new>reiser4progs</a>
+                <a href="https://reiser4.wiki.kernel.org/articles/r/e/i/Reiser4progs.html" target=new>reiser4progs</a>
         </td>
 </tr>
 <tr style="background-color: #dddddd;">
@@ -667,7 +667,7 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<a href="http://www.namesys.com" target=new>reiserfsprogs</a>
+		<a href="https://reiser4.wiki.kernel.org/articles/r/e/i/Reiserfsprogs.html" target=new>reiserfsprogs</a>
 	</td>
 </tr>
 <tr>
