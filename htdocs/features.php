@@ -127,7 +127,7 @@ gnome_menu();
 		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<a href="https://btrfs.wiki.kernel.org/index.php/Main_Page" target=new>btrfs-tools</a>
+		<a href="https://btrfs.wiki.kernel.org" target=new>btrfs-tools</a>
 	</td>
 </tr>
 <tr style="background-color: #dddddd;">
