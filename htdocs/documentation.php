@@ -18,10 +18,6 @@ gnome_menu();
 <div class="content">
 <h1>Documentation</h1>
 
-<?
-  include "google/docp-728x90-under-title.inc";
-?>
-
   <table border="0" cellpadding="5px">
     <tr>
       <th>GParted</th>
@@ -81,6 +77,11 @@ gnome_menu();
       <td> </td>
     </tr>
   </table>
+
+  <br>
+<?
+  include "google/docp-728x90-under-title.inc";
+?>
 
 <H3>Third Party Docs</H3>
   <ul>
