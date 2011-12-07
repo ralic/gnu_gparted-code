@@ -22,66 +22,65 @@ gnome_menu();
   include "google/docp-728x90-under-title.inc";
 ?>
 
-<h3>Application Help</h3>
-  <table border="1" cellpadding="5px">
-    <tr> 
-      <th>English</th>
-      <th>Français</th>
-      <th>Español</th>
-      <th>Deutsch</th>
+  <table border="0" cellpadding="5px">
+    <tr>
+      <th>GParted</th>
+      <th>Translations</th>
     </tr>
     <tr>
-      <td><a href="display-doc.php?name=help-manual&lang=C">Help manual</a></td>
-      <td><a href="display-doc.php?name=help-manual&lang=fr">Aide manuel</a></td>
-      <td><a href="display-doc.php?name=help-manual&lang=es">Ayuda manual</a></td>
-      <td><a href="display-doc.php?name=help-manual&lang=de">Hilfe Handbuch</a></td>
-    </tr>
-    <tr>
-      <td><a href="display-doc.php?name=man-page&lang=C">Man page</a></td>
-      <td><a href="display-doc.php?name=man-page&lang=fr">Page de manuel</a>
+      <td valign="top">
+        <a href="display-doc.php?name=help-manual&lang=C">GParted Manual</a>
       </td>
-      <!-- Spanish translation of Man page:  Página de hombre -->
-      <td>&nbsp;</td>
-      <!-- German translation of Man page:  Man Seite -->
-      <td>&nbsp;</td>
-    </tr>
-  </table>
-  <br>
-  <table border="1" cellpadding="5px">
-    <tr> 
-      <th>Italiano</th>
-      <th>Português do Brasil</th>
-      <th>České</th>
-      <th>Română</th>
+      <td valign="top">
+        <a href="display-doc.php?name=help-manual&lang=cs">České</a>,
+        <a href="display-doc.php?name=help-manual&lang=de">Deutsch</a>,
+        <a href="display-doc.php?name=help-manual&lang=es">Español</a>,
+        <a href="display-doc.php?name=help-manual&lang=fr">Français</a>,
+        <a href="display-doc.php?name=help-manual&lang=it">Italiano</a>,
+        <a href="display-doc.php?name=help-manual&lang=pt_BR">Português do Brasil</a>,
+        <a href="display-doc.php?name=help-manual&lang=ro">Română</a>,
+      </td>
     </tr>
     <tr>
-      <td><a href="display-doc.php?name=help-manual&lang=it">Guida manuale</a></td>
-      <td><a href="display-doc.php?name=help-manual&lang=pt_BR">Ajuda Manual</a></td>
-      <td><a href="display-doc.php?name=help-manual&lang=cs">Nápověda k použití</a></td>
-      <td><a href="display-doc.php?name=help-manual&lang=ro">Ajutor manual</a></td>
-    </tr>
-  </table>
-
-<h3>GParted Live Manual</h3>
-  <table border="1" cellpadding="5px">
-    <tr>
-      <th>English</th>
+      <td valign="top">
+        <a href="display-doc.php?name=man-page&lang=C">Manual Page</a>
+      </td>
+      <td valign="top">
+        <a href="display-doc.php?name=man-page&lang=fr">Français</a>
+      </td>
     </tr>
     <tr>
-      <td><a href="display-doc.php?name=gparted-live-manual&lang=C">GParted Live manual</a></td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <th>GParted Live</th>
+      <th>Translations</th>
+    </tr>
+    <tr>
+      <td>
+        <a href="display-doc.php?name=gparted-live-manual&lang=C">GParted Live Manual</a>
+      </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="./liveusb.php">Install on USB</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="./livepxe.php">Install on PXE Server</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="./livehd.php">Install on Hard Disk</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="./create-gparted-live.php">Create GParted Live from Scratch</a>
+      <td> </td>
     </tr>
   </table>
-
-<h3>GParted Live Installation Instructions</h3>
-  <p>        
-    <a href="./liveusb.php">GParted Live on USB</a>
-    <br>
-    <a href="./livepxe.php">GParted Live on PXE server</a>
-    <br>
-    <a href="./livehd.php">GParted Live on Hard Disk</a>
-    <br>
-    <a href="./create-gparted-live.php">Create your own custom GParted Live from scratch</a>
-  </p>
 
 <H3>Third Party Docs</H3>
   <ul>
