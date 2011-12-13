@@ -1,3 +1,19 @@
+13 December 2011
+GParted 0.11.0
+<br>
+This release of GParted adds some volume label improvements, and
+includes bug fixes and language translation updates.<br>
+<br>
+Key changes include:
+<ul>
+<li>Display ext2/3/4, ntfs, and btrfs unicode volume labels properly</li>
+<li>Add labelling of btrfs file systems</li>
+<li>Enable XFS copy to new smaller partition</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.11.0/gparted-0.11.0-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 5 November 2011
 GParted Live Manual 1.0
 <br>

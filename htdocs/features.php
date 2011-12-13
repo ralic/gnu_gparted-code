@@ -124,7 +124,8 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not supported">
+		<img src="images/supported.png" alt="supported">
+		<sup><a href="#btrfs">[10]</a></sup>
 	</td>
 	<td>
 		<a href="https://btrfs.wiki.kernel.org" target=new>btrfs-tools</a>
@@ -754,6 +755,7 @@ gnome_menu();
 <a name="blkid">[7]</a> The blkid command from e2fsprogs v1.41+ is required for ext4 detection.<br>
 <a name="swaplabel">[8]</a> The swaplabel command from util-linux v2.18+ is required to label linux-swap.<br>
 <a name="blkid2">[9]</a> The blkid command from util-linux v2.18+ is required for exfat detection.<br>
+<a name="btrfs">[10]</a> Requires btrfs-tools version released after Oct. 25, 2011 to write labels.<br>
 <br>
 </div>
 
