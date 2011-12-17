@@ -11,23 +11,13 @@
  * menu_entries()       - Only used internally to functions.php
  */
 
-function html_head_basic() {
-srand ((double) microtime() * 1000000);
-$backgroundnumber = rand (1, 5);
-?>
+function html_head_basic() { ?>
   <link rel="icon" href="images/gparted-16.png" type="image/png">
   <link rel="stylesheet" href="css/default.css" type="text/css">
   <style type="text/css">
     <!--
     @import url(http://www.google.com/cse/api/branding.css);
     -->
-    .hdr {
-      background: url("images/<? 
-	echo "background0";
-	echo $backgroundnumber;
-	echo ".png\") no-repeat;";
-?>
-    }
   </style>
 <?
   include "google/google-analytics.inc";

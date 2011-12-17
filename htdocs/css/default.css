@@ -90,8 +90,6 @@ ul.nobullet {
 	height: 48px;
 
 	text-align: left;
-	background-image:url("images/header-bg-hills01.png");
-	background-repeat:no-repeat;
 	background-color: #e3ffc3;
 	border-bottom: 1px solid #666666;
 	z-index: 5;
