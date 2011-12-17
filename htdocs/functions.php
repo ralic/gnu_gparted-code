@@ -88,14 +88,7 @@ function menu_entries() { ?>
 		<ul class="nobullet">
 		<li><a href="download.php"><b>Download</b></a></li>
 		<li><a href="livecd.php">Live CD / USB</a></li>
-		<li><a href="news.php">News</a> <?
-//Dit stukje vist de datum uit de nieuwstekst-spool.
-	$filename = "text/news.text";
-	$fcontents = file($filename);
-	list ($line_num, $line) = each ($fcontents);
-	$line = chop($line);
-	$line = substr($line, 0, strlen($line) - 5);
-	echo "(", $line, ")</li>\n"; ?>
+		<li><a href="news.php">News</a></li>
 		<li><a href="features.php">Features</a></li>
 		<li><a href="screenshots.php">Screenshots</a></li>
 		<li><a href="index.php">About</a></li>
