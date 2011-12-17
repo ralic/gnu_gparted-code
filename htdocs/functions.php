@@ -79,37 +79,12 @@ function menu_entries() { ?>
 	<div class="sectiontitle">GParted</div>
 	<div class="sectioncontent">
 		<ul class="nobullet">
+		<li><a href="index.php">About</a></li>
 		<li><a href="download.php"><b>Download</b></a></li>
 		<li><a href="livecd.php">Live CD / USB</a></li>
-		<li><a href="news.php">News</a></li>
-		<li><a href="features.php">Features</a></li>
-		<li><a href="screenshots.php">Screenshots</a></li>
-		<li><a href="index.php">About</a></li>
-		<li><a href="donations.php">Donate</a></li>
-		</ul>
-	</div>
-</div>
-<div class="section">
-	<div class="sectiontitle">Help</div>
-	<div class="sectioncontent">
-		<ul class="nobullet">
-		<li><a href="documentation.php">Documentation</a></li>
-		<li><a href="faq.php">FAQ</a></li>
-		<li><a href="forum.php">Forum</a></li>
-		<li><a href="bugs.php">Bugs</a></li>
-		<li><a href="contact.php">Contact</a></li>
-		</ul>
-	</div>
-</div>
-<div class="section">
-	<div class="sectiontitle">Development</div>
-	<div class="sectioncontent">
-		<ul class="nobullet">
+		<li><a href="help.php">Help</a></li>
 		<li><a href="development.php">Development</a></li>
-		<li><a href="git.php">Git</a></li>
-		<li><a href="artwork.php">Artwork</a></li>
-		<li><a href="http://sourceforge.net/projects/gparted">SF Project Page</a></li>
-		<li><a href="howtohelp.php">How to help</a></li>
+		<li><a href="donations.php">Donate</a></li>
 		</ul>
 	</div>
 </div>
