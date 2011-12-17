@@ -34,10 +34,13 @@ function html_head() { ?>
 function gnome_head() { ?>
 <div class="hdr">
 	<a href="index.php"><img class="logo" src="images/gparted-64.png" alt="home" title="back to home page"></a>
-	<p>
 	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 	<b>Gnome Partition Editor</b>
-	</p>
+	<div class="right">
+	<?
+	include "google/gparted-search.inc";
+	?>
+	</div>
 </div>
 <?
 }
@@ -108,14 +111,6 @@ function menu_entries() { ?>
 		<li><a href="http://sourceforge.net/projects/gparted">SF Project Page</a></li>
 		<li><a href="howtohelp.php">How to help</a></li>
 		</ul>
-	</div>
-</div>
-<div class="section">
-	<div class="sectiontitle">Site Search</div>
-	<div class="sectioncontent">
-	<?
-	include "google/gparted-search.inc";
-	?>
 	</div>
 </div>
 <?
