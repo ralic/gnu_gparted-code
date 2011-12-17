@@ -105,7 +105,7 @@ function menu_entries() { ?>
 	<div class="sectiontitle">Development</div>
 	<div class="sectioncontent">
 		<ul class="nobullet">
-		<li><a href="dev-status.php">Status</a></li>
+		<li><a href="development.php">Development</a></li>
 		<li><a href="git.php">Git</a></li>
 		<li><a href="artwork.php">Artwork</a></li>
 		<li><a href="http://sourceforge.net/projects/gparted">SF Project Page</a></li>
