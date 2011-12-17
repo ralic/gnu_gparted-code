@@ -31,44 +31,21 @@ With GParted you can resize, copy, and move partitions without data
 loss, enabling you to:<br>
 </p>
 <ul>
-  <li class="step">Grow or shrink your C: drive</li>
-  <li class="step">Create space for new operating systems</li>
-  <li class="step">Attempt data rescue from lost partitions</li>
-</ul>
-<a name="features"></a>
-<h2>Features</h2>
-<ul>
-  <li class="step">Perform actions with partitions such as:
+  <li class="step">Grow or shrink your C: drive
     <div class="right">
       <?
         include "google/hp-336x280-rhs-near-features.inc";
       ?>
     </div>
-    <ul>
-      <li>create or delete</li>
-      <li>resize or move</li>
-      <li>check</li>
-      <li>label</li>
-      <li>copy and paste</li>
-    </ul>
   </li>
-
-  <li class="step">Manipulate file systems such as:
-    <ul>
-      <li>btrfs</li>
-      <li>ext2 / ext3 / ext4</li>
-      <li>fat16 / fat32</li>
-      <li>hfs / hfs+</li>
-      <li>linux-swap</li>
-      <li>ntfs</li>
-      <li>reiserfs / reiser4</li>
-      <li>ufs</li>
-      <li>xfs</li>
-    </ul>
-  For specific actions supported see
-  detailed <a href="features.php">features</a>.
-  </li>
+  <li class="step">Create space for new operating systems</li>
+  <li class="step">Attempt data rescue from lost partitions</li>
 </ul>
+<p>
+Learn more now about GParted <a href="features.php">features</a>, read
+the latest <a href="news.php">news</a>, or
+view <a href="screenshots.php">screenshots</a> of GParted in action.
+</p>
 <h2>Requirements</h2>
 <p>
 GParted can be used on x86 based computers running Linux, Windows, or
