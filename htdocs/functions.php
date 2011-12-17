@@ -1,17 +1,15 @@
 <?
-// Hier komen alle functies te staan die in alle scripts gebruikt kunnen worden.
-// Zo worden de scripts zelf redelijk schoon gehouden.
-// Functies tot nu toe zijn:
-//
-//      html_head_basic()
-//      html_head()
-//	gnome_head()
-//	gnome_foot_wo_ads()
-//	gnome_foot()
-//	gnome_menu_wo_ads()
-//	gnome_menu()
-//      menu_entries() - Only used internally to functions.php
-//
+/* Functions used across web site:
+ *
+ * html_head_basic()    - HTML header meta data
+ * html_head()          - HTML header
+ * gnome_head()         - Page header
+ * gnome_foot_wo_ads()  - Page footer without ads
+ * gnome_foot()         - Page footer without ads
+ * gnome_menu_wo_ads()  - Page Menu without ads
+ * gnome_menu()         - Page Menu
+ * menu_entries()       - Only used internally to functions.php
+ */
 
 function html_head_basic() {
 srand ((double) microtime() * 1000000);
@@ -37,7 +35,7 @@ $backgroundnumber = rand (1, 5);
 
 function html_head() { ?>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="author" content="Vincent van Adrighem and Curtis Gedak">
+  <meta name="author" content="Curtis Gedak">
   <meta name="keywords" content="partition editor, partition manager, partition magic, hard disk drive, flash drive, USB stick">
   <?
   html_head_basic();
@@ -56,10 +54,6 @@ function gnome_head() { ?>
 
 function gnome_foot_wo_ads() { ?>
 <div class="ftr">
-<!-- Commented out 2009-03-11 by Curtis Gedak
-<a href="http://www.softpedia.com/reviews/linux/GParted-Review-22766.shtml#"><img src="images/softpedia_pick_award_s.gif"
-	border="0" alt="Softpedia Review Award Logo"></a>
--->
 <a href="http://sourceforge.net/projects/gparted"><img
 	src="http://sflogo.sourceforge.net/sflogo.php?group_id=115843&amp;type=12"
 	width="120" height="31" border="0"
