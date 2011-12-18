@@ -95,24 +95,6 @@ ul.nobullet {
 	z-index: 5;
 }
 
-.menu {
-	position: absolute;
-	top: 90px;
-	left: 0px;
-	width: 170px;
-	margin-left: 5px;
-	padding-left: 0px;
-	padding-bottom: 10px;
-	border-right: 1px dashed #aaaaaa;
-	font-size: small;
-	background-color: #fafafa;
-}
-.menu ul {
-	margin-left: 10px;
-	padding-left: 10px;
-}
-
-
 .step {
 	margin-bottom: 0.5em;
 }
@@ -302,4 +284,35 @@ tr.oneven {
 .rightbox ul {
 	margin-left: 10px;
 	padding-left: 10px;
+}
+
+/* Hover Menu */
+.hovermenu ul{
+font-family: "Bitstream Vera Sans", sans-serif;
+padding-left: 0;
+margin-left: 0;
+height: 20px;
+}
+
+.hovermenu ul li{
+list-style: none;
+display: inline;
+}
+
+.hovermenu ul li a{
+padding: 2px 0.75em;
+text-decoration: none;
+float: left;
+color: blue;
+background-color: #e3ffc3;
+border: 1px solid #90d84b;
+}
+
+.hovermenu ul li a:hover{
+background-color: #90d84b;
+border-style: outset;
+}
+
+html>body .hovermenu ul li a:active{ /* Apply mousedown effect only to NON IE browsers */
+border-style: inset;
 }

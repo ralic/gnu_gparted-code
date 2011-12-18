@@ -75,31 +75,26 @@ function gnome_foot() { ?>
 }
 
 function menu_entries() { ?>
-<div class="section">
-	<div class="sectiontitle">GParted</div>
-	<div class="sectioncontent">
-		<ul class="nobullet">
-		<li><a href="index.php">About</a></li>
-		<li><a href="download.php"><b>Download</b></a></li>
-		<li><a href="livecd.php">Live CD / USB</a></li>
-		<li><a href="help.php">Help</a></li>
-		<li><a href="development.php">Development</a></li>
-		<li><a href="donations.php">Donate</a></li>
-		</ul>
-	</div>
-</div>
+	<ul>
+	<li><a href="index.php">About</a></li>
+	<li><a href="download.php">Download</a></li>
+	<li><a href="livecd.php">Live CD / USB</a></li>
+	<li><a href="help.php">Help</a></li>
+	<li><a href="development.php">Development</a></li>
+	<li><a href="donations.php">Donate</a></li>
+	</ul>
 <?
 }
 
 function gnome_menu_wo_ads() { ?>
-<div class="menu">
+<div class="hovermenu">
   <? menu_entries(); ?>
 </div>
 <? flush();
 }
 
 function gnome_menu() { ?>
-<div class="menu">
+<div class="hovermenu">
   <? menu_entries(); ?>
 </div>
 <? flush();
