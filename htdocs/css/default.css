@@ -1,73 +1,70 @@
 /* Basic tags */
 body {
-	font-family: 'Bitstream Vera Sans', Arial, Helvetica, 'Luxi Sans', Verdana, Sans-Serif;
-	padding: 0px;
-	margin-bottom: 0px;
+font-family: 'Bitstream Vera Sans', Arial, Helvetica, 'Luxi Sans', Verdana, Sans-Serif;
+padding: 0px;
+margin-bottom: 0px;
 }
 
 a img {
-	border: 0px;
-}
-
-blockquote {
-  font-family: "Bitstream Vera Sans", sans-serif;
-  background-color: #dddddd;
-  padding-left: 10px;
-  padding-right: 10px;
-  border: 1px dashed white;
+border: 0px;
 }
 
 table {
-  font-family: "Bitstream Vera Serif", serif;
-  border-collapse: collapse;
+font-family: "Bitstream Vera Serif", serif;
+border-collapse: collapse;
 }
 
 th {
-  background-color: #CCCCFF;
-  text-align: left;
+background-color: #CCCCFF;
+text-align: left;
+}
+
+tr.even {
+background-color: #dddddd; /* light grey */
+}
+
+.left {
+margin-left: 10px;
+padding: 0px;
+float: left;
+}
+
+.right {
+margin-right: 10px;
+padding-left: 5px;
+float: right;
+}
+
+.content {
+font-family: "Bitstream Vera Serif", serif;
+margin-left: 10px;
+}
+
+.step {
+margin-bottom: 0.5em;
 }
 
 /* Anchors */
 a {
-	color: #0000ff;
+color: #0000ff; /* blue */
 }
 
 a:visited {
-	color: #0000ff;
+color: #0000ff; /* blue */
 }
 
-/* Basic classes */
-
-.invisible { /* stuff that should appear when this css isn't used */
-	margin: 0px;
-	border: 0px;
-	padding: 0px;
-	height: 0px;
-	visibility: hidden;
+/* Header */
+.hdr {
+top: 10px;
+left: 0px;
+width: 95%;
+height: 70px;
+text-align: left;
+background-color: #e3ffc3; /* ~ lite green */
+border: 1px solid #90d84b; /* ~ mid green */
+margin-left: 0px;
+padding-left: 10px;
 }
-
-.left {
-	margin-left: 10px;
-	padding: 0px;
-	float: left;
-}
-
-.right {
-	margin-right: 10px
-	padding-left: 5px;
-	float: right;
-}
-
-.content {
-	font-family: "Bitstream Vera Serif", serif;
-	margin-left: 10px;
-}
-
-ul.nobullet {
-	list-style: none;
-}
-
-/* Common page elements: Header, footer, etc. */
 
 .logo {
 position: absolute;
@@ -76,23 +73,11 @@ border: 0px;
 z-index: 10;
 }
 
-.hdr {
-top: 10px;
-left: 0px;
-width: 95%;
-height: 70px;
-text-align: left;
-background-color: #e3ffc3;
-border: 1px solid #90d84b;
-margin-left: 0px;
-padding-left: 10px;
-}
-
 .hdrtitle {
 position: relative;
 margin-top: 23px;
 margin-left: 70px;
-color: darkblue;
+color: #0000a0; /* dark blue */
 font-size: 1.5em;
 float: left;
 z-index: 12;
@@ -101,201 +86,121 @@ z-index: 12;
 .hdrsearch {
 margin-top:8px;
 margin-right: 8px;
-color: darkblue;
+color: #0000a0; /* dark blue */
 padding: 3px;
 border: 1px solid #90d84b;
 float: right;
 }
 
-.step {
-	margin-bottom: 0.5em;
-}
-
+/* Documentation and more */
 .warning {
-      font-family: "Bitstream Vera Sans", sans-serif;
-      /* Pastel Red */
-      background: #f5a9a9;
-      /* Red */
-      border: 1px solid #FF0000;
-      padding-left: 10px;
-      padding-right: 10px;
+font-family: "Bitstream Vera Sans", sans-serif;
+background: #f5a9a9; /* Pastel Red */
+border: 1px solid #FF0000; /* Red */
+padding-left: 10px;
+padding-right: 10px;
 }
 
 .hangwarning {
-      text-indent: -6.5em;
-      margin-left: 6.5em;
+text-indent: -6.5em;
+margin-left: 6.5em;
 }
 
-
 .caution {
-      font-family: "Bitstream Vera Sans", sans-serif;
-      /* Khaki */
-      background: #f0e68c;
-      /* DarkKhaki */
-      border: 1px solid #bdb76b;
-      padding-left: 10px;
-      padding-right: 10px;
+font-family: "Bitstream Vera Sans", sans-serif;
+background: #f0e68c; /* Khaki */
+border: 1px solid #bdb76b; /* DarkKhaki */
+padding-left: 10px;
+padding-right: 10px;
 }
 
 .hangcaution {
-      text-indent: -6em;
-      margin-left: 6em;
+text-indent: -6em;
+margin-left: 6em;
 }
 
 .tip {
-      font-family: "Bitstream Vera Sans", sans-serif;
-      /* PaleGreen */
-      background: #98fb98;
-      /* MediumSpringGreen */
-      border: 1px solid #00fa9a;
-      padding-left: 10px;
-      padding-right: 10px;
+font-family: "Bitstream Vera Sans", sans-serif;
+background: #98fb98; /* PaleGreen */
+border: 1px solid #00fa9a; /* MediumSpringGreen */
+padding-left: 10px;
+padding-right: 10px;
 }
 
 .hangtip {
-      text-indent: -3em;
-      margin-left: 3em;
+text-indent: -3em;
+margin-left: 3em;
 }
 
 .note {
-      font-family: "Bitstream Vera Sans", sans-serif;
-      /* Light Blue */
-      background: #a9d0f5;
-      /* Medium Blue */
-      border: 1px solid #0080ff;
-      padding-left: 10px;
-      padding-right: 10px;
+font-family: "Bitstream Vera Sans", sans-serif;
+background: #a9d0f5; /* Light Blue */
+border: 1px solid #0080ff; /* Medium Blue */
+padding-left: 10px;
+padding-right: 10px;
 }
 
 .hangnote {
-      text-indent: -4em;
-      margin-left: 4em;
+text-indent: -4em;
+margin-left: 4em;
 }
 
-.section {
-	width: 160px;
-	margin-bottom: 5px;
-	margin-top: 10px;
-	margin-left: 5px;
-	margin-right: 5px;
-	background-color: #cccccc;
-
-	padding-bottom: 3px;
-	padding-top: 3px;
-}
-.sectiontitle {
-	width: 150px;
-	background-color: #ccccff;
-	font-size: larger;
-	text-align: center;
-	margin-bottom: 3px;
-	margin-top: 3px;
-	margin-left: 5px;
-	margin-right: 5px;
-	border-bottom: 1px solid #666666;
-	border-right: 1px solid #666666;
-}
-.sectioncontent {
-	width: 150px;
-	margin-bottom: 3px;
-	margin-top: 3px;
-	margin-left: 5px;
-	margin-right: 5px;
-	padding-top: 2px;
-	padding-bottom: 1px;
-	background-color: #ffffff;
-	border-bottom: 1px solid #666666;
-	border-right: 1px solid #666666;
-}
-.statustable {
-	border-style: solid;
-	border-color: #dddddd;
-	background-color: #fafafa;
-	padding: 3px;
-}
-.statustable a { 
-  text-decoration: none;
-}
-
-.logmsg {
-	border-style: solid;
-	border-color: black;
-	background-color: #fafafa;
-	padding: 3px;
-	position: absolute;
-}
-
-.logmsg a { 
-  text-decoration: none;
-}
-
+/* Footer */
 .bottomad {
-	font-family: "Bitstream Vera Serif", serif;
-	margin-left: 10px;
-	margin-right: 10px;
-
-	margin-top: 10px;
-	padding: 5px 0px 5px 0px;
-	color: #aaaaaa;
-	border-top: 1px solid #dddddd;
-	background-color: #fafafa;
+font-family: "Bitstream Vera Serif", serif;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 10px;
+padding: 5px 0px 5px 0px;
+color: #aaaaaa;
+border-top: 1px solid #dddddd;
+background-color: #fafafa;
 }
 
 .ftr {
-	margin-left: 10px;
-	margin-right: 10px;
-	text-align: center;
-	font-size: small;
-	vertical-align:	bottom;
-	clear: both;
-
-	margin-top: 10px;
-	padding: 5px 0px 5px 0px;
-	color: #aaaaaa;
-	border-top: 1px solid #dddddd;
-	background-color: #fafafa;
+margin-left: 10px;
+margin-right: 10px;
+text-align: center;
+font-size: small;
+vertical-align:	bottom;
+clear: both;
+margin-top: 10px;
+padding: 5px 0px 5px 0px;
+color: #aaaaaa;
+border-top: 1px solid #dddddd;
+background-color: #fafafa;
 }
 
+/* News page */
 .newshdr {
-  font-size: larger;
-  background-color: #CCCCFF;
-  border: 2px solid #CCCCFF;
-  margin-top: 20px;
-  margin-left: 0px;
+font-size: larger;
+background-color: #CCCCFF;
+border: 2px solid #CCCCFF;
+margin-top: 20px;
+margin-left: 0px;
 }
 
 .newsbody {
-  background-color: #fafafa;
-  border: 2px solid #fafafa;
-  margin-left: 0px;
-  margin-bottom: 20px;
+background-color: #fafafa;
+border: 2px solid #fafafa;
+margin-left: 0px;
+margin-bottom: 20px;
 }
 
-tr.even {
-  background-color: #EEEEEE;
-  margin-top: 30px;
-  margin-left: 0px;
-}
-
-tr.oneven {
-  background-color: #DDDDDD;
-  margin-top: 30px;
-  margin-left: 0px;
-}
-
+/* Latest release upper right */
 .rightbox {
-	margin-right: 10px;
-	padding: 0px;
-	width: 125px;
-	font-size: small;
-	float: right;
-	border-left: 1px dashed #cccccc;
-	background-color: #fafafa;
+margin-right: 10px;
+padding: 0px;
+width: 125px;
+font-size: small;
+float: right;
+border-left: 1px dashed #cccccc;
+background-color: #fafafa;
 }
 
 .rightbox ul {
-	margin-left: 10px;
-	padding-left: 10px;
+margin-left: 10px;
+padding-left: 10px;
 }
 
 /* Hover Menu */
@@ -316,12 +221,12 @@ padding: 2px 0.75em;
 text-decoration: none;
 float: left;
 color: blue;
-background-color: #e3ffc3;
-border: 1px solid #90d84b;
+background-color: #e3ffc3; /* ~ lite green */
+border: 1px solid #90d84b; /* ~ mid green */
 }
 
 .hovermenu ul li a:hover{
-background-color: #90d84b;
+background-color: #90d84b; /* ~ mid green */
 border-style: outset;
 }
 
