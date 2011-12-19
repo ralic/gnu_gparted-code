@@ -2,7 +2,6 @@
 body {
 	font-family: 'Bitstream Vera Sans', Arial, Helvetica, 'Luxi Sans', Verdana, Sans-Serif;
 	padding: 0px;
-	margin-top: 90px;
 	margin-bottom: 0px;
 }
 
@@ -49,21 +48,19 @@ a:visited {
 
 .left {
 	margin-left: 10px;
-	width:170px;
 	padding: 0px;
 	float: left;
 }
 
 .right {
-	/* margin-right: 10px; */
-	/* width:190px; */
+	margin-right: 10px
 	padding-left: 5px;
 	float: right;
 }
 
 .content {
 	font-family: "Bitstream Vera Serif", serif;
-	margin-left: 180px;
+	margin-left: 10px;
 }
 
 ul.nobullet {
@@ -73,26 +70,41 @@ ul.nobullet {
 /* Common page elements: Header, footer, etc. */
 
 .logo {
-	position: absolute;
-	top: 10px;
-	left: 10px;
-	border: 0px;
-
-	z-index: 10;
+position: absolute;
+left: 10px;
+border: 0px;
+z-index: 10;
 }
 
 .hdr {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	right: 0px;
-	width: 100%;
-	height: 48px;
+top: 10px;
+left: 0px;
+width: 95%;
+height: 70px;
+text-align: left;
+background-color: #e3ffc3;
+border: 1px solid #90d84b;
+margin-left: 0px;
+padding-left: 10px;
+}
 
-	text-align: left;
-	background-color: #e3ffc3;
-	border-bottom: 1px solid #666666;
-	z-index: 5;
+.hdrtitle {
+position: relative;
+margin-top: 23px;
+margin-left: 70px;
+color: darkblue;
+font-size: 1.5em;
+float: left;
+z-index: 12;
+}
+
+.hdrsearch {
+margin-top:8px;
+margin-right: 8px;
+color: darkblue;
+padding: 3px;
+border: 1px solid #90d84b;
+float: right;
 }
 
 .step {
@@ -219,7 +231,7 @@ ul.nobullet {
 
 .bottomad {
 	font-family: "Bitstream Vera Serif", serif;
-	margin-left: 180px;
+	margin-left: 10px;
 	margin-right: 10px;
 
 	margin-top: 10px;
@@ -230,7 +242,7 @@ ul.nobullet {
 }
 
 .ftr {
-	margin-left: 180px;
+	margin-left: 10px;
 	margin-right: 10px;
 	text-align: center;
 	font-size: small;
