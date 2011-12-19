@@ -79,7 +79,7 @@ function menu_entries() { ?>
 	<ul>
 	<li><a href="index.php">Home</a></li>
 	<li><a href="download.php">Download</a></li>
-	<li><a href="livecd.php">Live CD / USB</a></li>
+	<li><a href="livecd.php">Live CD/USB</a></li>
 	<li><a href="help.php">Help</a></li>
 	<li><a href="development.php">Development</a></li>
 	<li><a href="donations.php">Donate</a></li>
