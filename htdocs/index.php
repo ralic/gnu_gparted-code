@@ -22,7 +22,7 @@ gnome_menu();
 	</div>
 <div class="content">
 
-<h1>Gnome Partition Editor</h1>
+<h1>About</h1>
 <p>
 GParted is a free partition editor for graphically managing your disk
 partitions.<br>
@@ -31,13 +31,7 @@ With GParted you can resize, copy, and move partitions without data
 loss, enabling you to:<br>
 </p>
 <ul>
-  <li class="step">Grow or shrink your C: drive
-    <div class="right">
-      <?
-        include "google/hp-336x280-rhs-near-features.inc";
-      ?>
-    </div>
-  </li>
+  <li class="step">Grow or shrink your C: drive</li>
   <li class="step">Create space for new operating systems</li>
   <li class="step">Attempt data rescue from lost partitions</li>
 </ul>
@@ -46,6 +40,11 @@ Learn more now about GParted <a href="features.php">features</a>, read
 the latest <a href="news.php">news</a>, or
 view <a href="screenshots.php">screenshots</a> of GParted in action.
 </p>
+<div class="right">
+  <?
+    include "google/hp-336x280-rhs-near-features.inc";
+  ?>
+</div>
 <h2>Requirements</h2>
 <p>
 GParted can be used on x86 based computers running Linux, Windows, or
