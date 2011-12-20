@@ -45,15 +45,6 @@ margin-right: 10px;
 margin-bottom: 0.5em;
 }
 
-/* Anchors */
-a {
-color: #0000ff; /* blue */
-}
-
-a:visited {
-color: #0000ff; /* blue */
-}
-
 /* Header */
 .hdr {
 width: 100%;
