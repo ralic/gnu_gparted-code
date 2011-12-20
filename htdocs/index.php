@@ -35,16 +35,53 @@ loss, enabling you to:<br>
   <li class="step">Create space for new operating systems</li>
   <li class="step">Attempt data rescue from lost partitions</li>
 </ul>
-<p>
-Learn more now about GParted <a href="features.php">features</a>, read
-the latest <a href="news.php">news</a>, or
-view <a href="screenshots.php">screenshots</a> of GParted in action.
-</p>
-<div class="right">
-  <?
-    include "google/hp-336x280-rhs-near-features.inc";
-  ?>
-</div>
+
+<h2>Learn More</h2>
+<ul>
+  <li class="nobullet">
+    Read the latest <a href="news.php">news</a>.
+  </li>
+  <li class="nobullet">
+    Get <a href="help.php">help</a> with disk partitioning.
+  </li>
+  <li class="nobullet">
+    View <a href="screenshots.php">screenshots</a> of GParted in action.
+  </li>
+</ul>
+<a name="features"></a>
+<h2>Features</h2>
+<ul>
+  <li class="step">Perform actions with partitions such as:
+    <div class="right">
+      <?
+        include "google/hp-336x280-rhs-near-features.inc";
+      ?>
+    </div>
+    <ul>
+      <li>create or delete</li>
+      <li>resize or move</li>
+      <li>check</li>
+      <li>label</li>
+      <li>copy and paste</li>
+    </ul>
+  </li>
+
+  <li class="step">Manipulate file systems such as:
+    <ul>
+      <li>btrfs</li>
+      <li>ext2 / ext3 / ext4</li>
+      <li>fat16 / fat32</li>
+      <li>hfs / hfs+</li>
+      <li>linux-swap</li>
+      <li>ntfs</li>
+      <li>reiserfs / reiser4</li>
+      <li>ufs</li>
+      <li>xfs</li>
+    </ul>
+  For specific actions supported see
+  detailed <a href="features.php">features</a>.
+  </li>
+</ul>
 <h2>Requirements</h2>
 <p>
 GParted can be used on x86 based computers running Linux, Windows, or

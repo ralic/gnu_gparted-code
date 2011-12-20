@@ -45,6 +45,11 @@ margin-right: 10px;
 margin-bottom: 0.5em;
 }
 
+.nobullet {
+list-style: none;
+margin-bottom: 0.5em;
+}
+
 /* Header */
 .hdr {
 width: 100%;
