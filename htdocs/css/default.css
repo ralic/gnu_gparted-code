@@ -1,8 +1,7 @@
 /* Basic tags */
 body {
 font-family: 'Bitstream Vera Sans', Arial, Helvetica, 'Luxi Sans', Verdana, Sans-Serif;
-padding: 0px;
-margin-bottom: 0px;
+margin-top: 0px;
 }
 
 a img {
@@ -37,7 +36,6 @@ float: right;
 
 .content {
 font-family: "Bitstream Vera Serif", serif;
-margin-left: 10px;
 }
 
 .step {
@@ -55,19 +53,16 @@ color: #0000ff; /* blue */
 
 /* Header */
 .hdr {
-top: 10px;
-left: 0px;
 width: 95%;
-height: 70px;
+height: 48px;
 text-align: left;
 background-color: #e3ffc3; /* ~ lite green */
 border: 1px solid #90d84b; /* ~ mid green */
-margin-left: 0px;
-padding-left: 10px;
 }
 
 .logo {
 position: absolute;
+top: 4px;
 left: 10px;
 border: 0px;
 z-index: 10;
@@ -75,8 +70,8 @@ z-index: 10;
 
 .hdrtitle {
 position: relative;
-margin-top: 23px;
-margin-left: 70px;
+margin-top: 9px;
+margin-left: 68px;
 color: #0000a0; /* dark blue */
 font-size: 1.5em;
 float: left;
@@ -84,8 +79,8 @@ z-index: 12;
 }
 
 .hdrsearch {
-margin-top:8px;
-margin-right: 8px;
+margin-top:7px;
+margin-right: 7px;
 color: #0000a0; /* dark blue */
 padding: 3px;
 border: 1px solid #90d84b;
@@ -148,7 +143,6 @@ margin-left: 4em;
 /* Footer */
 .bottomad {
 font-family: "Bitstream Vera Serif", serif;
-margin-left: 10px;
 margin-right: 10px;
 margin-top: 10px;
 padding: 5px 0px 5px 0px;
@@ -158,7 +152,6 @@ background-color: #fafafa;
 }
 
 .ftr {
-margin-left: 10px;
 margin-right: 10px;
 text-align: center;
 font-size: small;
@@ -206,6 +199,7 @@ padding-left: 10px;
 font-family: "Bitstream Vera Sans", sans-serif;
 padding-left: 0;
 margin-left: 0;
+margin-top: 0px;
 height: 20px;
 }
 
@@ -221,6 +215,7 @@ float: left;
 color: blue;
 background-color: #e3ffc3; /* ~ lite green */
 border: 1px solid #90d84b; /* ~ mid green */
+border-top: 0px;
 }
 
 .hovermenu ul li a:hover{
