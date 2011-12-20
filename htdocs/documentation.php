@@ -25,7 +25,7 @@ gnome_menu();
     </tr>
     <tr>
       <td valign="top">
-        <a href="display-doc.php?name=help-manual&lang=C">GParted Manual</a>
+        <a href="display-doc.php?name=help-manual">GParted Manual</a>
       </td>
       <td valign="top">
         <a href="display-doc.php?name=help-manual&lang=cs">České</a>,
@@ -39,7 +39,7 @@ gnome_menu();
     </tr>
     <tr>
       <td valign="top">
-        <a href="display-doc.php?name=man-page&lang=C">Manual Page</a>
+        <a href="display-doc.php?name=man-page">Manual Page</a>
       </td>
       <td valign="top">
         <a href="display-doc.php?name=man-page&lang=fr">Français</a>
@@ -55,7 +55,7 @@ gnome_menu();
     </tr>
     <tr>
       <td>
-        <a href="display-doc.php?name=gparted-live-manual&lang=C">GParted Live Manual</a>
+        <a href="display-doc.php?name=gparted-live-manual">GParted Live Manual</a>
       </td>
       <td> </td>
     </tr>
