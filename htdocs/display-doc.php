@@ -8,9 +8,11 @@ include "functions.php";
 //    lang:  Documentation language (e.g., C)
 
 // File name structure:  docs/$docname/$lang/$docname.html
-$pathname = "docs/" . urlencode($_GET["name"]) . "/" 
-          . urlencode($_GET["lang"]) . "/";
-$filename = $pathname . urlencode($_GET["name"]) . ".html";
+$name = urlencode($_GET["name"]);
+$lang = urlencode($_GET["lang"]);
+if ( $lang=="" ) $lang = "C";
+$pathname = "docs/" . $name . "/" . $lang . "/";
+$filename = $pathname . $name . ".html";
 
 $filecontents = @file_get_contents( $filename );
 
