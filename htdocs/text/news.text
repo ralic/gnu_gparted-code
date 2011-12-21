@@ -1,3 +1,24 @@
+21 December 2011
+GParted Live 0.11.0-7 Stable Release
+<br>
+Great improvements continue to be made to GParted Live by Steven
+Shiau.<br>
+<br>
+
+With this release we are proud to annouce the addition of network
+configuation, and the <a href="http://www.dillo.org">Dillo</a> web
+browser.  Now users can double-click the Network Config icon, choose
+the default setting to receive a TCP/IP address, double-click the
+Dillo icon, and then surf on over to the GParted web site.<br>
+
+<br>
+New in this release:
+<ul>
+<li>Based on Debian Sid repository (as of 2011/Dec/20)</li>
+<li>Web browser and network configure icons added to the desktop</li>
+</ul>
+Curtis
+---
 15 December 2011
 GParted Live 0.11.0-2 Stable Release
 <br>
