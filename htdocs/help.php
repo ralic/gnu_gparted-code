@@ -19,8 +19,7 @@ gnome_menu();
 <h1>Help</h1>
 
 <p>
-Several methods are available to learn about or receive help with
-GParted:
+To learn about and receive help with GParted, see the following:
 <p>
 
 <ul>
@@ -41,18 +40,31 @@ GParted:
     report software bugs.
   </li>
   <li class="step">
-    The <a href="news.php">news</a> page lists the latest updates in
-    the GParted project.
-  </li>
-  <li class="step">
-    The <a href="features.php">features</a> page describes the disk
-    actions available with GParted.
-  </li>
-  <li class="step">
     The <a href="contact.php">contact</a> page has additional
     communication methods.
   </li>
 </ul>
+<br>
+
+<p>
+For a quick look at what GParted can do for you, see the
+following:
+</p>
+
+<ul>
+  <li class="step">
+    The <a href="features.php">features</a> page describes disk
+    actions available.
+  </li>
+  <li class="step">
+    The <a href="screenshots.php">screenshots</a> page has pictures of
+    GParted in action.
+  </li>
+  <li class="step">
+    The <a href="news.php">news</a> page lists the latest project updates.
+  </li>
+</ul>
+<br>
 
 <p>
 To learn how to help the GParted project please see
