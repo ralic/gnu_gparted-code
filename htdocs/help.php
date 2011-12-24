@@ -18,9 +18,7 @@ gnome_menu();
 <div class="content">
 <h1>Help</h1>
 
-<p>
-To learn about and receive help with GParted, see the following:
-<p>
+<h2>Learn About and Receive Help</h2>
 
 <ul>
   <li class="step">
@@ -46,10 +44,7 @@ To learn about and receive help with GParted, see the following:
 </ul>
 <br>
 
-<p>
-For a quick look at what GParted can do for you, see the
-following:
-</p>
+<h2>What can GParted do for You?</h2>
 
 <ul>
   <li class="step">
