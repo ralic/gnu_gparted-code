@@ -19,8 +19,8 @@ gnome_menu();
 <h1>Help</h1>
 
 <p>
-Several different methods are available to learn about or receive help
-with GParted:
+Several methods are available to learn about or receive help with
+GParted:
 <p>
 
 <ul>
@@ -39,6 +39,14 @@ with GParted:
   <li class="step">
     The <a href="bugs.php">bugs</a> page contains links to view and
     report software bugs.
+  </li>
+  <li class="step">
+    The <a href="news.php">news</a> page lists the latest updates in
+    the GParted project.
+  </li>
+  <li class="step">
+    The <a href="features.php">features</a> page describes the disk
+    actions available with GParted.
   </li>
   <li class="step">
     The <a href="contact.php">contact</a> page has additional
