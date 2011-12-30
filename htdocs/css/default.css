@@ -52,16 +52,15 @@ margin-bottom: 0.5em;
 /* Header */
 .hdr {
 width: 100%;
-height: 48px;
+height: 53px;
 text-align: left;
 background-color: #e3ffc3; /* ~ lite green */
-border-right: 1px solid #90d84b; /* ~ mid green */
 border-bottom: 1px solid #90d84b; /* ~ mid green */
 }
 
 .logo {
 position: absolute;
-top: 4px;
+top: 6px;
 left: 10px;
 border: 0px;
 z-index: 10;
@@ -69,7 +68,7 @@ z-index: 10;
 
 .hdrtitle {
 position: relative;
-margin-top: 9px;
+margin-top: 13px;
 margin-left: 78px;
 color: #0000a0; /* dark blue */
 font-size: 1.5em;
@@ -78,8 +77,6 @@ z-index: 12;
 }
 
 .hdrsearch {
-margin-top:7px;
-margin-right: 7px;
 color: #0000a0; /* dark blue */
 padding: 3px;
 border: 1px solid #90d84b;
