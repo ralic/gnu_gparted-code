@@ -36,6 +36,11 @@ loss, enabling you to:<br>
   <li class="step">Attempt data rescue from lost partitions</li>
 </ul>
 
+<a href="screens/gparted_1_big.png">
+  <img src="screens/gparted_1_small.png" alt="GParted Main screen"
+        height="140px" class="left">
+</a>
+
 <h2>Learn More</h2>
 <ul>
   <li class="nobullet">
@@ -48,6 +53,7 @@ loss, enabling you to:<br>
     View <a href="screenshots.php">screenshots</a> of GParted in action.
   </li>
 </ul>
+
 <a name="features"></a>
 <h2>Features</h2>
 <ul>
