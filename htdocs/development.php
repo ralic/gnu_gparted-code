@@ -18,6 +18,9 @@ gnome_menu();
 <div class="content">
 <h1>Development</h1>
 <p>
+Following is a high level view of how development is guided and
+managed on the GParted project.<br>
+<br>
 Work on the GParted application is managed by Curtis Gedak.<br>
 Work on the GParted Live image is managed by Steven Shiau.
 </p>
@@ -32,6 +35,12 @@ and other <a href="http://en.wikipedia.org/wiki/Free_software">free
 software</a> file system tools.
 </p>
 
+<h2>Source Code Repository</h2>
+<p>
+The source code for GParted is managed under the GNOME git repository.<br>
+See the <a href="git.php">GParted git</a> page for more information.
+</p>
+
 <h2>Releases</h2>
 <p>
 Plans for new releases of GParted can be found in
@@ -41,12 +50,6 @@ Development</a> forum.<br>
 We strive to create new releases of GParted about every 2 months.
 Having said that, we will create a new release in a much shorter time
 frame, especially if needed to fix critical bugs.
-</p>
-
-<h2>Source Code Repository</h2>
-<p>
-The source code for GParted is managed under the GNOME git repository.<br>
-See the <a href="git.php">git</a> page for more information.
 </p>
 
 <h2>Communication</h2>
