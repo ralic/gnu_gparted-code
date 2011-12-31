@@ -98,6 +98,11 @@ function gnome_menu() { ?>
 <div class="hovermenu">
   <? menu_entries(); ?>
 </div>
+<div class="abovead">
+<?
+  include "google/sp-468x60-above-page-content.inc";
+?>
+</div>
 <? flush();
 }
 ?>

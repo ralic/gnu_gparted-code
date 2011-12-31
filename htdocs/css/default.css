@@ -82,6 +82,12 @@ padding: 3px;
 float: right;
 }
 
+.abovead {
+font-family: "Bitstream Vera Serif", serif;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+
 /* Documentation and more */
 .warning {
 font-family: "Bitstream Vera Sans", sans-serif;
