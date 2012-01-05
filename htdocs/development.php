@@ -5,7 +5,7 @@ include "functions.php";
 ?>
 
 <head>
-  <title>GParted -- Status</title>
+  <title>GParted -- Development</title>
 <? html_head() ?>
 </head>
 <body>
@@ -16,8 +16,11 @@ gnome_head();
 gnome_menu();
 ?>
 <div class="content">
-<h1>Development Status</h1>
+<h1>Development</h1>
 <p>
+Following is a high level view of how development is guided and
+managed on the GParted project.<br>
+<br>
 Work on the GParted application is managed by Curtis Gedak.<br>
 Work on the GParted Live image is managed by Steven Shiau.
 </p>
@@ -32,6 +35,12 @@ and other <a href="http://en.wikipedia.org/wiki/Free_software">free
 software</a> file system tools.
 </p>
 
+<h2>Source Code Repository</h2>
+<p>
+The source code for GParted is managed under the GNOME git repository.<br>
+See the <a href="git.php">GParted git</a> page for more information.
+</p>
+
 <h2>Releases</h2>
 <p>
 Plans for new releases of GParted can be found in
@@ -41,12 +50,6 @@ Development</a> forum.<br>
 We strive to create new releases of GParted about every 2 months.
 Having said that, we will create a new release in a much shorter time
 frame, especially if needed to fix critical bugs.
-</p>
-
-<h2>Source Code Repository</h2>
-<p>
-The source code for GParted is managed under the GNOME git repository.<br>
-See the <a href="git.php">GParted git</a> page for more information.
 </p>
 
 <h2>Communication</h2>
@@ -83,6 +86,12 @@ statement</a>.
 <p>
 There are no hard and fast coding standards for GParted.  For now we
 prefer code enhancements to match the surrounding coding style.
+</p>
+
+<h2>Artwork</h2>
+<p>
+Creative designs can be found on the <a href="artwork.php">artwork</a>
+page.
 </p>
 
 </div>

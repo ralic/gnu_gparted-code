@@ -36,11 +36,14 @@ gnome_menu();
       <b>Consultant to GParted</b> <br>
       <a href="mailto:fdupoux&#064;users.sourceforge.net">Fran&ccedil;ois Dupoux</a> <br>
       <br>
-      <b>All-Hands person</b> <br>
-      JanC <br>
+      <b>All-Hands person, including Forum Administrator</b> <br>
+      Jan Claeys (JanC)<br>
+      <br>
+      <b>Forum Moderator</b> <br>
+      Class413<br>
       <br>
       <br>
-      <b>IRC</b> <br>
+      <b>Internet Relay Chat</b> <br>
       irc.gnome.org #gparted </div>
 
 <? gnome_foot() ?>

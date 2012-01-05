@@ -53,14 +53,14 @@ To minimize the chance of duplicate efforts, please
 contact <a href="mailto:gedakc&#064;users.sf.net">Curtis Gedak</a>
 before embarking on significant code changes.<br>
 <br>
-See also <a href="dev-status.php">development status</a>.
+See also the <a href="development.php">development</a> page.
 </p>
 <h3>Donations</h3>
 <p>
 Another big way to help us to make GParted better is to make a
 donation to the GParted project.  For details on donations please
 refer to our
-<a href="donations.php">donations page</a>.
+<a href="donations.php">donations</a> page.
 </p>
 
 </div>

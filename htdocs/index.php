@@ -22,7 +22,7 @@ gnome_menu();
 	</div>
 <div class="content">
 
-<h1>Gnome Partition Editor</h1>
+<h1>About</h1>
 <p>
 GParted is a free partition editor for graphically managing your disk
 partitions.<br>
@@ -35,6 +35,25 @@ loss, enabling you to:<br>
   <li class="step">Create space for new operating systems</li>
   <li class="step">Attempt data rescue from lost partitions</li>
 </ul>
+
+<a href="screens/gparted_1_big.png">
+  <img src="screens/gparted_1_small.png" alt="GParted Main screen"
+        height="140px" class="left">
+</a>
+
+<h2>Learn More</h2>
+<ul>
+  <li class="nobullet">
+    Read the latest <a href="news.php">news</a>.
+  </li>
+  <li class="nobullet">
+    Get <a href="help.php">help</a> with disk partitioning.
+  </li>
+  <li class="nobullet">
+    View <a href="screenshots.php">screenshots</a> of GParted in action.
+  </li>
+</ul>
+
 <a name="features"></a>
 <h2>Features</h2>
 <ul>
@@ -71,9 +90,10 @@ loss, enabling you to:<br>
 </ul>
 <h2>Requirements</h2>
 <p>
-GParted can be used on x86 based computers running Linux, Windows, or
-Mac OS X by booting from media containing <a href="livecd.php">GParted
-Live</a>.  A minimum of 128 MB of RAM is needed to use all of the
+GParted can be used on x86 and x86-64 based computers running Linux,
+Windows, or Mac OS X by booting from media
+containing <a href="livecd.php">GParted Live</a>.  A minimum of 128 MB
+of RAM is needed to use all of the
 <a href="features.php">features</a> of the GParted application.
 </p>
 <h2>Free Software</h2>

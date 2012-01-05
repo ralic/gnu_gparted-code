@@ -125,6 +125,10 @@ GParted Live includes additional packages, such as:<br>
     <td><a href="http://www.openssh.com/">openssh</a></td>
     <td>- Secure shell (ssh) connectivity tool suite</td>
   </tr>
+  <tr>
+    <td><a href="http://www.dillo.org">dillo</a></td>
+    <td>- Small web browser</td>
+  </tr>
 </table>
 <p>
 To view all of the included packages you can either:<br>

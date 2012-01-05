@@ -1,35 +1,23 @@
 <?
-// Hier komen alle functies te staan die in alle scripts gebruikt kunnen worden.
-// Zo worden de scripts zelf redelijk schoon gehouden.
-// Functies tot nu toe zijn:
-//
-//      html_head_basic()
-//      html_head()
-//	gnome_head()
-//	gnome_foot_wo_ads()
-//	gnome_foot()
-//	gnome_menu_wo_ads()
-//	gnome_menu()
-//      menu_entries() - Only used internally to functions.php
-//
+/* Functions used across web site:
+ *
+ * html_head_basic()    - HTML header meta data
+ * html_head()          - HTML header
+ * gnome_head()         - Page header
+ * gnome_foot_wo_ads()  - Page footer without ads
+ * gnome_foot()         - Page footer without ads
+ * gnome_menu_wo_ads()  - Page Menu without ads
+ * gnome_menu()         - Page Menu
+ * menu_entries()       - Only used internally to functions.php
+ */
 
-function html_head_basic() {
-srand ((double) microtime() * 1000000);
-$backgroundnumber = rand (1, 5);
-?>
+function html_head_basic() { ?>
   <link rel="icon" href="images/gparted-16.png" type="image/png">
   <link rel="stylesheet" href="css/default.css" type="text/css">
   <style type="text/css">
     <!--
     @import url(http://www.google.com/cse/api/branding.css);
     -->
-    .hdr {
-      background: url("images/<? 
-	echo "background0";
-	echo $backgroundnumber;
-	echo ".png\") no-repeat;";
-?>
-    }
   </style>
 <?
   include "google/google-analytics.inc";
@@ -37,7 +25,7 @@ $backgroundnumber = rand (1, 5);
 
 function html_head() { ?>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="author" content="Vincent van Adrighem and Curtis Gedak">
+  <meta name="author" content="Curtis Gedak">
   <meta name="keywords" content="partition editor, partition manager, partition magic, hard disk drive, flash drive, USB stick">
   <?
   html_head_basic();
@@ -45,21 +33,21 @@ function html_head() { ?>
 
 function gnome_head() { ?>
 <div class="hdr">
-	<a href="index.php"><img class="logo" src="images/gparted-64.png" alt="home" title="back to home page"></a>
-	<p><font color="white">
-	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+	<a href="index.php"><img class="logo" src="images/gparted-64x42.png" alt="home" title="back to home page"></a>
+	<div class="hdrtitle">
 	<b>Gnome Partition Editor</b>
-	</font></p>
+	</div>
+	<div class="hdrsearch">
+	<?
+	include "google/gparted-search.inc";
+	?>
+	</div>
 </div>
 <?
 }
 
 function gnome_foot_wo_ads() { ?>
 <div class="ftr">
-<!-- Commented out 2009-03-11 by Curtis Gedak
-<a href="http://www.softpedia.com/reviews/linux/GParted-Review-22766.shtml#"><img src="images/softpedia_pick_award_s.gif"
-	border="0" alt="Softpedia Review Award Logo"></a>
--->
 <a href="http://sourceforge.net/projects/gparted"><img
 	src="http://sflogo.sourceforge.net/sflogo.php?group_id=115843&amp;type=12"
 	width="120" height="31" border="0"
@@ -88,72 +76,32 @@ function gnome_foot() { ?>
 }
 
 function menu_entries() { ?>
-<div class="section">
-	<div class="sectiontitle">GParted</div>
-	<div class="sectioncontent">
-		<ul class="nobullet">
-		<li><a href="download.php"><b>Download</b></a></li>
-		<li><a href="livecd.php">Live CD / USB</a></li>
-		<li><a href="news.php">News</a> <?
-//Dit stukje vist de datum uit de nieuwstekst-spool.
-	$filename = "text/news.text";
-	$fcontents = file($filename);
-	list ($line_num, $line) = each ($fcontents);
-	$line = chop($line);
-	$line = substr($line, 0, strlen($line) - 5);
-	echo "(", $line, ")</li>\n"; ?>
-		<li><a href="features.php">Features</a></li>
-		<li><a href="screenshots.php">Screenshots</a></li>
-		<li><a href="index.php">About</a></li>
-		<li><a href="donations.php">Donate</a></li>
-		</ul>
-	</div>
-</div>
-<div class="section">
-	<div class="sectiontitle">Help</div>
-	<div class="sectioncontent">
-		<ul class="nobullet">
-		<li><a href="documentation.php">Documentation</a></li>
-		<li><a href="faq.php">FAQ</a></li>
-		<li><a href="forum.php">Forum</a></li>
-		<li><a href="bugs.php">Bugs</a></li>
-		<li><a href="contact.php">Contact</a></li>
-		</ul>
-	</div>
-</div>
-<div class="section">
-	<div class="sectiontitle">Development</div>
-	<div class="sectioncontent">
-		<ul class="nobullet">
-		<li><a href="dev-status.php">Status</a></li>
-		<li><a href="git.php">Git</a></li>
-		<li><a href="artwork.php">Artwork</a></li>
-		<li><a href="http://sourceforge.net/projects/gparted">SF Project Page</a></li>
-		<li><a href="howtohelp.php">How to help</a></li>
-		</ul>
-	</div>
-</div>
-<div class="section">
-	<div class="sectiontitle">Site Search</div>
-	<div class="sectioncontent">
-	<?
-	include "google/gparted-search.inc";
-	?>
-	</div>
-</div>
+	<ul>
+	<li><a href="index.php">Home</a></li>
+	<li><a href="download.php">Download</a></li>
+	<li><a href="livecd.php">Live CD/USB</a></li>
+	<li><a href="help.php">Help</a></li>
+	<li><a href="development.php">Development</a></li>
+	<li><a href="donations.php">Donate</a></li>
+	</ul>
 <?
 }
 
 function gnome_menu_wo_ads() { ?>
-<div class="menu">
+<div class="hovermenu">
   <? menu_entries(); ?>
 </div>
 <? flush();
 }
 
 function gnome_menu() { ?>
-<div class="menu">
+<div class="hovermenu">
   <? menu_entries(); ?>
+</div>
+<div class="abovead">
+<?
+  include "google/sp-468x60-above-page-content.inc";
+?>
 </div>
 <? flush();
 }
