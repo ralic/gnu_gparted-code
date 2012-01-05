@@ -67,8 +67,8 @@ steps:
     <pre>
     title     GParted live
     root      (hd0,3)
-    kernel    /live-hd/vmlinuz1 boot=live config union=aufs noswap noprompt vga=788 ip=frommedia live-media-path=/live-hd bootfrom=/dev/hda4 toram=filesystem.squashfs
-    initrd    /live-hd/initrd1.img
+    kernel    /live-hd/vmlinuz boot=live config union=aufs noswap noprompt vga=788 ip=frommedia live-media-path=/live-hd bootfrom=/dev/hda4 toram=filesystem.squashfs
+    initrd    /live-hd/initrd.img
     boot
     </pre>
     In grub version 1 syntax, /dev/hda4 is (hd0,3).
@@ -79,8 +79,8 @@ steps:
     <pre>
     menuentry "GParted live" {
       set root=(hd0,4)
-      linux /live-hd/vmlinuz1 boot=live config union=aufs noswap noprompt vga=788 ip=frommedia live-media-path=/live-hd bootfrom=/dev/hda4 toram=filesystem.squashfs
-      initrd /live-hd/initrd1.img
+      linux /live-hd/vmlinuz boot=live config union=aufs noswap noprompt vga=788 ip=frommedia live-media-path=/live-hd bootfrom=/dev/hda4 toram=filesystem.squashfs
+      initrd /live-hd/initrd.img
     }
     </pre>
 
@@ -99,8 +99,8 @@ steps:
     menuentry "Gparted live" {
       set isofile="/home/isos/gparted-live-0.5.2-9.iso"
       loopback loop $isofile
-      linux (loop)/live/vmlinuz1 boot=live config union=aufs noswap noprompt vga=788 ip=frommedia toram=filesystem.squashfs findiso=$isofile
-      initrd (loop)/live/initrd1.img
+      linux (loop)/live/vmlinuz boot=live config union=aufs noswap noprompt vga=788 ip=frommedia toram=filesystem.squashfs findiso=$isofile
+      initrd (loop)/live/initrd.img
     }
     </pre>
     Then run "update-grub2" to update your grub2 config.
@@ -113,7 +113,7 @@ partition /dev/hda4 won't be locked after booting GParted Live from
 hard disk.<br>
 <b>NOTE2:</b> Remember to check parameters in syslinux/syslinux.cfg
 from the zip file, copy them to here. It might be different from here,
-say vmlinuz1 path maybe different.<br>
+say vmlinuz path maybe different.<br>
 <br>
 For more information on grub you can refer to
 the <a href="http://www.gnu.org/software/grub/">GNU GRUB</a> web
