@@ -1,3 +1,15 @@
+19 January 2012
+GParted Live 0.11.0-10 Stable Release
+<br>
+Thanks to Steven Shiau, we have another stable GParted Live release.<br>
+<br>
+New in this release:
+<ul>
+<li>Fixed PXE booting on a computer with 2 or more network cards</li>
+<li>Based on Debian Sid repository (as of 2012/Jan/11)</li>
+</ul>
+Curtis
+---
 31 December 2011
 GParted Web Site Redesigned
 <br>
