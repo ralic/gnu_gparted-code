@@ -600,6 +600,7 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
+		<a href="http://www.tuxera.com/community/ntfs-3g-download/" target=new>ntfs-3g + ntfsprogs</a>, previously
 		<a href="http://sourceforge.net/projects/linux-ntfs" target=new>ntfsprogs</a>
 	</td>
 </tr>
