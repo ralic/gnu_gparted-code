@@ -110,9 +110,11 @@ gnome_menu();
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
+		<sup><a href="#grow">[2]</a></sup>
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
+		<sup><a href="#grow">[2]</a></sup>
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
@@ -747,7 +749,7 @@ gnome_menu();
 </table>
 <br>
 <a name="ntfscopy">[1]</a> Copy performed using ntfsclone command.<br>
-<a name="grow">[2]</a> You need kernel support for this file system if you want to grow it (module needs to be loaded).<br>
+<a name="grow">[2]</a> You need kernel support for this file system if you want to grow it (or shrink if shrink is supported).<br>
 <a name="shrink">[3]</a> Although it's not possible to shrink an xfs file system directly, you can shrink it using GParted's copy functionality.<br>
 <a name="libparted">[4]</a> Native available through libparted (versions < 3.0).  For example libparted-2.4.<br>
 <a name="xfscopy">[5]</a> Copy performed using xfsdump and xfsrestore.<br>
