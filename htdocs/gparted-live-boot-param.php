@@ -23,8 +23,8 @@ GParted live is based on <a href="http://wiki.debian.org/DebianLive/" target=_bl
 <li>Boot parameters from live-initramfs. You can refer to this <a href="./live-initramfs.en.7.txt" target=_blank>manual of live-initramfs</a>.
 <li>Boot parameters specially for GParted. All of them are named as "gl__*", they are: gl_lang, gl-debug, gl_numlk, gl_capslk, gl_batch. 
   <ul>
-  <li>gl_lang is the language used in GParted live. Available value: en_US.UTF-8, zh_TW.UTF-8...
-      e.g. gl_lang="en_US.UTF-8"
+  <li>gl_lang is the language used in GParted live. Available values: de_DE , en_US , es_ES , fr_FR , it_IT , ja_JP , pt_BR , ru_RU , zh_CN , zh_TW...
+      e.g. gl_lang="en_US"
   <li>gl-debug is for you to enter command line prompt before any GParted-related action is run. This is easier for you to debug.
   <li>gl_numlk, gl_capslk.<br>
       To turn on or off the numberlock or capslock of keyboard. You can use "on" or "off", e.g. gl_numlk=on to turn on numberlock when booting.
