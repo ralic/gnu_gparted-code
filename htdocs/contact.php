@@ -44,7 +44,9 @@ gnome_menu();
       <br>
       <br>
       <b>Internet Relay Chat</b> <br>
-      irc.gnome.org #gparted </div>
+      <a href="irc://irc.gnome.org/gparted">irc.gnome.org #gparted</a>
+
+ </div>
 
 <? gnome_foot() ?>
 
