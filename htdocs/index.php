@@ -68,6 +68,7 @@ loss, enabling you to:<br>
       <li>resize or move</li>
       <li>check</li>
       <li>label</li>
+      <li>set new UUID</li>
       <li>copy and paste</li>
     </ul>
   </li>

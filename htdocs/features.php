@@ -29,8 +29,8 @@ gnome_menu();
 </p>
 <ul>
   <li class="step">Create partition tables, (e.g.,  msdos or gpt)</li>
-  <li class="step">Create, move, copy, resize, check, label, and delete
-                   partitions
+  <li class="step">Create, move, copy, resize, check, label, set new UUID,
+                   and delete partitions
   </li>
   <li class="step">Enable and disable partition flags, (e.g., boot or hidden)
   </li>
@@ -92,6 +92,9 @@ gnome_menu();
 		<b>Label</b>
 	</th>
 	<th>
+		<b>UUID</b>
+	</th>
+	<th>
 		<b>Required software</b>
 	</th>
 </tr>
@@ -130,6 +133,9 @@ gnome_menu();
 		<sup><a href="#btrfs">[10]</a></sup>
 	</td>
 	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
 		<a href="https://btrfs.wiki.kernel.org" target=new>btrfs-tools</a>
 	</td>
 </tr>
@@ -139,6 +145,9 @@ gnome_menu();
 	</th>
 	<td>
 		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
 		<img src="images/not_supported.png" alt="not supported">
@@ -201,6 +210,9 @@ gnome_menu();
 		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
 		<br>
 	</td>
 </tr>
@@ -208,6 +220,9 @@ gnome_menu();
 	<th>
 		<b>ext2</b>
 	</th>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
 	</td>
@@ -271,6 +286,9 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
 		<a href="http://e2fsprogs.sourceforge.net" target=new>e2fsprogs</a>
 	</td>
 </tr>
@@ -281,6 +299,9 @@ gnome_menu();
 	<td>
 		<img src="images/supported.png" alt="supported">
 		<sup><a href="#blkid">[7]</a></sup>
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
@@ -346,6 +367,10 @@ gnome_menu();
 		<sup><a href="#mtools">[6]</a></sup>
 	</td>
 	<td>
+		<img src="images/supported.png" alt="supported">
+		<sup><a href="#mtools">[6]</a></sup>
+	</td>
+	<td>
 		<a href="http://www.daniel-baumann.ch/software/dosfstools/" target=new>dosfstools</a>
 	</td>
 </tr>
@@ -385,6 +410,10 @@ gnome_menu();
 		<sup><a href="#mtools">[6]</a></sup>
 	</td>
 	<td>
+		<img src="images/supported.png" alt="supported">
+		<sup><a href="#mtools">[6]</a></sup>
+	</td>
+	<td>
 		<a href="http://www.daniel-baumann.ch/software/dosfstools/" target=new>dosfstools</a>
 	</td>
 </tr>
@@ -413,6 +442,9 @@ gnome_menu();
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
 		<img src="images/not_supported.png" alt="not supported">
@@ -457,6 +489,9 @@ gnome_menu();
 		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
 		<a href="http://packages.debian.org/search?keywords=hfsprogs" target=new>hfsprogs</a>
 	</td>
 </tr>
@@ -479,6 +514,9 @@ gnome_menu();
 	</td>
 	<td>
 		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
@@ -529,6 +567,10 @@ gnome_menu();
 		<sup><a href="#swaplabel">[8]</a></sup>
 	</td>
 	<td>
+		<img src="images/supported.png" alt="supported">
+		<sup><a href="#swaplabel">[8]</a></sup>
+	</td>
+	<td>
 		<a href="http://en.wikipedia.org/wiki/Util-linux" target=new>util-linux</a>
 	</td>
 </tr>
@@ -538,6 +580,9 @@ gnome_menu();
 	</th>
 	<td>
 		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
 		<img src="images/not_supported.png" alt="not supported">
@@ -600,6 +645,10 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
+		<img src="images/supported.png" alt="supported">
+		<sup><a href="#ntfsuuid">[11]</a></sup>
+	</td>
+	<td>
 		<a href="http://www.tuxera.com/community/ntfs-3g-download/" target=new>ntfs-3g</a> / 
 		<a href="http://sourceforge.net/projects/linux-ntfs" target=new>ntfsprogs</a>
 	</td>
@@ -635,6 +684,9 @@ gnome_menu();
 	<td>
 		<img src="images/not_supported.png" alt="not supported">
 	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
         <td>
                 <a href="https://reiser4.wiki.kernel.org/articles/r/e/i/Reiser4progs.html" target=new>reiser4progs</a>
         </td>
@@ -643,6 +695,9 @@ gnome_menu();
 	<th>
 		<b>reiserfs</b>
 	</th>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
 	</td>
@@ -706,6 +761,9 @@ gnome_menu();
 		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
 		<br>
 	</td>
 </tr>
@@ -744,6 +802,9 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
 		<a href="http://oss.sgi.com/projects/xfs/" target=new>xfsprogs</a>, xfsdump
 	</td>
 </tr>
@@ -754,11 +815,12 @@ gnome_menu();
 <a name="shrink">[3]</a> Although it's not possible to shrink an xfs file system directly, you can shrink it using GParted's copy functionality.<br>
 <a name="libparted">[4]</a> Native available through libparted (versions < 3.0).  For example libparted-2.4.<br>
 <a name="xfscopy">[5]</a> Copy performed using xfsdump and xfsrestore.<br>
-<a name="mtools">[6]</a> Requires <a href="http://mtools.linux.lu/" target=new>mtools</a> to read and write labels.<br>
+<a name="mtools">[6]</a> Requires <a href="http://mtools.linux.lu/" target=new>mtools</a> to read and write labels and UUIDs.<br>
 <a name="blkid">[7]</a> The blkid command from e2fsprogs v1.41+ is required for ext4 detection.<br>
-<a name="swaplabel">[8]</a> The swaplabel command from util-linux v2.18+ is required to label linux-swap.<br>
+<a name="swaplabel">[8]</a> The swaplabel command from util-linux v2.18+ is required to write labels and UUIDs on linux-swap.<br>
 <a name="blkid2">[9]</a> The blkid command from util-linux v2.18+ is required for exfat detection.<br>
 <a name="btrfs">[10]</a> Requires btrfs-tools version released after Oct. 25, 2011 to write labels.<br>
+<a name="ntfsuuid">[11]</a> Requires <a href="http://www.tuxera.com/community/ntfs-3g-advanced/">ntfs-3g advanced</a> release version >= 2012.1.15AR to change UUID.  The <a href="http://www.tuxera.com/community/ntfs-3g-download/">ntfs-3g stable</a> version 2012.1.15 does not yet support changing NTFS UUID.<br>
 <br>
 </div>
 
