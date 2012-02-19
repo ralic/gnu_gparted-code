@@ -582,7 +582,7 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not supported">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
 		<img src="images/not_supported.png" alt="not supported">
@@ -609,7 +609,7 @@ gnome_menu();
 		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<br>
+		<a href="http://sourceware.org/lvm2/" target=new>lvm2</a>
 	</td>
 </tr>
 <tr style="background-color: #dddddd;">
