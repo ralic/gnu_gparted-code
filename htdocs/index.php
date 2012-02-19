@@ -80,6 +80,7 @@ loss, enabling you to:<br>
       <li>fat16 / fat32</li>
       <li>hfs / hfs+</li>
       <li>linux-swap</li>
+      <li>nilfs2</li>
       <li>ntfs</li>
       <li>reiserfs / reiser4</li>
       <li>ufs</li>

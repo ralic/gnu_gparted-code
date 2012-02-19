@@ -614,6 +614,47 @@ gnome_menu();
 </tr>
 <tr style="background-color: #dddddd;">
 	<th>
+		<b>nilfs2</b>
+	</th>
+	<td>
+		<img src="images/supported.png" alt="supported">
+		<sup><a href="#blkid3">[12]</a></sup>
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
+		<sup><a href="#grow">[2]</a></sup>
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
+		<sup><a href="#grow">[2]</a></sup>
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<a href="http://www.nilfs.org/" target=new>nilfs-utils</a>
+	</td>
+</tr>
+<tr>
+	<th>
 		<b>ntfs</b>
 	</th>
 	<td>
@@ -653,7 +694,7 @@ gnome_menu();
 		<a href="http://sourceforge.net/projects/linux-ntfs" target=new>ntfsprogs</a>
 	</td>
 </tr>
-<tr>
+<tr style="background-color: #dddddd;">
         <th>
                 <b>reiser4</b>
         </th>
@@ -691,7 +732,7 @@ gnome_menu();
                 <a href="https://reiser4.wiki.kernel.org/articles/r/e/i/Reiser4progs.html" target=new>reiser4progs</a>
         </td>
 </tr>
-<tr style="background-color: #dddddd;">
+<tr>
 	<th>
 		<b>reiserfs</b>
 	</th>
@@ -729,7 +770,7 @@ gnome_menu();
 		<a href="https://reiser4.wiki.kernel.org/articles/r/e/i/Reiserfsprogs.html" target=new>reiserfsprogs</a>
 	</td>
 </tr>
-<tr>
+<tr style="background-color: #dddddd;">
 	<th>
 		<b>ufs</b>
 	</th>
@@ -767,7 +808,7 @@ gnome_menu();
 		<br>
 	</td>
 </tr>
-<tr style="background-color: #dddddd;">
+<tr>
 	<th>
 		<b>xfs</b>
 	</th>
@@ -821,6 +862,7 @@ gnome_menu();
 <a name="blkid2">[9]</a> The blkid command from util-linux v2.18+ is required for exfat detection.<br>
 <a name="btrfs">[10]</a> Requires btrfs-tools version released after Oct. 25, 2011 to write labels.<br>
 <a name="ntfsuuid">[11]</a> Requires <a href="http://www.tuxera.com/community/ntfs-3g-advanced/">ntfs-3g advanced</a> release version >= 2012.1.15AR to change UUID.  The <a href="http://www.tuxera.com/community/ntfs-3g-download/">ntfs-3g stable</a> version 2012.1.15 does not yet support changing NTFS UUID.<br>
+<a name="blkid3">[12]</a> The blkid command from util-linux v2.20+ or libparted 2.4+ is required for nilfs2 detection.<br>
 <br>
 </div>
 
