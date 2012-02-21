@@ -11,7 +11,7 @@ include "functions.php";
 $name = urlencode($_GET["name"]);
 $lang = urlencode($_GET["lang"]);
 if ( $lang=="" ) $lang = "C";
-$pathname = "docs/" . $name . "/" . $lang . "/";
+$pathname = "docs/" . $name . "/" . urldecode($lang) . "/";
 $filename = $pathname . $name . ".html";
 
 $filecontents = @file_get_contents( $filename );
