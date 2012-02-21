@@ -28,7 +28,12 @@ else
   $doc_error = "";
 
   // Parse out title from head section
-  if ( preg_match( '&<head.*<title[^>]*>(?P<title>[^<]*)</title&si'
+  //
+  // NOTE:  To negate a string in a pattern search, use:
+  //           (?:(?!string).)
+  //        See http://www.php.net/manual/en/function.preg-match.php#103015
+  //
+  if ( preg_match( '&<head(?:(?!<title).)*<title[^>]*>(?P<title>[^<]*)</title&si'
                  , $filecontents, $matches )
      ) {
     $title = "GParted -- " . $matches["title"];
@@ -37,7 +42,7 @@ else
   }
 
   // Parse out meta tag http-equiv from head section
-  if ( preg_match( '&<head.*(?P<httpequiv><meta.*http-equiv[^>]*>).*</head&i'
+  if ( preg_match( '&<head(?:(?!<meta).)*(?P<httpequiv><meta.*http-equiv[^>]*>).*</head&i'
                  , $filecontents  , $matches )
      ) {
     $meta_http_equiv = $matches["httpequiv"];
@@ -47,7 +52,7 @@ else
   }
 
   // Parse out meta tag description from head section
-  if ( preg_match( '&<head.*(?P<desc><meta.*description[^>]*>).*</head&i'
+  if ( preg_match( '&<head(?:(?!<meta).).*(?P<desc><meta.*description[^>]*>).*</head&i'
                  , $filecontents, $matches )
      ) {
     $meta_description = $matches["desc"];
@@ -56,13 +61,16 @@ else
   }
 
   // Remove stuff up to <html[^>]*> if html exists
-  $filecontents = preg_replace( '&^.*<html[^>]*>&si', '', $filecontents );
+  $filecontents = preg_replace( '&^(?:(?!<html).)*<html[^>]*>&si'
+                              , '', $filecontents );
 
   // Remove stuff up to </head> if head exists
-  $filecontents = preg_replace( '&^.*</head[^>]*>&si', '', $filecontents );
+  $filecontents = preg_replace( '&^(?:(?!</head).)*</head[^>]*>&si'
+                              , '', $filecontents );
 
   // Remove stuff up to <body> if body exists
-  $filecontents = preg_replace( '&^.*<body[^>]*>&si', '', $filecontents );
+  $filecontents = preg_replace( '&^(?:(?!<body).)*<body[^>]*>&si'
+                              , '', $filecontents );
 
   // Remove stuff after </html[^>]*> if html exists
   $filecontents = preg_replace( '&</html[^>]*>.*$&si', '', $filecontents );
