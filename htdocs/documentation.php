@@ -35,7 +35,8 @@ gnome_menu();
         <a href="display-doc.php?name=help-manual&lang=it">Italiano</a>,
         <a href="display-doc.php?name=help-manual&lang=pt_BR">Português do Brasil</a>,
         <a href="display-doc.php?name=help-manual&lang=ro">Română</a>,
-        <a href="display-doc.php?name=help-manual&lang=sr">српски</a>
+        <a href="display-doc.php?name=help-manual&lang=sr">српски</a>,
+        <a href="display-doc.php?name=help-manual&lang=sr%40latin">Српске Латиница</a>
       </td>
     </tr>
     <tr>
