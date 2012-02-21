@@ -1,8 +1,8 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>GParted Manual</title><meta name="generator" content="DocBook XSL Stylesheets V1.75.2"><meta name="description" content="GParted is the Gnome Partition Editor for creating, reorganizing, and deleting disk partitions. GParted enables you to change the partition organization while preserving the partition contents."></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div lang="en" class="article" title="GParted Manual"><div class="titlepage"><div><div><h2 class="title"><a name="gparted"></a>GParted Manual</h2></div><div><div class="authorgroup"><div class="author"><h3 class="author"><span class="firstname">Curtis</span> <span class="surname">Gedak</span></h3><div class="affiliation"><span class="orgname">GParted Project<br></span><div class="address"><p><br>
             <code class="email">&lt;<a class="email" href="mailto:gedakc@users.sf.net">gedakc@users.sf.net</a>&gt;</code><br>
           </p></div></div></div></div></div><div><p class="releaseinfo">
-    This manual describes version 0.8.0 of GParted
-    </p></div><div><p class="copyright">Copyright © 2008, 2009, 2010, 2011 Curtis Gedak</p></div><div><div class="legalnotice" title="Legal Notice"><a name="id482340"></a><p>
+    This manual describes version 0.12.0 of GParted
+    </p></div><div><p class="copyright">Copyright © 2008, 2009, 2010, 2011, 2012 Curtis Gedak</p></div><div><div class="legalnotice" title="Legal Notice"><a name="id460454"></a><p>
       Permission is granted to copy, distribute and/or modify this document
       under the terms of the GNU Free Documentation License, Version 1.2
       or any later version published by the Free Software Foundation;
@@ -11,12 +11,16 @@
       <a class="ulink" href="ghelp:fdl" target="_top">link</a> or at
       <a class="ulink" href="http://www.fsf.org/licensing/licenses/fdl.html" target="_top">http://www.fsf.org/licensing/licenses/fdl.html</a>
       or in the file COPYING-DOCS distributed with this manual.
-      </p></div></div><div><div class="legalnotice" title="Feedback"><a name="id480779"></a><p class="legalnotice-title"><b>Feedback</b></p><p>
+      </p></div></div><div><div class="legalnotice" title="Feedback"><a name="id458926"></a><p class="legalnotice-title"><b>Feedback</b></p><p>
       To report a bug or make a suggestion regarding the
       <span class="application">gparted</span> application or this manual,
       follow the directions at
       <a class="ulink" href="http://gparted.org/bugs.php" target="_top">http://gparted.org/bugs.php</a>.
-      </p></div></div><div><div class="revhistory"><table border="1" width="100%" summary="Revision history"><tr><th align="left" valign="top" colspan="2"><b>Revision History</b></th></tr><tr><td align="left">Revision GParted Manual V1.3</td><td align="left">January 2011</td></tr><tr><td align="left" colspan="2">
+      </p></div></div><div><div class="revhistory"><table border="1" width="100%" summary="Revision history"><tr><th align="left" valign="top" colspan="2"><b>Revision History</b></th></tr><tr><td align="left">Revision GParted Manual V1.4</td><td align="left">February 2012</td></tr><tr><td align="left" colspan="2">
+          <p class="author">Curtis Gedak</p>
+          <p class="publisher">GParted Project</p>
+          <p class="annotations">Describes version 0.12.0 of GParted</p>
+        </td></tr><tr><td align="left">Revision GParted Manual V1.3</td><td align="left">January 2011</td></tr><tr><td align="left" colspan="2">
           <p class="author">Curtis Gedak</p>
           <p class="publisher">GParted Project</p>
           <p class="annotations">Describes version 0.8.0 of GParted</p>
@@ -41,7 +45,7 @@
       reorganizing, and deleting disk partitions.
       GParted enables you to change the partition organization while preserving
       the partition contents.
-      </p></div></div></div><hr></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="sect1"><a href="#gparted-introduction">Introduction</a></span></dt><dt><span class="sect1"><a href="#gparted-getting-started">Getting Started</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-to-start">Starting gparted</a></span></dt><dt><span class="sect2"><a href="#gparted-when-you-start">The gparted Window</a></span></dt><dt><span class="sect2"><a href="#gparted-run-from-cmd-line">Running gparted from a Command Line</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-usage">Viewing File System Support</a></span></dt><dt><span class="sect1"><a href="#gparted-devices">Working with Devices</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-select-device">Selecting a Device</a></span></dt><dt><span class="sect2"><a href="#gparted-view-device-information">Viewing Device Information</a></span></dt><dt><span class="sect2"><a href="#gparted-refresh-device">Refreshing All Devices</a></span></dt><dt><span class="sect2"><a href="#gparted-create-partition-table">Creating a New Partition Table</a></span></dt><dt><span class="sect2"><a href="#gparted-attempt-data-rescue">Attempting Data Rescue</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-partitions">Working with Partitions</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-basic-partition-actions">Basic Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-select-partition">Selecting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-select-unallocated">Selecting Unallocated Space</a></span></dt><dt><span class="sect3"><a href="#gparted-view-partition-information">Viewing Partition Information</a></span></dt><dt><span class="sect3"><a href="#gparted-mount-partition">Mounting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-unmount-partition">Unmounting a Partition</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-intermediate-partition-actions">Intermediate Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-create-new-partition">Creating a New Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-delete-partition">Deleting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-format-partition">Formatting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-setting-partition-label">Setting a Partition Label</a></span></dt><dt><span class="sect3"><a href="#gparted-specify-partition-details">Specifying Partition Details</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-advanced-partition-actions">Advanced Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-resize-partition">Resizing a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-move-partition">Moving a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-copy-and-paste-partition">Copying and Pasting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-manage-partition-flags">Managing Partition Flags</a></span></dt><dt><span class="sect3"><a href="#gparted-Check-partition">Checking a Partition</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-operation-queue">Working with the Operation Queue</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-undo-last-operation">Undoing Last Operation</a></span></dt><dt><span class="sect3"><a href="#gparted-clear-all-operations">Clearing All Operations</a></span></dt><dt><span class="sect3"><a href="#gparted-apply-all-operations">Applying All Operations</a></span></dt></dl></dd></dl></dd><dt><span class="sect1"><a href="#gparted-acquire-livecd">Acquiring GParted on Live CD</a></span></dt><dt><span class="sect1"><a href="#gparted-fix-operating-system-boot-problems">Fixing Operating System Boot Problems</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-fix-grub-boot-problem">Fixing GRUB boot problem</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-recover-partition-table">Recovering Partition Tables</a></span></dt></dl></div><div class="sect1" title="Introduction"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-introduction"></a>Introduction</h2></div></div></div><p>
+      </p></div></div></div><hr></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="sect1"><a href="#gparted-introduction">Introduction</a></span></dt><dt><span class="sect1"><a href="#gparted-getting-started">Getting Started</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-to-start">Starting gparted</a></span></dt><dt><span class="sect2"><a href="#gparted-when-you-start">The gparted Window</a></span></dt><dt><span class="sect2"><a href="#gparted-run-from-cmd-line">Running gparted from a Command Line</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-usage">Viewing File System Support</a></span></dt><dt><span class="sect1"><a href="#gparted-devices">Working with Devices</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-select-device">Selecting a Device</a></span></dt><dt><span class="sect2"><a href="#gparted-view-device-information">Viewing Device Information</a></span></dt><dt><span class="sect2"><a href="#gparted-refresh-device">Refreshing All Devices</a></span></dt><dt><span class="sect2"><a href="#gparted-create-partition-table">Creating a New Partition Table</a></span></dt><dt><span class="sect2"><a href="#gparted-attempt-data-rescue">Attempting Data Rescue</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-partitions">Working with Partitions</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-basic-partition-actions">Basic Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-select-partition">Selecting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-select-unallocated">Selecting Unallocated Space</a></span></dt><dt><span class="sect3"><a href="#gparted-view-partition-information">Viewing Partition Information</a></span></dt><dt><span class="sect3"><a href="#gparted-mount-partition">Mounting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-unmount-partition">Unmounting a Partition</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-intermediate-partition-actions">Intermediate Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-create-new-partition">Creating a New Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-delete-partition">Deleting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-format-partition">Formatting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-setting-partition-label">Setting a Partition Label</a></span></dt><dt><span class="sect3"><a href="#gparted-changing-partition-uuid">Changing a Partition UUID</a></span></dt><dt><span class="sect3"><a href="#gparted-specify-partition-details">Specifying Partition Details</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-advanced-partition-actions">Advanced Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-resize-partition">Resizing a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-move-partition">Moving a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-copy-and-paste-partition">Copying and Pasting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-manage-partition-flags">Managing Partition Flags</a></span></dt><dt><span class="sect3"><a href="#gparted-Check-partition">Checking a Partition</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-operation-queue">Working with the Operation Queue</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-undo-last-operation">Undoing Last Operation</a></span></dt><dt><span class="sect3"><a href="#gparted-clear-all-operations">Clearing All Operations</a></span></dt><dt><span class="sect3"><a href="#gparted-apply-all-operations">Applying All Operations</a></span></dt></dl></dd></dl></dd><dt><span class="sect1"><a href="#gparted-acquire-livecd">Acquiring GParted on Live CD</a></span></dt><dt><span class="sect1"><a href="#gparted-fix-operating-system-boot-problems">Fixing Operating System Boot Problems</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-fix-grub-boot-problem">Fixing GRUB boot problem</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-recover-partition-table">Recovering Partition Tables</a></span></dt></dl></div><div class="sect1" title="Introduction"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-introduction"></a>Introduction</h2></div></div></div><p>
     The <span class="application">gparted</span> application is the GNOME partition
     editor for creating, reorganizing, and deleting disk partitions.
     </p><p>
@@ -507,6 +511,51 @@
               The application displays the set partition label operation
               in the <span class="guilabel">Operations Pending</span> pane.
               </p></li></ol></div><p>
+        </p></div><div class="sect3" title="Changing a Partition UUID"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-changing-partition-uuid"></a>Changing a Partition UUID</h4></div></div></div><p>
+        To change the Universally Unique Identifier (UUID) of a partition:
+          </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
+              Select an unmounted partition.
+              See <a class="xref" href="#gparted-select-partition" title="Selecting a Partition">the section called &#8220;Selecting a Partition&#8221;</a>.
+              </p></li><li class="listitem"><p>
+              Choose:
+              <span class="guimenu">Partition</span> &#8594; <span class="guimenuitem">New UUID</span>.
+              The application displays the set a new random UUID
+              operation in the <span class="guilabel">Operations Pending</span>
+              pane.
+              </p><div class="warning" title="Warning" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Warning</h3><p>
+                Changing the UUID might invalidate the Windows Product
+                Activation key (WPA).
+                </p><p>
+                On FAT and NTFS file systems, the Volume Serial Number
+                is used as UUID.  Changing the Volume Serial
+                Number on the Windows system partition, normally C:,
+                might invalidate the WPA key.  An invalid WPA key will
+                prevent login until you reactivate Windows.
+                </p><p>
+                In an attempt to avoid invalidating the WPA key, on
+                NTFS file systems only half of the UUID is set to a
+                new random value. On FAT file systems, such a precaution
+                is not possible.
+                </p><p>
+                The WPA key should not be affected by changing the
+                UUID of data partitions or removable media partitions.
+                In rare cases, a partition that is present
+                at boot time might be an exception to this rule.
+                </p></div><div class="warning" title="Warning" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Warning</h3><p>
+                Changing the UUID when there is no need to do so might
+                cause a GNU/Linux system to fail to boot, or to fail
+                to mount a file system.
+                </p><p>
+                Changing the UUID is only required after copying a
+                partition.  The UUID change is needed to prevent
+                duplicate UUIDs when both the source and the copy of
+                the partition are used on the same computer.
+                </p><p>
+                If boot or mount problems occur you might need to edit
+                configuration files, such as /etc/fstab, and
+                regenerate the grub menu to ensure that the correct
+                UUID is specified.
+                </p></div></li></ol></div><p>
         </p></div><div class="sect3" title="Specifying Partition Details"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-specify-partition-details"></a>Specifying Partition Details</h4></div></div></div><p>
         Specifying partition details is useful when performing actions
         such as create, resize, and move.
@@ -787,19 +836,44 @@
           The copy of the partition has the same label
           and the same Universally Unique Identifier (UUID)
           as the source partition.
-          This can cause a problem when mount actions use the
-          partition label or the UUID to identify the partition.
-          The problem is that the label and the UUID are not unique.
+          This can cause a problem when booting, or when mount actions
+          use the partition label or the UUID to identify the
+          partition.
           </p><p>
-          You are advised to do one of the following:
+          The problem is that the operating system will randomly
+          select to mount either the source, or the copy of the
+          partition.  For example, on the first mount action the
+          source partition might be mounted.  On the next mount action
+          the copy of the partition might be mounted.  Over time this
+          random nature of partition mounting might make files seem to
+          mysteriously appear or disappear depending upon which
+          partition is mounted.  Random mounting of the source or the
+          copy of the partition might also cause severe data
+          corruption or loss.
+          </p><p>
+          To avoid the problem you are advised to do one of the
+          following:
             </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
-                Change the UUID of the partition.
-                If the partition label is not blank, change the label
-                of the partition.
+                After you have applied the copy operation:
+                  </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
+                      Change the UUID of either the source, or the copy
+                      of the partition.
+                      See <a class="xref" href="#gparted-changing-partition-uuid" title="Changing a Partition UUID">the section called &#8220;Changing a Partition UUID&#8221;</a>.
+                      </p></li><li class="listitem"><p>
+                      If the partition label is not blank then change the
+                      label of either the source, or the copy of the
+                      partition.
+                      See <a class="xref" href="#gparted-setting-partition-label" title="Setting a Partition Label">the section called &#8220;Setting a Partition Label&#8221;</a>.
+                      </p></li></ol></div><p>
+                </p></li><li class="listitem"><p>
+                After you have applied the copy operation, delete or
+                reformat the source partition.
                 </p></li><li class="listitem"><p>
                 Use some other method to ensure that the source
-                partition and the copy of the source partition
-                are not used on the same computer at the same time.
+                partition and the copy of the partition are not used
+                on the same computer at the same time.  For example,
+                if the copy of the partition is on a separate drive
+                then remove the drive from the computer.
                 </p></li></ul></div><p>
           </p></div></div><div class="sect3" title="Managing Partition Flags"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-manage-partition-flags"></a>Managing Partition Flags</h4></div></div></div><p>
         To manage partition flags:
