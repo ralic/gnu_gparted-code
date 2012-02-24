@@ -5,7 +5,7 @@ Steven Shiau has created a new stable GParted Live release.<br>
 <br>
 New in this release:
 <ul>
-<li>Includes GParted 0.12.0 (adds support for nilfs, set new UUID, and
+<li>Includes GParted 0.12.0 (adds support for nilfs2, set new UUID, and
     growing GPT RAID)</li>
 <li>Updates Linux kernel to 3.2.6-1</li>
 <li>Based on Debian Sid repository (as of 2012/Feb/23)</li>
