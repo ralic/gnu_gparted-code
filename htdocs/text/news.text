@@ -1,3 +1,20 @@
+23 February 2012
+GParted Live 0.12.0-2 Stable Release
+<br>
+Steven Shiau has created a new stable GParted Live release.<br>
+<br>
+New in this release:
+<ul>
+<li>Includes GParted 0.12.0 (adds support for nilfs, set new UUID, and
+    growing GPT RAID)</li>
+<li>Updates Linux kernel to 3.2.6-1</li>
+<li>Based on Debian Sid repository (as of 2012/Feb/23)</li>
+<li>Replaces Dillo with <a
+    href="http://www.netsurf-browser.org/">NetSurf</a> web browser to
+    improve support of GParted forum</li>
+</ul>
+Curtis
+---
 21 February 2012
 GParted 0.12.0
 <br>
