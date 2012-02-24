@@ -126,7 +126,7 @@ GParted Live includes additional packages, such as:<br>
     <td>- Secure shell (ssh) connectivity tool suite</td>
   </tr>
   <tr>
-    <td><a href="http://www.dillo.org">dillo</a></td>
+    <td><a href="http://www.netsurf-browser.org/">netsurf</a></td>
     <td>- Small web browser</td>
   </tr>
 </table>
