@@ -2,10 +2,20 @@
 <html>
 <?
 include "functions.php";
+
+if ( ! empty( $_GET["entries"] ) ) {
+	$title = "GParted -- All News";
+	$heading = "GParted All News";
+	$max_news = 10000; //arbitrary value, increase if you need more
+} else {
+	$title = "GParted -- News";
+	$heading = "GParted News";
+	$max_news = 7 ;
+}
 ?>
 
 <head>
-  <title>GParted -- News</title>
+  <title><? echo $title; ?></title>
 <? html_head() ?>
 </head>
 <body>
@@ -16,7 +26,7 @@ gnome_head();
 gnome_menu();
 ?>
 <div class="content">
-<h1>GParted News</h1>
+<h1><? echo $heading; ?></h1>
 
 <div class="right">
   <?
@@ -28,15 +38,9 @@ gnome_menu();
 $filename = "text/news.text";
 $fcontents = file($filename);
 $pos = 0;
-$aantal = 0;
-$news_per_page = 5;
+$count = 0;
 
-if ( ! empty( $_GET["alles"] ) )	
-	$max_nieuws = 1000; //arbitrary value, increase if you need more
-else
-	$max_nieuws = $news_per_page ;
-
-while( (list ($line_num, $line) = each ($fcontents)) && $aantal < $max_nieuws  ) {
+while( (list ($line_num, $line) = each ($fcontents)) && $count < $max_news  ) {
     if ($line_num == $pos) {
 	echo "<div class=\"newshdr\">\n";
 	echo "<b>", htmlspecialchars ( chop($line) ), ": ";
@@ -46,14 +50,14 @@ while( (list ($line_num, $line) = each ($fcontents)) && $aantal < $max_nieuws  )
     } elseif (chop($line) == "---") {
 	echo "</div>\n";
 	$pos = $line_num + 1;
-	$aantal++;
+	$count++;
     } else {
 	echo $line;
     }
 }
 
-if ( ! empty( $line ) )	
-	echo "<p><a href=\"news.php?alles=alles\">All news...</a></p>\n";
+if ( ! empty( $line ) )
+	echo "<p><a href=\"news.php?entries=all\">All news...</a></p>\n";
 else
 	echo "<p><a href=\"news.php\">Less news...</a></p>\n";
 ?>
