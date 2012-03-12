@@ -81,6 +81,7 @@ function menu_entries() { ?>
 	<li><a href="download.php">Download</a></li>
 	<li><a href="livecd.php">Live CD/USB</a></li>
 	<li><a href="help.php">Help</a></li>
+	<li><a href="news.php">News</a></li>
 	<li><a href="development.php">Development</a></li>
 	<li><a href="donations.php">Donate</a></li>
 	</ul>
