@@ -61,10 +61,15 @@ gnome_menu();
 </ul>
 <br>
 
-<p>
-To learn how to help the GParted project please see
-the <a href="howtohelp.php">how to help</a> page.
-</p>
+<h2>What can You do for GParted?</h2>
+
+<ul>
+  <li class="step">
+    The <a href="howtohelp.php">how to help</a> page indicates how you
+    can help the GParted project.
+  </li>
+</ul>
+<br>
 
 </div>
 
