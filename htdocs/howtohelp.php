@@ -19,7 +19,7 @@ gnome_menu();
 <h1>How to help</h1>
 
 <p>You can help the GParted project and all the people that use
-GParted in many different ways:</p>
+GParted in many different ways.</p>
 
 <h3>Share</h3>
 <p>
