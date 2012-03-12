@@ -186,7 +186,7 @@ gparted.
 <BR>
 <A href="http://en.wikipedia.org/wiki/GUID_Partition_Table">GUID Partition Table</A>
 <BR>
-<A href="http://mirror.href.com/thestarman/asm/mbr/NTFSBR.htm">NTFS Boot Record Secrets</A>
+<A href="http://thestarman.pcministry.com/asm/mbr/NTFSBR.htm">NTFS Boot Record Secrets</A>
 <BR>
 </P>
 </div>
