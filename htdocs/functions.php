@@ -48,6 +48,14 @@ function gnome_head() { ?>
 
 function gnome_foot_wo_ads() { ?>
 <div class="ftr">
+	<a href="documentation.php">documentation</a> &nbsp;
+	<a href="faq.php">FAQ</a> &nbsp;
+	<a href="forum.php">forum</a> &nbsp;
+	<a href="bugs.php">bugs</a> &nbsp;
+	<a href="features.php">features</a> &nbsp;
+	<a href="screenshots.php">screenshots</a> &nbsp;
+	<a href="contact.php">contact</a>
+	<br><br>
 <a href="http://sourceforge.net/projects/gparted"><img
 	src="http://sflogo.sourceforge.net/sflogo.php?group_id=115843&amp;type=12"
 	width="120" height="31" border="0"
