@@ -41,10 +41,11 @@ loss, enabling you to:<br>
         height="140px" class="left">
 </a>
 
-<h2>Learn More</h2>
+<h2>Discover More</h2>
 <ul>
   <li class="nobullet">
-    Read the latest <a href="news.php">news</a>.
+    Learn <a href="why-partition.php">why partition your disk
+    device</a>.
   </li>
   <li class="nobullet">
     Get <a href="help.php">help</a> with disk partitioning.
