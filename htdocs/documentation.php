@@ -77,6 +77,19 @@ gnome_menu();
     <tr>
       <td>
         <a href="./create-gparted-live.php">Create GParted Live from Scratch</a>
+      </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <th>General Information</th>
+      <th>Translations</th>
+    </tr>
+    <tr>
+      <td><a href="./why-partition.php">Why Partition your Disk Device?</a></td>
       <td> </td>
     </tr>
   </table>
