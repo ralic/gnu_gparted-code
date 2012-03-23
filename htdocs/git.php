@@ -18,12 +18,6 @@ gnome_menu();
 <div class="content">
 <h1>Git Source Code Management</h1>
 
-<div class="right">
-  <?
-    include "google/gitp-300x250-rhs-near-top.inc";
-  ?>
-</div>
-
 <p>
 If you are the bleeding-edge kinda person, you have come to the right
 place ;-)<br>
