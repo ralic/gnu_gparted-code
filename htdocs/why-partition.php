@@ -292,7 +292,7 @@ estimate the partition sizes you will need.
 
 </p>
 
-
+</div>
 <? gnome_foot() ?>
 
 </div>
