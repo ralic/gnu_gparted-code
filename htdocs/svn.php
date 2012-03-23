@@ -16,7 +16,17 @@ gnome_head();
 gnome_menu();
 ?>
 <div class="content">
-<h1>SVN</h1> 
+<h1>SVN</h1>
+
+<div class="Note">
+<p>
+<b>NOTE:</b>
+&nbsp; GParted source code is now stored in a
+<a href="git.php">git</a> repository.
+</p>
+</div>
+<br>
+
  If you are the bleeding-edge kinda person, you have come to the right place ;-)<br>
 I cannot quarantee svn versions will work or even compile, but feel free to give it a try.
 <br>
