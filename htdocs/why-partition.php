@@ -18,6 +18,12 @@ gnome_menu();
 <div class="content">
 <h1>Why Partition your Disk Device?</h1>
 
+<div class="right">
+  <?
+    include "google/wpp-300x250-rhs-near-top.inc";
+  ?>
+</div>
+
 <h2>List of Reasons</h2>
 <p>
 There are several good reasons why you might partition your disk device.
