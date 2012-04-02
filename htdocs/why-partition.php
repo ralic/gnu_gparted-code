@@ -95,7 +95,7 @@ increased performance by aligning partitions to mebibyte (MiB)
 boundaries.
 </p>
 <p>
-Aligning partitions to mebibyte (MiB) boundaries MiB works well with
+Aligning partitions to mebibyte (MiB) boundaries works well with
 modern Operating Systems and all types of disk devices.
 </p>
 </div>
