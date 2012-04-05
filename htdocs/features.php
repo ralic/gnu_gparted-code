@@ -354,7 +354,7 @@ gnome_menu();
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
-		<sup><a href="#libparted">[4]</a></sup>
+		<sup><a href="#libpartedmove">[13]</a></sup>
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
@@ -397,7 +397,7 @@ gnome_menu();
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
-		<sup><a href="#libparted">[4]</a></sup>
+		<sup><a href="#libpartedmove">[13]</a></sup>
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
@@ -854,7 +854,7 @@ gnome_menu();
 <a name="ntfscopy">[1]</a> Copy performed using ntfsclone command.<br>
 <a name="grow">[2]</a> You need kernel support for this file system if you want to grow it (or shrink if shrink is supported).<br>
 <a name="shrink">[3]</a> Although it's not possible to shrink an xfs file system directly, you can shrink it using GParted's copy functionality.<br>
-<a name="libparted">[4]</a> Native available through libparted (versions < 3.0).  For example libparted-2.4.<br>
+<a name="libparted">[4]</a> Native available through libparted (versions < 3.0 or versions > 3.0).  For example libparted-3.1.<br>
 <a name="xfscopy">[5]</a> Copy performed using xfsdump and xfsrestore.<br>
 <a name="mtools">[6]</a> Requires <a href="http://mtools.linux.lu/" target=new>mtools</a> to read and write labels and UUIDs.<br>
 <a name="blkid">[7]</a> The blkid command from e2fsprogs v1.41+ is required for ext4 detection.<br>
@@ -863,6 +863,7 @@ gnome_menu();
 <a name="btrfs">[10]</a> Requires btrfs-tools version released after Oct. 25, 2011 to write labels.<br>
 <a name="ntfsuuid">[11]</a> Requires <a href="http://www.tuxera.com/community/ntfs-3g-advanced/">ntfs-3g advanced</a> release version >= 2012.1.15AR to change UUID.  The <a href="http://www.tuxera.com/community/ntfs-3g-download/">ntfs-3g stable</a> version 2012.1.15 does not yet support changing NTFS UUID.<br>
 <a name="blkid3">[12]</a> The blkid command from util-linux v2.20+ or libparted 2.4+ is required for nilfs2 detection.<br>
+<a name="libpartedmove">[13]</a> Native available through libparted < 3.0.  Move performed internally by GParted for libparted >= 3.0.<br>
 <br>
 </div>
 
