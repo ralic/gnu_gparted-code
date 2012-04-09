@@ -1,3 +1,21 @@
+9 April 2012
+GParted 0.12.1
+<br>
+This release enables GParted to use the new file system resize library
+(for FAT16/32 and HFS/+) available with parted 3.1.  Also included are
+bug fixes and language translation updates.<br>
+<br>
+Key changes include:
+<ul>
+<li>Enable new file system resize library available with parted-3.1</li>
+<li>Handle more than 15 partitions on a disk device with parted-3.1</li>
+<li>Ensure space for EBR when resizing Extended partition</li>
+<li>Ensure Align to MiB does not overlap following partition</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.12.1/gparted-0.12.1-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 13 Mar 2012
 GParted Live 0.12.0-5 Stable Release
 <br>
