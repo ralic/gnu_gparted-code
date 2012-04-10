@@ -82,6 +82,9 @@ minor 1, etc up till /dev/hda63.
 For SCSI devices only 16 minor numbers are allocated for each disk, so
 there Linux only supports 15 partitions.  Devices that use the SCSI
 driver have names like /dev/sda.
+<br><br>
+<b>NOTE:</b> When GParted is linked with libparted 3.1+, the limit of
+15 partitions is removed.
 ---
 9
 Why are some menu items disabled?
