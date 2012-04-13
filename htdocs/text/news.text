@@ -1,3 +1,18 @@
+13 April 2012
+GParted Live 0.12.1-1 Stable Release
+<br>
+We are proud to announce a new stable release of GParted Live.<br>
+<br>
+New in this release:
+<ul>
+<li>Updates Linux kernel to 3.2.14-1</li>
+<li>Based on Debian Sid repository (as of 2012/Apr/10)</li>
+<li>Includes new GParted 0.12.1 release</li>
+</ul>
+Thank you Steven for another great GParted Live release.<br>
+<br>
+Curtis
+---
 9 April 2012
 GParted 0.12.1
 <br>
