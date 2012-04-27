@@ -69,7 +69,7 @@ from scratch</a><br>
 </p>
 <h2>Accounts in GParted live</h2>
 <p>
-GParted live is based on <a href="http://live.debian.net/" target=_blank>Debian live</a>, and the default account is "user", with password "live". There is no root password, so if you need root privileges, login as "user", then run "sudo" to get root priviliges. 
+GParted live is based on <a href="http://live.debian.net/" target=_blank>Debian live</a>, and the default account is "user", with password "live". There is no root password, so if you need root privileges, login as "user", then run "sudo" to get root privileges. 
 </p>
 
 <h2>Available boot parameters</h2>
