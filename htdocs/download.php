@@ -140,17 +140,6 @@ See <a href="http://gparted.org/display-doc.php?name=gparted-live-manual&lang=C#
 </div>
 </td></tr></table>
 
-<h2>Order a Disk</h2>
-<p>
-The GParted LiveCD is available as a large ISO file that may be difficult
-for some people to download and burn to CD.
-Since some online shops provide GParted Live on CD,
-you might decide to order it and receive the disk by postal mail.
-Before ordering a disk, please check that it is the version you want.<br>
-These shops are not affiliated with the GParted Project.
-</p>
-<a href="http://www.linuxcd.org/view_distro.php?id_distro=328&amp;ref=gparted">LinuxCD.org</a>
-<br>
 </div>
 
 <? gnome_foot() ?>
