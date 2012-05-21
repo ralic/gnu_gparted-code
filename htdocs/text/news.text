@@ -1,3 +1,19 @@
+21 May 2012
+GParted Live 0.12.1-5 Stable Release
+<br>
+Steven has created a new stable release of GParted Live.<br>
+<br>
+New in this release:
+<ul>
+<li>Updates Linux kernel to 3.2.17-1</li>
+<li>Based on Debian Sid repository (as of 2012/May/20)</li>
+<li>Adds gptsync package:<br>
+Useful to re-sync the Mac OS X Hybrid MSDOS/GPT partition tables after
+editing.
+</li>
+</ul>
+Curtis
+---
 13 April 2012
 GParted Live 0.12.1-1 Stable Release
 <br>
