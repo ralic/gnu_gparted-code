@@ -122,6 +122,10 @@ GParted Live includes additional packages, such as:<br>
     <td>- GPT partition table editor (command line based)</td>
   </tr>
   <tr>
+    <td><a href="http://packages.debian.org/sid/gptsync">gptsync</a></td>
+    <td>- GPT and MSDOS partition tables synchronization tool useful for Mac OS X users (command line based)</td>
+  </tr>
+  <tr>
     <td><a href="http://www.openssh.com/">openssh</a></td>
     <td>- Secure shell (ssh) connectivity tool suite</td>
   </tr>
