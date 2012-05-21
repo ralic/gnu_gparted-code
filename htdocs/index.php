@@ -18,7 +18,7 @@ gnome_menu();
 <div class="rightbox">
 	<b>Latest release:</b><br>
 	<a href="http://sourceforge.net/projects/gparted/files/gparted/gparted-0.12.1/">GParted 0.12.1</a><br>
-	<a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/0.12.1-1/">Live 0.12.1-1</a>
+	<a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/0.12.1-5/">Live 0.12.1-5</a>
 	</div>
 <div class="content">
 
