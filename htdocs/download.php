@@ -140,6 +140,16 @@ See <a href="http://gparted.org/display-doc.php?name=gparted-live-manual&lang=C#
 </div>
 </td></tr></table>
 
+<h2>Order a Disk</h2>
+<p>
+GParted Live can be ordered on a CDROM and delivered to you by postal mail.<br>
+Before ordering a disk, please check that it is the version you want.<br>
+<br>
+<a href="http://ozdisc.com/GParted?tracking=4fbbf6a1d2eb9">OzDisc.org
+- GParted Live CD</a><br>
+</p>
+<br>
+
 </div>
 
 <? gnome_foot() ?>
