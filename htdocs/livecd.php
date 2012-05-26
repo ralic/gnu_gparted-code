@@ -48,6 +48,7 @@ partition image tools are available:<br>
 <a href="http://www.fsarchiver.org" target=_blank>FSArchiver</a>, &nbsp;
 <a href="http://g4l.sourceforge.net" target=_blank>G4L</a>, &nbsp;
 <a href="http://www.feyrer.de/g4u" target=_blank>g4u</a>, &nbsp;
+<a href="http://gnetic.nongnu.org" target=_blank>gnetic</a>, &nbsp;
 <a href="http://partimage.org" target=_blank>Partimage</a>, &nbsp;
 <a href="http://partclone.org" target=_blank>Partclone</a>.
 </p>
