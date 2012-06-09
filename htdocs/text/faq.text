@@ -238,12 +238,18 @@ Please refer to the GParted live manual
 ---
 21
 How can I fix missing or lost partitions on Intel-based Mac OS X?
-Intel-based Mac OS X uses a combination of GPT and MBR partition
-tables.  Sometimes when using older GParted versions to modify the
-partitions on a Mac, the GPT is changed but not the MBR.
-See <a href="https://bugzilla.gnome.org/show_bug.cgi?id=586910">Bug
-586910 - MBR does not reflect the GPT partition map</a>.<br>
+Intel-based Mac OS X uses a combination of GPT and MBR for partition
+tables.  When editing partitions with GParted, the GUID partition
+table will be updated, and the MSDOS partition table will be set to a
+single protective entry.<br>
 <br>
-This problem can be repaired with the <a
+You can re-sync the GPT partition entries to the MSDOS partition table
+with the following command:<br>
+<br>
+&nbsp; &nbsp; &nbsp; sudo gptsync /path-to-disk-device<br>
+<br>
+Where /path-to-disk-device is something like /dev/sdb<br>
+<br>
+This problem can also be repaired with the <a
 href="http://refit.sourceforge.net">rEFIt</a> application.
 ---
