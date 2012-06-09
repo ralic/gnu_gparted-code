@@ -162,9 +162,11 @@ Mac OS X is an exception to this rule.
     <br>
     <div class="note">
     <b>Note:</b>
-    If the hybrid partition table scheme gets out of sync, you can
-    re-synchronize the partition tables using
-    the <a href="http://refit.sourceforge.net/">rEFIt</a> application.
+    After editing partitions with GParted, the hybrid partition table
+    scheme gets out of sync.  You can re-synchronize the partition
+    tables using the gptsync command included with GParted Live, or
+    with the <a href="http://refit.sourceforge.net/">rEFIt</a>
+    application.
     </div>
   </li>
 </ul>
