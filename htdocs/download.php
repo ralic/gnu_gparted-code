@@ -153,7 +153,7 @@ a donation to help us make GParted better.<br>
       Ubuntu
     </th>
     <td>
-      <a href="https://apps.ubuntu.com/cat/applications/gparted/"><img src="http://developer.ubuntu.com/wp-content/uploads/2012/06/downloadonubuntubutton.png" title="Download for Ubuntu" alt="Download for Ubuntu button" width="122" height="49" /></a>
+      <a href="https://apps.ubuntu.com/cat/applications/gparted/"><img src="http://developer.ubuntu.com/wp-content/uploads/2012/06/downloadonubuntubutton.png" title="Download for Ubuntu" alt="Download for Ubuntu button" width="122" height="49"></a>
     </td>
     <td>
       <pre>sudo apt-get install gparted</pre>
@@ -161,7 +161,7 @@ a donation to help us make GParted better.<br>
   </tr>
 </table>
 
-<a name="distribution-note">
+<a name="distribution-note"></a>
 <p>
 &nbsp; &nbsp; * NOTE: Distribution packages might not contain the most
 recent versions of GParted.
