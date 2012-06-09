@@ -28,10 +28,10 @@ gnome_menu();
 GParted is a free partition manager that enables you to resize, copy,
 and move partitions without data loss.<br>
 <br>
-The bootable image is called GParted Live and enables all
-the <a href="features.php">features</a> of the GParted application.
-GParted Live can be used on GNU/Linux as well as other operating
-systems, such as Windows or Mac OS X.
+The best way to access all of the <a href="features.php">features</a>
+of the GParted application is by using the GParted Live bootable
+image.  GParted Live enables you to use GParted on GNU/Linux as well
+as other operating systems, such as Windows or Mac OS X.
 </p>
 
 <table border=0><tr><td>
@@ -109,6 +109,63 @@ a donation to help us make GParted better.<br>
 </table>
 
 <br>
+
+<table border="1px" cellpadding="5px">
+  <tr>
+    <th>
+      Linux Distribution
+      <a href="#distribution-note">*</a>
+    </th>
+    <th>
+      Package
+    </th>
+    <th>
+      Command Prompt Install
+    </th>
+  </tr>
+
+  <tr>
+    <th>
+      Debian
+    </th>
+    <td>
+      <a href="http://packages.debian.org/search?keywords=gparted">gparted</a>
+    </td>
+    <td>
+      <pre>sudo apt-get install gparted</pre>
+    </td>
+  </tr>
+
+  <tr>
+    <th>
+      Fedora
+    </th>
+    <td>
+      <a href="http://koji.fedoraproject.org/koji/packageinfo?packageID=1950">gparted</a>
+    </td>
+    <td>
+      <pre>su -c "yum install gparted"</pre>
+    </td>
+  </tr>
+
+  <tr>
+    <th>
+      Ubuntu
+    </th>
+    <td>
+      <a href="https://apps.ubuntu.com/cat/applications/gparted/"><img src="http://developer.ubuntu.com/wp-content/uploads/2012/06/downloadonubuntubutton.png" title="Download for Ubuntu" alt="Download for Ubuntu button" width="122" height="49" /></a>
+    </td>
+    <td>
+      <pre>sudo apt-get install gparted</pre>
+    </td>
+  </tr>
+</table>
+
+<a name="distribution-note">
+<p>
+&nbsp; &nbsp; * NOTE: Distribution packages might not contain the most
+recent versions of GParted.
+</p>
 
 <table border="1px" cellpadding="5px">
   <tr>
