@@ -21,7 +21,7 @@ gnome_menu();
 <b>Bugs</b> should be filed in <a href="bugs.php">bugzilla</a><br>
 <br>
     <p> <b>Creator of GParted</b> <br>
-      Bart Hakvoort (plors) 
+      Bart Hakvoort (plors - inactive)
       <br>
       <br>
       <b>Maintainer of GParted Application and Project Administrator</b> <br>
@@ -31,7 +31,7 @@ gnome_menu();
       <a href="mailto:steven_shiau&#064;users.sourceforge.net">Steven Shiau</a><br>
       <br>
       <b>Previous Creator of GParted Docs and previous LiveCD maintainer</b> <br>
-      Laurent de Trogoff (LarryT) <br>
+      Laurent de Trogoff (LarryT - inactive) <br>
       <br>
       <b>Consultant to GParted</b> <br>
       <a href="mailto:fdupoux&#064;users.sourceforge.net">Fran&ccedil;ois Dupoux</a> <br>
