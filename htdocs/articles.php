@@ -119,6 +119,13 @@ gnome_menu();
     <br>
   </li>
   <li class="step">
+    <a href="http://www.packtpub.com/article/Partitioning_with_GParted">
+    Partitioning with GParted</a><br>
+    by Mayank Sharma<br>
+    Type:  Interview<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.reviewlinux.com/reviewlinux-gparted-livecd-0-2-5-1-a-must-have-disc-10.html#more-10">
     GParted LiveCD 0.2.5-1 A Must Have Disc!</a><br>
     by Michael Perks on June 17, 2006<br>
