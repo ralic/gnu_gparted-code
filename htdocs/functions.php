@@ -54,6 +54,7 @@ function gnome_foot_wo_ads() { ?>
 	<a href="bugs.php">Bugs</a> &nbsp;
 	<a href="features.php">Features</a> &nbsp;
 	<a href="screenshots.php">Screenshots</a> &nbsp;
+	<a href="articles.php">Articles</a> &nbsp;
 	<a href="contact.php">Contact</a>
 	<br><br>
 <a href="http://sourceforge.net/projects/gparted"><img
