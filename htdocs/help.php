@@ -55,6 +55,10 @@ gnome_menu();
     The <a href="screenshots.php">screenshots</a> page has pictures of
     GParted in action.
   </li>
+  <li class="step">
+    The <a href="articles.php">articles</a> page contains links to
+    reviews and tutorials featuring GParted.
+  </li>
 </ul>
 <br>
 
