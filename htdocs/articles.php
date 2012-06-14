@@ -35,6 +35,13 @@ gnome_menu();
     <br>
   </li>
   <li class="step">
+    <a href="http://www.bayreviews.com/guides/18740-gparted-to-restore-corrupt-ssd">
+    Using GParted To Restore A Corrupt SSD NTFS Partition</a><br>
+    by Reuben Gathright on March 7, 2011<br>
+    Type:  Tutorial<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.makeuseof.com/tag/gparted-ultimate-partitioning-software/">
     GParted – The Ultimate In Partitioning Software</a><br>
     by Justin Pot on July 22, 2010<br>
