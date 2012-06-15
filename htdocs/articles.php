@@ -146,8 +146,7 @@ gnome_menu();
     Type:  Review<br>
     <a href="http://www.softpedia.com/reviews/linux/GParted-Review-22766.shtml#"    title="Softpedia Review Award">
     <img src="images/softpedia_pick_award_s.gif" border="0"
-     alt="Softpedia Review Award Logo">
-    </a><br>
+     alt="Softpedia Review Award Logo"></a><br>
     <br>
   </li>
 </ul>
