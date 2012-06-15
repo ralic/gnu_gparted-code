@@ -101,10 +101,8 @@ gnome_menu();
 
 <H3>Third Party Docs</H3>
   <ul>
-    <li><a href="http://www.dedoimedo.com/computers/gparted.html">GParted
-    partitioning software - Full Tutorial</a></li>
-    <li><a href="http://www.howtogeek.com/howto/windows-vista/using-gparted-to-resize-your-windows-vista-partition/">Using
-    GParted to Resize Your Windows 7 or Vista Partition</a></li>
+    <li><a href="articles.php">Tutorials, Reviews, and other Articles
+    featuring GParted</a></li>
     <li><a href="http://en.wikipedia.org/wiki/GParted">GParted Wikipedia
     Doc</a></li>
     <li><a href="./docs/sw-req-spec/C/Software_Requirements_Specification_-_GParted.pdf">Software Requirements Specification for GParted (PDF)</a></li>
@@ -112,8 +110,7 @@ gnome_menu();
 
 
 <H3>Howto Guides (Old)</H3>
-    <P>LarryT created the following documentation.<br>
-    Any assistance with updating would be appreciated.</P>
+    <P>LarryT created the following documentation.</P>
     GParted 0.3-1 - Last update : 
     <!-- #BeginDate format:Am3 -->06/01/2007<!-- #EndDate -->
     - Derni&egrave;re mise &agrave; jour : 
