@@ -3,8 +3,8 @@
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
   <!ENTITY appversion "0.10.0">
   <!ENTITY liveversion "0.10.0-3">
-  <!ENTITY manrevision "1.1">
-  <!ENTITY date "November 2011">
+  <!ENTITY manrevision "1.1.1">
+  <!ENTITY date "June 2012">
   <!ENTITY app "gparted">
   <!ENTITY appname "GParted">
   <!ENTITY livename "GParted Live">
@@ -48,7 +48,7 @@
     </abstract>
 
     <copyright>
-      <year>2011</year>
+      <year>2011, 2012</year>
       <holder>Curtis Gedak</holder>
     </copyright>
 
@@ -101,6 +101,17 @@
 <!-- According to GNU FDL, revision history is mandatory if you are -->
 <!-- modifying/reusing someone else's document.  If not, you can omit it. -->
     <revhistory>
+      <revision>
+        <revnumber>&livename; Manual V1.1.1</revnumber>
+        <date>June 2012</date>
+        <revdescription>
+          <para role="author">Curtis Gedak</para>
+          <para role="publisher">&appname; Project</para>
+          <para role="annotations">
+          Add partition number to USB flash drive mount command.
+          </para>
+        </revdescription> 
+      </revision>
       <revision>
         <revnumber>&livename; Manual V1.1</revnumber>
         <date>November 2011</date>
@@ -796,7 +807,7 @@
               </para>
               <para>
               For example, if the device name is "sdc", enter:
-              <screen><prompt>user@debian:~$ </prompt><command>sudo mount /dev/sdc /tmp/myusb</command></screen>
+              <screen><prompt>user@debian:~$ </prompt><command>sudo mount /dev/sdc1 /tmp/myusb</command></screen>
               </para>
             </listitem>
             <listitem>

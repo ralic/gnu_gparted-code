@@ -2,7 +2,7 @@
             <code class="email">&lt;<a class="email" href="mailto:gedakc@users.sf.net">gedakc@users.sf.net</a>&gt;</code><br>
           </p></div></div></div></div></div><div><p class="releaseinfo">
     This manual describes version 0.10.0-3 of GParted Live.
-    </p></div><div><p class="copyright">Copyright © 2011 Curtis Gedak</p></div><div><div class="legalnotice" title="Legal Notice"><a name="id462045"></a><p>
+    </p></div><div><p class="copyright">Copyright © 2011, 2012 Curtis Gedak</p></div><div><div class="legalnotice" title="Legal Notice"><a name="id384363"></a><p>
       Permission is granted to copy, distribute and/or modify this document
       under the terms of the GNU Free Documentation License, Version 1.2
       or any later version published by the Free Software Foundation;
@@ -11,11 +11,17 @@
       <a class="ulink" href="ghelp:fdl" target="_top">link</a> or at
       <a class="ulink" href="http://www.fsf.org/licensing/licenses/fdl.html" target="_top">http://www.fsf.org/licensing/licenses/fdl.html</a>
       or in the file COPYING-DOCS distributed with this manual.
-      </p></div></div><div><div class="legalnotice" title="Feedback"><a name="id460338"></a><p class="legalnotice-title"><b>Feedback</b></p><p>
+      </p></div></div><div><div class="legalnotice" title="Feedback"><a name="id383405"></a><p class="legalnotice-title"><b>Feedback</b></p><p>
       To report a bug or make a suggestion regarding GParted Live or
       this manual, follow the directions at
       <a class="ulink" href="http://gparted.org/bugs.php" target="_top">http://gparted.org/bugs.php</a>.
-      </p></div></div><div><div class="revhistory"><table border="1" width="100%" summary="Revision history"><tr><th align="left" valign="top" colspan="2"><b>Revision History</b></th></tr><tr><td align="left">Revision GParted Live Manual V1.1</td><td align="left">November 2011</td></tr><tr><td align="left" colspan="2">
+      </p></div></div><div><div class="revhistory"><table border="1" width="100%" summary="Revision history"><tr><th align="left" valign="top" colspan="2"><b>Revision History</b></th></tr><tr><td align="left">Revision GParted Live Manual V1.1.1</td><td align="left">June 2012</td></tr><tr><td align="left" colspan="2">
+          <p class="author">Curtis Gedak</p>
+          <p class="publisher">GParted Project</p>
+          <p class="annotations">
+          Add partition number to USB flash drive mount command.
+          </p>
+        </td></tr><tr><td align="left">Revision GParted Live Manual V1.1</td><td align="left">November 2011</td></tr><tr><td align="left" colspan="2">
           <p class="author">Curtis Gedak</p>
           <p class="publisher">GParted Project</p>
           <p class="annotations">
@@ -237,7 +243,7 @@
               Mount the USB flash device.
               </p><p>
               For example, if the device name is "sdc", enter:
-              </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>sudo mount /dev/sdc /tmp/myusb</strong></span></pre><p>
+              </p><pre class="screen"><code class="prompt">user@debian:~$ </code><span class="command"><strong>sudo mount /dev/sdc1 /tmp/myusb</strong></span></pre><p>
               </p></li><li class="listitem"><p>
               To copy a file, such as
               <code class="filename">/root/gparted_details.htm</code>, enter:
