@@ -49,6 +49,13 @@ gnome_menu();
     <br>
   </li>
   <li class="step">
+    <a href="http://www.linux-mag.com/id/7875/">
+    Gnome Partition Editor: The Dearly GParted</a><br>
+    by Ken Hess on October 4, 2010<br>
+    Type:  Review<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.makeuseof.com/tag/gparted-ultimate-partitioning-software/">
     GParted – The Ultimate In Partitioning Software</a><br>
     by Justin Pot on July 22, 2010<br>
