@@ -28,6 +28,13 @@ gnome_menu();
     <br>
   </li>
   <li class="step">
+    <a href="http://www.technibble.com/gparted-free-partition-editor/">
+    GParted – Free Partition Editor</a><br>
+    by Chuck Romano on September 2, 2011<br>
+    Type:  Review<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.pcworld.com/article/226231/gparted_live_a_boot_disk_iso_you_cant_afford_to_be_without.html">
     GParted Live: A Boot Disk ISO You Can't Afford to Be Without</a><br>
     by Jon L. Jacobi on May 1, 2011<br>
