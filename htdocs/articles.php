@@ -20,6 +20,13 @@ gnome_menu();
 
 <ul>
   <li class="step">
+    <a href="http://blog.mwpreston.net/2012/06/22/expanding-a-linux-disk-with-gparted-and-getting-swap-out-of-the-way/">
+    Expanding a Linux disk with gparted (and getting swap out of the way)</a><br>
+    by mwpreston on June 22, 2012<br>
+    Type:  Tutorial<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.makeuseof.com/pages/best-linux-distributions">
     Best Linux Distributions</a><br>
     by makeuseof on January 2012<br>
