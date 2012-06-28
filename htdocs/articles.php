@@ -140,6 +140,13 @@ gnome_menu();
     <br>
   </li>
   <li class="step">
+    <a href="http://www.howtoforge.com/partitioning_with_gparted">
+    Modify Your Partitions With GParted Without Losing Data</a><br>
+    by Falko Timme on January, 2007<br>
+    Type:  Tutorial<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://techgage.com/article/gparted_livecd_31-1">
     GParted LiveCD 3.1-1</a><br>
     by Rob Williams on September 15, 2006<br>
