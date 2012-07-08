@@ -3,7 +3,7 @@
 <?
 include "functions.php";
 
-if ( ! empty( $_GET["entries"] ) ) {
+if ( ! empty( $_GET["item"] ) ) {
 	$title = "GParted -- All News";
 	$heading = "GParted All News";
 	$max_news = 10000; //arbitrary value, increase if you need more
@@ -57,7 +57,7 @@ while( (list ($line_num, $line) = each ($fcontents)) && $count < $max_news  ) {
 }
 
 if ( ! empty( $line ) )
-	echo "<p><a href=\"news.php?entries=all\">All news...</a></p>\n";
+	echo "<p><a href=\"news.php?item=all\">All news...</a></p>\n";
 else
 	echo "<p><a href=\"news.php\">Less news...</a></p>\n";
 ?>
