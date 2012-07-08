@@ -42,9 +42,11 @@ $count = 0;
 
 while( (list ($line_num, $line) = each ($fcontents)) && $count < $max_news  ) {
     if ($line_num == $pos) {
+	$item_found = chop($line);
+    } elseif ($line_num == $pos + 1) {
 	echo "<div class=\"newshdr\">\n";
 	echo "<b>", htmlspecialchars ( chop($line) ), ": ";
-    } elseif ($line_num == $pos + 1) {
+    } elseif ($line_num == $pos + 2) {
 	echo htmlspecialchars ($line), "</b></div>\n";
 	echo "<div class=\"newsbody\">";
     } elseif (chop($line) == "---") {
