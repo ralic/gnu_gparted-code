@@ -4,13 +4,28 @@
 include "functions.php";
 
 if ( ! empty( $_GET["item"] ) ) {
-	$title = "GParted -- All News";
-	$heading = "GParted All News";
-	$max_news = 10000; //arbitrary value, increase if you need more
+	if ( is_numeric( $_GET["item"] ) ) {
+		//Numeric item specified
+		$item = $_GET["item"];
+		$title = "GParted -- News Item " . $item;
+		$heading = "GParted News Item " . $item;
+		$max_news = 1;
+		$show_links = false; //skip display of more/less news and ad
+	} else {
+		//Non-numeric item specified
+		$item = -1;
+		$title = "GParted -- All News";
+		$heading = "GParted All News";
+		$max_news = 99999; //arbitrary value, increase if you need more
+		$show_links = true;
+	}
 } else {
+	//No item specified
+	$item = -1;
 	$title = "GParted -- News";
 	$heading = "GParted News";
 	$max_news = 7 ;
+	$show_links = true;
 }
 ?>
 
@@ -28,40 +43,60 @@ gnome_menu();
 <div class="content">
 <h1><? echo $heading; ?></h1>
 
+<? if ( $show_links == true ) { ?>
 <div class="right">
   <?
     include "google/np-160x600-rhs-near-top.inc";
   ?>
 </div>
-
 <?
+}
+
 $filename = "text/news.text";
 $fcontents = file($filename);
 $pos = 0;
 $count = 0;
+$item_num = -1;
 
 while( (list ($line_num, $line) = each ($fcontents)) && $count < $max_news  ) {
     if ($line_num == $pos) {
-	$item_found = chop($line);
+	$item_num = chop($line);
+	// Determine if record should be displayed
+	if ( $item < 0 or $item == $item_num )
+		$display_record = true;
+	else
+		$display_record = false;
     } elseif ($line_num == $pos + 1) {
-	echo "<div class=\"newshdr\">\n";
-	echo "<b>", htmlspecialchars ( chop($line) ), ": ";
+	if ( $display_record == true ) {
+		echo "<div class=\"newshdr\">\n";
+		echo "<b>", htmlspecialchars ( chop($line) ), ": ";
+	}
     } elseif ($line_num == $pos + 2) {
-	echo htmlspecialchars ($line), "</b></div>\n";
-	echo "<div class=\"newsbody\">";
+	if ( $display_record == true ) {
+		echo htmlspecialchars ($line), "</b></div>\n";
+		echo "<div class=\"newsbody\">";
+	}
     } elseif (chop($line) == "---") {
-	echo "</div>\n";
+	if ( $display_record == true ) {
+		echo "</div>\n";
+		$count++;
+	}
 	$pos = $line_num + 1;
-	$count++;
     } else {
-	echo $line;
+	if ( $display_record == true )
+		echo $line;
     }
 }
 
-if ( ! empty( $line ) )
-	echo "<p><a href=\"news.php?item=all\">All news...</a></p>\n";
-else
-	echo "<p><a href=\"news.php\">Less news...</a></p>\n";
+if ( $count <= 0 )
+	echo "<p><b>No news found.</b></p>\n";
+
+if ($show_links == true) {
+	if ( ! empty( $line ) )
+		echo "<p><a href=\"news.php?item=all\">All news...</a></p>\n";
+	else
+		echo "<p><a href=\"news.php\">Less news...</a></p>\n";
+}
 ?>
 
 </div>
