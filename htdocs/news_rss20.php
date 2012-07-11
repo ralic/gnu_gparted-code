@@ -3,7 +3,7 @@
 //  of last published news item
 function echochannelheader($rssdate) {
 ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GParted News</title>
     <link>http://gparted.org/news.php</link>
@@ -18,6 +18,7 @@ function echochannelheader($rssdate) {
     <managingEditor>gedakc@users.sf.net (Curtis Gedak)</managingEditor>
     <webMaster>gedakc@users.sf.net (Curtis Gedak)</webMaster>
     <ttl>1800</ttl>
+    <atom:link href="http://gparted.org/news_rss20.php" rel="self" type="application/rss+xml" />
 
 <?
 }
