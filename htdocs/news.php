@@ -32,6 +32,7 @@ if ( ! empty( $_GET["item"] ) ) {
 <head>
   <title><? echo $title; ?></title>
 <? html_head() ?>
+  <link rel='alternate' type='application/rss+xml' title='GParted News' href='news_rss20.php'>
 </head>
 <body>
 <div class="body">
@@ -40,6 +41,13 @@ if ( ! empty( $_GET["item"] ) ) {
 gnome_head();
 gnome_menu();
 ?>
+<div class="rightbox">
+  <br>
+  <a href="news_rss20.php">
+    <img alt="RSS feed icon" src="images/feed-icon-16px.png" width="16" height="16">
+    RSS News Feed
+  </a>
+</div>
 <div class="content">
 <h1><? echo $heading; ?></h1>
 
