@@ -18,7 +18,6 @@ function echochannelheader($rssdate) {
     <managingEditor>gedakc@users.sf.net (Curtis Gedak)</managingEditor>
     <webMaster>gedakc@users.sf.net (Curtis Gedak)</webMaster>
     <ttl>1800</ttl>
-    <image>http://gparted.org/images/gparted-64x42.png</image>
 
 <?
 }
@@ -39,14 +38,14 @@ while( (list ($line_num, $line) = each ($fcontents)) && $count < $max_news  ) {
     if ($line_num == $pos) {
 	$item_num = chop($line);
     } elseif ($line_num == $pos + 1) {
-	$itemdate = date("r", strtotime( htmlspecialchars( chop($line) ) ) );
+	$itemdate = date("r", strtotime( htmlspecialchars( chop($line) ) . " 12:00:00" ) );
 	//If first item then echo channel heading
 	if ($count <= 0) {
 		echochannelheader( $itemdate );
 	}
 	echo "    <item>\n";
 	echo "      <guid>http://gparted.org/news.php?item=", $item_num, "</guid>\n";
-	echo "      <pubdate>", $itemdate, "</pubdate>\n";
+	echo "      <pubDate>", $itemdate, "</pubDate>\n";
     } elseif ($line_num == $pos + 2) {
 	echo "      <title>", htmlspecialchars ( chop($line) ), "</title>\n";
 	echo "      <link>http://gparted.org/news.php?item=", $item_num, "</link>\n";
