@@ -81,7 +81,8 @@ while( (list ($line_num, $line) = each ($fcontents)) && $count < $max_news  ) {
 	}
     } elseif ($line_num == $pos + 2) {
 	if ( $display_record == true ) {
-		echo htmlspecialchars ($line), "</b></div>\n";
+		echo "<a href=\"news.php?item=", $item_num, "\">",
+		     htmlspecialchars ($line), "</a></b></div>\n";
 		echo "<div class=\"newsbody\">";
 	}
     } elseif (chop($line) == "---") {
