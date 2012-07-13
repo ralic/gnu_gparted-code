@@ -1,3 +1,22 @@
+143
+13 July 2012
+GParted 0.13.0
+<br>
+This release of GParted adds the ability to show if partition size
+differs from file system size.  This new feature enables you to
+identify unallocated space within a partition and can suggest how you
+can can put this space to good use.  Also included are bug fixes and
+language translation updates.<br>
+<br>
+Key changes include:
+<ul>
+<li>Show difference if partition size differs from file system size</li>
+<li>Avoid end partition overlap when resizing extended partition</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.13.0/gparted-0.13.0-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 142
 11 July 2012
 GParted News RSS Feed
