@@ -25,8 +25,8 @@ Also new in this release:
 (<a href="https://bugzilla.gnome.org/show_bug.cgi?id=578842">bug
 #578842</a>)<br>
     Useful when using GParted Live without a mouse</li>
-<li>Updates Linux kernel to 3.2.14-1</li>
-<li>Based on Debian Sid repository (as of 2012/Apr/10)</li>
+<li>Updates Linux kernel to 3.2.21-3</li>
+<li>Based on Debian Sid repository (as of 2012/Jul/14)</li>
 <li>Includes new GParted 0.13.0 release</li>
 </ul>
 Thanks goes to Steven Shiau for another great GParted Live
