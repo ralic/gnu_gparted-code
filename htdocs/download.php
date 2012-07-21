@@ -60,26 +60,40 @@ a donation to help us make GParted better.<br>
   </tr>
 
   <tr>
+    <th colspan="4">
+      Stable Releases
+    </th>
+  </tr>
+
+  <tr>
     <td>
-      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/">Download <b>stable</b> releases<br>(.iso/.zip)</a>
+      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/0.13.0-1/gparted-live-0.13.0-1.iso/download">Download latest gparted-live-0.13.0-1.iso</a><br>
+      <br>
+      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/">Stable directory (.iso/.zip)</a>
     </td>
-    <td>
-      <a href="http://free.nchc.org.tw/gparted-live/stable/RELEASE-NOTES-GParted-live.txt" target=_blank>Release<br>notes</a>
+    <td valign="top">
+      <a href="http://free.nchc.org.tw/gparted-live/stable/RELEASE-NOTES-GParted-live.txt" target=_blank>Release notes</a>
     </td>
-    <td>
+    <td valign="top">
       <a href="http://free.nchc.org.tw/gparted-live/stable/ChangeLog-GParted-live.txt" target=_blank>Changelog</a>
     </td>
-    <td>
+    <td valign="top">
       <a href="http://free.nchc.org.tw/gparted-live/stable/CHECKSUMS.TXT" target=_blank>Checksums</a>
     </td>
   </tr>
 
   <tr>
+    <th colspan="4">
+      Testing Releases
+    </th>
+  </tr>
+
+  <tr>
     <td>
-      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-testing/">Download <b>testing</b> releases<br>(.iso/.zip)</a>
+      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-testing/">Testing directory (.iso/.zip)</a>
     </td>
     <td>
-      <a href="http://free.nchc.org.tw/gparted-live/testing/RELEASE-NOTES-GParted-live.txt" target=_blank>Release<br>notes</a>
+      <a href="http://free.nchc.org.tw/gparted-live/testing/RELEASE-NOTES-GParted-live.txt" target=_blank>Release notes</a>
     </td>
     <td>
       <a href="http://free.nchc.org.tw/gparted-live/testing/ChangeLog-GParted-live.txt" target=_blank>Changelog</a>
@@ -100,7 +114,7 @@ a donation to help us make GParted better.<br>
   </tr>
   <tr>
     <td>
-      <a href="http://sourceforge.net/projects/gparted/files/gparted/">Download source code<br>(.tar.bz2)</a>
+      <a href="http://sourceforge.net/projects/gparted/files/gparted/">Source code directory (.tar.bz2)</a>
     </td>
     <td>
       Release notes and checksums in same directory.
