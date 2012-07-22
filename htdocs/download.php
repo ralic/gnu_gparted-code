@@ -189,12 +189,12 @@ recent versions of GParted.
   </tr>
   <tr>
     <td>
-      <a href="http://sourceforge.net/projects/gparted/files/old-gparted-livecd/">Download old LiveCD (0.0.9-alpha1 to 0.3.4-11) releases</a>
+      <a href="http://sourceforge.net/projects/gparted/files/old-gparted-livecd/">Old LiveCD (0.0.9-alpha1 to 0.3.4-11) release directory</a>
     </td>
   </tr>
   <tr>
     <td>
-      <a href="http://sourceforge.net/projects/gparted/files/old-gparted-liveusb/">Download old LiveUSB (0.2.5-2 to 0.3.1-1) releases</a>
+      <a href="http://sourceforge.net/projects/gparted/files/old-gparted-liveusb/">Old LiveUSB (0.2.5-2 to 0.3.1-1) release directory</a>
     </td>
   </tr>
 </table>
