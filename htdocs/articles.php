@@ -49,6 +49,13 @@ gnome_menu();
     <br>
   </li>
   <li class="step">
+    <a href="http://t3chnot3s.blogspot.ca/2011/03/how-to-image-and-replace-hard-drive-for.html">
+    How to Image and Replace a Hard Drive for a Server 2008 System </a><br>
+    by Squidly Man on March 25, 2011<br>
+    Type:  Tutorial<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.bayreviews.com/guides/18740-gparted-to-restore-corrupt-ssd">
     Using GParted To Restore A Corrupt SSD NTFS Partition</a><br>
     by Reuben Gathright on March 7, 2011<br>
