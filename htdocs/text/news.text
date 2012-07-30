@@ -1,3 +1,26 @@
+145
+30 July 2012
+GParted Live 0.13.0-3 Stable Release
+<br>
+We are proud to announce a new stable release of GParted Live.<br>
+<br>
+New in this release:
+<ul>
+<li>Adds graphical file manager
+  <a href="http://pcmanfm.sourceforge.net/">PCManFM</a> and editor
+  <a href="http://tarot.freeshell.org/leafpad/">leafpad</a>
+  (<a href="https://bugzilla.gnome.org/show_bug.cgi?id=680504">bug #680504</a>)
+</li>
+<li>Adds manual pages and man command
+  (<a href="https://bugzilla.gnome.org/show_bug.cgi?id=680503">bug #680503</a>)
+</li>
+<li>Updates Linux kernel to 3.2.23-1</li>
+<li>Based on Debian Sid repository (as of 2012/Jul/28)</li>
+</ul>
+Thanks to Steven this GParted Live update.<br>
+<br>
+Curtis
+---
 144
 14 July 2012
 GParted Live 0.13.0-1 Stable Release
