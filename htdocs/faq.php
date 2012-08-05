@@ -37,9 +37,9 @@ while (list ($line_num, $line) = each ($fcontents)) {
         htmlspecialchars ( chop($line) ), "</a>: ";
     } elseif ($line_num == $pos + 1) {
         echo htmlspecialchars ($line), "</b></div>\n";
-        echo "<div class=\"newsbody\"><p>";
+        echo "<div class=\"newsbody\"><br>";
     } elseif (chop($line) == "---") {
-        echo "</p></div>\n";
+        echo "<br><br></div>\n";
         $pos = $line_num + 1;
     } else {
 	echo $line;
