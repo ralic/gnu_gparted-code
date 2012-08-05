@@ -19,7 +19,7 @@ GParted is <a href="http://en.wikipedia.org/wiki/Free_software">free
 software</a>.
 ---
 4
-What is the difference between GParted and GParted Live
+What is the difference between GParted and GParted Live?
 GParted is the partition editor application.<br>
 <a href="livecd.php">GParted Live</a> is a small bootable GNU/Linux
 distribution that contains the partition editor application.
