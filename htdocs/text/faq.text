@@ -186,7 +186,7 @@ To rebuild the Boot Configuration Data (BCD) store:<br>
  &nbsp; &nbsp; bootrec /rebuildbcd<br>
 <br>
 For more details refer to the following link:<br>
-<a href="http://support.microsoft.com/kb/927392">How to use the Bootrec.exe tool in the Windows Recovery Environment to troubleshoot and repair startup issues in Windows</a><br>
+<a href="http://support.microsoft.com/kb/927392">How to use the Bootrec.exe tool in the Windows Recovery Environment to troubleshoot and repair startup issues in Windows</a>
 ---
 16
 What are the commands for repairing Windows XP boot problems?
@@ -205,7 +205,7 @@ To rebuild the boot.ini configuration file:<br>
 For more details refer to the following links:<br>
 <a href="http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/bootcons_fixmbr.mspx?mfr=true">Fixmbr</a>,
 <a href="http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/bootcons_fixboot.mspx?mfr=true">Fixboot</a>,
-<a href="http://support.microsoft.com/kb/291980">Bootcfg</a><br>
+<a href="http://support.microsoft.com/kb/291980">Bootcfg</a>
 ---
 17
 How can I improve my ability to shrink an NTFS partition?
@@ -224,17 +224,17 @@ If this occurs for the boot drive letter, then see:<br>
 <br>
 If this occurs for a non-boot drive letter, then see one of the following links:<br>
 <a href="http://support.microsoft.com/kb/307844">How to change drive letter assignments in Windows XP</a><br>
-<a href="http://windows.microsoft.com/en-us/windows-vista/Change-add-or-remove-a-drive-letter">How to change, add, or remove a drive letter in Windows Vista</a><br>
+<a href="http://windows.microsoft.com/en-us/windows-vista/Change-add-or-remove-a-drive-letter">How to change, add, or remove a drive letter in Windows Vista</a>
 ---
 19
 "ERROR: Current NTFS volume size is bigger than the device size!"
 If you encounter an error message similar to the above, then please refer to the following link:<br>
-<a href="http://gparted-forum.surf4.info/viewtopic.php?id=13777">Problems Resizing File Systems with GParted</a><br>
+<a href="http://gparted-forum.surf4.info/viewtopic.php?id=13777">Problems Resizing File Systems with GParted</a>
 ---
 20
 Are you experiencing trouble booting the GParted Live CD / USB image?
 Please refer to the GParted live manual
-<a href="http://gparted.org/display-doc.php?name=gparted-live-manual&lang=C#gparted-live-tips-on-booting-gparted-live">Tips on Booting GParted Live</a>.<br>
+<a href="http://gparted.org/display-doc.php?name=gparted-live-manual&lang=C#gparted-live-tips-on-booting-gparted-live">Tips on Booting GParted Live</a>.
 ---
 21
 How can I fix missing or lost partitions on Intel-based Mac OS X?
