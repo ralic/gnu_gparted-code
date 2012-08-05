@@ -253,3 +253,119 @@ Where /path-to-disk-device is something like /dev/sdb<br>
 This problem can also be repaired with the <a
 href="http://refit.sourceforge.net">rEFIt</a> application.
 ---
+22
+GParted shows entire disk device unallocated, but I know the device has data.  How can I fix this?
+There are a few situations that can cause this problem.  To learn the
+cause, double-click on the "unallocated" disk device and check the
+information window for warning messages.<br>
+<br>
+Common warning messages that cause this problem are as follows:<br>
+<ul>
+  <li class="step">
+    <b><i>/dev/sda</i>: unrecognized disk label</b><br>
+    <br>
+    Two root causes for this message are as follows:<br>
+    <br>
+    <ul>
+      <li class="step">
+        The device does not contain a partition table.<br>
+        <br>
+        If the device does contain data, then perhaps the entire
+        device is formatted with a file system.  In this situation
+        there is no partition table to edit.<br>
+        <br>
+      </li>
+      <li class="step">
+        The type of partition table is not recognized by GParted.<br>
+        <br>
+        If the device contains data, then perhaps the device is using
+        a new type of partition table.  GParted supports many commonly
+        used partition tables, such as msdos or gpt, but not all types
+        of partition tables are supported.  In this situation other
+        partition management tools are needed to edit the partition
+        table.<br>
+        <br>
+      </li>
+    </ul>
+  </li>
+  <li class="step">
+    <b>Can't have overlapping partitions</b><br>
+    <br>
+    The root cause is that the partition table contains at least one
+    occurrence where the end of one partition overlaps the start of
+    another partition.  See also the <a href="#faq-24">basic partition
+    rules</a> listed below.<br>
+    <br>
+  </li>
+  <li class="step">
+    <b>Can't have a partition outside the disk!</b><br>
+    <br>
+    The root cause is that the partition table contains at least one
+    occurrence where the end of one partition is beyond the end of the
+    disk device.  See also the <a href="#faq-24">basic partition
+    rules</a> listed below.
+  </li>
+</ul>
+Fixing these latter two problems usually requires manually editing the
+partition table.  We plan to create a document outlining how to
+approach fixing these problems.  In the meantime you can seek help in
+the <a href="forum.php">GParted forum</a>.
+---
+23
+What does the error message "Unable to satisfy all constraints on the partition" mean?
+This error message often applies to msdos partition tables, sometimes
+referred to as Master Boot Record (MBR).<br>
+<br>
+The root cause is that there is less than 2 unallocated sectors between:
+<ul>
+  <li class="step">
+    the start of the extended partition and the start of the following
+    logical partition.
+  </li>
+  <li class="step">
+    the end of one logical partition and the start of the next logical
+    partition.
+  </li>
+</ul>
+The 2 unallocated sectors are required to store the Extended Boot
+Record (EBR).  The EBR contains information about the following
+logical partition.  The Linux kernel considers EBRs to be two sectors
+long, in order to "leave room for LILO (LInux LOader)".<br>
+<br>
+Fixing this problem usually requires manually editing the partition
+table.  We plan to create a document outlining how to approach fixing
+this problem.  In the meantime you can seek help in the <a
+href="forum.php">GParted forum</a>.
+---
+24
+What are the basic partition rules for an msdsos partition table?
+Basic partition rules for an msdos partition table are as follows:<br>
+<ul>
+  <li class="step">
+    At most four primary partitions, or three primary partitions and one
+    extended partition are allowed.<br>
+    NOTE:  An extended partition can contain multiple logical partitions.
+  </li>
+  <li class="step">
+    Primary and Extended partitions must not overlap.
+  </li>
+  <li class="step">
+    Logical partitions must be contained within the extended
+    partition.<br>
+    NOTE: It is permissible for a logical partition to end on the
+    same sector as the end of the extended partition.
+  </li>
+  <li class="step">
+    Logical partitions must not overlap other logical partitions.
+  </li>
+  <li class="step">
+    At least 2 unallocated sectors are required in front of a
+    logical partition.
+  </li>
+  <li class="step">
+    All partitions must exist within the size of the disk device.<br>
+    NOTE: Sector numbering begins at zero, so the first sector is
+    sector 0.
+  </li>
+</ul>
+---
