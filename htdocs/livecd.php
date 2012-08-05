@@ -103,6 +103,14 @@ GParted Live includes additional packages, such as:<br>
     <td>- (Older) data recovery tool that can help recover lost msdos partition tables<br></td>
   </tr>
   <tr>
+    <td><a href="http://pcmanfm.sourceforge.net/">pcmanfm</a></td>
+    <td>- Graphical file manager</td>
+  </tr>
+  <tr>
+    <td><a href="http://tarot.freeshell.org/leafpad/">leafpad</a></td>
+    <td>- Graphical text editor</td>
+  </tr>
+  <tr>
     <td><a href="http://www.nano-editor.org/">nano</a></td>
     <td>- Text editor</td>
   </tr>
