@@ -271,8 +271,10 @@ Common warning messages that cause this problem are as follows:<br>
         The device does not contain a partition table.<br>
         <br>
         If the device does contain data, then perhaps the entire
-        device is formatted with a file system.  In this situation
-        there is no partition table to edit.<br>
+        device is formatted with a file system.  It is also possible
+        that the device is part of some other data structure, such as
+        a RAID.  In these situations there is no partition table to
+        edit.<br>
         <br>
       </li>
       <li class="step">
@@ -281,9 +283,10 @@ Common warning messages that cause this problem are as follows:<br>
         If the device contains data, then perhaps the device is using
         a new type of partition table.  GParted supports many commonly
         used partition tables, such as msdos or gpt, but not all types
-        of partition tables are supported.  In this situation other
-        partition management tools are needed to edit the partition
-        table.<br>
+        of partition tables are supported.  In this situation you
+        would need to determine what type of partition table is in
+        use.  Then you could seek out other partition management tools
+        to edit the partition table.<br>
         <br>
       </li>
     </ul>
