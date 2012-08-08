@@ -1,3 +1,21 @@
+146
+8 August 2012
+GParted 0.13.1
+<br>
+This release of GParted fixes a failure to mount rescued file
+systems larger than 2 GiB or file systems that start after the
+initial 2 GiB of the disk device.  Also includes language
+translations updates.
+<br>
+<br>
+Key changes include:
+<ul>
+<li>Fix failure creating read-only view of rescued file systems</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.13.1/gparted-0.13.1-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 145
 30 July 2012
 GParted Live 0.13.0-3 Stable Release
