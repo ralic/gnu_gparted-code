@@ -1,3 +1,26 @@
+147
+9 August 2012
+GParted Live 0.13.1-2 Stable Release
+<br>
+The GParted team is proud to announce a new stable release of GParted
+Live.<br>
+<br>
+This release includes GParted 0.13.1, which fixes a failure to mount
+rescued file systems larger than 2 GiB or file systems that start
+after the initial 2 GiB of the disk device.
+<br>
+<br>
+Also new in this release:
+<ul>
+<li>Fixes <a href="https://bugzilla.gnome.org/show_bug.cgi?id=680498">Bug
+680498 - /etc/resolv.conf not created during bootstrap</a></li>
+<li>Based on Debian Sid repository (as of 2012/Aug/09)</li>
+<li>Includes new GParted 0.13.1 release</li>
+</ul>
+Thanks go to Steven Shiau for this GParted Live release.<br>
+<br>
+Curtis
+---
 146
 8 August 2012
 GParted 0.13.1

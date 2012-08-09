@@ -67,7 +67,7 @@ a donation to help us make GParted better.<br>
 
   <tr>
     <td>
-      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/0.13.0-3/gparted-live-0.13.0-3.iso/download">Download latest gparted-live-0.13.0-3.iso</a><br>
+      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/0.13.1-2/gparted-live-0.13.1-2.iso/download">Download latest gparted-live-0.13.1-2.iso</a><br>
       <br>
       <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/">Stable directory (.iso/.zip)</a>
     </td>
