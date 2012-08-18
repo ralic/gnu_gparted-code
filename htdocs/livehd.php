@@ -122,7 +122,7 @@ steps:
     kernel /live/vmlinuz  boot=live config union=aufs noswap noprompt vga=788 ip=frommedia findiso=/gparted-live-0.11.0-10.iso toram=filesystem.squashfs
     initrd /live/initrd.img
         </pre>
-        (Thanks to Frank Breitling for providing this sample menu entry.
+        (Thanks to Frank Breitling for pointing out this sample menu entry.
         See <a href="https://bugzilla.gnome.org/show_bug.cgi?id=682160">Bug
         #682160 - GParted Live on Hard Disk from Windows</a>)
       </li>
