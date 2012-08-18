@@ -62,62 +62,88 @@ steps:
     live-hd"
   </li>
   <li class="step">
-    If your grub is version 1.x, edit your grub config file
-    /boot/grub/menu.lst, and append the following:
-    <pre>
+    Add the appropriate menu entry for your version of GRand Unified
+    Bootloader (GRUB):
+    <ul>
+      <li class="step">
+        <b>GRUB 1.x (Legacy)</b><br>
+        If your grub is version 1.x, edit your grub config file
+        /boot/grub/menu.lst, and append the following:
+        <pre>
     title     GParted live
     root      (hd0,3)
     kernel    /live-hd/vmlinuz boot=live config union=aufs noswap noprompt vga=788 ip=frommedia live-media-path=/live-hd bootfrom=/dev/hda4 toram=filesystem.squashfs
     initrd    /live-hd/initrd.img
     boot
-    </pre>
+        </pre>
     In grub version 1 syntax, /dev/hda4 is (hd0,3).
-  </li>
-  <li>
-    If your grub is 2.x (grub-pc), e.g. on Debian Squeeze or Ubuntu
-    9.10, edit /etc/grub.d/40_custom, make it like:
-    <pre>
+      </li>
+      <li class="step">
+        <b>GRUB 2.x (and 1.9x)</b><br>
+        If your grub is 2.x (grub-pc), e.g. on Debian Squeeze or Ubuntu
+        9.10, edit /etc/grub.d/40_custom, make it like:
+        <pre>
     menuentry "GParted live" {
       set root=(hd0,4)
       linux /live-hd/vmlinuz boot=live config union=aufs noswap noprompt vga=788 ip=frommedia live-media-path=/live-hd bootfrom=/dev/hda4 toram=filesystem.squashfs
       initrd /live-hd/initrd.img
     }
-    </pre>
-
-    <b>NOTE:</b> In grub2, (hd0,4) means the first hard drive and the
-    4th partition. It's different from that in grub version 1. Then
-    run "update-grub2" to update your grub2 config. (Thanks to Louie
-    Chen for providing this).<br>
-    <br>
-
-    Alternatively from GParted live version 0.4.8-7 onwards, you can
-    use only the GParted live iso file in grub2 (Thanks to the patches
-    files from <a href="http://grml.org">grml</a>). For example, put
-    gparted-live-0.5.2-9.iso in dir /home/isos/, then make the grub2
-    custom file /etc/grub.d/40_custom like:
-    <pre>
+        </pre>
+        <b>NOTE:</b> In grub2, (hd0,4) means the first hard drive and
+        the 4th partition. It's different from that in grub version
+        1. Then run "update-grub2" to update your grub2
+        config. (Thanks to Louie Chen for providing this).<br>
+        <br>
+        Alternatively from GParted live version 0.4.8-7 onwards, you
+        can use only the GParted live iso file in grub2 (Thanks to the
+        patches files from <a href="http://grml.org">grml</a>). For
+        example, put gparted-live-0.5.2-9.iso in dir /home/isos/, then
+        make the grub2 custom file /etc/grub.d/40_custom like:
+        <pre>
     menuentry "Gparted live" {
       set isofile="/home/isos/gparted-live-0.5.2-9.iso"
       loopback loop $isofile
       linux (loop)/live/vmlinuz boot=live config union=aufs noswap noprompt vga=788 ip=frommedia toram=filesystem.squashfs findiso=$isofile
       initrd (loop)/live/initrd.img
     }
-    </pre>
-    Then run "update-grub2" to update your grub2 config.
+        </pre>
+        Then run "update-grub2" to update your grub2 config.
+      </li>
+      <li class="step">
+        <b>GRUB4DOS and WINGRUB</b><br>
+        If your grub is grub4dos, edit your grub config file
+        menu.lst, and append the following:
+        <pre>
+    title gparted 11.0 live
+    find --set-root /gparted-live-0.11.0-10.iso
+    map /gparted-live-0.11.0-10.iso (0xff) || map --mem /gparted-live-0.11.0-10.iso (0xff)
+    map --hook
+    root (0xff)
+    kernel /live/vmlinuz  boot=live config union=aufs noswap noprompt vga=788 ip=frommedia findiso=/gparted-live-0.11.0-10.iso toram=filesystem.squashfs
+    initrd /live/initrd.img
+        </pre>
+        (Thanks to Frank Breitling for providing this sample menu entry.
+        See <a href="https://bugzilla.gnome.org/show_bug.cgi?id=682160">Bug
+        #682160 - GParted Live on Hard Disk from Windows</a>)
+      </li>
+    </ul>
+    <b>NOTE1:</b> In the above examples we added an extra parameter
+    <font color="red">"toram=filesystem.squashfs"</font> so that the
+    partition /dev/hda4 won't be locked after booting GParted Live from
+    hard disk.<br>
+    <b>NOTE2:</b> Remember to check parameters in
+    syslinux/syslinux.cfg from the zip file, copy them to here. It
+    might be different from here, say vmlinuz path maybe
+    different.
   </li>
 </ol>
 <p>
-<b>NOTE1:</b> In the above examples we added an extra parameter
-<font color="red">"toram=filesystem.squashfs"</font> so that the
-partition /dev/hda4 won't be locked after booting GParted Live from
-hard disk.<br>
-<b>NOTE2:</b> Remember to check parameters in syslinux/syslinux.cfg
-from the zip file, copy them to here. It might be different from here,
-say vmlinuz path maybe different.<br>
-<br>
 For more information on grub you can refer to
 the <a href="http://www.gnu.org/software/grub/">GNU GRUB</a> web
 site.<br>
+For more information on grub4dos, see
+the <a href="http://sourceforge.net/projects/grub4dos/">GRUB for DOS</a> web
+site.
 </p>
 
 </div>
