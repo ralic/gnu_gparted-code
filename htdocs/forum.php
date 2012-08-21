@@ -17,18 +17,6 @@ gnome_menu();
 ?>
 <div class="content">
 <h1>Forum</h1>
-
-<table border=0><tr><td>
-<div class="warning">
-<p class="hangwarning">
-<b>UNPLANNED FORUM OUTAGE:</b>: &nbsp;
-On August 16th, 2012, the server hosting our forum experienced disk
-failure/corruption.  The service provider is working on the problem.
-Until the problem is resolved, the forum will be unavailable.
-</p>
-</div>
-</td></tr></table>
-
 <p>
 Please remember that the forum is for questions and ideas!<br>
 Bugs go <a href="bugs.php">here</a>.
