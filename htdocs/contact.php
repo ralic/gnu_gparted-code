@@ -42,6 +42,9 @@ gnome_menu();
       <b>Forum Moderator</b> <br>
       Class413<br>
       <br>
+      <b>Developer</b> <br>
+      Mike Fleetwood<br>
+      <br>
       <br>
       <b>Internet Relay Chat</b> <br>
       <a href="irc://irc.gnome.org/gparted">irc.gnome.org #gparted</a>
