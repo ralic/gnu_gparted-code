@@ -1,3 +1,30 @@
+149
+3 September 2012
+Mike Fleetwood joins GParted Project
+<br>
+The GParted Project is happy to announce that Mike Fleetwood has
+joined our team.
+<br><br>
+Mike has been contributing to GParted for over a year.  Some of Mike's
+past contributions include:
+<ul>
+  <li>Wrote enhancement to show when partition size differs from file
+  system size</li>
+  <li>Added support for the nilfs2 file system</li>
+  <li>Developed initial LVM Physical Volume read support</li>
+  <li>Wrote several patches to fix problems and enhance btrfs support</li>
+</ul>
+Most recently Mike has been working on <a
+href="https://bugzilla.gnome.org/show_bug.cgi?id=670171">Bug #670171 -
+Add LVM PV read-write support</a>.
+<br>
+This LVM PV read-write enhancement will be included in the next
+release of GParted.
+<br><br>
+Thanks Mike for your contributions, and welcome to the team.
+<br><br>
+Curtis
+---
 148
 21 August 2012
 GParted Forum Restored After Unplanned Outage
