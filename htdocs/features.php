@@ -585,22 +585,22 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not supported">
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
 		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not supported">
-	</td>
-	<td>
-		<img src="images/not_supported.png" alt="not supported">
-	</td>
-	<td>
-		<img src="images/not_supported.png" alt="not supported">
-	</td>
-	<td>
-		<img src="images/not_supported.png" alt="not supported">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
 		<img src="images/not_supported.png" alt="not supported">
