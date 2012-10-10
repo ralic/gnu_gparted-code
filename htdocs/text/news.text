@@ -1,3 +1,22 @@
+150
+10 October 2012
+GParted 0.14.0
+<br>
+The big news with this release of GParted is the ability to move,
+resize, check, create, and delete physical volumes under Logical
+Volume Management (lvm2 pv).  Also included are bug fixes and language
+translation updates.
+<br>
+<br>
+Key changes include:
+<ul>
+<li>Add LVM PV read-write support</li>
+<li>Fix crash when pressing Esc in dialogs with number entry</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.14.0/gparted-0.14.0-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 149
 3 September 2012
 Mike Fleetwood joins GParted Project
