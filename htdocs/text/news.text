@@ -1,3 +1,37 @@
+151
+11 October 2012
+GParted Live 0.14.0-1 Stable Release
+<br>
+The GParted team is proud to announce a new stable release of GParted
+Live.<br>
+<br>
+The big news with this release is the added ability to move, resize,
+check, create, and delete Physical Volumes under Logical Volume
+Management - LVM2 PV (<a
+href="https://bugzilla.gnome.org/show_bug.cgi?id=670171">bug
+#670171</a>).  This major addition to GParted 0.14.0 is thanks to work
+by Mike Fleetwood.<br>
+<br>
+Other bugs fixed in this release include:<br>
+<ul>
+<li>Fix crash when ESCape key pressed in dialogs containing number
+entry spin buttons (<a
+href="https://bugzilla.gnome.org/show_bug.cgi?id=682658">bug
+#682658</a>)</li>
+<li>Fix mounted file system size and usage determination for ext2/3/4
+(<a href="https://bugzilla.gnome.org/show_bug.cgi?id=683255">bug
+#683255</a>)</li>
+<li>Fix ReiserFS UUID reading issues on Fedora and CentOS (<a
+href="https://bugzilla.gnome.org/show_bug.cgi?id=684115">bug
+#684115</a>)</li>
+</ul>
+The GParted Live 0.14.0-1 image is based based on the Debian Sid
+repository (as of 2012/Oct/11)<br>
+<br>
+Thanks go to Steven Shiau for another stable GParted Live release.<br>
+<br>
+Curtis
+---
 150
 10 October 2012
 GParted 0.14.0
