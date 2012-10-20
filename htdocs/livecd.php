@@ -107,12 +107,16 @@ GParted Live includes additional packages, such as:<br>
     <td>- Graphical file manager</td>
   </tr>
   <tr>
+    <td><a href="http://www.gnu.org/software/mc/">mc</a></td>
+    <td>- Text based file manager known as Midnight Commander</td>
+  </tr>
+  <tr>
     <td><a href="http://tarot.freeshell.org/leafpad/">leafpad</a></td>
     <td>- Graphical text editor</td>
   </tr>
   <tr>
     <td><a href="http://www.nano-editor.org/">nano</a></td>
-    <td>- Text editor</td>
+    <td>- Text based text editor</td>
   </tr>
   <tr>
     <td><a href="http://www.vim.org/">vim-tiny</a></td>
@@ -123,12 +127,20 @@ GParted Live includes additional packages, such as:<br>
     <td>- Partition table editor (command line based)</td>
   </tr>
   <tr>
-    <td><a href="http://userweb.kernel.org/~kzak/util-linux/">fdisk</a></td>
+    <td><a href="http://en.wikipedia.org/wiki/Util-linux">fdisk</a></td>
     <td>- MSDOS partition table editor (command line based)</td>
+  </tr>
+  <tr>
+    <td><a href="http://en.wikipedia.org/wiki/Util-linux">sfdisk</a></td>
+    <td>- MSDOS partition table editor also useful to save/restore partition table to/from a file (command line based)</td>
   </tr>
   <tr>
     <td><a href="http://sourceforge.net/projects/gptfdisk/">gdisk</a></td>
     <td>- GPT partition table editor (command line based)</td>
+  </tr>
+  <tr>
+    <td><a href="http://www.rodsbooks.com/gdisk/sgdisk-walkthrough.html">sgdisk</a></td>
+    <td>- GPT partition table editor also useful to save/restore partition table to/from a file (command line based)</td>
   </tr>
   <tr>
     <td><a href="http://packages.debian.org/sid/gptsync">gptsync</a></td>
