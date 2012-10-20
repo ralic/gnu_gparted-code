@@ -139,7 +139,7 @@ GParted Live includes additional packages, such as:<br>
     <td>- GPT partition table editor (command line based)</td>
   </tr>
   <tr>
-    <td><a href="http://www.rodsbooks.com/gdisk/sgdisk-walkthrough.html">sgdisk</a></td>
+    <td><a href="http://www.rodsbooks.com/gdisk/sgdisk.html">sgdisk</a></td>
     <td>- GPT partition table editor also useful to save/restore partition table to/from a file (command line based)</td>
   </tr>
   <tr>
