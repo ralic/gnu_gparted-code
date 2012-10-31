@@ -110,7 +110,7 @@ function gnome_menu() { ?>
 </div>
 <div class="abovead">
 <?
-  include "google/sp-468x60-above-page-content.inc";
+  include "google/sp-728x90-above-page-content.inc";
 ?>
 </div>
 <? flush();
