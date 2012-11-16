@@ -57,6 +57,11 @@ text-align: left;
 background-color: #e3ffc3; /* ~ lite green */
 border-bottom: 1px solid #90d84b; /* ~ mid green */
 }
+@media screen and (max-device-width: 600px) {
+  .hdr {
+  height: 89px;
+  }
+}
 
 .logo {
 position: absolute;
@@ -64,6 +69,12 @@ top: 6px;
 left: 10px;
 border: 0px;
 z-index: 10;
+}
+@media screen and (max-device-width: 600px) {
+  .logo {
+  top: 3px;
+  left: 1px;
+  }
 }
 
 .hdrtitle {
@@ -74,6 +85,12 @@ color: #0000a0; /* dark blue */
 font-size: 1.5em;
 float: left;
 z-index: 12;
+}
+@media screen and (max-device-width: 600px) {
+  .hdrtitle {
+  margin-top: 0px;
+  font-size: 1.2em;
+  }
 }
 
 .hdrsearch {
