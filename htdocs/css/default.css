@@ -5,6 +5,10 @@ margin-top: 0px;
 margin-left: 0px;
 }
 
+img {
+max-width: 100%;
+}
+
 a img {
 border: 0px;
 }
