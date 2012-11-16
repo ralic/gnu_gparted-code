@@ -27,6 +27,7 @@ function html_head() { ?>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="author" content="Curtis Gedak">
   <meta name="keywords" content="partition editor, partition manager, partition magic, hard disk drive, flash drive, USB stick">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <?
   html_head_basic();
 }
