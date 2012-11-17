@@ -70,10 +70,10 @@ gnome_menu();
     target=_blank>Tuxboot</a> on your MS Windows computer.
   </li>
   <li class="step">
-    From Windows, run the Tuxboot program and follow 
-    <a href="http://tuxboot.org/installation-screenshots.php" target=_blank>
-    the instructions in the GUI</a> to install GParted Live on your USB flash
-    drive.
+    Follow
+    the <a href="http://tuxboot.org/installation/"
+    target=_blank>USB setup with MS Windows</a> instructions to
+    install GParted Live on your USB flash drive.
   </li>
 </ol>
 
@@ -202,7 +202,10 @@ Doing so could cause your MS windows not to boot!!!
     target=_blank>Tuxboot</a> on your GNU/Linux computer.
   </li>
   <li class="step">
-    From GNU/Linux, follow <a href="http://tuxboot.org/installation-screenshots.php" target=_blank>the instructions and the GUI</a> to run Tuxboot to install GParted Live on your USB flash drive.
+    Follow
+    the <a href="http://tuxboot.org/installation/"
+    target=_blank>USB setup with GNU/Linux</a> instructions to
+    install GParted Live on your USB flash drive.
   </li>
 </ol>
 
