@@ -114,6 +114,9 @@ else
   <?
     echo $meta_http_equiv . "\n";
     echo $meta_description . "\n";
+  ?>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <?
     html_head_basic();
   ?>
 </head>
