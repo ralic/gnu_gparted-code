@@ -20,11 +20,6 @@ gnome_menu_wo_ads();
 The GParted Project endeavours to provide a safe, easy way to manage
 disk device partitions.  If you enjoy using our software, please
 consider making a donation.<br>
-<ul>
-<li>
-<a href="https://sourceforge.net/donate/index.php?group_id=115843">Donate via SourceForge.net</a>
-</li>
-<li>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <p>Donate via PayPal:
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -33,8 +28,6 @@ consider making a donation.<br>
 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </p>
 </form>
-</li>
-</ul>
 Your donation will help us to make GParted better.
 <br>
 <br>
