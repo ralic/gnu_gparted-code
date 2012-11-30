@@ -21,14 +21,6 @@ gnome_menu();
 Please remember that the forum is for questions and ideas!<br>
 Bugs go <a href="bugs.php">here</a>.
 <br><br>
-<font color="red">
-<b>NOTE: On November 29, 2012 we noticed disk errors being reported on
-the server that hosts the forum.  While these problems are being
-addressed, the GParted forum will be unaccessible.  Your patience is
-appreciated while we work to correct the problem.  If you cannot
-access the forum please try again later.</b>
-</font>
-<br><br>
 Enter <a href="http://gparted-forum.surf4.info">forum</a>.
 <br><br>
 </p>
