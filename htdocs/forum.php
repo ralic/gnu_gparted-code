@@ -23,6 +23,9 @@ Bugs go <a href="bugs.php">here</a>.
 <br><br>
 Enter <a href="http://gparted-forum.surf4.info">forum</a>.
 <br><br>
+If you experience problems with the forum, see
+<a href="contact.php">Contact</a>.
+<br><br>
 </p>
 
 <h2>User Support</h2>
