@@ -51,8 +51,8 @@ steps:
   <li class="step">
     <a href="./download.php">Download GParted live zip file</a>, and
     unzip all the files in /mnt, make sure you put all the files in
-    /mnt, say, COPYING is in /mnt/, not in any subdir. You can do this
-    with a command such as: "unzip gparted-live-*.zip -d /mnt"
+    /mnt, say, file "GPL" is in /mnt/, not in any subdir. You can do
+    this with a command such as: "unzip gparted-live-*.zip -d /mnt"
     (Replace gparted-live-*.zip with the file name you just
     downloaded).
   </li>
