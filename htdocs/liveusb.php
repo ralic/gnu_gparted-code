@@ -105,8 +105,8 @@ Doing so could cause your MS windows not to boot!!!
   <li class="step">
     Extract all the contents of the zip file to FAT16/FAT32
     partition on your USB flash drive.  Keep the directory
-    architecture, for example, file "COPYING" should be in the USB
-    flash drive's top directory (e.g. G:\COPYING).
+    architecture, for example, file "GPL" should be in the USB
+    flash drive's top directory (e.g. G:\GPL).
   </li>
   <li class="step">
     Browse to your USB flash drive and as an administrator, click the 
@@ -277,9 +277,9 @@ Failure to do so could cause loss of data or your GNU/Linux not to boot!!!<br>
     Unzip all the files and copy them into your USB flash drive or USB
     hard drive.  You can do this with a command such as: "unzip
     gparted-live-0.4.5-2.zip -d /media/usb/"). Keep the directory
-    architecture, for example, file "COPYING" should be in the USB
+    architecture, for example, file "GPL" should be in the USB
     flash drive or USB hard drive's top directory
-    (e.g. /media/usb/COPYING).
+    (e.g. /media/usb/GPL).
   </li>
   <li class="step">
     To make your USB flash drive bootable, first change the working
