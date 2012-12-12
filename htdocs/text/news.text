@@ -1,3 +1,20 @@
+153
+12 December 2012
+GParted 0.14.1
+<br>
+This release of GParted includes some important bug fixes and some
+language translation updates.
+<br>
+<br>
+Key changes include:
+<ul>
+<li>Fix Linux software RAID device detection</li>
+<li>Fix logical partition grow overlaps extended partition end</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.14.1/gparted-0.14.1-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 152
 30 November 2012
 Manage Partitions with GParted How-to Book Available
