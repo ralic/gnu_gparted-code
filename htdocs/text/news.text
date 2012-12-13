@@ -1,3 +1,32 @@
+154
+13 December 2012
+GParted Live 0.14.1-1 Stable Release
+<br>
+The GParted team is proud to announce the stable release of GParted
+Live 0.14.1-1.<br>
+<br>
+This is a maintenance release that includes important bug fixes, and
+adds more language translation updates.<br>
+<br>
+Some important bugs fixed in this release are:<br>
+<ul>
+<li>Fix Linux software RAID device detection
+(<a href="https://bugzilla.gnome.org/show_bug.cgi?id=678379">bug
+#678379</a>)</li>
+<li>Fix logical partition grow overlaps extended partition end (<a
+href="https://bugzilla.gnome.org/show_bug.cgi?id=686668">bug
+#686668</a>)</li>
+<li>Use kdesudo on KDE, as gksu is not installed by default (<a
+href="https://bugzilla.gnome.org/show_bug.cgi?id=687813">bug
+#687813</a>)</li>
+</ul>
+The GParted Live 0.14.1-1 image is based on the Debian Sid repository
+(as of 2012/Dec/13).<br>
+<br>
+Thanks go to Steven Shiau for this stable GParted Live release.<br>
+<br>
+Curtis
+---
 153
 12 December 2012
 GParted 0.14.1
