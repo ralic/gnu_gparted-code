@@ -1,0 +1,275 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+   <title>GParted - Moving Space Between Partitions</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="author" content="Curtis Gedak">
+</head>
+<body>
+<div class="body">
+
+<div class="content">
+
+<h1>Moving Space Between Partitions</h1>
+
+<p>
+This page contains a sample chapter from the
+book <i><a href="http://www.packtpub.com/manage-disk-space-partitions-with-gparted/book">Manage
+Partitions with GParted How-to</a></i> reproduced with permission from
+Packt Publishing.
+</p>
+
+<h2>About the Book</h2>
+
+<div style="float: left;">
+<a href="http://www.packtpub.com/manage-disk-space-partitions-with-gparted/book">
+<img src="figures/book-9823os-cover.jpg" alt="Manage Partitions with GParted How-to" title="Manage Partitions with GParted How-to">
+</a>
+</div>
+
+<p>
+<b><i><a href="http://www.packtpub.com/manage-disk-space-partitions-with-gparted/book">Manage Partitions with GParted How-to</a></i></b> is a practical, hands-on guide providing you with step-by-step instructions to effectively organize your hard drive.
+</p>
+
+<p>
+Modern disk drives can store vast amounts of information. To effectively use all of this space, you can partition disk drives into separate storage areas. These separate storage areas enable you to organize your data, improve system performance, and install and use many operating systems.
+</p>
+
+<p>
+This book provides ample screen shots to help you effectively use your hard drive. You start with simple tasks that help you to identify drives and partitions. Next you progress to tasks covering the basics of how to grow, shrink, move, and copy partitions without data loss. You finish with advanced tasks that use the basics to prepare for new operating systems, migrate space between partitions, and share data among Windows, Linux, and Mac OS X.
+</p>
+
+<p>
+By following through the tasks, from basic to advanced, this book will empower you with the knowledge and tools to Manage Partitions with GParted.
+</p>
+
+<h2>About the Sample Chapter</h2>
+
+<p>
+The following sample chapter entitled <i>Moving space between
+partitions (Become an expert)</i> shows step-by-step how to migrate
+free space from one partition to another
+using <a href="http:livecd.php">GParted Live</a>. This chapter is one
+of many practical recipes included in the
+book <i><a href="http://www.packtpub.com/manage-disk-space-partitions-with-gparted/book">Manage
+Partitions with GParted How-to</a></i> available
+from <a href="http://www.packtpub.com/manage-disk-space-partitions-with-gparted/book">Packt
+Publishing</a> and other popular book stores.
+</p>
+
+<hr>
+
+<div style="font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;">
+
+<h1 style="font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif; color: white; background: black; padding-left: 5px; padding-right: 5px;">
+Moving space between partitions<br>
+(Become an expert)
+</h1>
+
+<p>
+It can be frustrating to run out of free space in one partition (for example, <b>C:</b>) when another partition (for example, <b>D:</b>) has plenty. In this recipe we cover the steps to migrate free space from one partition to another.
+</p>
+
+<br>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td>
+<h2 style="font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif; color: white; background: gray; padding-left: 5px; padding-right: 5px; float: left;">
+Getting ready
+</h2>
+</td></tr>
+</table>
+
+<p>
+Before before performing this task, we highly recommend that you backup your data. This task involves moving the start of a partition boundary, which is a high risk activity.
+</p>
+
+<br>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td>
+<h2 style="font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif; color: white; background: gray; padding-left: 5px; padding-right: 5px; float: left;">
+How to do it...
+</h2>
+</td></tr>
+</table>
+
+<ol>
+
+<li>
+Select the partition with plenty of free space.
+<br><br>
+<img src="figures/9823OS_14_01.png" alt="Original disk layout with one full primary partition on left followed by an extended partition wholly containing a logical partition with free space">
+<br><br>
+</li>
+
+<li>
+Choose the <b>Partition | Resize/Move</b> menu option and a <b>Resize/Move</b>
+window is displayed.
+<br><br>
+</li>
+
+<li>
+Click on the left-hand side of the partition and drag it to the right so that the free space is reduced by half.
+<br><br>
+<img src="figures/9823OS_14_02.png" alt="Resize/Move window with unallocated space on the left followed by the shunk partition ">
+<br><br>
+</li>
+ 
+<li>
+Click on <b>Resize/Move</b> to queue the operation.
+<br><br>
+</li>
+
+<li>
+Click on <b>OK</b> to acknowledge the move partition warning.
+<br><br>
+<img src="figures/9823OS_14_03.png" alt="Warning window indicating that moving a partition might cause the operating system to fail to boot">
+<br><br>
+</li>
+
+<li>
+Select the extended partition.
+<br><br>
+<img src="figures/9823OS_14_04.png" alt="Disk layout showing a full primary partition followed by an extended partition that contains free space to the left of a logical partition">
+<br><br>
+</li>
+
+<li>
+Choose the <b>Partition | Resize/Move</b> menu option and a <b>Resize/Move</b> window is displayed.
+<br><br>
+</li>
+
+<li>
+Click on the left-hand side of the partition and drag it to the right so that there is no space between the outer extended partition boundary and the inner logical partition boundary.
+<br><br>
+<img src="figures/9823OS_14_05.png" alt="Resize/Move window with free space to the left of extended partition and logical partition fitting perfectly within the extended partition">
+<br><br>
+</li>
+
+<li>
+Click on <b>Resize/Move</b> to queue the operation.
+<br><br>
+</li>
+
+<li>
+Select the partition that needs more free space:
+<br><br>
+<img src="figures/9823OS_14_06.png" alt="Disk layout with one full primary partition on left, followed by unallocated space followed by an extended partition wholly containing a logical partition">
+<br><br>
+</li>
+
+<li>
+Choose the <b>Partition | Resize/Move</b> menu option and a <b>Resize/Move</b> window is displayed.
+<br><br>
+</li>
+
+<li>
+Click on the right-hand side of the partition and drag it as far to the right as possible:
+<br><br>
+<img src="figures/9823OS_14_07.png" alt="Resize/Move window with the partition taking up all of the space">
+<br><br>
+</li>
+
+<li>
+Click <b>Resize/Move</b> to queue the operation:
+<br><br>
+<img src="figures/9823OS_14_08.png" alt="Disk layout with one no longer full primary partition on left, followed by a very small amount of unallocated space followed by an extended partition wholly containing a logical partition">
+<br><br>
+<ul style="list-style-type: none; padding: 0; margin: 0; font-size: smaller">
+<li style="background-image: url(./images/book-9823os-notes.png); min-height: 65px; background-repeat: no-repeat; background-postition: 0; padding-left: 90px; padding-right: 30px;">
+Notice the unallocated space between sda1 and sda2. This gap, which can be up to about 8 MiB, occurs due to having cylinder aligned and MiB aligned partitions on the same disk device. In this example, the sda1 partition was created with cylinder alignment to demonstrate this potential gap.
+</li>
+</ul>
+<br><br>
+</li>
+
+<li>
+Choose the <b>Edit | Apply All Operations</b> menu option to apply the queued operations, to disk.
+<br><br>
+</li>
+
+<li>
+Click on <b>Apply</b> to apply operations to disk.
+<br><br>
+<img src="figures/9823OS_14_09.png" alt="Applying pending operations window displaying progress bar growing from left to right">
+<br><br>
+</li>
+
+<li>
+Click on <b>Close</b> to close the apply operations to disk window.
+<br><br>
+<img src="figures/9823OS_14_10.png" alt="Disk layout showing the final partition layout with a primary partition followed by a small amount of unallocated space followed by an extended partition that wholly contains a logical partition">
+<br><br>
+</li>
+
+</ol>
+
+<br>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td>
+<h2 style="font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif; color: white; background: gray; padding-left: 5px; padding-right: 5px; float: left;">
+How it works...
+</h2>
+</td></tr>
+</table>
+
+<p>
+In order to add space to a partition, unallocated space must be available immediately adjacent to the partition. To free up this space, we use many of the recipes covered earlier.
+</p>
+
+<p>
+First, we made unallocated space available by shrinking the logical partition where free space was available. Because the free space came from a logical partition inside an extended partition, and we needed to add the space to a primary partition, we had to edit three partitions to achieve the desired goal.
+</p>
+
+<br>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td>
+<h2 style="font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif; color: white; background: gray; padding-left: 5px; padding-right: 5px; float: left;">
+There's more...
+</h2>
+</td></tr>
+</table>
+
+<p>
+As mentioned in previous recipes, if you resize or move a partition containing an NTFS file system, then you should reboot into Windows twice to permit Windows to perform file system consistency checks.
+</p>
+
+<h3>
+Growing or moving a partition
+</h3>
+
+<p>
+To grow or move a partition, unallocated space must be available adjacent to the partition:
+</p>
+
+<ul>
+<li>
+When growing a logical partition, the unallocated space must be within the extended partition.
+</li>
+<li>
+When growing a primary partition, the unallocated space must not be within the extended partition.
+</li>
+</ul>
+
+<p>
+You can move unallocated space inside or outside of an extended partition by resizing the extended partition boundaries.
+</p>
+
+</div>
+
+<hr>
+
+<p style="font-size: small;">
+The preceding section entitled <i>Moving Space Between Partitions
+(Become an expert)</i> is a sample chapter from the
+book <i><a href="http://www.packtpub.com/manage-disk-space-partitions-with-gparted/book">Manage
+Partitions with GParted How-to</a></i> written by Curtis Gedak and
+Copyright (c) 2012 Packt Publishing.
+</p>
+
+</div>
+
+</div>
+
+</body>
+</html>
