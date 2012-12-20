@@ -31,15 +31,13 @@ WEB SITE STRUCTURE
     |      +- C       English document
     |      |  |
     |      |  +- figures  Images for English document
-    |      |   
+    |      |
     |      |
     |      +- fr      French translation of document
     |      |  |
     |      |  +- figures  Images for French document
     |      |
     |      +- ...     Other language translations of document
-    |      
-    +- flags          Country flags for languages for dynamic web pages
     |
     +- gparted_icons  Artwork contributions
     |
