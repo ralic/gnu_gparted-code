@@ -129,72 +129,13 @@ gnome_menu();
 
 
 <H3>Howto Guides (Old)</H3>
-    <P>LarryT created the following documentation.</P>
-    GParted 0.3-1 - Last update : 
-    <!-- #BeginDate format:Am3 -->06/01/2007<!-- #EndDate -->
-    - Derni&egrave;re mise &agrave; jour : 
-    <!-- #BeginDate format:Ge1 -->01.06.2007<!-- #EndDate -->
-    <br>
-    <table width="53%"  border="1">
-      <tr> 
-        <td width="49%"><div align="center"><strong>GLOBAL</strong></div></td>
-        <td colspan="2"> <div align="center"></div>
-          <div align="center"><img src="flags/UK.png" alt="English documentation" width="28" height="16" border="0"></div></td>
-        <td colspan="2"> <div align="center"></div>
-          <div align="center"><img src="flags/French.png" alt="Documentation fran�ise" width="28" height="16" border="0"></div></td>
-        <td colspan="2"><div align="center"><img src="flags/Spanish.png" alt="Documentación española" width="28" height="16"></div></td>
-      </tr>
-      <tr> 
-        <td>General Information about GParted</td>
-        <td width="10%"><div align="center"><a href="http://gparted.sourceforge.net/larry/generalities/gparted.htm">HTML</a></div></td>
-        <td width="7%"><div align="center"><a href="larry/generalities/pdf/Generalities.pdf" target="_blank">PDF</a></div></td>
-        <td width="10%"><div align="center"><a href="http://gparted.sourceforge.net/larry/generalities/gparted-fr.htm">HTML</a></div></td>
-        <td width="7%"> <div align="center"><a href="larry/generalities/pdf/Generalities_fr.pdf" target="_blank">PDF</a></div></td>
-        <td width="9%"><a href="larry/generalities/gparted-es.htm">HTML</a></td>
-        <td width="8%">&nbsp;</td>
-      </tr>
-      <tr> 
-        <td>Resizing partitions with GParted</td>
-        <td><div align="center"><a href="http://gparted.sourceforge.net/larry/resize/resizing.htm">HTML</a></div></td>
-        <td><div align="center"><a href="larry/resize/pdf/Resizing.pdf" target="_blank">PDF</a></div></td>
-        <td><div align="center"><a href="http://gparted.sourceforge.net/larry/resize/resizing-fr.htm">HTML</a></div></td>
-        <td> <div align="center"><a href="larry/resize/pdf/Redimentionner.pdf" target="_blank">PDF</a></div></td>
-        <td><a href="larry/resize/resizing-es.htm">HTML</a></td>
-        <td>&nbsp;</td>
-      </tr>
-      <tr> 
-        <td>Copying/Moving with GParted</td>
-        <td><div align="center"><a href="larry/move/move.htm" target="_blank">HTML</a></div></td>
-        <td><div align="center"><a href="larry/move/pdf/copying.pdf" target="_blank">PDF</a></div></td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td><a href="larry/move/move-es.htm">HTML</a></td>
-        <td>&nbsp;</td>
-      </tr>
-    </table>
-    <p>&nbsp;</p>
-    <table width="54%"  border="1">
-      <tr> 
-        <td width="60%"><div align="center"><strong>TIPS</strong></div></td>
-        <td colspan="2"> <div align="center"></div>
-          <div align="center"><img src="flags/UK.png" alt="English documentation" width="28" height="16" border="0"></div></td>
-        <td colspan="2"> <div align="center"></div>
-          <div align="center"><img src="flags/French.png" alt="Documentation fran�ise" width="28" height="16" border="0"></div></td>
-        <td colspan="2"><div align="center"><img src="flags/Spanish.png" alt="Documentación española" width="28" height="16"></div></td>
-      </tr>
-      <tr> 
-        <td>Getting free space from partition</td>
-        <td><div align="center"><a href="larry/tips/gfs.htm" target="_blank">HTML</a></div></td>
-        <td width="8%"> <div align="center"><a href="larry/tips/pdf/gfs.pdf" target="_blank">PDF</a></div></td>
-        <td width="6%">&nbsp;</td>
-        <td width="5%">&nbsp;</td>
-        <td width="6%"><a href="larry/tips/gfs-es.htm">HTML</a></td>
-        <td width="6%">&nbsp;</td>
-      </tr>
-    </table>
-    <p>
-      <br>
-    </p>
+    <P>
+    LarryT created some of the first documentation for GParted, which
+    was last updated on 06/01/2007 and is no longer maintained.  See:
+    <a href="http://gparted-livecd.tuxfamily.org/documentation.php">TuxFamily
+    GParted-LiveCD documentation</a>
+    </P>
+
 <hr>
 <H3>Related Docs</H3>
 <p>
