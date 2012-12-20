@@ -94,7 +94,26 @@ gnome_menu();
     </tr>
   </table>
 
+<H3>Book</H3>
+  <div style="float: left;">
+  <a href="http://www.packtpub.com/manage-disk-space-partitions-with-gparted/book">
+  <img src="images/book-9823os-cover.jpg" alt="Manage Partitions with GParted How-to" title="Manage Partitions with GParted How-to">
+  </a>
+  </div>
+
+  <p>
+  <b><i><a href="http://www.packtpub.com/manage-disk-space-partitions-with-gparted/book">Manage
+  Partitions with GParted How-to</a></i></b> is a practical, hands-on
+  guide providing you with step-by-step instructions to effectively
+  organize your hard drive.<br>
   <br>
+  For more details and a sample chapter from the book, see
+  <a href="display-doc.php?name=moving-space-between-partitions">Moving
+  space between partitions</a>.
+  </p>
+
+  <br style="clear: both;">
+
 <?
   include "google/docp-728x90-under-title.inc";
 ?>
