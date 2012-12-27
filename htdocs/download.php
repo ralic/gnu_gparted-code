@@ -52,6 +52,45 @@ If you use GParted and it helps you with your task, then please consider making
 a donation to help us make GParted better.<br>
 </p>
 
+<table border=0><tr><td>
+<div class="note">
+<p class="hangnote">
+<b>NOTE</b>: &nbsp; GParted Live is available in three different
+architectures
+</p>
+<table border=0 style="font-size: smaller; valign: top;">
+  <tr style="valign: top;">
+    <td valign="top"><b>i486</b></td>
+    <td valign="top">
+    - 32-bit version runs on x86 and x86-64 based computers, limited
+      to physical address space of 4 gigabytes, and uses one processor
+      only.<br>
+      &nbsp; &nbsp; <b><i>If in doubt, try this one first.</i></b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><b>i686-PAE</b></td>
+    <td valign="top">
+    - 32-bit version runs on x86 (i686 and higher) and x86-64 based
+      computers, with <b>P</b>hysical <b>A</b>ddress <b>E</b>xtenstion
+      to access more than 4 gigabytes of memory, and supports use of
+      multiple processor cores.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><b>amd64</b></td>
+    <td valign="top">
+    - 64-bit version runs on x86-64 based computers, with ability to
+      access more than 4 gigabytes of memory, and supports use of
+      multiple processor cores.
+    </td>
+  </tr>
+</table>
+</div>
+</td></tr></table>
+
+<br>
+
 <table border="1px" cellpadding="5px">
   <tr>
     <th colspan="4">
