@@ -106,7 +106,7 @@ architectures
 
   <tr>
     <td>
-      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/0.14.1-6/">Download latest gparted-live-0.14.1-6</a><br>
+      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/0.14.1-6/gparted-live-0.14.1-6-i486.iso">Download latest gparted-live-0.14.1-6-i486.iso</a><br>
       <br>
       <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/">Stable directory (.iso/.zip)</a>
     </td>
