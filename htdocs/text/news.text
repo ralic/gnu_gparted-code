@@ -1,3 +1,30 @@
+156
+28 December 2012
+GParted Live 0.14.1-6 Stable Release
+<br>
+The GParted team is proud to announce a new stable release of GParted
+Live.<br>
+<br>
+The big news with this release is the added ability to boot the live
+image on uEFI firmware computers, while maintaining boot ability on
+traditional PC/BIOS computers.  This means that GParted Live can now
+boot on newer Windows 8 computers.<br>
+<br>
+In addition to supporting uEFI firmware, two more GNU/Linux operating
+system images have been released: i686-PAE (Physical Address
+Extension) and AMD64 (X86-64).  These new images permit addressing
+more than 4 gigabytes of RAM, and enable using multiple processor
+cores.<br>
+<br>
+Other items of note include:<br>
+<ul>
+<li>Updated Linux kernel to 3.2.35-2</li>
+<li>Based on the Debian Sid repository (as of 2012/Dec/23) </li>
+</ul>
+Thanks goes to Steven Shiau for these live image enhancements.<br>
+<br>
+Curtis
+---
 155
 21 December 2012
 Manage Partitions with GParted How-to Book Giveaway and Sample Chapter
