@@ -54,7 +54,7 @@ If you want to assign different repositories to download files, you can run some
 create-gparted-live -l en -b u -e e -m http://ftp.us.debian.org/debian -s http://security.debian.org -g http://drbl.sourceforge.net/drbl-core<br>
   <br>
 Or more options you can try (this is how GParted live 0.14.1-6 was created):<br>
-create-gparted-live -bt debootstrap -c 'main non-free' -k 'firmware-linux-free firmware-linux firmware-linux-nonfree firmware-bnx2 firmware-bnx2x firmware-qlogic firmware-ralink live-boot=2.0.15-1.drbl15 live-boot-initramfs-tools=2.0.15-1.drbl15 live-config=2.0.15-1.drbl9 live-config-sysvinit=2.0.15-1.drbl9 partimage' -f 686-pae -b unstable -e unstable -d sid -m http://free.nchc.org.tw/debian -s http://free.nchc.org.tw/debian-security -g http://free.nchc.org.tw/drbl-core -i 0.14.1-8-i686-pae -n 3.2.0-4
+create-gparted-live -bt debootstrap -c 'main non-free' -k 'firmware-linux-free firmware-linux firmware-linux-nonfree firmware-bnx2 firmware-bnx2x firmware-qlogic firmware-ralink live-boot=2.0.15-1.drbl15 live-boot-initramfs-tools=2.0.15-1.drbl15 live-config=2.0.15-1.drbl9 live-config-sysvinit=2.0.15-1.drbl9 partimage' -f 686-pae -b unstable -e unstable -d sid -m http://free.nchc.org.tw/debian -s http://free.nchc.org.tw/debian-security -g http://free.nchc.org.tw/drbl-core -i 0.14.1-6-i686-pae -n 3.2.0-4
   <br>
   <br>
 For more info, you can run "create-gparted-live --help"<br>
