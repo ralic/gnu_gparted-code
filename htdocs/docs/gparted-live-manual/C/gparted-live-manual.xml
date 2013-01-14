@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
-  <!ENTITY appversion "0.10.0">
-  <!ENTITY liveversion "0.10.0-3">
-  <!ENTITY manrevision "1.1.1">
-  <!ENTITY date "June 2012">
+  <!ENTITY appversion "0.14.1">
+  <!ENTITY liveversion "0.14.1-6">
+  <!ENTITY manrevision "1.2">
+  <!ENTITY date "January 2013">
   <!ENTITY app "gparted">
   <!ENTITY appname "GParted">
   <!ENTITY livename "GParted Live">
@@ -48,7 +48,7 @@
     </abstract>
 
     <copyright>
-      <year>2011, 2012</year>
+      <year>2011, 2012, 2013</year>
       <holder>Curtis Gedak</holder>
     </copyright>
 
@@ -102,6 +102,17 @@
 <!-- modifying/reusing someone else's document.  If not, you can omit it. -->
     <revhistory>
       <revision>
+        <revnumber>&livename; Manual V1.2</revnumber>
+        <date>January 2013</date>
+        <revdescription>
+          <para role="author">Curtis Gedak</para>
+          <para role="publisher">&appname; Project</para>
+          <para role="annotations">
+          Update screen shots and screen resolution section.
+          </para>
+        </revdescription>
+      </revision>
+      <revision>
         <revnumber>&livename; Manual V1.1.1</revnumber>
         <date>June 2012</date>
         <revdescription>
@@ -110,7 +121,7 @@
           <para role="annotations">
           Add partition number to USB flash drive mount command.
           </para>
-        </revdescription> 
+        </revdescription>
       </revision>
       <revision>
         <revnumber>&livename; Manual V1.1</revnumber>
@@ -123,7 +134,7 @@
           Screenshot, Saving GParted Details, Copying Files to Other
           Media, and Changing Screen Resolution.
           </para>
-        </revdescription> 
+        </revdescription>
       </revision>
       <revision>
         <revnumber>&livename; Manual V1.0</revnumber>
@@ -133,7 +144,7 @@
           <para role="publisher">&appname; Project</para>
           <para role="annotations">Describes version 0.10.0-3 of &livename;.
           </para>
-        </revdescription> 
+        </revdescription>
       </revision>
     </revhistory>
 
@@ -176,7 +187,7 @@
       </para>
     </tip>
   </sect1>
-  
+
 <!-- ============= Booting GParted Live ============================== -->
   <sect1 id="gparted-live-booting-gparted-live">
     <title>Booting GParted Live</title>
@@ -232,7 +243,7 @@
                      url="figures/gparted-live-boot-screen.jpeg">
                 <inlinemediaobject>
                   <imageobject>
-                    <imagedata 
+                    <imagedata
                       fileref="figures/gparted-live-boot-screen.jpeg"
                       width="510px" scalefit="1"
                       format="JPEG"/>
@@ -274,7 +285,7 @@
                        url="figures/gparted-live-boot-screen-other-modes.jpeg">
                   <inlinemediaobject>
                     <imageobject>
-                      <imagedata 
+                      <imagedata
                         fileref="figures/gparted-live-boot-screen-other-modes.jpeg"
                         width="510px" scalefit="1"
                         format="JPEG"/>
@@ -311,7 +322,7 @@
                      url="figures/gparted-live-bootup-keymap-question.png">
                 <inlinemediaobject>
                   <imageobject>
-                    <imagedata 
+                    <imagedata
                       fileref="figures/gparted-live-bootup-keymap-question.png"
                       width="510px" scalefit="1"
                       format="PNG"/>
@@ -346,7 +357,7 @@
                      url="figures/gparted-live-bootup-language-question.png">
                 <inlinemediaobject>
                   <imageobject>
-                    <imagedata 
+                    <imagedata
                       fileref="figures/gparted-live-bootup-language-question.png"
                       width="510px" scalefit="1"
                       format="PNG"/>
@@ -377,7 +388,7 @@
                      url="figures/gparted-live-bootup-video-mode-question.png">
                 <inlinemediaobject>
                   <imageobject>
-                    <imagedata 
+                    <imagedata
                       fileref="figures/gparted-live-bootup-video-mode-question.png"
                       width="510px" scalefit="1"
                       format="PNG"/>
@@ -407,7 +418,7 @@
                      url="figures/gparted-live-after-bootup.png">
                 <inlinemediaobject>
                   <imageobject>
-                    <imagedata 
+                    <imagedata
                       fileref="figures/gparted-live-after-bootup.png"
                       width="510px" scalefit="1"
                       format="PNG"/>
@@ -486,7 +497,7 @@
                      url="figures/gparted-live-terminal-window.png">
                 <inlinemediaobject>
                   <imageobject>
-                    <imagedata 
+                    <imagedata
                       fileref="figures/gparted-live-terminal-window.png"
                       width="510px" scalefit="1"
                       format="PNG"/>
@@ -552,7 +563,7 @@
                      url="figures/gparted-live-screenshot-prompt.png">
                 <inlinemediaobject>
                   <imageobject>
-                    <imagedata 
+                    <imagedata
                       fileref="figures/gparted-live-screenshot-prompt.png"
                       width="510px" scalefit="1"
                       format="PNG"/>
@@ -584,7 +595,7 @@
                      url="figures/gparted-live-screenshot-saved.png">
                 <inlinemediaobject>
                   <imageobject>
-                    <imagedata 
+                    <imagedata
                       fileref="figures/gparted-live-screenshot-saved.png"
                       width="510px" scalefit="1"
                       format="PNG"/>
@@ -657,7 +668,7 @@
                      url="figures/gparted-live-applying-pending-operations.png">
                 <inlinemediaobject>
                   <imageobject>
-                    <imagedata 
+                    <imagedata
                       fileref="figures/gparted-live-applying-pending-operations.png"
                       width="510px" scalefit="1"
                       format="PNG"/>
@@ -689,7 +700,7 @@
                      url="figures/gparted-live-save-details.png">
                 <inlinemediaobject>
                   <imageobject>
-                    <imagedata 
+                    <imagedata
                       fileref="figures/gparted-live-save-details.png"
                       width="510px" scalefit="1"
                       format="PNG"/>
@@ -776,7 +787,7 @@
                        url="figures/gparted-live-dmesg-after-insert-usb-flash-drive.png">
                   <inlinemediaobject>
                     <imageobject>
-                      <imagedata 
+                      <imagedata
                         fileref="figures/gparted-live-dmesg-after-insert-usb-flash-drive.png"
                         width="510px" scalefit="1"
                         format="PNG"/>
@@ -951,24 +962,20 @@
           </listitem>
           <listitem>
             <para>
-            Choose a screen resolution and refresh frequency by
-            clicking the <guibutton>Modes</guibutton> drop down
-            list button and selecting an appropriate entry.
+            Choose a screen resolution or refresh rate by clicking the
+            <guibutton>Resolution</guibutton> or <guibutton>Refresh
+            Rate</guibutton> drop-down lists respectively and
+            selecting an appropriate entry.
             </para>
             <!-- ==== Figure ==== -->
-            <!-- The GNOME Documentation Project recommends a maximum image
-                 width of 510 pixels.
-                 http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
-            -->
             <figure id="gparted-live-screen-resolution">
               <title>Screen Resolution Window</title>
               <ulink type="http"
                      url="figures/gparted-live-screen-resolution.png">
                 <inlinemediaobject>
                   <imageobject>
-                    <imagedata 
+                    <imagedata
                       fileref="figures/gparted-live-screen-resolution.png"
-                      width="510px" scalefit="1"
                       format="PNG"/>
                     </imageobject>
                   <textobject>
@@ -1054,7 +1061,7 @@
                      url="figures/gparted-live-shutdown-prompt.png">
                 <inlinemediaobject>
                   <imageobject>
-                    <imagedata 
+                    <imagedata
                       fileref="figures/gparted-live-shutdown-prompt.png"
                       width="510px" scalefit="1"
                       format="PNG"/>
@@ -1084,7 +1091,7 @@
                      url="figures/gparted-live-shutdown-remove-disc-prompt.png">
                 <inlinemediaobject>
                   <imageobject>
-                    <imagedata 
+                    <imagedata
                       fileref="figures/gparted-live-shutdown-remove-disc-prompt.png"
                       width="510px" scalefit="1"
                       format="PNG"/>
@@ -1154,7 +1161,7 @@
                      url="figures/gparted-live-bios-setup-prompt.png">
                 <inlinemediaobject>
                   <imageobject>
-                    <imagedata 
+                    <imagedata
                       fileref="figures/gparted-live-bios-setup-prompt.png"
                       width="510px" scalefit="1"
                       format="PNG"/>
@@ -1213,7 +1220,7 @@
                      url="figures/gparted-live-bios-setup-boot-order.png">
                 <inlinemediaobject>
                   <imageobject>
-                    <imagedata 
+                    <imagedata
                       fileref="figures/gparted-live-bios-setup-boot-order.png"
                       width="510px" scalefit="1"
                       format="PNG"/>
@@ -1252,7 +1259,7 @@
                      url="figures/gparted-live-bios-save-settings.png">
                 <inlinemediaobject>
                   <imageobject>
-                    <imagedata 
+                    <imagedata
                       fileref="figures/gparted-live-bios-save-settings.png"
                       width="510px" scalefit="1"
                       format="PNG"/>
