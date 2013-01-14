@@ -636,7 +636,7 @@
           <listitem>
             <para>
             To open a terminal window, double-click the
-            <guibutton>Terminal</guibutton> icon in the upper left
+            <guiicon>Terminal</guiicon> icon in the upper left
             hand side of the desktop.
             </para>
             <!-- ==== Figure ==== -->
@@ -695,7 +695,7 @@
         <orderedlist>
           <listitem>
             <para>
-            Double-click the <guibutton>Screenshot</guibutton> icon in
+            Double-click the <guiicon>Screenshot</guiicon> icon in
             the upper left hand side of the desktop.
             </para>
           </listitem>
@@ -1109,7 +1109,7 @@
         <orderedlist>
           <listitem>
             <para>
-            Double-click the <guibutton>Screen resolution</guibutton>
+            Double-click the <guiicon>Screen resolution</guiicon>
             icon at the top of the desktop.
             </para>
           </listitem>
@@ -1193,7 +1193,7 @@
         <orderedlist>
           <listitem>
             <para>
-            Double-click the <guibutton>Exit</guibutton> icon in
+            Double-click the <guiicon>Exit</guiicon> icon in
             the upper left hand side of the desktop.
             </para>
           </listitem>
