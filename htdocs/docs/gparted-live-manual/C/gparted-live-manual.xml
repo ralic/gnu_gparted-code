@@ -108,7 +108,8 @@
           <para role="author">Curtis Gedak</para>
           <para role="publisher">&appname; Project</para>
           <para role="annotations">
-          Update screen shots and screen resolution section.
+          Update screen shots and screen resolution section.  Add
+          working with keyboard only section.
           </para>
         </revdescription>
       </revision>
@@ -466,6 +467,76 @@
       The &appname; Manual is available on the <ulink type="http"
       url="http://gparted.org/documentation.php">documentation
       page</ulink> of the &appname; web site.
+      </para>
+    </sect2>
+
+<!-- ============= Working with Keyboard Only ======================== -->
+    <sect2 id="gparted-live-working-with-keyboard-only">
+
+      <title>Working with Keyboard Only</title>
+      <para>
+      Navigating the desktop and applications is often accomplished
+      using a mouse or trackpad.  However, all of the functionality is
+      also available using only a keyboard.
+      </para>
+      <para>
+      Use the following keys for navigating the desktop and
+      applications with a keyboard.
+        <itemizedlist>
+          <listitem>
+            <para>
+            <keycombo action='simul'>
+              <keycap>Alt</keycap>
+              <keycap>Tab</keycap>
+            </keycombo>
+            to cycle through desktop windows.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+            <keycombo action='simul'>
+              <keycap>Alt</keycap>
+              <keycap><replaceable>Letter</replaceable></keycap>
+            </keycombo>
+            to select the active window menu item identified by an
+            underlined letter in the menu item name.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+            <keycap>Esc</keycap> to cancel a menu selection.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+            <keycap>Up</keycap>, <keycap>Down</keycap>,
+            <keycap>Left</keycap>, and <keycap>Right</keycap> arrow
+            keys to navigate up, down, left, and right respectively.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+            <keycap>Tab</keycap> to navigate forward through controls,
+            and
+            <keycombo action='simul'>
+              <keycap>Shift</keycap>
+              <keycap>Tab</keycap>
+            </keycombo>
+            to navigate backward through controls.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+            <keycap>Space</keycap> to toggle selection of check boxes,
+            or to select a radio button.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+            <keycap>Enter</keycap> to select the current choice.
+            </para>
+          </listitem>
+        </itemizedlist>
       </para>
     </sect2>
 
