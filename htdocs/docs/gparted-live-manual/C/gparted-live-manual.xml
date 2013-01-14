@@ -109,7 +109,8 @@
           <para role="publisher">&appname; Project</para>
           <para role="annotations">
           Update screen shots and screen resolution section.  Add
-          working with keyboard only section.
+          sections for working with keyboard only, and accessing
+          desktop menu.
           </para>
         </revdescription>
       </revision>
@@ -538,6 +539,87 @@
           </listitem>
         </itemizedlist>
       </para>
+    </sect2>
+
+<!-- ============= Accessing Desktop Menu ============================ -->
+    <sect2 id="gparted-live-accessing-desktop-menu">
+
+      <title>Accessing Desktop Menu</title>
+      <para>
+      To access the desktop menu:
+        <orderedlist>
+          <listitem>
+            <para>
+            Position the mouse pointer over an empty area of the
+            desktop.  An empty area is a section of the desktop that
+            is not covered by an application window, toolbar, or any
+            other control.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+            Click the right mouse button.  A desktop menu will appear.
+            </para>
+            <!-- ==== Figure ==== -->
+            <figure id="gparted-live-desktop-menu">
+              <title>Desktop Menu</title>
+              <ulink type="http"
+                     url="figures/gparted-live-desktop-menu.png">
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata
+                      fileref="figures/gparted-live-desktop-menu.png"
+                      format="PNG"/>
+                    </imageobject>
+                  <textobject>
+                    <phrase>
+                    Shows desktop menu.
+                    </phrase>
+                  </textobject>
+                </inlinemediaobject>
+              </ulink>
+            </figure>
+          </listitem>
+          <listitem>
+            <para>
+            Choose a menu entry.  For example, the leafpad graphical
+            text editor.
+            </para>
+            <!-- ==== Figure ==== -->
+            <figure id="gparted-live-desktop-menu-editors">
+              <title>Desktop Menu Editors</title>
+              <ulink type="http"
+                     url="figures/gparted-live-desktop-menu-editors.png">
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata
+                      fileref="figures/gparted-live-desktop-menu-editors.png"
+                      format="PNG"/>
+                    </imageobject>
+                  <textobject>
+                    <phrase>
+                    Shows desktop menu editors.
+                    </phrase>
+                  </textobject>
+                </inlinemediaobject>
+              </ulink>
+            </figure>
+          </listitem>
+        </orderedlist>
+      </para>
+      <tip>
+        <para>
+        To access the desktop menu using the keyboard, press the
+        <keycap>Menu</keycap> key.  On a US keyboard the
+        <keycap>Menu</keycap> key is located between the right
+        <keycap>Windows Logo</keycap> key and the right
+        <keycap>Ctrl</keycap> key.
+        </para>
+        <para>
+        To dismiss the desktop menu, press the <keycap>Esc</keycap>
+        key.
+        </para>
+      </tip>
     </sect2>
 
 <!-- ============= Working with Terminal Window ====================== -->
