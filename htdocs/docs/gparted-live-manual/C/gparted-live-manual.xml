@@ -108,9 +108,9 @@
           <para role="author">Curtis Gedak</para>
           <para role="publisher">&appname; Project</para>
           <para role="annotations">
-          Update screen shots and screen resolution section.  Add
-          sections for working with keyboard only, and accessing
-          desktop menu.
+          Update screen shots and sections for changing screen
+          resolution and enabling network access.  Add sections for
+          working with keyboard only, and accessing desktop menu.
           </para>
         </revdescription>
       </revision>
@@ -1170,17 +1170,78 @@
         <orderedlist>
           <listitem>
             <para>
-            At the terminal prompt enter:
-            <screen><prompt>user@debian:~$ </prompt><command>sudo dhclient eth0</command></screen>
+            Double-click the <guiicon>Network config</guiicon> icon in
+            the upper left hand side of the desktop.
             </para>
+          </listitem>
+          <listitem>
+            <para>
+            Press the <keycap>Enter</keycap> key to choose the default
+            DHCP option.
+            </para>
+            <!-- ==== Figure ==== -->
+            <!-- The GNOME Documentation Project recommends a maximum image
+                 width of 510 pixels.
+                 http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
+            -->
+            <figure id="gparted-live-network-config-options">
+              <title>Network Configuration Options</title>
+              <ulink type="http"
+                     url="figures/gparted-live-network-config-options.png">
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata
+                      fileref="figures/gparted-live-network-config-options.png"
+                      width="510px" scalefit="1"
+                      format="PNG"/>
+                    </imageobject>
+                  <textobject>
+                    <phrase>
+                    Shows window with network configuration options.
+                    </phrase>
+                  </textobject>
+                </inlinemediaobject>
+              </ulink>
+            </figure>
+          </listitem>
+          <listitem>
+            <para>
+            Press the <keycap>Enter</keycap> key to dismiss the window
+            containing the network assigned IP address details.
+            </para>
+            <!-- ==== Figure ==== -->
+            <!-- The GNOME Documentation Project recommends a maximum image
+                 width of 510 pixels.
+                 http://library.gnome.org/devel/gdp-style-guide/stable/screenshot-4.html.en
+            -->
+            <figure id="gparted-live-network-config-have-ip-addr">
+              <title>Network Assigned IP Address Details</title>
+              <ulink type="http"
+                     url="figures/gparted-live-network-config-have-ip-addr.png">
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata
+                      fileref="figures/gparted-live-network-config-have-ip-addr.png"
+                      width="510px" scalefit="1"
+                      format="PNG"/>
+                    </imageobject>
+                  <textobject>
+                    <phrase>
+                    Shows window with network assigned IP Address details.
+                    </phrase>
+                  </textobject>
+                </inlinemediaobject>
+              </ulink>
+            </figure>
           </listitem>
           <listitem>
             <para>
             Wired ethernet TCP/IP networking should now be enabled.
             </para>
             <para>
-            Network commands, such as "scp" to securely copy files,
-            should now work properly.
+            With networking enabled you can surf the Internet using
+            the web browser and use network commands, such as
+            <command>scp</command> to securely copy files.
             </para>
           </listitem>
         </orderedlist>
