@@ -672,7 +672,7 @@
             </para>
             <para>
             For example, to list the files in a directory with the
-            "ls" command, enter:
+            <command>ls</command> command, enter:
             <screen><prompt>user@debian:~$ </prompt><command>ls</command></screen>
             </para>
             <tip>
