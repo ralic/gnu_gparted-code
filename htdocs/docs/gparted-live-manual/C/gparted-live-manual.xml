@@ -110,7 +110,8 @@
           <para role="annotations">
           Update screen shots and sections for changing screen
           resolution and enabling network access.  Add sections for
-          working with keyboard only, and accessing desktop menu.
+          working with keyboard only, and accessing desktop menu.  Add
+          note regarding disabling UEFI secure boot.
           </para>
         </revdescription>
       </revision>
@@ -1351,6 +1352,16 @@
     the BIOS must be set to boot from CD-ROM and other removable
     devices before booting from hard disk drives.
     </para>
+    <note>
+      <para>
+      If you have a computer with <ulink type="http"
+      url="https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface">UEFI</ulink>
+      firmware then you might need to disable <ulink type="http"
+      url="https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface#Secure_boot">secure
+      boot</ulink>.  When secure boot is enabled it can prevent some
+      operating systems, such as &livename;, from booting.
+      </para>
+    </note>
 
 <!-- ============= Entering BIOS Setup =============================== -->
     <sect2 id="gparted-live-entering-bios-setup">
@@ -1526,6 +1537,13 @@
       <title>List of Booting Tips</title>
       <para>
         <orderedlist>
+          <listitem>
+            <para>
+            Ensure that the computer BIOS or UEFI firmware is
+            configured properly.  See <xref
+            linkend="gparted-live-preparing-bios"/>.
+            </para>
+          </listitem>
           <listitem>
             <para>
             Try using one of the settings under "Other modes of
