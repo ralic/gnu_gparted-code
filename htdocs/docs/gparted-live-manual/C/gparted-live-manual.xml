@@ -675,6 +675,18 @@
             "ls" command, enter:
             <screen><prompt>user@debian:~$ </prompt><command>ls</command></screen>
             </para>
+            <tip>
+              <para>
+              Working with disk devices often requires root privilege.
+              To acquire root privilege for a single command, add the
+              prefix <command>sudo</command>.
+              </para>
+              <para>
+              For example, to list MSDOS partition table details for
+              all disk devices, enter:
+              <screen><prompt>user@debian:~$ </prompt><command>sudo fdisk -l -u</command></screen>
+              </para>
+            </tip>
           </listitem>
           <listitem>
             <para>
