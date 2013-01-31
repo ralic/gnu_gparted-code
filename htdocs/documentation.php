@@ -109,7 +109,13 @@ gnome_menu();
   <br>
   For more details and a sample chapter from the book, see
   <a href="display-doc.php?name=moving-space-between-partitions">Moving
-  space between partitions</a>.
+  space between partitions</a>.<br>
+  <br>
+  For book reviews,
+  see <a href="http://www.amazon.com/Manage-Partitions-GParted-Curtis-Gedak/dp/184951982X">amazon.com</a>,
+  <a href="http://techgage.com/news/dont-understand-drive-partitions-this-short-book-can-help/?utm_source=rss&utm_medium=rss&utm_campaign=dont-understand-drive-partitions-this-short-book-can-help">techgage.com</a>,
+  <a href="http://blog.mwpreston.net/2013/01/13/book-review-manage-partitions-with-gparted-how-to-by-curtis-gedak/">mwpreston.net</a>,
+  and <a href="http://www.garron.me/blog/manage-partitions-with-gparted-how-to.html">garron.me</a>.
   </p>
 
   <br style="clear: both;">
