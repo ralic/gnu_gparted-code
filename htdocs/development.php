@@ -94,6 +94,13 @@ Creative designs can be found on the <a href="artwork.php">artwork</a>
 page.
 </p>
 
+<h2>Other Ways to Help</h2>
+<p>
+There are many ways to contribute to the GParted project that do not
+involve developing code. See the <a href="howtohelp.php">how to
+help</a> page.
+</p>
+
 </div>
 
 <? gnome_foot() ?>
