@@ -27,6 +27,13 @@ gnome_menu();
     <br>
   </li>
   <li class="step">
+    <a href="http://www.howtogeek.com/114503/how-to-resize-your-ubuntu-partitions/">
+    How to Resize Your Ubuntu Partitions</a><br>
+    by Chris Hoffman on May 21, 2012<br>
+    Type:  Tutorial<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.makeuseof.com/pages/best-linux-distributions">
     Best Linux Distributions</a><br>
     by makeuseof on January 2012<br>
