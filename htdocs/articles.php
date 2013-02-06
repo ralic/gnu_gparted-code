@@ -70,6 +70,13 @@ gnome_menu();
     <br>
   </li>
   <li class="step">
+    <a href="http://computerdoctor-mitchel.blogspot.jp/2010/11/using-gparted-to-clone-disc.html">
+    Using GParted to clone a disc</a><br>
+    by the Computer Doctor on November 9, 2010<br>
+    Type:  Tutorial<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.linux-mag.com/id/7875/">
     Gnome Partition Editor: The Dearly GParted</a><br>
     by Ken Hess on October 4, 2010<br>
