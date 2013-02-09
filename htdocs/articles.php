@@ -20,6 +20,14 @@ gnome_menu();
 
 <ul>
   <li class="step">
+    <a href="http://www.download3k.com/System-Utilities/File-Disk-Management/Download-GParted.html">
+    GParted 0.14.1 Editor's Review</a><br>
+    by Tennyson Acker on January 25, 2013<br>
+    Type:  Review<br>
+    <a href="http://www.download3k.com/System-Utilities/File-Disk-Management/Download-GParted.html" title="GParted 0.14.1 Editor's Review"><img src="http://www.download3k.com/images/review10.gif" alt="GParted 0.14.1 Editor's Review"></a><br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.sitepoint.com/ubuntu-12-04-lts-precise-pangolin-using-gparted-to-partition-a-hard-disk/">
     Ubuntu 12.04 LTS Precise Pangolin: Using GParted to Partition a Hard Disk</a><br>
     by Jonathan Hobson on June 30, 2012<br>
