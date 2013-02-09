@@ -37,7 +37,7 @@ gnome_menu();
     <a href="http://www.makeuseof.com/pages/best-linux-distributions">
     Best Linux Distributions</a><br>
     by makeuseof on January 2012<br>
-    Type:  Rating<br>
+    Type:  Review<br>
     <a href="http://www.makeuseof.com/pages/best-linux-distributions" title="Best Linux Distros"><img src="http://makeuseof.com/images/logo/reviewed.png" alt="Best Linux Distros"></a><br>
     <br>
   </li>
