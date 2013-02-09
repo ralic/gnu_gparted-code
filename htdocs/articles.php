@@ -49,6 +49,13 @@ gnome_menu();
     <br>
   </li>
   <li class="step">
+    <a href="http://thestandardoutput.com/2011/05/how-to-resize-a-virtualbox-vdi-file/">
+    How to resize a VirtualBox VDI file</a><br>
+    by Jonas Gorauskas on May 28, 2011<br>
+    Type:  Tutorial<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.pcworld.com/article/226231/gparted_live_a_boot_disk_iso_you_cant_afford_to_be_without.html">
     GParted Live: A Boot Disk ISO You Can't Afford to Be Without</a><br>
     by Jon L. Jacobi on May 1, 2011<br>
