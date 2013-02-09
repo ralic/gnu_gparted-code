@@ -18,15 +18,38 @@ gnome_menu();
 <div class="content">
 <h1>Articles Featuring GParted</h1>
 
+<p>
+Following are links to third-party articles grouped by the following
+categories:
+</p>
+
 <ul>
   <li class="step">
-    <a href="http://www.download3k.com/System-Utilities/File-Disk-Management/Download-GParted.html">
-    GParted 0.14.1 Editor's Review</a><br>
-    by Tennyson Acker on January 25, 2013<br>
-    Type:  Review<br>
-    <a href="http://www.download3k.com/System-Utilities/File-Disk-Management/Download-GParted.html" title="GParted 0.14.1 Editor's Review"><img src="http://www.download3k.com/images/review10.gif" alt="GParted 0.14.1 Editor's Review"></a><br>
-    <br>
+    <a href="#tutorials">
+      Tutorials
+    </a>
   </li>
+  <li class="step">
+    <a href="#reviews">
+      Reviews
+    </a>
+  </li>
+  <li class="step">
+    <a href="#interviews">
+      Interviews
+    </a>
+  </li>
+</ul>
+
+<p>
+If you discover a useful article that you think should be added to
+this list then please let me know,
+<a href="mailto:gedakc&#064;users.sf.net">mailto: Curtis Gedak</a>.
+</p>
+
+<h2 id="tutorials">Tutorials</h2>
+
+<ul>
   <li class="step">
     <a href="http://www.sitepoint.com/ubuntu-12-04-lts-precise-pangolin-using-gparted-to-partition-a-hard-disk/">
     Ubuntu 12.04 LTS Precise Pangolin: Using GParted to Partition a Hard Disk</a><br>
@@ -49,32 +72,10 @@ gnome_menu();
     <br>
   </li>
   <li class="step">
-    <a href="http://www.makeuseof.com/pages/best-linux-distributions">
-    Best Linux Distributions</a><br>
-    by makeuseof on January 2012<br>
-    Type:  Review<br>
-    <a href="http://www.makeuseof.com/pages/best-linux-distributions" title="Best Linux Distros"><img src="http://makeuseof.com/images/logo/reviewed.png" alt="Best Linux Distros"></a><br>
-    <br>
-  </li>
-  <li class="step">
-    <a href="http://www.technibble.com/gparted-free-partition-editor/">
-    GParted – Free Partition Editor</a><br>
-    by Chuck Romano on September 2, 2011<br>
-    Type:  Review<br>
-    <br>
-  </li>
-  <li class="step">
     <a href="http://thestandardoutput.com/2011/05/how-to-resize-a-virtualbox-vdi-file/">
     How to resize a VirtualBox VDI file</a><br>
     by Jonas Gorauskas on May 28, 2011<br>
     Type:  Tutorial<br>
-    <br>
-  </li>
-  <li class="step">
-    <a href="http://www.pcworld.com/article/226231/gparted_live_a_boot_disk_iso_you_cant_afford_to_be_without.html">
-    GParted Live: A Boot Disk ISO You Can't Afford to Be Without</a><br>
-    by Jon L. Jacobi on May 1, 2011<br>
-    Type:  Review<br>
     <br>
   </li>
   <li class="step">
@@ -99,6 +100,76 @@ gnome_menu();
     <br>
   </li>
   <li class="step">
+    <a href="http://helpdeskgeek.com/free-tools-review/manage-partitions-in-windows-7-xp-vista/">
+    Use GParted to Create, Delete, Copy or Resize Partitions</a><br>
+    by Aseem on January 4, 2010<br>
+    Type:  Tutorial<br>
+    <br>
+  </li>
+  <li class="step">
+    <a href="http://www.dedoimedo.com/computers/gparted.html">
+    GParted partitioning software - Full tutorial</a><br>
+    by Dedoimedo, updated on April 25, 2009<br>
+    Type:  Tutorial<br>
+    <br>
+  </li>
+  <li class="step">
+    <a href="http://www.howtogeek.com/howto/windows-vista/using-gparted-to-resize-your-windows-vista-partition/">
+    Using GParted to Resize Your Windows 7 or Vista Partition</a><br>
+    by The Geek on August 8, 2007<br>
+    Type:  Tutorial<br>
+    <br>
+  </li>
+  <li class="step">
+    <a href="http://blogcritics.org/scitech/article/non-destructive-partitioning-with-gparted/">
+    Non-Destructive Partitioning with GParted</a><br>
+    by Steve Wild on April 01, 2007<br>
+    Type:  Tutorial<br>
+    <br>
+  </li>
+  <li class="step">
+    <a href="http://www.howtoforge.com/partitioning_with_gparted">
+    Modify Your Partitions With GParted Without Losing Data</a><br>
+    by Falko Timme on January, 2007<br>
+    Type:  Tutorial<br>
+    <br>
+  </li>
+</ul>
+
+<h2 id="reviews">Reviews</h2>
+
+<ul>
+  <li class="step">
+    <a href="http://www.download3k.com/System-Utilities/File-Disk-Management/Download-GParted.html">
+    GParted 0.14.1 Editor's Review</a><br>
+    by Tennyson Acker on January 25, 2013<br>
+    Type:  Review<br>
+    <a href="http://www.download3k.com/System-Utilities/File-Disk-Management/Download-GParted.html" title="GParted 0.14.1 Editor's Review"><img src="http://www.download3k.com/images/review10.gif" alt="GParted 0.14.1 Editor's Review"></a><br>
+    <br>
+  </li>
+  <li class="step">
+    <a href="http://www.makeuseof.com/pages/best-linux-distributions">
+    Best Linux Distributions</a><br>
+    by makeuseof on January 2012<br>
+    Type:  Review<br>
+    <a href="http://www.makeuseof.com/pages/best-linux-distributions" title="Best Linux Distros"><img src="http://makeuseof.com/images/logo/reviewed.png" alt="Best Linux Distros"></a><br>
+    <br>
+  </li>
+  <li class="step">
+    <a href="http://www.technibble.com/gparted-free-partition-editor/">
+    GParted – Free Partition Editor</a><br>
+    by Chuck Romano on September 2, 2011<br>
+    Type:  Review<br>
+    <br>
+  </li>
+  <li class="step">
+    <a href="http://www.pcworld.com/article/226231/gparted_live_a_boot_disk_iso_you_cant_afford_to_be_without.html">
+    GParted Live: A Boot Disk ISO You Can't Afford to Be Without</a><br>
+    by Jon L. Jacobi on May 1, 2011<br>
+    Type:  Review<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.linux-mag.com/id/7875/">
     Gnome Partition Editor: The Dearly GParted</a><br>
     by Ken Hess on October 4, 2010<br>
@@ -113,31 +184,10 @@ gnome_menu();
     <br>
   </li>
   <li class="step">
-    <a href="http://sourceforge.net/blog/gparted-is-such-sweet-software/">
-    GParted is such sweet software</a><br>
-    by Lee Schlesinger on March 19, 2010<br>
-    Type:  Interview<br>
-    <br>
-  </li>
-  <li class="step">
-    <a href="http://helpdeskgeek.com/free-tools-review/manage-partitions-in-windows-7-xp-vista/">
-    Use GParted to Create, Delete, Copy or Resize Partitions</a><br>
-    by Aseem on January 4, 2010<br>
-    Type:  Tutorial<br>
-    <br>
-  </li>
-  <li class="step">
     <a href="http://www.syschat.com/gparted-disk-partition-manager-editor-review-5073.html">
     GParted Disk Partition Manager/Editor Review</a><br>
     by Sami on October 28, 2009<br>
     Type:  Review<br>
-    <br>
-  </li>
-  <li class="step">
-    <a href="http://www.dedoimedo.com/computers/gparted.html">
-    GParted partitioning software - Full tutorial</a><br>
-    by Dedoimedo, updated on April 25, 2009<br>
-    Type:  Tutorial<br>
     <br>
   </li>
   <li class="step">
@@ -169,38 +219,10 @@ gnome_menu();
     <br>
   </li>
   <li class="step">
-    <a href="http://www.howtogeek.com/howto/windows-vista/using-gparted-to-resize-your-windows-vista-partition/">
-    Using GParted to Resize Your Windows 7 or Vista Partition</a><br>
-    by The Geek on August 8, 2007<br>
-    Type:  Tutorial<br>
-    <br>
-  </li>
-  <li class="step">
-    <a href="http://blogcritics.org/scitech/article/non-destructive-partitioning-with-gparted/">
-    Non-Destructive Partitioning with GParted</a><br>
-    by Steve Wild on April 01, 2007<br>
-    Type:  Tutorial<br>
-    <br>
-  </li>
-  <li class="step">
-    <a href="http://www.howtoforge.com/partitioning_with_gparted">
-    Modify Your Partitions With GParted Without Losing Data</a><br>
-    by Falko Timme on January, 2007<br>
-    Type:  Tutorial<br>
-    <br>
-  </li>
-  <li class="step">
     <a href="http://techgage.com/article/gparted_livecd_31-1">
     GParted LiveCD 3.1-1</a><br>
     by Rob Williams on September 15, 2006<br>
     Type:  Review<br>
-    <br>
-  </li>
-  <li class="step">
-    <a href="http://www.packtpub.com/article/Partitioning_with_GParted">
-    Partitioning with GParted</a><br>
-    by Mayank Sharma<br>
-    Type:  Interview<br>
     <br>
   </li>
   <li class="step">
@@ -221,6 +243,27 @@ gnome_menu();
     <br>
   </li>
 </ul>
+
+
+<h2 id="interviews">Interviews</h2>
+
+<ul>
+  <li class="step">
+    <a href="http://sourceforge.net/blog/gparted-is-such-sweet-software/">
+    GParted is such sweet software</a><br>
+    by Lee Schlesinger on March 19, 2010<br>
+    Type:  Interview<br>
+    <br>
+  </li>
+  <li class="step">
+    <a href="http://www.packtpub.com/article/Partitioning_with_GParted">
+    Partitioning with GParted</a><br>
+    by Mayank Sharma<br>
+    Type:  Interview<br>
+    <br>
+  </li>
+</ul>
+
 
 </div>
 
