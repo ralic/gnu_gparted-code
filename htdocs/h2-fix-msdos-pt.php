@@ -57,7 +57,7 @@ partition table is corrected.
     <a href="#instructions">Instructions (step-by-step)</a>
     <ul>
       <li>
-        <a href="#overlapping-partition">How-to Fix Overlapping
+        <a href="#overlapping-partitions">How-to Fix Overlapping
         Partitions</a>
       </li>
       <li>
