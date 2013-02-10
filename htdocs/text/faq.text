@@ -255,86 +255,13 @@ href="http://refit.sourceforge.net">rEFIt</a> application.
 ---
 22
 GParted shows entire disk device unallocated, but I know the device has data.  How can I fix this?
-There are a few situations that can cause this problem.  To learn the
-cause, double-click on the "unallocated" disk device and check the
-information window for warning messages.<br>
-<br>
-Common warning messages that cause this problem are as follows:<br>
-<ul>
-  <li class="step">
-    <b><i>/dev/sda</i>: unrecognized disk label</b><br>
-    <br>
-    Two root causes for this message are as follows:<br>
-    <br>
-    <ul>
-      <li class="step">
-        The device does not contain a partition table.<br>
-        <br>
-        If the device does contain data, then perhaps the entire
-        device is formatted with a file system.  It is also possible
-        that the device is part of some other data structure, such as
-        a RAID.  In these situations there is no partition table to
-        edit.<br>
-        <br>
-      </li>
-      <li class="step">
-        The type of partition table is not recognized by GParted.<br>
-        <br>
-        If the device contains data, then perhaps the device is using
-        a new type of partition table.  GParted supports many commonly
-        used partition tables, such as msdos or gpt, but not all types
-        of partition tables are supported.  In this situation you
-        would need to determine what type of partition table is in
-        use.  Then you could seek out other partition management tools
-        to edit the partition table.<br>
-        <br>
-      </li>
-    </ul>
-  </li>
-  <li class="step">
-    <b>Can't have overlapping partitions</b><br>
-    <br>
-    The root cause is that the partition table contains at least one
-    occurrence where the end of one partition overlaps the start of
-    another partition.<br>
-    <br>
-  </li>
-  <li class="step">
-    <b>Can't have a partition outside the disk!</b><br>
-    <br>
-    The root cause is that the partition table contains at least one
-    occurrence where the end of one partition is beyond the end of the
-    disk device.
-  </li>
-</ul>
-Fixing these latter two problems usually requires manually editing the
-partition table.  See <a href="h2-fix-msdos-pt.php">How-to Fix Invalid
-MSDOS Partition Tables</a>.
+See <a href="h2-fix-msdos-pt.php">How-to Fix Invalid MSDOS Partition
+Tables</a>.
 ---
 23
 What does the error message "Unable to satisfy all constraints on the partition" mean?
-This error message often applies to msdos partition tables, sometimes
-referred to as Master Boot Record (MBR).<br>
-<br>
-The root cause is that there is less than 2 unallocated sectors between:
-<ul>
-  <li class="step">
-    the start of the extended partition and the start of the following
-    logical partition.
-  </li>
-  <li class="step">
-    the end of one logical partition and the start of the next logical
-    partition.
-  </li>
-</ul>
-The 2 unallocated sectors are required to store the Extended Boot
-Record (EBR).  The EBR contains information about the following
-logical partition.  The Linux kernel considers EBRs to be two sectors
-long, in order to "leave room for LILO (LInux LOader)".<br>
-<br>
-Fixing this problem usually requires manually editing the partition
-table.  See <a href="h2-fix-msdos-pt.php">How-to Fix Invalid MSDOS
-Partition Tables</a>.
+See <a href="h2-fix-msdos-pt.php">How-to Fix Invalid MSDOS Partition
+Tables</a>.
 ---
 24
 What are the basic partition rules for an msdsos partition table?
