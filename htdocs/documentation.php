@@ -63,20 +63,20 @@ gnome_menu();
       <td> </td>
     </tr>
     <tr>
-      <td><a href="./liveusb.php">Install on USB</a></td>
+      <td><a href="liveusb.php">Install on USB</a></td>
       <td> </td>
     </tr>
     <tr>
-      <td><a href="./livepxe.php">Install on PXE Server</a></td>
+      <td><a href="livepxe.php">Install on PXE Server</a></td>
       <td> </td>
     </tr>
     <tr>
-      <td><a href="./livehd.php">Install on Hard Disk</a></td>
+      <td><a href="livehd.php">Install on Hard Disk</a></td>
       <td> </td>
     </tr>
     <tr>
       <td>
-        <a href="./create-gparted-live.php">Create GParted Live from Scratch</a>
+        <a href="create-gparted-live.php">Create GParted Live from Scratch</a>
       </td>
       <td> </td>
     </tr>
@@ -89,7 +89,7 @@ gnome_menu();
       <th>Translations</th>
     </tr>
     <tr>
-      <td><a href="./why-partition.php">Why Partition your Disk Device?</a></td>
+      <td><a href="why-partition.php">Why Partition your Disk Device?</a></td>
       <td> </td>
     </tr>
   </table>
@@ -130,7 +130,7 @@ gnome_menu();
     featuring GParted</a></li>
     <li><a href="http://en.wikipedia.org/wiki/GParted">GParted Wikipedia
     Doc</a></li>
-    <li><a href="./docs/sw-req-spec/C/Software_Requirements_Specification_-_GParted.pdf">Software Requirements Specification for GParted (PDF)</a></li>
+    <li><a href="docs/sw-req-spec/C/Software_Requirements_Specification_-_GParted.pdf">Software Requirements Specification for GParted (PDF)</a></li>
   </ul>
 
 
