@@ -77,8 +77,10 @@ partition table is corrected.
 <div class="tip">
 <p class="hangtip">
 <b>TIP</b>: &nbsp;
-  In order for an MSDOS partition table to be valid, the partitions
-  within the apartition table must adhere to these rules.
+  Primary and extended partions are identified by numbers 1 to 4
+  (e.g., /dev/sdb3)<br>
+  Logical partitions are identified by numbers 5 and higher (e.g.,
+  /dev/sdb7).
 </p>
 </div>
 </td></tr></table>
@@ -254,26 +256,24 @@ All Constraints</a>.
 </p>
 </div>
 </td></tr></table>
-<br>
-<table border=0><tr><td>
-<div class="tip">
-<p class="hangtip">
-<b>TIP</b>: &nbsp;
-
-  Primary and extended partions are identified by the numbers 1 to
-  4.<br>
-  Logical partitions are identified by numbers 5 and higher.
-</p>
-</div>
-</td></tr></table>
 
 <h3 id="overlapping-partitions">How-to Fix Overlapping Partitions</h3>
+
+<p>
+The following instructions describe how to manually correct the problem
+of overlapping partitions.<br>
+<br>
+Other methods also exist, such as
+using <a href="http://www.cgsecurity.org/wiki/TestDisk">testdisk</a>
+to scan the disk device to rebuild the partition table.  The testdisk
+application is included on <a href="livecd.php">GParted Live</a>.
+</p>
 
 <table border=0><tr><td>
 <div class="note">
 <p class="hangnote">
 <b>NOTE</b>: &nbsp;
-  Be sure to choose the correct disk device (e.g, /dev/sde).<br>
+  Be sure to choose the correct disk device path.<br>
   In the following example, the disk device containing overlapping
   partitions is <b>/dev/sda</b>
 </p>
@@ -286,11 +286,11 @@ All Constraints</a>.
   </li>
   <li class="step">
     Confirm the problem by running parted on your disk device
-    (e.g. /dev/sda).<br>
+    (e.g., <i>/dev/sda</i>).<br>
     <br>
     For example:
     <pre>
-    $ <b>sudo parted /dev/sda unit s print</b>
+    $ <b>sudo parted <i>/dev/sda</i> unit s print</b>
     Error: Can't have overlapping partitions.
     </pre>
     You should see the error message
@@ -301,9 +301,9 @@ All Constraints</a>.
     <br>
     For example:
     <pre>
-    $ <b>sudo fdisk -l -u</b>
+    $ <b>sudo fdisk -l -u <i>/dev/sda</i></b>
 
-    Disk /dev/loop0: 60.0 GB, 60011642880 bytes
+    Disk /dev/sda: 60.0 GB, 60011642880 bytes
     255 heads, 63 sectors/track, 7296 cylinders, total 117210240 sectors
     Units = sectors of 1 * 512 = 512 bytes
     Sector size (logical/physical): 512 bytes / 512 bytes
@@ -319,15 +319,16 @@ All Constraints</a>.
     </pre>
   </li>
   <li class="step">
-    Check for the fdisk output for the following problems:<br>
+    Check the fdisk output for the following problems:<br>
     <br>
     <ul>
       <li class="step">
         <i>Do any of the primary or extended partitions overlap?</i><br>
         <br>
-        In other words does the end of a partition (numbers 1 to 4) start
-        before other partitions, but have an end value higher the
-        start of other following partitions (numbers 1 to 4)?<br>
+        In other words does one partition (numbers 1 to 4) have a
+        start value lower than another partitition (numbers 1 to 4)
+        but also an end value higher than the start of the other
+        partition?<br>
         <br>
       </li>
       <li class="step">
@@ -336,16 +337,17 @@ All Constraints</a>.
         <br>
         In other words is the start of a logical partition (numbers
         5+) less than the start of the extended partition?<br>
-        Also, is the end of a logical partition (numbers 5+) greather
+        Also, is the end of a logical partition (numbers 5+) greater
         than the end of the extended partition?<br>
         <br>
       </li>
       <li class="step">
         <i>Do any of the logical partitions overlap?</i><br>
         <br>
-        In other words does the end of a partition (numbers 5+) start
-        before other partitions, but have an end value higher the
-        start of other following partitions (numbers 5+)?<br>
+        In other words does one logical partition (numbers 5+) have a
+        start value lower than another logical partition (numbers 5+)
+        but also have an end value higher than the start of the other
+        partition?<br>
         <br>
       </li>
     </ul>
@@ -396,7 +398,7 @@ All Constraints</a>.
     partition sda2 is correct.  Hence we need to change the end sector
     of primary partition sda1.<br>
     <br>
-    New end sector of sda2 should be the start of sda1 minus one
+    The new end sector of sda2 should be the start of sda1 minus one
     sector.<br>
     <i>* For logical partitions we would need to subtract an
     additional two (2) sectors.</i>
@@ -413,12 +415,12 @@ All Constraints</a>.
     </pre>
   </li>
   <li class="step">
-    Make an editable file of the partition table using the sfdisk
-    command.<br>
+    Make a copy of the partition table in an editable file using the
+    sfdisk command.<br>
     <br>
     For example:<br>
     <pre>
-    $ <b>sudo sfdisk -d /dev/sda > sda-backup.txt</b>
+    $ <b>sudo sfdisk -d <i>/dev/sda</i> > sda-backup.txt</b>
     </pre>
   </li>
   <li class="step">
@@ -431,7 +433,7 @@ All Constraints</a>.
     <pre>
     $ <b>sudo leafpad sda-backup.txt</b>
 
-    # partition table of /dev/loop0
+    # partition table of /dev/sda
     unit: sectors
 
     /dev/sda1 : start=       63, size= <span style="color: red;">81922285</span>, Id= 7, bootable
@@ -445,7 +447,7 @@ All Constraints</a>.
     Change the old size of the primary partition sda1 (81922285) to
     the calculated new size (81915372).
     <pre>
-    # partition table of /dev/loop0
+    # partition table of /dev/sda
     unit: sectors
 
     /dev/sda1 : start=       63, size= <span style="color: green;">81915372</span>, Id= 7, bootable
@@ -464,11 +466,11 @@ All Constraints</a>.
     <br>
     For example:<br>
     <pre>
-    $ <b>sudo sfdisk /dev/sda < sda-backup.txt</b>
+    $ <b>sudo sfdisk <i>/dev/sda</i> < sda-backup.txt</b>
     Checking that no-one is using this disk right now ...
     OK
 
-    Disk /dev/loop0: 7296 cylinders, 255 heads, 63 sectors/track
+    Disk /dev/sda: 7296 cylinders, 255 heads, 63 sectors/track
     Old situation:
     Units = cylinders of 8225280 bytes, blocks of 1024 bytes, counting from 0
 
@@ -506,7 +508,7 @@ All Constraints</a>.
     <br>
     For example:
     <pre>
-    $ <b>sudo parted /dev/sda unit s print</b>
+    $ <b>sudo parted <i>/dev/sda</i> unit s print</b>
     Model: ATA ST3060022ACE (scsi)
     Disk /dev/sda: 117210240s
     Sector size (logical/physical): 512B/512B
