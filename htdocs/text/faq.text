@@ -296,8 +296,7 @@ Common warning messages that cause this problem are as follows:<br>
     <br>
     The root cause is that the partition table contains at least one
     occurrence where the end of one partition overlaps the start of
-    another partition.  See also the <a href="#faq-24">basic partition
-    rules</a> listed below.<br>
+    another partition.<br>
     <br>
   </li>
   <li class="step">
@@ -305,14 +304,12 @@ Common warning messages that cause this problem are as follows:<br>
     <br>
     The root cause is that the partition table contains at least one
     occurrence where the end of one partition is beyond the end of the
-    disk device.  See also the <a href="#faq-24">basic partition
-    rules</a> listed below.
+    disk device.
   </li>
 </ul>
 Fixing these latter two problems usually requires manually editing the
-partition table.  We plan to create a document outlining how to
-approach fixing these problems.  In the meantime you can seek help in
-the <a href="forum.php">GParted forum</a>.
+partition table.  See <a href="h2-fix-msdos-pt.php">How-to Fix Invalid
+MSDOS Partition Tables</a>.
 ---
 23
 What does the error message "Unable to satisfy all constraints on the partition" mean?
@@ -336,39 +333,11 @@ logical partition.  The Linux kernel considers EBRs to be two sectors
 long, in order to "leave room for LILO (LInux LOader)".<br>
 <br>
 Fixing this problem usually requires manually editing the partition
-table.  We plan to create a document outlining how to approach fixing
-this problem.  In the meantime you can seek help in the <a
-href="forum.php">GParted forum</a>.
+table.  See <a href="h2-fix-msdos-pt.php">How-to Fix Invalid MSDOS
+Partition Tables</a>.
 ---
 24
 What are the basic partition rules for an msdsos partition table?
-Basic partition rules for an msdos partition table are as follows:<br>
-<ul>
-  <li class="step">
-    At most four primary partitions, or three primary partitions and one
-    extended partition are allowed.<br>
-    NOTE:  An extended partition can contain multiple logical partitions.
-  </li>
-  <li class="step">
-    Primary and Extended partitions must not overlap.
-  </li>
-  <li class="step">
-    Logical partitions must be contained within the extended
-    partition.<br>
-    NOTE: It is permissible for a logical partition to end on the
-    same sector as the end of the extended partition.
-  </li>
-  <li class="step">
-    Logical partitions must not overlap other logical partitions.
-  </li>
-  <li class="step">
-    At least 2 unallocated sectors are required in front of a
-    logical partition.
-  </li>
-  <li class="step">
-    All partitions must exist within the size of the disk device.<br>
-    NOTE: Sector numbering begins at zero, so the first sector is
-    sector 0.
-  </li>
-</ul>
+See <a href="h2-fix-msdos-pt.php">How-to Fix Invalid MSDOS Partition
+Tables</a>.
 ---
