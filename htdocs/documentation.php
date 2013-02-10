@@ -92,6 +92,10 @@ gnome_menu();
       <td><a href="why-partition.php">Why Partition your Disk Device?</a></td>
       <td> </td>
     </tr>
+    <tr>
+      <td><a href="h2-fix-msdos-pt.php">How-to Fix Invalid MSDOS Partition Tables</a></td>
+      <td> </td>
+    </tr>
   </table>
 
 <H3>Book</H3>
