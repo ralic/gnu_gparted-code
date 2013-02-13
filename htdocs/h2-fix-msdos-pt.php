@@ -246,6 +246,8 @@ See <a href="#unable-satisfy-constraints">How-to Fix Unable to Satisfy
 All Constraints</a>.
 </p>
 
+<hr>
+
 <h2 id="instructions">Instructions (step-by-step)</h2>
 
 <table border=0><tr><td>
@@ -521,14 +523,243 @@ application is included on <a href="livecd.php">GParted Live</a>.
      6      98494578s  99008594s   514017s    logical   linux-swap(v1)
      7      99008658s  115394894s  16386237s  logical   fat32
     </pre>
+    You should now be able to use GParted with this device.  :-)
   </li>
 </ol>
+
+<hr>
 
 <h3 id="partition-outside-disk">How-to Fix Partition Outside the Disk</h3>
 
 <p>
-We plan to outline how to approach this problem.  In the meantime you can seek help in the <a href="forum.php">GParted forum</a>.
+The following instructions describe how to manually correct the problem
+of a partition extending beyond the end of the disk.<br>
+<br>
+Other methods also exist, such as
+using <a href="http://www.cgsecurity.org/wiki/TestDisk">testdisk</a>
+to scan the disk device to rebuild the partition table.  The testdisk
+application is included on <a href="livecd.php">GParted Live</a>.<br>
+<br>
+If the problem occurs with the extended partition, then you might
+consider using
+the <a href="http://www.rodsbooks.com/fixparts/">fixparts</a>
+application.  The fixparts application is also inclulded
+on <a href="livecd.php">GParted Live</a>.<br>
 </p>
+
+<table border=0><tr><td>
+<div class="note">
+<p class="hangnote">
+<b>NOTE</b>: &nbsp;
+  Be sure to choose the correct disk device path.<br>  In the
+  following example, the disk device containing a partition outside
+  the disk is <b>/dev/sdb</b>
+</p>
+</div>
+</td></tr></table>
+
+<ol>
+  <li class="step">
+    Ensure you have a good backup of your data.
+  </li>
+  <li class="step">
+    Confirm the problem by running parted on your disk device
+    (e.g., <i>/dev/sdb</i>).<br>
+    <br>
+    For example:
+    <pre>
+    $ <b>sudo parted <i>/dev/sdb</i> unit s print</b>
+    Error: Can't have a partition outside the disk!
+    </pre>
+    You should see the error message
+    <i>Error: Can't have a partition outside the disk!</i>
+  </li>
+  <li class="step">
+    Gather partition details for analysis using the fdisk command.<br>
+    <br>
+    For example:
+    <pre>
+    $ <b>sudo fdisk -l -u <i>/dev/sdb</i></b>
+
+    Disk /dev/sdb: 250.1 GB, 250059350016 bytes
+    255 heads, 63 sectors/track, 30401 cylinders, total 488397168 sectors
+    Units = sectors of 1 * 512 = 512 bytes
+    Sector size (logical/physical): 512 bytes / 512 bytes
+    I/O size (minimum/optimal): 512 bytes / 512 bytes
+    Disk identifier: 0x00068df3
+
+      Device  Boot      Start         End      Blocks   Id  System
+    /dev/sdb1   *          63    12578894     6289416    7  HPFS/NTFS/exFAT
+    /dev/sdb2        12578895   180345689    83883397+   7  HPFS/NTFS/exFAT
+    /dev/sdb3       180345690   390058199   104856255    7  HPFS/NTFS/exFAT
+    /dev/sdb4       390058200   488408189    49174995    5  Extended
+    /dev/sdb5       390058263   459089504    34515621   83  Linux
+    /dev/sdb6       459089568   488392064    14651248+  82  Linux swap / Solaris
+    </pre>
+  </li>
+  <li class="step">
+    Check the fdisk output for the cause of the problem.<br>
+    <br>
+    <i>Does any partition have an end value larger than the disk size?</i><br>
+    <br>
+    To be precise, since the first sector begins at sector zero
+    (0), check to see if the end of any partition is greater than the
+    disk size minus one sector.<br>
+    <br>
+    In this example the end of extended partition sdb4 is beyond the
+    size of the disk.<br>
+    <br>
+    &nbsp; &nbsp; 488,408,189 --- end of sdb4<br>
+    &nbsp; &nbsp; 488,397,168 --- size of sdb device<br>
+    <pre>
+    Disk /dev/sdb: 250.1 GB, 250059350016 bytes
+    255 heads, 63 sectors/track, 30401 cylinders, total <span style="color: red;">488397168</span> sectors
+    Units = sectors of 1 * 512 = 512 bytes
+    Sector size (logical/physical): 512 bytes / 512 bytes
+    I/O size (minimum/optimal): 512 bytes / 512 bytes
+    Disk identifier: 0x00068df3
+
+      Device  Boot      Start         End      Blocks   Id  System
+    /dev/sdb1   *          63    12578894     6289416    7  HPFS/NTFS/exFAT
+    /dev/sdb2        12578895   180345689    83883397+   7  HPFS/NTFS/exFAT
+    /dev/sdb3       180345690   390058199   104856255    7  HPFS/NTFS/exFAT
+    /dev/sdb4       390058200   <span style="color: red;">488408189</span>    49174995    5  Extended
+    /dev/sdb5       390058263   459089504    34515621   83  Linux
+    /dev/sdb6       459089568   488392064    14651248+  82  Linux swap / Solaris
+    </pre>
+  </li>
+  <li class="step">
+    Determine a new end value (and partition size) to prevent the
+    partition outside the disk problem.<br>
+    <br>
+    The new end sector of the partition outside the disk should be the
+    size of the disk minus one sector.<br>
+    <br>
+    In our example:
+    <pre>
+    new sdb4 end = (sdb disk size) - 1
+                 = 488397168 - 1
+                 = 488397167
+    </pre>
+    New size of sda1 will be the new end of sda1 minus the start of
+    sda1 plus one sector.
+    <pre>
+    new sdb4 size = (new sdb4 end) - (sdb4 start) + 1
+                  = 488397167 - 390058200 + 1
+                  = 98338968
+    </pre>
+  </li>
+  <li class="step">
+    Make a copy of the partition table in an editable file using the
+    sfdisk command.<br>
+    <br>
+    For example:<br>
+    <pre>
+    $ <b>sudo sfdisk -d <i>/dev/sdb</i> > sdb-backup.txt</b>
+    </pre>
+  </li>
+  <li class="step">
+    Use your favourite editor to edit the file to change the old
+    partition size to the new partition size.<br>
+    If you are using GParted Live, you can edit the file using the
+    Leafpad editor.<br>
+    <br>
+    For example:<br>
+    <pre>
+    $ <b>sudo leafpad sdb-backup.txt</b>
+
+    # partition table of /dev/sdb
+    unit: sectors
+
+    /dev/sdb1 : start=       63, size= 12578832, Id= 7, bootable
+    /dev/sdb2 : start= 12578895, size=167766795, Id= 7
+    /dev/sdb3 : start=180345690, size=209712510, Id= 7
+    /dev/sdb4 : start=390058200, size= <span style="color: red;">98349990</span>, Id= 5
+    /dev/sdb5 : start=390058263, size= 69031242, Id=83
+    /dev/sdb6 : start=459089568, size= 29302497, Id=82
+    </pre>
+    Change the old size of the partition sdb4 (98349990) to
+    the calculated new size (98338968).
+    <pre>
+    # partition table of /dev/sdb
+    unit: sectors
+
+    /dev/sdb1 : start=       63, size= 12578832, Id= 7, bootable
+    /dev/sdb2 : start= 12578895, size=167766795, Id= 7
+    /dev/sdb3 : start=180345690, size=209712510, Id= 7
+    /dev/sdb4 : start=390058200, size= <span style="color: green;">98338968</span>, Id= 5
+    /dev/sdb5 : start=390058263, size= 69031242, Id=83
+    /dev/sdb6 : start=459089568, size= 29302497, Id=82
+    </pre>
+    Save the file and exit the editor.
+  </li>
+  <li class="step">
+    Write the corrected partition details to the partition table using
+    the sfdisk command.<br>
+    <br>
+    For example:<br>
+    <pre>
+    $ <b>sudo sfdisk <i>/dev/sdb</i> < sdb-backup.txt</b>
+    Checking that no-one is using this disk right now ...
+    OK
+
+    Disk /dev/sdb: 30401 cylinders, 255 heads, 63 sectors/track
+    Old situation:
+    Units = cylinders of 8225280 bytes, blocks of 1024 bytes, counting from 0
+
+       Device Boot Start     End   #cyls    #blocks   Id  System
+    /dev/sdb1   *      0+    782     783-   6289416    7  HPFS/NTFS/exFAT
+    /dev/sdb2        783   11225   10443   83883397+   7  HPFS/NTFS/exFAT
+    /dev/sdb3      11226   24279   13054  104856255    7  HPFS/NTFS/exFAT
+    /dev/sdb4      24280   30402-   6123-  49174995    5  Extended
+    /dev/sdb5      24280+  28576    4297-  34515621   83  Linux
+    /dev/sdb6      28577+  30400    1824-  14651248+  82  Linux swap / Solaris
+    New situation:
+    Units = sectors of 512 bytes, counting from 0
+
+       Device Boot    Start       End   #sectors  Id  System
+    /dev/sdb1   *        63  12578894   12578832   7  HPFS/NTFS/exFAT
+    /dev/sdb2      12578895 180345689  167766795   7  HPFS/NTFS/exFAT
+    /dev/sdb3     180345690 390058199  209712510   7  HPFS/NTFS/exFAT
+    /dev/sdb4     390058200 488397167   98338968   5  Extended
+    /dev/sdb5     390058263 459089504   69031242  83  Linux
+    /dev/sdb6     459089568 488392064   29302497  82  Linux swap / Solaris
+    Warning: partition 4 does not end at a cylinder boundary
+    Warning: partition [6] does not end at a cylinder boundary
+    Successfully wrote the new partition table
+
+    Re-reading the partition table ...
+
+    If you created or changed a DOS partition, /dev/foo7, say, then use dd(1)
+    to zero the first 512 bytes:  dd if=/dev/zero of=/dev/foo7 bs=512 count=1
+    (See fdisk(8).)
+    </pre>
+  </li>
+  <li class="step">
+    Confirm the problem is now resolved by running parted on your disk
+    device.<br>
+    <br>
+    For example:
+    <pre>
+    $ <b>sudo parted <i>/dev/sdb</i> unit s print</b>
+    Model: ATA ST3250022ACE (scsi)
+    Disk /dev/sdb: 488397168s
+    Sector size (logical/physical): 512B/512B
+    Partition Table: msdos
+
+    Number  Start       End         Size        Type      File system     Flags
+     1      63s         12578894s   12578832s   primary   ntfs            boot
+     2      12578895s   180345689s  167766795s  primary   ntfs
+     3      180345690s  390058199s  209712510s  primary   ntfs
+     4      390058200s  488397167s  98338968s   extended
+     5      390058263s  459089504s  69031242s   logical   ext2
+     6      459089568s  488392064s  29302497s   logical   linux-swap(v1)
+    </pre>
+    You should now be able to use GParted with this device.  :-)
+  </li>
+</ol>
+
+<hr>
 
 <h3 id="unable-satisfy-constraints">How-to Fix Unable to Satisfy All
 Constraints</h3>
