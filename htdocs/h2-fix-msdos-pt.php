@@ -179,20 +179,16 @@ Common warning messages that cause this problem are as follows:
       <li class="step">
         <b>The device does not contain a partition table.</b><br>
         <br>
-
         If the device does contain data then perhaps the
         entire device is formatted with a file system.  It is also
         possible that the device is part of some other data structure,
         such as a RAID.  In these situations there is no partition
         table to edit.<br>
-
         <br>
-
         Otherwise, if this is a new disk device then the device is
         most likely empty.  In this case you would proceed to create a
         partition table and at least one partition to prepare the
         disk device for use.<br>
-
         <br>
       </li>
       <li class="step">
@@ -211,21 +207,18 @@ Common warning messages that cause this problem are as follows:
   </li>
 </ul>
 
+
 <h3 id="apply-action-fail">Applying Action on Logical or Extended
 Partition Fails</h3>
 <p>
-
 To determine if the failure is due to an invalid partition table,
 expand the GParted details in the "Applying pending operations"
 window, and search for the source of the error.<br>
-
 <br>
-
 If the text "<b>Unable to satisfy all constraints on the
 partition</b>" is found, then there might be less than 2 unallocated
 sectors in front of each logical partition.<br>
 For example, there should be at least 2 unallocated sectors between:
-
 </p>
 <ul>
   <li class="step">
@@ -248,6 +241,7 @@ All Constraints</a>.
 
 <hr>
 
+
 <h2 id="instructions">Instructions (step-by-step)</h2>
 
 <table border=0><tr><td>
@@ -258,6 +252,7 @@ All Constraints</a>.
 </p>
 </div>
 </td></tr></table>
+
 
 <h3 id="overlapping-partitions">How-to Fix Overlapping Partitions</h3>
 
@@ -405,7 +400,8 @@ application is included on <a href="livecd.php">GParted Live</a>.
     <i>* For logical partitions we would need to subtract an
     additional two (2) sectors.</i>
     <pre>
-    new sda1 end = (sda2 start) - 1 = 81915435 - 1
+    new sda1 end = (sda2 start) - 1
+                 = 81915435 - 1
                  = 81915434
     </pre>
     New size of sda1 will be the new end of sda1 minus the start of
@@ -528,6 +524,7 @@ application is included on <a href="livecd.php">GParted Live</a>.
 </ol>
 
 <hr>
+
 
 <h3 id="partition-outside-disk">How-to Fix Partition Outside the Disk</h3>
 
@@ -760,6 +757,7 @@ on <a href="livecd.php">GParted Live</a>.<br>
 </ol>
 
 <hr>
+
 
 <h3 id="unable-satisfy-constraints">How-to Fix Unable to Satisfy All
 Constraints</h3>
