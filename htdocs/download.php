@@ -203,6 +203,18 @@ architectures
 
   <tr>
     <th>
+      Open SUSE
+    </th>
+    <td>
+      <a href="http://software.opensuse.org/package/gparted">gparted</a>
+    </td>
+    <td>
+      <pre>sudo zypper install gparted</pre>
+    </td>
+  </tr>
+
+  <tr>
+    <th>
       Ubuntu
     </th>
     <td>
