@@ -203,7 +203,7 @@ architectures
 
   <tr>
     <th>
-      Open SUSE
+      OpenSUSE
     </th>
     <td>
       <a href="http://software.opensuse.org/package/gparted">gparted</a>
