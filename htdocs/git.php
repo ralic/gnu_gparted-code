@@ -60,6 +60,84 @@ instructions</a>.
   </li>
 </ol>
 
+
+<h2 id="h2-create-patch">How to create your first GParted patch using git</h2>
+<ol>
+  <li class="step">Clone the git repository locally:
+    <pre>
+    git clone git://git.gnome.org/gparted
+    </pre>
+  </li>
+  <li class="step">Set your name and email address:
+    <pre>
+    git config --global user.name "Joe Bloggs"
+    git config --global user.email "joe.bloggs@example.com"
+    </pre>
+  </li>
+  <li class="step">Create a new branch and switch to it:
+    <pre>
+    cd gparted
+    git checkout -b feature
+    </pre>
+  </li>
+  <li class="step">Edit the code, compile and test it.
+    <pre>
+    # Use favourite editor
+    ./autogen.sh
+    make
+    su root -c src/gpartedbin
+    </pre>
+  </li>
+  <li class="step">Commit change to git:
+    <pre>
+    git add file1 file2 ...
+    git commit
+    </pre>
+    Compose a suitable commit message:<br>
+    <br>
+    <i>
+    Short one line summary of change (#999999)<br>
+    <br>
+    Optional longer description explaining why the change is necessary.<br>
+    Include details that will help the reviewer understand how the code<br>
+    code is broken and being fixed or why this change is an improvement.<br>
+    <br>
+    Bug #999999 - GNOME Bugzilla one line summary<br>
+    <br>
+    </i>
+    <table border=0><tr><td>
+    <div class="tip">
+    <p class="hangtip">
+    <b>TIP</b>: &nbsp; Improve Patch Readability<br>
+      <br>
+      Make large and complicated changes as a series of smaller
+      changes by repeating steps 4 and 5 as necessary.  Note that each
+      incremental patch should compile and run properly.
+    </p>
+    </div>
+    </td></tr></table>
+  </li>
+  <li class="step">Create a patch file:
+    <pre>
+    git format-patch master -n --stdout > ~/mypatch.mbox
+    </pre>
+  </li>
+  <li class="step">Final review, apply, compile and test:
+    <pre>
+    cd /tmp
+    git clone git://git.gnome.org/gparted gparted-test
+    cd gparted-test
+    git am ~/mypatch.mbox
+    ./autogen.sh
+    make
+    su root -c src/gpartedbin
+    </pre>
+  </li>
+  <li class="step">Attach ~/mypatch.mbox to your
+    GNOME <a href="bugs.php">bug</a> report with a few words.
+  </li>
+</ol>
+
 </div>
 
 <? gnome_foot() ?>
