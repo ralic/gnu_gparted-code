@@ -138,6 +138,17 @@ instructions</a>.
   </li>
 </ol>
 
+<h3>Suggested References</h3>
+
+<ul>
+  <li>A <a href="http://zrusin.blogspot.co.uk/2007/09/git-cheat-sheet.html">Git cheat sheet</a></li>
+  <li><a href="https://live.gnome.org/Git/Developers">GNOME git instructions</a></li>
+  <li><a href="http://git-scm.com/">Git homepage</a></li>
+  <li><a href="http://git-scm.com/book">Pro Git</a> online book</li>
+  <li><a href="http://mirror.linux.org.au/linux.conf.au/2013/mp4/Git_For_Ages_4_And_Up.mp4">Git For ages 4 and up</a> LCA 2013 video (342M, 1h40m)</li>
+  <li><a href="http://gitolite.com/gcs/">Git concepts simplified</a></li>
+</ul>
+
 </div>
 
 <? gnome_foot() ?>
