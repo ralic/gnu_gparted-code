@@ -14,7 +14,7 @@ border: 0px;
 }
 
 table {
-font-family: "Bitstream Vera Serif", serif;
+font-family: "Bitstream Vera Sans", sans-serif;
 border-collapse: collapse;
 }
 
@@ -39,7 +39,6 @@ float: right;
 }
 
 .content {
-font-family: "Bitstream Vera Serif", serif;
 margin-left: 10px;
 margin-right: 10px;
 }
@@ -110,14 +109,12 @@ float: right;
 }
 
 .abovead {
-font-family: "Bitstream Vera Serif", serif;
 margin-bottom: 10px;
 margin-left: 10px;
 }
 
 /* Documentation and more */
 .warning {
-font-family: "Bitstream Vera Sans", sans-serif;
 background: #f5a9a9; /* Pastel Red */
 border: 1px solid #FF0000; /* Red */
 padding-left: 10px;
@@ -130,7 +127,6 @@ margin-left: 6.5em;
 }
 
 .caution {
-font-family: "Bitstream Vera Sans", sans-serif;
 background: #f0e68c; /* Khaki */
 border: 1px solid #bdb76b; /* DarkKhaki */
 padding-left: 10px;
@@ -143,7 +139,6 @@ margin-left: 6em;
 }
 
 .tip {
-font-family: "Bitstream Vera Sans", sans-serif;
 background: #98fb98; /* PaleGreen */
 border: 1px solid #00fa9a; /* MediumSpringGreen */
 padding-left: 10px;
@@ -156,7 +151,6 @@ margin-left: 3em;
 }
 
 .note {
-font-family: "Bitstream Vera Sans", sans-serif;
 background: #a9d0f5; /* Light Blue */
 border: 1px solid #0080ff; /* Medium Blue */
 padding-left: 10px;
@@ -170,7 +164,6 @@ margin-left: 4em;
 
 /* Footer */
 .bottomad {
-font-family: "Bitstream Vera Serif", serif;
 margin-left: 10px;
 margin-right: 10px;
 margin-top: 10px;
