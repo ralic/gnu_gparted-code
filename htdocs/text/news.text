@@ -1,3 +1,32 @@
+159
+19 March 2013
+GParted 0.15.0
+<br>
+The big news with this release is the ability to track live updates of
+command execution progress.  This should help with determining the
+status of long running commands by enabling users to see the live
+command output in the details section of the apply operations window.
+This new ability is implemented by a fundamental code change that
+spawns commands to run asynchronously.  Also included in this release
+are bug fixes and language translation updates.
+<br>
+<br>
+Key changes include:
+<ul>
+<li>Live tracking of command progress output in the details log</li>
+<li>Move operations are twice as fast as prior versions</li>
+<li>Proper cancel support added</li>
+<li>Volume label length now based on file system type</li>
+<li>Unallocated space is selected by default</li>
+<li>New key bindings added:<br>
+    - Insert     --> New Partition<br>
+    - Ctrl+Enter --> Apply All Operations
+</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.15.0/gparted-0.15.0-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 158
 9 February 2013
 How-to Fix Invalid MSDOS Partition Tables
