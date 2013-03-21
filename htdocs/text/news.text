@@ -1,3 +1,27 @@
+160
+20 March 2013
+GParted Live 0.15.0-1 Stable Release
+<br>
+The GParted team is proud to announce a new stable release of GParted
+Live.<br>
+<br>
+The biggest change with this release comes from enhancements to
+GParted that track live updates of command execution progress in the
+details section of the apply operations window.<br>
+<br>
+Other items of note include:<br>
+<ul>
+<li>Move operations are twice as fast as prior versions</li>
+<li>Proper cancel support has been added</li>
+<li>Volume label length is now based on file system type</li>
+<li>Unallocated space is selected by default</li>
+<li>Linux kernel updated to 3.2.39-2</li>
+<li>Based on the Debian Sid repository (as of 2013/Mar/20)</li>
+</ul>
+Thanks goes to Steven Shiau for creating this enhanced live image.<br>
+<br>
+Curtis
+---
 159
 19 March 2013
 GParted 0.15.0
