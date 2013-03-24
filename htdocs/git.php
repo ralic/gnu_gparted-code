@@ -132,6 +132,17 @@ instructions</a>.
     make
     su root -c src/gpartedbin
     </pre>
+    <table border=0><tr><td>
+    <div class="tip">
+    <p class="hangtip">
+    <b>TIP</b>: &nbsp; Ensure patch applies cleanly<br>
+      <br>
+      When applying the patch, make sure it applies cleanly.  For
+      example there should be no messages appearing such
+      as <i>trailing whitespace</i>.
+    </p>
+    </div>
+    </td></tr></table>
   </li>
   <li class="step">Attach ~/mypatch.mbox to your
     GNOME <a href="bugs.php">bug</a> report with a few words.
