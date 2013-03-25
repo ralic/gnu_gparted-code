@@ -26,9 +26,16 @@ place ;-)<br>
 or read <a href="http://live.gnome.org/Git/Developers">GNOME git
 instructions</a>.
 </p>
-<br>
 
-<h2>How to build GParted using git</h2>
+<h2>Contents</h2>
+<ul>
+  <li><a href="#build-using-git">How to build GParted using
+  git</a></li>
+  <li><a href="#create-patch">How to create your first GParted patch
+  using git</a></li>
+</ul>
+
+<h2 id="build-using-git">How to build GParted using git</h2>
 <ol>
   <li>
     Be sure to install the dependencies for GParted.<br>
@@ -61,7 +68,7 @@ instructions</a>.
 </ol>
 
 
-<h2 id="h2-create-patch">How to create your first GParted patch using git</h2>
+<h2 id="create-patch">How to create your first GParted patch using git</h2>
 <ol>
   <li class="step">Clone the git repository locally:
     <pre>
@@ -139,7 +146,13 @@ instructions</a>.
       <br>
       When applying the patch, make sure it applies cleanly.  For
       example there should be no messages appearing such
-      as <i>trailing whitespace</i>.
+      as <i>trailing whitespace</i>.<br>
+      <br>
+      See <a href="https://bugzilla.gnome.org/show_bug.cgi?id=696471">Bug
+      696471 - Fix trailing whitespace errors</a> for a discussion of
+      why we only fix existing trailing whitespace in GParted
+      patch-by-patch, and for ideas on how to avoid trailing
+      whitespace.
     </p>
     </div>
     </td></tr></table>
