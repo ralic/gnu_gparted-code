@@ -25,9 +25,20 @@ gnome_menu();
 </div>
 
 <p>
-Besides GParted Live CD and Live USB, we can also put GParted Live on
-harddisk.<br>
-<br>
+In addition to writing the GParted Live image to CD and to USB media,
+the GParted Live image can also be placed on a hard disk drive.  The
+following sections describe how to do this for the GRUB and LILO boot
+loaders.
+</p>
+
+<h2>Contents</h2>
+<ul>
+  <li><a href="#live-hd-grub">GParted Live on Hard Disk using GRUB</a></li>
+  <li><a href="#live-hd-lilo">GParted Live on Hard Disk using LILO</a></li>
+</ul>
+
+<h2 id="live-hd-grub">GParted Live on Hard Disk using GRUB</h2>
+<p>
 In this example we use the grub boot loader.  You have to put the
 GParted live files in a FAT, ext2, ext3, reiserfs or some other grub
 supported partition.<br>
@@ -144,6 +155,77 @@ site.<br>
 For more information on grub4dos, see
 the <a href="http://sourceforge.net/projects/grub4dos/">GRUB for DOS</a> web
 site.
+</p>
+
+<h2 id="live-hd-lilo">GParted Live on Hard Disk using LILO</h2>
+<p>
+The following instructions can be used to set up the GParted Live
+image on a hard disk drive using the LILO boot loader.
+</p>
+<ol>
+  <li class="step">
+    <a href="http://gparted.org/download.php">Download the GParted
+    Live zip file</a>
+  </li>
+  <li class="step">
+    Create a /gparted-live directory:<br>
+    <br>
+    <pre>
+    mkdir /gparted-live
+    </pre>
+  </li>
+  <li class="step">
+    Unzip the gparted download file into the /gparted-live
+    directory:<br>
+    <br>
+    <pre>
+    cd     /gparted-live
+    unzip   gparted-live-<b><i>{...}</i></b>.zip
+    </pre>
+  </li>
+  <li class="step">
+    Edit the /etc/lilo.conf file and add a section for gparted.<br>
+    <br>
+    For this example, let us assume that the /gparted-live directory
+    resides on the /dev/sda4 partition.<br>
+    <pre>
+    <i># GParted bootable partition config begins</i>
+
+    image  = /gparted-live/live/vmlinuz
+    root   = /dev/<b><i>sda4</i></b>  <i># make sure this matches the bootfrom= below ...</i>
+    label  = gparted
+    append = "boot=live config union=aufs noswap noprompt ip=frommedia live-media-path=/gparted-live/live bootfrom=/dev/sda4 toram=filesystem.squashfs" vga=788
+    initrd = /gparted-live/live/initrd.img
+
+    <i># GParted bootable partition config ends</i>
+    </pre>
+  </li>
+  <li class="step">
+    Optionally add a section for memtest86+:
+    <pre>
+    <i># memtest86+ bootable partition config begins</i>
+
+    image = /gparted-live/live/memtest
+    label = memtest
+
+    <i># memtest86+ bootable partition config ends</i>
+    </pre>
+  </li>
+  <li class="step">
+    Run lilo:
+    <pre>
+    lilo
+    </pre>
+  </li>
+</ol>
+<p>
+These LILO instructions were adapted from the
+following <a href="http://gparted-forum.surf4.info/viewtopic.php?id=16841">forum
+post</a>.<br>
+<br>
+For more information on lilo, see
+the <a href="https://en.wikipedia.org/wiki/LILO_%28boot_loader%29">LILO
+(boot loader)</a> web site.
 </p>
 
 </div>
