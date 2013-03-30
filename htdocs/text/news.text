@@ -1,3 +1,25 @@
+161
+30 March 2013
+GParted Live 0.15.0-3 Stable Release
+<br>
+The GParted team is proud to announce another stable release of GParted
+Live.<br>
+<br>
+This is a bug fix release to address a few minor problems.<br>
+<br>
+Items of note include:<br>
+<ul>
+<li>The GParted Live ISO file is now an isohbrid.<br>
+  This means it can be written as an image to CD, or written directly
+  to USB flash drive using a command such a dd.</li>
+<li>The fluxbox menu key function now works again</li>
+<li>Linux kernel updated to 3.2.41-1</li>
+<li>Based on the Debian Sid repository (as of 2013/Mar/27)</li>
+</ul>
+Thanks goes to Steven Shiau for creating this GParted Live image.<br>
+<br>
+Curtis
+---
 160
 20 March 2013
 GParted Live 0.15.0-1 Stable Release
