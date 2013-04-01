@@ -11,7 +11,7 @@ Items of note include:<br>
 <ul>
 <li>The GParted Live ISO file is now an isohbrid.<br>
   This means it can be written as an image to CD, or written directly
-  to USB flash drive using a command such a dd.</li>
+  to USB flash drive using a command such as dd.</li>
 <li>The fluxbox menu key function now works again</li>
 <li>Linux kernel updated to 3.2.41-1</li>
 <li>Based on the Debian Sid repository (as of 2013/Mar/27)</li>
