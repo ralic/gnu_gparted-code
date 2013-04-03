@@ -32,7 +32,8 @@ instructions</a>.
   <li><a href="#build-using-git">How to build GParted using
   git</a></li>
   <li><a href="#create-patch">How to create your first GParted patch
-  using git</a></li>
+  using git</a>
+  <li><a href="#references">Suggested References</a></li>
 </ul>
 
 <h2 id="build-using-git">How to build GParted using git</h2>
@@ -107,7 +108,7 @@ instructions</a>.
     <br>
     Optional longer description explaining why the change is necessary.<br>
     Include details that will help the reviewer understand how the code<br>
-    code is broken and being fixed or why this change is an improvement.<br>
+    is broken and being fixed or why this change is an improvement.<br>
     <br>
     Bug #999999 - GNOME Bugzilla one line summary<br>
     <br>
@@ -162,7 +163,7 @@ instructions</a>.
   </li>
 </ol>
 
-<h3>Suggested References</h3>
+<h2 id="references">Suggested References</h2>
 
 <ul>
   <li>A <a href="http://zrusin.blogspot.co.uk/2007/09/git-cheat-sheet.html">Git cheat sheet</a></li>
