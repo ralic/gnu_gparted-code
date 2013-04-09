@@ -79,7 +79,10 @@ strive to conform to the
 target="new">GNOME Human Interface Guidelines</a>.  We try to keep the
 source code as maintainable as is reasonably possible.  We seek to
 stay true to the GParted <a href="#mission-statement">mission
-statement</a>.
+statement</a>.<br>
+<br>
+To help guide graphical interface design, we use 800x600 as our target
+minimum screen resolution.
 </p>
 
 <h2>Coding Style</h2>
