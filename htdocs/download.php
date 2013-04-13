@@ -24,6 +24,40 @@ gnome_menu();
   ?>
 </div>
 
+<table border=0><tr><td>
+<div class="warning">
+<p class="hangwarning">
+<b>WARNING</b>: &nbsp;
+<b>Avoid Using GParted 0.15.0 for Partition Moves, Resizes, Copies and
+Checks.</b><br>
+<br>
+We are investigating reports of intermittent crashes with GParted
+0.15.0.<br>
+See
+<a href="https://bugzilla.gnome.org/show_bug.cgi?id=697727">Bug
+697727 - Segfault in livecd Gparted v 0.15.0-3 when copying
+partition</a>.<br>
+<br>
+The risk of <b><u>LOSS of DATA</u></b> is highest when performing
+partition moves, resizes, copies, and checks.  As such we recommend
+using GParted 0.14.1 for all move, resize, copy, and check
+operations.<br>
+<br>
+Other operations such as create, delete, format, label, set UUID, and
+delete might also crash, but these should not result in unexpected
+data loss, and the operation can be repeated.<br>
+<br>
+Until this problem is resolved we advise using the last stable release
+of GParted Live, which
+is <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/OldFiles/">GParted
+Live 0.14.1-6</a>.<br>
+<br>
+We highly recommend that you <b><u>BACKUP your DATA</u></b> before
+using <b><i>any partitioning tool</i></b>.<br>
+</p>
+</div>
+</td></tr></table>
+
 <p>
 GParted is a free partition manager that enables you to resize, copy,
 and move partitions without data loss.<br>
@@ -106,7 +140,7 @@ architectures
 
   <tr>
     <td>
-      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/0.15.0-3/gparted-live-0.15.0-3-i486.iso">Download latest gparted-live-0.15.0-3-i486.iso</a><br>
+      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/OldFiles/0.14.1-6/gparted-live-0.14.1-6-i486.iso">Download gparted-live-0.14.1-6-i486.iso</a><br>
       <br>
       <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/">Stable directory (.iso/.zip)</a>
     </td>
