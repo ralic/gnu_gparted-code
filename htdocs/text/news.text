@@ -1,6 +1,6 @@
 162
 13 April 2013
-Avoid Using GParted 0.15.0 for Partition Moves, Resizes, Copies and Checks.
+Avoid Using GParted 0.15.0 for Partition Moves, Resizes, Copies and Checks
 <br>
 We are investigating reports of intermittent crashes with GParted
 0.15.0.<br>
