@@ -49,7 +49,7 @@ data loss, and the operation can be repeated.<br>
 <br>
 Until this problem is resolved we advise using the last stable release
 of GParted Live, which
-is <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/OldFiles/">GParted
+is <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/0.14.1-6">GParted
 Live 0.14.1-6</a>.<br>
 <br>
 We highly recommend that you <b><u>BACKUP your DATA</u></b> before
@@ -140,7 +140,7 @@ architectures
 
   <tr>
     <td>
-      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/OldFiles/0.14.1-6/gparted-live-0.14.1-6-i486.iso">Download gparted-live-0.14.1-6-i486.iso</a><br>
+      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/0.14.1-6/gparted-live-0.14.1-6-i486.iso">Download gparted-live-0.14.1-6-i486.iso</a><br>
       <br>
       <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/">Stable directory (.iso/.zip)</a>
     </td>
