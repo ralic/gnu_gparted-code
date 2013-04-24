@@ -1,3 +1,24 @@
+163
+24 April 2013
+GParted 0.16.0
+<br>
+This release of GParted includes a critical bug fix for a crash that
+might cause loss of data while moving or copying a partition.  We
+strongly recommend that all users of GParted 0.15.0 upgrade to GParted
+0.16.0 to avoid data loss.  Also included are bug fixes, enhancements
+and language translation updates.
+<br>
+<br>
+Key changes include:
+<ul>
+<li>Avoid crash in GParted when moving or copying partitions</li>
+<li>Fix GParted scans forever blank disk in virtual machine</li>
+<li>Add support for f2fs file system</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.16.0/gparted-0.16.0-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 162
 13 April 2013
 Avoid Using GParted 0.15.0 for Partition Moves, Resizes, Copies and Checks
