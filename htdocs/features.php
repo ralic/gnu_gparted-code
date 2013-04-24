@@ -333,6 +333,44 @@ gnome_menu();
 </tr>
 <tr>
 	<th>
+		<b>f2fs</b>
+	</th>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<a href="http://sourceforge.net/projects/f2fs-tools/" target=new>f2fs-tools</a>
+	</td>
+</tr>
+<tr style="background-color: #dddddd;">
+	<th>
 		<b>fat16</b>
 	</th>
 	<td>
@@ -374,7 +412,7 @@ gnome_menu();
 		<a href="http://www.daniel-baumann.ch/software/dosfstools/" target=new>dosfstools</a>
 	</td>
 </tr>
-<tr style="background-color: #dddddd;">
+<tr>
 	<th>
 		<b>fat32</b>
 	</th>
@@ -417,7 +455,7 @@ gnome_menu();
 		<a href="http://www.daniel-baumann.ch/software/dosfstools/" target=new>dosfstools</a>
 	</td>
 </tr>
-<tr>
+<tr style="background-color: #dddddd;">
 	<th>
 		<b>hfs</b>
 	</th>
@@ -456,7 +494,7 @@ gnome_menu();
 		<a href="http://www.mars.org/home/rob/proj/hfs/" target=new>hfsutils</a>
 	</td>
 </tr>
-<tr style="background-color: #dddddd;">
+<tr>
 	<th>
 		<b>hfs+</b>
 	</th>
@@ -495,7 +533,7 @@ gnome_menu();
 		<a href="http://packages.debian.org/search?keywords=hfsprogs" target=new>hfsprogs</a>
 	</td>
 </tr>
-<tr>
+<tr style="background-color: #dddddd;">
 	<th>
 		<b>jfs</b>
 	</th>
@@ -534,7 +572,7 @@ gnome_menu();
 		<a href="http://jfs.sourceforge.net/" target=new>jfsutils</a>
 	</td>
 </tr>
-<tr style="background-color: #dddddd;">
+<tr>
 	<th>
 		<b>linux-swap</b>
 	</th>
@@ -574,7 +612,7 @@ gnome_menu();
 		<a href="http://en.wikipedia.org/wiki/Util-linux" target=new>util-linux</a>
 	</td>
 </tr>
-<tr>
+<tr style="background-color: #dddddd;">
 	<th>
 		<b>lvm2 pv</b>
 	</th>
@@ -612,7 +650,7 @@ gnome_menu();
 		<a href="http://sourceware.org/lvm2/" target=new>lvm2</a>
 	</td>
 </tr>
-<tr style="background-color: #dddddd;">
+<tr>
 	<th>
 		<b>nilfs2</b>
 	</th>
@@ -653,7 +691,7 @@ gnome_menu();
 		<a href="http://www.nilfs.org/" target=new>nilfs-utils</a>
 	</td>
 </tr>
-<tr>
+<tr style="background-color: #dddddd;">
 	<th>
 		<b>ntfs</b>
 	</th>
@@ -694,7 +732,7 @@ gnome_menu();
 		<a href="http://sourceforge.net/projects/linux-ntfs" target=new>ntfsprogs</a>
 	</td>
 </tr>
-<tr style="background-color: #dddddd;">
+<tr>
         <th>
                 <b>reiser4</b>
         </th>
@@ -732,7 +770,7 @@ gnome_menu();
                 <a href="https://reiser4.wiki.kernel.org/articles/r/e/i/Reiser4progs.html" target=new>reiser4progs</a>
         </td>
 </tr>
-<tr>
+<tr style="background-color: #dddddd;">
 	<th>
 		<b>reiserfs</b>
 	</th>
@@ -770,7 +808,7 @@ gnome_menu();
 		<a href="https://reiser4.wiki.kernel.org/articles/r/e/i/Reiserfsprogs.html" target=new>reiserfsprogs</a>
 	</td>
 </tr>
-<tr style="background-color: #dddddd;">
+<tr>
 	<th>
 		<b>ufs</b>
 	</th>
@@ -808,7 +846,7 @@ gnome_menu();
 		<br>
 	</td>
 </tr>
-<tr>
+<tr style="background-color: #dddddd;">
 	<th>
 		<b>xfs</b>
 	</th>
