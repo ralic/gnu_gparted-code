@@ -35,7 +35,7 @@ We are investigating reports of intermittent crashes with GParted
 0.15.0.<br>
 See
 <a href="https://bugzilla.gnome.org/show_bug.cgi?id=697727">Bug
-697727 - Segfault in livecd Gparted v 0.15.0-3 when copying
+697727 - Segfault in GParted 0.15.0 when copying
 partition</a>.<br>
 <br>
 The risk of <b><u>LOSS of DATA</u></b> is highest when performing
@@ -47,13 +47,33 @@ Other operations such as create, delete, format, label, set UUID, and
 delete might also crash, but these should not result in unexpected
 data loss, and the operation can be repeated.<br>
 <br>
-Until this problem is resolved we advise using the last stable release
+<b>Update:  Possible thread timing issue with GParted 0.16.0</b><br>
+<br>
+On April 24, 2013 we released GParted 0.16.0 to address bug 697727.
+Since then we have discovered another potential issue with timing and
+multiple threads.  This issue appears to occur on older GNU/Linux
+distributions.  In fact the issue was not apparent in our testing of
+GParted 0.16.0 on recent distros.<br>
+<br>
+For more details see
+<a href="https://bugzilla.gnome.org/show_bug.cgi?id=695279">Bug 695279
+- GParted doesn't compile on RHEL / CentOS 5.9</a>.<br>
+<br>
+As a precaution we plan to keep GParted Live 0.16.0-1 in the testing
+directory while we work towards a fix for this newly identified
+issue.<br>
+<br>
+<b>Recommendation</b><br>
+<br>
+Until these problems are resolved we advise using the last stable release
 of GParted Live, which
 is <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/0.14.1-6">GParted
 Live 0.14.1-6</a>.<br>
 <br>
 We highly recommend that you <b><u>BACKUP your DATA</u></b> before
 using <b><i>any partitioning tool</i></b>.<br>
+<br>
+Curtis Gedak - April 25, 2013.
 </p>
 </div>
 </td></tr></table>

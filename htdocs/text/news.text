@@ -1,3 +1,27 @@
+164
+25 April 2013
+Possible thread timing issue with GParted 0.16.0
+<br>
+Since the release of GParted 0.16.0, we have discovered another
+potential issue with timing and multiple threads.  This issue appears
+to occur on older GNU/Linux distributions.  In fact the issue was not
+apparent in our testing of GParted 0.16.0 on recent distros.<br>
+<br>
+For more details see <a
+href="https://bugzilla.gnome.org/show_bug.cgi?id=695279">Bug 695279 -
+GParted doesn't compile on RHEL / CentOS 5.9</a>.<br>
+<br>
+As a precaution we plan to keep GParted Live 0.16.0-1 in the testing
+directory while we work towards a fix for this newly identified
+issue.<br>
+<br>
+Until this problem is resolved we continue to advise using the last
+stable release of GParted Live, which is <a
+href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/0.14.1-6/">GParted
+Live 0.14.1-6</a>.
+<br><br>
+Curtis
+---
 163
 24 April 2013
 GParted 0.16.0
