@@ -1,3 +1,26 @@
+165
+30 April 2013
+GParted 0.16.1
+<br>
+In an effort ensure the reliability and integrity of GParted, this
+release has undergone more intensive reviews and additional testing on
+multiple GNU/Linux distributions.<br>
+<br>
+This release includes another critical bug fix for a potential crash
+that might cause loss of data while moving or copying a partition.  We
+strongly recommend that all users of GParted 0.15.0 and 0.16.0 upgrade
+to GParted 0.16.1 to avoid data loss.
+<br>
+<br>
+Key changes include:
+<ul>
+<li>Avoid another crash in GParted when moving or copying partitions</li>
+<li>Fix GParted doesn't compile on RHEL / CentOS 5.9</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.16.1/gparted-0.16.1-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 164
 25 April 2013
 Possible thread timing issue with GParted 0.16.0
