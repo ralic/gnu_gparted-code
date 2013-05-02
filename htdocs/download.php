@@ -48,8 +48,8 @@ tests go well, we will migrate this to the stable directory.<br>
 Until we finish our testing and can confirm these problems are
 resolved we advise using the last stable release of GParted Live,
 which
-is <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/0.14.1-6">GParted
-Live 0.14.1-6</a>.<br>
+is <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/0.16.1-1">GParted
+Live 0.16.1-1</a>.<br>
 <br>
 We highly recommend that you <b><u>BACKUP your DATA</u></b> before
 using <b><i>any partitioning tool</i></b>.<br>
@@ -141,7 +141,7 @@ architectures
 
   <tr>
     <td>
-      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/0.14.1-6/gparted-live-0.14.1-6-i486.iso">Download gparted-live-0.14.1-6-i486.iso</a><br>
+      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/0.16.1-1/gparted-live-0.16.1-1-i486.iso">Download gparted-live-0.16.1-1-i486.iso</a><br>
       <br>
       <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/">Stable directory (.iso/.zip)</a>
     </td>
