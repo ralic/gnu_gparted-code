@@ -135,6 +135,13 @@ this list then please let me know,
     <br>
   </li>
   <li class="step">
+    <a href="http://www.makeuseof.com/tag/the-gparted-live-cd-a-quick-way-to-edit-your-primary-partitions-linux/">
+    The GParted Live CD: A Quick Way To Edit Your Primary Partitions
+    [Linux]</a><br>
+    by Justin Pot on January 16, 2013<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.makeuseof.com/pages/best-linux-distributions">
     Best Linux Distributions</a><br>
     by makeuseof on January 2012<br>
