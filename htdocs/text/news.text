@@ -1,3 +1,30 @@
+166
+1 May 2013
+GParted Live 0.16.1-1 Stable Release
+<br>
+The GParted team is proud to announce a well-tested, stable release of
+GParted Live.<br>
+<br>
+This release includes another critical bug fix for a potential crash
+that might cause loss of data while moving or copying a partition.  We
+strongly recommend that all users of GParted Live 0.15.0-x and
+0.16.0-x upgrade to GParted Live 0.16.1-1 to avoid data loss.<br>
+<br>
+Items of note include:<br>
+<ul>
+<li>Avoid another crash in GParted when moving or copying partitions</li>
+<li>Based on the Debian Sid repository (as of 2013/May/1)</li>
+</ul>
+In an effort to ensure the reliability and integrity of this release,
+we have conducted over 200 successful tests.  These tests included
+moves, copies, creates, labels, new UUIDs, growing, shrinking, and
+deleting partitions containing each type of file system.<br>
+<br>
+Special thanks goes to Mike Fleetwood, Phillip Susi, and Steven Shiau
+for their timely efforts to create this stable release.<br>
+<br>
+Curtis
+---
 165
 30 April 2013
 GParted 0.16.1
