@@ -24,41 +24,6 @@ gnome_menu();
   ?>
 </div>
 
-<table border=0><tr><td>
-<div class="warning">
-<p class="hangwarning">
-<b>WARNING</b>: &nbsp;
-<b>Avoid Using GParted 0.15.0 and 0.16.0 for Partition Moves, Resizes, Copies and
-Checks.</b><br>
-<br>
-Both GParted 0.15.0 and 0.16.0 suffer from bugs that could cause
-crashes that might result in data loss.<br>
-<br>
-See
-<a href="https://bugzilla.gnome.org/show_bug.cgi?id=697727">Bug
-697727 - Segfault in GParted 0.15.0 when copying
-partition</a>.<br>
-<br>
-Fixes for these bugs have been included in GParted 0.16.1.  Currently
-we are testing GParted Live 0.16.1-1 (testing directory).  If all
-tests go well, we will migrate this to the stable directory.<br>
-<br>
-<b>Recommendation</b><br>
-<br>
-Until we finish our testing and can confirm these problems are
-resolved we advise using the last stable release of GParted Live,
-which
-is <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/0.16.1-1">GParted
-Live 0.16.1-1</a>.<br>
-<br>
-We highly recommend that you <b><u>BACKUP your DATA</u></b> before
-using <b><i>any partitioning tool</i></b>.<br>
-<br>
-Curtis Gedak - May 1, 2013.
-</p>
-</div>
-</td></tr></table>
-
 <p>
 GParted is a free partition manager that enables you to resize, copy,
 and move partitions without data loss.<br>
