@@ -1,8 +1,8 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>GParted Manual</title><meta name="generator" content="DocBook XSL Stylesheets V1.75.2"><meta name="description" content="GParted is the Gnome Partition Editor for creating, reorganizing, and deleting disk partitions. GParted enables you to change the partition organization while preserving the partition contents."></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div lang="en" class="article" title="GParted Manual"><div class="titlepage"><div><div><h2 class="title"><a name="gparted"></a>GParted Manual</h2></div><div><div class="authorgroup"><div class="author"><h3 class="author"><span class="firstname">Curtis</span> <span class="surname">Gedak</span></h3><div class="affiliation"><span class="orgname">GParted Project<br></span><div class="address"><p><br>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>GParted Manual</title><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><meta name="description" content="GParted is the Gnome Partition Editor for creating, reorganizing, and deleting disk partitions. GParted enables you to change the partition organization while preserving the partition contents."></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div lang="en" class="article" title="GParted Manual"><div class="titlepage"><div><div><h2 class="title"><a name="gparted"></a>GParted Manual</h2></div><div><div class="authorgroup"><div class="author"><h3 class="author"><span class="firstname">Curtis</span> <span class="surname">Gedak</span></h3><div class="affiliation"><span class="orgname">GParted Project<br></span><div class="address"><p><br>
             <code class="email">&lt;<a class="email" href="mailto:gedakc@users.sf.net">gedakc@users.sf.net</a>&gt;</code><br>
           </p></div></div></div></div></div><div><p class="releaseinfo">
     This manual describes version 0.12.0 of GParted
-    </p></div><div><p class="copyright">Copyright © 2008, 2009, 2010, 2011, 2012 Curtis Gedak</p></div><div><div class="legalnotice" title="Legal Notice"><a name="id460454"></a><p>
+    </p></div><div><p class="copyright">Copyright © 2008, 2009, 2010, 2011, 2012 Curtis Gedak</p></div><div><div class="legalnotice" title="Legal Notice"><a name="idp25145296"></a><p>
       Permission is granted to copy, distribute and/or modify this document
       under the terms of the GNU Free Documentation License, Version 1.2
       or any later version published by the Free Software Foundation;
@@ -11,7 +11,7 @@
       <a class="ulink" href="ghelp:fdl" target="_top">link</a> or at
       <a class="ulink" href="http://www.fsf.org/licensing/licenses/fdl.html" target="_top">http://www.fsf.org/licensing/licenses/fdl.html</a>
       or in the file COPYING-DOCS distributed with this manual.
-      </p></div></div><div><div class="legalnotice" title="Feedback"><a name="id458926"></a><p class="legalnotice-title"><b>Feedback</b></p><p>
+      </p></div></div><div><div class="legalnotice" title="Feedback"><a name="idp24961360"></a><p class="legalnotice-title"><b>Feedback</b></p><p>
       To report a bug or make a suggestion regarding the
       <span class="application">gparted</span> application or this manual,
       follow the directions at
@@ -493,6 +493,10 @@
               and select a type of file system from the list.
               The application displays the format partition operation
               in the <span class="guilabel">Operations Pending</span> pane.
+              </p><p>
+              See <a class="xref" href="#gparted-specify-partition-file-system" title="Specifying Partition File System">the section called &#8220;Specifying Partition File System&#8221;</a>
+              for the meaning of the <span class="guimenuitem">cleared</span>
+              file system type.
               </p></li></ol></div><p>
         </p></div><div class="sect3" title="Setting a Partition Label"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-setting-partition-label"></a>Setting a Partition Label</h4></div></div></div><p>
         To set a label or a volume name for a partition:
@@ -640,17 +644,25 @@
           </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
             Examples of uses for some file systems are as follows:
               </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
-                  Ext2, and ext3 file systems can be used for installing
-                  GNU/Linux, and for data.
+                  <span class="guimenuitem">ext2</span>, and
+                  <span class="guimenuitem">ext3</span> file systems can be
+                  used for installing GNU/Linux, and for data.
                   </p></li><li class="listitem"><p>
-                  Linux-swap can be used with GNU/Linux to increase the
-                  virtual memory of your computer.
+                  <span class="guimenuitem">linux-swap</span> can be used with
+                  GNU/Linux to increase the virtual memory of your
+                  computer.
                   </p></li><li class="listitem"><p>
-                  Fat16 and fat32 file systems can be used to share
-                  data between free and commercial operating systems.
+                  <span class="guimenuitem">fat16</span> and
+                  <span class="guimenuitem">fat32</span> file systems can be
+                  used to share data between free and commercial
+                  operating systems.
                   </p></li><li class="listitem"><p>
-                  Unformatted can be used if you want to create a
-                  partition with no file system.
+                  <span class="guimenuitem">cleared</span> can be used to
+                  clear any existing file system signatures and ensure
+                  that the partition is recognised as empty.
+                  </p></li><li class="listitem"><p>
+                  <span class="guimenuitem">unformatted</span> can be used to
+                  just create a partition without writing a file system.
                   </p></li></ul></div><p>
             </p></div></div><div class="sect4" title="Specifying Partition Label"><div class="titlepage"><div><div><h5 class="title"><a name="gparted-specify-partition-label"></a>Specifying Partition Label</h5></div></div></div><p>
           To specify the partition label, also known as a volume label,
