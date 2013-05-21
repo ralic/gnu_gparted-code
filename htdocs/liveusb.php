@@ -192,6 +192,9 @@ Doing so could cause your MS windows not to boot!!!
   <li>
     <a href="#linux-method-c">GNU/Linux Method C:  Unetbootin</a>
   </li>
+  <li>
+    <a href="#linux-method-d">GNU/Linux Method D:  Manual - Overwrite</a>
+  </li>
 </ul>
 
 <a name="linux-method-a"></a>
@@ -345,6 +348,53 @@ Failure to do so could cause loss of data or your GNU/Linux not to boot!!!<br>
     From GNU/Linux, run the Unetbootin program and follow the
     instructions in the GUI to install GParted Live on your USB flash
     drive.
+  </li>
+</ol>
+
+<a name="linux-method-d"></a>
+<h3>GNU/Linux Method D:  Manual - Overwite</h3>
+<table border=0><tr><td>
+<div class="warning">
+<p class="hangwarning">
+  <b>WARNING</b>: &nbsp; Confirm you have the correct device path name before executing commands!<br>
+  <br>
+  This method will overwrite the destination device.  Hence it is
+  critical to select the proper USB flash device.
+</p>
+</div>
+</td></tr></table>
+
+<p>
+Since GParted Live is based on Debian Live and this image is a
+isohybrid, the
+GParted <a href="http://www.debian.org/CD/faq/#write-usb">Live CD
+image can be written directly to a USB flash drive</a>.
+</p>
+
+<ol>
+  <li class="step">
+    <a href="download.php">Download</a> the GParted
+    Live <b>iso</b> file.
+  </li>
+  <li class="step">
+    Insert the USB flash drive your Linux computer and wait a few
+    seconds.  Next, from a terminal window run the command:<br>
+    <br>
+    <code>
+    dmesg<br>
+    </code>
+    <br>
+    This command queries the device name of the USB flash drive.  For
+    example, you might find the device name is <b>/dev/sde</b>.
+  </li>
+  <li class="step">
+    From a terminal window, enter the following command using the
+    gparted .iso file name and USB device path you discoved in the
+    previous steps.<br>  For example:<br>
+    <br>
+    <code>
+      sudo dd if=<i>/path-to-gparted-live.x.y.z-w.iso</i> of=<i>/dev/sde</i> bs=4M; sync
+    </code>
   </li>
 </ol>
 
