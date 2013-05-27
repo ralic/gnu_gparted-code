@@ -33,6 +33,13 @@ instructions</a>.
   git</a></li>
   <li><a href="#create-patch">How to create your first GParted patch
   using git</a>
+  <li><a href="#verify-every-change">Verifying every change of a patch
+  set compiles</a>
+    <ul>
+      <li><a href="#testbuild">testbuild.sh</a></li>
+      <li><a href="#git-test-sequence">git-test-sequence</a></li>
+    </ul>
+  </li>
   <li><a href="#references">Suggested References</a></li>
 </ul>
 
@@ -162,6 +169,148 @@ instructions</a>.
     GNOME <a href="bugs.php">bug</a> report with a few words.
   </li>
 </ol>
+
+<h2 id="verify-every-change">Verifying every change of a patch set compiles</h2>
+<table border=0><tr><td>
+<div class="note">
+<p class="hangnote">
+<b>NOTE</b>: &nbsp;
+  Ensuring that every change in a multi patch set compiles is
+  important for incremental testability and enabling the use of git
+  bisect in searching for the commit which introduced a bug.
+</p>
+</div>
+</td></tr></table>
+<ol>
+  <li class="step">One time set-up of
+    <a href="https://github.com/dustin/bindir/blob/master/git-test-sequence">git-test-sequence</a>
+    and
+    <a href="https://git.gnome.org/browse/gparted/tree/testbuild.sh">testbuild.sh</a>:<br>
+    <pre>
+    mkdir -p ~/bin
+    cd ~/bin
+    wget https://raw.github.com/dustin/bindir/master/git-test-sequence
+    chmod 755 git-test-sequence
+    wget https://git.gnome.org/browse/gparted/plain/testbuild.sh
+    chmod 755 testbuild.sh
+    </pre>
+  </li>
+  <li class="step">Clone GParted for testing:<br>
+    <pre>
+    cd /tmp
+    git clone git://git.gnome.org/gparted gparted-test
+    cd gparted-test
+    </pre>
+  </li>
+  <li class="step">Apply and test build every patch in the set:<br>
+    <pre>
+    git am ~/review-patchset.mbox
+    git-test-sequence origin/master.. testbuild.sh
+    </pre>
+  </li>
+</ol>
+<p>
+Further information on <a href="#testbuild">testbuild.sh</a>
+and <a href="#git-test-sequence">git-test-sequence</a> follows.
+</p>
+
+<h3 id="testbuild">testbuild.sh</h3>
+<p>
+<a href="https://git.gnome.org/browse/gparted/tree/testbuild.sh">testbuild.sh</a>
+is for developers to build GParted in a git repository, appending the
+top commit and build results to the log file testbuild.log.  It is
+intended for use
+with <a href="#git-test-sequence">git-test-sequence</a> to verify
+every commit in a patch set compiles, but it can be used standalone
+too.
+</p>
+<p>
+Build current code:
+</p>
+<pre>
+    rm testbuild.log
+    testbuild.sh
+    echo $?
+    less testbuild.log
+</pre>
+<p>
+Parameters on the command line are passed to autogen.sh, which in turn
+are passed on to configure.  See the INSTALL file for details on
+parameters to configure.  Example:
+</p>
+<pre>
+    testbuild.sh --prefix=/usr
+</pre>
+<p>
+By default testbuild.sh instructs make to use the number of processors
+in the machine as the number of jobs to run simultaneously.  This is
+to minimise build time.  This can be overridden by specifying the
+required parameters to make in the MAKEFLAGS environment variable.
+See
+<a href="http://man7.org/linux/man-pages/man1/make.1.html">make(1)</a>
+for details of parameters to make.  Example:
+</p>
+<pre>
+      MAKEFLAGS='-j 2 -w' testbuild.sh
+</pre>
+<p>
+Build current code specifying both alternative make flags and
+configure parameters:
+</p>
+<pre>
+    rm testbuild.log
+    MAKEFLAGS='-j 2 -w' testbuild.sh --prefix=/usr
+    echo $?
+    less testbuild.log
+</pre>
+
+<h3 id="git-test-sequence">git-test-sequence</h3>
+<p>
+<a href="https://github.com/dustin/bindir/blob/master/git-test-sequence">git-test-sequence</a> (blog:
+<a href="http://dustin.github.io/2010/03/28/git-test-sequence.html">git
+test-sequence: Push Working Changes</a>) allows a sequence of git
+commits to be tested.  The range of commits is specified using
+standard git <a href="http://git-scm.com/book/ch6-1.html">commit
+ranges</a> syntax (about 2/3 down the page).  Combined with
+<a href="#testbuild">testbuild.sh</a> it allows us
+to <a href="#verify-every-change">verify every change of a patch set
+compiles</a>.
+</p>
+<p>
+Git-test-sequence records test results in the local git repository
+object store allowing it to report immediately when passed tests are
+re-run again.
+</p>
+<p>
+Usage:
+</p>
+<pre>
+    git-test-sequence &lt;commit_range&gt; &lt;test_program&gt;
+</pre>
+<p>
+Normal case would be to apply patch set for review and test build all
+commits between upstream master and current head:
+</p>
+<pre>
+    cd /tmp
+    git clone git://git.gnome.org/gparted gparted-test
+    cd gparted-test
+    git am ~/review-patchset.mbox
+    git-test-sequence origin/master.. testbuild.sh
+</pre>
+<p>
+Test build a range of commits while also specifying parameters to
+configure and alternative make flags:
+</p>
+<pre>
+    cd /tmp
+    git clone git://git.gnome.org/gparted gparted-test
+    cd gparted-test
+    MAKEFLAGS='-j 2 -w' git-test-sequence GPARTED_0_14_1..GPARTED_0_15_0 'testbuild.sh --prefix=/usr'
+</pre>
+<p>
+On failure examine the log file testbuild.log for details.
+</p>
 
 <h2 id="references">Suggested References</h2>
 
