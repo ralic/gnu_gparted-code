@@ -5,6 +5,12 @@ width = document.documentElement.clientWidth;
 google_ad_slot = "2338863563";
 google_ad_width = 320;
 google_ad_height = 50;
+if (width > 500) {
+  /* Site pages, 468x60 ads, Below page content */
+  google_ad_slot = "3675995969";
+  google_ad_width = 468;
+  google_ad_height = 60;
+}
 if (width > 750) {
   /* Site pages, 728x90 ads, Below page content */
   google_ad_slot = "5925625433";
