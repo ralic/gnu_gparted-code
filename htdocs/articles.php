@@ -93,6 +93,12 @@ this list then please let me know,
     <br>
   </li>
   <li class="step">
+    <a href="http://www.ibm.com/developerworks/library/l-resizing-partitions-1/">
+    Resizing Linux partitions, Part 1: Basics</a><br>
+    by Roderick W. Smith on August 11, 2010<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://helpdeskgeek.com/free-tools-review/manage-partitions-in-windows-7-xp-vista/">
     Use GParted to Create, Delete, Copy or Resize Partitions</a><br>
     by Aseem on January 4, 2010<br>
