@@ -5,7 +5,7 @@ width = document.documentElement.clientWidth;
 google_ad_slot = "6291385166";
 google_ad_width = 320;
 google_ad_height = 50;
-if (width > 750)
+if (width > 750) {
   /* Doc page, 728x90 ads, Under title */
   google_ad_slot = "1719180562";
   google_ad_width = 728;
