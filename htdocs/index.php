@@ -40,7 +40,7 @@ loss, enabling you to:<br>
 
 <a href="screens/gparted_1_big.png">
   <img src="screens/gparted_1_small.png" alt="GParted Main screen"
-        height="140px" class="left">
+        height="163px" class="left">
 </a>
 
 <h2>Discover More</h2>
@@ -48,6 +48,10 @@ loss, enabling you to:<br>
   <li class="nobullet">
     Learn <a href="why-partition.php">why partition your disk
     device</a>.
+  </li>
+  <li class="nobullet">
+    Explore the <a href="documentation.php">documentation</a>
+    and <a href="faq.php">FAQ</a>.
   </li>
   <li class="nobullet">
     Get <a href="help.php">help</a> with disk partitioning.
