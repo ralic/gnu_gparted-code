@@ -5,7 +5,9 @@ include "functions.php";
 ?>
 
 <head>
-  <title>GParted -- About</title>
+  <title>GParted -- A free application for graphically managing disk
+    device partitions</title>
+
 <? html_head() ?>
 </head>
 <body>
