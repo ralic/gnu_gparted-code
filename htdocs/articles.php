@@ -35,6 +35,11 @@ categories:
     </a>
   </li>
   <li class="step">
+    <a href="#translations">
+      Web Page Translations
+    </a>
+  </li>
+  <li class="step">
     <a href="#interviews">
       Interviews
     </a>
@@ -232,6 +237,16 @@ this list then please let me know,
 </ul>
 
 
+<h2 id="translations">Web Page Translations</h2>
+
+<ul>
+  <li class="step">
+    <a href="http://www.webhostinghub.com/support/es/misc/GParted">
+    Spanish translation of GParted FAQ (Español GParted FAQ)</a><br>
+    by Web Hosting Hub on June 15, 2013<br>
+    <br>
+  </li>
+</ul>
 <h2 id="interviews">Interviews</h2>
 
 <ul>
