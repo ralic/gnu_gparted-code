@@ -81,6 +81,16 @@ source code as maintainable as is reasonably possible.  We seek to
 stay true to the GParted <a href="#mission-statement">mission
 statement</a>.<br>
 <br>
+We try to ensure that the GParted will compile and run on the
+currently supported versions of many major GNU/Linux distributions
+(distros).  Distros we often include in our testing include:
+<a href="http://en.wikipedia.org/wiki/CentOS">Centos/RHEL</a>,
+<a href="http://en.wikipedia.org/wiki/Debian">Debian</a>,
+<a href="http://en.wikipedia.org/wiki/Fedora_%28operating_system%29">Fedora</a>,
+<a href="http://en.wikipedia.org/wiki/OpenSUSE">openSUSE</a>, and
+<a href="http://en.wikipedia.org/wiki/Ubuntu_%28operating_system%29">Ubuntu</a>.
+<br>
+<br>
 To help guide graphical interface design, we use 800x600 as our target
 minimum screen resolution.
 </p>
