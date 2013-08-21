@@ -262,6 +262,18 @@ See <a href="http://gparted.org/display-doc.php?name=gparted-live-manual&lang=C#
 </div>
 </td></tr></table>
 
+<h2>Order GParted Live on CD, USB flash drive, or SD Card</h2>
+<p>
+GParted Live can be ordered on a CDROM, USB flash drive, or SD card
+and delivered to you by postal mail.<br>
+Before ordering please check that it is the version you want.<br>
+<br>
+<a href="https://www.osdisc.com/products/gparted?affiliate=gedakc">OSDisc.com
+- GParted Live CD</a><br>
+</p>
+<br>
+
+
 </div>
 
 <? gnome_foot() ?>
