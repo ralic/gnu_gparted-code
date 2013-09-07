@@ -103,6 +103,10 @@ GParted Live includes additional packages, such as:<br>
     <td>- (Older) data recovery tool that can help recover lost msdos partition tables<br></td>
   </tr>
   <tr>
+    <td><a href="http://www.gnu.org/software/grub/">grub</a></td>
+    <td>- GRand Unified Bootloader for restoring GRUB 2 boot loader<br></td>
+  </tr>
+  <tr>
     <td><a href="http://pcmanfm.sourceforge.net/">pcmanfm</a></td>
     <td>- Graphical file manager</td>
   </tr>
