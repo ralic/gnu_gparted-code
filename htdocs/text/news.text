@@ -1,3 +1,22 @@
+167
+18 September 2013
+GParted 0.16.2
+<br>
+This release of GParted includes some important bug fixes and language
+translation updates.
+<br>
+<br>
+Key changes include:
+<ul>
+<li>Fix crash if click apply before pending operations fully displayed</li>
+<li>Fix FAT16/32 labels are sometimes shown corrupted</li>
+<li>Fix regression - linux-swap resize broken</li>
+<li> Fix to not hide the progress of the tools used - ntfsresize</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.16.2/gparted-0.16.2-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 166
 1 May 2013
 GParted Live 0.16.1-1 Stable Release

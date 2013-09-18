@@ -19,7 +19,7 @@ gnome_menu();
 ?>
 <div class="rightbox">
 	<b>Stable release:</b><br>
-	<a href="http://sourceforge.net/projects/gparted/files/gparted/gparted-0.16.1/">GParted 0.16.1</a><br>
+	<a href="http://sourceforge.net/projects/gparted/files/gparted/gparted-0.16.2/">GParted 0.16.2</a><br>
 	<a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/0.16.1-1/">Live 0.16.1-1</a>
 	</div>
 <div class="content">
