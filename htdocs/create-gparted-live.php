@@ -21,7 +21,7 @@ gnome_menu();
 <b>GParted Live</b> is a small bootable GNU/Linux distribution for x86 machine based on Debian live. If you want to create GParted live from scratch, you can follow the following:<br>
 <br>
 <ol>
-  <li class="step">Boot GParted live on a PC with RAM size larger than 1 GB (GParted live version <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/OldFiles/0.9.1-1/" target=_blank>0.9.1-1</a> is required. Yes, it's 0.9.1-1, those newer than this won't work due to some packages dependence issue with live-build 2.x. After we switch to live-build 3.x, we can use newer version of GParted live).</li>
+  <li class="step">Boot GParted live on a PC with RAM size larger than 1 GB (GParted live version <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/0.9.1-1/" target=_blank>0.9.1-1</a> is required. Yes, it's 0.9.1-1, those newer than this won't work due to some packages dependence issue with live-build 2.x. After we switch to live-build 3.x, we can use newer version of GParted live).</li>
   <li class="step">Follow the instructions to enter X, then open a terminal. The follow actions have to be run as root. If you are not root, run "sudo -i" to become root.</li>
   <li class="step">Configure internet connection, e.g. run "dhclient eth0" to lease IP address from a DHCP server, or you can use commands like "ifconfig" and "route" to assign static IP address.</li>
   <li class="step">Turn on the apt repository by editing /etc/apt/sources.list, e.g. "nano /etc/apt/sources.list" or "vim /etc/apt/sources.list", make it like:
