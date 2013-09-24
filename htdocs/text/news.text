@@ -1,3 +1,32 @@
+168
+23 September 2013
+GParted Live 0.16.2-1b Stable Release
+<br>
+The GParted team is proud to announce a new stable release of
+GParted Live.<br>
+<br>
+This release includes a number of bug fixes and language translation
+updates.<br>
+<br>
+Items of note include:<br>
+<ul>
+<li>LVM partitions are not activated on boot to enable move/resize (<a
+  href="https://bugzilla.gnome.org/show_bug.cgi?id=702461">bug
+  #702461</a>)</li>
+<li>Based on the Debian Sid repository (as of 2013/Sep/19)</li>
+<li>Includes GParted 0.16.2 which includes:
+  <ul>
+    <li>Fix crash if apply clicked before pending operations completed</li>
+    <li>Fix regression which broke linux-swap resize</li>
+    <li>Fix to not hide the progress of the tools used, such as ntfsresize</li>
+  </ul>
+</li>
+</ul>
+Special thanks goes to Steven Shiau and Mike Fleetwood for their
+efforts to ensure the stability of this release.<br>
+<br>
+Curtis
+---
 167
 18 September 2013
 GParted 0.16.2
