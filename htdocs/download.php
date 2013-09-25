@@ -60,7 +60,7 @@ architectures
 </p>
 <table border=0 style="font-size: smaller; valign: top;">
   <tr style="valign: top;">
-    <td valign="top"><b>i486</b></td>
+    <td valign="top"><b><a href="http://packages.debian.org/sid/linux-image-486">i486</a></b></td>
     <td valign="top">
     - 32-bit version runs on x86 and x86-64 based computers, limited
       to physical address space of 4 gigabytes, and uses one processor
@@ -69,7 +69,7 @@ architectures
     </td>
   </tr>
   <tr>
-    <td valign="top"><b>i686-PAE</b></td>
+    <td valign="top"><b><a href="http://packages.debian.org/sid/linux-image-686-pae">i686-PAE</a></b></td>
     <td valign="top">
     - 32-bit version runs on x86 (i686 and higher) and x86-64 based
       computers, with <b>P</b>hysical <b>A</b>ddress <b>E</b>xtenstion
@@ -78,7 +78,7 @@ architectures
     </td>
   </tr>
   <tr>
-    <td valign="top"><b>amd64</b></td>
+    <td valign="top"><b><a href="http://packages.debian.org/sid/linux-image-amd64">amd64</a></b></td>
     <td valign="top">
     - 64-bit version runs on x86-64 based computers, with ability to
       access more than 4 gigabytes of memory, and supports use of
@@ -86,6 +86,10 @@ architectures
     </td>
   </tr>
 </table>
+<p>
+These three different architectures can be found in the stable and
+test directories listed below.
+</p>
 </div>
 </td></tr></table>
 
