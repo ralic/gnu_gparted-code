@@ -86,10 +86,6 @@ architectures
     </td>
   </tr>
 </table>
-<p>
-These three different architectures can be found in the stable and
-test directories listed below.
-</p>
 </div>
 </td></tr></table>
 
@@ -112,7 +108,8 @@ test directories listed below.
     <td>
       <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/0.16.2-1b/gparted-live-0.16.2-1b-i486.iso">Download gparted-live-0.16.2-1b-i486.iso</a><br>
       <br>
-      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/">Stable directory (.iso/.zip)</a>
+      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/">Stable directory (.iso/.zip)<br>
+        <small>(for i486, i686-pae and amd64 architectures)</small></a>
     </td>
     <td valign="top">
       <a href="http://free.nchc.org.tw/gparted-live/stable/RELEASE-NOTES-GParted-live.txt" target=_blank>Release notes</a>
@@ -132,16 +129,17 @@ test directories listed below.
   </tr>
 
   <tr>
-    <td>
-      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-testing/">Testing directory (.iso/.zip)</a>
+    <td valign="top">
+      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-testing/">Testing directory (.iso/.zip)<br>
+        <small>(for i486, i686-pae and amd64 architectures)</small></a>
     </td>
-    <td>
+    <td valign="top">
       <a href="http://free.nchc.org.tw/gparted-live/testing/RELEASE-NOTES-GParted-live.txt" target=_blank>Release notes</a>
     </td>
-    <td>
+    <td valign="top">
       <a href="http://free.nchc.org.tw/gparted-live/testing/ChangeLog-GParted-live.txt" target=_blank>Changelog</a>
     </td>
-    <td>
+    <td valign="top">
       <a href="http://free.nchc.org.tw/gparted-live/testing/CHECKSUMS.TXT" target=_blank>Checksums</a>
     </td>
   </tr>
