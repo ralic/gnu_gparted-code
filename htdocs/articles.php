@@ -139,6 +139,15 @@ this list then please let me know,
 
 <ul>
   <li class="step">
+    <a href="http://www.softpedia.com/reviews/linux/GParted-Review-387094.shtml">
+    GParted 0.16.2 Review</a><br>
+    by Silviu Stahie on October 1, 2013<br>
+    <a href="http://www.softpedia.com/reviews/linux/GParted-Review-387094.shtml"    title="Softpedia Review Award">
+    <img src="images/softpedia_editor_excellent.gif" border="0"
+     alt="Softpedia Editor Excellent Logo"></a><br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.download3k.com/System-Utilities/File-Disk-Management/Download-GParted.html">
     GParted 0.14.1 Editor's Review</a><br>
     by Tennyson Acker on January 25, 2013<br>
