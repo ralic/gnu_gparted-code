@@ -531,7 +531,7 @@ gnome_menu();
 		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<a href="http://packages.debian.org/search?keywords=hfsprogs" target=new>hfsprogs</a>
+		<a href="http://packages.debian.org/sid/hfsprogs" target=new>hfsprogs</a>
 	</td>
 </tr>
 <tr style="background-color: #dddddd;">
