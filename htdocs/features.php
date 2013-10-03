@@ -768,7 +768,7 @@ gnome_menu();
 		<img src="images/not_supported.png" alt="not supported">
 	</td>
         <td>
-                <a href="https://reiser4.wiki.kernel.org/articles/r/e/i/Reiser4progs.html" target=new>reiser4progs</a>
+                <a href="https://reiser4.wiki.kernel.org/" target=new>reiser4progs</a>
         </td>
 </tr>
 <tr style="background-color: #dddddd;">
@@ -806,7 +806,7 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<a href="https://reiser4.wiki.kernel.org/articles/r/e/i/Reiserfsprogs.html" target=new>reiserfsprogs</a>
+		<a href="https://reiser4.wiki.kernel.org/" target=new>reiserfsprogs</a>
 	</td>
 </tr>
 <tr>
