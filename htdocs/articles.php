@@ -56,6 +56,12 @@ this list then please let me know,
 
 <ul>
   <li class="step">
+    <a href="http://wp.xin.at/archives/1449">
+    Pre-aligning a partition for use on an SSD</a><br>
+    by Michael Lackner on October 10, 2013<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.sitepoint.com/ubuntu-12-04-lts-precise-pangolin-using-gparted-to-partition-a-hard-disk/">
     Ubuntu 12.04 LTS Precise Pangolin: Using GParted to Partition a Hard Disk</a><br>
     by Jonathan Hobson on June 30, 2012<br>
