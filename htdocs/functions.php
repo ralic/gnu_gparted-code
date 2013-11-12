@@ -14,6 +14,15 @@
 function html_head_basic() { ?>
   <link rel="icon" href="images/gparted-16.png" type="image/png">
   <link rel="stylesheet" href="css/default.css" type="text/css">
+<?
+  /* Show canonical link if URL is not for gparted.org */
+  if ( strcasecmp($_SERVER['SERVER_NAME'], 'gparted.org') != 0 )
+  {
+?>
+  <link rel="canonical" href="http://gparted.org<?php echo $_SERVER['REQUEST_URI'] ?>">
+<?
+  }
+?>
   <style type="text/css">
     <!--
     @import url(http://www.google.com/cse/api/branding.css);
