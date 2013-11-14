@@ -1,3 +1,31 @@
+169
+13 November 2013
+GParted Live 0.16.2-11 Stable Release
+<br>
+The GParted team is proud to announce the availability of a new stable
+release of GParted Live.<br>
+<br>
+This release includes a number of improvements over the previous stable
+release including:<br>
+<ul>
+<li>Fix freeze/lock problem at boot menu experienced by some computers
+  (See <a
+  href="http://gparted-forum.surf4.info/viewtopic.php?id=17010">forum
+  post</a>).</li>
+<li>Fix wrong name for Czech locale (<a
+  href="https://bugzilla.gnome.org/show_bug.cgi?id=708589">bug
+  #708589</a>)</li>
+<li>Updated Linux kernel to 3.11.7-1
+<li>Updated boot loader isolinux and syslinux to 6.02 with patches for
+  local boot</li>
+<li>Built with live-build 3</li>
+<li>Based on the Debian Sid repository (as of 2013/Nov/13)</li>
+</ul>
+Thanks goes to Steven Shiau for improving this stable release of
+GParted Live.<br>
+<br>
+Curtis
+---
 168
 23 September 2013
 GParted Live 0.16.2-1b Stable Release
