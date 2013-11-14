@@ -106,7 +106,7 @@ architectures
 
   <tr>
     <td>
-      <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/0.16.2-1b/gparted-live-0.16.2-1b-i486.iso">Download gparted-live-0.16.2-1b-i486.iso</a><br>
+      <a href="http://downloads.sourceforge.net/gparted/gparted-live-0.16.2-11-i486.iso">Download gparted-live-0.16.2-11-i486.iso</a><br>
       <br>
       <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/">Stable directory (.iso/.zip)<br>
         <small>(for i486, i686-pae and amd64 architectures)</small></a>
