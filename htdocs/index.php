@@ -61,15 +61,16 @@ loss, enabling you to:<br>
   </li>
 </ul>
 
+<div class="right">
+  <?
+    include "google/hp-336x280-rhs-near-features.inc";
+  ?>
+</div>
+
 <a name="features"></a>
 <h2>Features</h2>
 <ul>
   <li class="step">Perform actions with partitions such as:
-    <div class="right">
-      <?
-        include "google/hp-336x280-rhs-near-features.inc";
-      ?>
-    </div>
     <ul>
       <li>create or delete</li>
       <li>resize or move</li>
