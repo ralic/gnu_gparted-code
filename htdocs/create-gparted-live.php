@@ -53,7 +53,7 @@ If you want to assign different repositories to download files, you can run some
 create-gparted-live -l en -b u -e e -m http://ftp.us.debian.org/debian -s http://security.debian.org -g http://drbl.sourceforge.net/drbl-core<br>
   <br>
 Or more options you can try (this is how GParted live 0.16.2-12 was created):<br>
-create-gparted-live -o -bt debootstrap -c 'main non-free' -k 'firmware-linux-free firmware-linux firmware-linux-nonfree firmware-bnx2 firmware-bnx2x firmware-qlogic firmware-ralink live-boot=3.0.1-1.drbl4 live-config=3.0.23-1.drbl2 syslinux=3:6.02+dfsg-drbl2 extlinux=3:6.02+dfsg-drbl2 syslinux-common=3:6.02+dfsg-drbl2' -f 686-pae -b unstable -e unstable -d sid -m http://free.nchc.org.tw/debian -s http://free.nchc.org.tw/debian-security -g http://free.nchc.org.tw/drbl-core -i 0.16.2-13-i686-pae -n 3.11-2 -x quiet
+create-gparted-live -bt debootstrap -c 'main non-free' -k 'firmware-linux-free firmware-linux firmware-linux-nonfree firmware-bnx2 firmware-bnx2x firmware-qlogic firmware-ralink live-boot=3.0.1-1.drbl4 live-config=3.0.23-1.drbl2 syslinux=3:6.02+dfsg-drbl2 extlinux=3:6.02+dfsg-drbl2 syslinux-common=3:6.02+dfsg-drbl2' -f 686-pae -b unstable -e unstable -d sid -m http://free.nchc.org.tw/debian -s http://free.nchc.org.tw/debian-security -g http://free.nchc.org.tw/drbl-core -i 0.16.2-13-i686-pae -n 3.11-2 -x quiet
   <br>
   <br>
 For more info, you can run "create-gparted-live --help"<br>
