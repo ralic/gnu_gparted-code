@@ -82,7 +82,10 @@ architectures
     <td valign="top">
     - 64-bit version runs on x86-64 based computers, with ability to
       access more than 4 gigabytes of memory, and supports use of
-      multiple processor cores.
+      multiple processor cores.<br>
+      &nbsp; &nbsp; <b><i>For newer (>2010) computers with UEFI
+      instead of legacy BIOS try this one.</i></b>
+
     </td>
   </tr>
 </table>
