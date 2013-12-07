@@ -19,6 +19,7 @@ gnome_menu();
 <H1>Create GParted live from scratch</H1>
 <p>
 <b>GParted Live</b> is a small bootable GNU/Linux distribution for x86 machine based on Debian live. If you want to create GParted live from scratch, you can follow the following:<br>
+ <font color="red">//NOTE// Due to the changes in Debian Sid repository are very frequent, the following method might need to be adjusted according to the changes.</font>
 <br>
 <ol>
   <li class="step">Boot GParted live on a PC with RAM size larger than 1 GB (GParted live version <a href="http://downloads.sourceforge.net/gparted/gparted-live-0.16.2-12-i686-pae.iso" target=_blank>0.16.2-12</a> is required.)</li>
@@ -43,7 +44,8 @@ Or <br>
 mount -t tmpfs -o "nosuid,size=524288000,mode=1777" tmpfs /tmp
   <li class="step">run command "drbl-prepare-pxelinux"
   <li class="step">Mount a working space (Use Unix/Linux file system. Do not mount FAT or NTFS file system), you need at least 600 MB. e.g. mount /dev/sdb1 /mnt</li>
-  <li class="step">cd /mnt</li>
+  <li class="step">mkdir /mnt/live/</li>
+  <li class="step">cd /mnt/live/</li>
   <li class="step">Edit /usr/sbin/create-gparted-live to meet your need if necessary, e.g. if you want to add some package, you can append the package name in the variable "pkgs" if it exists in the Debian repository. E.g. if you want to add the package "pcmanfm", you can try to search it in the Debian repository by: "apt-cache search pcmanfm". Once you are sure it's in repository, you can add it.</li>
   <li class="step">Run: "/usr/sbin/create-gparted-live" with appropriate options to create GParted live,<br>
 e.g. to use the unstable branch of DRBL and experimental branch of live on drbl repository:<br>
@@ -53,8 +55,10 @@ If you want to assign different repositories to download files, you can run some
 create-gparted-live -l en -b u -e e -m http://ftp.us.debian.org/debian -s http://security.debian.org -g http://drbl.sourceforge.net/drbl-core<br>
   <br>
 Or more options you can try (this is how GParted live 0.16.2-12 was created):<br>
-create-gparted-live -bt debootstrap -c 'main non-free' -k 'firmware-linux-free firmware-linux firmware-linux-nonfree firmware-bnx2 firmware-bnx2x firmware-qlogic firmware-ralink live-boot=3.0.1-1.drbl4 live-config=3.0.23-1.drbl2 syslinux=3:6.02+dfsg-drbl2 extlinux=3:6.02+dfsg-drbl2 syslinux-common=3:6.02+dfsg-drbl2' -f 686-pae -b unstable -e unstable -d sid -m http://free.nchc.org.tw/debian -s http://free.nchc.org.tw/debian-security -g http://free.nchc.org.tw/drbl-core -i 0.16.2-13-i686-pae -n 3.11-2 -x quiet
+<font color="blue">create-gparted-live -bt debootstrap -c 'main non-free' -k 'firmware-linux-free firmware-linux firmware-linux-nonfree firmware-bnx2 firmware-bnx2x firmware-qlogic firmware-ralink live-boot=3.0.1-1.drbl4 live-config=3.0.23-1.drbl2 syslinux=3:6.02+dfsg-drbl2 extlinux=3:6.02+dfsg-drbl2 syslinux-common=3:6.02+dfsg-drbl2' -f 686-pae -b unstable -e unstable -d sid -m http://free.nchc.org.tw/debian -s http://free.nchc.org.tw/debian-security -g http://free.nchc.org.tw/drbl-core -i 0.16.2-12-i686-pae -n 3.11-2 -x quiet</font>
   <br>
+  <br>
+If nothing goes wrong, an iso file <font color=red>gparted-live-0.16.2-12-i686-pae.iso</font> and a zip file <font color=red>gparted-live-0.16.2-12-i686-pae.zip</font> will be created in the dir /mnt/live/. All other files under /mnt/live/ are temp files for troubleshooting, and you can remove them if everything goes smoothly.
   <br>
 For more info, you can run "create-gparted-live --help"<br>
 BTW, in the file "GParted-Live-Version" in the GParted live iso file, you can find the command which was used to create the GParted iso file.
