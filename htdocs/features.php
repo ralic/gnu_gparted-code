@@ -112,11 +112,11 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported">
+		<img src="images/supported.png" alt="supported"><img src="images/supported.png" alt="supported online">
 		<sup><a href="#grow">[2]</a></sup>
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported">
+		<img src="images/supported.png" alt="supported"><img src="images/supported.png" alt="supported online">
 		<sup><a href="#grow">[2]</a></sup>
 	</td>
 	<td>
@@ -268,7 +268,7 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported">
+		<img src="images/supported.png" alt="supported"><img src="images/supported.png" alt="supported online">
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
@@ -307,7 +307,7 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported">
+		<img src="images/supported.png" alt="supported"><img src="images/supported.png" alt="supported online">
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
@@ -548,7 +548,7 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported">
+		<img src="images/supported.png" alt="supported"><img src="images/supported.png" alt="supported online">
 		<sup><a href="#grow">[2]</a></sup>
 	</td>
 	<td>
@@ -627,10 +627,10 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported">
+		<img src="images/supported.png" alt="supported"><img src="images/supported.png" alt="supported online">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported">
+		<img src="images/supported.png" alt="supported"><img src="images/supported.png" alt="supported online">
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
@@ -666,11 +666,11 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported">
+		<img src="images/supported.png" alt="supported"><img src="images/supported.png" alt="supported online">
 		<sup><a href="#grow">[2]</a></sup>
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported">
+		<img src="images/supported.png" alt="supported"><img src="images/supported.png" alt="supported online">
 		<sup><a href="#grow">[2]</a></sup>
 	</td>
 	<td>
@@ -785,7 +785,7 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported">
+		<img src="images/supported.png" alt="supported"><img src="images/supported.png" alt="supported online">
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
@@ -861,7 +861,7 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/supported.png" alt="supported">
+		<img src="images/supported.png" alt="supported"><img src="images/supported.png" alt="supported online">
 		<sup><a href="#grow">[2]</a></sup>
 	</td>
 	<td>
@@ -891,8 +891,9 @@ gnome_menu();
 </table>
 <br>
 <b>Legend:</b><br>
-<img src="images/supported.png" alt="supported"> Supported.<br>
-<img src="images/not_supported.png" alt="not supported"> Not supported.<br>
+<img src="images/supported.png" alt="supported"><img src="images/supported.png" alt="supported online">&nbsp; Supported offline and online.  For example, unmounted and mounted.<br>
+<img src="images/supported.png" alt="supported">&nbsp; &nbsp; &nbsp; Supported offline only.<br>
+<img src="images/not_supported.png" alt="not supported">&nbsp; &nbsp; &nbsp;  Not supported.<br>
 <br>
 <a name="ntfscopy">[1]</a> Copy performed using ntfsclone command.<br>
 <a name="grow">[2]</a> You need kernel support for this file system if you want to grow it (or shrink if shrink is supported).<br>
