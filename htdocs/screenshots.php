@@ -24,10 +24,12 @@ GParted application.  At the bottom of the page is a screen shot of
 the <a href="#gparted-live-boot-menu">GParted Live boot menu</a>.
 <br>
 <br>
-GParted main screen.
+GParted main window displaying disk device partitions.
 <br>
-<a href="screens/gparted_1_big.png" >
-	<img src="screens/gparted_1_small.png" alt="Main screen"></a>
+<a href="screens/gparted-main-window.png">
+  <img src="screens/gparted-main-window.png" width="400px"
+       alt="GParted main window displaying disk device partitions">
+</a>
 <br><br><br>
 
 Main screen with disk information panel.
