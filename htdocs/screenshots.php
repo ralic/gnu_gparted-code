@@ -82,10 +82,12 @@ Create partition table dialog.
 	<img src="screens/gparted_8_small.png" alt="Create partition table"></a>
 <br><br><br>
 
-Features list.
+List of file system supported features.
 <br>
-<a href="screens/gparted_10_big.png" >
-	<img src="screens/gparted_10_small.png" alt="Features"></a>
+<a href="screens/gparted-file-system-support.png">
+  <img src="screens/gparted-file-system-support.png" width="400px"
+       alt="GParted file system supported features">
+</a>
 <br><br><br>
 
 Manage flags dialog.
