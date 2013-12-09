@@ -1,3 +1,25 @@
+170
+9 December 2013
+GParted 0.17.0
+<br>
+This release of GParted adds the ability to perform online resizing
+for systems that support this capability.  Also included are bug fixes
+and language translation updates.
+<br>
+<br>
+Key changes include:
+<ul>
+<li>Add support for online resize<br>
+  - requires patched version of libparted, kernel >= 3.6, and a config flag<br>
+  - See README for more details</li>
+<li>Recognize Linux Swap Suspend and Software RAID partitions</li>
+<li>Fix busy detection for Linux Software RAID and extended partitions</li>
+<li>Fix systemctl runtime mask to prevent automounting partitions</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.17.0/gparted-0.17.0-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 169
 13 November 2013
 GParted Live 0.16.2-11 Stable Release
