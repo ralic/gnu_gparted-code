@@ -1,8 +1,8 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>GParted Manual</title><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><meta name="description" content="GParted is the Gnome Partition Editor for creating, reorganizing, and deleting disk partitions. GParted enables you to change the partition organization while preserving the partition contents."></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div lang="en" class="article" title="GParted Manual"><div class="titlepage"><div><div><h2 class="title"><a name="gparted"></a>GParted Manual</h2></div><div><div class="authorgroup"><div class="author"><h3 class="author"><span class="firstname">Curtis</span> <span class="surname">Gedak</span></h3><div class="affiliation"><span class="orgname">GParted Project<br></span><div class="address"><p><br>
             <code class="email">&lt;<a class="email" href="mailto:gedakc@users.sf.net">gedakc@users.sf.net</a>&gt;</code><br>
           </p></div></div></div></div></div><div><p class="releaseinfo">
-    This manual describes version 0.16.2 of GParted
-    </p></div><div><p class="copyright">Copyright © 2008, 2009, 2010, 2011, 2012, 2013 Curtis Gedak</p></div><div><div class="legalnotice" title="Legal Notice"><a name="idp28416512"></a><p>
+    This manual describes version 0.17.0 of GParted
+    </p></div><div><p class="copyright">Copyright © 2008, 2009, 2010, 2011, 2012, 2013 Curtis Gedak</p></div><div><div class="legalnotice" title="Legal Notice"><a name="idp3070112"></a><p>
       Permission is granted to copy, distribute and/or modify this document
       under the terms of the GNU Free Documentation License, Version 1.2
       or any later version published by the Free Software Foundation;
@@ -11,12 +11,16 @@
       <a class="ulink" href="ghelp:fdl" target="_top">link</a> or at
       <a class="ulink" href="http://www.fsf.org/licensing/licenses/fdl.html" target="_top">http://www.fsf.org/licensing/licenses/fdl.html</a>
       or in the file COPYING-DOCS distributed with this manual.
-      </p></div></div><div><div class="legalnotice" title="Feedback"><a name="idp24965520"></a><p class="legalnotice-title"><b>Feedback</b></p><p>
+      </p></div></div><div><div class="legalnotice" title="Feedback"><a name="idp67120"></a><p class="legalnotice-title"><b>Feedback</b></p><p>
       To report a bug or make a suggestion regarding the
       <span class="application">gparted</span> application or this manual,
       follow the directions at
       <a class="ulink" href="http://gparted.org/bugs.php" target="_top">http://gparted.org/bugs.php</a>.
-      </p></div></div><div><div class="revhistory"><table border="1" width="100%" summary="Revision history"><tr><th align="left" valign="top" colspan="2"><b>Revision History</b></th></tr><tr><td align="left">Revision GParted Manual V1.5</td><td align="left">September 2013</td></tr><tr><td align="left" colspan="2">
+      </p></div></div><div><div class="revhistory"><table border="1" width="100%" summary="Revision history"><tr><th align="left" valign="top" colspan="2"><b>Revision History</b></th></tr><tr><td align="left">Revision GParted Manual V1.6</td><td align="left">December 2013</td></tr><tr><td align="left" colspan="2">
+          <p class="author">Curtis Gedak</p>
+          <p class="publisher">GParted Project</p>
+          <p class="annotations">Describes version 0.17.0 of GParted</p>
+        </td></tr><tr><td align="left">Revision GParted Manual V1.5</td><td align="left">September 2013</td></tr><tr><td align="left" colspan="2">
           <p class="author">Curtis Gedak</p>
           <p class="publisher">GParted Project</p>
           <p class="annotations">Describes version 0.16.2 of GParted</p>
@@ -322,8 +326,8 @@
         display area and the text display area in the
         <span class="application">gparted</span> window.
         </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
-          Partition operations such as delete, resize, move, copy,
-          format, check, and label require the partition to be 
+          Partition operations such as delete, move, copy, format,
+          check, label, and often resize require the partition to be
           unmounted.
           See <a class="xref" href="#gparted-unmount-partition" title="Unmounting a Partition">the section called &#8220;Unmounting a Partition&#8221;</a>.
           </p></div></div><div class="sect3" title="Selecting Unallocated Space"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-select-unallocated"></a>Selecting Unallocated Space</h4></div></div></div><p>
@@ -648,8 +652,9 @@
           </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
             Examples of uses for some file systems are as follows:
               </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
-                  <span class="guimenuitem">ext2</span>, and
-                  <span class="guimenuitem">ext3</span> file systems can be
+                  <span class="guimenuitem">ext2</span>,
+                  <span class="guimenuitem">ext3</span> and
+                  <span class="guimenuitem">ext4</span> file systems can be
                   used for installing GNU/Linux, and for data.
                   </p></li><li class="listitem"><p>
                   <span class="guimenuitem">linux-swap</span> can be used with
@@ -688,9 +693,16 @@
         </p><p>
         To resize a partition:
           </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
-              Select an unmounted partition.
+              Select a partition.
               See <a class="xref" href="#gparted-select-partition" title="Selecting a Partition">the section called &#8220;Selecting a Partition&#8221;</a>.
-              </p></li><li class="listitem"><p>
+              </p><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+                Unmounted or inactive partitions enable the most
+                resize options.
+                </p><p>
+                Support is available for online resize of some
+                mounted or otherwise active partitions.  However this
+                support is often limited to grow only.
+                </p></div></li><li class="listitem"><p>
               Choose:
               <span class="guimenu">Partition</span> &#8594; <span class="guimenuitem">Resize/Move</span>.
               The application displays the
@@ -702,6 +714,9 @@
               </p><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
                 If you do not want the start of an existing partition
                 to move, then do not change the <span class="guilabel">free space
+                preceding</span> value.  If the partition is
+                mounted or otherwise active, then you will not be able
+                to change the <span class="guilabel">free space
                 preceding</span> value.
                 </p></div></li><li class="listitem"><p>
               Specify the alignment of the partition.
