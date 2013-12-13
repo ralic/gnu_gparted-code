@@ -1,3 +1,34 @@
+171
+13 December 2013
+GParted Live 0.17.0-1 Stable Release
+<br>
+The GParted team is proud to announce a new stable release of
+GParted Live.<br>
+<br>
+This release marks the first time that GParted can resize some file
+systems (btrfs, ext3, ext4, jfs, lvm2 pv, nilfs2 reiserfs, and xfs)
+while these are online (mounted).  A big thanks goes to Phillip Susi
+for the updates needed to enable online partition resizing.  This
+release also includes a number of bug fixes and language translation
+updates.<br>
+<br>
+Items of note include:<br>
+<ul>
+<li>Based on the Debian Sid repository (as of 2013/Dec/13)</li>
+<li>Updated Linux kernel to 3.11.10-1</li>
+<li>Includes GParted 0.17.0 which includes:
+  <ul>
+    <li>Add support for online resize</li>
+    <li>Recognize Linux Swap Suspend and Software RAID partitions</li>
+    <li>Fix busy detection for Linux Software RAID and extended partitions</li>
+    <li>Turn on resize2fs progress bar</li>
+  </ul>
+</li>
+</ul>
+Thanks goes to Steven Shiau for creating this enhanced live image.<br>
+<br>
+Curtis
+---
 170
 9 December 2013
 GParted 0.17.0
@@ -37,7 +68,7 @@ release including:<br>
 <li>Fix wrong name for Czech locale (<a
   href="https://bugzilla.gnome.org/show_bug.cgi?id=708589">bug
   #708589</a>)</li>
-<li>Updated Linux kernel to 3.11.7-1
+<li>Updated Linux kernel to 3.11.7-1</li>
 <li>Updated boot loader isolinux and syslinux to 6.02 with patches for
   local boot</li>
 <li>Built with live-build 3</li>
