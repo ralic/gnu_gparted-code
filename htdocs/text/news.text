@@ -6,7 +6,7 @@ The GParted team is proud to announce a new stable release of
 GParted Live.<br>
 <br>
 This release marks the first time that GParted can resize some file
-systems (btrfs, ext3, ext4, jfs, lvm2 pv, nilfs2 reiserfs, and xfs)
+systems (btrfs, ext3, ext4, jfs, lvm2 pv, nilfs2, reiserfs, and xfs)
 while these are online (mounted).  A big thanks goes to Phillip Susi
 for the updates needed to enable online partition resizing.  This
 release also includes a number of bug fixes and language translation
