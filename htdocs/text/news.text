@@ -1,3 +1,26 @@
+172
+8 January 2014
+GParted Live 0.17.0-4 Stable Release
+<br>
+A new stable release of GParted Live is available.<br>
+<br>
+This is a bug fix release that addresses boot problems some computers
+experienced with GParted Live 0.17.0-1.<br>
+<br>
+Items of note include:<br>
+<ul>
+<li>Based on the Debian Sid repository (as of 2013/Dec/29)</li>
+<li>Updated Linux kernel to 3.12.6-1</li>
+<li>Fixed boot problem with some some live images
+  (<a href="https://bugzilla.gnome.org/show_bug.cgi?id=720955">Bug
+  720955</a>)
+</li>
+</ul>
+Thanks goes to Steven Shiau for addressing the GParted Live boot
+issues.<br>
+<br>
+Curtis
+---
 171
 13 December 2013
 GParted Live 0.17.0-1 Stable Release
