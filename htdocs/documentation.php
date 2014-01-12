@@ -30,6 +30,7 @@ gnome_menu();
       <td valign="top">
         <a href="display-doc.php?name=help-manual&lang=cs">České</a>,
         <a href="display-doc.php?name=help-manual&lang=de">Deutsch</a>,
+        <a href="display-doc.php?name=help-manual&lang=el">ελληνικά</a>,
         <a href="display-doc.php?name=help-manual&lang=es">Español</a>,
         <a href="display-doc.php?name=help-manual&lang=fr">Français</a>,
         <a href="display-doc.php?name=help-manual&lang=it">Italiano</a>,
