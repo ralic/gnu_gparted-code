@@ -30,8 +30,9 @@ gnome_menu();
       <b>Maintainer of the LiveCD (since March 2008)</b> <br>
       <a href="mailto:steven_shiau&#064;users.sourceforge.net">Steven Shiau</a><br>
       <br>
-      <b>Previous Creator of GParted Docs and previous LiveCD maintainer</b> <br>
-      Laurent de Trogoff (LarryT - inactive) <br>
+      <b>Tester</b>
+      - Previous roles: first GParted docs creator, LiveCD maintainer, and project administrator <br>
+      Laurent de Trogoff (LarryT) <br>
       <br>
       <b>Consultant to GParted</b> <br>
       <a href="mailto:fdupoux&#064;users.sourceforge.net">Fran&ccedil;ois Dupoux</a> <br>
