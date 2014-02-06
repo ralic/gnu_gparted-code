@@ -41,6 +41,14 @@ The source code for GParted is managed under the GNOME git repository.<br>
 See the <a href="git.php">GParted git</a> page for more information.
 </p>
 
+<h2>Dependencies</h2>
+<p>
+A list of dependencies required to build GParted from source code can
+be found in the "Building from Source" section of
+the <a href="http://git.gnome.org/browse/gparted/tree/README">README</a>
+file.
+</p>
+
 <h2>Releases</h2>
 <p>
 Plans for new releases of GParted can be found in
