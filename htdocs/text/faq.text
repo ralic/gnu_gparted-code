@@ -32,7 +32,12 @@ Get Parted from <a href="http://www.gnu.org/software/parted/#downloading" target
 <br>
 and Gtkmm from <a href="http://gtkmm.org/download.shtml" target="new">http://gtkmm.org/</a><br>
 <br>
-Also, several file systems are supported through their native tools. See the <a href="features.php">features page</a> for more information on these tools.
+Also, several file systems are supported through their native tools. See the <a href="features.php">features page</a> for more information on these tools.<br>
+<br>
+For a more detailed list of package dependencies, see the "Building
+from Source" section of the <a
+href="http://git.gnome.org/browse/gparted/tree/README">README</a>
+file.
 ---
 6
 Is it safe?
