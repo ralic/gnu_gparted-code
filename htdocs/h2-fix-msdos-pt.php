@@ -395,10 +395,10 @@ application is included on <a href="livecd.php">GParted Live</a>.
     partition sda2 is correct.  Hence we need to change the end sector
     of primary partition sda1.<br>
     <br>
-    The new end sector of sda2 should be the start of sda1 minus one
+    The new end sector of sda1 should be the start of sda2 minus one
     sector.<br>
-    <i>* For logical partitions we would need to subtract an
-    additional two (2) sectors.</i>
+    <i>* For logical partitions we would need to subtract at
+    least two (2) sectors.</i>
     <pre>
     new sda1 end = (sda2 start) - 1
                  = 81915435 - 1
