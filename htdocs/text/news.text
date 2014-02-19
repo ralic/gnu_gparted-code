@@ -3,9 +3,9 @@
 GParted 0.18.0
 <br>
 This release of GParted fixes a resize/move problem introduced in
-0.16.2 that could affect ext2/3/4, ntfs, and reiserfs file systems in
-certain situations.  Also included are bug fixes and language
-translation updates.
+0.16.2 that set partition size smaller than ext2/3/4, ntfs, and
+reiserfs file systems in certain situations.  Also included are bug
+fixes and language translation updates.
 <br>
 <br>
 Key changes include:
