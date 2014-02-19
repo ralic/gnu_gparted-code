@@ -98,6 +98,44 @@ gnome_menu();
 		<b>Required software</b>
 	</th>
 </tr>
+<tr style="background-color: #dddddd;">
+	<th>
+		<b>bitlocker</b>
+	</th>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<br>
+	</td>
+</tr>
 <tr>
 	<th>
 		<b>btrfs</b>
