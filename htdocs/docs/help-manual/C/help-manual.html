@@ -1,8 +1,8 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>GParted Manual</title><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><meta name="description" content="GParted is the Gnome Partition Editor for creating, reorganizing, and deleting disk partitions. GParted enables you to change the partition organization while preserving the partition contents."></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div lang="en" class="article" title="GParted Manual"><div class="titlepage"><div><div><h2 class="title"><a name="gparted"></a>GParted Manual</h2></div><div><div class="authorgroup"><div class="author"><h3 class="author"><span class="firstname">Curtis</span> <span class="surname">Gedak</span></h3><div class="affiliation"><span class="orgname">GParted Project<br></span><div class="address"><p><br>
             <code class="email">&lt;<a class="email" href="mailto:gedakc@users.sf.net">gedakc@users.sf.net</a>&gt;</code><br>
           </p></div></div></div></div></div><div><p class="releaseinfo">
-    This manual describes version 0.17.0 of GParted
-    </p></div><div><p class="copyright">Copyright © 2008, 2009, 2010, 2011, 2012, 2013 Curtis Gedak</p></div><div><div class="legalnotice" title="Legal Notice"><a name="idp3070112"></a><p>
+    This manual describes version 0.18.0 of GParted
+    </p></div><div><p class="copyright">Copyright © 2008, 2009, 2010, 2011, 2012, 2013, 2014 Curtis Gedak</p></div><div><div class="legalnotice" title="Legal Notice"><a name="idp2534224"></a><p>
       Permission is granted to copy, distribute and/or modify this document
       under the terms of the GNU Free Documentation License, Version 1.2
       or any later version published by the Free Software Foundation;
@@ -11,12 +11,16 @@
       <a class="ulink" href="ghelp:fdl" target="_top">link</a> or at
       <a class="ulink" href="http://www.fsf.org/licensing/licenses/fdl.html" target="_top">http://www.fsf.org/licensing/licenses/fdl.html</a>
       or in the file COPYING-DOCS distributed with this manual.
-      </p></div></div><div><div class="legalnotice" title="Feedback"><a name="idp67120"></a><p class="legalnotice-title"><b>Feedback</b></p><p>
+      </p></div></div><div><div class="legalnotice" title="Feedback"><a name="idp127264"></a><p class="legalnotice-title"><b>Feedback</b></p><p>
       To report a bug or make a suggestion regarding the
       <span class="application">gparted</span> application or this manual,
       follow the directions at
       <a class="ulink" href="http://gparted.org/bugs.php" target="_top">http://gparted.org/bugs.php</a>.
-      </p></div></div><div><div class="revhistory"><table border="1" width="100%" summary="Revision history"><tr><th align="left" valign="top" colspan="2"><b>Revision History</b></th></tr><tr><td align="left">Revision GParted Manual V1.6</td><td align="left">December 2013</td></tr><tr><td align="left" colspan="2">
+      </p></div></div><div><div class="revhistory"><table border="1" width="100%" summary="Revision history"><tr><th align="left" valign="top" colspan="2"><b>Revision History</b></th></tr><tr><td align="left">Revision GParted Manual V1.7</td><td align="left">February 2014</td></tr><tr><td align="left" colspan="2">
+          <p class="author">Curtis Gedak</p>
+          <p class="publisher">GParted Project</p>
+          <p class="annotations">Describes version 0.18.0 of GParted</p>
+        </td></tr><tr><td align="left">Revision GParted Manual V1.6</td><td align="left">December 2013</td></tr><tr><td align="left" colspan="2">
           <p class="author">Curtis Gedak</p>
           <p class="publisher">GParted Project</p>
           <p class="annotations">Describes version 0.17.0 of GParted</p>
@@ -161,16 +165,13 @@
       <span class="guimenu">View</span> &#8594; <span class="guimenuitem">File System Support</span>.
       The application displays the <span class="guilabel">File System Support</span>
       dialog.
-      </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
-          To view details about the chart, click <span class="guibutton">Legend</span>.
-          The application displays more information about the chart.
-          </p></li><li class="listitem"><p>
-          If you have installed software while
-          <span class="application">gparted</span> is running,
-          click <span class="guibutton">Rescan For Supported Actions</span>
-          to refresh the chart.
-          The application refreshes the display of the chart.
-          </p></li></ul></div><p>
+      </p><p>
+      If you have installed software while
+      <span class="application">gparted</span> is running,
+      click <span class="guibutton">Rescan For Supported Actions</span>
+      to refresh the chart.
+      The application refreshes the display of the chart.
+      </p><p>
       To close the <span class="guilabel">File System Support</span> dialog,
       click <span class="guibutton">Close</span>.
       </p></div><div class="sect1" title="Working with Devices"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-devices"></a>Working with Devices</h2></div></div></div><div class="sect2" title="Selecting a Device"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-select-device"></a>Selecting a Device</h3></div></div></div><p>
@@ -212,10 +213,19 @@
             <span class="guilabel">Create partition table on <em class="replaceable"><code>/path-to-device</code></em></span>
             dialog.
             </p></li><li class="listitem"><p>
-            If you want a partition table other than msdos, click
-            <span class="guibutton">Advanced</span> and select a partition table type
-            from the list.
-            </p></li><li class="listitem"><p>
+            Optionally select a different partition table type from the
+            list.
+            </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+              The default partition table type is
+              <span class="guimenuitem">msdos</span> for disks smaller than 2
+              Tebibytes in size (assuming a 512 byte sector size) and
+              <span class="guimenuitem">gpt</span> for disks 2 Tebibytes and
+              larger.
+              </p><p>
+              See <a class="xref" href="#gparted-specify-partition-type" title="Specifying Partition Type">the section called &#8220;Specifying Partition Type&#8221;</a> for
+              <span class="guimenuitem">msdos</span> partition table
+              limitations.
+              </p></div></li><li class="listitem"><p>
             Click <span class="guibutton">Apply</span> to create the new partition table.
             The application writes the new partition table to the disk device.
             The application refreshes the device partition layout in the
@@ -638,9 +648,9 @@
                   Some GNU/Linux distributions support accessing at most
                   15 partitions on a disk device.
                   </p></li><li class="listitem"><p>
-                  Maximum size of a partition is 2 Terabytes using
+                  Maximum size of a partition is 2 Tebibytes using
                   a sector size of 512 bytes.  The partition must also
-                  start within the first 2 Terabytes of the disk device.
+                  start within the first 2 Tebibytes of the disk device.
                   </p></li></ul></div><p>
             </p></div><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
             Primary partitions provide better data recoverability
