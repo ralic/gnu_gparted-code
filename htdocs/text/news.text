@@ -1,3 +1,30 @@
+174
+20 February 2014
+GParted Live 0.18.0-1 Stable Release
+<br>
+The GParted team is proud to announce a new stable release of
+GParted Live.<br>
+<br>
+This live image contains GParted 0.18.0 which fixes a resize/move
+problem introduced in 0.16.2 that might set partition size smaller
+than ext2/3/4, ntfs, and reiserfs file systems in certain situations.<br>
+<br>
+Items of note include:<br>
+<ul>
+<li>Based on the Debian Sid repository (as of 2014/Feb/18)</li>
+<li>Includes GParted 0.18.0 which includes:
+  <ul>
+    <li>Fix partition size less than ext2/3/4, ntfs, reiserfs file system</li>
+    <li>Prevent crash when creating new partition on disk with loop label</li>
+    <li>Fix default partition table can not handle > 2 TiB disks</li>
+    <li>Add BitLocker disk encryption detection</li>
+  </ul>
+</li>
+</ul>
+Thanks goes to Steven Shiau for creating this enhanced live image.<br>
+<br>
+Curtis
+---
 173
 19 February 2014
 GParted 0.18.0
