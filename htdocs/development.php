@@ -106,8 +106,22 @@ minimum screen resolution.
 <h2>Coding Style</h2>
 <p>
 There are no hard and fast coding standards for GParted.  For now we
-prefer code enhancements to match the surrounding coding style.
+prefer code enhancements to match the surrounding coding style.<br>
+<br>
+Having said that, the existing code base contains a mixture of
+indentation and alignment schemes which use various combinations of
+tabs and spaces.  This is messy.<br>
+<br>
+For patches and for new code we prefer to use tabs for indentation and
+spaces for alignment.  For details on this "smart tab" alignment
+scheme, please refer to the following links:
 </p>
+<ul>
+  <li><a href="http://www.emacswiki.org/SmartTabs">Smart Tabs in
+    Emacs</a></li>
+  <li><a href="http://vim.wikia.com/wiki/Indent_with_tabs,_align_with_spaces">Indent
+    with Tabs, Align with Spaces in Vim</a></li>
+</ul>
 
 <h2>Artwork</h2>
 <p>
