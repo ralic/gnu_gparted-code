@@ -169,6 +169,10 @@ gparted.
 <BR>
 <A href="http://thestarman.pcministry.com/asm/mbr/NTFSBR.htm">NTFS Boot Record Secrets</A>
 <BR>
+<A href="http://blog.uncooperative.org/blog/2014/02/06/the-efi-system-partition/">The EFI System Partition and the Default Boot Behavior</A>
+<BR>
+<A href="https://www.happyassassin.net/2014/01/25/uefi-boot-how-does-that-actually-work-then/">UEFI boot: how does that actually work, then?</A>
+<BR>
 </P>
 </div>
 
