@@ -1,3 +1,34 @@
+175
+10 April 2014
+GParted Live 0.18.0-2 Stable Release
+<br>
+The GParted team is proud to announce another stable release of
+GParted Live.<br>
+<br>
+This live image fixes a bug with the ssh host key protocol ed25519 not
+being generated during boot.  Thanks goes to Alexandros Manoussakis
+for discovering this bug and suggesting some additional commands.<br>
+<br>
+Items of note include:<br>
+<ul>
+<li>Based on the Debian Sid repository (as of 2014/Apr/10)</li>
+<li>Updated Linux kernel to 3.13.7-1</li>
+<li>Updated grub to 2.02~beta2-8</li>
+<li>Added the following commands:<br>
+  <ul>
+    <li>screen - screen manager with VT100/ANSI terminal emulation</li>
+    <li>rsync - a fast, versatile, remote (and local) file-copying tool</li>
+    <li>ping - check network connectivity to another host on a network</li>
+    <li>telnet - communicate with another host using the TELNET protocol</li>
+    <li>traceroute - print the route packets trace to network host</li>
+    <li>bc - an arbitrary precision calculator language</li>
+  </ul>
+</li>
+</ul>
+Thanks goes to Steven Shiau for building this live image.<br>
+<br>
+Curtis
+---
 174
 20 February 2014
 GParted Live 0.18.0-1 Stable Release
