@@ -209,6 +209,7 @@ To view all of the included packages you can either:<br>
 or<br>
  &nbsp; &nbsp; view the file "live/packages.txt" file inside the
  GParted Live iso file or zip file.<br>
+</p>
 
 </div>
 
