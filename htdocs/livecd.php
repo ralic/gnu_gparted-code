@@ -68,6 +68,18 @@ For other installations, please refer to the following documents:<br>
 <a href="create-gparted-live.php">Create your own custom GParted Live
 from scratch</a><br>
 </p>
+
+<h2>Usage Instructions</h2>
+<p>
+See the <a href="display-doc.php?name=gparted-live-manual">GParted
+Live Manual</a> for instructions on how to use the Live image.<br>
+See the <a href="display-doc.php?name=help-manual">GParted Manual</a>
+for instructions on how to use the application for partitioning
+tasks.<br>
+See the <a href="documentation.php">documentation</a> page for copies
+of the GParted Manual in other languages.
+</p>
+
 <h2>Accounts in GParted live</h2>
 <p>
 GParted live is based on <a href="http://live.debian.net/" target=_blank>Debian live</a>, and the default account is "user", with password "live". There is no root password, so if you need root privileges, login as "user", then run "sudo" to get root privileges. 
