@@ -81,11 +81,30 @@ You can find the available boot parameters for GParted live <a href="./gparted-l
 <p>
 GParted Live includes additional packages, such as:<br>
 </p>
+<h3>Graphical Utilities</h3>
+<p>
+Right click on the desktop to access a pop-up menu.
+</p>
 <table border=0>
   <tr>
-    <td><a href="http://mlterm.sourceforge.net/">mlterm</a></td>
-    <td>- Multilingual terminal emulator (provides access to command line)</td>
+    <td><a href="http://wiki.lxde.org/en/LXTerminal">lxterminal</a></td>
+    <td>- Terminal emulator (provides access to command line)</td>
   </tr>
+  <tr>
+    <td><a href="http://pcmanfm.sourceforge.net/">pcmanfm</a></td>
+    <td>- Graphical file manager</td>
+  </tr>
+  <tr>
+    <td><a href="http://tarot.freeshell.org/leafpad/">leafpad</a></td>
+    <td>- Graphical text editor</td>
+  </tr>
+  <tr>
+    <td><a href="http://www.netsurf-browser.org/">netsurf</a></td>
+    <td>- Small web browser</td>
+  </tr>
+</table>
+<h3>Command Line Utilities</h3>
+<table border=0>
   <tr>
     <td><a href="http://www.fsarchiver.org/">fsarchiver</a></td>
     <td>- File system archiver and restorer<br></td>
@@ -107,20 +126,12 @@ GParted Live includes additional packages, such as:<br>
     <td>- GRand Unified Bootloader for restoring GRUB 2 boot loader<br></td>
   </tr>
   <tr>
-    <td><a href="http://pcmanfm.sourceforge.net/">pcmanfm</a></td>
-    <td>- Graphical file manager</td>
-  </tr>
-  <tr>
     <td><a href="http://www.gnu.org/software/mc/">mc</a></td>
     <td>- Text based file manager known as Midnight Commander</td>
   </tr>
   <tr>
-    <td><a href="http://tarot.freeshell.org/leafpad/">leafpad</a></td>
-    <td>- Graphical text editor</td>
-  </tr>
-  <tr>
     <td><a href="http://www.nano-editor.org/">nano</a></td>
-    <td>- Text based text editor</td>
+    <td>- Text editor</td>
   </tr>
   <tr>
     <td><a href="http://www.vim.org/">vim-tiny</a></td>
@@ -128,35 +139,55 @@ GParted Live includes additional packages, such as:<br>
   </tr>
   <tr>
     <td><a href="http://www.gnu.org/software/parted/">parted</a></td>
-    <td>- Partition table editor (command line based)</td>
+    <td>- Partition table editor</td>
   </tr>
   <tr>
     <td><a href="http://en.wikipedia.org/wiki/Util-linux">fdisk</a></td>
-    <td>- MSDOS partition table editor (command line based)</td>
+    <td>- MSDOS partition table editor</td>
   </tr>
   <tr>
     <td><a href="http://en.wikipedia.org/wiki/Util-linux">sfdisk</a></td>
-    <td>- MSDOS partition table editor also useful to save/restore partition table to/from a file (command line based)</td>
+    <td>- MSDOS partition table editor also useful to save/restore partition table to/from a file</td>
   </tr>
   <tr>
     <td><a href="http://sourceforge.net/projects/gptfdisk/">gdisk</a></td>
-    <td>- GPT partition table editor (command line based)</td>
+    <td>- GPT partition table editor</td>
   </tr>
   <tr>
     <td><a href="http://www.rodsbooks.com/gdisk/sgdisk.html">sgdisk</a></td>
-    <td>- GPT partition table editor also useful to save/restore partition table to/from a file (command line based)</td>
+    <td>- GPT partition table editor also useful to save/restore partition table to/from a file</td>
   </tr>
   <tr>
     <td><a href="http://packages.debian.org/sid/gptsync">gptsync</a></td>
-    <td>- GPT and MSDOS partition tables synchronization tool useful for Mac OS X users (command line based)</td>
+    <td>- GPT and MSDOS partition tables synchronization tool useful for Mac OS X users</td>
   </tr>
   <tr>
     <td><a href="http://www.openssh.com/">openssh</a></td>
     <td>- Secure shell (ssh) connectivity tool suite</td>
   </tr>
   <tr>
-    <td><a href="http://www.netsurf-browser.org/">netsurf</a></td>
-    <td>- Small web browser</td>
+    <td><a href="http://www.rackaid.com/blog/linux-screen-tutorial-and-how-to/">screen</a></td>
+    <td>- Screen manager with VT100/ANSI terminal emulation</td>
+  </tr>
+  <tr>
+    <td><a href="http://linux.die.net/man/8/ping">ping</a></td>
+    <td>- Check network connectivity to another host on a network</td>
+  </tr>
+  <tr>
+    <td><a href="http://linux.die.net/man/1/rsync">rsync</a></td>
+    <td>- Fast, versatile, remote (and local) file-copying tool</td>
+  </tr>
+  <tr>
+    <td><a href="http://linux.die.net/man/1/telnet">telnet</a></td>
+    <td>- Communicate with another host using the TELNET protocol</td>
+  </tr>
+  <tr>
+    <td><a href="http://linux.die.net/man/8/traceroute">traceroute</a></td>
+    <td>- Print the route packets trace to network host</td>
+  </tr>
+  <tr>
+    <td><a href="http://linux.die.net/man/1/bc">bc</a></td>
+    <td>- Arbitrary precision calculator language</td>
   </tr>
 </table>
 <p>
