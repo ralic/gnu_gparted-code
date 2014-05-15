@@ -540,7 +540,7 @@ application is included on <a href="livecd.php">GParted Live</a>.<br>
 If the problem occurs with the extended partition, then you might
 consider using
 the <a href="http://www.rodsbooks.com/fixparts/">fixparts</a>
-application.  The fixparts application is also inclulded
+application.  The fixparts application is also included
 on <a href="livecd.php">GParted Live</a>.<br>
 </p>
 
