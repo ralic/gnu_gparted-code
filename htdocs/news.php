@@ -1,8 +1,9 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
 <?
 include "functions.php";
-
+webpage_init();
+?>
+<html>
+<?
 if ( ! empty( $_GET["item"] ) ) {
 	if ( is_numeric( $_GET["item"] ) ) {
 		//Numeric item specified

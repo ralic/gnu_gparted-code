@@ -1,8 +1,8 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
 <?
 include "functions.php";
+webpage_init();
 ?>
+<html>
 
 <head>
   <title>GParted -- How to Help</title>
