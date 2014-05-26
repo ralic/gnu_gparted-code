@@ -37,8 +37,8 @@ deb http://ftp.us.debian.org/debian/ sid main contrib non-free # Or any Debian m
     (By doing this, we can avoid this error: "iconv: conversion to `latin1' is not supported" when creating GParted live by live helper because /usr/lib/gconv/ was removed when GParted live was created)
   </li>
   <li class="step">apt-get install live-build=3.0.5-1.drbl5 debootstrap drbl clonezilla zip bzip2 rsync genisoimage binutils xz-utils cpio bc initramfs-tools pxelinux isolinux
-  <li>export PATH=$PATH:/usr/share/drbl/sbin/:/usr/share/drbl/bin/</li>
-  <li>If the available space in dir /tmp/ is less than 500 MB, tune it to be larger than 500 MB. You can make it by the commands like:<br>
+  <li class="step">export PATH=$PATH:/usr/share/drbl/sbin/:/usr/share/drbl/bin/</li>
+  <li class="step">If the available space in dir /tmp/ is less than 500 MB, tune it to be larger than 500 MB. You can make it by the commands like:<br>
 mount -t tmpfs -o "nosuid,size=60%,mode=1777" tmpfs /tmp<br>
 Or <br>
 mount -t tmpfs -o "nosuid,size=524288000,mode=1777" tmpfs /tmp
@@ -55,7 +55,7 @@ If you want to assign different repositories to download files, you can run some
 create-gparted-live -l en -b u -e e -m http://ftp.us.debian.org/debian -s http://security.debian.org -g http://drbl.sourceforge.net/drbl-core<br>
   <br>
 Or more options you can try (this is how GParted live 0.18.0-2 was created):<br>
-<font color="blue">create-gparted-live -bt debootstrap -c 'main non-free' -k 'firmware-linux-free firmware-linux firmware-linux-nonfree firmware-bnx2 firmware-bnx2x firmware-qlogic firmware-ralink live-boot=3.0.1-1.drbl4 live-boot-initramfs-tools=3.0.1-1.drbl4 live-config=3.0.23-1.drbl8 live-config-sysvinit=3.0.23-1.drbl8 syslinux=3:6.03~pre11+drbl-1 extlinux=3:6.03~pre11+drbl-1 syslinux-common=3:6.03~pre11+drbl-1' -f 686-pae -b unstable -e unstable -d sid -m http://free.nchc.org.tw/debian -s http://free.nchc.org.tw/debian-security -g http://free.nchc.org.tw/drbl-core -y 6.03-pre11 -i 0.18.0-2-i686-pae -n 3.14-1 -x quiet
+<font color="blue">create-gparted-live -bt debootstrap -c 'main non-free' -k 'firmware-linux-free firmware-linux firmware-linux-nonfree firmware-bnx2 firmware-bnx2x firmware-qlogic firmware-ralink live-boot=3.0.1-1.drbl4 live-boot-initramfs-tools=3.0.1-1.drbl4 live-config=3.0.23-1.drbl8 live-config-sysvinit=3.0.23-1.drbl8 syslinux=3:6.03~pre11+drbl-1 extlinux=3:6.03~pre11+drbl-1 syslinux-common=3:6.03~pre11+drbl-1' -f 686-pae -b unstable -e unstable -d sid -m http://free.nchc.org.tw/debian -s http://free.nchc.org.tw/debian-security -g http://free.nchc.org.tw/drbl-core -y 6.03-pre11 -i 0.18.0-2-i686-pae -n 3.14-1 -x quiet</font>
   <br>
   <br>
 If nothing goes wrong, an iso file <font color=red>gparted-live-0.18.0-2-i686-pae.iso</font> and a zip file <font color=red>gparted-live-0.18.0-2-i686-pae.zip</font> will be created in the dir /mnt/live/. All other files under /mnt/live/ are temp files for troubleshooting, and you can remove them if everything goes smoothly.
