@@ -1,15 +1,23 @@
 <?
 /* Functions used across web site:
  *
+ * webpage_init()       - Webpage initialization
  * html_head_basic()    - HTML header meta data
  * html_head()          - HTML header
  * gnome_head()         - Page header
  * gnome_foot_wo_ads()  - Page footer without ads
- * gnome_foot()         - Page footer without ads
+ * gnome_foot()         - Page footer
  * gnome_menu_wo_ads()  - Page Menu without ads
  * gnome_menu()         - Page Menu
  * menu_entries()       - Only used internally to functions.php
  */
+
+function webpage_init() {
+  /* Attempt to prevent clickjacking (page displayed in other site iframe) */
+  header('X-Frame-Options: SAMEORIGIN'); ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<?
+}
 
 function html_head_basic() { ?>
   <link rel="icon" href="images/gparted-16.png" type="image/png">
