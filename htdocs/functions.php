@@ -50,6 +50,13 @@ function html_head() { ?>
 }
 
 function gnome_head() { ?>
+<script type="text/javascript">
+  // Stop iFrame loading on older browsers
+  if ( top != self ) {
+    top.location.replace(document.location);
+    alert("iFrame not allowed; click OK to load this page without iFrame.");
+  }
+</script>
 <div class="hdr">
 	<a href="index.php"><img class="logo" src="images/gparted-64x42.png" alt="home" title="back to home page"></a>
 	<div class="hdrtitle">
