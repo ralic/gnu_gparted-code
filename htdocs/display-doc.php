@@ -126,22 +126,42 @@ else
 <div class="body">
 <?
   gnome_head();
-  gnome_menu();
+  // Only display ads on pages that do not begin with 'debian'.
+  if ( ! preg_match('/^debian/', $name ) )
+  {
+    gnome_menu();
+  }  else {
+    gnome_menu_wo_ads();
+  }
 ?>
 
 <div class="content">
+<?
+  // Only display ads on pages that do not begin with 'debian'.
+  if ( ! preg_match('/^debian/', $name ) )
+  {
+?>
   <div class="right">
     <?
       include "google/ddp-300x250-rhs-near-top.inc";
     ?>
   </div>
 <?
+  }
   echo $doc_error;
   echo $filecontents;
 ?>
 </div>
 
-<? gnome_foot() ?>
+<?
+  // Only display ads on pages that do not begin with 'debian'.
+  if ( ! preg_match('/^debian/', $name ) )
+  {
+    gnome_foot();
+  } else {
+    gnome_foot_wo_ads();
+  }
+ ?>
 
 </div>
 </body>
