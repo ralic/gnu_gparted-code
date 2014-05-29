@@ -28,7 +28,7 @@ Different boot loaders use different config files for the boot parameters:
 <p>
 GParted live is based on <a href="http://wiki.debian.org/DebianLive/" target=_blank>Debian live</a> with GParted installed. Therefore there are 2 kinds of boot parameters:
 <ol>
-<li>Boot parameters from Debian live-boot and live-config. You can refer to the <a href="boot-parameters/live-boot.php">manual of live-boot</a> and <a href="boot-parameters/live-config.php">manual of live-config.</a>.
+<li>Boot parameters from Debian live-boot and live-config. You can refer to the <a href="display-doc.php?name=debian-live-boot">manual of live-boot</a> and <a href="display-doc.php?name=debian-live-config">manual of live-config.</a>.
 <li>Boot parameters specially for GParted. All of them are named as "gl__*", they are: gl-debug, gl_numlk, gl_capslk, gl_batch. 
   <ul>
   <li>gl-debug is for you to enter command line prompt before any GParted-related action is run. This is easier for you to debug.

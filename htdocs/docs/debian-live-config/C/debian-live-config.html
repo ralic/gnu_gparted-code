@@ -8,20 +8,20 @@
 
 <body>
 <pre>
-<h3>LIVE-CONFIG(7)                Debian Live Project               LIVE-CONFIG(7)</h3>
+<b>LIVE-CONFIG(7)                Debian Live Project               LIVE-CONFIG(7)</b>
 
 
 
-<h3>NAME</h3>
+<b>NAME</b>
        live-config - System Configuration Scripts
 
 
-<h3>DESCRIPTION</h3>
+<b>DESCRIPTION</b>
        live-config  contains  the  scripts that configure a Debian Live system
        during the boot process (late userspace).
 
 
-<h3>CONFIGURATION</h3>
+<b>CONFIGURATION</b>
        live-config can be configured through boot parameters or  configuration
        files.  If  both  mechanisms  are  used  for a certain option, the boot
        parameters take precedence over the  configuration  files.  When  using
@@ -32,7 +32,7 @@
        page.
 
 
-   <h4>Boot Parameters (scripts)</h4>
+   <b>Boot Parameters (scripts)</b>
        live-config  is only activated if 'boot=live' is used as a boot parame‐
        ter. Additionally, live-config needs to be told which  scripts  to  run
        through the 'live-config' parameter or which scripts to not run through
@@ -62,7 +62,7 @@
            All scripts are run, except the specified ones.
 
 
-   <h4>Boot Parameters (options)</h4>
+   <b>Boot Parameters (options)</b>
        Some individual scripts can change their behaviour upon a boot  parame‐
        ter.
 
@@ -185,7 +185,7 @@
            cuted first, then medium hooks, and last the network hooks.
 
 
-   <h4>Boot Parameters (shortcuts)</h4>
+   <b>Boot Parameters (shortcuts)</b>
        For  some  common  use  cases where it would require to combine several
        individual parameters, live-config provides shortcuts. This allows both
        to have full granularity over all the options, as well keep things sim‐
@@ -209,7 +209,7 @@
            ing tty autologin.
 
 
-   <h4>Boot Parameters (special options)</h4>
+   <b>Boot Parameters (special options)</b>
        For special use cases there are some special boot paramters.
 
 
@@ -217,7 +217,7 @@
            Enables debug output in live-config.
 
 
-   <h4>Configuration Files</h4>
+   <b>Configuration Files</b>
        live-config can be configured (but not activated) through configuration
        files.  Everything but the shortcuts that can be configured with a boot
        parameter can be alternatively also be configured through one  or  more
@@ -315,12 +315,12 @@
            tem|medium|URL1|URL2| ... |URLn' parameter.
 
 
-<h3>CUSTOMIZATION</h3>
+<b>CUSTOMIZATION</b>
        live-config can be easily customized for downstream projects  or  local
        usage.
 
 
-   <h4>Adding new config scripts</h4>
+   <b>Adding new config scripts</b>
        Downstream  projects can put their scripts into /lib/live/config and do
        not need to do anything else, the scripts will be called  automatically
        during boot.
@@ -330,7 +330,7 @@
        fig/examples.
 
 
-   <h4>Removing existing config scripts</h4>
+   <b>Removing existing config scripts</b>
        It  is  not  really possible to remove scripts itself in a sane way yet
        without requiring either to ship a locally modified live-config package
        or  using  dpkg-divert.  However, the same can be achieved by disabling
@@ -343,7 +343,7 @@
        tion can be found in /usr/share/doc/live-config/examples.
 
 
-<h3>SCRIPTS</h3>
+<b>SCRIPTS</b>
        live-config currently features the following scripts in  /lib/live/con‐
        fig.
 
@@ -463,7 +463,7 @@
            media or an http/ftp server.
 
 
-<h3>FILES</h3>
+<b>FILES</b>
        /etc/live/config.conf
 
        /etc/live/config/*
@@ -489,7 +489,7 @@
        live/config-preseed/*
 
 
-<h3>SEE ALSO</h3>
+<b>SEE ALSO</b>
        live-boot(7)
 
        live-build(7)
@@ -497,25 +497,25 @@
        live-tools(7)
 
 
-<h3>HOMEPAGE</h3>
+<b>HOMEPAGE</b>
        More  information  about live-config and the Debian Live project can be
        found on the homepage at &lt;<u>http://live.debian.net/</u>&gt; and in the manual at
        &lt;<u>http://live.debian.net/manual/</u>&gt;.
 
 
-<h3>BUGS</h3>
+<b>BUGS</b>
        Bugs  can  be  reported  by  submitting a bugreport for the live-config
        package in the Debian Bug Tracking System at  &lt;<u>http://bugs.debian.org/</u>&gt;
        or   by   writing   a   mail   to  the  Debian  Live  mailing  list  at
        &lt;<u>debian-live@lists.debian.org</u>&gt;.
 
 
-<h3>AUTHOR</h3>
+<b>AUTHOR</b>
        live-config was written by Daniel Baumann &lt;<u>daniel@debian.org</u>&gt;.
 
 
 
-<h3>3.0.23-1                          2013-04-25                    LIVE-CONFIG(7)</h3>
+<b>3.0.23-1                          2013-04-25                    LIVE-CONFIG(7)</b>
 </pre>
 </body>
 
