@@ -1,3 +1,36 @@
+177
+11 June 2014
+GParted Live 0.19.0-1 Stable Release
+<br>
+The GParted team is proud to announce the stable release of GParted
+Live 0.19.0-1.<br>
+<br>
+This live image includes fixes to improve booting on UEFI firmware
+computers, and has undergone extra testing to ensure it works with
+motherboard BIOS RAID (aka FAKE RAID).<br>
+<br>
+Items of note include:<br>
+<ul>
+<li>Based on the Debian Sid repository (as of 2014/Jun/11)</li>
+<li>Updated Linux kernel to 3.14.5-1</li>
+<li>Updated Syslinux to 6.03-pre13</li>
+<li>Increased minimum requirements to 160 MB of RAM</li>
+<li>CD/DVD tray is no longer ejected on shutdown/reboot<br>
+  See <a href="https://bugzilla.gnome.org/show_bug.cgi?id=730706">Bug
+  730706 - On Shutdown, CD ejects, but "remove the disc" prompt not
+  displayed</a>
+</li>
+<li>Contains GParted 0.19.0 application which includes:<br>
+  <ul>
+    <li>Refactored OperationDetail code to address random crash behaviour</li>
+    <li>Made partition information dialog viewable on 800x600 screens</li>
+  </ul>
+</li>
+</ul>
+Thanks to Steven Shiau for creating the live image.<br>
+<br>
+Curtis
+---
 176
 10 June 2014
 GParted 0.19.0
