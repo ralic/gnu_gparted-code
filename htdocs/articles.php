@@ -140,6 +140,13 @@ this list then please let me know,
 
 <ul>
   <li class="step">
+    <a href="http://www.youtube.com/watch?v=hYhrdOuB3xM">
+    GParted Live 0.19.0-1 - First Impressions [Video]
+    </a><br>
+    by Christian Were on June 12, 2014<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.softpedia.com/reviews/linux/GParted-Review-387094.shtml">
     GParted 0.16.2 Review</a><br>
     by Silviu Stahie on October 1, 2013<br>
