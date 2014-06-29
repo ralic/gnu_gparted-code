@@ -143,7 +143,7 @@ this list then please let me know,
     <a href="http://www.youtube.com/watch?v=hYhrdOuB3xM">
     GParted Live 0.19.0-1 - First Impressions [Video]
     </a><br>
-    by Christian Were on June 12, 2014<br>
+    by Christopher Were on June 12, 2014<br>
     <br>
   </li>
   <li class="step">
