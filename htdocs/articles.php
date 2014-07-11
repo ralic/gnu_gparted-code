@@ -57,6 +57,12 @@ this list then please let me know,
     <br>
   </li>
   <li class="step">
+    <a href="http://www.rootusers.com/use-gparted-to-increase-disk-size-of-a-linux-native-partition/">
+    Use GParted to increase disk size of a Linux native partition</a><br>
+    by Jarrod on December 13, 2012<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.sitepoint.com/ubuntu-12-04-lts-precise-pangolin-using-gparted-to-partition-a-hard-disk/">
     Ubuntu 12.04 LTS Precise Pangolin: Using GParted to Partition a Hard Disk</a><br>
     by Jonathan Hobson on June 30, 2012<br>
