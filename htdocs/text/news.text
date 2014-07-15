@@ -1,3 +1,21 @@
+178
+15 July 2014
+GParted 0.19.1
+<br>
+This release of GParted includes a critical bug fix for a potential
+crash.  The crash is rare, but if the crash happens while applying
+operations then data loss might occur.  Also included are language
+translation updates.
+<br>
+<br>
+Key changes include:
+<ul>
+<li>Prevent crash caused by cross thread write after free in _OnReadable()</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.19.1/gparted-0.19.1-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 177
 11 June 2014
 GParted Live 0.19.0-1 Stable Release
