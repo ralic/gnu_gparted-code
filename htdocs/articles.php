@@ -51,6 +51,12 @@ this list then please let me know,
 
 <ul>
   <li class="step">
+    <a href="http://systemfreaks.com/index.php?/topic/2185-gparted-partitioning-software-full-tutorial/">
+    GParted partitioning software - Full tutorial</a><br>
+    by Mangekyō on May 17, 2014<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://wp.xin.at/archives/1449">
     Pre-aligning a partition for use on an SSD</a><br>
     by Michael Lackner on October 10, 2013<br>
