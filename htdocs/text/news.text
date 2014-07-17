@@ -1,3 +1,27 @@
+179
+17 July 2014
+GParted Live 0.19.1-1 Stable Release
+<br>
+The GParted team is proud to announce a new stable release of
+GParted Live.<br>
+<br>
+This live image contains GParted 0.19.1 which includes a critical bug
+fix to prevent GParted from crashing and potentially losing data.<br>
+<br>
+Items of note include:<br>
+<ul>
+<li>Based on the Debian Sid repository (as of 2014/Jul/16)</li>
+<li>Updated Linux kernel to 3.14.12-1</li>
+<li>Updated Syslinux to 6.03-pre18</li>
+<li>Includes GParted 0.19.1 which includes a bug fix to prevent a
+  crash caused by a cross thread race condition</li>
+</ul>
+This release of GParted Live has been successfully tested on
+VirtualBox, VMware, BIOS, UEFI, and physical computers with AMD/ATI,
+NVidia, and Intel graphics.<br>
+<br>
+Curtis
+---
 178
 15 July 2014
 GParted 0.19.1
