@@ -117,7 +117,7 @@ architectures
 
   <tr>
     <td>
-      <a href="http://downloads.sourceforge.net/gparted/gparted-live-0.19.0-1-i486.iso">Download gparted-live-0.19.0-1-i486.iso</a><br>
+      <a href="http://downloads.sourceforge.net/gparted/gparted-live-0.19.1-1-i486.iso">Download gparted-live-0.19.1-1-i486.iso</a><br>
       <br>
       <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/">Stable directory (.iso/.zip)<br>
         <small>(for i486, i686-pae and amd64 architectures)</small></a>
