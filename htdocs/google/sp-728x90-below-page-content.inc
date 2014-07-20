@@ -17,6 +17,12 @@ if (width > 750) {
   google_ad_width = 728;
   google_ad_height = 90;
 }
+if (width > 1000) {
+  /* Site pages, 970x90 ads, Below page content */
+  google_ad_slot = "1613725160";
+  google_ad_width = 970;
+  google_ad_height = 90;
+}
 //-->
 </script>
 <script type="text/javascript"
