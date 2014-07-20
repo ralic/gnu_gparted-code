@@ -68,27 +68,27 @@ architectures
     </td>
   </tr>
   <tr style="valign: top;">
-    <td valign="top"><b>i486</b></td>
+    <td valign="top" align="right"><b>i486 &nbsp; </b></td>
     <td valign="top">
-    - 32-bit version runs on x86 and x86-64 based computers, limited
+      32-bit version runs on x86 and x86-64 based computers, limited
       to physical address space of 4 gigabytes, and uses one processor
       only.<br>
       &nbsp; &nbsp; <b><i>If in doubt, try this one first.</i></b>
     </td>
   </tr>
   <tr>
-    <td valign="top"><b>i686-PAE</b></td>
+    <td valign="top" align="right"><b>i686-PAE &nbsp; </b></td>
     <td valign="top">
-    - 32-bit version runs on x86 (i686 and higher) and x86-64 based
+      32-bit version runs on x86 (i686 and higher) and x86-64 based
       computers, with <b>P</b>hysical <b>A</b>ddress <b>E</b>xtension
       to access more than 4 gigabytes of memory, and supports use of
       multiple processor cores.
     </td>
   </tr>
   <tr>
-    <td valign="top"><b>amd64</b></td>
+    <td valign="top" align="right"><b>amd64 &nbsp; </b></td>
     <td valign="top">
-    - 64-bit version runs on x86-64 based computers, with ability to
+      64-bit version runs on x86-64 based computers, with ability to
       access more than 4 gigabytes of memory, and supports use of
       multiple processor cores.<br>
       &nbsp; &nbsp; <b><i>For newer (>2010) computers with UEFI
