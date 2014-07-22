@@ -332,6 +332,22 @@ application is included on <a href="livecd.php">GParted Live</a>.
         <br>
       </li>
       <li class="step">
+        <i>Do any of the primary partitions exist within the extended
+        partition?</i><br>
+        <br>
+        In other words does one partition (numbers 1 to 4) have
+        start and end values within the boundaries of another
+        partitition (number 1 to 4)?<br>
+        If this is the situation then either the extended partition
+        must be altered so that it does not encompass the primary
+        partition, or the primary partition must be changed to be a
+        logical partition within the extended partition.  Fixing this
+        situation might require backing up the partitions,
+        repartitioning the disk, restoring the partition contents, and
+        then repairing the ability to boot.
+        <br>
+      </li>
+      <li class="step">
         <i>Do any of the logical partitions start or end outside the
         extended partition?</i><br>
         <br>
@@ -348,22 +364,6 @@ application is included on <a href="livecd.php">GParted Live</a>.
         start value lower than another logical partition (numbers 5+)
         but also have an end value higher than the start of the other
         partition?<br>
-        <br>
-      </li>
-      <li class="step">
-        <i>Do any of the primary partitions exist within the extended
-        partition?</i><br>
-        <br>
-        In other words does one partition (numbers 1 to 4) have start
-        and end values within the boundaries of another partitition
-        (number 1 to 4)?<br>
-        In this special case either the extended partition must be
-        altered so that it does not encompass the primary partition,
-        or the primary partition must be changed to be a logical
-        partition within the extended partition.  Fixing this
-        situation might require backing up the partitions,
-        repartitioning the disk, restoring the partition contents, and
-        then repairing the ability to boot.
         <br>
       </li>
     </ul>
