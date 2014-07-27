@@ -51,6 +51,13 @@ this list then please let me know,
 
 <ul>
   <li class="step">
+    <a href="http://www.techrapid.co.uk/raspberry-pi/expand-rootfs-raspberry-pi-without-swap-partition/">
+    How to Expand Rootfs of Raspberry Pi SD Card without Swap
+    Partition with Gparted</a><br>
+    by Irvan Kurniawan on July 26, 2014<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://systemfreaks.com/index.php?/topic/2185-gparted-partitioning-software-full-tutorial/">
     GParted partitioning software - Full tutorial</a><br>
     by Mangekyō on May 17, 2014<br>
