@@ -94,6 +94,12 @@ this list then please let me know,
     <br>
   </li>
   <li class="step">
+    <a href="https://www.youtube.com/watch?v=eSMMs4cfMqY">
+    Partitioning 101 [Video]</a><br>
+    by Nixie Pixel on May 11, 2012<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://thestandardoutput.com/2011/05/how-to-resize-a-virtualbox-vdi-file/">
     How to resize a VirtualBox VDI file</a><br>
     by Jonas Gorauskas on May 28, 2011<br>
