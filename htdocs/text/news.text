@@ -1,3 +1,216 @@
+180
+26 August 2014
+Ten Years of GParted
+<br>
+The GParted team is happy to announce the tenth anniversary
+GParted.<br>
+<br>
+The <a href="news.php?item=5">first public release of GParted was
+version 0.0.3 on August 26th, 2004</a>.  Over the past 10 years, much
+has happened. Following are some statistics:<br>
+<ul>
+  <li>Over 300 people have contributed to GParted</li>
+  <li>Many GNU/Linux distributions now include GParted</li>
+  <li>Translators have worked to make GParted available in over 50
+    different languages</li>
+  <li>GParted is used in over 220 countries around the world</li>
+  <li>There have been over 17 million downloads from Sourceforge
+    alone</li>
+</ul>
+To mark the occasion, questions were posed, and following are
+responses shared by some key contributors.<br>
+<br>
+<b>When did you first get the idea for GParted?</b><br>
+<br>
+Bart Hakvoort - <i>I was trying to do some partitioning and realized
+there was no convenient way to do that using Linux.  There was of
+course QTParted, but as a dedicated GNOME user I didn't like the idea
+of having to install QT as a dependency.  I also was a bit more
+strident those days and didn't want to use win32 based applications
+like PartitionMagic.  This was when I first realized there existed an
+actual niche for this particular application.</i><br>
+<br>
+<b>Who was involved in the project early on?</b><br>
+<br>
+Bart Hakvoort - <i>Lots of people actually, in the beginning mostly
+early testers who crashed a few disks for the greater good.  Too many
+to name, but my friend Mario comes to mind, the guys from the Dutch
+I18n team helped me a lot.  Especially Tino and Vincent did lots of
+testing during the alpha stage and reported numerous issues.  Vincent
+also provided the template for the website that's still mostly in use.
+After the first releases LarryT came on board to help, initially with
+the docs and later on with almost anything.  A couple of months after
+the first public release Patrick Verner came with the brilliant idea
+of building a small livecd to run GParted from.  This way you could
+manage partitions on systems without having Linux installed or
+manipulate the root partition of a system.  Then JanC supplied and
+looked after the forum and all of a sudden we had a small team
+:-)</i><br>
+<br>
+<b>Why did you choose some of the languages and libraries (gtkmm,
+  libparted, etc)?</b><br>
+<br>
+Bart Hakvoort - <i>I honestly can't remember why I chose libparted
+over e.g. fdisk.  Maybe because Andrew Clausen was so helpful and
+enthusiastic about the idea of a GUI or maybe because the 'parted'
+command structure and the library itself offered more flexibility.
+With regard to gtkmm, I was most comfortable with C++ and as an avid
+GNOME user Gtkmm made sense.  It also had an active, helpful community
+and a lot of great examples, so that wasn't a hard choice back
+then.</i><br>
+<br>
+<b>How was the project name "GParted" selected?</b><br>
+<br>
+Bart Hakvoort - <i>It stands for Gnome PARTition EDitor and also refers
+to the fact it was at first a Gtk frontend to Parted.  I also think
+the fact it was a GNOME version of QTParted had something to do with
+it, the 'G' simply had to be in there.  ;-)</i><br>
+<br>
+Mike Fleetwood - <i>Almost everything in GNOME is named GSomething.
+What else would you name the GNOME UI for parted!</i><br>
+<br>
+<b>What inspired you to contribute to GParted?</b><br>
+<br>
+Bart Hakvoort - <i>Partly since I wanted to write something useful
+after using Linux for years without contributing anything back to the
+community.  Partly because I just wanted to create something 'real'
+after all the little hobby and study projects.</i><br>
+<br>
+LarryT - <i>I met Bart Hakvoort when looking for documentation about
+GParted at its very beginning.  Bart offered me the opportunity to
+participate in the documentation of the project.  I thought this was
+funny and useful by the way.</i><br>
+<br>
+Curtis Gedak - <i>All through my career I have used and benefited from
+a wide variety of free software projects.  I felt a debt to the Free
+Software community and I wanted to give back.  About this time I ran
+into limitations with a proprietary partitioning tool.  In my search
+for a solution I came across GParted which coincidentally was looking
+for a developer.</i><br>
+<br>
+Mike Fleetwood - <i>I have occasionally made small contributions to a
+few pieces of open source software as I use them and come across a bug
+or see an opportunity for a small enhancement.  GParted was no
+different.  I'd used GParted to re-organise my hard drive and saw a
+small enhancement I could make.  My first few small patches to GParted
+were well received so I continued contributing.  Quickly I had a new
+hobby on my hands.</i><br>
+<br>
+<b>When did you first get involved with the project?</b><br>
+<br>
+LarryT - <i>I think it was around 2006.  At this time I created the
+first documentation.  In 2007 I maintained the live CD as best I
+could.  In 2007 Bart left the project because of his work.  He asked
+me if I would become the project admin.  Only Jan Claeys was still in
+the team (if my memory is good).  During less than one year, I
+maintained this project just to prevent it from disappearing.  After
+some months I looked for C++ dev, and found Curtis....</i><br>
+<br>
+Curtis Gedak - <i>In late 2007 while searching for a project to help, I
+came across LarryT's request for a C++ developer.  At the time I did
+not know C++, but thought I'd give it a try.  Back then GParted did
+not have the ability to set volume labels.  After reviewing the code
+and liking what I saw, I started to add the missing volume label
+functionality.  And the rest they say is history.  :-)</i><br>
+<br>
+Mike Fleetwood - <i>I sent my first small code fix in August 2010 and
+started contributing regularly from November 2011.</i><br>
+<br>
+<b>What memorable challenges or humorous situations have you
+  encountered?</b><br>
+<br>
+Bart Hakvoort - <i>Hmm... I didn't know all that much about partitions
+and file systems back then.  So once people started to use it for real
+and began to report issues I had a lot of homework to do.  Luckily I
+got a lot of help from people with far more experience in this area.
+Andrew Clausen from libparted comes to mind, he really helped me in
+these early days of building a GUI around libparted.</i><br>
+<br>
+LarryT - <i>Well the best one is still to become admin of this project
+without knowing any line of C++ :D &nbsp; I had to learn how to build a live
+CD from scratch, and thanks to François Dupoux it was possible.  We
+spent hours on IRC chat over many days for this.</i><br>
+<br>
+Curtis Gedak - <i>When I started I didn't know C++ and my knowledge of
+GNU autotools was minimal.  Fortunately, LarryT handled all the
+administrative stuff while Francois Dupoux helped me get up to speed
+on autotools and with collecting outstanding patches to build an
+initial 0.3.5 release.  During this time I read and practiced the
+exercises in <a
+href="http://mindview.net/Books/TICPP/ThinkingInCPP2e.html">"Thinking
+in C++" by Bruce Eckel</a>.</i><br>
+<br>
+Mike Fleetwood - <i>As a developer the challenge with an existing
+program is always to understand how it works, and why it works the way
+it does, well enough to change it.  My initial step was how GParted
+executed external commands to query and manipulate the various file
+systems it supports.  All the time I am extending my understanding of
+the user interface and the Gtk+ library used to implement it.</i><br>
+<br>
+<b>Which areas are you involved with?</b><br>
+<br>
+LarryT - <i>Currently I'm busy with studies, but I hope to come back
+and offer help with testing.</i><br>
+<br>
+Curtis Gedak - <i>While I started out as a developer only, I've grown
+to work in all areas of the project with the exception of building the
+Live images and translating to different languages.</i><br>
+<br>
+Mike Fleetwood - <i>I primarily develop code and review patches for the
+GParted application.  Occasionally I assist users in the forum and via
+bug reports.</i><br>
+<br>
+<b>What distro did you use as the base for the Live image and
+  why?</b><br>
+<br>
+Patrick Verner created and maintained the first Live CD images for
+GParted.  The Live image was based on <a
+href="http://www.slackware.com/">Slackware</a> Current starting with
+GParted LiveCD 0.2.5.<br>
+<br>
+LarryT - <i>When I maintained the live CD I used <a
+href="https://www.gentoo.org/">Gentoo</a>, just because my teacher
+(François Dupoux) did and taught me to do so.</i><br>
+<br>
+Steven Shiau now maintains the Live image.  Steven is actively
+involved in other projects, such as <a
+href="http://clonezilla.org">Clonezilla</a>.  For ease of maintenance
+GParted Live is based on <a href="http://live.debian.net/">Debian
+Live</a> similar to <a
+href="http://clonezilla.org/clonezilla-live.php">Clonezilla
+Live</a>.<br>
+<br>
+<b>Is there something additional that would be interesting or
+  useful to mention?</b><br>
+<br>
+LarryT - <i>Though my English is poor, I am always happy to share with
+others, and I think this project was/is a good opportunity!  I forgot
+to say one thing: I am a catholic monk.</i><br>
+<br>
+<b>Looking back, are there things you might do differently now
+  that you have 10 more years of experience?</b><br>
+<br>
+Barted Hakvoort - <i>Well... being a bit older and more experienced I
+probably should've more seriously considered contributing to QTParted
+instead of developing a new application.  Apart from
+that... hmm... I've never liked the wrapping of CLI commands to
+perform the filesystem specific tasks.  If I needed to do something
+like that today I would try harder to use the backend libraries of
+these tools instead.</i><br>
+<br>
+<br>
+This wraps up the responses provided by past and present GParted
+contributors.  Please note that many others, not listed here, have
+made significant contributions.  GParted is made possible by the
+users, the contributors, and by the greater Free Software
+community.<br>
+<br>
+In conclusion the GParted team is pleased to celebrate 10 years of
+providing an easy-to-use graphical partition editor as free software
+that all can share and use.  :-)<br>
+<br>
+Curtis
+---
 179
 17 July 2014
 GParted Live 0.19.1-1 Stable Release
