@@ -282,6 +282,12 @@ this list then please let me know,
 
 <ul>
   <li class="step">
+    <a href="news.php?item=180">
+    Ten Years of GParted</a><br>
+    by Curtis Gedak on August 26, 2014<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://sourceforge.net/blog/gparted-is-such-sweet-software/">
     GParted is such sweet software</a><br>
     by Lee Schlesinger on March 19, 2010<br>
