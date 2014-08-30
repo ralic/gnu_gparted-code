@@ -122,6 +122,11 @@ Right click on the desktop to access a pop-up menu.
     <td>- File system archiver and restorer<br></td>
   </tr>
   <tr>
+    <td><a href="http://partclone.org/">partclone</a></td>
+    <td>- Backup partitions into a compressed image file (e.g.,
+      partclone.ext4)</td>
+  </tr>
+  <tr>
     <td><a href="http://www.partimage.org/">partimage</a></td>
     <td>- Backup partitions into a compressed image file<br></td>
   </tr>
