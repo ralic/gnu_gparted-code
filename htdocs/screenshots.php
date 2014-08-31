@@ -51,8 +51,10 @@ Another look at the main window.
 
 Information about a specific partition.
 <br>
-<a href="screens/gparted_3_big.png" >
-	<img src="screens/gparted_3_small.png" alt="Information"></a>
+<a href="screens/gparted-partition-information.png">
+  <img src="screens/gparted-partition-information.png" width="400px"
+       alt="GParted Partion information window displaying ntfs partition">
+</a>
 <br><br><br>
 
 A closer look at the resize/move dialog.
