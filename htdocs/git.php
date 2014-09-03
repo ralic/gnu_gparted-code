@@ -31,6 +31,8 @@ instructions</a>.
 <ul>
   <li><a href="#build-using-git">How to build GParted using
   git</a></li>
+  <li><a href="#build-using-specific-parted">How to build GParted using
+  a specific version of parted</a></li>
   <li><a href="#create-patch">How to create your first GParted patch
   using git</a>
   <li><a href="#verify-every-change">Verifying every change of a patch
@@ -75,6 +77,42 @@ instructions</a>.
   </li>
 </ol>
 
+<h2 id="build-using-specific-parted">How to build GParted using a
+specific version of parted</h2>
+<ol>
+  <li>
+    Download the parted version you wish to use (e.g., 3.2) from:
+    <br>
+    <a href="http://ftp.gnu.org/gnu/parted/">http://ftp.gnu.org/gnu/parted/</a>
+    <br><br>
+  </li>
+  <li>
+    Build and install parted.
+    <br>
+    <br>
+    Extract parted tarball, configure, make, and make install.
+    <br>
+    Note that by default this will install into <b>/usr/local</b>.
+    <br><br>
+  </li>
+  <li>
+    Set library environment variables to look in <b>/usr/local/lib</b>.
+    <pre>
+    export LD_LIBRARY_PATH=/usr/local/lib
+    export LD_RUN_PATH=/usr/local/lib
+    export LDFLAGS=-L/usr/local/lib
+    </pre>
+  </li>
+  <li>
+    Build gparted.
+    <br>
+    <br>
+    When you run autoconf or ./configure you should see the specific
+    version of parted listed in the <i>check for libparted >=
+    1.7.1</i>.  You will also see the parted version listed when
+    running gparted from the command line.
+  </li>
+</ol>
 
 <h2 id="create-patch">How to create your first GParted patch using git</h2>
 <ol>
