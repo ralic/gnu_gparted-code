@@ -107,8 +107,8 @@ specific version of parted</h2>
     Build gparted.
     <br>
     <br>
-    When you run autoconf or ./configure you should see the specific
-    version of parted listed in the <i>check for libparted >=
+    When you run ./autogen.sh or ./configure you should see the
+    specific version of parted listed in the <i>check for libparted >=
     1.7.1</i>.  You will also see the parted version listed when
     running gparted from the command line.
   </li>
