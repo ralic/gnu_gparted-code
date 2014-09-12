@@ -51,6 +51,13 @@ this list then please let me know,
 
 <ul>
   <li class="step">
+    <a href="http://www.jhaagmans.com/performance-2/replacing-a-bitlocker-encrypted-disk-with-an-ssd.html">
+    Replacing a Bitlocker encrypted disk (with an SSD)
+    </a><br>
+    by Jaap Haagmans on September 11, 2014<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.techrapid.co.uk/raspberry-pi/expand-rootfs-raspberry-pi-without-swap-partition/">
     How to Expand Rootfs of Raspberry Pi SD Card without Swap
     Partition with Gparted</a><br>
