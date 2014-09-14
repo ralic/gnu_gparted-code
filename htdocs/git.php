@@ -5,7 +5,7 @@ webpage_init();
 <html>
 
 <head>
-  <title>GParted -- Git</title>
+  <title>GParted -- Developing GParted using Git</title>
 <? html_head() ?>
 </head>
 <body>
@@ -16,11 +16,11 @@ gnome_head();
 gnome_menu();
 ?>
 <div class="content">
-<h1>Git Source Code Management</h1>
+<h1>Developing GParted using Git</h1>
 
 <p>
-If you are the bleeding-edge kinda person, you have come to the right
-place ;-)<br>
+The leading edge of GParted development is managed under the GNOME git
+repository.<br>
 <br>
 <a href="http://git.gnome.org/cgit/gparted/">Browse</a> git visually
 or read <a href="http://live.gnome.org/Git/Developers">GNOME git
