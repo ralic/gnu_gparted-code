@@ -50,7 +50,8 @@ Full details of how to build GParted from source code, including a
 list of required dependencies and configuration options, can be found
 in the "Building from Source" section of the <a
 href="http://git.gnome.org/browse/gparted/tree/README">README</a>
-file.
+file.  Also included is a section on "Building using a Specific
+(lib)parted Version".
 </p>
 
 <h2>Source Code</h2>
