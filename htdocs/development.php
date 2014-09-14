@@ -35,18 +35,37 @@ and other <a href="http://en.wikipedia.org/wiki/Free_software">free
 software</a> file system tools.
 </p>
 
-<h2>Source Code Repository</h2>
+<h2>Building GParted</h2>
 <p>
-The source code for GParted is managed under the GNOME git repository.<br>
-See the <a href="git.php">GParted git</a> page for more information.
+Briefly, the commands to build and install GParted into the default
+location of /usr/local are:
+</p>
+<pre>
+  ./configure
+  make
+  sudo make install
+</pre>
+<p>
+This assumes all the dependencies are already installed and builds the
+default configuration.
+</p>
+<p>
+More information on dependencies and configuration options can be
+found in the "Building from Source" section of the <a
+href="http://git.gnome.org/browse/gparted/tree/README">README</a>
+file.
 </p>
 
-<h2>Dependencies</h2>
+<h2>Source Code</h2>
 <p>
-A list of dependencies required to build GParted from source code can
-be found in the "Building from Source" section of
-the <a href="http://git.gnome.org/browse/gparted/tree/README">README</a>
-file.
+The source code for GParted is managed under the GNOME git repository.<br>
+<br>
+<a href="http://git.gnome.org/cgit/gparted/">Browse</a> git visually
+or read <a href="http://live.gnome.org/Git/Developers">GNOME git
+instructions</a>.<br>
+<br>
+For those interested in the leading edge of GParted development, see
+<a href="git.php">Developing GParted using Git</a>.
 </p>
 
 <h2>Releases</h2>
