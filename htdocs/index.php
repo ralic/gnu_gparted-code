@@ -109,7 +109,7 @@ of RAM is needed to use all of the
 </p>
 <h2>Free Software</h2>
 <p>
-GParted is <a href="http://en.wikipedia.org/wiki/Free_software">free
+GParted is <a href="http://www.gnu.org/philosophy/free-sw.html">free
 software</a>.<br>
 You have the freedom to run, copy, distribute, study, change, and
 improve GParted.<br>
