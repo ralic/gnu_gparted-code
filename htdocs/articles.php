@@ -172,6 +172,13 @@ this list then please let me know,
 
 <ul>
   <li class="step">
+    <a href="http://liquidthink.net/8-best-linux-distros/">
+    8 Best Linux Distributions of 2014
+    </a><br>
+    by Andrew Plaza on October 3, 2014<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.youtube.com/watch?v=hYhrdOuB3xM">
     GParted Live 0.19.0-1 - First Impressions [Video]
     </a><br>
