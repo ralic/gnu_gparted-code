@@ -1,8 +1,8 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>GParted Manual</title><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><meta name="description" content="GParted is the Gnome Partition Editor for creating, reorganizing, and deleting disk partitions. GParted enables you to change the partition organization while preserving the partition contents."></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div lang="en" class="article" title="GParted Manual"><div class="titlepage"><div><div><h2 class="title"><a name="gparted"></a>GParted Manual</h2></div><div><div class="authorgroup"><div class="author"><h3 class="author"><span class="firstname">Curtis</span> <span class="surname">Gedak</span></h3><div class="affiliation"><span class="orgname">GParted Project<br></span><div class="address"><p><br>
             <code class="email">&lt;<a class="email" href="mailto:gedakc@users.sf.net">gedakc@users.sf.net</a>&gt;</code><br>
           </p></div></div></div></div></div><div><p class="releaseinfo">
-    This manual describes version 0.18.0 of GParted
-    </p></div><div><p class="copyright">Copyright © 2008, 2009, 2010, 2011, 2012, 2013, 2014 Curtis Gedak</p></div><div><div class="legalnotice" title="Legal Notice"><a name="idp2534224"></a><p>
+    This manual describes version 0.20.0 of GParted
+    </p></div><div><p class="copyright">Copyright © 2008, 2009, 2010, 2011, 2012, 2013, 2014 Curtis Gedak</p></div><div><div class="legalnotice" title="Legal Notice"><a name="idp253216"></a><p>
       Permission is granted to copy, distribute and/or modify this document
       under the terms of the GNU Free Documentation License, Version 1.2
       or any later version published by the Free Software Foundation;
@@ -11,12 +11,16 @@
       <a class="ulink" href="ghelp:fdl" target="_top">link</a> or at
       <a class="ulink" href="http://www.fsf.org/licensing/licenses/fdl.html" target="_top">http://www.fsf.org/licensing/licenses/fdl.html</a>
       or in the file COPYING-DOCS distributed with this manual.
-      </p></div></div><div><div class="legalnotice" title="Feedback"><a name="idp127264"></a><p class="legalnotice-title"><b>Feedback</b></p><p>
+      </p></div></div><div><div class="legalnotice" title="Feedback"><a name="idp4761456"></a><p class="legalnotice-title"><b>Feedback</b></p><p>
       To report a bug or make a suggestion regarding the
       <span class="application">gparted</span> application or this manual,
       follow the directions at
       <a class="ulink" href="http://gparted.org/bugs.php" target="_top">http://gparted.org/bugs.php</a>.
-      </p></div></div><div><div class="revhistory"><table border="1" width="100%" summary="Revision history"><tr><th align="left" valign="top" colspan="2"><b>Revision History</b></th></tr><tr><td align="left">Revision GParted Manual V1.7</td><td align="left">February 2014</td></tr><tr><td align="left" colspan="2">
+      </p></div></div><div><div class="revhistory"><table border="1" width="100%" summary="Revision history"><tr><th align="left" valign="top" colspan="2"><b>Revision History</b></th></tr><tr><td align="left">Revision GParted Manual V1.8</td><td align="left">September 2014</td></tr><tr><td align="left" colspan="2">
+          <p class="author">Curtis Gedak</p>
+          <p class="publisher">GParted Project</p>
+          <p class="annotations">Describes version 0.20.0 of GParted</p>
+        </td></tr><tr><td align="left">Revision GParted Manual V1.7</td><td align="left">February 2014</td></tr><tr><td align="left" colspan="2">
           <p class="author">Curtis Gedak</p>
           <p class="publisher">GParted Project</p>
           <p class="annotations">Describes version 0.18.0 of GParted</p>
@@ -57,7 +61,7 @@
       reorganizing, and deleting disk partitions.
       GParted enables you to change the partition organization while preserving
       the partition contents.
-      </p></div></div></div><hr></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="sect1"><a href="#gparted-introduction">Introduction</a></span></dt><dt><span class="sect1"><a href="#gparted-getting-started">Getting Started</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-to-start">Starting gparted</a></span></dt><dt><span class="sect2"><a href="#gparted-when-you-start">The gparted Window</a></span></dt><dt><span class="sect2"><a href="#gparted-run-from-cmd-line">Running gparted from a Command Line</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-usage">Viewing File System Support</a></span></dt><dt><span class="sect1"><a href="#gparted-devices">Working with Devices</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-select-device">Selecting a Device</a></span></dt><dt><span class="sect2"><a href="#gparted-view-device-information">Viewing Device Information</a></span></dt><dt><span class="sect2"><a href="#gparted-refresh-device">Refreshing All Devices</a></span></dt><dt><span class="sect2"><a href="#gparted-create-partition-table">Creating a New Partition Table</a></span></dt><dt><span class="sect2"><a href="#gparted-attempt-data-rescue">Attempting Data Rescue</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-partitions">Working with Partitions</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-basic-partition-actions">Basic Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-select-partition">Selecting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-select-unallocated">Selecting Unallocated Space</a></span></dt><dt><span class="sect3"><a href="#gparted-view-partition-information">Viewing Partition Information</a></span></dt><dt><span class="sect3"><a href="#gparted-mount-partition">Mounting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-unmount-partition">Unmounting a Partition</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-intermediate-partition-actions">Intermediate Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-create-new-partition">Creating a New Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-delete-partition">Deleting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-format-partition">Formatting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-setting-partition-label">Setting a Partition Label</a></span></dt><dt><span class="sect3"><a href="#gparted-changing-partition-uuid">Changing a Partition UUID</a></span></dt><dt><span class="sect3"><a href="#gparted-specify-partition-details">Specifying Partition Details</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-advanced-partition-actions">Advanced Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-resize-partition">Resizing a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-move-partition">Moving a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-copy-and-paste-partition">Copying and Pasting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-manage-partition-flags">Managing Partition Flags</a></span></dt><dt><span class="sect3"><a href="#gparted-Check-partition">Checking a Partition</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-operation-queue">Working with the Operation Queue</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-undo-last-operation">Undoing Last Operation</a></span></dt><dt><span class="sect3"><a href="#gparted-clear-all-operations">Clearing All Operations</a></span></dt><dt><span class="sect3"><a href="#gparted-apply-all-operations">Applying All Operations</a></span></dt></dl></dd></dl></dd><dt><span class="sect1"><a href="#gparted-acquire-livecd">Acquiring GParted on Live CD</a></span></dt><dt><span class="sect1"><a href="#gparted-fix-operating-system-boot-problems">Fixing Operating System Boot Problems</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-fix-grub-boot-problem">Fixing GRUB boot problem</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-recover-partition-table">Recovering Partition Tables</a></span></dt></dl></div><div class="sect1" title="Introduction"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-introduction"></a>Introduction</h2></div></div></div><p>
+      </p></div></div></div><hr></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="sect1"><a href="#gparted-introduction">Introduction</a></span></dt><dt><span class="sect1"><a href="#gparted-getting-started">Getting Started</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-to-start">Starting gparted</a></span></dt><dt><span class="sect2"><a href="#gparted-when-you-start">The gparted Window</a></span></dt><dt><span class="sect2"><a href="#gparted-run-from-cmd-line">Running gparted from a Command Line</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-usage">Viewing File System Support</a></span></dt><dt><span class="sect1"><a href="#gparted-devices">Working with Devices</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-select-device">Selecting a Device</a></span></dt><dt><span class="sect2"><a href="#gparted-view-device-information">Viewing Device Information</a></span></dt><dt><span class="sect2"><a href="#gparted-refresh-device">Refreshing All Devices</a></span></dt><dt><span class="sect2"><a href="#gparted-create-partition-table">Creating a New Partition Table</a></span></dt><dt><span class="sect2"><a href="#gparted-attempt-data-rescue">Attempting Data Rescue</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-partitions">Working with Partitions</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-basic-partition-actions">Basic Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-select-partition">Selecting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-select-unallocated">Selecting Unallocated Space</a></span></dt><dt><span class="sect3"><a href="#gparted-view-partition-information">Viewing Partition Information</a></span></dt><dt><span class="sect3"><a href="#gparted-mount-partition">Mounting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-unmount-partition">Unmounting a Partition</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-intermediate-partition-actions">Intermediate Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-create-new-partition">Creating a New Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-delete-partition">Deleting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-format-partition">Formatting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-setting-partition-label">Setting a Partition Label</a></span></dt><dt><span class="sect3"><a href="#gparted-changing-partition-uuid">Changing a Partition UUID</a></span></dt><dt><span class="sect3"><a href="#gparted-specify-partition-details">Specifying Partition Details</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-advanced-partition-actions">Advanced Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-resize-partition">Resizing a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-move-partition">Moving a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-copy-and-paste-partition">Copying and Pasting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-manage-partition-flags">Managing Partition Flags</a></span></dt><dt><span class="sect3"><a href="#gparted-Check-partition">Checking a Partition</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-operation-queue">Working with the Operation Queue</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-undo-last-operation">Undoing Last Operation</a></span></dt><dt><span class="sect3"><a href="#gparted-clear-all-operations">Clearing All Operations</a></span></dt><dt><span class="sect3"><a href="#gparted-apply-all-operations">Applying All Operations</a></span></dt></dl></dd></dl></dd><dt><span class="sect1"><a href="#gparted-acquire-livecd">Acquiring GParted on Live CD</a></span></dt><dt><span class="sect1"><a href="#gparted-fix-operating-system-boot-problems">Fixing Operating System Boot Problems</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-fix-grub-boot-problem">Fixing GRUB boot problem</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-restore-grub-2">Restoring GRUB 2 Boot Loader</a></span></dt><dt><span class="sect3"><a href="#gparted-restore-grub-legacy">Restoring GRUB Legacy Boot Loader</a></span></dt></dl></dd></dl></dd><dt><span class="sect1"><a href="#gparted-recover-partition-table">Recovering Partition Tables</a></span></dt></dl></div><div class="sect1" title="Introduction"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-introduction"></a>Introduction</h2></div></div></div><p>
     The <span class="application">gparted</span> application is the GNOME partition
     editor for creating, reorganizing, and deleting disk partitions.
     </p><p>
@@ -1171,6 +1175,12 @@
           <a class="ulink" href="http://www.sysresccd.org" target="_top">http://www.sysresccd.org</a>
           </p></li></ul></div><p>
     </p><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+      The GParted Live CD image can be written to a USB flash drive.
+      </p><p>
+      If your computer can boot from Universal Serial Bus (USB) then
+      you might prefer to boot and use
+      <span class="application">gparted</span> from a USB flash drive.
+      </p></div><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
       To avoid wasting a blank CD when burning a CD image file,
       use the following tips:
       </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
@@ -1192,67 +1202,176 @@
           overwrite the Master Boot Record (MBR).
           </p></li></ul></div><p>
     </p><p>
-    You are advised to consult documentation for your boot loader
-    to learn how to fix the problem.
+    Fortunately the failure to boot can be often be fixed.
+    </p><p>
+    If your computer uses the GRUB boot loader,
+    see <a class="xref" href="#gparted-fix-grub-boot-problem" title="Fixing GRUB boot problem">the section called &#8220;Fixing GRUB boot problem&#8221;</a>
+    to restore the ability to boot.
+    </p><p>
+    If your computer does not use GRUB then you are advised to consult
+    documentation for your boot loader to learn how to fix the
+    problem.
     You might consult the
     <a class="ulink" href="http://gparted.org/faq.php" target="_top">GParted FAQ</a>,
     or the
     <a class="ulink" href="http://gparted.org/forum.php" target="_top">GParted forum</a>.
-    You might also use Internet search engines to learn how other people
-    have solved similar problems.
+    You might also search the Internet to learn how other people have
+    solved similar problems.
     </p><div class="sect2" title="Fixing GRUB boot problem"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-fix-grub-boot-problem"></a>Fixing GRUB boot problem</h3></div></div></div><p>
-      The Grand Unified Boot loader (GRUB) might fail to boot an
-      operating system if you do one of the following:
+      The Grand Unified Boot loader (GRUB) is used by many GNU/Linux
+      distributions.  To fix GRUB boot problems you start by
+      determining which major version of GRUB was used.
+      </p><p>
+      There are two major versions of GRUB:
         </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
-            Move the partition containing the GRUB stage2 file.
+            GRUB, also known as GRUB 2, covers versions 1.98 and
+            higher.  GRUB 2 works with both GUID partition tables
+            (GPT) and msdos partition tables.
             </p></li><li class="listitem"><p>
-            Install a new operating system that overwrites the
-            Master Boot Record (MBR).
+            GRUB Legacy, traditionally known as GRUB, covers versions
+            0.9x and earlier.  GRUB Legacy works with msdos partition
+            tables only.
             </p></li></ul></div><p>
       </p><p>
-      To fix these problems, you will need to reinstall the GRUB 
-      boot record using the following steps:
-        </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
-            Start the <span class="application">grub</span> application
-            from the command line.
-            </p><pre class="screen"><code class="prompt">$ </code><span class="command"><strong>grub</strong></span></pre><p>
+      GRUB 2 is used as the default boot loader in the following
+      GNU/Linux distributions:
+        </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+            CentOS 7 and higher
             </p></li><li class="listitem"><p>
-            Find where <span class="application">grub</span> stage1 is located by using
-            one of the following:
-            </p><p>
-            If the /boot folder is stored in the / partition,
-            use the command:
-            </p><pre class="screen"><code class="prompt">grub&gt; </code><span class="command"><strong>find</strong></span> /boot/grub/stage1</pre><p>
-            If the /boot folder is stored in a partition
-            different than the / partition, use the command:
-            </p><pre class="screen"><code class="prompt">grub&gt; </code><span class="command"><strong>find</strong></span> /grub/stage1</pre><p>
-            </p><p>
-            The output from the <span class="command"><strong>find</strong></span> command might
-            look like the following:
-            </p><pre class="screen"><code class="computeroutput"> <em class="replaceable"><code>(hd0,0)</code></em></code></pre><p>
-            If more than one line is listed in the command output,
-            you will need to decide which device you use for <span class="application">grub</span>.
+            Debian 6 (Squeeze) and higher
             </p></li><li class="listitem"><p>
-            Set the <span class="application">grub</span> root device
-            by specifying the device returned
-            by the <span class="command"><strong>find</strong></span> command.
-            </p><pre class="screen"><code class="prompt">grub&gt; </code>root <em class="replaceable"><code>(hd0,0)</code></em></pre><p>
+            Fedora 16 (Verne) and higher
             </p></li><li class="listitem"><p>
-            Reinstall <span class="application">grub</span>
-            by specifying the device returned
-            by the <span class="command"><strong>find</strong></span> command.
-            </p><pre class="screen"><code class="prompt">grub&gt; </code>setup <em class="replaceable"><code>(hd0,0)</code></em></pre><p>
+            openSUSE 12.2 and higher
             </p></li><li class="listitem"><p>
-            Exit <span class="application">grub</span>.
-            </p><pre class="screen"><code class="prompt">grub&gt; </code>quit</pre><p>
-            </p></li><li class="listitem"><p>
-            Reboot your computer.
-            </p></li></ol></div><p>
+            Ubuntu 9.10 (Karmic Koala) and higher
+            </p></li></ul></div><p>
       </p><p>
-      The <span class="application">grub</span> application is included on
-      each Live CD listed in
-      <a class="xref" href="#gparted-acquire-livecd" title="Acquiring GParted on Live CD">the section called &#8220;Acquiring GParted on Live CD&#8221;</a>
-      </p></div></div><div class="sect1" title="Recovering Partition Tables"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-recover-partition-table"></a>Recovering Partition Tables</h2></div></div></div><p>
+      If you are unsure whether your computer uses GRUB 2 or GRUB
+      Legacy, you might try searching for the answer on the Internet.
+      </p><div class="sect3" title="Restoring GRUB 2 Boot Loader"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-restore-grub-2"></a>Restoring GRUB 2 Boot Loader</h4></div></div></div><p>
+        Use the following steps to restore the GRUB 2 boot loader:
+          </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
+              Boot from Live media such as GParted Live or your
+              GNU/Linux distribution image.  Open a terminal window.
+              </p></li><li class="listitem"><p>
+              Determine which partition contains the / file system for
+              your GNU/Linux distribution.
+              </p><p>
+              Use GParted to list the partitions on your disk device.
+              Look for a partition that contains your GNU/Linux / file
+              system.  This Linux partition will likely use a file
+              system such as ext2, ext3, ext4, or btrfs.
+              </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+                If the / partition is on LVM then the Logical Volume
+                Manager must be active.  LVM can be started with the
+                command:
+                </p><pre class="screen"><code class="prompt"># </code><span class="command"><strong>vgchange</strong></span> -a y</pre><p>
+                </p><p>
+                With LVM, the equivalent of a disk partition is a
+                Logical Volume.  Logical Volumes can be listed with
+                the command:
+                </p><pre class="screen"><code class="prompt"># </code><span class="command"><strong>lvscan</strong></span></pre><p>
+                </p></div><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+                If the / partition is on RAID, then the RAID must be
+                active.  Linux Software RAID can be started with the
+                command:
+                </p><pre class="screen"><code class="prompt"># </code><span class="command"><strong>mdadm</strong></span> --assemble --scan</pre><p>
+                </p></div></li><li class="listitem"><p>
+              Create a mount point directory by entering (as root):
+              </p><pre class="screen"><code class="prompt"># </code><span class="command"><strong>mkdir</strong></span> /tmp/mydir</pre><p>
+              </p></li><li class="listitem"><p>
+              Mount the / partition on the mount point directory.  For
+              example assume the / file system is contained in the
+              /dev/sda5 partition.  Enter (as root):
+              </p><pre class="screen"><code class="prompt"># </code><span class="command"><strong>mount</strong></span> <em class="replaceable"><code>/dev/sda5</code></em> /tmp/mydir</pre><p>
+              </p></li><li class="listitem"><p>
+              If you have a separate /boot partition, for example at
+              /dev/sda3, then an extra step is required.  Mount the
+              /boot partition at /tmp/mydir/boot by entering (as
+              root):
+              </p><pre class="screen"><code class="prompt"># </code><span class="command"><strong>mount</strong></span> <em class="replaceable"><code>/dev/sda3</code></em> /tmp/mydir/boot</pre><p>
+              </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+                If you do not know whether you have a separate boot
+                partition then you probably do not and can ignore this
+                step.
+                </p></div></li><li class="listitem"><p>
+              Prepare to change the root environment by entering (as
+              root):
+              </p><pre class="screen"><code class="prompt"># </code><span class="command"><strong>mount</strong></span> --bind /dev /tmp/mydir/dev</pre><p>
+              </p><pre class="screen"><code class="prompt"># </code><span class="command"><strong>mount</strong></span> --bind /proc /tmp/mydir/proc</pre><p>
+              </p><pre class="screen"><code class="prompt"># </code><span class="command"><strong>mount</strong></span> --bind /sys /tmp/mydir/sys</pre><p>
+              </p></li><li class="listitem"><p>
+              Change the root environment by entering (as root):
+              </p><pre class="screen"><code class="prompt"># </code><span class="command"><strong>chroot</strong></span> /tmp/mydir</pre><p>
+              </p></li><li class="listitem"><p>
+              Reinstall GRUB 2 on the boot device.  Note that the
+              device name is used and not the partition name.  For
+              example, if the / partition is /dev/sda5 then the device
+              is /dev/sda.
+              </p><p>
+              For Debian, Ubuntu, and other offshoot GNU/Linux
+              distributions, enter the command (as root):
+              </p><pre class="screen"><code class="prompt"># </code><span class="command"><strong>grub-install</strong></span> <em class="replaceable"><code>/dev/sda</code></em></pre><p>
+              </p><p>
+              For CentOS, Fedora, openSUSE and other offshoot
+              GNU/Linux distributions, enter the command (as root):
+              </p><pre class="screen"><code class="prompt"># </code><span class="command"><strong>grub2-install</strong></span> <em class="replaceable"><code>/dev/sda</code></em></pre><p>
+              </p></li><li class="listitem"><p>
+              Exit the chroot environment by entering (as root):
+              </p><pre class="screen"><code class="prompt"># </code><span class="command"><strong>exit</strong></span></pre><p>
+              </p></li><li class="listitem"><p>
+              Reboot your computer.
+              </p></li></ol></div><p>
+        </p></div><div class="sect3" title="Restoring GRUB Legacy Boot Loader"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-restore-grub-legacy"></a>Restoring GRUB Legacy Boot Loader</h4></div></div></div><p>
+        Use the following steps to restore the GRUB Legacy boot
+        loader:
+          </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
+              Boot from Live media such as your GNU/Linux distribution
+              image.  Open a terminal window.
+              </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+                The Live media must contain the GRUB Legacy boot
+                loader.  If your GNU/Linux distribution uses GRUB
+                Legacy, then the distribution Live media will also
+                contain GRUB Legacy.
+                </p></div></li><li class="listitem"><p>
+              Start the <span class="application">grub</span> application
+              from the command line (as root).
+              </p><pre class="screen"><code class="prompt"># </code><span class="command"><strong>grub</strong></span></pre><p>
+              </p></li><li class="listitem"><p>
+              Find where <span class="application">grub</span> stage1 is
+              located by using one of the following:
+              </p><p>
+              If the /boot folder is stored in the / partition,
+              use the command:
+              </p><pre class="screen"><code class="prompt">grub&gt; </code><span class="command"><strong>find</strong></span> /boot/grub/stage1</pre><p>
+              If the /boot folder is stored in a partition
+              different than the / partition, use the command:
+            </p><pre class="screen"><code class="prompt">grub&gt; </code><span class="command"><strong>find</strong></span> /grub/stage1</pre><p>
+              </p><p>
+              The output from the <span class="command"><strong>find</strong></span> command
+              might look like the following:
+              </p><pre class="screen"><code class="computeroutput"> <em class="replaceable"><code>(hd0,0)</code></em></code></pre><p>
+              If more than one line is listed in the command output,
+              you will need to decide which device you use for
+              <span class="application">grub</span>.
+              </p></li><li class="listitem"><p>
+              Set the <span class="application">grub</span> root device by
+              specifying the device returned by the
+              <span class="command"><strong>find</strong></span> command.
+              </p><pre class="screen"><code class="prompt">grub&gt; </code>root <em class="replaceable"><code>(hd0,0)</code></em></pre><p>
+              </p></li><li class="listitem"><p>
+              Reinstall <span class="application">grub</span> by specifying
+              the device returned by the <span class="command"><strong>find</strong></span>
+              command.
+              </p><pre class="screen"><code class="prompt">grub&gt; </code>setup <em class="replaceable"><code>(hd0,0)</code></em></pre><p>
+              </p></li><li class="listitem"><p>
+              Exit <span class="application">grub</span>.
+              </p><pre class="screen"><code class="prompt">grub&gt; </code>quit</pre><p>
+              </p></li><li class="listitem"><p>
+              Reboot your computer.
+              </p></li></ol></div><p>
+        </p></div></div></div><div class="sect1" title="Recovering Partition Tables"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-recover-partition-table"></a>Recovering Partition Tables</h2></div></div></div><p>
     If you accidentally overwrite your partition table, there is a chance
     that you might be able to recover it.
     </p><p>
