@@ -1,3 +1,20 @@
+182
+20 October 2014
+GParted 0.20.0
+<br>
+This release of GParted improves resizing multi-device btrfs file
+systems.  Also included are language translation updates.
+<br>
+<br>
+Key changes include:
+<ul>
+<li>Include devid when resizing multi-device btrfs file systems</li>
+<li>Add GRUB 2 restoration steps to help manual</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.20.0/gparted-0.20.0-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 181
 29 August 2014
 GParted Live 0.19.1-4 Stable Release
