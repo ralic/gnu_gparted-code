@@ -375,7 +375,7 @@ gnome_menu();
 	</th>
 	<td>
 		<img src="images/supported.png" alt="supported">
-		<sup><a href="#blkid3">[14]</a></sup>
+		<sup><a href="#blkid3">[13]</a></sup>
 	</td>
 	<td>
 		<img src="images/not_supported.png" alt="not supported">
@@ -431,7 +431,6 @@ gnome_menu();
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
-		<sup><a href="#libpartedmove">[13]</a></sup>
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
@@ -474,7 +473,6 @@ gnome_menu();
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
-		<sup><a href="#libpartedmove">[13]</a></sup>
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
@@ -945,8 +943,7 @@ gnome_menu();
 <a name="btrfs">[10]</a> Requires btrfs-tools version released after Oct. 25, 2011 to write labels.<br>
 <a name="ntfsuuid">[11]</a> Requires <a href="http://www.tuxera.com/community/ntfs-3g-advanced/">ntfs-3g advanced</a> release version >= 2012.1.15AR to change UUID.  The <a href="http://www.tuxera.com/community/ntfs-3g-download/">ntfs-3g stable</a> version 2012.1.15 does not yet support changing NTFS UUID.<br>
 <a name="blkid3">[12]</a> The blkid command from util-linux v2.20+ or libparted 2.4+ is required for nilfs2 detection.<br>
-<a name="libpartedmove">[13]</a> Native available through libparted < 3.0.  Move performed internally by GParted for libparted >= 3.0.<br>
-<a name="blkid3">[14]</a> The blkid command from util-linux v2.23+ is required for f2fs detection.<br>
+<a name="blkid3">[13]</a> The blkid command from util-linux v2.23+ is required for f2fs detection.<br>
 <br>
 </div>
 
