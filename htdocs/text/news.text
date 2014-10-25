@@ -1,3 +1,39 @@
+183
+25 October 2014
+GParted Live 0.20.0-2 Stable Release
+<br>
+The GParted team is proud to announce a new stable release of GParted
+Live.<br>
+<br>
+This live image contains GParted 0.20.0 which improves resizing for
+multi-device btrfs file systems.  Also included is a patched version
+of parted 3.2 that fixes a crash that would occur when resizing fat16
+file systems.<br>
+<br>
+Items of note include:<br>
+<ul>
+<li>Based on the Debian Sid repository (as of 2014/Oct/24)</li>
+<li>Includes GParted 0.20.0 (improves resizing for multi-device
+btrfs)</li>
+<li>Includes patched version of parted 3.2 to fix
+  <a href="https://bugzilla.gnome.org/show_bug.cgi?id=735669">Bug
+    735669 - GParted crashes resizing fat16 file system</a>
+</li>
+<li>Fixes
+  <a href="https://bugzilla.gnome.org/show_bug.cgi?id=738258">Bug
+    738258 - Incorrect language title for locale pt_BR</a>
+</li>
+<li>Fixes missing required package syslinux-utils</li>
+<li>Adds "File/System utils -> gsmartcontrol" right-click menu</li>
+<li>Adds package syslinux-efi</li>
+<li>Improves descriptions and layout for exit dialog</li>
+</ul>
+This release of GParted Live has been successfully tested on
+VirtualBox, VMware, BIOS, UEFI, and physical computers with AMD/ATI,
+NVidia, and Intel graphics.<br>
+<br>
+Curtis
+---
 182
 20 October 2014
 GParted 0.20.0
