@@ -114,6 +114,10 @@ Right click on the desktop to access a pop-up menu.
     <td><a href="http://www.netsurf-browser.org/">netsurf</a></td>
     <td>- Small web browser</td>
   </tr>
+  <tr>
+    <td><a href="http://gsmartcontrol.sourceforge.net/">gsmartcontrol</a></td>
+    <td>- Hard disk drive and SSD health inspection tool</td>
+  </tr>
 </table>
 <h3>Command Line Utilities</h3>
 <table border=0>
