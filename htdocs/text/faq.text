@@ -1,6 +1,6 @@
 1
 What does GPARTED stand for?
-Gnome PARTition EDitor.  You can also think of GParted as Graphical
+GNOME PARTition EDitor.  You can also think of GParted as Graphical
 Partition Editor.
 ---
 2
@@ -129,7 +129,7 @@ a)  Defragment the NTFS or FAT16/32 file system from Windows.
 b)  After GParted starts and begins scanning, open a terminal window and use the "ps -ef | egrep 'ntfsresize|dosfsck'" command to locate the process ID, and kill this process ID.  If the process is killed then there will be no used and unused space statistics for the file system and some features, such as resizing, will be disabled.
 ---
 12
-Why has Gnome automounting of devices stopped working?
+Why has GNOME automounting of devices stopped working?
 GParted version 0.3.6 (and many earlier versions) created a file to
 prevent problems that occur if a device is automounted while gparted is
 working on the device.

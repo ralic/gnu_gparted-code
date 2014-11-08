@@ -40,7 +40,7 @@ Please file new bugs <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=g
 Tips on reporting bugs:
 <a href="http://www.chiark.greenend.org.uk/~sgtatham/bugs.html">How to Report Bugs Effectively</a><br>
 <br>
-More information about Gnome's bugzilla can be found at <a href="http://bugzilla.gnome.org/">http://bugzilla.gnome.org</a>
+More information about GNOME's bugzilla can be found at <a href="http://bugzilla.gnome.org/">http://bugzilla.gnome.org</a>
 <br>
 <br>
 </div>

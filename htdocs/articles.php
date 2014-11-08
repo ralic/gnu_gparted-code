@@ -229,7 +229,7 @@ this list then please let me know,
   </li>
   <li class="step">
     <a href="http://www.linux-mag.com/id/7875/">
-    Gnome Partition Editor: The Dearly GParted</a><br>
+    GNOME Partition Editor: The Dearly GParted</a><br>
     by Ken Hess on October 4, 2010<br>
     <br>
   </li>
@@ -265,7 +265,7 @@ this list then please let me know,
   </li>
   <li class="step">
     <a href="http://www.computeractive.co.uk/ca/download-review/1916751/gnome-partition-editor-039-live-cd">
-    Gnome Partition Editor 0.3.9-4 Live CD</a><br>
+    GNOME Partition Editor 0.3.9-4 Live CD</a><br>
     by Tim Smith on February 10, 2008<br>
     <br>
   </li>

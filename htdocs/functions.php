@@ -60,7 +60,7 @@ function gnome_head() { ?>
 <div class="hdr">
 	<a href="index.php"><img class="logo" src="images/gparted-64x42.png" alt="home" title="back to home page"></a>
 	<div class="hdrtitle">
-	<b>Gnome Partition Editor</b>
+	<b>GNOME Partition Editor</b>
 	</div>
 	<div class="hdrsearch">
 	<?

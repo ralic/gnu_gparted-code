@@ -145,7 +145,7 @@ then.</i><br>
 <br>
 <b>How was the project name "GParted" selected?</b><br>
 <br>
-Bart Hakvoort - <i>It stands for Gnome PARTition EDitor and also refers
+Bart Hakvoort - <i>It stands for <b>G</b>NOME <b>PART</b>ition <b>ED</b>itor and also refers
 to the fact it was at first a Gtk frontend to Parted.  I also think
 the fact it was a GNOME version of QTParted had something to do with
 it, the 'G' simply had to be in there.  ;-)</i><br>
@@ -2117,7 +2117,7 @@ Source Code Migrated from SVN to Git
 <br>
 On April 17, 2009, the gparted source code repository was migrated
 from SVN to git.<br>
-This was part of a large migration performed by the Gnome project.<br>
+This was part of a large migration performed by the GNOME project.<br>
 See <a href="http://mail.gnome.org/archives/devel-announce-list/2009-March/msg00005.html">GNOME to migrate to git</a>.<br>
 <br>
 Since ChangeLog files are seldom used with git, ChangeLog files will no
@@ -3347,7 +3347,7 @@ Besides this i did some codecleanups, which should gain performance and improve 
 <br><br>
 Special thanks go to the guys from the Dutch Translations team. They helped me with a lot of i18n issues i didn't even know to exist :)
 <br><br>
-Note that i've moved the CVS tree to Gnome CVS, see the downloadpage for instruction on how to access it.
+Note that i've moved the CVS tree to GNOME CVS, see the downloadpage for instruction on how to access it.
 <br><br>
 As always, please send me your bugreports, ideas, new colors or whatever... thnx!
 <p>
