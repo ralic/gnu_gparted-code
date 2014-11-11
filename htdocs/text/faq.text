@@ -1,5 +1,5 @@
 1
-What does GPARTED stand for?
+What does GParted stand for?
 GNOME PARTition EDitor.  You can also think of GParted as Graphical
 Partition Editor.
 ---
@@ -97,11 +97,11 @@ Why are some menu items disabled?
 DANGEROUS. Just unmount the partition or in case of swap, disable
 it (use swapoff).<br>
 <br>
-2. At startup gparted decides which operations on which file systems
-are supported.  For instance, to create an ext3 file system gparted
+2. At startup GParted decides which operations on which file systems
+are supported.  For instance, to create an ext3 file system GParted
 needs mkfs.ext3.  If this cannot be found on your system, the creation
 of an ext3 file system is not possible and therefore disabled in
-gparted.  The same goes for copy, resize etc....<br>
+GParted.  The same goes for copy, resize etc....<br>
 <br>
 3. Check that you are running the latest version of GParted (menu
 entry Help -> About).  The <a
@@ -117,7 +117,7 @@ That's because those file systems can only be resized when they are mounted and 
 Why does "Scanning all devices..." or "Searching /dev/sda partitions" take exceedingly long on some computers?
 <b>1.</b> Check the BIOS settings.  This problem can be caused when the BIOS indicates that a floppy drive is present, but no physical floppy drive is installed.
 <br><br>
-A work around is to start gparted from the command line and pass the name of the device(s) you wish to partition.<br>
+A work around is to start GParted from the command line and pass the name of the device(s) you wish to partition.<br>
 E.g., gparted /dev/sda
 <br><br>
 <b>2.</b> A hard disk device contains a fragmented NTFS or FAT16/32 file system.  See <a href="https://bugzilla.gnome.org/show_bug.cgi?id=569921">Bug 569921 - dosfsck -n delays device scan</a>.
@@ -131,7 +131,7 @@ b)  After GParted starts and begins scanning, open a terminal window and use the
 12
 Why has GNOME automounting of devices stopped working?
 GParted version 0.3.6 (and many earlier versions) created a file to
-prevent problems that occur if a device is automounted while gparted is
+prevent problems that occur if a device is automounted while GParted is
 working on the device.
 This file is removed when GParted exits normally.
 However, if GParted terminated abnormally it could leave this file on the computer.
@@ -144,7 +144,7 @@ To fix the problem you can do one of the following:
 <br>
  &nbsp &nbsp or,
 <br>
-2. Start and then exit gparted.  This will also remove the file.
+2. Start and then exit GParted.  This will also remove the file.
 ---
 13
 GRUB fails to boot.  How can I fix this?
