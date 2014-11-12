@@ -23,9 +23,9 @@ consider making a donation.<br>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <p>Donate via PayPal:
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="1930500">
+<input type="hidden" name="hosted_button_id" value="G4XNU66483SQN">
 <input type="image" src="images/btn_donate_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </p>
 </form>
 Your donation will help us to make GParted better.
