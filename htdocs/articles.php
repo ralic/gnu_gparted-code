@@ -51,6 +51,13 @@ this list then please let me know,
 
 <ul>
   <li class="step">
+    <a href="http://vcdx56.com/2014/11/13/increase-vcenter-server-appliance-database-disk/">
+    Increase vCenter Server Appliance database disk
+    </a><br>
+    by Magander3 on November 13, 2014<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.jhaagmans.com/performance-2/replacing-a-bitlocker-encrypted-disk-with-an-ssd.html">
     Replacing a Bitlocker encrypted disk (with an SSD)
     </a><br>
