@@ -2,6 +2,7 @@
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-19360100-1']);
+  _gaq.push(['_setDomainName', 'gparted.org']);
   _gaq.push(['_trackPageview']);
 
   (function() {
