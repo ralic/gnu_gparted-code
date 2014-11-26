@@ -11,6 +11,12 @@ if (width > 500) {
   google_ad_width = 160;
   google_ad_height = 600;
 }
+if (width > 800) {
+  /* Live CD page, 336x280 ads, Right hand side near top */
+  google_ad_slot = "8523593961";
+  google_ad_width = 336;
+  google_ad_height = 280;
+}
 //-->
 </script>
 <script type="text/javascript"
