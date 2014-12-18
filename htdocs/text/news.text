@@ -1,3 +1,35 @@
+184
+18 December 2014
+CVE-2014-7208 Unsafe OS command execution in GParted <= 0.14.1
+<br>
+A security vulnerability has been found in GParted versions <= 0.14.1.
+The vulnerability does not exist in GParted 0.15.0 and higher.<br>
+See <a
+href="https://www.sec-consult.com/en/Vulnerability-Lab/Advisories.htm#a173">public
+announcement of the security vulnerability by Wolfgang
+Ettlinger</a> on 2014-12-18.<br>
+<br>
+The GParted team thanks Wolfgang Ettlinger (discovery, analysis) from
+the SEC Consult Vulnerability Lab (<a
+href="https://www.sec-consult.com/">https://www.sec-consult.com/</a>)
+for responsibly reporting the identified issues and working with us as
+we addressed them.<br>
+<br>
+Additionally the GParted team thanks all persons involved for handling
+the security vulnerability in a professional manner.  Further, I
+personally thank Mike Fleetwood for all his work on this issue and for
+developing patches to address the vulnerability in multiple GParted
+versions.<br>
+<br>
+More details, including the patches to address the vulnerability in
+GParted 0.4.2 to 0.14.1 inclusive, can be found at the following
+link:<br>
+<a href="https://bugzilla.gnome.org/show_bug.cgi?id=740161">Bug 740161
+- CVE-2014-7208 Unsafe OS command execution in GParted <=
+0.14.1</a><br>
+<br>
+Curtis
+---
 183
 25 October 2014
 GParted Live 0.20.0-2 Stable Release
