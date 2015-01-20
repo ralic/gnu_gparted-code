@@ -25,11 +25,6 @@ information of each designer.
 <table border=1>
 <tr>
   <td>
-    <a href="images/gparted_wallpaper.png">
-      <img src="images/gparted_wallpaper_small.png" alt="wallpaper1">
-    </a>
-  </td>
-  <td>
     <a href="gparted_icons/gparted_logo1.png">
       <img src="gparted_icons/gparted_logo1_small.png" alt="logo1">
     </a>
@@ -48,10 +43,6 @@ information of each designer.
 <tr>
   <td>
     Created by:<br>
-    <a href="mailto:jlmujar&#64;trends.com.ph">Junel Mujar</a>
-  </td>
-  <td>
-    Created by:<br>
     <a href="mailto:info&#064;desing.nl">blokhut</a>
   </td>
   <td>
@@ -61,6 +52,31 @@ information of each designer.
   <td>
     Created by:<br>
     <a href="mailto:josvandersteege&#064;hotmail.com">Jos van der Steege</a>
+  </td>
+</tr>
+</table>
+
+<table border=1>
+<tr>
+  <td>
+    <a href="images/gparted_wallpaper.png">
+      <img src="images/gparted_wallpaper_small.png" alt="wallpaper1">
+    </a>
+  </td>
+  <td>
+    <a href="images/gparted-live.png">
+      <img src="images/gparted-live-small.png" alt="gparted-live">
+    </a>
+  </td>
+</tr>
+<tr>
+  <td>
+    Created by:<br>
+    <a href="mailto:jlmujar&#64;trends.com.ph">Junel Mujar</a>
+  </td>
+  <td>
+    Created by:<br>
+    <a href="http://LindaTemple.com">Linda Temple</a>
   </td>
 </tr>
 </table>
