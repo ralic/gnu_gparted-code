@@ -1,3 +1,25 @@
+185
+26 January 2015
+GParted 0.21.0
+<br>
+This release of GParted includes enhancements, bug fixes and language
+translation updates.  One fix involves an error introduced in 0.15.0
+whereby GParted's internal block copy has an off by one sector bug
+when the source is before the destination; and the copy is performed
+backwards from high block to low block.  The problem results in
+incorrect last sectors in partitions.
+<br>
+<br>
+Key changes include:
+<ul>
+<li>Fix off by one sector error in GParted internal block copy</li>
+<li>Add support for ext4 on RHEL/CentOS 5.x</li>
+<li>Remove unnecessary duplicate actions when resizing a partition</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.21.0/gparted-0.21.0-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 184
 18 December 2014
 CVE-2014-7208 Unsafe OS command execution in GParted <= 0.14.1
