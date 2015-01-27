@@ -101,8 +101,10 @@ Manage flags dialog.
 <a name="gparted-live-boot-menu"></a>
 GParted Live boot menu.
 <br>
-<a href="screens/gparted_12_big.jpg" >
-	<img src="screens/gparted_12_small.jpg" alt="GParted Live boot menu"></a>
+<a href="screens/gparted-live-boot.jpg">
+  <img src="screens/gparted-live-boot.jpg" width="400px"
+       alt="GParted Live boot menu">
+</a>
 </p>
 
 </div>
