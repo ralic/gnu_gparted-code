@@ -38,8 +38,8 @@ loss, enabling you to:<br>
   <li class="step">Attempt data rescue from lost partitions</li>
 </ul>
 
-<a href="screens/gparted_1_big.png">
-  <img src="screens/gparted_1_small.png" alt="GParted Main screen"
+<a href="screens/gparted-main-window.png">
+  <img src="screens/gparted-main-window.png" alt="GParted Main screen"
         height="163px" class="left">
 </a>
 
