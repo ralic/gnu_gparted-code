@@ -231,7 +231,7 @@ architectures
       Ubuntu
     </th>
     <td>
-      <a href="https://apps.ubuntu.com/cat/applications/gparted/"><img src="http://developer.ubuntu.com/wp-content/uploads/2012/06/downloadonubuntubutton.png" title="Download for Ubuntu" alt="Download for Ubuntu button" width="122" height="49"></a>
+      <a href="http://packages.ubuntu.com/search?keywords=gparted">gparted</a>
     </td>
     <td>
       <pre>sudo apt-get install gparted</pre>
