@@ -103,7 +103,7 @@ loss, enabling you to:<br>
 <p>
 GParted can be used on x86 and x86-64 based computers running Linux,
 Windows, or Mac OS X by booting from media
-containing <a href="livecd.php">GParted Live</a>.  A minimum of 160 MB
+containing <a href="livecd.php">GParted Live</a>.  A minimum of 256 MB
 of RAM is needed to use all of the
 <a href="features.php">features</a> of the GParted application.
 </p>
