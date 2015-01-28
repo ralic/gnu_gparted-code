@@ -1,3 +1,29 @@
+186
+27 January 2015
+GParted Live 0.21.0-1 Stable Release
+<br>
+The GParted team is proud to announce a new stable release of GParted
+Live.<br>
+<br>
+This live image contains GParted 0.21.0 which fixes an off-by-one
+sector error in GParted's internal block copy algorithm, and removes
+unnecessary duplicate actions when resizing a partition.<br>
+<br>
+Items of note include:<br>
+<ul>
+<li>Based on the Debian Sid repository (as of 2015/Jan/27)</li>
+<li>Replaced i486 live image with i586</li>
+<li>Increased minimum requirements to 256 MB of RAM</li>
+<li>Includes GParted 0.21.0 (fixes off-by-one internal block copy,
+  adds ReFS detection, removes unnecessary partition resize
+  actions)</li>
+</ul>
+This release of GParted Live has been successfully tested on
+VirtualBox, VMware, BIOS, UEFI, and physical computers with AMD/ATI,
+NVidia, and Intel graphics.<br>
+<br>
+Curtis
+---
 185
 26 January 2015
 GParted 0.21.0
