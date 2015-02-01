@@ -35,7 +35,7 @@ gnome_menu();
       Laurent de Trogoff (LarryT) <br>
       <br>
       <b>Consultant to GParted</b> <br>
-      <a href="mailto:fdupoux&#064;users.sourceforge.net">Fran&ccedil;ois Dupoux</a> <br>
+      Fran&ccedil;ois Dupoux <br>
       <br>
       <b>All-Hands person, including Forum Administrator</b> <br>
       Jan Claeys (JanC)<br>
