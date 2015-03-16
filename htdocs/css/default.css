@@ -44,8 +44,8 @@ margin-right: 10px;
 }
 @media screen and (max-device-width: 500px) {
   .content {
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 1px;
+  margin-right: 1px;
   }
 }
 
@@ -109,6 +109,7 @@ float: right;
 }
 
 .abovead {
+padding: 0.5em 0px;
 margin-bottom: 10px;
 margin-left: 10px;
 }
@@ -184,8 +185,8 @@ background-color: #fafafa;
 
 .ftr {
 margin-top: 10px;
+line-height: 1.7em;
 text-align: center;
-font-size: small;
 vertical-align:	bottom;
 clear: both;
 padding: 5px 0px 5px 0px;
@@ -214,8 +215,8 @@ margin-bottom: 20px;
 /* Latest release upper right */
 .rightbox {
 margin-right: 10px;
+line-height: 1.7em;
 max-width: 125px;
-font-size: small;
 float: right;
 background-color: #fafafa; /* very light grey */
 }
@@ -231,7 +232,7 @@ font-family: "Bitstream Vera Sans", sans-serif;
 padding-left: 0;
 margin-left: 10px;
 margin-top: 10px;
-height: 20px;
+height: 36px;
 }
 @media screen and (max-device-width: 500px) {
   .hovermenu ul {
@@ -245,7 +246,7 @@ display: inline;
 }
 
 .hovermenu ul li a{
-padding: 2px 0.75em;
+padding: 0.50em 0.75em;
 text-decoration: none;
 float: left;
 color: blue;
