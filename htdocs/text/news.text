@@ -1,3 +1,24 @@
+187
+23 March 2015
+GParted 0.22.0
+<br>
+The big news with this release of GParted is support for unpartitioned
+whole disk drives.  With unpartitioned drive support, GParted can now
+recognize and also format disk devices that do not contain a partition
+table.  Another new feature is support for GPT partition names.  This
+feature enables setting and viewing names on GPT partitions.  Also
+included are bug fixes and language translation updates.
+<br>
+<br>
+Key changes include:
+<ul>
+<li>Add read and write support for unpartitioned whole disk devices</li>
+<li>Add read and write support for GPT partition names</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.22.0/gparted-0.22.0-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 186
 27 January 2015
 GParted Live 0.21.0-1 Stable Release
