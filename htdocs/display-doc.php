@@ -88,6 +88,15 @@ else
   $replacement = '${1}${3}';
   $filecontents = preg_replace( $pattern, $replacement, $filecontents );
 
+  // Remove authorgroup section
+  //   Usually found in html files generated from docbook xml files
+  //   with the command:
+  //     xmlto html-nochunks file.xml
+  $pattern = '&(<div><div[\s*]class="authorgroup">.*?)'
+           . '(<div><p[\s]*class="releaseinfo">)&si';
+  $replacement = '${2}';
+  $filecontents = preg_replace( $pattern, $replacement, $filecontents );
+
   // Fix up img tag src="" paths
   $pattern = '&(<img[^>]*src=")([^"\s]*)([^>]*>)&si';
   $replacement = '${1}' . $pathname . '${2}${3}';
