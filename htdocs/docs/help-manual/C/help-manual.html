@@ -1,8 +1,10 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>GParted Manual</title><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><meta name="description" content="GParted is the GNOME Partition Editor for creating, reorganizing, and deleting disk partitions. GParted enables you to change the partition organization while preserving the partition contents."></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div lang="en" class="article" title="GParted Manual"><div class="titlepage"><div><div><h2 class="title"><a name="gparted"></a>GParted Manual</h2></div><div><div class="authorgroup"><div class="author"><h3 class="author"><span class="firstname">Curtis</span> <span class="surname">Gedak</span></h3><div class="affiliation"><span class="orgname">GParted Project<br></span><div class="address"><p><br>
             <code class="email">&lt;<a class="email" href="mailto:gedakc@users.sf.net">gedakc@users.sf.net</a>&gt;</code><br>
+          </p></div></div></div><div class="author"><h3 class="author"><span class="firstname">Mike</span> <span class="surname">Fleetwood</span></h3><div class="affiliation"><span class="orgname">GParted Project<br></span><div class="address"><p><br>
+            <code class="email">&lt;<a class="email" href="mailto:mike.fleetwood@googlemail.com">mike.fleetwood@googlemail.com</a>&gt;</code><br>
           </p></div></div></div></div></div><div><p class="releaseinfo">
-    This manual describes version 0.20.0 of GParted
-    </p></div><div><p class="copyright">Copyright © 2008, 2009, 2010, 2011, 2012, 2013, 2014 Curtis Gedak</p></div><div><div class="legalnotice" title="Legal Notice"><a name="idp171376"></a><p>
+    This manual describes version 0.22.0 of GParted
+    </p></div><div><p class="copyright">Copyright © 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015 Curtis Gedak</p></div><div><p class="copyright">Copyright © 2014, 2015 Mike Fleetwood</p></div><div><div class="legalnotice" title="Legal Notice"><a name="idp173168"></a><p>
       Permission is granted to copy, distribute and/or modify this document
       under the terms of the GNU Free Documentation License, Version 1.2
       or any later version published by the Free Software Foundation;
@@ -11,12 +13,16 @@
       <a class="ulink" href="ghelp:fdl" target="_top">link</a> or at
       <a class="ulink" href="http://www.fsf.org/licensing/licenses/fdl.html" target="_top">http://www.fsf.org/licensing/licenses/fdl.html</a>
       or in the file COPYING-DOCS distributed with this manual.
-      </p></div></div><div><div class="legalnotice" title="Feedback"><a name="idp4761968"></a><p class="legalnotice-title"><b>Feedback</b></p><p>
+      </p></div></div><div><div class="legalnotice" title="Feedback"><a name="idp4820640"></a><p class="legalnotice-title"><b>Feedback</b></p><p>
       To report a bug or make a suggestion regarding the
       <span class="application">gparted</span> application or this manual,
       follow the directions at
       <a class="ulink" href="http://gparted.org/bugs.php" target="_top">http://gparted.org/bugs.php</a>.
-      </p></div></div><div><div class="revhistory"><table border="1" width="100%" summary="Revision history"><tr><th align="left" valign="top" colspan="2"><b>Revision History</b></th></tr><tr><td align="left">Revision GParted Manual V1.8</td><td align="left">September 2014</td></tr><tr><td align="left" colspan="2">
+      </p></div></div><div><div class="revhistory"><table border="1" width="100%" summary="Revision history"><tr><th align="left" valign="top" colspan="2"><b>Revision History</b></th></tr><tr><td align="left">Revision GParted Manual V1.9</td><td align="left">March 2015</td></tr><tr><td align="left" colspan="2">
+          <p class="author">Curtis Gedak &amp; Mike Fleetwood</p>
+          <p class="publisher">GParted Project</p>
+          <p class="annotations">Describes version 0.22.0 of GParted</p>
+        </td></tr><tr><td align="left">Revision GParted Manual V1.8</td><td align="left">September 2014</td></tr><tr><td align="left" colspan="2">
           <p class="author">Curtis Gedak</p>
           <p class="publisher">GParted Project</p>
           <p class="annotations">Describes version 0.20.0 of GParted</p>
@@ -61,7 +67,7 @@
       reorganizing, and deleting disk partitions.
       GParted enables you to change the partition organization while preserving
       the partition contents.
-      </p></div></div></div><hr></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="sect1"><a href="#gparted-introduction">Introduction</a></span></dt><dt><span class="sect1"><a href="#gparted-getting-started">Getting Started</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-to-start">Starting gparted</a></span></dt><dt><span class="sect2"><a href="#gparted-when-you-start">The gparted Window</a></span></dt><dt><span class="sect2"><a href="#gparted-run-from-cmd-line">Running gparted from a Command Line</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-usage">Viewing File System Support</a></span></dt><dt><span class="sect1"><a href="#gparted-devices">Working with Devices</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-select-device">Selecting a Device</a></span></dt><dt><span class="sect2"><a href="#gparted-view-device-information">Viewing Device Information</a></span></dt><dt><span class="sect2"><a href="#gparted-refresh-device">Refreshing All Devices</a></span></dt><dt><span class="sect2"><a href="#gparted-create-partition-table">Creating a New Partition Table</a></span></dt><dt><span class="sect2"><a href="#gparted-attempt-data-rescue">Attempting Data Rescue</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-partitions">Working with Partitions</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-basic-partition-actions">Basic Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-select-partition">Selecting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-select-unallocated">Selecting Unallocated Space</a></span></dt><dt><span class="sect3"><a href="#gparted-view-partition-information">Viewing Partition Information</a></span></dt><dt><span class="sect3"><a href="#gparted-mount-partition">Mounting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-unmount-partition">Unmounting a Partition</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-intermediate-partition-actions">Intermediate Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-create-new-partition">Creating a New Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-delete-partition">Deleting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-format-partition">Formatting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-setting-partition-label">Setting a Partition Label</a></span></dt><dt><span class="sect3"><a href="#gparted-changing-partition-uuid">Changing a Partition UUID</a></span></dt><dt><span class="sect3"><a href="#gparted-specify-partition-details">Specifying Partition Details</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-advanced-partition-actions">Advanced Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-resize-partition">Resizing a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-move-partition">Moving a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-copy-and-paste-partition">Copying and Pasting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-manage-partition-flags">Managing Partition Flags</a></span></dt><dt><span class="sect3"><a href="#gparted-Check-partition">Checking a Partition</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-operation-queue">Working with the Operation Queue</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-undo-last-operation">Undoing Last Operation</a></span></dt><dt><span class="sect3"><a href="#gparted-clear-all-operations">Clearing All Operations</a></span></dt><dt><span class="sect3"><a href="#gparted-apply-all-operations">Applying All Operations</a></span></dt></dl></dd></dl></dd><dt><span class="sect1"><a href="#gparted-acquire-livecd">Acquiring GParted on Live CD</a></span></dt><dt><span class="sect1"><a href="#gparted-fix-operating-system-boot-problems">Fixing Operating System Boot Problems</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-fix-grub-boot-problem">Fixing GRUB boot problem</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-restore-grub-2">Restoring GRUB 2 Boot Loader</a></span></dt><dt><span class="sect3"><a href="#gparted-restore-grub-legacy">Restoring GRUB Legacy Boot Loader</a></span></dt></dl></dd></dl></dd><dt><span class="sect1"><a href="#gparted-recover-partition-table">Recovering Partition Tables</a></span></dt></dl></div><div class="sect1" title="Introduction"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-introduction"></a>Introduction</h2></div></div></div><p>
+      </p></div></div></div><hr></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="sect1"><a href="#gparted-introduction">Introduction</a></span></dt><dt><span class="sect1"><a href="#gparted-getting-started">Getting Started</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-to-start">Starting gparted</a></span></dt><dt><span class="sect2"><a href="#gparted-when-you-start">The gparted Window</a></span></dt><dt><span class="sect2"><a href="#gparted-run-from-cmd-line">Running gparted from a Command Line</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-usage">Viewing File System Support</a></span></dt><dt><span class="sect1"><a href="#gparted-devices">Working with Devices</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-select-device">Selecting a Device</a></span></dt><dt><span class="sect2"><a href="#gparted-view-device-information">Viewing Device Information</a></span></dt><dt><span class="sect2"><a href="#gparted-refresh-device">Refreshing All Devices</a></span></dt><dt><span class="sect2"><a href="#gparted-create-partition-table">Creating a New Partition Table</a></span></dt><dt><span class="sect2"><a href="#gparted-attempt-data-rescue">Attempting Data Rescue</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-partitions">Working with Partitions</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-basic-partition-actions">Basic Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-select-partition">Selecting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-select-unallocated">Selecting Unallocated Space</a></span></dt><dt><span class="sect3"><a href="#gparted-view-partition-information">Viewing Partition Information</a></span></dt><dt><span class="sect3"><a href="#gparted-mount-partition">Mounting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-unmount-partition">Unmounting a Partition</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-intermediate-partition-actions">Intermediate Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-create-new-partition">Creating a New Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-delete-partition">Deleting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-name-partition">Naming a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-format-partition">Formatting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-setting-partition-file-system-label">Setting a Partition File System Label</a></span></dt><dt><span class="sect3"><a href="#gparted-changing-partition-uuid">Changing a Partition UUID</a></span></dt><dt><span class="sect3"><a href="#gparted-specify-partition-details">Specifying Partition Details</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-advanced-partition-actions">Advanced Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-resize-partition">Resizing a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-move-partition">Moving a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-copy-and-paste-partition">Copying and Pasting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-manage-partition-flags">Managing Partition Flags</a></span></dt><dt><span class="sect3"><a href="#gparted-Check-partition">Checking a Partition</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-operation-queue">Working with the Operation Queue</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-undo-last-operation">Undoing Last Operation</a></span></dt><dt><span class="sect3"><a href="#gparted-clear-all-operations">Clearing All Operations</a></span></dt><dt><span class="sect3"><a href="#gparted-apply-all-operations">Applying All Operations</a></span></dt></dl></dd></dl></dd><dt><span class="sect1"><a href="#gparted-acquire-livecd">Acquiring GParted on Live CD</a></span></dt><dt><span class="sect1"><a href="#gparted-fix-operating-system-boot-problems">Fixing Operating System Boot Problems</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-fix-grub-boot-problem">Fixing GRUB boot problem</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-restore-grub-2">Restoring GRUB 2 Boot Loader</a></span></dt><dt><span class="sect3"><a href="#gparted-restore-grub-legacy">Restoring GRUB Legacy Boot Loader</a></span></dt></dl></dd></dl></dd><dt><span class="sect1"><a href="#gparted-recover-partition-table">Recovering Partition Tables</a></span></dt></dl></div><div class="sect1" title="Introduction"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-introduction"></a>Introduction</h2></div></div></div><p>
     The <span class="application">gparted</span> application is the GNOME Partition
     Editor for creating, reorganizing, and deleting disk partitions.
     </p><p>
@@ -229,6 +235,23 @@
               See <a class="xref" href="#gparted-specify-partition-type" title="Specifying Partition Type">the section called &#8220;Specifying Partition Type&#8221;</a> for
               <span class="guimenuitem">msdos</span> partition table
               limitations.
+              </p></div><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+              To use a disk without a partition table, choose
+              <span class="guimenuitem">loop</span> to create a virtual
+              partition that spans the disk.  Then format to the
+              desired file system.
+              </p><p>
+              See <a class="xref" href="#gparted-format-partition" title="Formatting a Partition">the section called &#8220;Formatting a Partition&#8221;</a> to format
+              a virtual partition with a file system.
+              </p></div><div class="caution" title="Caution" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Caution</h3><p>
+              Many operating systems recognize
+              <span class="guimenuitem">gpt</span> and
+              <span class="guimenuitem">msdos</span> partition tables, but
+              do not recognize all types of file systems.  This lack
+              of file system recognition means that using a disk
+              without a partition table involves more risk.  For
+              example, some operating systems might prompt to format an
+              unpartitioned disk if the file system is not recognized.
               </p></div></li><li class="listitem"><p>
             Click <span class="guibutton">Apply</span> to create the new partition table.
             The application writes the new partition table to the disk device.
@@ -443,8 +466,8 @@
               Specify the type of file system for the partition.
               See <a class="xref" href="#gparted-specify-partition-file-system" title="Specifying Partition File System">the section called &#8220;Specifying Partition File System&#8221;</a>.
               </p></li><li class="listitem"><p>
-              Specify the label for the partition.
-              See <a class="xref" href="#gparted-specify-partition-label" title="Specifying Partition Label">the section called &#8220;Specifying Partition Label&#8221;</a>.
+              Specify the label of the file system for the partition.
+              See <a class="xref" href="#gparted-specify-partition-file-system-label" title="Specifying Partition File System Label">the section called &#8220;Specifying Partition File System Label&#8221;</a>.
               </p></li><li class="listitem"><p>
               Click <span class="guibutton">Add</span> to add the create partition
               operation to the operation queue.
@@ -491,8 +514,8 @@
               </p></li></ul></div><p>
           Changes in a device name can cause problems if a
           partition is mounted using a device name.
-          You can avoid the problem by using the label or 
-          the Universally Unique Identifier (UUID) of
+          You can avoid the problem by using the file system label or
+          Universally Unique Identifier (UUID) of
           the partition when mounting the partition.
           </p><p>
           Changes in a device name might adversely affect the
@@ -504,7 +527,39 @@
                 instructions for the <span class="application">grub</span>
                 boot loader.
                 </p></li></ul></div><p>
-          </p></div></div><div class="sect3" title="Formatting a Partition"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-format-partition"></a>Formatting a Partition</h4></div></div></div><p>
+          </p></div><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+          Disks with <span class="guimenuitem">loop</span> or
+          <span class="guimenuitem">none</span> partition tables do not
+          contain a partition table, and do not contain partitions.  A
+          file system on a disk without a partition table is
+          represented in GParted by a virtual partition.
+          </p><p>
+          To delete the file system and virtual partition, choose
+          format to <span class="guimenuitem">cleared</span>.
+          </p><p>
+          See <a class="xref" href="#gparted-format-partition" title="Formatting a Partition">the section called &#8220;Formatting a Partition&#8221;</a>.
+          </p></div></div><div class="sect3" title="Naming a Partition"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-name-partition"></a>Naming a Partition</h4></div></div></div><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+          Naming of partitions is only available with GUID partition
+          tables (GPT).
+          </p><p>
+          Also see <a class="xref" href="#gparted-create-partition-table" title="Creating a New Partition Table">the section called &#8220;Creating a New Partition Table&#8221;</a>.
+          </p></div><p>
+        To set a name of a partition:
+        </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
+              Select an unmounted partition.
+              See <a class="xref" href="#gparted-select-partition" title="Selecting a Partition">the section called &#8220;Selecting a Partition&#8221;</a>.
+              </p></li><li class="listitem"><p>
+              Choose:
+              <span class="guimenu">Partition</span> &#8594; <span class="guimenuitem">Name Partition</span>.
+              The application opens a <span class="guilabel">Set partition name on
+              <em class="replaceable"><code>/path-to-partition</code></em></span> dialog.
+              </p></li><li class="listitem"><p>
+              Type a partition name in the <span class="guilabel">Name</span> text box.
+              </p></li><li class="listitem"><p>
+              Click <span class="guibutton">OK</span>.
+              The application displays the set partition name operation
+              in the <span class="guilabel">Operations Pending</span> pane.
+              </p></li></ol></div></div><div class="sect3" title="Formatting a Partition"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-format-partition"></a>Formatting a Partition</h4></div></div></div><p>
         To format a partition:
           </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
               Select an unmounted partition.
@@ -520,21 +575,21 @@
               for the meaning of the <span class="guimenuitem">cleared</span>
               file system type.
               </p></li></ol></div><p>
-        </p></div><div class="sect3" title="Setting a Partition Label"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-setting-partition-label"></a>Setting a Partition Label</h4></div></div></div><p>
-        To set a label or a volume name for a partition:
+        </p></div><div class="sect3" title="Setting a Partition File System Label"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-setting-partition-file-system-label"></a>Setting a Partition File System Label</h4></div></div></div><p>
+        To set a label or a volume name of a file system in a partition:
           </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
               Select an unmounted partition.
               See <a class="xref" href="#gparted-select-partition" title="Selecting a Partition">the section called &#8220;Selecting a Partition&#8221;</a>.
               </p></li><li class="listitem"><p>
               Choose:
-              <span class="guimenu">Partition</span> &#8594; <span class="guimenuitem">Label</span>.
-              The application opens a <span class="guilabel">Set partition label on
+              <span class="guimenu">Partition</span> &#8594; <span class="guimenuitem">Label File System</span>.
+              The application opens a <span class="guilabel">Set file system label on
               <em class="replaceable"><code>/path-to-partition</code></em></span> dialog.
               </p></li><li class="listitem"><p>
-              Type a label name in the <span class="guilabel">Label </span> text box.
+              Type a label name in the <span class="guilabel">Label</span> text box.
               </p></li><li class="listitem"><p>
               Click <span class="guibutton">OK</span>.
-              The application displays the set partition label operation
+              The application displays the set file system label operation
               in the <span class="guilabel">Operations Pending</span> pane.
               </p></li></ol></div><p>
         </p></div><div class="sect3" title="Changing a Partition UUID"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-changing-partition-uuid"></a>Changing a Partition UUID</h4></div></div></div><p>
@@ -687,12 +742,13 @@
                   <span class="guimenuitem">unformatted</span> can be used to
                   just create a partition without writing a file system.
                   </p></li></ul></div><p>
-            </p></div></div><div class="sect4" title="Specifying Partition Label"><div class="titlepage"><div><div><h5 class="title"><a name="gparted-specify-partition-label"></a>Specifying Partition Label</h5></div></div></div><p>
-          To specify the partition label, also known as a volume label,
-          type a label name in the <span class="guilabel">Label</span> text box.
+            </p></div></div><div class="sect4" title="Specifying Partition File System Label"><div class="titlepage"><div><div><h5 class="title"><a name="gparted-specify-partition-file-system-label"></a>Specifying Partition File System Label</h5></div></div></div><p>
+          To specify the file system label in the partition, also known
+          as a volume label, type a label name in the
+          <span class="guilabel">Label</span> text box.
           </p><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
-            Labels can be used to help you remember what is stored in
-            the partition.
+            File system labels can be used to help you remember what is
+            stored in the partition.
             </p><p>
             Unique labels can be used to mount file systems with the
             GNU/Linux operating system.
@@ -878,12 +934,11 @@
               in the <span class="guilabel">Pending Operations</span> pane.
               </p></li></ol></div><p>
         </p><div class="caution" title="Caution" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Caution</h3><p>
-          The copy of the partition has the same label
-          and the same Universally Unique Identifier (UUID)
-          as the source partition.
-          This can cause a problem when booting, or when mount actions
-          use the partition label or the UUID to identify the
+          The copy of the partition has the same file system label
+          and Universally Unique Identifier (UUID) as the source
           partition.
+          This can cause a problem when booting, or when mount actions
+          use the file system label or UUID to identify the partition.
           </p><p>
           The problem is that the operating system will randomly
           select to mount either the source, or the copy of the
@@ -905,10 +960,10 @@
                       of the partition.
                       See <a class="xref" href="#gparted-changing-partition-uuid" title="Changing a Partition UUID">the section called &#8220;Changing a Partition UUID&#8221;</a>.
                       </p></li><li class="listitem"><p>
-                      If the partition label is not blank then change the
-                      label of either the source, or the copy of the
-                      partition.
-                      See <a class="xref" href="#gparted-setting-partition-label" title="Setting a Partition Label">the section called &#8220;Setting a Partition Label&#8221;</a>.
+                      If the file system label is not blank then change
+                      the file system label of either the source, or the
+                      copy of the partition.
+                      See <a class="xref" href="#gparted-setting-partition-file-system-label" title="Setting a Partition File System Label">the section called &#8220;Setting a Partition File System Label&#8221;</a>.
                       </p></li></ol></div><p>
                 </p></li><li class="listitem"><p>
                 After you have applied the copy operation, delete or
@@ -942,7 +997,17 @@
                     and refreshes the <span class="guilabel">Manage flags on
                     <em class="replaceable"><code>/path-to-partition</code></em></span> dialog.
                     </p></li></ul></div><p>
-              </p></li></ol></div><p>
+              </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+                <span class="guimenuitem">Manage Flags</span> is only
+                available for disks with partition tables.  Disks with
+                <span class="guimenuitem">loop</span> or
+                <span class="guimenuitem">none</span> partition tables do
+                not contain a partition table, and do not have
+                partition flags.
+                </p><p>
+                See <a class="xref" href="#gparted-view-device-information" title="Viewing Device Information">the section called &#8220;Viewing Device Information&#8221;</a>
+                to view the type of partition table.
+                </p></div></li></ol></div><p>
         </p><p>
         To close the <span class="guilabel">Manage flags on 
         <em class="replaceable"><code>/path-to-partition</code></em></span> dialog,
