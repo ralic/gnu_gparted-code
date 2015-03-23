@@ -46,7 +46,7 @@ gnome_menu();
   <br>
   <a href="news_rss20.php">
     <img alt="RSS feed icon" src="images/feed-icon-16px.png" width="16" height="16">
-    RSS News Feed
+    RSS News
   </a>
 </div>
 <div class="content">
