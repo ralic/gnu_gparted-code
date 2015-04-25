@@ -13,6 +13,10 @@ a img {
 border: 0px;
 }
 
+pre {
+white-space: pre-wrap;
+}
+
 table {
 font-family: "Bitstream Vera Sans", sans-serif;
 border-collapse: collapse;
