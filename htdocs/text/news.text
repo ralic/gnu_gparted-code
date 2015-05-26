@@ -1,3 +1,26 @@
+189
+26 May 2015
+GParted Live 0.22.0-2 Stable Release
+<br>
+The GParted team is proud to announce a new stable release of GParted
+Live.<br>
+<br>
+This release has been enhanced to enable booting on UEFI computers
+when the image is directly copied to boot media using the dd
+command.<br>
+<br>
+Items of note include:<br>
+<ul>
+<li>Uses "isohybrid --uefi" to make dd iso file work for UEFI computers</li>
+<li>Based on the Debian Sid repository (as of 2015/May/22)</li>
+<li>Linux kernel updated to 4.0.2-1
+</ul>
+This release of GParted Live has been successfully tested on
+VirtualBox, VMware, BIOS, UEFI, and physical computers with AMD/ATI,
+NVidia, and Intel graphics.<br>
+<br>
+Curtis
+---
 188
 24 March 2015
 GParted Live 0.22.0-1 Stable Release
