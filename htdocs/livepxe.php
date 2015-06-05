@@ -80,6 +80,13 @@ GParted.  The steps to do this are as follows:
     label GParted Live
             MENU LABEL GParted Live
             kernel vmlinuz
+            append initrd=initrd.img boot=live config components union=overlay username=user noswap noeject ip= vga=788 fetch=http://$webserverIP/filesystem.squashfs
+    </pre>
+    <p>If the GParted live version you are using is <= 0.22.0-1, then the config file is like:</p>
+    <pre>
+    label GParted Live
+            MENU LABEL GParted Live
+            kernel vmlinuz
             append initrd=initrd.img boot=live config union=aufs noswap noprompt vga=788 fetch=http://$webserverIP/filesystem.squashfs
     </pre>
     <b>NOTE1:</b> Replace <i>$webserverIP</i> with the IP address of
