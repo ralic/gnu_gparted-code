@@ -51,6 +51,20 @@ this list then please let me know,
 
 <ul>
   <li class="step">
+    <a href="http://networkengineer.me/2015/06/12/shrinkenlargeresize-ubuntu-partitions-with-gparted/">
+    Shrink/Enlarge/Resize Ubuntu Partitions with GParted
+    </a><br>
+    by Farzand Ali on June 12, 2015<br>
+    <br>
+  </li>
+  <li class="step">
+    <a href="http://geekswing.com/geek/gparted-tutorial-expanding-root-partition-when-lvm-is-not-available/">
+    Expanding root partition when LVM is not available
+    </a><br>
+    by Ben on June 4, 2015<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://vcdx56.com/2014/11/13/increase-vcenter-server-appliance-database-disk/">
     Increase vCenter Server Appliance database disk
     </a><br>
