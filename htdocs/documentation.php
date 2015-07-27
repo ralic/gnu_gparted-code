@@ -38,7 +38,8 @@ gnome_menu();
         <a href="display-doc.php?name=help-manual&lang=ro">Română</a>,
         <a href="display-doc.php?name=help-manual&lang=ru">русский</a>,
         <a href="display-doc.php?name=help-manual&lang=sr">српски</a>,
-        <a href="display-doc.php?name=help-manual&lang=sr%40latin">Српске Латиница</a>
+        <a href="display-doc.php?name=help-manual&lang=sr%40latin">Српске Латиница</a>,
+        <a href="display-doc.php?name=help-manual&lang=sv">svenska</a>
       </td>
     </tr>
     <tr>
