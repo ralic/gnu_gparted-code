@@ -1,3 +1,23 @@
+190
+3 August 2015
+GParted 0.23.0
+<br>
+This release of GParted includes enhancements, bug fixes and language
+translation updates.
+<br>
+<br>
+Key changes include:
+<ul>
+<li>Add partition name to create dialog and enable online naming<br>
+    (relevant for GPT partitioned disk)</li>
+<li>Show serial number in device information</li>
+<li>Add support for btrfs set new file system UUID</li>
+<li>Prevent UI hang when resizing FAT16/32, HFS and HFS+ file systems</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.23.0/gparted-0.23.0-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 189
 26 May 2015
 GParted Live 0.22.0-2 Stable Release
