@@ -171,7 +171,8 @@ gnome_menu();
 		<sup><a href="#btrfs">[10]</a></sup>
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not supported">
+		<img src="images/supported.png" alt="supported">
+		<sup><a href="#btrfsuuid">[15]</a></sup>
 	</td>
 	<td>
 		<a href="https://btrfs.wiki.kernel.org" target=new>btrfs-tools</a>
@@ -1060,6 +1061,7 @@ gnome_menu();
 <a name="blkid3">[12]</a> The blkid command from util-linux v2.20+ or libparted 2.4+ is required for nilfs2 detection.<br>
 <a name="blkid4">[13]</a> The blkid command from util-linux v2.23+ is required for f2fs detection.<br>
 <a name="blkid5">[14]</a> The blkid command from util-linux v2.24+ is required for refs detection.<br>
+<a name="btrfsuuid">[15]</a> Requires btrfs-progs version >= 4.1 June 2015 package to set new btrfs UUID.<br>
 <br>
 </div>
 
