@@ -175,7 +175,7 @@ gnome_menu();
 		<sup><a href="#btrfsuuid">[15]</a></sup>
 	</td>
 	<td>
-		<a href="https://btrfs.wiki.kernel.org" target=new>btrfs-tools</a>
+		<a href="https://btrfs.wiki.kernel.org" target=new>btrfs-progs / btrfs-tools</a>
 	</td>
 </tr>
 <tr style="background-color: #dddddd;">
@@ -958,7 +958,7 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<a href="https://reiser4.wiki.kernel.org/" target=new>reiserfsprogs</a>
+		<a href="https://en.wikipedia.org/wiki/ReiserFS" target=new>reiserfsprogs / reiserfs-utils</a>
 	</td>
 </tr>
 <tr style="background-color: #dddddd;">
