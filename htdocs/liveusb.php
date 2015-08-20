@@ -96,11 +96,14 @@ Doing so could cause your MS windows not to boot!!!
     Live <b>zip</b> file.
   </li>
   <li class="step">
-    If you already have a partition of at least 200 MB in size on your
+    If you already have a partition of at least 300 MB in size on your
     USB flash drive formatted with a FAT file system then skip to the
     next step (3).<br>
-    Otherwise create at least a 200 MB partition on your USB flash
-    drive and format it with a FAT16 or FAT32 file system.
+    <br>
+    Otherwise create at least a 300 MB partition on your USB flash
+    drive and format it with a FAT16 or FAT32 file system.<br>
+    <i>The partition must be large enough to hold the extracted
+    contents of the GParted Live zip file.</i>
   </li>
   <li class="step">
     Extract all the contents of the zip file to FAT16/FAT32
@@ -235,12 +238,15 @@ Failure to do so could cause loss of data or your GNU/Linux not to boot!!!<br>
   <li class="step">
     If you already have a FAT16 or FAT32 partition on your USB flash
     drive then skip to the next step (3).<br>
-
-    Otherwise prepare at least a 200 MB partition formatted with either a FAT16 or FAT32 file system.<br>
-
+    <br>
+    Otherwise prepare at least a 300 MB partition formatted with
+    either a FAT16 or FAT32 file system.<br>
+    <i>The partition must be large enough to hold the extracted
+    contents of the GParted Live zip file.</i><br>
+    <br>
     If the USB flash drive or USB hard drive does not have
     any partition, you can use a partitioning tool (e.g. gparted, parted, fdisk,
-    cfdisk or sfdisk) to create a partition with a size of 200 MB or
+    cfdisk or sfdisk) to create a partition with a size of 300 MB or
     more.<br>
     Here we assume your USB flash drive or USB hard drive is /dev/sdd
     (<font color="red">You have to comfirm your device name, since
