@@ -92,6 +92,13 @@ this list then please let me know,
     <br>
   </li>
   <li class="step">
+    <a href="http://tvi.al/tag/vm/">
+    Resize /dev/sda1 Disk of Your Vagrant / VirtualBox VM
+    </a><br>
+    by Thomas VIAL on February 23, 2013<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.rootusers.com/use-gparted-to-increase-disk-size-of-a-linux-native-partition/">
     Use GParted to increase disk size of a Linux native partition</a><br>
     by Jarrod on December 13, 2012<br>
