@@ -194,6 +194,13 @@ this list then please let me know,
 
 <ul>
   <li class="step">
+    <a href="http://pcsupport.about.com/od/partition-management-software/fl/gparted-review.htm">
+    GParted v0.23.0 - A Full Review of GParted, a Free Partition Management Tool
+    </a><br>
+    by Tim Fisher on August, 2015<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://liquidthink.net/8-best-linux-distros/">
     8 Best Linux Distributions of 2014
     </a><br>
