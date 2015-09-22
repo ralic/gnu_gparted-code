@@ -201,6 +201,13 @@ this list then please let me know,
     <br>
   </li>
   <li class="step">
+    <a href="http://www.linuxvoice.com/issues/010/fosspicks10.pdf">
+    Linux Voice - FOSSpicks - Partition Manager - GParted 0.20 (PDF)
+    </a><br>
+    by Mike Saunders on November 28, 2014<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://liquidthink.net/8-best-linux-distros/">
     8 Best Linux Distributions of 2014
     </a><br>
