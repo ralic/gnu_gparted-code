@@ -215,6 +215,13 @@ this list then please let me know,
     <br>
   </li>
   <li class="step">
+    <a href="http://www.linuxuser.co.uk/reviews/top-4-graphical-partition-managers">
+    Top 4 graphical partition managers
+    </a><br>
+    by Rob Zwetsloot on July 3, 2014<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.youtube.com/watch?v=hYhrdOuB3xM">
     GParted Live 0.19.0-1 - First Impressions [Video]
     </a><br>
