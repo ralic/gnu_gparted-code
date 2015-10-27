@@ -45,8 +45,10 @@ gnome_menu();
 </p>
 <ul>
   <li class="step">Hard disk drives (e.g., SATA, IDE, and SCSI)</li>
-  <li class="step">Flash memory devices, such as USB memory sticks and Solid
-                   State Drives (SSD's)
+
+  <li class="step">Flash memory devices, such as USB memory sticks, Solid
+                   State Drives (SSD's), and Non-Volatile Memory Express
+                    devices (NVMe's)
   </li>
   <li class="step">RAID Devices (hardware RAID, motherboard BIOS RAID,
                    and Linux software RAID)
