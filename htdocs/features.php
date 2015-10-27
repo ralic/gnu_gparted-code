@@ -1042,6 +1042,44 @@ gnome_menu();
 		<a href="http://oss.sgi.com/projects/xfs/" target=new>xfsprogs</a>, xfsdump
 	</td>
 </tr>
+<tr style="background-color: #dddddd;">
+	<th>
+		<b>zfs</b>
+	</th>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<br>
+	</td>
+</tr>
 </table>
 <br>
 <b>Legend:</b><br>
