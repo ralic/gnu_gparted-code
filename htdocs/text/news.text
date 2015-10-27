@@ -1,3 +1,23 @@
+193
+27 October 2015
+GParted 0.24.0
+<br>
+This release of GParted includes enhancements, bug fixes and language
+translation updates.
+<br>
+<br>
+Key changes include:
+<ul>
+<li>Display list of Logical Volumes in Partition Information dialog</li>
+<li>Add ZFS file system detection</li>
+<li>Add recognition of NVME devices</li>
+<li>Prevent hang labeling FAT16/32 if illegal chars in label</li>
+<li>Avoid core dump if invalid or non-existent device on command line</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.24.0/gparted-0.24.0-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 192
 11 October 2015
 GParted Forum Moved to New VPS and Software Upgraded
