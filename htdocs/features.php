@@ -230,7 +230,7 @@ gnome_menu();
 		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
 		<img src="images/not_supported.png" alt="not supported">
@@ -974,7 +974,7 @@ gnome_menu();
 		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not supported.png">
+		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
 		<img src="images/not_supported.png" alt="not supported">
