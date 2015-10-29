@@ -1,3 +1,48 @@
+194
+29 October 2015
+GParted Live 0.24.0-2 Stable Release
+<br>
+The GParted team is pleased to announce a new stable release of
+GParted Live.<br>
+<br>
+This release includes GParted 0.24.0 which detects ZFS file systems,
+recognizes NVMe devices, prevents a hang when labelling fat16/32 file
+systems if illegal characters in label, and prevents a core dump if
+invalid or non-existent device paths are passed on the command
+line.<br>
+<br>
+Items of note include:<br>
+<ul>
+<li>Based on the Debian Sid repository (as of 2015/Oct/28)</li>
+<li>Linux kernel updated to 4.2.0-1</li>
+<li>Fixed vi entry in right-click Editors menu (<a
+  href="https://bugzilla.gnome.org/show_bug.cgi?id=755602">bug
+  755602</a>)
+</li>
+<li>Added zerofree (<a
+  href="https://bugzilla.gnome.org/show_bug.cgi?id=753446">bug
+  753446</a>),
+  efibootmgr (<a
+  href="https://bugzilla.gnome.org/show_bug.cgi?id=754587">bug
+  754587</a>), and
+  ddrescue (<a
+  href="https://bugzilla.gnome.org/show_bug.cgi?id=750240">bug
+  750240</a>) to live image
+</li>
+</ul>
+This release of GParted Live has been successfully tested on
+VirtualBox, VMware, BIOS, UEFI, and physical computers with AMD/ATI,
+NVidia, and Intel graphics.<br>
+<br>
+<i>NOTE: If mouse cursor is not visible when GParted is running, then
+use the <a href="https://en.wikipedia.org/wiki/Menu_key"><b>menu</b>
+key</a> to open a new terminal window.  The mouse cursor should be
+visible again.  See also <a
+href="display-doc.php?name=gparted-live-manual#gparted-live-working-with-keyboard-only">GParted
+Live Manual - Working with Keyboard Only</a>.</i><br>
+<br>
+Curtis
+---
 193
 27 October 2015
 GParted 0.24.0
@@ -49,7 +94,7 @@ FAT16/32, HFS and HFS+ file systems.<br>
 Items of note include:<br>
 <ul>
 <li>Based on the Debian Sid repository (as of 2015/Aug/06)</li>
-<li>Linux kernel updated to 4.1.3-1
+<li>Linux kernel updated to 4.1.3-1</li>
 </ul>
 This release of GParted Live has been successfully tested on
 VirtualBox, VMware, BIOS, UEFI, and physical computers with AMD/ATI,
