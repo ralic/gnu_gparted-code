@@ -109,7 +109,7 @@ instructions</a>.
     </pre>
     Compose a suitable commit message:<br>
     <br>
-    <i>
+    <code>
     Short one line summary of change (#999999)<br>
     <br>
     Optional longer description explaining why the change is necessary.<br>
@@ -117,8 +117,27 @@ instructions</a>.
     is broken and being fixed or why this change is an improvement.<br>
     <br>
     Bug #999999 - GNOME Bugzilla one line summary<br>
+    </code>
+    <p>
+    <b>Formatting Tips</b>
+    </p>
+    <ul>
+      <li>Long lines should be wrapped at 72 characters, including
+        quoted text and document fragments.
+      </li>
+      <li>Quoted command line output should not be wrapped.
+      </li>
+      <li>When including GParted commit IDs just include SHA1 value.<br>
+        (gitk and CGit on http://git.gnome.org/ convert them into
+        local clickable links).
+      </li>
+      <li>When quoting a commit ID of another package use the full Git
+        web URL so that, at least to humans, it is clear it is a
+        foreign commit ID.  (gitk and cgit still make just the SHA1
+        clickable to a non-existent local commit though).
+      </li>
+    </ul>
     <br>
-    </i>
     <table border=0><tr><td>
     <div class="tip">
     <p class="hangtip">
