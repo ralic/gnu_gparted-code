@@ -51,6 +51,13 @@ this list then please let me know,
 
 <ul>
   <li class="step">
+    <a href="http://joejanuszk.com/blog/increasing-ubuntu-partition-size-dual-boot-windows/">
+    Increasing the Size of an Ubuntu Partition when Dual Booted with Windows 8
+    </a><br>
+    by Joe Januszkiewicz on November 22, 2015<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://networkengineer.me/2015/06/12/shrinkenlargeresize-ubuntu-partitions-with-gparted/">
     Shrink/Enlarge/Resize Ubuntu Partitions with GParted
     </a><br>
