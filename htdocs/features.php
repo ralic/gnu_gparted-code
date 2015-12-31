@@ -1080,6 +1080,44 @@ gnome_menu();
 		<br>
 	</td>
 </tr>
+<tr>
+	<th style="text-align: center;">
+		<b>File system</b>
+	</th>
+	<th>
+		<b>Detect</b>
+	</th>
+	<th>
+		<b>Read</b>
+	</th>
+	<th>
+		<b>Create</b>
+	</th>
+	<th>
+		<b>Grow</b>
+	</th>
+	<th>
+		<b>Shrink</b>
+	</th>
+	<th>
+		<b>Move</b>
+	</th>
+	<th>
+		<b>Copy</b>
+	</th>
+	<th>
+		<b>Check</b>
+	</th>
+	<th>
+		<b>Label</b>
+	</th>
+	<th>
+		<b>UUID</b>
+	</th>
+	<th>
+		<b>Required software</b>
+	</th>
+</tr>
 </table>
 <br>
 <b>Legend:</b><br>
