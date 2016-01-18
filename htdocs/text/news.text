@@ -1,3 +1,23 @@
+195
+18 January 2016
+GParted 0.25.0
+<br>
+The big news with this GParted release is the addition of progress
+bars for checking and resizing ext2/3/4 partitions and for resizing
+ntfs partitions.  Other changes include bug fixes and language
+translation updates.
+<br>
+<br>
+Key changes include:
+<ul>
+<li>Add progress bar during additional ext2/3/4 and ntfs operations</li>
+<li>Enhance SWRaid member detection and file system clearing</li>
+<li>Always use blkid file system detection before libparted</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.25.0/gparted-0.25.0-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 194
 29 October 2015
 GParted Live 0.24.0-2 Stable Release
