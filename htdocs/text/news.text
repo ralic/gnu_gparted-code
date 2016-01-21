@@ -1,3 +1,35 @@
+196
+20 January 2016
+GParted Live 0.25.0-1 Stable Release
+<br>
+The GParted team is proud to announce a new stable release of GParted
+Live.<br>
+<br>
+This live image contains GParted 0.25.0 which adds fine progress
+indicators for checking and resizing ext2/3/4 partitions and for
+resizing NTFS partitions.  Also included is improved Linux Software
+RAID member detection and file system clearing.<br>
+<br>
+Items of note include:<br>
+<ul>
+<li>Based on the Debian Sid repository (as of 2016/Jan/19)</li>
+<li>Replaced i586 live image with i686 (due to change in Debian
+  repository)</li>
+<li>Linux kernel updated to 4.3.3-5.</li>
+</ul>
+This release of GParted Live has been successfully tested on
+VirtualBox, VMware, BIOS, UEFI, and physical computers with AMD/ATI,
+NVidia, and Intel graphics.<br>
+<br>
+<i>NOTE: If mouse cursor is not visible when GParted is running, then
+use the <a href="https://en.wikipedia.org/wiki/Menu_key"><b>menu</b>
+key</a> to open a new terminal window.  The mouse cursor should be
+visible again.  See also <a
+href="display-doc.php?name=gparted-live-manual#gparted-live-working-with-keyboard-only">GParted
+Live Manual - Working with Keyboard Only</a>.</i><br>
+<br>
+Curtis
+---
 195
 18 January 2016
 GParted 0.25.0
