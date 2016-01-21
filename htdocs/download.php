@@ -68,7 +68,7 @@ architectures
     </td>
   </tr>
   <tr style="valign: top;">
-    <td valign="top" align="right"><b>i586 &nbsp; </b></td>
+    <td valign="top" align="right"><b>i686 &nbsp; </b></td>
     <td valign="top">
       32-bit version runs on x86 and x86-64 based computers, limited
       to physical address space of 4 gigabytes, and uses one processor
@@ -117,10 +117,10 @@ architectures
 
   <tr>
     <td>
-      <a href="http://downloads.sourceforge.net/gparted/gparted-live-0.24.0-2-i586.iso">Download gparted-live-0.24.0-2-i586.iso</a><br>
+      <a href="http://downloads.sourceforge.net/gparted/gparted-live-0.25.0-1-i686.iso">Download gparted-live-0.25.0-1-i686.iso</a><br>
       <br>
       <a href="http://sourceforge.net/projects/gparted/files/gparted-live-stable/">Stable directory (.iso/.zip)<br>
-        <small>(for i586, i686-pae and amd64 architectures)</small></a>
+        <small>(for i686, i686-pae and amd64 architectures)</small></a>
     </td>
     <td valign="top">
       <a href="http://free.nchc.org.tw/gparted-live/stable/RELEASE-NOTES-GParted-live.txt" target=_blank>Release notes</a>
@@ -142,7 +142,7 @@ architectures
   <tr>
     <td valign="top">
       <a href="http://sourceforge.net/projects/gparted/files/gparted-live-testing/">Testing directory (.iso/.zip)<br>
-        <small>(for i586, i686-pae and amd64 architectures)</small></a>
+        <small>(for i686, i686-pae and amd64 architectures)</small></a>
     </td>
     <td valign="top">
       <a href="http://free.nchc.org.tw/gparted-live/testing/RELEASE-NOTES-GParted-live.txt" target=_blank>Release notes</a>
