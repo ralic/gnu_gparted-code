@@ -118,6 +118,10 @@ Right click on the desktop to access a pop-up menu.
     <td><a href="http://gsmartcontrol.sourceforge.net/">gsmartcontrol</a></td>
     <td>- Hard disk drive and SSD health inspection tool</td>
   </tr>
+  <tr>
+    <td><a href="http://calcoo.sourceforge.net/">calcoo</a></td>
+    <td>- RPN and algebraic scientific calculator</td>
+  </tr>
 </table>
 <h3>Command Line Utilities</h3>
 <table border=0>
