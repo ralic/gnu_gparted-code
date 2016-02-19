@@ -1,3 +1,27 @@
+197
+18 February 2016
+GParted Live 0.25.0-3 Stable Release
+<br>
+The GParted team is proud to announce another stable release of
+GParted Live.<br>
+<br>
+This live image adds a graphical calculator and updates packages.  In
+addition a problem with the mouse cursor being invisible on some
+computers, such as the Acer Aspire One, has been addressed.<br>
+<br>
+Items of note include:<br>
+<ul>
+<li>Based on the Debian Sid repository (as of 2016/Feb/18)</li>
+<li>Linux kernel updated to 4.3.5-1</li>
+<li>Testdisk partition recovery tool updated to v7.0</li>
+<li>Calcoo graphical calculator added</li>
+</ul>
+This release of GParted Live has been successfully tested on
+VirtualBox, VMware, BIOS, UEFI, and physical computers with AMD/ATI,
+NVidia, and Intel graphics.<br>
+<br>
+Curtis
+---
 196
 20 January 2016
 GParted Live 0.25.0-1 Stable Release
