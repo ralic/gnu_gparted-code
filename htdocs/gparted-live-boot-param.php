@@ -40,7 +40,7 @@ GParted live is based on <a href="http://wiki.debian.org/DebianLive/" target=_bl
   </ul>
 </ol>
 <p>Therefore if you want to assign <a href="http://live.debian.net/manual/3.x/html/live-manual.en.html#customizing-locale-and-language" target=_blank>the language</a> and <a href="http://live.debian.net/manual/3.x/html/live-manual.en.html#customizing-locale-and-language" target=_blank>keyboard layout</a> as German one, and let the system to automatically detect the X-window configuration, you can put the boot parameters as:<br>
-    locales=de_DE.UEF-8 keyboard-layouts=de gl_batch
+    locales=de_DE.UTF-8 keyboard-layouts=de gl_batch
 </p>
 
 </div>
