@@ -168,6 +168,12 @@ gparted.
 <BR>
 <A href="http://en.wikipedia.org/wiki/GUID_Partition_Table">GUID Partition Table</A>
 <BR>
+<A href="http://thestarman.pcministry.com/asm/mbr/index.html">All the Details of many versions of both MBR (Master Boot Records) and OS Boot Sectors (also called: Volume Boot Records)</A>
+<BR>
+<A href="http://thestarman.pcministry.com/asm/mbr/ntFAT32BR.htm">The FAT32 Boot Record under Windows™ 2000, XP and 7</A>
+<BR>
+<A href="http://thestarman.pcministry.com/asm/mbr/MSWIN41.htm">MSWIN4.1 OS Boot Record</A>
+<BR>
 <A href="http://thestarman.pcministry.com/asm/mbr/NTFSBR.htm">NTFS Boot Record Secrets</A>
 <BR>
 <A href="https://en.wikipedia.org/wiki/GNU_GRUB">GNU GRUB - GRUB 2 and GRUB Legacy</A>
