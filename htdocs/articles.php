@@ -51,6 +51,13 @@ this list then please let me know,
 
 <ul>
   <li class="step">
+    <a href="http://www.infopackets.com/news/9831/how-use-gparted-vmware-increase-devsda-partition-lvm">
+    How to: Use Gparted, VMWare to Increase /dev/sda Partition (LVM)
+    </a><br>
+    by Dennis Faas on April 18, 2016<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://techgage.com/article/moving_your_non-movable_android_apps_to_an_sd_card/">
     Moving Your 'Non-Movable' Android Apps to an SD Card
     </a><br>
