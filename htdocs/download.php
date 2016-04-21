@@ -123,13 +123,13 @@ architectures
         <small>(for i686, i686-pae and amd64 architectures)</small></a>
     </td>
     <td valign="top">
-      <a href="http://free.nchc.org.tw/gparted-live/stable/RELEASE-NOTES-GParted-live.txt" target=_blank>Release notes</a>
+      <a href="gparted-live/stable/RELEASE-NOTES-GParted-live.txt" target=_blank>Release notes</a>
     </td>
     <td valign="top">
-      <a href="http://free.nchc.org.tw/gparted-live/stable/ChangeLog-GParted-live.txt" target=_blank>Changelog</a>
+      <a href="gparted-live/stable/ChangeLog-GParted-live.txt" target=_blank>Changelog</a>
     </td>
     <td valign="top">
-      <a href="http://free.nchc.org.tw/gparted-live/stable/CHECKSUMS.TXT" target=_blank>Checksums</a>
+      <a href="gparted-live/stable/CHECKSUMS.TXT" target=_blank>Checksums</a>
     </td>
   </tr>
 
@@ -145,13 +145,13 @@ architectures
         <small>(for i686, i686-pae and amd64 architectures)</small></a>
     </td>
     <td valign="top">
-      <a href="http://free.nchc.org.tw/gparted-live/testing/RELEASE-NOTES-GParted-live.txt" target=_blank>Release notes</a>
+      <a href="gparted-live/testing/RELEASE-NOTES-GParted-live.txt" target=_blank>Release notes</a>
     </td>
     <td valign="top">
-      <a href="http://free.nchc.org.tw/gparted-live/testing/ChangeLog-GParted-live.txt" target=_blank>Changelog</a>
+      <a href="gparted-live/testing/ChangeLog-GParted-live.txt" target=_blank>Changelog</a>
     </td>
     <td valign="top">
-      <a href="http://free.nchc.org.tw/gparted-live/testing/CHECKSUMS.TXT" target=_blank>Checksums</a>
+      <a href="gparted-live/testing/CHECKSUMS.TXT" target=_blank>Checksums</a>
     </td>
   </tr>
 </table>
