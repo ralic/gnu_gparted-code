@@ -1,5 +1,6 @@
 <?
 include "functions.php";
+include "version.php"
 webpage_init();
 ?>
 <html>
@@ -19,8 +20,8 @@ gnome_menu();
 ?>
 <div class="rightbox">
 	<b>Stable release:</b><br>
-	<a href="http://sourceforge.net/projects/gparted/files/gparted/gparted-0.25.0/">GParted 0.25.0</a><br>
-	<a href="http://downloads.sourceforge.net/gparted/gparted-live-0.25.0-3-i686.iso">Live 0.25.0-3</a>
+	<a href="http://sourceforge.net/projects/gparted/files/gparted/gparted-<? echo $stable ?>/">GParted <? echo $stable ?></a><br>
+	<a href="http://downloads.sourceforge.net/gparted/gparted-live-<? echo $live_stable ?>-i686.iso">Live <? echo $live_stable ?></a>
 	</div>
 <div class="content">
 
