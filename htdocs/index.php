@@ -1,6 +1,6 @@
 <?
 include "functions.php";
-include "version.php"
+include "version.php";
 webpage_init();
 ?>
 <html>
