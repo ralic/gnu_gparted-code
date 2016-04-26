@@ -1,3 +1,25 @@
+198
+26 April 2016
+GParted 0.26.0
+<br>
+This release adds read-only support for LUKS encrypted file systems.
+GParted identifies these with the addition of "[Encrypted]" and can
+show the file system within an open LUKS encrypted mapping.  However
+this release can not open or close the LUKS encryption and can not
+modify the encrypted file system within.  Other changes include bug
+fixes and language translation updates.
+<br>
+<br>
+Key changes include:
+<ul>
+<li>Implement read-only LUKS support</li>
+<li>Add progress bars to NTFS, XFS, and EXT2/3/4 file system copy methods</li>
+<li>Fix operations sometimes fail with: No such file or directory</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.26.0/gparted-0.26.0-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 197
 18 February 2016
 GParted Live 0.25.0-3 Stable Release
