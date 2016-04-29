@@ -12,6 +12,8 @@ GParted live 0.26.0-1
    https://bugzilla.gnome.org/show_bug.cgi?id=762448
  * Linux kernel was updated to 4.5.1-1.
  * New package ca-certificate was added.
+ * Disable hotkey ALT+F5 to avoid killing program accidentally.
+   https://bugzilla.gnome.org/show_bug.cgi?id=703400
 
  -- Steven Shiau <steven _at_ nchc org tw>  Fri, 29 Apr 2016 13:27:00 +0800
 

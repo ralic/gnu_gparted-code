@@ -23,6 +23,8 @@
   </li></ol>
   </li><li>Linux kernel was updated to 4.5.1-1.
   </li><li>New package ca-certificate was added.
+  </li><li>Disable hotkey ALT+F5 to avoid killing program accidentally.
+   <a href="https://bugzilla.gnome.org/show_bug.cgi?id=703400">https://bugzilla.gnome.org/show_bug.cgi?id=703400</a>
 </li></ul>
 <p> -- Steven Shiau &lt;steven <u>at</u> nchc org tw&gt;  Fri, 29 Apr 2016 13:27:00 +0800
 </p>

@@ -25,6 +25,8 @@
   </li></ol>
   </li><li>Linux kernel was updated to 4.5.1-1.
   </li><li>New package ca-certificate was added.
+  </li><li>Disable hotkey ALT+F5 to avoid killing program accidentally.
+   <a href="https://bugzilla.gnome.org/show_bug.cgi?id=703400">https://bugzilla.gnome.org/show_bug.cgi?id=703400</a>
 </li></ul>
 <p><strong>### MD5SUMS:</strong><br/>
 4816b52278afea8e1555629ce6ecedc6  gparted-live-0.26.0-1-amd64.iso

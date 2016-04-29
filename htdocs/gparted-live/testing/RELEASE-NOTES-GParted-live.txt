@@ -16,6 +16,8 @@ New in this release from 0.25.0-3:
    https://bugzilla.gnome.org/show_bug.cgi?id=762448
  * Linux kernel was updated to 4.5.1-1.
  * New package ca-certificate was added.
+ * Disable hotkey ALT+F5 to avoid killing program accidentally.
+   https://bugzilla.gnome.org/show_bug.cgi?id=703400
 
 
 ### MD5SUMS:
