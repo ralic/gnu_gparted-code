@@ -1,3 +1,20 @@
+GParted live 0.26.0-1
+
+ * The underlying GNU/Linux operating system was upgraded. 
+   This release is based on the Debian Sid repository (as of 2016/Apr/29).
+ * New upstream GParted 0.26.0. It's compiled with options
+   --disable-libparted-dmraid --disable-doc, and the patched parted to
+   address these 2 issues:
+   1. fat(32) resizing generates boot sector(s) with
+   invalid jump instruction and pseudo-random boot code
+   https://bugzilla.gnome.org/show_bug.cgi?id=759916
+   2. Check FAT32 fs crashes GParted
+   https://bugzilla.gnome.org/show_bug.cgi?id=762448
+ * Linux kernel was updated to 4.5.1-1.
+ * New package ca-certificate was added.
+
+ -- Steven Shiau <steven _at_ nchc org tw>  Fri, 29 Apr 2016 13:27:00 +0800
+
 GParted live 0.26.0-beta1-2
 
  * The underlying GNU/Linux operating system was upgraded. 
