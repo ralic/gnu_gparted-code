@@ -6,6 +6,50 @@
 <meta name="generator" content="HTML::TextToHTML v2.51"/>
 </head>
 <body>
+<p>GParted live 0.26.0-1
+</p>
+<ul>
+  <li>The underlying GNU/Linux operating system was upgraded. 
+   This release is based on the Debian Sid repository (as of 2016/Apr/29).
+  </li><li>New upstream GParted 0.26.0. It's compiled with options
+   --disable-libparted-dmraid --disable-doc, and the patched parted to
+   address these 2 issues:
+  <ol>
+    <li>fat(32) resizing generates boot sector(s) with
+   invalid jump instruction and pseudo-random boot code
+   <a href="https://bugzilla.gnome.org/show_bug.cgi?id=759916">https://bugzilla.gnome.org/show_bug.cgi?id=759916</a>
+    </li><li>Check FAT32 fs crashes GParted
+   <a href="https://bugzilla.gnome.org/show_bug.cgi?id=762448">https://bugzilla.gnome.org/show_bug.cgi?id=762448</a>
+  </li></ol>
+  </li><li>Linux kernel was updated to 4.5.1-1.
+  </li><li>New package ca-certificate was added.
+  </li><li>Disable hotkey ALT+F5 to avoid killing program accidentally.
+   <a href="https://bugzilla.gnome.org/show_bug.cgi?id=703400">https://bugzilla.gnome.org/show_bug.cgi?id=703400</a>
+</li></ul>
+<p> -- Steven Shiau &lt;steven <u>at</u> nchc org tw&gt;  Fri, 29 Apr 2016 13:27:00 +0800
+</p>
+<p>GParted live 0.26.0-beta1-2
+</p>
+<ul>
+  <li>The underlying GNU/Linux operating system was upgraded. 
+   This release is based on the Debian Sid repository (as of 2016/Apr/21).
+  </li><li>New upstream GParted 0.26.0-beta1. Compiled with options
+   --disable-libparted-dmraid --disable-doc.
+  </li><li>Linux kernel was updated to 4.5.1-1.
+  </li><li>New package ca-certificate was added.
+</li></ul>
+<p> -- Steven Shiau &lt;steven <u>at</u> nchc org tw&gt;  Thu, 21 Apr 2016 15:55:00 +0800
+</p>
+<p>GParted live 0.26.0-beta1-1
+</p>
+<ul>
+  <li>The underlying GNU/Linux operating system was upgraded. 
+   This release is based on the Debian Sid repository (as of 2016/Apr/20).
+  </li><li>New upstream GParted 0.26.0-beta1.
+  </li><li>Linux kernel was updated to 4.5.1-1.
+</li></ul>
+<p> -- Steven Shiau &lt;steven <u>at</u> nchc org tw&gt;  Wed, 20 Apr 2016 17:59:00 +0800
+</p>
 <p>GParted live 0.25.0-3
 </p>
 <ul>
