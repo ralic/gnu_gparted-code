@@ -146,13 +146,7 @@ architectures
         <small>(for i686, i686-pae and amd64 architectures)</small></a>
     </td>
     <td valign="top">
-      <a href="gparted-live/testing/RELEASE-NOTES-GParted-live.txt" target=_blank>Release notes</a>
-    </td>
-    <td valign="top">
-      <a href="gparted-live/testing/ChangeLog-GParted-live.txt" target=_blank>Changelog</a>
-    </td>
-    <td valign="top">
-      <a href="gparted-live/testing/CHECKSUMS.TXT" target=_blank>Checksums</a>
+      Release notes and checksums in same directory.
     </td>
   </tr>
 </table>
