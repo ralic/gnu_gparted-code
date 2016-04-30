@@ -145,7 +145,7 @@ architectures
       <a href="http://sourceforge.net/projects/gparted/files/gparted-live-testing/">Testing directory (.iso/.zip)<br>
         <small>(for i686, i686-pae and amd64 architectures)</small></a>
     </td>
-    <td valign="top">
+    <td valign="top" colspan="3">
       Release notes and checksums in same directory.
     </td>
   </tr>
