@@ -6,6 +6,17 @@
 <meta name="generator" content="HTML::TextToHTML v2.51"/>
 </head>
 <body>
+<p>GParted live 0.26.0-2
+</p>
+<ul>
+  <li>The underlying GNU/Linux operating system was upgraded. 
+   This release is based on the Debian Sid repository (as of 2016/May/05).
+  </li><li>Linux kernel was updated to 4.5.2-1.
+  </li><li>"To RAM" option failed, so reverted to older version of busybox.
+   Ref: <a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=823323">https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=823323</a>
+</li></ul>
+<p> -- Steven Shiau &lt;steven <u>at</u> nchc org tw&gt;  Thu, 05 May 2016 16:06:00 +0800
+</p>
 <p>GParted live 0.26.0-1
 </p>
 <ul>

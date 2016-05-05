@@ -1,3 +1,13 @@
+GParted live 0.26.0-2
+
+ * The underlying GNU/Linux operating system was upgraded. 
+   This release is based on the Debian Sid repository (as of 2016/May/05).
+ * Linux kernel was updated to 4.5.2-1.
+ * "To RAM" option failed, so reverted to older version of busybox.
+   Ref: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=823323
+
+ -- Steven Shiau <steven _at_ nchc org tw>  Thu, 05 May 2016 16:06:00 +0800
+
 GParted live 0.26.0-1
 
  * The underlying GNU/Linux operating system was upgraded. 
