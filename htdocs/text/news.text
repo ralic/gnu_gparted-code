@@ -1,3 +1,22 @@
+201
+13 June 2016
+GParted 0.26.1
+<br>
+This release of GParted ensures creation of 32bit ext4 partitions when
+the size is less than 16 TiB.  This improves compatibility with
+existing boot loaders.  Also included are bug fixes and language
+translation updates.
+<br>
+<br>
+Key changes include:
+<ul>
+<li>Ensure boot loaders work on ext4 < 16 TiB by using 32bit feature</li>
+<li>Fix core dump crash in OperationDelete::get_partition_new()</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.26.1/gparted-0.26.1-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 200
 5 May 2016
 GParted Live 0.26.0-2 Stable Release
