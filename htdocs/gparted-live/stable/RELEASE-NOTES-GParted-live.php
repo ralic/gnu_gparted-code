@@ -6,49 +6,57 @@
 <meta name="generator" content="HTML::TextToHTML v2.51"/>
 </head>
 <body>
-<h1><a name="section_1">This is GParted live 0.26.0-2.</a></h1>
+<h1><a name="section_1">This is GParted live 0.26.1-1.</a></h1>
 
 <h2><a name="section_1_1">Release Notes</a></h2>
-<p>New in this release from 0.26.0-1:
+<p>New in this release from 0.26.1-1:
 </p>
 <ul>
   <li>The underlying GNU/Linux operating system was upgraded. 
-   This release is based on the Debian Sid repository (as of 2016/May/05).
-  </li><li>Linux kernel was updated to 4.5.2-1.
-  </li><li>"To RAM" option failed, so reverted to older version of busybox.
-   Ref: <a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=823323">https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=823323</a>
+   This release is based on the Debian Sid repository (as of 2016/Jun/14).
+  </li><li>Linux kernel was updated to 4.6.1-1.
+  </li><li>New upstream GParted 0.26.1. It's compiled with options
+   --disable-libparted-dmraid --disable-doc, and the patched parted to
+   address these 2 issues:
+  <ol>
+    <li>fat(32) resizing generates boot sector(s) with
+   invalid jump instruction and pseudo-random boot code
+   <a href="https://bugzilla.gnome.org/show_bug.cgi?id=759916">https://bugzilla.gnome.org/show_bug.cgi?id=759916</a>
+    </li><li>Check FAT32 fs crashes GParted
+   <a href="https://bugzilla.gnome.org/show_bug.cgi?id=762448">https://bugzilla.gnome.org/show_bug.cgi?id=762448</a>
+  </li></ol>
 </li></ul>
 <p><strong>### MD5SUMS:</strong><br/>
-03734d98ebc7b282e3a2e40d0368f31a  gparted-live-0.26.0-2-amd64.iso
-901336962db5f319ea67db0f731818bc  gparted-live-0.26.0-2-i686.iso
-fe9f52a8193230b8de135685ed8f987c  gparted-live-0.26.0-2-i686-pae.iso
-22cd2100ba684502e5eb202535773f43  gparted-live-0.26.0-2-amd64.zip
-5da82a071d9e4ac6fc7bd3b4bcd0856e  gparted-live-0.26.0-2-i686-pae.zip
-0657e8ee6d152b66401dad5fa06a2fbe  gparted-live-0.26.0-2-i686.zip
+398f7f3a34c6ffdc315d0602f554e04c  gparted-live-0.26.1-1-amd64.iso
+b6bb69e9bb79bf5640ca5c1af3ddebdd  gparted-live-0.26.1-1-i686.iso
+2e792296fe7f5923dc60113df9357ace  gparted-live-0.26.1-1-i686-pae.iso
+500ac2d87538cc54f2661cf128a77cc4  gparted-live-0.26.1-1-amd64.zip
+5524bc33d4eb160900f534a0bda8355d  gparted-live-0.26.1-1-i686-pae.zip
+6010d96137ebb5fc4f56a2e84bc5be8d  gparted-live-0.26.1-1-i686.zip
 </p>
 <p><strong>### SHA1SUMS:</strong><br/>
-418a9210c74b89c871052e367608f8e9c2715f86  gparted-live-0.26.0-2-amd64.iso
-a595babf80afe0b6944ab5f19665e4d2266ef75a  gparted-live-0.26.0-2-i686.iso
-2f08f886a9f49e79f2bf1d0ba11e13895d6bbaf6  gparted-live-0.26.0-2-i686-pae.iso
-4e3949982387f5774bcc978310cfca4cdd7e71a9  gparted-live-0.26.0-2-amd64.zip
-34526e5d38441ffb42ebf617e9f0424eaeba19c4  gparted-live-0.26.0-2-i686-pae.zip
-7946e9c82b5619ab7721021b307f225c393e7671  gparted-live-0.26.0-2-i686.zip
+7722d5cba86c013a213424f96392aca38f89895e  gparted-live-0.26.1-1-amd64.iso
+4bc17dea9ebd233a97e2dc89e582cfe42758dd01  gparted-live-0.26.1-1-i686.iso
+f2c930b6a4971de9b6cfe946f52c03e2bcf7c458  gparted-live-0.26.1-1-i686-pae.iso
+c995b3b3611be4af6c7fa71fb1b1ad197e79efde  gparted-live-0.26.1-1-amd64.zip
+f6084704e7dbf2dfdacee1efc0f53f6b0626e0ed  gparted-live-0.26.1-1-i686-pae.zip
+16136af94dbf1d52c8d2ee1992c840df5cc92fa5  gparted-live-0.26.1-1-i686.zip
 </p>
 <p><strong>### SHA256SUMS:</strong><br/>
-3510ca1fbdb177e982d9464947e04e6653493fda72ecf660e7e428e5f7e53107  gparted-live-0.26.0-2-amd64.iso
-2e596c77c4b7a28333c1dc54ed57e995fb0568a3101ab4b8ae1e79361553410b  gparted-live-0.26.0-2-i686.iso
-caca956e55f1160369f34fb877f5d3ee1e656fe6567d1eece336daff82683f41  gparted-live-0.26.0-2-i686-pae.iso
-f6677e48747288eab168a6ef247dc2ae3c7143d1eef610022fc8156a1ceffda7  gparted-live-0.26.0-2-amd64.zip
-72479a87b02cdad2d10ef984c8285cb4534bc97bc80572e79e63bba42db59d2f  gparted-live-0.26.0-2-i686-pae.zip
-f9b4f21e867614474c61d7f8c32dcb31f620ce446b455d204cfc59eb24cce261  gparted-live-0.26.0-2-i686.zip
+174024c7aed3558c7c28f14bc2efd228d9d128d86e8d275d2e3b10f6ce991a06  gparted-live-0.26.1-1-amd64.iso
+ad134cda45279ef60bad1843f2755c2ae973747cc54210cf9a2a1baf2f9f5841  gparted-live-0.26.1-1-i686.iso
+143e6f614fe0b2e870312a164c27a9765e17b94dd91c1511b88ea2fe5c18307e  gparted-live-0.26.1-1-i686-pae.iso
+53ed4efb8aa330533d08e59f98794a2cd472d07a9a3d1152d362d2b7e9e0da75  gparted-live-0.26.1-1-amd64.zip
+1e751126e6b477adc4abc3f0d51a92ab3ce24627055f189d3fccbc1c3d494c90  gparted-live-0.26.1-1-i686-pae.zip
+b96aac113e39f72e9c242838ffafad40ae4f79c588f91666001c30b96e95df9f  gparted-live-0.26.1-1-i686.zip
 </p>
 <p><strong>### SHA512SUMS:</strong><br/>
-8384a04635e2e0f09baf402045ad5205a6509a1e3b638fb6e1b13d0fdb561b15f8e9f148b79b9571e1e10d22d06d19347602f2877253c00804d2b25ec199a465  gparted-live-0.26.0-2-amd64.iso
-f55590287002d232ac2366b4093d055927cad44691b78896dc5912828dffb16963fba6977e0eb35182d97a7ab9d13a2b71275d2ac31582a7e21ebb3ca0e08c99  gparted-live-0.26.0-2-i686.iso
-b468f481f1d13870a2955f30203a4885c242b0bd6fce93ad5cad367eaa2437c5e3df5da8ae28a69af8b7c846589eee52569d22078806fa7a98cc76e31fda9864  gparted-live-0.26.0-2-i686-pae.iso
-9ef8e1559e508371a443b1c702c17d58a5fa44c49173d5b29ee330812abbf016b6600f2170e415570dfe8c962a5f8704bb4635bd7ff1e66c9c114bf7e2271392  gparted-live-0.26.0-2-amd64.zip
-27b2b9ca1dacf56258052adf116eb945ddad6ba397c38c20087079cac9e5efbc6832c0e00e8b170ff2e058468910aec106e89f19cf83635d26596c07902f1186  gparted-live-0.26.0-2-i686-pae.zip
-1c26a8831e210e1fc1bd60f4618eb02638d8d376340b4fd3026863c11599851b124b6de47085ab7c59850657edb29525cee0f1341a1e940149f5059fed527a53  gparted-live-0.26.0-2-i686.zip
+6205b2a682c47a2c54a8ab22e22c2d99195aa6f08f678a0fccf7e8ad83c1ac1a0362735bae919c28d1a708c20ec7a16bbd383c7a54ee77a20464c0443bafba7d  gparted-live-0.26.1-1-amd64.iso
+4da30b8206eec082a316028fd22075bd6af24d8ab26651b82859b9dd0cc378bff90b171d06c1aab351f8ae60a5eeb9d20c39c22e4a6cbdbb2ee991e354a4c4b3  gparted-live-0.26.1-1-i686.iso
+f6991bfbaabab43f0b7b0c019357a721fdb28022f1e8da6f9fa3905d8438a354d87fd0732e1f378996a692755e50c88d423e5632ee45dfbe64cebe3054356352  gparted-live-0.26.1-1-i686-pae.iso
+25c974019200f52f62457f1b4d17ab6e9f54d9d3796e36bdb9f4df817c67e479c7e9bfb03191dd73b5429f201b5fdfe156b98b4c90f1adc0a266855de404e3ca  gparted-live-0.26.1-1-amd64.zip
+13a129bf0b3752c0ab2b097c32ac9e626c725dae3476db01801b83f8b3671177834eec19be7e6d9303022106b99af2147fc784599bf9d607633d16c79f76c431  gparted-live-0.26.1-1-i686-pae.zip
+cc9d034ceebd62d4eea94752af2029b40a06e586ffe440a224d2454e0087d1de027ce59bb4af1dd2afaf03a8bb66422bb23610a8dc313c672798ed7223f04da3  gparted-live-0.26.1-1-i686.zip
 </p>
 
 </body>
