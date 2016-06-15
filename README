@@ -46,3 +46,29 @@ WEB SITE STRUCTURE
     +- screens        Screen shots
     |
     +- text           FAQ and news content
+
+
+WEB SITE GUIDING PRINCIPLES
+---------------------------
+
+1. Usable with all web browsers.
+   - Includes desktop and mobile; graphical and text-based.
+   - For example:  lynx http://gparted.org
+
+2. Easy to maintain.
+   - Permits development and testing with a local web server.
+   - Backup is easy -- all code and data is in a git repository.
+   - Uses PHP which is installed and maintained by host provider.
+   - No extra software to maintain like databases or content management systems.
+   - Remember:  Effort spent on web site is effort lost on GParted application.
+
+3. Does not require non-free software for functionality.
+   - Does not require JavaScript/flash/java-applets.
+       https://www.gnu.org/philosophy/javascript-trap.en.html
+
+4. Efficient to print to paper or file.
+   - No reserved space on left or right hand side of page.
+
+5. Zero or low cost hosting.
+   - Uses infrastructure from SourceForge.net, GNOME.org, and
+     gparted-forum.surf4.info (provided courtesy of Jan Claeys).
