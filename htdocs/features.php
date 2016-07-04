@@ -188,7 +188,7 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not supported">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
 		<img src="images/not_supported.png" alt="not supported">
@@ -215,7 +215,7 @@ gnome_menu();
 		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<br>
+		<a href="https://www.sourceware.org/dm/" target=new>dmsetup</a>
 	</td>
 </tr>
 <tr>
@@ -620,7 +620,7 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not supported">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
 		<img src="images/not_supported.png" alt="not supported">
@@ -647,7 +647,7 @@ gnome_menu();
 		<img src="images/not_supported.png" alt="not supported">
 	</td>
 	<td>
-		<br>
+		<a href="http://neil.brown.name/blog/mdadm" target=new>mdadm</a>
 	</td>
 </tr>
 <tr style="background-color: #dddddd;">
@@ -696,7 +696,7 @@ gnome_menu();
 		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
-		<img src="images/not_supported.png" alt="not supported">
+		<img src="images/supported.png" alt="supported">
 	</td>
 	<td>
 		<img src="images/supported.png" alt="supported">
