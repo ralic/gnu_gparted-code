@@ -6,6 +6,17 @@
 <meta name="generator" content="HTML::TextToHTML v2.51"/>
 </head>
 <body>
+<p>GParted live 0.26.1-3
+</p>
+<ul>
+  <li>The underlying GNU/Linux operating system was upgraded. 
+   This release is based on the Debian Sid repository (as of 2016/Jul/21).
+  </li><li>Linux kernel was updated to 4.6.4-1.
+  </li><li>Enable ejecting CD feature again, with that patched live-tools 
+   20151214+nmu1.drbl1 (<a href="http://bugs.debian.org/831830">http://bugs.debian.org/831830</a>).
+</li></ul>
+<p> -- Steven Shiau &lt;steven <u>at</u> nchc org tw&gt;  Thu, 21 Jun 2016 19:12:00 +0800
+</p>
 <p>GParted live 0.26.1-1
 </p>
 <ul>
