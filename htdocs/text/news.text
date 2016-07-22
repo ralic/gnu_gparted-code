@@ -13,9 +13,9 @@ Items of note include:<br>
 <ul>
 <li>Based on the Debian Sid repository (as of 2016/Jul/21)</li>
 <li>Linux kernel updated to 4.6.4-1</li>
-<li>Enable ejecting CD feature <a
+<li>Enable ejecting CD feature (<a
   href="https://bugzilla.gnome.org/show_bug.cgi?id=768964">bug
-  768964</a>
+  768964</a>)
 </li>
 <li>Includes patched version of libparted which fixes:
   <ul>
