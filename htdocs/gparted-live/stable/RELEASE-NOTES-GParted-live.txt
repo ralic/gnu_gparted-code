@@ -1,46 +1,47 @@
-This is GParted live 0.26.1-3.
+This is GParted live 0.26.1-5.
 =============================
 
 Release Notes
 -------------
-New in this release from 0.26.1-3:
+New in this release from 0.26.1-5:
 
  * The underlying GNU/Linux operating system was upgraded. 
-   This release is based on the Debian Sid repository (as of 2016/Jul/21).
- * Linux kernel was updated to 4.6.4-1.
- * Enable ejecting CD feature again, with that patched live-tools 
-   20151214+nmu1.drbl1 (http://bugs.debian.org/831830).
+   This release is based on the Debian Sid repository (as of 2016/Jul/23).
+ * New upstream fluxbox 1.3.7+git7525226-drbl3. The window bars missing issue
+   is gone.
+ * Add package xserver-xorg-legacy so that no need to use workaround for
+   virtualbox to enter X.
+   Ref: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=807015
 
 
 ### MD5SUMS:
-f1fd61ec5fb4672282bdfcc18e975a73  gparted-live-0.26.1-3-amd64.iso
-0c965161d1062399d53a37eb1bd77b94  gparted-live-0.26.1-3-i686.iso
-1696e2b61b3bad01cf248f066cd7a454  gparted-live-0.26.1-3-i686-pae.iso
-fd75725102f8c9daa956d70d7b9c87d1  gparted-live-0.26.1-3-amd64.zip
-037df58d8384879de262c6c945bc138d  gparted-live-0.26.1-3-i686-pae.zip
-61e6f23beacdc4f8a0b67e8fd31462d4  gparted-live-0.26.1-3-i686.zip
+75fc3ad4aebcd317a1ae6358133bf1c2  gparted-live-0.26.1-5-amd64.iso
+793c47d1b98f9df93bbc09de4d155c1b  gparted-live-0.26.1-5-i686.iso
+22cd9ad4c5335a4b0be1151950cb9171  gparted-live-0.26.1-5-i686-pae.iso
+90d08acb9074cca815c90bcac90c75fa  gparted-live-0.26.1-5-amd64.zip
+277d303eb35dd901607bda7951189fb7  gparted-live-0.26.1-5-i686-pae.zip
+8908261c33c86f55a2f78c3276796b4f  gparted-live-0.26.1-5-i686.zip
 
 ### SHA1SUMS:
-4fd3b325e1e87bc413a8ab2989757557551cc0d9  gparted-live-0.26.1-3-amd64.iso
-0b542bcaa5fb2e9385726d62d7f73242f55d4299  gparted-live-0.26.1-3-i686.iso
-39c6761f3a62918bef59520a1031da913b91657a  gparted-live-0.26.1-3-i686-pae.iso
-15fe77b1cf86462bb5882d99a217ebdc008c3228  gparted-live-0.26.1-3-amd64.zip
-bf1be683e29bafee0ca8e9b99138916bc6a9e463  gparted-live-0.26.1-3-i686-pae.zip
-3dd4519353f3f800581a12479117aaf0c3bc0786  gparted-live-0.26.1-3-i686.zip
+1992edd61648febc28d7e8da6d6b1df9b5c0fae7  gparted-live-0.26.1-5-amd64.iso
+dd656e778c1e6cfefb3f4f7f4bd80708540fc5de  gparted-live-0.26.1-5-i686.iso
+5a7e0d8828ea8a57923f6cacd577cf8f09c1ffe4  gparted-live-0.26.1-5-i686-pae.iso
+69fc3abc82a4fb5768a8e73f86dc1653a23bcdde  gparted-live-0.26.1-5-amd64.zip
+8c69fd0561aeb0dae900773a9f6ba75d82a50a16  gparted-live-0.26.1-5-i686-pae.zip
+5b87ea81d84ad3a6edbc3ec3e70bd02176f68c15  gparted-live-0.26.1-5-i686.zip
 
 ### SHA256SUMS:
-477eac2309d5dde942bbb9ea8f807e3d5628f6dcba1ed5d0261af9365e12e751  gparted-live-0.26.1-3-amd64.iso
-86654c60419a0501e6f69d072f0f77c0bef43bc7d763b3dbb56f494226bc4052  gparted-live-0.26.1-3-i686.iso
-1654d315ed96f86a2a12e795c823fb01830c90cad90ec165da76f07b40f22989  gparted-live-0.26.1-3-i686-pae.iso
-6b3b8495b18fdc0c63cfe38a01e55682f5e7f384fd4aeb1ade435111739e61c2  gparted-live-0.26.1-3-amd64.zip
-649a0a162144a15ceddfdf1c1ea37bfac66cd36d69eade422cec31dbdbc45e07  gparted-live-0.26.1-3-i686-pae.zip
-bc8f5673d3fd6555c0e6d415459ca980f5fb126eba2d3f9d2625634e98c0cbf5  gparted-live-0.26.1-3-i686.zip
+d677acb7da9f73bd451ad1f8c9cc24e2a50a3ec1b0661a83f2186d9665cf74ad  gparted-live-0.26.1-5-amd64.iso
+74a68b93790859b5d0f36a5284055eae5bcf52fcc2050fef682e354b86ee1d7f  gparted-live-0.26.1-5-i686.iso
+71abf6cb1d2a7fd4817c9d825f7673325ff195cabd2e5cbaaf8403c08e831a28  gparted-live-0.26.1-5-i686-pae.iso
+b8d859a5474704d1bfc84148dc40d85b6e0ff09ff709dce050d4622a3b1df6fa  gparted-live-0.26.1-5-amd64.zip
+c6ecc616bc041ed5742439c39029f3aad969358af7ad451411814172d811b5a9  gparted-live-0.26.1-5-i686-pae.zip
+e10bd56d6bd036acd2493377cd0ba1d2ca5359b77ec6f206fc75ab5b6cd3deb7  gparted-live-0.26.1-5-i686.zip
 
 ### SHA512SUMS:
-3624425b139e54d67eff5567973358279d25525e11679959bb4cfa40f4437529f844f42796446e7dd0cbe850e638b10b05fe84967719a5e94b4a8f42bb15831a  gparted-live-0.26.1-3-amd64.iso
-75001bef7161ec8574a1eee39f78069ead3b22d804d23d6cc9b1bdf867323b7923482b89c147fe14bd240f3274daa34f8a6d9e2b05d582433cb0a79130c3f4e4  gparted-live-0.26.1-3-i686.iso
-3e176dbdf512b411dd42e8baaad11dc1a97e2e7fbc83d89a0e5de7cf5403e627006fcc6fcc1283ccfeef7b251684c224ae28439d1e807d8458a69b826f40229d  gparted-live-0.26.1-3-i686-pae.iso
-422a48c7ed80e9b5498c866323c4b0ea497c47c918a1dcf42078b8dbf7d0d3c4c96156df753bc9318be5b6a91d191264aa716098bfa4b4a432a5dee85fe24dc4  gparted-live-0.26.1-3-amd64.zip
-824ed5d3a87815c0a493f11e48445366595748372b56e07720a3e2eda1c1bb6e041fb9955d359d642ab8e783b182a608c27840c69f68077bca3ab5c9ec11bf64  gparted-live-0.26.1-3-i686-pae.zip
-1ca4911dacf38506c400916cfd24c549ce9bdbe37b75c6ddfc61c0a4264bf7849b5ed2d86aecdb74ee204081b6f19d818c3cb3413c99de2550e45ac0229f8118  gparted-live-0.26.1-3-i686.zip
-
+609f1cdc87b82023c6b3fbd2d8e1a1a7ea4355e1cbcd22963fba9e4d39f2881889628ade1a5e9891c479119124b059e17ece98fa8dfe06f740ea5f05793e38a5  gparted-live-0.26.1-5-amd64.iso
+84d8161d1e73485674e0a9b000b4c85b600e8ef1eadbb9282a894cadd5eb756950547c4b186762f7e2fa8494430564109f48303031786185041de7e646440628  gparted-live-0.26.1-5-i686.iso
+b2181fc83cd9a79fe14a22f25bce0723915652764f7222d46593848824d3e67458bba0b18d5c671c473ae9681c820400feb7f1965599b4ecdc72f3e9540b9192  gparted-live-0.26.1-5-i686-pae.iso
+8b09ec662fb3158885661809ebf3b5c35b486f1bc009ca1b287b3322357c1cf3cab8a32718a58cf0aeffe0fed7717dcfc75dedcf72b0bc723bf6810230dd1657  gparted-live-0.26.1-5-amd64.zip
+320a60eefe7e768491cdce2293e7130dcddfb2d8b2c2e220d521c7f5cfde164ea3ef15d530fbd3f0927f9869364aa17fdaa5c863e0888d3750c7e0c9ed5bb490  gparted-live-0.26.1-5-i686-pae.zip
+ab85a02ee5aba91630b3ce96ef1753c3f27003d22cb1dfb71ba45b6e5c5015ff1c8eeb137aa6b02c305d16fb8fab65793854bc1def2c0a27234e600f44cb12e5  gparted-live-0.26.1-5-i686.zip

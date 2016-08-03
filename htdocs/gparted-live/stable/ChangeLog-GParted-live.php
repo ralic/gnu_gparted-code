@@ -6,6 +6,27 @@
 <meta name="generator" content="HTML::TextToHTML v2.51"/>
 </head>
 <body>
+<p>GParted live 0.26.1-5
+</p>
+<ul>
+  <li>The underlying GNU/Linux operating system was upgraded. 
+   This release is based on the Debian Sid repository (as of 2016/Jul/23).
+  </li><li>New upstream fluxbox 1.3.7+git7525226-drbl3. The window bars missing issue
+   is gone.
+</li></ul>
+<p> -- Steven Shiau &lt;steven <u>at</u> nchc org tw&gt;  Sat, 23 Jun 2016 17:00:00 +0800
+</p>
+<p>GParted live 0.26.1-4
+</p>
+<ul>
+  <li>The underlying GNU/Linux operating system was upgraded. 
+   This release is based on the Debian Sid repository (as of 2016/Jul/22).
+  </li><li>Add package xserver-xorg-legacy so that no need to use workaround for
+   virtualbox to enter X.
+   Ref: <a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=807015">https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=807015</a>
+</li></ul>
+<p> -- Steven Shiau &lt;steven <u>at</u> nchc org tw&gt;  Fri, 22 Jun 2016 15:08:00 +0800
+</p>
 <p>GParted live 0.26.1-3
 </p>
 <ul>
