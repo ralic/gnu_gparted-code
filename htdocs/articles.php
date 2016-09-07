@@ -51,6 +51,21 @@ this list then please let me know,
 
 <ul>
   <li class="step">
+    <a href="http://tutorialforlinux.com/2016/08/24/how-to-easy-partitioning-pc-with-windows-10-hard-drive-by-gparted-free/">
+    How-to Easy Partitioning a Windows 10 Computer Drive/Disk with
+    GParted Free
+    </a><br>
+    by thelinuxevangelist on August 24, 2016<br>
+    <br>
+  </li>
+  <li class="step">
+    <a href="http://www.mrb3n.com/?p=314">
+    Using GParted to shrink VM disk size
+    </a><br>
+    by mrb3n on August 23, 2016<br>
+    <br>
+  </li>
+  <li class="step">
     <a href="http://www.infopackets.com/news/9831/how-use-gparted-vmware-increase-devsda-partition-lvm">
     How to: Use Gparted, VMWare to Increase /dev/sda Partition (LVM)
     </a><br>
