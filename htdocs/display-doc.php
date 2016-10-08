@@ -17,6 +17,13 @@ $filename = $pathname . $name . ".html";
 
 $filecontents = @file_get_contents( $filename );
 
+// Workaround to avoid missing characters and glyphs on international
+// langauges.
+//   Convert all the non-ascii characters to html entities
+//   before processing the file contents string.
+$filecontents = mb_convert_encoding( $filecontents
+                                   , 'HTML-ENTITIES', "ISO-8859-1" );
+
 if ( $filecontents==FALSE )
 {
   $title = "GParted -- Document not found";
