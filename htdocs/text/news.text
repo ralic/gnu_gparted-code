@@ -1,3 +1,21 @@
+205
+19 October 2016
+GParted 0.27.0
+<br>
+This release of GParted improves handling of devices with multiple
+device paths and includes bug fixes and language translation updates.
+<br>
+<br>
+Key changes include:
+<ul>
+<li>Recognize GRUB2 core.img</li>
+<li>Fix Mount Point column is wider than the screen on openSUSE</li>
+<li>Make GParted exit when closed before the initial load completes</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.27.0/gparted-0.27.0-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 204
 2 August 2016
 GParted Live 0.26.1-5 Stable Release
