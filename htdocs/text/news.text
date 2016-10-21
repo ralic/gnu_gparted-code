@@ -20,7 +20,7 @@ Items of note include:<br>
 <li>Based on the Debian Sid repository (as of 2016/Oct/20)</li>
 <li>Linux kernel updated to 4.7.6-1
 </li>
-<li>Includes e2fsprogs-1.53.3-1 package which addresses some ext2/3/4
+<li>Includes e2fsprogs-1.43.3-1 package which addresses some ext2/3/4
   resizing issues reported in our forums.
 </li>
 <li>Includes patched version of libparted which fixes:
