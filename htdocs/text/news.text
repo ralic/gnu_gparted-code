@@ -1,3 +1,47 @@
+206
+20 October 2016
+GParted Live 0.27.0-1 Stable Release
+<br>
+The GParted team is happy to announce another stable release of
+GParted Live.<br>
+<br>
+This release includes GParted 0.27.0, patches for libparted for FAT
+file system operations, and other improvements.<br>
+<br>
+Items of note include:<br>
+<ul>
+<li>Includes GParted 0.27.0 with the following enhancements:
+  <ul>
+  <li>Recognize GRUB2 core.img</li>
+  <li>Fix Mount Point column is wider than the screen on openSUSE</li>
+  <li>Ensure GParted exits if closed before the initial load completes</li>
+  </ul>
+</li>
+<li>Based on the Debian Sid repository (as of 2016/Oct/20)</li>
+<li>Linux kernel updated to 4.7.6-1
+</li>
+<li>Includes e2fsprogs-1.53.3-1 package which addresses some ext2/3/4
+  resizing issues reported in our forums.
+</li>
+<li>Includes patched version of libparted which fixes:
+  <ul>
+  <li>check FAT32 crashes (<a
+    href="https://bugzilla.gnome.org/show_bug.cgi?id=762448">bug
+    762448</a>)
+  </li>
+  <li>resized FAT32 not recognized by Windows (<a
+    href="https://bugzilla.gnome.org/show_bug.cgi?id=759916">bug
+    759916</a>)
+  </li>
+  </ul>
+</li>
+</ul>
+This release of GParted Live has been successfully tested on
+VirtualBox, VMware, BIOS, UEFI, and physical computers with AMD/ATI,
+NVidia, and Intel graphics.<br>
+<br>
+Curtis
+---
 205
 19 October 2016
 GParted 0.27.0
