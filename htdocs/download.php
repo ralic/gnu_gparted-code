@@ -132,7 +132,8 @@ architectures
       <a href="gparted-live/stable/ChangeLog-GParted-live.txt" target=_blank>Changelog</a>
     </td>
     <td valign="top">
-      <a href="gparted-live/stable/CHECKSUMS.TXT" target=_blank>Checksums</a>
+      <a href="gparted-live/stable/CHECKSUMS.TXT" target=_blank>Checksums</a><br>
+      <a href="gparted-live/stable/CHECKSUMS.TXT.gpg" target=_blank>Checksums.gpg</a><br>(Signed by <a href="http://pgp.mit.edu/pks/lookup?op=vindex&search=0x11C112DA47CF935C" target=_blank>GParted live maintainer Steven Shiau)</a>
     </td>
   </tr>
 
