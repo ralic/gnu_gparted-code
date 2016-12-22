@@ -83,7 +83,7 @@ steps:
         <pre>
     title     GParted live
     root      (hd0,3)
-    kernel    /live-hd/vmlinuz boot=live config union=aufs noswap noprompt vga=788 ip=frommedia live-media-path=/live-hd bootfrom=/dev/hda4 toram=filesystem.squashfs
+    kernel    /live-hd/vmlinuz boot=live config union=overlay noswap noprompt vga=788 ip=frommedia live-media-path=/live-hd bootfrom=/dev/hda4 toram=filesystem.squashfs
     initrd    /live-hd/initrd.img
     boot
         </pre>
@@ -96,7 +96,7 @@ steps:
         <pre>
     menuentry "GParted live" {
       set root=(hd0,4)
-      linux /live-hd/vmlinuz boot=live config union=aufs noswap noprompt vga=788 ip=frommedia live-media-path=/live-hd bootfrom=/dev/hda4 toram=filesystem.squashfs
+      linux /live-hd/vmlinuz boot=live config union=overlay noswap noprompt vga=788 ip=frommedia live-media-path=/live-hd bootfrom=/dev/hda4 toram=filesystem.squashfs
       initrd /live-hd/initrd.img
     }
         </pre>
@@ -114,7 +114,7 @@ steps:
     menuentry "Gparted live" {
       set isofile="/home/isos/gparted-live-0.5.2-9.iso"
       loopback loop $isofile
-      linux (loop)/live/vmlinuz boot=live config union=aufs noswap noprompt vga=788 ip=frommedia toram=filesystem.squashfs findiso=$isofile
+      linux (loop)/live/vmlinuz boot=live config union=overlay noswap noprompt vga=788 ip=frommedia toram=filesystem.squashfs findiso=$isofile
       initrd (loop)/live/initrd.img
     }
         </pre>
@@ -130,7 +130,7 @@ steps:
     map /gparted-live-0.11.0-10.iso (0xff) || map --mem /gparted-live-0.11.0-10.iso (0xff)
     map --hook
     root (0xff)
-    kernel /live/vmlinuz  boot=live config union=aufs noswap noprompt vga=788 ip=frommedia findiso=/gparted-live-0.11.0-10.iso toram=filesystem.squashfs
+    kernel /live/vmlinuz  boot=live config union=overlay noswap noprompt vga=788 ip=frommedia findiso=/gparted-live-0.11.0-10.iso toram=filesystem.squashfs
     initrd /live/initrd.img
         </pre>
         (Thanks to Frank Breitling for pointing out this sample menu entry.
@@ -194,7 +194,7 @@ image on a hard disk drive using the LILO boot loader.
     image  = /gparted-live/live/vmlinuz
     root   = /dev/<b><i>sda4</i></b>  <i># make sure this matches the bootfrom= below ...</i>
     label  = gparted
-    append = "boot=live config union=aufs noswap noprompt ip=frommedia live-media-path=/gparted-live/live bootfrom=/dev/sda4 toram=filesystem.squashfs" vga=788
+    append = "boot=live config union=overlay noswap noprompt ip=frommedia live-media-path=/gparted-live/live bootfrom=/dev/sda4 toram=filesystem.squashfs" vga=788
     initrd = /gparted-live/live/initrd.img
 
     <i># GParted bootable partition config ends</i>
