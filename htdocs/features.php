@@ -100,7 +100,7 @@ gnome_menu();
 		<b>Required software</b>
 	</th>
 </tr>
-<tr style="background-color: #dddddd;">
+<tr>
 	<th>
 		<b>bitlocker</b>
 	</th>
@@ -138,7 +138,7 @@ gnome_menu();
 		<br>
 	</td>
 </tr>
-<tr>
+<tr style="background-color: #dddddd;">
 	<th>
 		<b>btrfs</b>
 	</th>
@@ -178,46 +178,6 @@ gnome_menu();
 	</td>
 	<td>
 		<a href="https://btrfs.wiki.kernel.org" target=new>btrfs-progs / btrfs-tools</a>
-	</td>
-</tr>
-<tr style="background-color: #dddddd;">
-	<th>
-		<b>crypt-luks</b>
-	</th>
-	<td>
-		<img src="images/supported.png" alt="supported">
-	</td>
-	<td>
-		<img src="images/supported.png" alt="supported">
-	</td>
-	<td>
-		<img src="images/not_supported.png" alt="not supported">
-	</td>
-	<td>
-		<img src="images/supported.png" alt="supported">
-		<img src="images/supported.png" alt="supported">
-	</td>
-	<td>
-		<img src="images/not_supported.png" alt="not supported">
-		<img src="images/supported.png" alt="supported">
-	</td>
-	<td>
-		<img src="images/supported.png" alt="supported">
-	</td>
-	<td>
-		<img src="images/supported.png" alt="supported">
-	</td>
-	<td>
-		<img src="images/not_supported.png" alt="not supported">
-	</td>
-	<td>
-		<img src="images/not_supported.png" alt="not supported">
-	</td>
-	<td>
-		<img src="images/not_supported.png" alt="not supported">
-	</td>
-	<td>
-		<a href="https://gitlab.com/cryptsetup/cryptsetup" target=new>cryptsetup</a>, <a href="https://www.sourceware.org/dm/" target=new>dmsetup</a>
 	</td>
 </tr>
 <tr>
@@ -732,6 +692,46 @@ gnome_menu();
 </tr>
 <tr style="background-color: #dddddd;">
 	<th>
+		<b>luks</b>
+	</th>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/supported.png" alt="supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<img src="images/not_supported.png" alt="not supported">
+	</td>
+	<td>
+		<a href="https://gitlab.com/cryptsetup/cryptsetup" target=new>cryptsetup</a>, <a href="https://www.sourceware.org/dm/" target=new>dmsetup</a>
+	</td>
+</tr>
+<tr>
+	<th>
 		<b>lvm2 pv</b>
 	</th>
 	<td>
@@ -768,7 +768,7 @@ gnome_menu();
 		<a href="http://sourceware.org/lvm2/" target=new>lvm2</a>
 	</td>
 </tr>
-<tr>
+<tr style="background-color: #dddddd;">
 	<th>
 		<b>nilfs2</b>
 	</th>
@@ -809,7 +809,7 @@ gnome_menu();
 		<a href="http://www.nilfs.org/" target=new>nilfs-utils</a>
 	</td>
 </tr>
-<tr style="background-color: #dddddd;">
+<tr>
 	<th>
 		<b>ntfs</b>
 	</th>
@@ -850,7 +850,7 @@ gnome_menu();
 		<a href="http://sourceforge.net/projects/linux-ntfs" target=new>ntfsprogs</a>
 	</td>
 </tr>
-<tr>
+<tr style="background-color: #dddddd;">
         <th>
                 <b>refs</b>
         </th>
@@ -889,7 +889,7 @@ gnome_menu();
                 <br>
         </td>
 </tr>
-<tr style="background-color: #dddddd;">
+<tr>
         <th>
                 <b>reiser4</b>
         </th>
@@ -927,7 +927,7 @@ gnome_menu();
                 <a href="https://reiser4.wiki.kernel.org/" target=new>reiser4progs</a>
         </td>
 </tr>
-<tr>
+<tr style="background-color: #dddddd;">
 	<th>
 		<b>reiserfs</b>
 	</th>
@@ -965,7 +965,7 @@ gnome_menu();
 		<a href="https://en.wikipedia.org/wiki/ReiserFS" target=new>reiserfsprogs / reiserfs-utils</a>
 	</td>
 </tr>
-<tr style="background-color: #dddddd;">
+<tr>
 	<th>
 		<b>ufs</b>
 	</th>
@@ -1003,7 +1003,7 @@ gnome_menu();
 		<br>
 	</td>
 </tr>
-<tr>
+<tr style="background-color: #dddddd;">
 	<th>
 		<b>xfs</b>
 	</th>
@@ -1044,7 +1044,7 @@ gnome_menu();
 		<a href="http://oss.sgi.com/projects/xfs/" target=new>xfsprogs</a>, xfsdump
 	</td>
 </tr>
-<tr style="background-color: #dddddd;">
+<tr>
 	<th>
 		<b>zfs</b>
 	</th>
