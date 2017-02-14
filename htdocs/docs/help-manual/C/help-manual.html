@@ -1,10 +1,10 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>GParted Manual</title><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><meta name="description" content="GParted is the GNOME Partition Editor for creating, reorganizing, and deleting disk partitions. GParted enables you to change the partition organization while preserving the partition contents."></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div lang="en" class="article" title="GParted Manual"><div class="titlepage"><div><div><h2 class="title"><a name="gparted"></a>GParted Manual</h2></div><div><div class="authorgroup"><div class="author"><h3 class="author"><span class="firstname">Curtis</span> <span class="surname">Gedak</span></h3><div class="affiliation"><span class="orgname">GParted Project<br></span><div class="address"><p><br>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>GParted Manual</title><meta name="generator" content="DocBook XSL Stylesheets V1.79.1"><meta name="description" content="GParted is the GNOME Partition Editor for creating, reorganizing, and deleting disk partitions. GParted enables you to change the partition organization while preserving the partition contents."></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div lang="en" class="article"><div class="titlepage"><div><div><h2 class="title"><a name="gparted"></a>GParted Manual</h2></div><div><div class="authorgroup"><div class="author"><h3 class="author"><span class="firstname">Curtis</span> <span class="surname">Gedak</span></h3><div class="affiliation"><span class="orgname">GParted Project<br></span><div class="address"><p><br>
             <code class="email">&lt;<a class="email" href="mailto:gedakc@users.sf.net">gedakc@users.sf.net</a>&gt;</code><br>
           </p></div></div></div><div class="author"><h3 class="author"><span class="firstname">Mike</span> <span class="surname">Fleetwood</span></h3><div class="affiliation"><span class="orgname">GParted Project<br></span><div class="address"><p><br>
             <code class="email">&lt;<a class="email" href="mailto:mike.fleetwood@googlemail.com">mike.fleetwood@googlemail.com</a>&gt;</code><br>
           </p></div></div></div></div></div><div><p class="releaseinfo">
-    This manual describes version 0.22.0 of GParted
-    </p></div><div><p class="copyright">Copyright © 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015 Curtis Gedak</p></div><div><p class="copyright">Copyright © 2014, 2015 Mike Fleetwood</p></div><div><div class="legalnotice" title="Legal Notice"><a name="idp173168"></a><p>
+    This manual describes version 0.28.0 of GParted
+    </p></div><div><p class="copyright">Copyright © 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016 Curtis Gedak</p></div><div><p class="copyright">Copyright © 2014, 2015, 2017 Mike Fleetwood</p></div><div><div class="legalnotice"><a name="idm45359338677728"></a><p>
       Permission is granted to copy, distribute and/or modify this document
       under the terms of the GNU Free Documentation License, Version 1.2
       or any later version published by the Free Software Foundation;
@@ -13,12 +13,16 @@
       <a class="ulink" href="ghelp:fdl" target="_top">link</a> or at
       <a class="ulink" href="http://www.fsf.org/licensing/licenses/fdl.html" target="_top">http://www.fsf.org/licensing/licenses/fdl.html</a>
       or in the file COPYING-DOCS distributed with this manual.
-      </p></div></div><div><div class="legalnotice" title="Feedback"><a name="idp4820640"></a><p class="legalnotice-title"><b>Feedback</b></p><p>
+      </p></div></div><div><div class="legalnotice"><a name="idm45359338785936"></a><p class="legalnotice-title"><b>Feedback</b></p><p>
       To report a bug or make a suggestion regarding the
       <span class="application">gparted</span> application or this manual,
       follow the directions at
       <a class="ulink" href="http://gparted.org/bugs.php" target="_top">http://gparted.org/bugs.php</a>.
-      </p></div></div><div><div class="revhistory"><table border="1" width="100%" summary="Revision history"><tr><th align="left" valign="top" colspan="2"><b>Revision History</b></th></tr><tr><td align="left">Revision GParted Manual V1.9</td><td align="left">March 2015</td></tr><tr><td align="left" colspan="2">
+      </p></div></div><div><div class="revhistory"><table style="border-style:solid; width:100%;" summary="Revision History"><tr><th align="left" valign="top" colspan="2"><b>Revision History</b></th></tr><tr><td align="left">Revision GParted Manual V1.10</td><td align="left">January 2017</td></tr><tr><td align="left" colspan="2">
+          <p class="author">Curtis Gedak &amp; Mike Fleetwood</p>
+          <p class="publisher">GParted Project</p>
+          <p class="annotations">Describes version 0.28.0 of GParted</p>
+        </td></tr><tr><td align="left">Revision GParted Manual V1.9</td><td align="left">March 2015</td></tr><tr><td align="left" colspan="2">
           <p class="author">Curtis Gedak &amp; Mike Fleetwood</p>
           <p class="publisher">GParted Project</p>
           <p class="annotations">Describes version 0.22.0 of GParted</p>
@@ -62,12 +66,12 @@
           <p class="author">Curtis Gedak</p>
           <p class="publisher">GParted Project</p>
           <p class="annotations">Describes version 0.3.9 of GParted</p>
-        </td></tr></table></div></div><div><div class="abstract" title="Abstract"><p class="title"><b>Abstract</b></p><p>
+        </td></tr></table></div></div><div><div class="abstract"><p class="title"><b>Abstract</b></p><p>
       GParted is the GNOME Partition Editor for creating,
       reorganizing, and deleting disk partitions.
       GParted enables you to change the partition organization while preserving
       the partition contents.
-      </p></div></div></div><hr></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="sect1"><a href="#gparted-introduction">Introduction</a></span></dt><dt><span class="sect1"><a href="#gparted-getting-started">Getting Started</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-to-start">Starting gparted</a></span></dt><dt><span class="sect2"><a href="#gparted-when-you-start">The gparted Window</a></span></dt><dt><span class="sect2"><a href="#gparted-run-from-cmd-line">Running gparted from a Command Line</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-usage">Viewing File System Support</a></span></dt><dt><span class="sect1"><a href="#gparted-devices">Working with Devices</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-select-device">Selecting a Device</a></span></dt><dt><span class="sect2"><a href="#gparted-view-device-information">Viewing Device Information</a></span></dt><dt><span class="sect2"><a href="#gparted-refresh-device">Refreshing All Devices</a></span></dt><dt><span class="sect2"><a href="#gparted-create-partition-table">Creating a New Partition Table</a></span></dt><dt><span class="sect2"><a href="#gparted-attempt-data-rescue">Attempting Data Rescue</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-partitions">Working with Partitions</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-basic-partition-actions">Basic Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-select-partition">Selecting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-select-unallocated">Selecting Unallocated Space</a></span></dt><dt><span class="sect3"><a href="#gparted-view-partition-information">Viewing Partition Information</a></span></dt><dt><span class="sect3"><a href="#gparted-mount-partition">Mounting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-unmount-partition">Unmounting a Partition</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-intermediate-partition-actions">Intermediate Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-create-new-partition">Creating a New Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-delete-partition">Deleting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-name-partition">Naming a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-format-partition">Formatting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-setting-partition-file-system-label">Setting a Partition File System Label</a></span></dt><dt><span class="sect3"><a href="#gparted-changing-partition-uuid">Changing a Partition UUID</a></span></dt><dt><span class="sect3"><a href="#gparted-specify-partition-details">Specifying Partition Details</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-advanced-partition-actions">Advanced Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-resize-partition">Resizing a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-move-partition">Moving a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-copy-and-paste-partition">Copying and Pasting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-manage-partition-flags">Managing Partition Flags</a></span></dt><dt><span class="sect3"><a href="#gparted-Check-partition">Checking a Partition</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-operation-queue">Working with the Operation Queue</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-undo-last-operation">Undoing Last Operation</a></span></dt><dt><span class="sect3"><a href="#gparted-clear-all-operations">Clearing All Operations</a></span></dt><dt><span class="sect3"><a href="#gparted-apply-all-operations">Applying All Operations</a></span></dt></dl></dd></dl></dd><dt><span class="sect1"><a href="#gparted-acquire-livecd">Acquiring GParted on Live CD</a></span></dt><dt><span class="sect1"><a href="#gparted-fix-operating-system-boot-problems">Fixing Operating System Boot Problems</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-fix-grub-boot-problem">Fixing GRUB boot problem</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-restore-grub-2">Restoring GRUB 2 Boot Loader</a></span></dt><dt><span class="sect3"><a href="#gparted-restore-grub-legacy">Restoring GRUB Legacy Boot Loader</a></span></dt></dl></dd></dl></dd><dt><span class="sect1"><a href="#gparted-recover-partition-table">Recovering Partition Tables</a></span></dt></dl></div><div class="sect1" title="Introduction"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-introduction"></a>Introduction</h2></div></div></div><p>
+      </p></div></div></div><hr></div><div class="toc"><p><b>Table of Contents</b></p><dl class="toc"><dt><span class="sect1"><a href="#gparted-introduction">Introduction</a></span></dt><dt><span class="sect1"><a href="#gparted-getting-started">Getting Started</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-to-start">Starting gparted</a></span></dt><dt><span class="sect2"><a href="#gparted-when-you-start">The gparted Window</a></span></dt><dt><span class="sect2"><a href="#gparted-run-from-cmd-line">Running gparted from a Command Line</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-usage">Viewing File System Support</a></span></dt><dt><span class="sect1"><a href="#gparted-devices">Working with Devices</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-select-device">Selecting a Device</a></span></dt><dt><span class="sect2"><a href="#gparted-view-device-information">Viewing Device Information</a></span></dt><dt><span class="sect2"><a href="#gparted-refresh-device">Refreshing All Devices</a></span></dt><dt><span class="sect2"><a href="#gparted-create-partition-table">Creating a New Partition Table</a></span></dt><dt><span class="sect2"><a href="#gparted-attempt-data-rescue">Attempting Data Rescue</a></span></dt></dl></dd><dt><span class="sect1"><a href="#gparted-partitions">Working with Partitions</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-basic-partition-actions">Basic Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-select-partition">Selecting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-select-unallocated">Selecting Unallocated Space</a></span></dt><dt><span class="sect3"><a href="#gparted-view-partition-information">Viewing Partition Information</a></span></dt><dt><span class="sect3"><a href="#gparted-mount-partition">Mounting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-unmount-partition">Unmounting a Partition</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-intermediate-partition-actions">Intermediate Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-create-new-partition">Creating a New Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-delete-partition">Deleting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-name-partition">Naming a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-format-partition">Formatting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-setting-partition-file-system-label">Setting a Partition File System Label</a></span></dt><dt><span class="sect3"><a href="#gparted-changing-partition-uuid">Changing a Partition UUID</a></span></dt><dt><span class="sect3"><a href="#gparted-specify-partition-details">Specifying Partition Details</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-advanced-partition-actions">Advanced Partition Actions</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-resize-partition">Resizing a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-move-partition">Moving a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-copy-and-paste-partition">Copying and Pasting a Partition</a></span></dt><dt><span class="sect3"><a href="#gparted-manage-partition-flags">Managing Partition Flags</a></span></dt><dt><span class="sect3"><a href="#gparted-Check-partition">Checking a Partition</a></span></dt></dl></dd><dt><span class="sect2"><a href="#gparted-operation-queue">Working with the Operation Queue</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-undo-last-operation">Undoing Last Operation</a></span></dt><dt><span class="sect3"><a href="#gparted-clear-all-operations">Clearing All Operations</a></span></dt><dt><span class="sect3"><a href="#gparted-apply-all-operations">Applying All Operations</a></span></dt></dl></dd></dl></dd><dt><span class="sect1"><a href="#gparted-acquire-livecd">Acquiring GParted on Live CD</a></span></dt><dt><span class="sect1"><a href="#gparted-fix-operating-system-boot-problems">Fixing Operating System Boot Problems</a></span></dt><dd><dl><dt><span class="sect2"><a href="#gparted-fix-grub-boot-problem">Fixing GRUB boot problem</a></span></dt><dd><dl><dt><span class="sect3"><a href="#gparted-restore-grub-2">Restoring GRUB 2 Boot Loader</a></span></dt><dt><span class="sect3"><a href="#gparted-restore-grub-legacy">Restoring GRUB Legacy Boot Loader</a></span></dt></dl></dd></dl></dd><dt><span class="sect1"><a href="#gparted-recover-partition-table">Recovering Partition Tables</a></span></dt></dl></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-introduction"></a>Introduction</h2></div></div></div><p>
     The <span class="application">gparted</span> application is the GNOME Partition
     Editor for creating, reorganizing, and deleting disk partitions.
     </p><p>
@@ -78,7 +82,7 @@
     </p><p>
     With <span class="application">gparted</span> you can accomplish the following
     tasks:
-      </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+      </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
           Create a partition table on a disk device.
           </p></li><li class="listitem"><p>
           Enable and disable partition flags such as boot and hidden.
@@ -86,7 +90,7 @@
           Perform actions with partitions such as create, delete,
           resize, move, check, label, copy, and paste.
           </p></li></ul></div><p>
-    </p><div class="caution" title="Caution" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Caution</h3><p>
+    </p><div class="caution" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Caution</h3><p>
       Editing partitions has the potential to cause LOSS of DATA.
       </p><p>
       The <span class="application">gparted</span> application is
@@ -103,24 +107,28 @@
       <span class="application">gparted</span> is running.
       </p><p>
       You are advised to BACKUP your DATA before using
-      the <span class="application">gparted</span> application.
-      </p></div></div><div class="sect1" title="Getting Started"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-getting-started"></a>Getting Started</h2></div></div></div><p>
-    </p><div class="sect2" title="Starting gparted"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-to-start"></a>Starting gparted</h3></div></div></div><p>
+      the <span class="application">gparted</span> application.  This is
+      especially true for encrypted data where all of the data can
+      become permanently inaccessible after a failure.  Please refer to
+      <a class="ulink" href="http://gitlab.com/cryptsetup/cryptsetup/wikis/FrequentlyAskedQuestions" target="_top">The Cryptsetup FAQ</a>
+      for backup and recovery advice of encrypted data.
+      </p></div></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-getting-started"></a>Getting Started</h2></div></div></div><p>
+    </p><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-to-start"></a>Starting gparted</h3></div></div></div><p>
       You can start <span class="application">gparted</span> in the following ways:
-      </p><div class="variablelist"><dl><dt><span class="term"><span class="guimenu">Applications</span> menu</span></dt><dd><p>
+      </p><div class="variablelist"><dl class="variablelist"><dt><span class="term"><span class="guimenu">Applications</span> menu</span></dt><dd><p>
             Choose <span class="guisubmenu">System Tools</span> &#8594; <span class="guimenuitem">GParted Partition Editor</span>.
             </p></dd><dt><span class="term">Command line</span></dt><dd><p>
             Execute the following command: <span class="command"><strong>gparted</strong></span>
             </p></dd></dl></div><p>
       On startup, <span class="application">gparted</span> will scan your
       computer for disk devices.
-      </p></div><div class="sect2" title="The gparted Window"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-when-you-start"></a>The gparted Window</h3></div></div></div><p>
+      </p></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-when-you-start"></a>The gparted Window</h3></div></div></div><p>
       When you start <span class="application">gparted</span>, the following
       window is displayed:
       </p><div class="figure"><a name="gparted-window"></a><p class="title"><b>Figure 1. gparted Window</b></p><div class="figure-contents"><div class="screenshot"><div class="mediaobject"><img src="figures/gparted_window.png" alt="Shows gparted main window."></div></div></div></div><br class="figure-break"><p>
       The <span class="application">gparted</span> window contains the following
       elements:
-      </p><div class="variablelist"><dl><dt><span class="term">Menubar</span></dt><dd><p>
+      </p><div class="variablelist"><dl class="variablelist"><dt><span class="term">Menubar</span></dt><dd><p>
             The menus on the menubar contain all of the commands you need
             to work with disk devices and partitions in
             <span class="application">gparted</span>.
@@ -162,7 +170,7 @@
       </p><p>Like other GNOME applications, actions in
       <span class="application">gparted</span> can be performed in several ways:
       with the menu, with the toolbar, or with shortcut keys.
-      </p></div><div class="sect2" title="Running gparted from a Command Line"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-run-from-cmd-line"></a>Running gparted from a Command Line</h3></div></div></div><p>
+      </p></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-run-from-cmd-line"></a>Running gparted from a Command Line</h3></div></div></div><p>
       You can run <span class="application">gparted</span> from a command line
       and specify one or more disk devices.
       </p><p>
@@ -170,7 +178,7 @@
       command, then press <span class="keycap"><strong>Enter</strong></span>:
       </p><p>
       </p><pre class="screen"><code class="prompt">$ </code><span class="command"><strong>gparted <em class="replaceable"><code>/path-to-your-device1 /path-to-your-device2</code></em></strong></span></pre><p>
-      </p></div></div><div class="sect1" title="Viewing File System Support"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-usage"></a>Viewing File System Support</h2></div></div></div><p>
+      </p></div></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-usage"></a>Viewing File System Support</h2></div></div></div><p>
       To view the actions supported on file systems, choose:
       <span class="guimenu">View</span> &#8594; <span class="guimenuitem">File System Support</span>.
       The application displays the <span class="guilabel">File System Support</span>
@@ -184,13 +192,13 @@
       </p><p>
       To close the <span class="guilabel">File System Support</span> dialog,
       click <span class="guibutton">Close</span>.
-      </p></div><div class="sect1" title="Working with Devices"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-devices"></a>Working with Devices</h2></div></div></div><div class="sect2" title="Selecting a Device"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-select-device"></a>Selecting a Device</h3></div></div></div><p>
+      </p></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-devices"></a>Working with Devices</h2></div></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-select-device"></a>Selecting a Device</h3></div></div></div><p>
       To select a disk device, choose:
       <span class="guimenu">GParted</span> &#8594; <span class="guimenuitem">Devices</span>
       and select a device from the list.
       The application displays the device partition layout in the
       <span class="application">gparted</span> window.
-      </p></div><div class="sect2" title="Viewing Device Information"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-view-device-information"></a>Viewing Device Information</h3></div></div></div><p>
+      </p></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-view-device-information"></a>Viewing Device Information</h3></div></div></div><p>
         To view information about a disk device: 
         </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
             Select a disk device.
@@ -206,12 +214,12 @@
       To close the <span class="guilabel">Device Information</span> side pane,
       deselect:
       <span class="guimenu">View</span> &#8594; <span class="guimenuitem">Device Information</span>.
-      </p></div><div class="sect2" title="Refreshing All Devices"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-refresh-device"></a>Refreshing All Devices</h3></div></div></div><p>
+      </p></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-refresh-device"></a>Refreshing All Devices</h3></div></div></div><p>
       To refresh all disk devices, choose:
       <span class="guimenu">GParted</span> &#8594; <span class="guimenuitem">Refresh Devices</span>.
       The application rescans all the disk devices and refreshes the device
       partition layout in the <span class="application">gparted</span> window.
-      </p></div><div class="sect2" title="Creating a New Partition Table"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-create-partition-table"></a>Creating a New Partition Table</h3></div></div></div><p>
+      </p></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-create-partition-table"></a>Creating a New Partition Table</h3></div></div></div><p>
       To create a new partition table on a disk device:
         </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
             Select a disk device.
@@ -225,7 +233,7 @@
             </p></li><li class="listitem"><p>
             Optionally select a different partition table type from the
             list.
-            </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+            </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
               The default partition table type is
               <span class="guimenuitem">msdos</span> for disks smaller than 2
               Tebibytes in size (assuming a 512 byte sector size) and
@@ -235,7 +243,7 @@
               See <a class="xref" href="#gparted-specify-partition-type" title="Specifying Partition Type">the section called &#8220;Specifying Partition Type&#8221;</a> for
               <span class="guimenuitem">msdos</span> partition table
               limitations.
-              </p></div><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+              </p></div><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
               To use a disk without a partition table, choose
               <span class="guimenuitem">loop</span> to create a virtual
               partition that spans the disk.  Then format to the
@@ -243,7 +251,7 @@
               </p><p>
               See <a class="xref" href="#gparted-format-partition" title="Formatting a Partition">the section called &#8220;Formatting a Partition&#8221;</a> to format
               a virtual partition with a file system.
-              </p></div><div class="caution" title="Caution" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Caution</h3><p>
+              </p></div><div class="caution" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Caution</h3><p>
               Many operating systems recognize
               <span class="guimenuitem">gpt</span> and
               <span class="guimenuitem">msdos</span> partition tables, but
@@ -258,12 +266,12 @@
             The application refreshes the device partition layout in the
             <span class="application">gparted</span> window.
             </p></li></ol></div><p>
-      </p><div class="caution" title="Caution" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Caution</h3><p>
+      </p><div class="caution" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Caution</h3><p>
         WARNING:  This will ERASE ALL DATA on the ENTIRE DISK DEVICE.
         </p><p>
         If you accidentally overwrite your partition table, see
         <a class="xref" href="#gparted-recover-partition-table" title="Recovering Partition Tables">the section called &#8220;Recovering Partition Tables&#8221;</a>.
-        </p></div></div><div class="sect2" title="Attempting Data Rescue"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-attempt-data-rescue"></a>Attempting Data Rescue</h3></div></div></div><p>
+        </p></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-attempt-data-rescue"></a>Attempting Data Rescue</h3></div></div></div><p>
       To attempt data rescue from a disk device:
         </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
             Select a disk device.
@@ -276,11 +284,11 @@
             dialog.
             </p></li><li class="listitem"><p>
             Click <span class="guibutton">OK</span> to start the full disk scan.
-            </p><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+            </p><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
               Large disk devices can take a very long time to scan.
               If you do not have the time to wait for a full disk scan
               then click <span class="guibutton">Cancel</span>.
-              </p></div><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+              </p></div><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
               A maximum of 4 partitions with file systems might be
               discovered.  If you want to discover more than 4
               partitions and restore the partition table, see
@@ -288,7 +296,7 @@
               </p></div></li><li class="listitem"><p>
             When the full disk scan completes one of two possible
             dialogs is displayed:
-              </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+              </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
                   <span class="guilabel">No file systems found
                   on <em class="replaceable"><code>/path-to-device</code></em>
                   </span>
@@ -321,7 +329,7 @@
                   Click <span class="guibutton">View</span> to mount and display
                   the file system.  Your default file manager is opened
                   and displays a read-only view of the file system.
-                  </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+                  </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
                     If the dialog <span class="guilabel">Unable to open the default
                     file manager</span> is displayed, then you
                     will need to open a file manager and navigate to
@@ -349,11 +357,11 @@
             partition layout in the <span class="application">gparted</span>
             window.
             </p></li></ol></div><p>
-      </p></div></div><div class="sect1" title="Working with Partitions"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-partitions"></a>Working with Partitions</h2></div></div></div><div class="sect2" title="Basic Partition Actions"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-basic-partition-actions"></a>Basic Partition Actions</h3></div></div></div><p>
+      </p></div></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-partitions"></a>Working with Partitions</h2></div></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-basic-partition-actions"></a>Basic Partition Actions</h3></div></div></div><p>
       These actions will not alter partitions on your disk device.
-      </p><div class="sect3" title="Selecting a Partition"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-select-partition"></a>Selecting a Partition</h4></div></div></div><p>
+      </p><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-select-partition"></a>Selecting a Partition</h4></div></div></div><p>
         To select a partition, use one of the following:
-          </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+          </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
               Click on a partition in the graphic display area.
               </p></li><li class="listitem"><p>
               Click on a partition in the text display area.
@@ -362,14 +370,14 @@
         The application highlights the partition in both the graphic
         display area and the text display area in the
         <span class="application">gparted</span> window.
-        </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+        </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
           Partition operations such as delete, move, copy, format,
           check, label, and often resize require the partition to be
           unmounted.
           See <a class="xref" href="#gparted-unmount-partition" title="Unmounting a Partition">the section called &#8220;Unmounting a Partition&#8221;</a>.
-          </p></div></div><div class="sect3" title="Selecting Unallocated Space"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-select-unallocated"></a>Selecting Unallocated Space</h4></div></div></div><p>
+          </p></div></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-select-unallocated"></a>Selecting Unallocated Space</h4></div></div></div><p>
         To select unallocated space, use one of the following:
-          </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+          </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
               Click on <span class="guilabel">unallocated</span> in the graphic display area.
               </p></li><li class="listitem"><p>
               Click on <span class="guilabel">unallocated</span> in the text display area.
@@ -378,15 +386,15 @@
         The application highlights the unallocated space in both the graphic
         display area and the text display area in the
         <span class="application">gparted</span> window.
-        </p><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+        </p><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
           If you do not have any disk devices with unallocated space,
           you might try the following:
-          </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+          </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
               Add a new disk device to your computer.
               </p></li><li class="listitem"><p>
               Shrink a partition that contains unused space.
               See <a class="xref" href="#gparted-resize-partition" title="Resizing a Partition">the section called &#8220;Resizing a Partition&#8221;</a>.
-              </p></li></ul></div></div></div><div class="sect3" title="Viewing Partition Information"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-view-partition-information"></a>Viewing Partition Information</h4></div></div></div><p>
+              </p></li></ul></div></div></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-view-partition-information"></a>Viewing Partition Information</h4></div></div></div><p>
         To view information about a partition:
           </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
               Select a partition.
@@ -401,7 +409,7 @@
         To close the <span class="guilabel">Information about
         <em class="replaceable"><code>/path-to-partition</code></em></span> dialog,
         click <span class="guibutton">Close</span>.
-        </p></div><div class="sect3" title="Mounting a Partition"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-mount-partition"></a>Mounting a Partition</h4></div></div></div><p>
+        </p></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-mount-partition"></a>Mounting a Partition</h4></div></div></div><p>
         To mount a partition:
           </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
               Select an unmounted partition.
@@ -414,12 +422,12 @@
               refreshes the device partition layout in the
               <span class="application">gparted</span> window.
               </p></li></ol></div><p>
-        </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+        </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
           If
           <span class="guimenu">Partition</span> &#8594; <span class="guimenuitem">Mount</span>
           is not visible, then <span class="application">gparted</span>
           does not know where the partition should be mounted.
-          </p></div></div><div class="sect3" title="Unmounting a Partition"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-unmount-partition"></a>Unmounting a Partition</h4></div></div></div><p>
+          </p></div></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-unmount-partition"></a>Unmounting a Partition</h4></div></div></div><p>
         To unmount a partition:
           </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
               Select a mounted partition.
@@ -431,7 +439,7 @@
               refreshes the device partition layout in the
               <span class="application">gparted</span> window.
               </p></li></ol></div><p>
-        </p><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+        </p><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
           If
           <span class="guimenu">Partition</span> &#8594; <span class="guimenuitem">Unmount</span>
           does not succeed, then the partition is probably in use.
@@ -440,11 +448,11 @@
           partition editing actions, boot from a Live CD and 
           use <span class="application">gparted</span>.
           See <a class="xref" href="#gparted-acquire-livecd" title="Acquiring GParted on Live CD">the section called &#8220;Acquiring GParted on Live CD&#8221;</a>
-          </p></div></div></div><div class="sect2" title="Intermediate Partition Actions"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-intermediate-partition-actions"></a>Intermediate Partition Actions</h3></div></div></div><p>
+          </p></div></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-intermediate-partition-actions"></a>Intermediate Partition Actions</h3></div></div></div><p>
       These actions will alter partitions on your disk device.
       These actions will not modify the start or end boundaries
       of your existing partitions.
-      </p><div class="sect3" title="Creating a New Partition"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-create-new-partition"></a>Creating a New Partition</h4></div></div></div><p>
+      </p><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-create-new-partition"></a>Creating a New Partition</h4></div></div></div><p>
         To create a new partition:
           </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
               Select an unallocated space on the disk device.
@@ -475,7 +483,7 @@
               in the <span class="guilabel">Pending Operations</span> pane
               in the <span class="application">gparted</span> window.
               </p></li></ol></div><p>
-        </p></div><div class="sect3" title="Deleting a Partition"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-delete-partition"></a>Deleting a Partition</h4></div></div></div><p>
+        </p></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-delete-partition"></a>Deleting a Partition</h4></div></div></div><p>
         To delete a partition:
           </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
               Select an unmounted partition.
@@ -486,7 +494,7 @@
               The application displays the delete partition operation in
               the <span class="guilabel">Pending Operations</span> pane.
               </p></li></ol></div><p>
-        </p><div class="caution" title="Caution" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Caution</h3><p>
+        </p><div class="caution" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Caution</h3><p>
           If you delete a logical partition, then all existing logical
           partitions after the deleted logical partition will
           experience changes in device names.
@@ -494,7 +502,7 @@
           For example, an extended partition contains four logical
           partitions A, B, C, and D.  These logical partitions are accessed by the
           operating system as follows:
-          </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+          </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
               Partition A as /dev/sda5.
               </p></li><li class="listitem"><p>
               Partition B as /dev/sda6.
@@ -505,7 +513,7 @@
               </p></li></ul></div><p>
           If partition B is deleted, then the remaining logical
           partitions will be accessed by the operating system as follows:
-          </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+          </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
               Partition A as /dev/sda5.
               </p></li><li class="listitem"><p>
               Partition C as /dev/sda6.  Note the change in device name.
@@ -520,14 +528,14 @@
           </p><p>
           Changes in a device name might adversely affect the
           following files:
-            </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+            </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
                 /etc/fstab - Contains a list of file systems to mount.
                 </p></li><li class="listitem"><p>
                 /boot/grub/menu.lst - Contains operating system boot
                 instructions for the <span class="application">grub</span>
                 boot loader.
                 </p></li></ul></div><p>
-          </p></div><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+          </p></div><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
           Disks with <span class="guimenuitem">loop</span> or
           <span class="guimenuitem">none</span> partition tables do not
           contain a partition table, and do not contain partitions.  A
@@ -538,7 +546,7 @@
           format to <span class="guimenuitem">cleared</span>.
           </p><p>
           See <a class="xref" href="#gparted-format-partition" title="Formatting a Partition">the section called &#8220;Formatting a Partition&#8221;</a>.
-          </p></div></div><div class="sect3" title="Naming a Partition"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-name-partition"></a>Naming a Partition</h4></div></div></div><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+          </p></div></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-name-partition"></a>Naming a Partition</h4></div></div></div><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
           Naming of partitions is only available with GUID partition
           tables (GPT).
           </p><p>
@@ -559,7 +567,7 @@
               Click <span class="guibutton">OK</span>.
               The application displays the set partition name operation
               in the <span class="guilabel">Operations Pending</span> pane.
-              </p></li></ol></div></div><div class="sect3" title="Formatting a Partition"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-format-partition"></a>Formatting a Partition</h4></div></div></div><p>
+              </p></li></ol></div></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-format-partition"></a>Formatting a Partition</h4></div></div></div><p>
         To format a partition:
           </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
               Select an unmounted partition.
@@ -575,7 +583,7 @@
               for the meaning of the <span class="guimenuitem">cleared</span>
               file system type.
               </p></li></ol></div><p>
-        </p></div><div class="sect3" title="Setting a Partition File System Label"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-setting-partition-file-system-label"></a>Setting a Partition File System Label</h4></div></div></div><p>
+        </p></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-setting-partition-file-system-label"></a>Setting a Partition File System Label</h4></div></div></div><p>
         To set a label or a volume name of a file system in a partition:
           </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
               Select an unmounted partition.
@@ -592,7 +600,7 @@
               The application displays the set file system label operation
               in the <span class="guilabel">Operations Pending</span> pane.
               </p></li></ol></div><p>
-        </p></div><div class="sect3" title="Changing a Partition UUID"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-changing-partition-uuid"></a>Changing a Partition UUID</h4></div></div></div><p>
+        </p></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-changing-partition-uuid"></a>Changing a Partition UUID</h4></div></div></div><p>
         To change the Universally Unique Identifier (UUID) of a partition:
           </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
               Select an unmounted partition.
@@ -603,7 +611,7 @@
               The application displays the set a new random UUID
               operation in the <span class="guilabel">Operations Pending</span>
               pane.
-              </p><div class="warning" title="Warning" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Warning</h3><p>
+              </p><div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Warning</h3><p>
                 Changing the UUID might invalidate the Windows Product
                 Activation key (WPA).
                 </p><p>
@@ -622,7 +630,7 @@
                 UUID of data partitions or removable media partitions.
                 In rare cases, a partition that is present
                 at boot time might be an exception to this rule.
-                </p></div><div class="warning" title="Warning" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Warning</h3><p>
+                </p></div><div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Warning</h3><p>
                 Changing the UUID when there is no need to do so might
                 cause a GNU/Linux system to fail to boot, or to fail
                 to mount a file system.
@@ -637,13 +645,13 @@
                 regenerate the grub menu to ensure that the correct
                 UUID is specified.
                 </p></div></li></ol></div><p>
-        </p></div><div class="sect3" title="Specifying Partition Details"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-specify-partition-details"></a>Specifying Partition Details</h4></div></div></div><p>
+        </p></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-specify-partition-details"></a>Specifying Partition Details</h4></div></div></div><p>
         Specifying partition details is useful when performing actions
         such as create, resize, and move.
-        </p><div class="sect4" title="Specifying Partition Size and Location"><div class="titlepage"><div><div><h5 class="title"><a name="gparted-specify-partition-size-and-location"></a>Specifying Partition Size and Location</h5></div></div></div><p>
+        </p><div class="sect4"><div class="titlepage"><div><div><h5 class="title"><a name="gparted-specify-partition-size-and-location"></a>Specifying Partition Size and Location</h5></div></div></div><p>
           To specify the size and the location of the partition,
           use one or a combination of the following:
-            </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+            </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
                 Click-and-hold the arrow at either end of the graphic area.
                 Drag the arrow left or right within the display range.
                 </p></li><li class="listitem"><p>
@@ -652,7 +660,7 @@
                 </p></li><li class="listitem"><p>
                 Click the spin button arrows, or type numeric values
                 to adjust the following fields:
-                  </p><div class="itemizedlist"><ul class="itemizedlist" type="circle"><li class="listitem"><p>
+                  </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: circle; "><li class="listitem"><p>
                       <span class="guilabel">Free Space Preceding</span>
                       </p></li><li class="listitem"><p>
                       <span class="guilabel">New Size</span>
@@ -663,10 +671,10 @@
           </p><p>
           The application refreshes both the graphic area
           and the numbers beside the three field labels.
-          </p></div><div class="sect4" title="Specifying Partition Alignment"><div class="titlepage"><div><div><h5 class="title"><a name="gparted-specify-partition-alignment"></a>Specifying Partition Alignment</h5></div></div></div><p>
+          </p></div><div class="sect4"><div class="titlepage"><div><div><h5 class="title"><a name="gparted-specify-partition-alignment"></a>Specifying Partition Alignment</h5></div></div></div><p>
           To specify the alignment of the partition, click the 
           <span class="guilabel">Align to</span> arrow button, and select from the list.
-          </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+          </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
               Use <span class="guilabel">MiB</span> alignment for modern
               operating systems.  This setting aligns partitions to
               start and end on precise mebibyte (1,048,576 byte)
@@ -678,7 +686,7 @@
               compatibility with operating systems released before the
               year 2000, such as DOS.  This setting aligns partitions
               to start and end on disk cylinder boundaries.
-              </p><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+              </p><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
                 The Cylinder/Head/Sector values reported by modern
                 disk devices no longer have a direct physical
                 relationship to the data stored on the disk device.
@@ -692,12 +700,12 @@
               preceding partition on the disk device.  This setting
               is not guaranteed to reserve or respect space required
               for boot records.
-              </p></li></ul></div></div><div class="sect4" title="Specifying Partition Type"><div class="titlepage"><div><div><h5 class="title"><a name="gparted-specify-partition-type"></a>Specifying Partition Type</h5></div></div></div><p>
+              </p></li></ul></div></div><div class="sect4"><div class="titlepage"><div><div><h5 class="title"><a name="gparted-specify-partition-type"></a>Specifying Partition Type</h5></div></div></div><p>
           To specify the partition type, click the 
           <span class="guilabel">Create as</span> arrow button, and select from the list.
-          </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+          </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
             The msdos partition table limits partitions as follows:
-              </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+              </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
                   Maximum of 4 primary partitions.
                   </p></li><li class="listitem"><p>
                   Maximum of 3 primary partitions, and 1 extended partition.
@@ -711,16 +719,16 @@
                   a sector size of 512 bytes.  The partition must also
                   start within the first 2 Tebibytes of the disk device.
                   </p></li></ul></div><p>
-            </p></div><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+            </p></div><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
             Primary partitions provide better data recoverability
             because the partition boundaries are stored at known
             locations on the disk device.
-            </p></div></div><div class="sect4" title="Specifying Partition File System"><div class="titlepage"><div><div><h5 class="title"><a name="gparted-specify-partition-file-system"></a>Specifying Partition File System</h5></div></div></div><p>
+            </p></div></div><div class="sect4"><div class="titlepage"><div><div><h5 class="title"><a name="gparted-specify-partition-file-system"></a>Specifying Partition File System</h5></div></div></div><p>
           To specify the type of file system for the partition, click the
           <span class="guilabel">File System</span> arrow button, and select from the list.
-          </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+          </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
             Examples of uses for some file systems are as follows:
-              </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+              </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
                   <span class="guimenuitem">ext2</span>,
                   <span class="guimenuitem">ext3</span> and
                   <span class="guimenuitem">ext4</span> file systems can be
@@ -742,22 +750,22 @@
                   <span class="guimenuitem">unformatted</span> can be used to
                   just create a partition without writing a file system.
                   </p></li></ul></div><p>
-            </p></div></div><div class="sect4" title="Specifying Partition File System Label"><div class="titlepage"><div><div><h5 class="title"><a name="gparted-specify-partition-file-system-label"></a>Specifying Partition File System Label</h5></div></div></div><p>
+            </p></div></div><div class="sect4"><div class="titlepage"><div><div><h5 class="title"><a name="gparted-specify-partition-file-system-label"></a>Specifying Partition File System Label</h5></div></div></div><p>
           To specify the file system label in the partition, also known
           as a volume label, type a label name in the
           <span class="guilabel">Label</span> text box.
-          </p><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+          </p><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
             File system labels can be used to help you remember what is
             stored in the partition.
             </p><p>
             Unique labels can be used to mount file systems with the
             GNU/Linux operating system.
-            </p></div></div></div></div><div class="sect2" title="Advanced Partition Actions"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-advanced-partition-actions"></a>Advanced Partition Actions</h3></div></div></div><p>
+            </p></div></div></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-advanced-partition-actions"></a>Advanced Partition Actions</h3></div></div></div><p>
       These actions will alter partitions on your disk device.
       These actions might modify the start or end boundaries
       of your existing partitions.
       These actions might cause operating systems to fail to boot.
-      </p><div class="sect3" title="Resizing a Partition"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-resize-partition"></a>Resizing a Partition</h4></div></div></div><p>
+      </p><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-resize-partition"></a>Resizing a Partition</h4></div></div></div><p>
         Resizing and moving a partition can be performed by a single
         <span class="application">gparted</span> operation.
         </p><p>
@@ -765,7 +773,7 @@
           </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
               Select a partition.
               See <a class="xref" href="#gparted-select-partition" title="Selecting a Partition">the section called &#8220;Selecting a Partition&#8221;</a>.
-              </p><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+              </p><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
                 Unmounted or inactive partitions enable the most
                 resize options.
                 </p><p>
@@ -781,7 +789,7 @@
               </p></li><li class="listitem"><p>
               Adjust the size of the partition.
               See <a class="xref" href="#gparted-specify-partition-size-and-location" title="Specifying Partition Size and Location">the section called &#8220;Specifying Partition Size and Location&#8221;</a>.
-              </p><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+              </p><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
                 If you do not want the start of an existing partition
                 to move, then do not change the <span class="guilabel">free space
                 preceding</span> value.  If the partition is
@@ -801,7 +809,7 @@
               </p><p>
               If the operation involves a move step, then
               consider the following:
-                </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+                </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
                     A move step might take a long time
                     to complete.
                     </p></li><li class="listitem"><p>
@@ -815,7 +823,7 @@
               then you might want to undo the operation.
               See <a class="xref" href="#gparted-undo-last-operation" title="Undoing Last Operation">the section called &#8220;Undoing Last Operation&#8221;</a>.
               </p></li></ol></div><p>
-        </p><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+        </p><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
           To grow or move a partition, unallocated space must be available adjacent
           to the partition.
           </p><p>
@@ -827,10 +835,13 @@
           </p><p>
           You can move unallocated space to be inside or outside of the
           extended partition by resizing the extended partition boundaries.
-          </p></div><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+          </p></div><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+          A LUKS encrypted partition and the file system within can only
+          be resized when the encryption mapping is open.
+          </p></div><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
           To improve the ability to shrink NTFS partitions, you
           might consider one or more of the following:
-            </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+            </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
                 Defragment the file system.
                 </p><p>
                 Booting into Safe Mode with the
@@ -868,7 +879,7 @@
                 Reboot twice into the commercial operating system that
                 uses NTFS after shrinking the NTFS partition. 
                 </p></li></ul></div><p>
-          </p></div></div><div class="sect3" title="Moving a Partition"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-move-partition"></a>Moving a Partition</h4></div></div></div><p>
+          </p></div></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-move-partition"></a>Moving a Partition</h4></div></div></div><p>
         Moving and resizing a partition can be performed by a single
         <span class="application">gparted</span> operation.
         </p><p>
@@ -893,14 +904,17 @@
               The application displays the resize/move partition operation
               in the <span class="guilabel">Pending Operations</span> pane.
               </p></li></ol></div><p>
-        </p><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+        </p><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
           If the partition is an operating system boot partition,
           then the operating system might not boot after the move
           operation is applied.
           </p><p>
           If the operating system fails to boot, see
           <a class="xref" href="#gparted-fix-operating-system-boot-problems" title="Fixing Operating System Boot Problems">the section called &#8220;Fixing Operating System Boot Problems&#8221;</a>.
-          </p></div></div><div class="sect3" title="Copying and Pasting a Partition"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-copy-and-paste-partition"></a>Copying and Pasting a Partition</h4></div></div></div><p>
+          </p></div><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+          A LUKS encrypted partition can only be moved when the
+          encryption mapping is closed.
+          </p></div></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-copy-and-paste-partition"></a>Copying and Pasting a Partition</h4></div></div></div><p>
         To copy a partition:
           </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
               Select an unmounted partition.
@@ -933,7 +947,7 @@
               The application displays the copy partition operation
               in the <span class="guilabel">Pending Operations</span> pane.
               </p></li></ol></div><p>
-        </p><div class="caution" title="Caution" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Caution</h3><p>
+        </p><div class="caution" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Caution</h3><p>
           The copy of the partition has the same file system label
           and Universally Unique Identifier (UUID) as the source
           partition.
@@ -953,8 +967,8 @@
           </p><p>
           To avoid the problem you are advised to do one of the
           following:
-            </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
-                After you have applied the copy operation:
+            </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
+                After you have queued or applied the copy operation:
                   </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
                       Change the UUID of either the source, or the copy
                       of the partition.
@@ -975,7 +989,17 @@
                 if the copy of the partition is on a separate drive
                 then remove the drive from the computer.
                 </p></li></ul></div><p>
-          </p></div></div><div class="sect3" title="Managing Partition Flags"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-manage-partition-flags"></a>Managing Partition Flags</h4></div></div></div><p>
+          </p></div><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+          The file system within a LUKS encrypted partition can only be
+          copied when the encryption mapping is open.
+          </p></div><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+          To prevent unintended decryption of data, pasting into
+          unallocated space creating a new partition is not permitted.
+          However a LUKS encrypted partition can be pasted into an
+          existing open LUKS encrypted partition maintaining an
+          encrypted, or pasted into a plain partition making an
+          unencrypted copy of the file system.
+          </p></div></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-manage-partition-flags"></a>Managing Partition Flags</h4></div></div></div><p>
         To manage partition flags:
           </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
               Select a partition.
@@ -986,7 +1010,7 @@
               The application opens a <span class="guilabel">Manage flags on
               <em class="replaceable"><code>/path-to-partition</code></em></span> dialog.
               </p><p>
-                </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+                </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
                     To enable a flag, select the check box beside the flag.
                     The application writes the enabled flag to the partition
                     and refreshes the <span class="guilabel">Manage flags on
@@ -997,7 +1021,7 @@
                     and refreshes the <span class="guilabel">Manage flags on
                     <em class="replaceable"><code>/path-to-partition</code></em></span> dialog.
                     </p></li></ul></div><p>
-              </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+              </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
                 <span class="guimenuitem">Manage Flags</span> is only
                 available for disks with partition tables.  Disks with
                 <span class="guimenuitem">loop</span> or
@@ -1012,10 +1036,10 @@
         To close the <span class="guilabel">Manage flags on 
         <em class="replaceable"><code>/path-to-partition</code></em></span> dialog,
         click <span class="guibutton">Close</span>.
-        </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+        </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
           A description of flags in an msdos partition table
           follows:
-            </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+            </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
                 Boot is used by some commercial operating system
                 boot loaders.
                 The boot flag indicates the partition is active
@@ -1025,9 +1049,18 @@
                 Diag is used to indicate the partition is used for
                 diagnostics / recovery.
                 </p></li><li class="listitem"><p>
+                ESP indicates an EFI System Partition used to boot
+                computers with the Unified Extensible Firmware
+                Interface (UEFI) class 2 that includes compatibility
+                support for BIOS functions including the MBR partition
+                structure.
+                </p></li><li class="listitem"><p>
                 Hidden is used by some commercial operating systems.
                 The hidden flag makes the partition invisible to the
                 operating system.
+                </p></li><li class="listitem"><p>
+                Irst identifies an Intel Rapid Start Technology
+                partition.
                 </p></li><li class="listitem"><p>
                 LBA is used by some commercial operating system
                 boot loaders.
@@ -1043,14 +1076,14 @@
                 boot loader, palo.
                 </p></li><li class="listitem"><p>
                 Prep is used to indicate the boot partition
-                on Power Performance Computing (PowerPC) hardware. 
+                on Power Performance Computing (PowerPC) hardware.
                 </p></li><li class="listitem"><p>
                 RAID is used to indicate the partition is used in a
                 Redundant Array of Inexpensive Disks (RAID).
                 </p></li></ul></div><p>
-          </p></div><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+          </p></div><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
           A description of flags in a gpt partition table follows:
-            </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+            </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
                 Atvrecv is used to indicate an Apple TV Recovery
                 partition.
                 </p></li><li class="listitem"><p>
@@ -1066,6 +1099,11 @@
                 Diag indicates the partition is used for diagnostics
                 or recovery.
                 </p></li><li class="listitem"><p>
+                ESP indicates an EFI System Partition used to boot
+                computers with Extensible Firmware Interface (EFI)
+                class 1 or Unified Extensible Firmware Interface
+                (UEFI) class 2 or UEFI class 3.
+                </p></li><li class="listitem"><p>
                 Hidden is used by some commercial operating systems.
                 The hidden flag makes the partition invisible to the
                 operating system.
@@ -1073,19 +1111,28 @@
                 HP-service is used to indicate a Hewlett Packard
                 service partition.
                 </p></li><li class="listitem"><p>
+                Irst identifies an Intel Rapid Start Technology
+                partition.
+                </p></li><li class="listitem"><p>
                 Legacy_boot is used by some special purpose software
                 to indicate the partition might be bootable.
                 </p></li><li class="listitem"><p>
                 LVM indicates the partition is used by a Logical
                 Volume Manager (LVM).
                 </p></li><li class="listitem"><p>
+                Msftdata identifies partitions that contain Microsoft
+                file systems such as NTFS or FAT.
+                </p></li><li class="listitem"><p>
                 Msftres is used to indicate a Microsoft Reserved
                 partition.
+                </p></li><li class="listitem"><p>
+                Prep is used to indicate the boot partition
+                on Power Performance Computing (PowerPC) hardware.
                 </p></li><li class="listitem"><p>
                 RAID indicates the partition is used in a Redundant
                 Array of Inexpensive Disks (RAID).
                 </p></li></ul></div><p>
-          </p></div></div><div class="sect3" title="Checking a Partition"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-Check-partition"></a>Checking a Partition</h4></div></div></div><p>
+          </p></div></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-Check-partition"></a>Checking a Partition</h4></div></div></div><p>
         Checking a partition will attempt to find and fix problems
         in the file system.
         Checking a partition will attempt to grow the file system
@@ -1101,7 +1148,7 @@
               The application displays the check partition operation
               in the <span class="guilabel">Pending Operations</span> pane.
               </p></li></ol></div><p>
-        </p></div></div><div class="sect2" title="Working with the Operation Queue"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-operation-queue"></a>Working with the Operation Queue</h3></div></div></div><div class="sect3" title="Undoing Last Operation"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-undo-last-operation"></a>Undoing Last Operation</h4></div></div></div><p>
+        </p></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-operation-queue"></a>Working with the Operation Queue</h3></div></div></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-undo-last-operation"></a>Undoing Last Operation</h4></div></div></div><p>
         To undo the last operation in the operation queue, choose:
         <span class="guimenu">Edit</span> &#8594; <span class="guimenuitem">Undo Last Operation</span>.
         The application removes the last operation from the queue
@@ -1109,19 +1156,19 @@
         If there are no operations remaining in the queue,
         the application closes the
         <span class="guilabel">Pending Operations</span> pane.
-        </p></div><div class="sect3" title="Clearing All Operations"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-clear-all-operations"></a>Clearing All Operations</h4></div></div></div><p>
+        </p></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-clear-all-operations"></a>Clearing All Operations</h4></div></div></div><p>
         To clear all operations in the operation queue, choose:
         <span class="guimenu">Edit</span> &#8594; <span class="guimenuitem">Clear All Operations</span>.
         The application removes all operations from the queue
         and closes the <span class="guilabel">Pending Operations</span> pane.
-        </p></div><div class="sect3" title="Applying All Operations"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-apply-all-operations"></a>Applying All Operations</h4></div></div></div><p>
+        </p></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-apply-all-operations"></a>Applying All Operations</h4></div></div></div><p>
         To apply all operations:
           </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
               Choose:
               <span class="guimenu">Edit</span> &#8594; <span class="guimenuitem">Apply All Operations</span>.
               The application displays an
               <span class="guilabel">Apply operations to device</span> dialog.
-              </p><div class="caution" title="Caution" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Caution</h3><p>
+              </p><div class="caution" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Caution</h3><p>
                 Editing partitions has the potential to cause LOSS of DATA.
                 You are advised to backup your data before applying your
                 partition editing operations.
@@ -1133,7 +1180,7 @@
               in the order you created the operations.
               The application displays a status update when each
               operation is completed.
-                </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+                </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
                     To view more information,
                     click <span class="guibutton">Details</span>.
                     The application displays more details about operations.
@@ -1146,7 +1193,7 @@
                     The application displays a disabled
                     <span class="guibutton">Force Cancel (5)</span> button and
                     counts down for 5 seconds.
-                    </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+                    </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
                       <span class="guibutton">Cancel</span> instructs the
                       application to stop or roll back operations
                       as necessary to ensure data integrity.
@@ -1163,7 +1210,7 @@
                     allow the roll back operations to complete, or
                     click <span class="guibutton">Cancel Operation</span> to
                     cancel the roll back operations.
-                    </p><div class="warning" title="Warning" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Warning</h3><p>
+                    </p><div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Warning</h3><p>
                       <span class="guibutton">Cancel Operation</span>
                       terminates the safe roll back of operations and
                       might cause SEVERE file system damage and data
@@ -1196,7 +1243,7 @@
                     Click <span class="guibutton">Save</span> to save the file.
                     The application saves the details file.
                     </p></li></ol></div><p>
-              </p><div class="caution" title="Caution" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Caution</h3><p>
+              </p><div class="caution" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Caution</h3><p>
                 If you use <span class="application">gparted</span> from a Live CD, then
                 the root file system exists in RAM memory.  All files saved
                 to the Live CD root file system will be lost when you shut down
@@ -1213,13 +1260,13 @@
               The application rescans all the disk devices and refreshes the device
               partition layout in the <span class="application">gparted</span> window.
               </p></li></ol></div><p>
-        </p></div></div></div><div class="sect1" title="Acquiring GParted on Live CD"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-acquire-livecd"></a>Acquiring GParted on Live CD</h2></div></div></div><p>
+        </p></div></div></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-acquire-livecd"></a>Acquiring GParted on Live CD</h2></div></div></div><p>
     A Live CD is a Compact Disc that contains a bootable operating system.
     A Live CD enables you to boot your computer from the CD.
     </p><p>
     Using <span class="application">gparted</span> from a Live CD
     has the following advantages:
-      </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+      </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
           You can edit all of your partitions
           because the partitions are not mounted.
           </p></li><li class="listitem"><p>
@@ -1232,33 +1279,33 @@
     </p><p>
     You can download a Live CD image containing
     <span class="application">gparted</span> from the following web sites:
-      </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+      </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
           GParted Live CD
           <a class="ulink" href="http://gparted.org/livecd.php" target="_top">http://gparted.org/livecd.php</a>
           </p></li><li class="listitem"><p>
           System Rescue CD
           <a class="ulink" href="http://www.sysresccd.org" target="_top">http://www.sysresccd.org</a>
           </p></li></ul></div><p>
-    </p><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+    </p><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
       The GParted Live CD image can be written to a USB flash drive.
       </p><p>
       If your computer can boot from Universal Serial Bus (USB) then
       you might prefer to boot and use
       <span class="application">gparted</span> from a USB flash drive.
-      </p></div><div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
+      </p></div><div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3><p>
       To avoid wasting a blank CD when burning a CD image file,
       use the following tips:
-      </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+      </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
           Ensure the checksum of the downloaded file matches
           the checksum posted on the download page.
           </p></li><li class="listitem"><p>
           Be sure to burn the .iso file as an image to the blank CD.
           If you burn the .iso file as data to a blank CD then the
           CD will not boot in your computer.
-          </p></li></ul></div></div></div><div class="sect1" title="Fixing Operating System Boot Problems"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-fix-operating-system-boot-problems"></a>Fixing Operating System Boot Problems</h2></div></div></div><p>
+          </p></li></ul></div></div></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-fix-operating-system-boot-problems"></a>Fixing Operating System Boot Problems</h2></div></div></div><p>
     Your computer might fail to boot an operating system
     when you perform one of the following actions:
-      </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+      </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
           Delete a partition.
           </p></li><li class="listitem"><p>
           Move a partition.
@@ -1282,13 +1329,13 @@
     <a class="ulink" href="http://gparted.org/forum.php" target="_top">GParted forum</a>.
     You might also search the Internet to learn how other people have
     solved similar problems.
-    </p><div class="sect2" title="Fixing GRUB boot problem"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-fix-grub-boot-problem"></a>Fixing GRUB boot problem</h3></div></div></div><p>
+    </p><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="gparted-fix-grub-boot-problem"></a>Fixing GRUB boot problem</h3></div></div></div><p>
       The Grand Unified Boot loader (GRUB) is used by many GNU/Linux
       distributions.  To fix GRUB boot problems you start by
       determining which major version of GRUB was used.
       </p><p>
       There are two major versions of GRUB:
-        </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+        </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
             GRUB, also known as GRUB 2, covers versions 1.98 and
             higher.  GRUB 2 works with both GUID partition tables
             (GPT) and msdos partition tables.
@@ -1300,7 +1347,7 @@
       </p><p>
       GRUB 2 is used as the default boot loader in the following
       GNU/Linux distributions:
-        </p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+        </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>
             CentOS 7 and higher
             </p></li><li class="listitem"><p>
             Debian 6 (Squeeze) and higher
@@ -1314,7 +1361,7 @@
       </p><p>
       If you are unsure whether your computer uses GRUB 2 or GRUB
       Legacy, you might try searching for the answer on the Internet.
-      </p><div class="sect3" title="Restoring GRUB 2 Boot Loader"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-restore-grub-2"></a>Restoring GRUB 2 Boot Loader</h4></div></div></div><p>
+      </p><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-restore-grub-2"></a>Restoring GRUB 2 Boot Loader</h4></div></div></div><p>
         Use the following steps to restore the GRUB 2 boot loader:
           </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
               Boot from Live media such as GParted Live or your
@@ -1327,7 +1374,7 @@
               Look for a partition that contains your GNU/Linux / file
               system.  This Linux partition will likely use a file
               system such as ext2, ext3, ext4, or btrfs.
-              </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+              </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
                 If the / partition is on LVM then the Logical Volume
                 Manager must be active.  LVM can be started with the
                 command:
@@ -1337,7 +1384,7 @@
                 Logical Volume.  Logical Volumes can be listed with
                 the command:
                 </p><pre class="screen"><code class="prompt"># </code><span class="command"><strong>lvscan</strong></span></pre><p>
-                </p></div><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+                </p></div><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
                 If the / partition is on RAID, then the RAID must be
                 active.  Linux Software RAID can be started with the
                 command:
@@ -1356,7 +1403,7 @@
               /boot partition at /tmp/mydir/boot by entering (as
               root):
               </p><pre class="screen"><code class="prompt"># </code><span class="command"><strong>mount</strong></span> <em class="replaceable"><code>/dev/sda3</code></em> /tmp/mydir/boot</pre><p>
-              </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+              </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
                 If you do not know whether you have a separate boot
                 partition then you probably do not and can ignore this
                 step.
@@ -1388,13 +1435,13 @@
               </p></li><li class="listitem"><p>
               Reboot your computer.
               </p></li></ol></div><p>
-        </p></div><div class="sect3" title="Restoring GRUB Legacy Boot Loader"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-restore-grub-legacy"></a>Restoring GRUB Legacy Boot Loader</h4></div></div></div><p>
+        </p></div><div class="sect3"><div class="titlepage"><div><div><h4 class="title"><a name="gparted-restore-grub-legacy"></a>Restoring GRUB Legacy Boot Loader</h4></div></div></div><p>
         Use the following steps to restore the GRUB Legacy boot
         loader:
           </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>
               Boot from Live media such as your GNU/Linux distribution
               image.  Open a terminal window.
-              </p><div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+              </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
                 The Live media must contain the GRUB Legacy boot
                 loader.  If your GNU/Linux distribution uses GRUB
                 Legacy, then the distribution Live media will also
@@ -1423,12 +1470,18 @@
               </p></li><li class="listitem"><p>
               Set the <span class="application">grub</span> root device by
               specifying the device returned by the
-              <span class="command"><strong>find</strong></span> command.
+              <span class="command"><strong>find</strong></span> command.  This should be the
+              partition containing the boot directory.
               </p><pre class="screen"><code class="prompt">grub&gt; </code>root <em class="replaceable"><code>(hd0,0)</code></em></pre><p>
               </p></li><li class="listitem"><p>
-              Reinstall <span class="application">grub</span> by specifying
-              the device returned by the <span class="command"><strong>find</strong></span>
-              command.
+              Reinstall the <span class="application">grub</span> boot
+              loader into the Master Boot Record (MBR) with:
+              </p><pre class="screen"><code class="prompt">grub&gt; </code>setup <em class="replaceable"><code>(hd0)</code></em></pre><p>
+              </p><p>
+              If you want to install the
+              <span class="application">grub</span> boat loader into the
+              boot sector of a partition, instead specify a partition
+              with:
               </p><pre class="screen"><code class="prompt">grub&gt; </code>setup <em class="replaceable"><code>(hd0,0)</code></em></pre><p>
               </p></li><li class="listitem"><p>
               Exit <span class="application">grub</span>.
@@ -1436,7 +1489,7 @@
               </p></li><li class="listitem"><p>
               Reboot your computer.
               </p></li></ol></div><p>
-        </p></div></div></div><div class="sect1" title="Recovering Partition Tables"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-recover-partition-table"></a>Recovering Partition Tables</h2></div></div></div><p>
+        </p></div></div></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="gparted-recover-partition-table"></a>Recovering Partition Tables</h2></div></div></div><p>
     If you accidentally overwrite your partition table, there is a chance
     that you might be able to recover it.
     </p><p>
