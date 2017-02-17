@@ -1,8 +1,26 @@
+208
+17 February 2017
+GParted 0.28.1
+<br>
+This release of GParted restores the ability to move/resize primary
+partitions when an extended partition exists.  The move/resize
+regression was introduced in version 0.28.0.  This release also
+includes some minor bug fixes.
+<br>
+<br>
+Key changes include:
+<ul>
+<li>Restore ability to resize/move primary if extended exists</li>
+<li>Make the Label File System and Name Partition dialogs larger</li>
+</ul>
+See the <a href='https://sourceforge.net/projects/gparted/files/gparted/gparted-0.28.1/gparted-0.28.1-README.md/view'>Release Notes</a> for more details.
+<br><br>
+Curtis
+---
 207
 14 February 2017
 GParted 0.28.0
 <br>
-
 This release adds partial read-write support for LUKS encrypted file
 systems.  GParted can't create, open or close LUKS encryption volumes;
 however it can copy, resize and manipulate file systems inside open
