@@ -1,3 +1,59 @@
+209
+19 February 2017
+GParted Live 0.28.1-1 Stable Release
+<br>
+The GParted team is pleased to announce another stable release of
+GParted Live.<br>
+<br>
+This release includes GParted 0.28.1, patches for libparted for FAT
+file system operations, and other improvements.<br>
+<br>
+This release includes partial read-write support for LUKS encrypted
+file systems. GParted can't create, open or close LUKS encryption
+volumes; however it can copy, resize and manipulate file systems
+inside open LUKS volumes and move closed LUKS volumes. (Resizing
+requires Linux kernel >= 3.6 and libparted >= 3.2 for online partition
+resizing).<br>
+<br>
+<b>REMINDER:</b><br>
+You are strongly advised to backup your data before editing partitions
+as a failure can lead to data loss. This is especially true for
+encrypted data where all of the data can become permanently
+inaccessible after a failure. Please refer to the <a
+href="https://gitlab.com/cryptsetup/cryptsetup/wikis/FrequentlyAskedQuestions">Cryptsetup
+FAQ</a> for backup and recovery advice of encrypted data.<br>
+<br>
+Items of note include:<br>
+<ul>
+<li>Includes GParted 0.28.1 which adds the following enhancements
+  since the last stable release:
+  <ul>
+  <li>Implement LUKS read-write actions NOT requiring a passphrase</li>
+  <li>Add detection of iso9660 file system</li>
+  <li>Make the Label File System and Name Partition dialogs larger</li>
+  </ul>
+</li>
+<li>Based on the Debian Sid repository (as of 2017/Feb/18)</li>
+<li>Linux kernel updated to 4.9.6-3</li>
+<li>Includes patched version of libparted which fixes:
+  <ul>
+  <li>check FAT32 crashes (<a
+    href="https://bugzilla.gnome.org/show_bug.cgi?id=762448">bug
+    762448</a>)
+  </li>
+  <li>resized FAT32 not recognized by Windows (<a
+    href="https://bugzilla.gnome.org/show_bug.cgi?id=759916">bug
+    759916</a>)
+  </li>
+  </ul>
+</li>
+</ul>
+This release of GParted Live has been successfully tested on
+VirtualBox, VMware, BIOS, UEFI, and physical computers with AMD/ATI,
+NVidia, and Intel graphics.<br>
+<br>
+Curtis
+---
 208
 17 February 2017
 GParted 0.28.1
