@@ -6,6 +6,63 @@
 <meta name="generator" content="HTML::TextToHTML v2.51"/>
 </head>
 <body>
+<p>GParted live 0.28.1-1
+</p>
+<ul>
+  <li>The underlying GNU/Linux operating system was upgraded. 
+   This release is based on the Debian Sid repository (as of 2017/Feb/18).
+  </li><li>Linux kernel was updated to 4.9.6-3.
+  </li><li>New upstream GParted 0.28.1. It's compiled with options
+   --disable-libparted-dmraid --disable-doc, and the patched parted to
+   address these 2 issues:
+  <ol>
+    <li>fat(32) resizing generates boot sector(s) with
+   invalid jump instruction and pseudo-random boot code
+   <a href="https://bugzilla.gnome.org/show_bug.cgi?id=759916">https://bugzilla.gnome.org/show_bug.cgi?id=759916</a>
+    </li><li>Check FAT32 fs crashes GParted
+   <a href="https://bugzilla.gnome.org/show_bug.cgi?id=762448">https://bugzilla.gnome.org/show_bug.cgi?id=762448</a>
+  </li></ol>
+</li></ul>
+<p> -- Steven Shiau &lt;steven <u>at</u> stevenshiau org&gt;  Sat, 18 Feb 2017 15:56:00 +0800
+</p>
+<p>GParted live 0.28.0-1
+</p>
+<ul>
+  <li>The underlying GNU/Linux operating system was upgraded. 
+   This release is based on the Debian Sid repository (as of 2017/Feb/15).
+  </li><li>Linux kernel was updated to 4.9.6-3.
+  </li><li>New upstream GParted 0.28.0. It's compiled with options
+   --disable-libparted-dmraid --disable-doc, and the patched parted to
+   address these 2 issues:
+  <ol>
+    <li>fat(32) resizing generates boot sector(s) with
+   invalid jump instruction and pseudo-random boot code
+   <a href="https://bugzilla.gnome.org/show_bug.cgi?id=759916">https://bugzilla.gnome.org/show_bug.cgi?id=759916</a>
+    </li><li>Check FAT32 fs crashes GParted
+   <a href="https://bugzilla.gnome.org/show_bug.cgi?id=762448">https://bugzilla.gnome.org/show_bug.cgi?id=762448</a>
+  </li></ol>
+</li></ul>
+<p> -- Steven Shiau &lt;steven <u>at</u> stevenshiau org&gt;  Wed, 15 Feb 2017 09:18:00 +0800
+</p>
+<p>GParted live 0.28.0-beta1-1
+</p>
+<ul>
+  <li>The underlying GNU/Linux operating system was upgraded. 
+   This release is based on the Debian Sid repository (as of 2017/Feb/13).
+  </li><li>Linux kernel was updated to 4.9.6-3.
+  </li><li>New upstream GParted 0.28.0-beta1. It's compiled with options
+   --disable-libparted-dmraid --disable-doc, and the patched parted to
+   address these 2 issues:
+  <ol>
+    <li>fat(32) resizing generates boot sector(s) with
+   invalid jump instruction and pseudo-random boot code
+   <a href="https://bugzilla.gnome.org/show_bug.cgi?id=759916">https://bugzilla.gnome.org/show_bug.cgi?id=759916</a>
+    </li><li>Check FAT32 fs crashes GParted
+   <a href="https://bugzilla.gnome.org/show_bug.cgi?id=762448">https://bugzilla.gnome.org/show_bug.cgi?id=762448</a>
+  </li></ol>
+</li></ul>
+<p> -- Steven Shiau &lt;steven <u>at</u> nchc org tw&gt;  Mon, 13 Feb 2017 14:45:00 +0800
+</p>
 <p>GParted live 0.27.0-1
 </p>
 <ul>

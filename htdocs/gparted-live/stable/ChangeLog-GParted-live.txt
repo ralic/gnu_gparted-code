@@ -1,3 +1,51 @@
+GParted live 0.28.1-1
+
+ * The underlying GNU/Linux operating system was upgraded. 
+   This release is based on the Debian Sid repository (as of 2017/Feb/18).
+ * Linux kernel was updated to 4.9.6-3.
+ * New upstream GParted 0.28.1. It's compiled with options
+   --disable-libparted-dmraid --disable-doc, and the patched parted to
+   address these 2 issues:
+   1. fat(32) resizing generates boot sector(s) with
+   invalid jump instruction and pseudo-random boot code
+   https://bugzilla.gnome.org/show_bug.cgi?id=759916
+   2. Check FAT32 fs crashes GParted
+   https://bugzilla.gnome.org/show_bug.cgi?id=762448
+
+ -- Steven Shiau <steven _at_ stevenshiau org>  Sat, 18 Feb 2017 15:56:00 +0800
+
+GParted live 0.28.0-1
+
+ * The underlying GNU/Linux operating system was upgraded. 
+   This release is based on the Debian Sid repository (as of 2017/Feb/15).
+ * Linux kernel was updated to 4.9.6-3.
+ * New upstream GParted 0.28.0. It's compiled with options
+   --disable-libparted-dmraid --disable-doc, and the patched parted to
+   address these 2 issues:
+   1. fat(32) resizing generates boot sector(s) with
+   invalid jump instruction and pseudo-random boot code
+   https://bugzilla.gnome.org/show_bug.cgi?id=759916
+   2. Check FAT32 fs crashes GParted
+   https://bugzilla.gnome.org/show_bug.cgi?id=762448
+
+ -- Steven Shiau <steven _at_ stevenshiau org>  Wed, 15 Feb 2017 09:18:00 +0800
+
+GParted live 0.28.0-beta1-1
+
+ * The underlying GNU/Linux operating system was upgraded. 
+   This release is based on the Debian Sid repository (as of 2017/Feb/13).
+ * Linux kernel was updated to 4.9.6-3.
+ * New upstream GParted 0.28.0-beta1. It's compiled with options
+   --disable-libparted-dmraid --disable-doc, and the patched parted to
+   address these 2 issues:
+   1. fat(32) resizing generates boot sector(s) with
+   invalid jump instruction and pseudo-random boot code
+   https://bugzilla.gnome.org/show_bug.cgi?id=759916
+   2. Check FAT32 fs crashes GParted
+   https://bugzilla.gnome.org/show_bug.cgi?id=762448
+
+ -- Steven Shiau <steven _at_ nchc org tw>  Mon, 13 Feb 2017 14:45:00 +0800
+
 GParted live 0.27.0-1
 
  * The underlying GNU/Linux operating system was upgraded. 
