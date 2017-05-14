@@ -112,7 +112,7 @@ Doing so could cause your MS windows not to boot!!!
     flash drive's top directory (e.g. G:\GPL).
   </li>
   <li class="step">
-    Browse to your USB flash drive and <font color=red>as an administrator</a>
+    Browse to your USB flash drive and <font color=red>as an administrator</font>
     (On the USB flash key, create a shortcut to the makeboot.bat file.
     Then right-clic on the shortcut, Properties, Advanced and check
     "Run as administrator".), click the makeboot.bat in the dir
