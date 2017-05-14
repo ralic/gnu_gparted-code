@@ -18,15 +18,15 @@ gnome_menu();
 <div class="content">
 <H1>Add packages in GParted live</H1>
 <p>
-<b>GParted Live</b> is a small bootable GNU/Linux distribution for x86 machine based on Debian live. If you want to add packages in GParted live, you can follow the following:<br>
+<b>GParted Live</b> is a small bootable GNU/Linux distribution for x86 machine based on Debian live. If you want to add packages in GParted live, you can follow this:<br>
  <font color="red">//NOTE// Due to the changes in Debian Sid repository are very frequent, the following method might need to be adjusted according to the changes.</font>
 <br>
 <ol>
-  <li>You need a GNU/Linux system as a working environment to do this. Here we use Debian Jessie as the working environment. First we need to install squashfs-tools:
+  <li>You need a GNU/Linux system as a working environment to do this. Here we use Debian Jessie as the working environment. First we need to install squashfs-tools if it's not installed:
   <pre>
   $ sudo apt-get update; sudo apt-get install squashfs-tools
   </pre>
-  <li class="step">Download the GParted live zip format file which you intend to add packages, e.g., GParted live version <a href="http://downloads.sourceforge.net/gparted/gparted-live-0.28.1-1-i686-pae.zip" target=_blank>0.28.1-1</a>, then uncompress it and extract the original filesystem.squashfs</li>
+  <li class="step">Download the GParted live zip format file which you intend to add packages, e.g., GParted live version <a href="http://downloads.sourceforge.net/gparted/gparted-live-0.28.1-1-i686-pae.zip" target=_blank>0.28.1-1</a>, then uncompress it and extract the filesystem.squashfs</li>
   <pre>
   $ mkdir ~/zip-tmp ~/squashfs-tmp
   $ unzip gparted-live-0.28.1-1-i686-pae.zip -d ~/zip-tmp
@@ -52,6 +52,7 @@ gnome_menu();
   $ cd ~/zip-tmp ; sudo zip -r ../gparted-live.new.zip ./*
   </pre>
   Now you have gparted-live.new.zip with firefox-esr included.
+  <br>
   <li>If you want to convert zip file to iso file, you can make it by:
   <pre>
   $ cd ~/zip-tmp/
