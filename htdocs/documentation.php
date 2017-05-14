@@ -77,6 +77,11 @@ gnome_menu();
       <td> </td>
     </tr>
     <tr>
+      <td><a href="add-packages-in-gparted-live.php">Add Packages in
+        GParted Live</a></td>
+      <td> </td>
+    </tr>
+    <tr>
       <td>
         <a href="create-gparted-live.php">Create GParted Live from Scratch</a>
       </td>
