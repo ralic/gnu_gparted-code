@@ -65,6 +65,7 @@ For other installations, please refer to the following documents:<br>
 <a href="liveusb.php">GParted Live on USB</a><br>
 <a href="livepxe.php">GParted Live on PXE server</a><br>
 <a href="livehd.php">GParted Live on Hard Disk</a><br>
+<a href="add-packages-in-gparted-live.php">Add packages in GParted Live</a><br>
 <a href="create-gparted-live.php">Create your own custom GParted Live
 from scratch</a><br>
 </p>
