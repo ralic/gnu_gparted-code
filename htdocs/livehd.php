@@ -108,13 +108,13 @@ steps:
         Alternatively from GParted live version 0.4.8-7 onwards, you
         can use only the GParted live iso file in grub2 (Thanks to the
         patches files from <a href="http://grml.org">grml</a>). For
-        example, put gparted-live-0.5.2-9.iso in dir /home/isos/, then
+        example, put gparted-live-0.28.1-1-i686.iso in dir /home/isos/, then
         make the grub2 custom file /etc/grub.d/40_custom like:
         <pre>
     menuentry "Gparted live" {
-      set isofile="/home/isos/gparted-live-0.5.2-9.iso"
+      set isofile="/home/isos/gparted-live-0.28.1-1-i686.iso"
       loopback loop $isofile
-      linux (loop)/live/vmlinuz boot=live config union=overlay noswap noprompt vga=788 ip=frommedia toram=filesystem.squashfs findiso=$isofile
+      linux (loop)/live/vmlinuz boot=live config union=overlay username=user components noswap noeject vga=788 ip= net.ifnames=0 toram=filesystem.squashfs findiso=$isofile
       initrd (loop)/live/initrd.img
     }
         </pre>
@@ -125,12 +125,12 @@ steps:
         If your grub is grub4dos, edit your grub config file
         menu.lst, and append the following:
         <pre>
-    title gparted 11.0 live
-    find --set-root /gparted-live-0.11.0-10.iso
-    map /gparted-live-0.11.0-10.iso (0xff) || map --mem /gparted-live-0.11.0-10.iso (0xff)
+    title gparted 28.1 live
+    find --set-root /gparted-live-0.28.1-1-i686.iso
+    map /gparted-live-0.28.1-1-i686.iso (0xff) || map --mem /gparted-live-0.28.1-1-i686.iso (0xff)
     map --hook
     root (0xff)
-    kernel /live/vmlinuz  boot=live config union=overlay noswap noprompt vga=788 ip=frommedia findiso=/gparted-live-0.11.0-10.iso toram=filesystem.squashfs
+    kernel /live/vmlinuz  boot=live union=overlay username=user components noeject vga=788 ip= findiso=/gparted-live-0.28.1-1-i686.iso toram=filesystem.squashfs
     initrd /live/initrd.img
         </pre>
         (Thanks to Frank Breitling for pointing out this sample menu entry.
@@ -194,7 +194,7 @@ image on a hard disk drive using the LILO boot loader.
     image  = /gparted-live/live/vmlinuz
     root   = /dev/<b><i>sda4</i></b>  <i># make sure this matches the bootfrom= below ...</i>
     label  = gparted
-    append = "boot=live config union=overlay noswap noprompt ip=frommedia live-media-path=/gparted-live/live bootfrom=/dev/sda4 toram=filesystem.squashfs" vga=788
+    append = "boot=live config union=overlay username=user components noswap noeject ip= live-media-path=/gparted-live/live bootfrom=/dev/sda4 toram=filesystem.squashfs" vga=788
     initrd = /gparted-live/live/initrd.img
 
     <i># GParted bootable partition config ends</i>
